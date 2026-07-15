@@ -1,0 +1,728 @@
+{
+  "generated_at": "2026-07-15T07:14:45.339484+00:00",
+  "summary": {
+    "total_files": 2,
+    "analysed": 2,
+    "files_with_structured_report": 2
+  },
+  "files": [
+    {
+      "url": "https://mon-grand-est.fr/wp-content/uploads/2020/12/Noel-Ebook-Colmar-by-French-Moments.pdf",
+      "filename": "Noel-Ebook-Colmar-by-French-Moments.pdf",
+      "site": "mon-grand-est.fr",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 0,
+          "Passed": 15,
+          "Warning": 0,
+          "Failed": 5
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Failed",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Failed",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "Noel-Ebook-Colmar-by-French-Moments.pdf",
+          "Site": "mon-grand-est.fr",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": false,
+          "Date": "2020-12-18 15:45:44+00:00",
+          "Pages": 32,
+          "PDFVersion": "1.3",
+          "Creator": null,
+          "Producer": null,
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 10,
+          "Passed": 15,
+          "Warning": 0,
+          "Failed": 5
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Failed",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Failed",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Skipped",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Skipped",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Skipped",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "Noel-Ebook-Colmar-by-French-Moments.pdf",
+          "Site": "mon-grand-est.fr",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": false,
+          "Date": "2020-12-18 15:45:44+00:00",
+          "Pages": 32,
+          "PDFVersion": "1.3",
+          "Creator": null,
+          "Producer": null,
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    },
+    {
+      "url": "https://www.visitmonaco.com",
+      "filename": "doc-73423665.pdf",
+      "site": "mon-grand-est.fr",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 12,
+          "Passed": 8,
+          "Warning": 0,
+          "Failed": 1
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Open PDF",
+              "Status": "Failed",
+              "Description": "Document can be opened and read"
+            },
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Skipped",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Skipped",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Skipped",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Skipped",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Skipped",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Skipped",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Skipped",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Skipped",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Skipped",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Skipped",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Skipped",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Skipped",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "doc-73423665.pdf",
+          "Site": "mon-grand-est.fr",
+          "Accessible": null,
+          "TotallyInaccessible": false,
+          "BrokenFile": true,
+          "Exempt": false,
+          "Date": null,
+          "Pages": null,
+          "PDFVersion": null,
+          "Creator": null,
+          "Producer": null,
+          "hasXmp": null,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 22,
+          "Passed": 8,
+          "Warning": 0,
+          "Failed": 1
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Open PDF",
+              "Status": "Failed",
+              "Description": "Document can be opened and read"
+            },
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Skipped",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Skipped",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Skipped",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Skipped",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Skipped",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Skipped",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Skipped",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Skipped",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Skipped",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Skipped",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Skipped",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Skipped",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Skipped",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Skipped",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Skipped",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "doc-73423665.pdf",
+          "Site": "mon-grand-est.fr",
+          "Accessible": null,
+          "TotallyInaccessible": false,
+          "BrokenFile": true,
+          "Exempt": false,
+          "Date": null,
+          "Pages": null,
+          "PDFVersion": null,
+          "Creator": null,
+          "Producer": null,
+          "hasXmp": null,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    }
+  ]
+}
