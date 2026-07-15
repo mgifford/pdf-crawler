@@ -25,47 +25,7 @@
     "crawl_url": "https://www.cc-coeurdegaronne.fr",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29432479008",
     "issue_url": "",
-    "archive_file": "2026-07-15_17-10-13-367_cc-coeurdegaronne.fr.html",
-    "total": 562,
-    "analysed": 89,
-    "accessible": 0,
-    "analysis_engines": [
-      "bloom",
-      "original"
-    ],
-    "verapdf": false,
-    "vp_checked_files": 0,
-    "vp_pass_files": 0,
-    "vp_fail_files": 0,
-    "vp_error_files": 0
-  },
-  {
-    "date": "2026-07-15T16:26:34.823510+00:00",
-    "site": "cc-coeurdegaronne.fr",
-    "crawl_url": "https://www.cc-coeurdegaronne.fr",
-    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29429351892",
-    "issue_url": "",
-    "archive_file": "2026-07-15_17-09-34-188_hud.gov.html",
-    "total": 4230,
-    "analysed": 0,
-    "accessible": 0,
-    "analysis_engines": [
-      "bloom",
-      "original"
-    ],
-    "verapdf": false,
-    "vp_checked_files": 0,
-    "vp_pass_files": 0,
-    "vp_fail_files": 0,
-    "vp_error_files": 0
-  },
-  {
-    "date": "2026-07-15T16:26:34.823510+00:00",
-    "site": "cc-coeurdegaronne.fr",
-    "crawl_url": "https://www.cc-coeurdegaronne.fr",
-    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29429351892",
-    "issue_url": "",
-    "archive_file": "2026-07-15_17-06-12-218_pa.gov.html",
+    "archive_file": "2026-07-15_17-49-42-706_pa.gov.html",
     "total": 736,
     "analysed": 272,
     "accessible": 54,
@@ -79,10 +39,30 @@
     "vp_error_files": 0
   },
   {
-    "date": "2026-07-15T16:22:24.316118+00:00",
+    "date": "2026-07-15T17:06:12.218687+00:00",
     "site": "pa.gov",
     "crawl_url": "https://www.pa.gov/",
-    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29429032953",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29432178110",
+    "issue_url": "",
+    "archive_file": "2026-07-15_17-38-50-501_energy.gov.html",
+    "total": 4642,
+    "analysed": 729,
+    "accessible": 197,
+    "analysis_engines": [
+      "bloom",
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
+    "date": "2026-07-15T16:54:58.464870+00:00",
+    "site": "energy.gov",
+    "crawl_url": "https://www.energy.gov",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29431401911",
     "issue_url": "",
     "archive_file": "2026-07-15_16-54-58-464_energy.gov.html",
     "total": 4642,
