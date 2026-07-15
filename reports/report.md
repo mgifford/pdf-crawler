@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-15T16:26:34.823510+00:00
+Generated: 2026-07-15T17:10:13.367599+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
 | Total files tracked | 29630 |
-| Analysed | 6320 |
-| Pending analysis | 16703 |
-| Errors during analysis | 6607 |
-| Accessible | 2008 |
-| Issues found | 4312 |
+| Analysed | 6327 |
+| Pending analysis | 16697 |
+| Errors during analysis | 6606 |
+| Accessible | 2007 |
+| Issues found | 4320 |
 | Totally inaccessible subset | 263 |
-| Broken / unreadable | 29 |
-| Exempt (pre-2018) | 1529 |
+| Broken / unreadable | 32 |
+| Exempt (pre-2018) | 1502 |
 
 ## Files per Site
 
@@ -869,7 +869,7 @@ Generated: 2026-07-15T16:26:34.823510+00:00
 | [biodieselinterim.pdf](https://epact.energy.gov/pdfs/biodieselinterim.pdf) | energy.gov | 2008-03-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 7 | — | — | — |
 | [bk28423.pdf?sfvrsn=705e04e2_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/bk28423.pdf?sfvrsn=705e04e2_1) | energy.gov | 2000-04-26 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 42 | — | — | — |
 | [brochure.pdf?sfvrsn=fd9d95e0_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/brochure.pdf?sfvrsn=fd9d95e0_1) | energy.gov | 2000-06-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 8 | — | — | — |
-| [bto-ghg-metrics-011525.pdf](https://www.energy.gov/sites/default/files/2025-01/bto-ghg-metrics-011525.pdf) | energy.gov | 2025-01-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 23 | 762.3 KB | — | — |
+| [bto-ghg-metrics-011525.pdf](https://www.energy.gov/sites/default/files/2025-01/bto-ghg-metrics-011525.pdf) | energy.gov | 2025-01-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 23 | 762.3 KB | — | — |
 | [business-card.pdf](https://epact.energy.gov/pdfs/business-card.pdf) | energy.gov | 2016-07-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — | — |
 | [clean_cities_and_communities_partnership_2023_activity_report.pdf](https://afdc.energy.gov/files/u/publication/clean_cities_and_communities_partnership_2023_activity_report.pdf) | energy.gov | 2025-01-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 44 | — | — | — |
 | [clean_cities_coalitions_overview.pdf](https://afdc.energy.gov/files/u/publication/clean_cities_coalitions_overview.pdf) | energy.gov | 2025-02-11 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
@@ -4077,6 +4077,7 @@ Generated: 2026-07-15T16:26:34.823510+00:00
 | [DOE%20USMDL%20Final%20240606%20%28compliant%29_0.pdf](https://www.energy.gov/sites/default/files/2025-02/DOE%20USMDL%20Final%20240606%20%28compliant%29_0.pdf) | energy.gov | 2025-02-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | Warn | NotApplicable | ❌ Fail | 1 | — | — | — |
 | [MSIPP%20FY2022%20%20Impact_2.pdf](https://www.energy.gov/sites/default/files/2023-06/MSIPP%20FY2022%20%20Impact_2.pdf) | energy.gov | 2023-04-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 923 | 3 |
 | [Open-Government-Plan-4.0-Final.pdf](https://www.energy.gov/sites/default/files/2016/10/f33/Open-Government-Plan-4.0-Final.pdf) | energy.gov | 2016-10-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 22 | 1.1 MB | — | — |
+| [Organization-Chart-11.20.2025-2.pdf](https://www.energy.gov/sites/default/files/2025-11/Organization-Chart-11.20.2025-2.pdf) | energy.gov | 2025-11-19 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 105.3 KB | — | — |
 | [PIA%20Guide%20Aug%202023_0.pdf](https://www.energy.gov/sites/default/files/2023-08/PIA%20Guide%20Aug%202023_0.pdf) | energy.gov | 2023-08-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 37 | — | — | — |
 | [applying-msipp-grants.pdf](https://www.energy.gov/nnsa/articles/applying-msipp-grants) | energy.gov | 2023-03-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | 2436 | 1 |
 | [centralia-order-no-202-26-18.pdf](https://www.energy.gov/documents/centralia-order-no-202-26-18) | energy.gov | — | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | — | 2703 | 1 |
@@ -4120,7 +4121,7 @@ Generated: 2026-07-15T16:26:34.823510+00:00
 | [Order%20No.%20202-25-10.pdf](https://www.energy.gov/sites/default/files/2025-11/Order%20No.%20202-25-10.pdf) | energy.gov | 2025-11-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | 3557 | 2 |
 | [Report%20to%20Congress%20on%20Recovery%20of%20Rare%20Earth%20Elements%20and%20Critical%20Minerals%20from%20Coal%20and%20Coal%20By-Products.pdf](https://www.energy.gov/sites/default/files/2022-05/Report%20to%20Congress%20on%20Recovery%20of%20Rare%20Earth%20Elements%20and%20Critical%20Minerals%20from%20Coal%20and%20Coal%20By-Products.pdf) | energy.gov | 2022-05-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 86 | — | 22399 | 16 |
 | [Supply%20Chain%20Progress%20Report%20-%20August%202023.pdf](https://www.energy.gov/sites/default/files/2023-08/Supply%20Chain%20Progress%20Report%20-%20August%202023.pdf) | energy.gov | 2023-08-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 38 | — | 10577 | 45 |
-| [Tips_for_a_Strong_FOA_App_FINAL_.pdf](https://www.energy.gov/sites/default/files/2024-03/Tips_for_a_Strong_FOA_App_FINAL_.pdf) | energy.gov | 2024-03-01 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 73 | 1.4 MB | 6987 | 203 |
+| [Tips_for_a_Strong_FOA_App_FINAL_.pdf](https://www.energy.gov/sites/default/files/2024-03/Tips_for_a_Strong_FOA_App_FINAL_.pdf) | energy.gov | 2024-03-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 73 | 1.4 MB | — | — |
 | [U.S.%20Hydropower%20Market%20Report%202023%20Edition.pdf](https://www.energy.gov/sites/default/files/2023-09/U.S.%20Hydropower%20Market%20Report%202023%20Edition.pdf) | energy.gov | 2023-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 138 | — | 58518 | 21 |
 | [Water%20Security%20Workshop%20Summary_0.pdf](https://www.energy.gov/sites/prod/files/2019/07/f64/Water%20Security%20Workshop%20Summary_0.pdf) | energy.gov | 2019-07-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 46 | — | 18351 | 8 |
 | [ZEDD-Application-Instructions-opt.pdf](https://www.energy.gov/sites/default/files/2022-05/ZEDD-Application-Instructions-opt.pdf) | energy.gov | 2022-05-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1086 | 2 |
@@ -5076,6 +5077,7 @@ Generated: 2026-07-15T16:26:34.823510+00:00
 | [OEA_WashingtonDC.pdf](https://www.energy.gov/sites/default/files/2026-03/OEA_WashingtonDC.pdf) | energy.gov | 2026-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — | — |
 | [OMEI_WashingtonDC.pdf](https://www.energy.gov/sites/default/files/2026-03/OMEI_WashingtonDC.pdf) | energy.gov | 2026-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — | — |
 | [WAPA_Posting_Notice.pdf](https://www.energy.gov/sites/default/files/2026-03/WAPA_Posting_Notice.pdf) | energy.gov | 2026-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 192.2 KB | — | — |
+| [bto-peer-2023-25204-seed-nrel-longpdf.pdf](https://www.energy.gov/documents/bto-peer-2023-25204-seed-nrel-longpdf) | energy.gov | 2023-05-30 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 22 | 8.2 MB | — | — |
 | [doe-national-labs-report-finalpdf.pdf](https://www.energy.gov/documents/doe-national-labs-report-finalpdf) | energy.gov | 2021-01-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 96 | — | 38681 | 144 |
 | [h2iq-hour-10282021.pdf](https://www.energy.gov/sites/default/files/2021-11/h2iq-hour-10282021.pdf) | energy.gov | 2021-11-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 25 | — | 1768 | 212 |
 | [nuclear-power-summary.pdf](https://www.energy.gov/ne/articles/nuclear-power-summary) | energy.gov | 2017-08-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 8 | — | 2283 | 14 |
@@ -5095,7 +5097,7 @@ Generated: 2026-07-15T16:26:34.823510+00:00
 | [Campbell%20Order%20Addressing%20Arguments%20Raised%20on%20Rehearing.pdf](https://www.energy.gov/sites/default/files/2025-09/Campbell%20Order%20Addressing%20Arguments%20Raised%20on%20Rehearing.pdf) | energy.gov | 2025-09-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 24 | — | 9630 | 76 |
 | [Correction%20Needed%20to%20VGCP.pdf](https://www.energy.gov/sites/default/files/2022-01/Correction%20Needed%20to%20VGCP.pdf) | energy.gov | 2022-01-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 576 | 0 |
 | [DE-AI30-08CC60036_Attachment_1.pdf](https://www.energy.gov/sites/default/files/2023-09/DE-AI30-08CC60036_Attachment_1.pdf) | energy.gov | — | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 0 | 6 |
-| [DOE%20Efficient%20New%20Homes%20MH%20Certification%20Reporting%20and%20Enforcement%20Guide%20V1%20Rev%201%20Clean.pdf](https://www.energy.gov/sites/default/files/2025-10/DOE%20Efficient%20New%20Homes%20MH%20Certification%20Reporting%20and%20Enforcement%20Guide%20V1%20Rev%201%20Clean.pdf) | energy.gov | 2025-10-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | 230.5 KB | 4402 | 12 |
+| [DOE%20Efficient%20New%20Homes%20MH%20Certification%20Reporting%20and%20Enforcement%20Guide%20V1%20Rev%201%20Clean.pdf](https://www.energy.gov/sites/default/files/2025-10/DOE%20Efficient%20New%20Homes%20MH%20Certification%20Reporting%20and%20Enforcement%20Guide%20V1%20Rev%201%20Clean.pdf) | energy.gov | 2025-10-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 12 | 230.5 KB | — | — |
 | [DOE%20ZERH%20MH%20V1%20National%20Program%20Requirements.pdf](https://www.energy.gov/sites/default/files/2022-12/DOE%20ZERH%20MH%20V1%20National%20Program%20Requirements.pdf) | energy.gov | 2022-12-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 13 | — | 4768 | 13 |
 | [Distributed%20Wind%20Competitiveness%20Project%20Fact%20Sheet%20FY19_1.pdf](https://www.energy.gov/sites/prod/files/2019/02/f60/Distributed%20Wind%20Competitiveness%20Project%20Fact%20Sheet%20FY19_1.pdf) | energy.gov | 2019-02-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 579 | 3 |
 | [EM%20SSAB%20Charter%202024.pdf](https://www.energy.gov/sites/default/files/2024-04/EM%20SSAB%20Charter%202024.pdf) | energy.gov | 2024-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 910 | 1 |
@@ -5120,7 +5122,7 @@ Generated: 2026-07-15T16:26:34.823510+00:00
 | [UC%20Davis%20Giant%20Kelp%20Team.pdf](https://www.energy.gov/sites/default/files/2022-04/UC%20Davis%20Giant%20Kelp%20Team.pdf) | energy.gov | 2022-04-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 551 | 2 |
 | [USA-Qatar-Joint-Letter.pdf](https://www.energy.gov/sites/default/files/2025-10/USA-Qatar-Joint-Letter.pdf) | energy.gov | 2025-10-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 163 | 6 |
 | [USGS%20and%20DOE%20FECM_Memorandum%20of%20Understanding_January%202025.pdf](https://www.energy.gov/sites/default/files/2025-01/USGS%20and%20DOE%20FECM_Memorandum%20of%20Understanding_January%202025.pdf) | energy.gov | 2025-01-14 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | — | 2137 | 1 |
-| [VTO_FOA_Info_Session_Part_2_Budget.pdf](https://www.energy.gov/sites/default/files/2023-06/VTO_FOA_Info_Session_Part_2_Budget.pdf) | energy.gov | 2023-06-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 15 | 1.8 MB | 1679 | 57 |
+| [VTO_FOA_Info_Session_Part_2_Budget.pdf](https://www.energy.gov/sites/default/files/2023-06/VTO_FOA_Info_Session_Part_2_Budget.pdf) | energy.gov | 2023-06-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 15 | 1.8 MB | — | — |
 | [advancing-and-commercializing-hybrid-laser-arc-welding-hlaw-nuclear-vessel-fabrication.pdf](https://www.energy.gov/ne/articles/advancing-and-commercializing-hybrid-laser-arc-welding-hlaw-nuclear-vessel-fabrication) | energy.gov | 2018-04-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | 843 | 12 |
 | [antares_project_abstract.pdf](https://www.energy.gov/sites/prod/files/2014/03/f14/antares_project_abstract.pdf) | energy.gov | 2012-12-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 372 | 0 |
 | [appendix-e-coverpdf.pdf](https://www.energy.gov/documents/appendix-e-coverpdf) | energy.gov | 2016-12-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | 8 | 0 |
@@ -6022,6 +6024,9 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [2026-04-ceq-guidance-categorical-exclusions.pdf](https://www.energy.gov/sites/default/files/2026-04/2026-04-ceq-guidance-categorical-exclusions.pdf) | energy.gov | 2026-04-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 9 | — | — | — |
 | [2026-06-withdrawal%20of-guidance-documents.pdf](https://www.energy.gov/sites/default/files/2026-06/2026-06-withdrawal%20of-guidance-documents.pdf) | energy.gov | 2026-06-27 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | — | — | — |
 | [258%20-%20Order%20on%20Motion%20for%20Contempt.pdf](https://www.energy.gov/sites/default/files/2025-03/258%20-%20Order%20on%20Motion%20for%20Contempt.pdf) | energy.gov | 2025-03-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 269.0 KB | — | — |
+| [47870.pdf](https://docs.nlr.gov/docs/fy10osti/47870.pdf) | energy.gov *(ext: docs.nlr.gov)* | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | 45.4 KB | — | — |
+| [51387.pdf](https://docs.nlr.gov/docs/fy12osti/51387.pdf) | energy.gov *(ext: docs.nlr.gov)* | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | 46.6 KB | — | — |
+| [78495.pdf](https://docs.nlr.gov/docs/fy21osti/78495.pdf) | energy.gov *(ext: docs.nlr.gov)* | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | 43.9 KB | — | — |
 | [BERAC-2017-Grand-Challenges-Report.pdf](https://science.osti.gov/~/media/ber/berac/pdf/Reports/BERAC-2017-Grand-Challenges-Report.pdf) | energy.gov *(ext: science.osti.gov)* | 2017-12-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 160 | — | — | — |
 | [BILLS-111s612is.pdf](https://www.govinfo.gov/content/pkg/BILLS-111s612is/pdf/BILLS-111s612is.pdf) | energy.gov *(ext: govinfo.gov)* | 2023-01-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 109.4 KB | — | — |
 | [BSSD_Strategic_Plan_2021_HR.pdf](https://science.osti.gov/-/media/ber/pdf/bssd/BSSD_Strategic_Plan_2021_HR.pdf) | energy.gov *(ext: science.osti.gov)* | 2021-05-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 40 | — | — | — |
@@ -6036,6 +6041,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [DOE-OIG-26-12.pdf](https://www.energy.gov/sites/default/files/2026-02/DOE-OIG-26-12.pdf) | energy.gov | 2026-02-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 12 | — | — | — |
 | [DOE-OIG-26-13.pdf](https://www.energy.gov/sites/default/files/2026-04/DOE-OIG-26-13.pdf) | energy.gov | 2026-04-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 8 | — | — | — |
 | [DOE-OIG-26-14.pdf](https://www.energy.gov/sites/default/files/2026-02/DOE-OIG-26-14.pdf) | energy.gov | 2026-02-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 5 | — | — | — |
+| [FRICK%20ZEB%202022%20FINAL%20May%20update_compliant.pdf](https://www.energy.gov/sites/default/files/2022-05/FRICK%20ZEB%202022%20FINAL%20May%20update_compliant.pdf) | energy.gov | 2022-05-13 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 22 | 5.7 MB | — | — |
 | [M-19-15.pdf](https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-15.pdf) | energy.gov *(ext: whitehouse.gov)* | 2019-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 11 | 991.1 KB | — | — |
 | [Washington%20v.%20Trump%20-%20notice%20of%20court%20order%20-%20PI%20clarification%20-%2003-20-25.pdf](https://www.energy.gov/sites/default/files/2025-03/Washington%20v.%20Trump%20-%20notice%20of%20court%20order%20-%20PI%20clarification%20-%2003-20-25.pdf) | energy.gov | 2025-03-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 3 | 187.8 KB | — | — |
 | [amendment-s2488.pdf](https://www.justice.gov/sites/default/files/oip/legacy/2014/07/23/amendment-s2488.pdf) | energy.gov *(ext: justice.gov)* | 2008-02-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | ✅ Pass | 19 | 387.9 KB | — | — |
@@ -53889,6 +53895,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/energy.gov/OralHistoryProject_JacqelineYoung_Transcript.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.652289+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
+### Organization-Chart-11.20.2025-2.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-11/Organization-Chart-11.20.2025-2.pdf
+- **Status**: analysed
+- title, tagged, lang, fonts:/CLPMNF+Calibri,Bold, /CLPMNH+Calibriuntagged-images, 
+
 ### PIA%20Guide%20Aug%202023_0.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2023-08/PIA%20Guide%20Aug%202023_0.pdf
@@ -54002,6 +54014,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.energy.gov/sites/default/files/2026-03/ord4446-B.pdf
 - **Status**: analysed
 - title, 
+
+### order-addressing-arguments-raised-rehearing-202-25-7b.pdf
+
+- **URL**: https://www.energy.gov/documents/order-addressing-arguments-raised-rehearing-202-25-7b
+- **Status**: analysed
+- title, fonts:/QISFKS+TimesNewRomanPSMT, /VIBECI+ArialMT, /KHOQEE+TimesNewRomanPS-BoldMT, /WZSPQG+Arial-BoldMT, /NWAIUY+TimesNewRomanPS-ItalicMT, /BJFTIW+Calibriheadings-skip, 
 
 ### propulsion-materials-rd-2008-annual-progress-report.pdf
 
@@ -61179,6 +61197,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.763187+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
+### bto-peer-2023-25204-seed-nrel-longpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/bto-peer-2023-25204-seed-nrel-longpdf
+- **Status**: analysed
+- tagged, no bookmarks and more than 20 pages, fonts:/AAAAAM+Calibri, /AAAAAO+ArialMT, /AAAACA+FranklinGothic-Book, /AAAACI+FranklinGothic-Medium, /AAAAAG+FranklinGothic-Book, /AAAABN+Arial-BoldMT, /AAAAAY+ArialMT, /AAAAAT+LibreFranklin-Bold, /AAAABE+Calibri, /AAAABH+LibreFranklin-Bold, /AAAACD+ArialMT, /AAAABS+LibreFranklin-Regular, /AAAABT+FranklinGothic-Book, /AAAAAH+FranklinGothic-Book, /AAAACQ+FranklinGothic-Medium, /AAAACB+FranklinGothic-Book, /AAAABP+ArialMT, /AAAACR+Roboto-Regular, /AAAABL+ArialMT, /AAAAAI+FranklinGothic-Book, /AAAAAR+LibreFranklin-Bold, /AAAAAP+LibreFranklin-Bold, /AAAABV+ArialMT, /AAAAAB+FranklinGothic-Book, /AAAAAD+FranklinGothic-Medium, /AAAABR+ArialMT, /AAAACN+Calibri-Bold, /AAAAAW+LibreFranklin-Bold, /AAAACL+Calibri, /AAAABJ+ArialMT, /AAAAAV+ArialMT, /AAAAAJ+FranklinGothic-Book, /AAAACF+ArialMT, /AAAACH+ArialMT, /AAAABC+ArialMT, /AAAAAF+FranklinGothic-Medium, /AAAACJ+FranklinGothic-Medium, /AAAAAK+FranklinGothic-Medium, /AAAAAQ+LibreFranklin-Thin, /AAAAAE+FranklinGothic-Book, /AAAABZ+Calibri, /AAAABA+Calibri-Italic, /AAAABG+ArialMT, /AAAAAS+LibreFranklin-Thin, /AAAAAC+FranklinGothic-Medium, /AAAABX+Calibriuntagged-images, annotations-untagged, 
+
 ### communications-and-outreach-plannewberry-volcano-orpdf-5.pdf
 
 - **URL**: https://www.energy.gov/documents/communications-and-outreach-plannewberry-volcano-orpdf-5
@@ -66273,6 +66297,156 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, fonts:/NXQWHS+Arial-BoldMT, /MUOKTU+TimesNewRomanPSMT, /KKFORY+TimesNewRomanPS-BoldMT, /DZZDXM+TimesNewRomanPS-ItalicMT
 
+### 2026-01-ceq-guidance-emergencies-and-nepa.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/2026-01-ceq-guidance-emergencies-and-nepa.pdf
+- **Status**: analysed
+- fonts:/ONCEOR+TimesNewRomanPS-BoldMT, /ELEWEL+ArialMT, /ELEWEL+Calibri, /ZOPSMV+TimesNewRomanPS-ItalicMT, /JLNVWB+Wingdings-Regular, /ZOPSMV+Arial-ItalicMT, /ELEWEL+TimesNewRomanPSMTforms-fail, forms-tagging-fail, 
+
+### 2026-01-noa-ceq-guidance-emergencies-and-nepa.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/2026-01-noa-ceq-guidance-emergencies-and-nepa.pdf
+- **Status**: analysed
+- title, tagged, lang, fonts:/Melior, /Helvetica-Bold, /Melior-Italic, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
+
+### 2026-04-ceq-guidance-categorical-exclusions-fr-notice.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-04/2026-04-ceq-guidance-categorical-exclusions-fr-notice.pdf
+- **Status**: analysed
+- title, tagged, lang, fonts:/Melior, /Helvetica-Bold, /Melior-Italic, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
+
+### 2026-04-ceq-guidance-categorical-exclusions.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-04/2026-04-ceq-guidance-categorical-exclusions.pdf
+- **Status**: analysed
+- fonts:/TBZFQG+Calibri, /LXWJIW+TimesNewRomanPS-ItalicMT, /KDQIUY+ArialMT, /LXWJIW+Arial-BoldMT, /CZNHMO+TimesNewRomanPS-BoldMT, /TEEGMB+TimesNewRomanPSMT, /TBZFQG+TimesNewRomanPSMTheadings-none, forms-fail, forms-tagging-fail, 
+
+### 2026-06-withdrawal%20of-guidance-documents.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-06/2026-06-withdrawal%20of-guidance-documents.pdf
+- **Status**: analysed
+- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
+
+### 202c-order-202-02-1b-november-13-2002-cscpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-202-02-1b-november-13-2002-cscpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.341535+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202c-order-202-03-4-may-7-2004-cscpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-202-03-4-may-7-2004-cscpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.343505+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202c-order-202-05-3-december-20-2005-mirant-corporationpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-202-05-3-december-20-2005-mirant-corporationpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.346955+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202c-order-202-06-1-february-17-2006-mirant-corporationpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-202-06-1-february-17-2006-mirant-corporationpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.348660+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202c-order-202-06-2-september-28-2006-mirant-corporationpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-202-06-2-september-28-2006-mirant-corporationpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.350461+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202c-order-202-07-1-november-22-2006-mirant-corporationpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-202-07-1-november-22-2006-mirant-corporationpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.352263+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202c-order-202-07-2-january-31-2007-mirant-corporationpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-202-07-2-january-31-2007-mirant-corporationpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.355391+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202c-order-january-11-2001-californiapdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-january-11-2001-californiapdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.357616+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202c-order-january-16-2001-californiapdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-january-16-2001-californiapdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.359405+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202c-order-january-17-2001-californiapdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-january-17-2001-californiapdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.361155+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202c-order-january-2-2001-californiapdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-january-2-2001-californiapdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.363114+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202c-order-january-23-2001-californiapdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-january-23-2001-californiapdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.364861+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 254737.pdf
+
+- **URL**: https://www.energy.gov/node/254737
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.371035+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 255067.pdf
+
+- **URL**: https://www.energy.gov/node/255067
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.374053+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 256249.pdf
+
+- **URL**: https://www.energy.gov/node/256249
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.376237+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 256387.pdf
+
+- **URL**: https://www.energy.gov/node/256387
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.378890+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 256519.pdf
+
+- **URL**: https://www.energy.gov/node/256519
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.380936+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 257107.pdf
+
+- **URL**: https://www.energy.gov/node/257107
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.384559+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 257191.pdf
+
+- **URL**: https://www.energy.gov/node/257191
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.387186+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 257719.pdf
+
+- **URL**: https://www.energy.gov/node/257719
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.390301+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
 ### 258%20-%20Order%20on%20Motion%20for%20Contempt.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-03/258%20-%20Order%20on%20Motion%20for%20Contempt.pdf
@@ -66333,6 +66507,18 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.421059+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
+### 47870.pdf
+
+- **URL**: https://docs.nlr.gov/docs/fy10osti/47870.pdf
+- **Status**: analysed
+- PdfError: crawled_files/energy.gov/47870.pdf: unable to find trailer dictionary while recovering damaged file
+
+### 51387.pdf
+
+- **URL**: https://docs.nlr.gov/docs/fy12osti/51387.pdf
+- **Status**: analysed
+- PdfError: crawled_files/energy.gov/51387.pdf: unable to find trailer dictionary while recovering damaged file
+
 ### 70207.pdf
 
 - **URL**: https://docs.nlr.gov/docs/fy20osti/70207.pdf
@@ -66362,6 +66548,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://docs.nlr.gov/docs/fy20osti/76701.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.440365+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 78495.pdf
+
+- **URL**: https://docs.nlr.gov/docs/fy21osti/78495.pdf
+- **Status**: analysed
+- PdfError: crawled_files/energy.gov/78495.pdf: unable to find trailer dictionary while recovering damaged file
 
 ### 80170.pdf
 
@@ -66417,6 +66609,90 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, tagged, lang, fonts:/OKHALH+BGsddV01, /OKGPGH+Cheltenham-Bold, /OKGPMN+Times-Roman, /OKGPDO+DeVinne, /OKGPPG+Helvetica, /OKHAHA+NewCenturySchlbk-Bold, /OKHAEH+Symbol, /OKGPKE+DeVinne-Italicforms-fail, forms-untagged, 
 
+### BSSD_Strategic_Plan_2021_HR.pdf
+
+- **URL**: https://science.osti.gov/-/media/ber/pdf/bssd/BSSD_Strategic_Plan_2021_HR.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, fonts:/HNJOED+OpenSans-Extrabold, /HNJOED+ArnoPro-Italic, /HNJOED+MyriadPro-SemiboldSemiCn, /QHVQAL+OpenSans-Semibold, /HNJOED+MyriadPro-BoldCond, /HNJOED+MyriadPro-BlackSemiCn, /WIDAGZ+OpenSans-Semibold, /HNJOED+Helvetica, /HNJOED+MyriadPro-SemiboldCond, /HNJOED+ArnoPro-Bold, /HNJOED+ArnoPro-BoldItalic, /HNJOED+MyriadPro-Bold, /HNJOED+MyriadPro-BoldSemiCn, /HNJOED+MyriadPro-SemiboldIt, /HNJOED+MyriadPro-Semibold, /HNJOED+OpenSans-BoldItalic, /HNJOED+OpenSans, /HNJOED+ArnoPro-Regular, /HNJOED+OpenSans-Semibold, /HNJOED+OpenSans-Bold, /HNJOED+MyriadPro-Black, /YYXMIV+OpenSans-Semibold, /HNJOED+OpenSans-Light, /HNJOED+MyriadPro-SemiCn, /JDDAGZ+OpenSans-Semibold, /HNJOED+MyriadPro-Cond, /HNJOED+MyriadPro-Regular, /HNJOED+OpenSans-SemiboldItalic, /HNJOED+ChartwellPies, /PZLKMN+OpenSans-Semibold, /HNJOED+MyriadPro-It, /XQNGUX+OpenSans-Semibold, /HNJOED+OpenSans-Italic, /KLNGUX+OpenSans-Semibolduntagged-images, annotations-untagged, 
+
+### CEQ%20Emergencies%20guidance%202016.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/CEQ%20Emergencies%20guidance%202016.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.596687+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CEQ%20Emergencies%20guidance%202020.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/CEQ%20Emergencies%20guidance%202020.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.599017+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CEQ_Scoping_Guidance.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/CEQ_Scoping_Guidance.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.600748+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CX-028979.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-11/CX-028979.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.602671+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CX-029224.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-12/CX-029224.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.604537+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CX-270853.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-10/CX-270853.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.607414+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CX-270998_0.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-06/CX-270998_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.610182+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CX-271002.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-06/CX-271002.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.613457+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CX-271007.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-06/CX-271007.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.615466+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CX-271014.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-06/CX-271014.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.617812+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DAF%20Notice%20of%20Adoption%20of%20CXs%2020260224.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-03/DAF%20Notice%20of%20Adoption%20of%20CXs%2020260224.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.619838+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DOE-NEPA-Implementing-Procedures-2026-02-02.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/DOE-NEPA-Implementing-Procedures-2026-02-02.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.622227+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DOE-NEPA-Implementing-Procedures-2026-06-16.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-06/DOE-NEPA-Implementing-Procedures-2026-06-16.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.624685+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
 ### DOE-OIG-23-12.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2023-01/DOE-OIG-23-12.pdf
@@ -66441,11 +66717,287 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, lang, fonts:/BCEDEE+TimesNewRomanPS-BoldMT, /BCDHEE+Arial-BoldMT, /BCDKEE+TimesNewRomanPS-ItalicMT, /BCDPEE+Figtree-BoldItalic, /BCDGEE+BookmanOldStyle, /BCEBEE+Figtree-SemiBoldItalic, /BCDEEE+Tahoma, /BCDIEE+TimesNewRomanPSMT, /SIDONT+Aptos-Bold, /BCDOEE+Figtree-Bold, /BCDMEE+Calibri, /BCECEE+SymbolMT, /BCEAEE+Figtree-BoldItalic, /GIGUBR+Calibri-Light, /BCDNEE+Figtree-Bold, /BCDFEE+ArialMT, /ULHAPP+Aptos, /BCDLEE+TimesNewRomanPSMT, /BCDJEE+TimesNewRomanPS-ItalicMTfigures-alt, lists-fail, 
 
+### DOE-OIG-26-08.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/DOE-OIG-26-08.pdf
+- **Status**: analysed
+- title, lang, fonts:/BCDIEE+Arial-BoldMT, /BCDNEE+TimesNewRomanPSMT, /BCDEEE+Tahoma, /BCDHEE+BookmanOldStyle, /BCDPEE+Figtree-Bold, /BCDLEE+TimesNewRomanPS-ItalicMT, /BCEDEE+ArialMT, /BCDOEE+Figtree-Bold, /BCEEEE+SymbolMT, /LACHPW+Aptos, /IYOPZC+Aptos-Bold, /BCDJEE+TimesNewRomanPSMT, /BCDMEE+TimesNewRomanPS-ItalicMT, /BCECEE+Figtree-SemiBoldItalic, /BCDKEE+TimesNewRomanPS-BoldMT, /BDEEFQ+Calibri-Light, /BCDFEE+ArialMT, /BCEAEE+Figtree-BoldItalic, /BCDGEE+Calibri, /BCEBEE+Figtree-BoldItalicfigures-alt, 
+
+### DOE-OIG-26-09.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/DOE-OIG-26-09.pdf
+- **Status**: analysed
+- title, lang, fonts:/BCDKEE+TimesNewRomanPS-ItalicMT, /BCDEEE+Arial-BoldMT, /BCDGEE+BookmanOldStyle, /TXSPKG+Aptos-Bold, /BCDNEE+Calibri, /GTGUKG+Calibri-Light, /BCDPEE+Figtree-Bold, /BCDIEE+BookmanOldStyle-Bold, /BCDOEE+Figtree-Bold, /WEGHAA+Aptos, /BCDMEE+TimesNewRomanPSMT, /BCECEE+Figtree-SemiBoldItalic, /BCDLEE+TimesNewRomanPS-BoldMT, /BCDHEE+TimesNewRomanPSMT, /BCDFEE+ArialMT, /BCEAEE+Figtree-BoldItalic, /BCDJEE+TimesNewRomanPS-ItalicMT, /BCEBEE+Figtree-BoldItalicfigures-alt, 
+
+### DOE-OIG-26-10.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/DOE-OIG-26-10.pdf
+- **Status**: analysed
+- title, lang, fonts:/BCDMEE+TimesNewRomanPS-BoldMT, /BCDHEE+Arial-BoldMT, /BCECEE+Figtree-BoldItalic, /BCDKEE+TimesNewRomanPS-ItalicMT, /BCDGEE+BookmanOldStyle, /BCDNEE+TimesNewRomanPSMT, /BCDEEE+Tahoma, /BCDIEE+TimesNewRomanPSMT, /BCEFEE+SymbolMT, /BCDOEE+Calibri, /BCDJEE+BookmanOldStyle-Bold, /LFMLPS+Aptos, /BCDPEE+Figtree-Bold, /BCDLEE+TimesNewRomanPS-ItalicMT, /BCEDEE+Figtree-SemiBoldItalic, /WYBZNW+Calibri-Light, /BCEHEE+Calibri-Italic, /BCEGEE+Figtree-Regular, /JCNZNW+Aptos-Bold, /BCEAEE+Figtree-Bold, /BCDFEE+ArialMT, /BCEEEE+ArialMT, /BCEBEE+Figtree-BoldItalicfigures-alt, lists-fail, 
+
+### DOE-OIG-26-11.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/DOE-OIG-26-11.pdf
+- **Status**: analysed
+- title, lang, fonts:/BCDMEE+TimesNewRomanPS-BoldMT, /BCDHEE+Arial-BoldMT, /BCDEEE+Calibri-Light, /BCDKEE+TimesNewRomanPS-ItalicMT, /BCDGEE+BookmanOldStyle, /BCDHEE+Calibri-Light, /BCDFEE+Aptos, /BCDEEE+Tahoma, /BCDIEE+TimesNewRomanPSMT, /BCDNEE+Calibri, /BCDPEE+Figtree-Bold, /BCDOEE+Figtree-Bold, /BCDGEE+Aptos,Bold, /BCEDEE+SymbolMT, /BCEAEE+Figtree-BoldItalic, /BCECEE+Figtree-SemiBoldItalic, /BCDFEE+ArialMT, /BCDLEE+TimesNewRomanPSMT, /BCDJEE+TimesNewRomanPS-ItalicMT, /BCEBEE+Figtree-BoldItalicfigures-alt, lists-fail, annotations-tagging-fail, 
+
+### DOE-OIG-26-12.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-02/DOE-OIG-26-12.pdf
+- **Status**: analysed
+- title, lang, fonts:/BCDMEE+TimesNewRomanPS-BoldMT, /HUWBVA+Calibri-Light, /BCDHEE+Arial-BoldMT, /BCECEE+Figtree-BoldItalic, /BCDKEE+TimesNewRomanPS-ItalicMT, /BCEGEE+SymbolMT, /BCDGEE+BookmanOldStyle, /BCDNEE+TimesNewRomanPSMT, /TZYQHC+Aptos-Bold, /BCEFEE+TimesNewRomanPS-BoldItalicMT, /BCDEEE+Tahoma, /BCDIEE+TimesNewRomanPSMT, /BCDOEE+Calibri, /BCDJEE+BookmanOldStyle-Bold, /BCDPEE+Figtree-Bold, /BCDLEE+TimesNewRomanPS-ItalicMT, /BCEDEE+Figtree-SemiBoldItalic, /BCEAEE+Figtree-Bold, /BCDFEE+ArialMT, /WBHIXW+Aptos, /BCEEEE+ArialMT, /BCEBEE+Figtree-BoldItalicfigures-alt, 
+
+### DOE-OIG-26-13.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-04/DOE-OIG-26-13.pdf
+- **Status**: analysed
+- title, lang, fonts:/BCDHEE+Arial-BoldMT, /BCDKEE+TimesNewRomanPSMT, /IYEZMC+TimesNewRomanPSMT, /MBGMNF+TimesNewRomanPS-ItalicMT, /BCDLEE+BookmanOldStyle-Bold, /BCDJEE+BookmanOldStyle, /VGHCTY+Aptos, /BCDOEE+TimesNewRomanPSMT, /BCDPEE+Figtree-Bold, /WYEUXL+TimesNewRomanPS-BoldMT, /MBGMNF+TimesNewRomanPSMT, /TRTNKG+TimesNewRomanPS-BoldMT, /BCDEEE+TimesNewRomanPS-BoldMT, /TDIQRC+Aptos-Bold, /BCDNEE+TimesNewRomanPS-ItalicMT, /WBFAAA+TimesNewRomanPS-ItalicMT, /WYEUXL+Arial-ItalicMT, /BCDMEE+TimesNewRomanPS-ItalicMT, /BCECEE+Figtree-SemiBoldItalic, /EWXEPG+Calibri-Light, /BCDIEE+Tahoma, /BCDFEE+ArialMT, /BCEAEE+Figtree-BoldItalic, /BCDGEE+Calibri, /BCEBEE+Figtree-BoldItalicfigures-alt, 
+
+### DOE-OIG-26-14.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-02/DOE-OIG-26-14.pdf
+- **Status**: analysed
+- title, lang, fonts:/LRRNHH+Figtree-SemiBold, /NEUEJD+ArialMT, /BCDEEE+Calibri-Light, /WCIGFL+TimesNewRomanPSMT, /EGGHNV+Tahoma, /UHCPDP+Figtree-Bold, /BCDHEE+Calibri-Light, /BCDFEE+Aptos, /HDQUDP+TimesNewRomanPS-ItalicMT, /XJQHTJ+TimesNewRomanPS-BoldMT, /BCDGEE+Aptos,Bold, /UMGUDP+Calibri, /FNTIBT+Arial-BoldMT, /SEDDBT+Figtree-BoldItalic, /HVSUDP+BookmanOldStyle, /JGUGFL+BookmanOldStyle-Boldfigures-alt, 
+
+### EA-1329-FONSI-03-2004.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/EA-1329-FONSI-03-2004.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.668067+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EA-1408-FEA-2002_0.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/EA-1408-FEA-2002_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.678976+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EA-1774-FEA-2010.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/EA-1774-FEA-2010.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.680776+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EA-1774-FONSI-2010.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/EA-1774-FONSI-2010.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.682449+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EIS-0293-ROD-2000.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/EIS-0293-ROD-2000.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.684347+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EIS-0329-AdNOI-2001.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/EIS-0329-AdNOI-2001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.686005+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EIS-0359-DSA-DOE-NOA-2007.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/EIS-0359-DSA-DOE-NOA-2007.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.687665+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EIS-0359-ROD-2004.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/EIS-0359-ROD-2004.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.689327+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EIS-0359-SA-01_EIS-0360-SA-01-2007.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/EIS-0359-SA-01_EIS-0360-SA-01-2007.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.691364+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EIS-0360-DSA-DOE-NOA-2007.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/EIS-0360-DSA-DOE-NOA-2007.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.692998+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EIS-0507_BLM_NOA_FEIS.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2016/11/f34/EIS-0507_BLM_NOA_FEIS.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.695044+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### FR-Notice-CX-Advanced-Nuclear-Reactors-2026-02-02.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-02/FR-Notice-CX-Advanced-Nuclear-Reactors-2026-02-02.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.697038+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### FRICK%20ZEB%202022%20FINAL%20May%20update_compliant.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-05/FRICK%20ZEB%202022%20FINAL%20May%20update_compliant.pdf
+- **Status**: analysed
+- fonts:/APEKAO+Calibri-Italic, /FMTTSE+ArialMT, /APEKAO+Calibri-Bold, /APEKAO+CambriaMath, /PORBCK+Calibri, /GAMEGC+OpenSans, /BYXVOM+OpenSans-Light, /FMTTSE+Wingdings-Regular, /PORBCK+SymbolMT, /FMTTSE+OpenSans-Italic, /RBUSEG+OpenSans-Bold
+
+### G-CEQ-40Questions.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2018/06/f53/G-CEQ-40Questions.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.714592+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### G-CEQ-CoopAgenciesImplem.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/G-CEQ-CoopAgenciesImplem.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.716264+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### G-CEQ-DesigNonfedCoopAgencies.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/G-CEQ-DesigNonfedCoopAgencies.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.718091+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### G-CEQ-DredgedFillMaterials.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/G-CEQ-DredgedFillMaterials.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.720736+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### G-CEQ-GuidanceRegulations.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/G-CEQ-GuidanceRegulations.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.722940+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### G-CEQ-PastActsCumulEffects.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/G-CEQ-PastActsCumulEffects.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.727236+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### G-DOE-AccidentAnalysis.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/G-DOE-AccidentAnalysis.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.729492+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### G-DOE-CERCLAandRCRA.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/G-DOE-CERCLAandRCRA.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.731685+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### G-Oth-Managing_NEPA_DOE.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/G-Oth-Managing_NEPA_DOE.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.733693+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GPO-RIDDICK-1992-34.pdf
+
+- **URL**: https://www.govinfo.gov/content/pkg/GPO-RIDDICK-1992/pdf/GPO-RIDDICK-1992-34.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.752516+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### HARC%20ZEB%20Final%20may%202022%20updates%20w%20photo%20credits_compliant%20v2.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-08/HARC%20ZEB%20Final%20may%202022%20updates%20w%20photo%20credits_compliant%20v2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.764467+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### John%20%26%20Barbara.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2020/09/f79/John%20%26%20Barbara.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.766613+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### LCG%20FR%20Notice_0.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2019/09/f66/LCG%20FR%20Notice_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.768860+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
 ### M-19-15.pdf
 
 - **URL**: https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-15.pdf
 - **Status**: analysed
 - fonts:/Helvetica, /Times-Bold, /Helvetica-Oblique, /Times-BoldItalic, /Times-Italic, /Times-Romanheadings-warn, 
+
+### Mitigate_Effects_Rivers.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/Mitigate_Effects_Rivers.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.774784+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NASA%20Notice%20of%20Adoption%20of%20CXs%2020260218.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-02/NASA%20Notice%20of%20Adoption%20of%20CXs%2020260218.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.776794+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NCO-Directory-2026-06-30.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-06/NCO-Directory-2026-06-30.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.778630+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NEPA-CEQ_Mitigation_and_Monitoring_Guidance_14Jan2011.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2017/06/f35/NEPA-CEQ_Mitigation_and_Monitoring_Guidance_14Jan2011.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.782603+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NEPA_CEQGuidance_EfficientReviewsUnderNEPA_03_12_12.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/NEPA_CEQGuidance_EfficientReviewsUnderNEPA_03_12_12.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.784725+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Need%20to%20Consider%20Intentional%20Destructive%20Acts%20in%20NEPA%20Documents%202006-12-01.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-08/Need%20to%20Consider%20Intentional%20Destructive%20Acts%20in%20NEPA%20Documents%202006-12-01.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.786452+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### RGLNG%20DOE%20Extension%20Application%20August%2019%202020.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2020/08/f77/RGLNG%20DOE%20Extension%20Application%20August%2019%202020.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.790134+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### RGLNG-Final%20Updates%20to%20DOE%20NFTA%20Application%2011.26.19.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2019/12/f69/RGLNG-Final%20Updates%20to%20DOE%20NFTA%20Application%2011.26.19.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.792188+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Recommendations_for_the_supplement_analysis_process.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2013/10/f4/Recommendations_for_the_supplement_analysis_process.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.795225+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Rio%20Grande%20LNG%20LLC%2002_03_20.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2020/02/f71/Rio%20Grande%20LNG%20LLC%2002_03_20.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.796880+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Short-Term%20LNG%20Exports%20Blanket%20Order%20CX.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2020/12/f81/Short-Term%20LNG%20Exports%20Blanket%20Order%20CX.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.798674+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TVA%20Notice%20of%20Adoption%20of%20CXs%2020250114.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/TVA%20Notice%20of%20Adoption%20of%20CXs%2020250114.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.800665+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### USDA%20CX%20Adoption%20-%20Public%20Notice%20-%20Signed.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-06/USDA%20CX%20Adoption%20-%20Public%20Notice%20-%20Signed.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.803077+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Washington%20v.%20Trump%20-%20notice%20of%20court%20order%20-%20PI%20clarification%20-%2003-20-25.pdf
 
@@ -66453,11 +67005,2159 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, fonts:/HCSFSP+TimesNewRomanPS-BoldMT, /SLDOQT+Arial-BoldMT, /CKHBAZ+TimesNewRomanPS-ItalicMT, /AXEKYD+ArialMT, /GGBUER+Century, /ZNXOKF+TimesNewRomanPSMT
 
+### Written-Record-Advanced-Nuclear-Reactor-CX-2026-02-02.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/Written-Record-Advanced-Nuclear-Reactor-CX-2026-02-02.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.808672+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### action-memorandum-attach-1-background-and-supporting-discussionpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/action-memorandum-attach-1-background-and-supporting-discussionpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.810659+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### action-memorandum-attach-2-finalreportpdf-1.pdf
+
+- **URL**: https://www.energy.gov/documents/action-memorandum-attach-2-finalreportpdf-1
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.830525+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### adoption-eis-0518-annova-lng-brownsville-2019-05pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/adoption-eis-0518-annova-lng-brownsville-2019-05pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.832827+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### adoption-letter-eis-0518-annova-lng-2019-04-26pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/adoption-letter-eis-0518-annova-lng-2019-04-26pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.835076+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### adoption-letter-eis-0519-rio-grande-lng-2019-05-07pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/adoption-letter-eis-0519-rio-grande-lng-2019-05-07pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.837317+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### alternativearrangementschart092908pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/alternativearrangementschart092908pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.839078+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### amended-rod-eis-0360-duf6-2020-01pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/amended-rod-eis-0360-duf6-2020-01pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.841260+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### amended-rod-eis-0423-and-0423-s1-elemental-mercury-2020-10pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/amended-rod-eis-0423-and-0423-s1-elemental-mercury-2020-10pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.843368+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
 ### amendment-s2488.pdf
 
 - **URL**: https://www.justice.gov/sites/default/files/oip/legacy/2014/07/23/amendment-s2488.pdf
 - **Status**: analysed
 - title, fonts:/Helvetica, /Times-Bold, /Times-Italic, /Helvetica-Bold, /Times-Romanlists-warn, 
+
+### answer-potomac-electric-power-company-and-pjm-lnterconnection-llc-october-6-2005-motion.pdf
+
+- **URL**: https://www.energy.gov/oe/articles/answer-potomac-electric-power-company-and-pjm-lnterconnection-llc-october-6-2005-motion
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.850866+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### appendix-c-analytical-data.pdf
+
+- **URL**: https://www.energy.gov/oe/articles/appendix-c-analytical-data
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.855524+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### appendix-d-facility-process-data-and-appendix-e-equipment-calibration-data-sheets.pdf
+
+- **URL**: https://www.energy.gov/oe/articles/appendix-d-facility-process-data-and-appendix-e-equipment-calibration-data-sheets
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.859707+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2024proceduralsafeguards-spanish.pdf
+
+- **URL**: https://www.cde.state.co.us/spedlaw/2024proceduralsafeguards-spanish
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-2027%20Academic%20Calendar%20ALAMOSA.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/2026-2027%20Academic%20Calendar%20ALAMOSA.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-2027%20District%20Calendar.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/2026-2027%20District%20Calendar.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-2027%20SANGRE%20DE%20CRISTO.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/2026-2027%20SANGRE%20DE%20CRISTO.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-2027-School-CENTER.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/2026-2027-School-CENTER.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-2027MSCD2_MoffatPK12Calendar8apr2026.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/2026-2027MSCD2_MoffatPK12Calendar8apr2026.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-2027_School_CREEDE.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/2026-2027_School_CREEDE.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-27%20Centennial%20R-1%20District%20Calendar_Final%20-%20Final.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/2026-27%20Centennial%20R-1%20District%20Calendar_Final%20-%20Final.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 26-27-Draft-District-CalendarSARGENT.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/26-27-Draft-District-CalendarSARGENT.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### G_1-SY26-27-District-CalendarSOUTH%20CONEJOS.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/G_1-SY26-27-District-CalendarSOUTH%20CONEJOS.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### School%20Calendar%202026-2027%20MONTE%20VISTA.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/School%20Calendar%202026-2027%20MONTE%20VISTA.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### URGSD%2026%20-%2027%20School%20Calendar%20UPPER%20RIO.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/URGSD%2026%20-%2027%20School%20Calendar%20UPPER%20RIO.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### errforepps.pdf
+
+- **URL**: https://www.cde.state.co.us/educatortalent/errforepps
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### procedural-safeguards-notice.pdf
+
+- **URL**: https://www.cde.state.co.us/spedlaw/procedural-safeguards-notice
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 010422-NSPM-33-Implementation-Guidance.pdf
+
+- **URL**: https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/01/010422-NSPM-33-Implementation-Guidance.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 08-2022-OSTP-Public-Access-Memo.pdf
+
+- **URL**: https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-Access-Memo.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 112269.pdf
+
+- **URL**: https://www.nsf.gov/funding/opportunities/prfb-postdoctoral-research-fellowships-biology/503622/updates/112269
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 112277.pdf
+
+- **URL**: https://www.nsf.gov/funding/opportunities/prfb-postdoctoral-research-fellowships-biology/503622/updates/112277
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 115700.pdf
+
+- **URL**: https://www.nsf.gov/funding/opportunities/agep-alliances-graduate-education-professoriate/5474/updates/115700
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2.19.2025_NSF-Engines_FactSheet.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2.19.2025_NSF-Engines_FactSheet.pdf?VersionId=laBQi8W.Yjvt4HGTGMdRaIGQZWPq6JyI
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2013-NSF-Cyberinfrastructure-Report-Final.pdf
+
+- **URL**: https://www.pgc.umn.edu/files/2018/05/2013-NSF-Cyberinfrastructure-Report-Final.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2013_arctic_research_plan_0.pdf
+
+- **URL**: https://obamawhitehouse.archives.gov/sites/default/files/microsites/ostp/2013_arctic_research_plan_0.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2021SFSBiennialReport-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2021SFSBiennialReport-r.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2022-2024%20BIP%20FINAL%20High%20Res%2020221109.pdf
+
+- **URL**: https://www.iarpccollaborations.org/uploads/cms/documents/2022-2024%20BIP%20FINAL%20High%20Res%2020221109.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2022-2024%20bip%20final%20high%20res%2020221109.pdf
+
+- **URL**: https://www.iarpccollaborations.org/uploads/cms/documents/2022-2024%20bip%20final%20high%20res%2020221109.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2022-biennial-report.pdf
+
+- **URL**: https://www.iarpccollaborations.org/uploads/cms/documents/2022-biennial-report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2023SFSBiennialReport-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2023SFSBiennialReport-r.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024-29244.pdf
+
+- **URL**: https://www.govinfo.gov/content/pkg/FR-2024-12-12/pdf/2024-29244.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024-CyberTraining-Webinar-v2.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/308354/public/2024-CyberTraining-Webinar-v2.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024-Jan-18%20INTERN%20slides%20Prakash%20Balan.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2024-Jan-18%20INTERN%20slides%20Prakash%20Balan.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024-report-to-congress_iarpc.pdf
+
+- **URL**: https://www.iarpccollaborations.org/uploads/cms/documents/2024-report-to-congress_iarpc.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024SFSAIReport-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2024SFSAIReport-r.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024_01_30_IUCRC%20Webinar_Prakash%20Balan.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2024_01_30_IUCRC%20Webinar_Prakash%20Balan.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2025%20EPSCoR%20PI%20Meeting%20Agenda%20Final.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2025%20EPSCoR%20PI%20Meeting%20Agenda%20Final.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2025-07368.pdf
+
+- **URL**: https://www.govinfo.gov/content/pkg/FR-2025-04-28/pdf/2025-07368.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2025-SFS-Biennial-Report.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2025-SFS-Biennial-Report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 20260324_STRIDE_Press_Release.pdf
+
+- **URL**: https://stride-ventures.com/wp-content/uploads/2026/03/20260324_STRIDE_Press_Release.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 25_fy2014.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/about/budget/fy2014/pdf/25_fy2014.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 3-Practical-Guide-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/3-Practical-Guide-r.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 5-Intro-to-Selected-Funding-Opportunities-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/5-Intro-to-Selected-Funding-Opportunities-r.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 50-01-en.pdf
+
+- **URL**: https://www.dfg.de/resource/blob/168072/50-01-en.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 6-Postdoc-to-PI-Writing-One-pagers-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/6-Postdoc-to-PI-Writing-One-pagers-r.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 7-Intro-Funding-Opportunities-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/7-Intro-Funding-Opportunities-r.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 97-28653.pdf
+
+- **URL**: https://www.govinfo.gov/content/pkg/FR-1997-10-30/pdf/97-28653.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 9_Tips%20for%20Developing%20NSF%20Proposals_2-1.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/9_Tips%20for%20Developing%20NSF%20Proposals_2-1.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### AAAS%20EPSCoR%20Hub.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/AAAS%20EPSCoR%20Hub.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### ACA_permit_form_2025_2026_Fillable.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/ACA_permit_form_2025_2026_Fillable.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### ACSSPresentation.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/306457/public/ACSSPresentation.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### AI-Ready-America-Program-Webinar-04142026.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/AI-Ready-America-Program-Webinar-04142026.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### AI-Ready-America-Program-Webinar-2-04232026.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/AI-Ready-America-Program-Webinar-2-04232026.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### AI-Ready_America_Workshop_Report.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/AI-Ready_America_Workshop_Report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### AIL-POL-1000.01-Lodging.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/AIL-POL-1000.01-Lodging.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### AIL-POL-1000.02b-Chapel-Use-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/AIL-POL-1000.02b-Chapel-Use-r.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### AIL-POL-1000.08-Material-Storage-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/AIL-POL-1000.08-Material-Storage-r.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### AIL-POL-5000.01-V2-Form-508-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/AIL-POL-5000.01-V2-Form-508-r.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### AIL-POL-5000.01-V2-Form-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/AIL-POL-5000.01-V2-Form-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### AIL-POL_1000.06_ECW82.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/AIL-POL_1000.06_ECW82.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### AI_Research_Institutes_Map_2023_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/AI_Research_Institutes_Map_2023_0.pdf?VersionId=6wfALEd6vDU7_GCl.wzGo.RPBPhvbzXM
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### About_the_dataset_pilot.pdf
+
+- **URL**: https://resources.research.gov/common/attachment/Desktop/About_the_dataset_pilot.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Affirmative-Action-Plan-FY24.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Affirmative-Action-Plan-FY24.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Affirmative_Action_Plan_2023.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Affirmative_Action_Plan_2023.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Affirmative_Action_Plan_2025.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Affirmative_Action_Plan_2025.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Americas-AI-Action-Plan.pdf
+
+- **URL**: https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Arctic-Research-Support-and-Logistics-Services-Contracts.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Arctic-Research-Support-and-Logistics-Services-Contracts.pdf?VersionId=OjssohrJmqUilPf2NWlQFheOOtGgI2yk
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### BSF-NSF_EEID_Call.pdf
+
+- **URL**: https://files.bsf.org.il/data/FormsToDownload/BSF-NSF_EEID_Call.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Budget%20Update.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Budget%20Update.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CECSOP-220216.pdf
+
+- **URL**: https://www.uaf.edu/cfos/files/sikuliaq/CECSOP-220216.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CEOSE-Biennial-Report-Handout.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/CEOSE-Biennial-Report-Handout.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CEOSE-Report-2023_1.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/CEOSE-Report-2023_1.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CEOSE_STEM-Talent_of_Rural_America_Report.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/CEOSE_STEM-Talent_of_Rural_America_Report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CIRC-transcript.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/307790/public/CIRC-transcript.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CRPT-116hrpt617.pdf
+
+- **URL**: https://www.congress.gov/116/crpt/hrpt617/CRPT-116hrpt617.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CTGC-briefing-office-hours.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/304377/public/CTGC-briefing-office-hours.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Career_deadline.pdf
+
+- **URL**: https://resources.research.gov/common/attachment/Common/Career_deadline.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Certificate-of-Indirect-Costs-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Certificate-of-Indirect-Costs-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Commerce-research-terms-conditions-20201112-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Commerce-research-terms-conditions-20201112-r.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Cyberinfrastrcture_EPSCoR_Live!_508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Cyberinfrastrcture_EPSCoR_Live!_508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DCL%20AI%20Challenge%20for%20Youth%20Webinar.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/DCL%20AI%20Challenge%20for%20Youth%20Webinar.pdf?VersionId=CFJBZqP.AveNxjfUQpQHpkkBstZFE7hO
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DigitalUS-Report-pages-20200602.pdf
+
+- **URL**: https://digitalus.org/wp-content/uploads/2020/06/DigitalUS-Report-pages-20200602.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### E-CORE%20PI%20Communications_Feb2026_webinar.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/E-CORE%20PI%20Communications_Feb2026_webinar.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### E-CORE-PI-Comm_2025_webinar.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/E-CORE-PI-Comm_2025_webinar.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### E-CORE.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/E-CORE.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### E-RISE.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/E-RISE.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### E4USA_June_Teacher_Interview_Sharon_Ball_converted.pdf
+
+- **URL**: https://mcusercontent.com/3ba6db14bf82ff9d1188f1cb9/files/91d3c2ea-4216-4d90-9a3e-7cc315d8d93a/E4USA_June_Teacher_Interview_Sharon_Ball_converted.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### EPSCoR%20AREC%20Overview_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/EPSCoR%20AREC%20Overview_0.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### EPSCoR%20Programmatic%20Updates.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/EPSCoR%20Programmatic%20Updates.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### EPSCoR%20Report%20Handout_Final_Aug%202022-508_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-08/EPSCoR%20Report%20Handout_Final_Aug%202022-508_0.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### EPSCoR%20Research%20Fellows.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/EPSCoR%20Research%20Fellows.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### EPSCoR-Live-April-2025-508c.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/EPSCoR-Live-April-2025-508c.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### EPSCoR-Live-FEC-Sept-24-2025-slides.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/EPSCoR-Live-FEC-Sept-24-2025-slides.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### EPSCoR-Workshop-july-2025-webinar-slides.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/EPSCoR-Workshop-july-2025-webinar-slides.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### EPSCoRLive-E-RISE-March%202026.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/EPSCoRLive-E-RISE-March%202026.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### EPSCoR_Abstract_2M.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-06/EPSCoR_Abstract_2M.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### EPSCoR_Factsheet_2020.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-05/EPSCoR_Factsheet_2020.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### EPSCoR_Live_Dec25_AAAS_Slides.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/EPSCoR_Live_Dec25_AAAS_Slides.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### EPSCoR_Live_Oct25_Adjeroh%20Slides.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/EPSCoR_Live_Oct25_Adjeroh%20Slides.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### EPSCoR_Logic_Model_Outcomes_Indicator_Brochure_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-06/EPSCoR_Logic_Model_Outcomes_Indicator_Brochure_0.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### ERC%20Brochure%20Dec2023.pdf
+
+- **URL**: https://erc-assoc.org/sites/default/files/download-files/ERC%20Brochure%20Dec2023.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### ERF%20EPSCoR%20Live_Jan26.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/ERF%20EPSCoR%20Live_Jan26.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Energy-research-terms-conditions-2020-11-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Energy-research-terms-conditions-2020-11-r.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### FACE-SP-FY22-Implementation-Roadmap.pdf
+
+- **URL**: https://www.nitrd.gov/pubs/FACE-SP-FY22-Implementation-Roadmap.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### %E5%B0%8D%E6%96%BC%E8%AD%A6%E5%AF%9F%E9%9D%9E%E7%B7%8A%E6%80%A5%E6%83%85%E6%B3%81%20-%20%E4%B8%AD%E6%96%87.pdf
+
+- **URL**: https://ouc.dc.gov/sites/default/files/dc/sites/OUC/publication/attachments/%E5%B0%8D%E6%96%BC%E8%AD%A6%E5%AF%9F%E9%9D%9E%E7%B7%8A%E6%80%A5%E6%83%85%E6%B3%81%20-%20%E4%B8%AD%E6%96%87.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### %EB%8B%A4%EC%9D%8C%EC%9D%84%20%ED%8F%AC%ED%95%A8%ED%95%9C%20%EA%B2%BD%EC%B0%B0%20%EB%B9%84%EA%B8%B4%EA%B8%89%20%EC%83%81%ED%99%A9%EC%9D%98%20%EA%B2%BD%EC%9A%B0%20-%20%ED%95%9C%EA%B5%AD%EC%96%B4.pdf
+
+- **URL**: https://ouc.dc.gov/sites/default/files/dc/sites/OUC/publication/attachments/%EB%8B%A4%EC%9D%8C%EC%9D%84%20%ED%8F%AC%ED%95%A8%ED%95%9C%20%EA%B2%BD%EC%B0%B0%20%EB%B9%84%EA%B8%B4%EA%B8%89%20%EC%83%81%ED%99%A9%EC%9D%98%20%EA%B2%BD%EC%9A%B0%20-%20%ED%95%9C%EA%B5%AD%EC%96%B4.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### %ED%95%84%EC%9A%94%EC%97%90%20%EB%A7%9E%EB%8A%94%20%EC%A0%84%ED%99%94%EB%A5%BC%20%ED%95%98%EC%8B%AD%EC%8B%9C%EC%98%A4-%20%ED%95%9C%EA%B5%AD%EC%96%B4.pdf
+
+- **URL**: https://ouc.dc.gov/sites/default/files/dc/sites/OUC/publication/attachments/%ED%95%84%EC%9A%94%EC%97%90%20%EB%A7%9E%EB%8A%94%20%EC%A0%84%ED%99%94%EB%A5%BC%20%ED%95%98%EC%8B%AD%EC%8B%9C%EC%98%A4-%20%ED%95%9C%EA%B5%AD%EC%96%B4.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 008535_PreliminaryPSCMeetingAgendaJun252026.pdf
+
+- **URL**: https://ddottopsenpsignphotos.blob.core.windows.net/topsnotices/ManageNotice//008535_PreliminaryPSCMeetingAgendaJun252026.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 01-a-case-study-mitigating-benefits-cliffs-in-the-district-of-columbia.pdf
+
+- **URL**: https://www.atlantafed.org/-/media/documents/community-development/publications/discussion-papers/2023/01-a-case-study-mitigating-benefits-cliffs-in-the-district-of-columbia.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 01_03_20_UI%20Claimant%27s%20Rights%20and%20Responsibilities.pdf
+
+- **URL**: https://does.dc.gov/sites/default/files/dc/sites/does/publication/attachments/01_03_20_UI%20Claimant%27s%20Rights%20and%20Responsibilities.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 04%2520April%25202013%2520Briefing%2520Report%2520-%2520Disability-0.pdf
+
+- **URL**: https://dmhhs.dc.gov/sites/default/files/dc/sites/op/publication/attachments/04%2520April%25202013%2520Briefing%2520Report%2520-%2520Disability.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 04%2520April%25202013%2520Briefing%2520Report%2520-%2520Disability.pdf
+
+- **URL**: https://odr.dc.gov/sites/default/files/dc/sites/op/publication/attachments/04%2520April%25202013%2520Briefing%2520Report%2520-%2520Disability.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 04.28.26%20-%202025%20AFR%20Filing%20Instructions%20%28FINAL%29.pdf
+
+- **URL**: https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/04.28.26%20-%202025%20AFR%20Filing%20Instructions%20%28FINAL%29.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2-701-0.pdf
+
+- **URL**: https://bega.dc.gov/sites/bega/files/publication/attachments/2-701.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2-701.pdf
+
+- **URL**: https://www.bega.dc.gov/sites/bega/files/publication/attachments/2-701.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2016-094%20Establishment%20%C2%AD%20Open%20Government%20Advisory%20Group.pdf
+
+- **URL**: https://ogag.dc.gov/sites/default/files/dc/sites/ogag/publication/attachments/2016-094%20Establishment%20%C2%AD%20Open%20Government%20Advisory%20Group.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2017-18%20School%20Year%20Attendance%20Report.pdf
+
+- **URL**: https://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2017-18%20School%20Year%20Attendance%20Report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2019%20DC%20MCO%20Consumer%20Report%20Card.pdf
+
+- **URL**: https://dhcf.dc.gov/sites/default/files/dc/sites/dhcf/page_content/attachments/2019%20DC%20MCO%20Consumer%20Report%20Card.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2019-003%20Defining%20a%20Separate%20Dwelling%20Unit.pdf
+
+- **URL**: https://dcoz.dc.gov/sites/default/files/dc/sites/dcoz/service_content/attachments/2019-003%20Defining%20a%20Separate%20Dwelling%20Unit.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2019-036%20Housing%20Initiative%20%285.9%29.pdf
+
+- **URL**: https://planning.dc.gov/sites/default/files/dc/sites/op/page_content/attachments/2019-036%20Housing%20Initiative%20%285.9%29.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2019-036%20Mayors%20Order%20on%20Housing.pdf
+
+- **URL**: https://housingdc.dc.gov/sites/default/files/dc/sites/housingdc/publication/attachments/2019-036%20Mayors%20Order%20on%20Housing.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2025-08-11-DCHealth-COVID-FAQs.pdf
+
+- **URL**: https://dchealth.dc.gov/sites/default/files/dc/sites/doh/page_content/attachments/2025-08-11-DCHealth-COVID-FAQs.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 22b4d3_1baa1d177b2c49239d55a2c3221f5cd6.pdf
+
+- **URL**: https://38688ea5-869e-4178-b298-ec6e1fed2232.filesusr.com/ugd/22b4d3_1baa1d177b2c49239d55a2c3221f5cd6.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 22b4d3_398fff48b409496cba0ea69ae9012a82.pdf
+
+- **URL**: https://38688ea5-869e-4178-b298-ec6e1fed2232.filesusr.com/ugd/22b4d3_398fff48b409496cba0ea69ae9012a82.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 23052025_nb.1.8.1_ire.pdf
+
+- **URL**: https://cdn.who.int/media/docs/default-source/documents/epp/tracking-sars-cov-2/23052025_nb.1.8.1_ire.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 370954_PreliminaryPSCMeetingAgendaJun252026.pdf
+
+- **URL**: https://ddottopsenpsignphotos.blob.core.windows.net/topsnotices/ManageNotice//370954_PreliminaryPSCMeetingAgendaJun252026.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 5cdc286d6aca1-5cdc286d6aca4Achieving-Housing-Affordability-Final-041519-4.pdf.pdf
+
+- **URL**: https://ulidigitalmarketing.blob.core.windows.net/ulidcnc/2019/05/5cdc286d6aca1-5cdc286d6aca4Achieving-Housing-Affordability-Final-041519-4.pdf.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 6.4.26_Mem.%20Op.%20Granting%20District%20MTD%20%281%29.pdf
+
+- **URL**: https://oag.dc.gov/sites/default/files/2026-06/6.4.26_Mem.%20Op.%20Granting%20District%20MTD%20%281%29.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 935792_PSCPressReleaseforJuly232026.pdf
+
+- **URL**: https://ddottopsenpsignphotos.blob.core.windows.net/topsnotices/ManageNotice//935792_PSCPressReleaseforJuly232026.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### ABRA%20Code%20Book%20-%20Updated%208-22.pdf
+
+- **URL**: https://abca.dc.gov/sites/default/files/dc/sites/abra/publication/attachments/ABRA%20Code%20Book%20-%20Updated%208-22.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### ACAExchangePlanYear2027ProposedRatesSummary.pdf
+
+- **URL**: https://disb.dc.gov/sites/default/files/dc/sites/disb/page_content/attachments/ACAExchangePlanYear2027ProposedRatesSummary.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### ADA_Grievance_Procedure%20for_Employees_and_Constituents.pdf
+
+- **URL**: https://oea.dc.gov/sites/default/files/dc/sites/oea/page_content/attachments/ADA_Grievance_Procedure%20for_Employees_and_Constituents.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### ADA_Public_Notice_for_Employees_and_Constituents.pdf
+
+- **URL**: https://oea.dc.gov/sites/default/files/dc/sites/oea/page_content/attachments/ADA_Public_Notice_for_Employees_and_Constituents.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### ANAB%20FM%202003%20NCR%20Summary%20DC-%20Revised.pdf
+
+- **URL**: https://dfs.dc.gov/sites/default/files/dc/sites/dfs/publication/attachments/ANAB%20FM%202003%20NCR%20Summary%20DC-%20Revised.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Accessibility%20of%20State%20and%20Local%20Gov%20Websites%20to%20People%20with%20Disabilities%20%28DOJ%20Guidance%29.pdf
+
+- **URL**: https://oea.dc.gov/sites/default/files/dc/sites/oea/page_content/attachments/Accessibility%20of%20State%20and%20Local%20Gov%20Websites%20to%20People%20with%20Disabilities%20%28DOJ%20Guidance%29.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### AgendaforAugust15thAdministrativeMeeting2.pdf
+
+- **URL**: https://rptac.dc.gov/sites/default/files/dc/sites/rptac/publication/attachments/AgendaforAugust15thAdministrativeMeeting2.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 05-322%20-%20Repealed.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-02/05-322%20-%20Repealed.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 0702-Foundations-Core-Values-MW-rev1.pdf
+
+- **URL**: https://www.iap2canada.ca/Resources/Documents/0702-Foundations-Core-Values-MW-rev1.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 10-221-consolidated.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-03/10-221-consolidated.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2012_Building_on_the_Legacy_of_NWAC_Faceless_Doll_Project.pdf
+
+- **URL**: https://nwac-afac.ca/assets-knowledge-centre/2012_Building_on_the_Legacy_of_NWAC_Faceless_Doll_Project.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 22-235.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-09/22-235.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 25-094.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/25-094.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 25-109.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/25-109.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 25-110.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/25-110.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 404.pdf
+
+- **URL**: https://ontariohealth.ca/errors/404
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Antibiotic-resistant-organism-risk-factor-screening-guide.pdf
+
+- **URL**: https://www.publichealthontario.ca/-/media/Documents/A/24/Antibiotic-resistant-organism-risk-factor-screening-guide.pdf?rev=8fadc36772db477e839094ed249b8f8f&sc_lang=en
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CCSA-Language-and-Stigma-in-Substance-Use-Addiction-Guide-2019-en.pdf
+
+- **URL**: https://ccsa.ca/sites/default/files/2019-09/CCSA-Language-and-Stigma-in-Substance-Use-Addiction-Guide-2019-en.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CCSA-NAAW-Substance-Use-Disorder-Fact-Sheet-2018-en.pdf
+
+- **URL**: https://www.ccsa.ca/sites/default/files/2019-05/CCSA-NAAW-Substance-Use-Disorder-Fact-Sheet-2018-en.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### COMM-update-2022-Annual-Rain-Barrel-Sale.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-09/COMM-update-2022-Annual-Rain-Barrel-Sale.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CU-pw-ChedokeCreekRemediation-hw22.05.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-07/CU-pw-ChedokeCreekRemediation-hw22.05.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CU-pw-safety-enhancements-main-king-streets-july5-2022.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-07/CU-pw-safety-enhancements-main-king-streets-july5-2022.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Calls_for_Justice.pdf
+
+- **URL**: https://www.mmiwg-ffada.ca/wp-content/uploads/2019/06/Calls_for_Justice.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Calls_to_Action_English2.pdf
+
+- **URL**: https://ehprnh2mwo3.exactdn.com/wp-content/uploads/2021/01/Calls_to_Action_English2.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Ccomm-update-Accessible-Transportation-Services-Customer-Communication.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-10/Ccomm-update-Accessible-Transportation-Services-Customer-Communication.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Comm-update-New-HSR-myRide-Hybrid-Service-Waterdown.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-10/Comm-update-New-HSR-myRide-Hybrid-Service-Waterdown.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CommsUpdate-PW-2025CapitalConstructionProjectsRight-of-Way.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-2025CapitalConstructionProjectsRight-of-Way.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DRIPS_en.pdf
+
+- **URL**: https://www.un.org/esa/socdev/unpfii/documents/DRIPS_en.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### OH_HPS_CODE_ZERO_EVENTS_Metadata.pdf
+
+- **URL**: https://www.arcgis.com/itemdata/92d347a7683b26a11dab76ccf9a5cac2/55ee1da8f27b41bab2d45d9e896de83d/OH_HPS_CODE_ZERO_EVENTS_Metadata.pdf?response-cache-control=max-age%3D0%2C%20s-maxage%3D1200%2C%20v%3D1634337992000&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQD608F%2BLyNmOdQ7EaO56Vzg0yltAHsnjvnyx6ivAR36pgIgGQmqOLv2ey1h9uIeupYvJVRbKfLBYeir7tdsn1tpjj8qswUIaxAAGgw2MDQ3NTgxMDI2NjUiDHnNi9dC58MoQspT7CqQBX1LBnEul8BMYn5ilKPAyxW1uLMt0nR9Uv5zIdAuqx6VUBRbmyfucG%2B5wEv5uGsDbVZHL%2BT2H9%2FXyHqSKG0Cv%2Bc4HsFOZG%2FSe3uH5O48zsEjEnFNzrL1ujYBEaEwTObQ1Uk%2Br%2Fekb2hYCar93sj4wXXazIw5rmoyRiUN6pYiw0wksloIafA2gcq4NTwILvsE7z7WG5I%2FnEosP8xdrWcJzFIchsKTopWw78lnoH3Wg0nEVKZSd96cfh%2B%2FdIG16VAcLlrPxk1LZ%2B0IlxAUBb4e2xGpB7HAnJdvLIRC4h8g3FcPsdKWIhgp4Wl1MNVAqsjbbv7iwc6m2x9ApH%2BFMleZUZnb3G14%2F0yNb7HzbIqDeqU0NYj1MWc18iIj3kfmzvREQqQ%2Fe0fPPDhxf%2B0eoYtT826b%2Fq6Oqzr8qb7k%2F%2BVVnfKEVQm8VTZCero2pbs26NxSfR1fn6RJvFiotRQ0vXPd76%2B28KPKU%2BC%2Fw%2Bm5x4Ga2AVVcX4%2BJjn8wp%2BdAppGmr5CbFDVh6WgAgIeQyd%2F3QSPlQ7Wg2%2B75pGb0%2FmzV7tt3YEHc6bnOvb%2Fax9xBwDtZ9POgqivf%2FMB4cl%2F8fqj6OXh2G7rGLVMkOi%2FzRjlBoJvYHJ24BStsnVIcD5dvBLPu93rUMDW6rgf9dLfMNcsdXu76bDBBhngWOs0dL%2BKP%2FckjjyQxFqZDRYktROgqqHeHxqP3cuXHt5hBDnh6KfVuJy%2BXaMidtGaq%2FB8uvu%2BmAMtiKcJiLoiJyg0YTYleqz%2FysTFVaPlzv5TgZ1af6NsgQb6mi6gzYKo9FpjmtfLU%2BzTN9HS3bxq2X7sL8Ofc6MhdUKsdRCRNO4V7ZIlleU%2FDltIXc0MaeNDqyNaaQiNqwltpJocMJKgs9IGOrEBHwAlA9v0365Dy1Geit%2BrVFyrrYOeyU71wyVrw33yOx1SweHvz3G5RHaknIEvZp11T5PmDnB1xT6KxkVtn7pIB3isPeDf1LG0cZ2jeYDB%2FkrZvt1Ao9a%2FdLoVFbmkYfX2Ini6FVsjvxI3XuK0Rnwi4XL9qbJ0QqZmfMxCHNZ2RGj1a79SUReE9GRBLwqkPL2Kf31nDjjHnWiQ77KTswLdwIqwRTQyB917qY17pg%2B4Z2zj&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260707T115034Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAYZTTEKKE4CT55MKG%2F20260707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=1200&X-Amz-Signature=80913a22ae1ad8fefb8e6745f65a5e5b56f6499542f1ca45f92bbc96ac7c7ca5
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### OH_HPS_EVENT_RESPONSE_TRANSPORTS_Metadata.pdf
+
+- **URL**: https://www.arcgis.com/itemdata/92d347a7683b26a11dab76ccf9a5cac2/256057f97a9a4819b401b21c40852124/OH_HPS_EVENT_RESPONSE_TRANSPORTS_Metadata.pdf?response-cache-control=max-age%3D0%2C%20s-maxage%3D1200%2C%20v%3D1634337995000&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQCGf%2FYgxZTYKTkZ%2F7iO0PmgJ0yRSpqYbySLM8h6W6ghSQIgRPd36yY6AcMUpSKzwZqgEB5uuJcfEOq%2B7r46lK7yPBkqsgUIaRAAGgw2MDQ3NTgxMDI2NjUiDPvWXzwmxjcDyGUcBiqPBcEjRi91dIHu%2FRv3dBRXsQ0bEItpcbQf7%2B3lKFyh5%2FH5vdsct3bekcCuC%2FkZMvyZinYEeBE6w%2B6Yrw37KFa3ndt1nw1xsRwUI%2FZgG8VdfvZl2CQmXFDbkwiGB5UNg1KZTzr7Ul3ZaomBQywGt8Nn5Wi%2Faptwzsg%2BAfb4w2ehGMdQBkxTTUEXDxkS3Hf7x0bA87dH%2BW0nRzia3pUiXshXzS6lsqJoYtVGpeLqxAScuJhyQzU%2BvlRoIKBKom4qxFuPR%2Fm8dQ3bzAugqVKxGCARPIOfFKHcvlG39n4IxSSpv1G5JIunArxmdLMmB%2Btpc%2Fpnm8IuWP%2BIhoYvqb5JX4H9EWkDSPzfzJjPnJ2PbDYJv7al5haFwIwCVAnrCZCH08tlUh%2BF0FtHVlwwCWGhtAqZZqJEK50CqdmehzkI2Uu3phIlNgumL5X7%2FDjkf5SM%2F2Kid9nQxEUjz9z9r5RDEOAXZZ7N6mZcE%2Bjzc277JStyyGXvnHQiiBd%2Bv%2Fwo0wGbtvdihhlDalxvSQHKEObAH9cnbMbl4Fxa4vSAD37RBVOGlgnTI6BdmznL93N8wNKcwSn%2BSiqUSIBeauKHKJqY0Ria4NyJBuxch%2BYvR1t9WIrZgwWt6pbaiDNSMawNf1Kw8UM0GxqtJsg6uyHUm36HQvG%2Ffa1vf13d6flGyln3zpJoCTfdw2Cvx21IADL5GXBgIfWS1MsHRdsZ%2FgxUFPPuC3jPLKhphiDzaHHM77Rbvcwoqxa7XK0cNfCT7zMjRnHp%2BTZXWbdbktu0ZLy9W8NFqluycH38V%2F96O9hFxFGsPH5vP2jaI6uYYLy%2FEU8ucZzZQXBbBGBb2Mb3WZb7AQsa%2B4e%2FyOVo8T0ihR9Fqj68qLW3W8Qw3NOy0gY6sQFRwW4F7kdjMs2IFvhMlLa3HT9ugWlIJ36%2FVAy6mcYaquFir7Sal1a7GTGH3JPKLymn98P7nZGpGJGFX4iStb0pBn0pVNnp1ENk4laW4i8%2F82ig5J3egRAB1tyrBubvwMeJtd4CpMw0U90AD5huGlHUKJ%2BBgkx6R56tcz1IyGiS7Q4KkiTwWvMYg0Qu6WsFglSfhcF%2BBj9FrtbiSliZYYbPvgpyM7vjsnwe%2B8CIeofWXgs%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260707T115014Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAYZTTEKKE65C42VDL%2F20260707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=1200&X-Amz-Signature=5a7677c64495b4008d7529b7327bedd40fa11a13c0321b08222bb80bf053e87e
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### OH_HPS_REASON_CALL_Metadata.pdf
+
+- **URL**: https://www.arcgis.com/itemdata/92d347a7683b26a11dab76ccf9a5cac2/1635299d56444d9eb87c6e508d6111d5/OH_HPS_REASON_CALL_Metadata.pdf?response-cache-control=max-age%3D0%2C%20s-maxage%3D1200%2C%20v%3D1634337992000&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIGaqlAYC3rUsK0n5cqKmLTGcdnBOb5FRfNgI%2F25ZDdrRAiB%2Fat7JhpnJmf8ioRr7LVhS3iaXvO%2FiER09mtH4CnH7piqzBQhrEAAaDDYwNDc1ODEwMjY2NSIMTMpp9jmcGT%2FFqKMtKpAFoHQtykudiXkMPGQixfCtLUK%2B2wAODZi4iWF2ZODONxUpUaosyMMnHa6u8%2BRQxMNVB%2BOLaXuRkqsLvlmg%2BMkOAsbQTHyzdXbUUhGd973j7yPc%2BGS3Cs3FItEHBff0SoYKqjmoP0MmuJ%2FNWj54hJQ6uIu2I%2FqWdPPhrtxQqK2D3Yocy4a19%2BIF%2BSmxD7SPfvAJafhFDBmGcYiTQF%2FvHlR%2FFi3VaRxu2dWsu3UJzKYdqo1ma58QLWxiScTiTrIJlXJcewbNiDrgp%2F099HGxBwSGsvJ6AARi4%2FMReDXZ%2FUp6ysXgF67e078qJN0I7ML%2Fpp4TdUZ6qhraLWsVGvXNXctim0h%2B4qQBD0lhkIDVrbAFAk5Ft4UGQE0jV3Iawc9641A%2FYPW3O1Mry03ruicceo%2BFlLQc1jNsdZ2vIo7%2F2607JiIjlCAAO5D0%2F6tXUgZ5i2YwDNzFylO%2FpUISlhcic26ZmhmqIdTFC9zyUk7ROZQI2eL9%2BqRx3%2BvHcVHtV%2FJxXfZXQrvZim048riwLEkNrBctEmOcPVmlG%2BeoIp2HGUcTQmYEIMcMrT9BSQ38gN6m7ZvlE%2BAg4dff3CafatkCQifRNzee49NItxiEwjxCbAD7oKEGQD04Es%2FTdTPw8ekvfs0hVYCWJNrMQj%2B%2BPB6cE14Xu6nYjzN%2FvTeimTr0QGqTlQGYSjeYDfpdLhbEGNmjoqObh%2BylAFjvpwnxRDlVx5r%2B1foglQP5BvXRFugTLCz7nZs1lNmjHPnx2Nw8L%2FyQ4lu4QVwNy5PaXwwh0vBE4kkBTOu%2FB9%2Fx%2F6xLnJofo95kopHJR%2B58WV6817%2FmXJTtXx6Tznou5PnrcZDrBssxFWLnBB5fF3EPxT6C9tF8ZKh6jzQwp4yz0gY6sgGfAqeQdbQiUOFu2%2BCuMHxAgZNcyrLKvFtIu5ZV%2FGgJqBB1UcXY20HtV057g3vznLmgjm4%2FAbGKBPoIrX%2BcOy64Pw6Du4omYyQw8GUwUfktRYPH7iAE%2B0V8k6bJ4Tww%2FGAEfZqv3b6wh5VsVCfFDfyWEVze7RYcTan9toZUmkyIMDes%2BRw4rK1uPOdJdsTsMrgBoCxC6tyA5meY1nv%2BtmQuz41Qdxc4kJi3TSWeKxwH0lfQ&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260707T115038Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAYZTTEKKE5QHG3I2P%2F20260707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=1200&X-Amz-Signature=03280ac424e6c12d364316a36e1a54d58ac4bc1bc0beee0996e21ad855cc7ae4
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### OH_HPS_TARGET_RESPONSE_TIMES_Metadata.pdf
+
+- **URL**: https://www.arcgis.com/itemdata/92d347a7683b26a11dab76ccf9a5cac2/a24a0e243ad4484a9b87b811af9c92e8/OH_HPS_TARGET_RESPONSE_TIMES_Metadata.pdf?response-cache-control=max-age%3D0%2C%20s-maxage%3D1200%2C%20v%3D1634337992000&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQC0A%2BYGazQPFUHkoMbn%2FhoRmnMTGDw0jIodhgPXnaDXYQIgILp7o6F%2FO7pNP%2FZ%2FsOnmxIbVv9Dpcm5EMgjBOQp6W%2BEqtAUIaRAAGgw2MDQ3NTgxMDI2NjUiDHH3rmE%2FeVDUYbl8%2FiqRBRSJo1J9GGfuyp6ZpyhDcVctvqKzfCLCE2WrijIPu59aYjCdHA1jDCEvjDaBlk4NoNgv%2B%2FBoQPOnuWVfzWPo7KZERGv2L5vBcIgT%2BltqTC3rzYZKIyvxo9AUWA7jEM7ytFFunosvDpR0hIBJTaC%2BrKrohqCsTb51D2m0OWOv3GGX8prVcinVW%2BU8ESUye3R9t%2FjbH5PDQTGt2k98WBebCaFzO6E74PiLuTgjc5weKENkj%2Bu18Rtbx82ScU8dOoo3QNhTSdlyN7B7CquGyMwvNOtnAiBrl7X1rQROsNUSXcv6lIkFd8oqHnsJjsH9n5jXCGpY5KIr74VoTZjUzEhqXhKE00UGLRdMpOpzHTaZacJIaxSi8laOwFXn%2Bbvj9JG%2F%2BXLtOpfdjuMXpYdwb58mkgDS5DqZowdrVuOTdXwwoVB2xhsl8rx5%2FuikTqf2CbEaYyyVZ%2FQOO6d3lCFDF%2BRtil4Y1i2Jd1xGHNtX6rsWvANPtZcY2uzcxGSxZVfENpcaUMSlYNUup7oun%2FLe4yXpchix8pcCUYrtNXJJ1lDwpdtkHMo8FG64heWq%2FBoLNavdF0Q5b2YRlb5TFmRR5Ftx0ZkefB%2Fy4SWtfbeFvViBCemXSK93uqj4FIEfEEHscaxRwOFMxu7PHbp6ZGneUwWbLAWLgtdzGIYMDQEFHDyJ1%2F9tgUKNDykI31%2B24HMXlREzk5iqRFFcTixoJZgmexyCrfjbSEp%2B38i7J1uGzJyBcX7mWzeDJXBIZZlEuJ2pUR53xQj%2BAVk%2FPbOpUQ%2Fl95ASj84%2BbrnGGA6Uejbf%2BJ5k1IgLcQ168PGYQ0zZzW4QZXMMrCON0BA1AuN66ooNx2D7LCK%2FO9mshgOhDjr73uM%2BRFQJezC%2F17LSBjqxAQ6%2FAZJyP8kuHVa%2BiBofTkB8mtSDeKnrnyXgshO0U8T%2B1yZ5Uzf9dRJVnJ5BY7Wyqi8FW65EfsAyuzpqz5tNqHvQTSzwEXpt9OPhn3rdfGZCdiqo9BOOtLFF0A%2Bur6Dr4hR%2Bas%2By6OnUvytjO2LWrMi0AWRGwteOyocRn6xvptEM%2BDdF8334hCr2REn%2FWR5SsicyfGHJnhNggTADwmlLLXt%2FFJyalr3%2Bk4%2B3qIiPuUir5g%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260707T115037Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAYZTTEKKERFX4TXAH%2F20260707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=1200&X-Amz-Signature=bd62b4ddddf79444d74d01b0632793f4de7bbacea65e21da233285e47cfcc7a2
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### OH_HPS_TRANSFER_OF_CARE_Metadata.pdf
+
+- **URL**: https://www.arcgis.com/itemdata/92d347a7683b26a11dab76ccf9a5cac2/e2c1144162594eb4999152ff9581f008/OH_HPS_TRANSFER_OF_CARE_Metadata.pdf?response-cache-control=max-age%3D0%2C%20s-maxage%3D1200%2C%20v%3D1634337997000&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIHtfv33c6oINlQDJFNMfFV9Ov0wK1lI5MIbz282v%2Fxl2AiEA%2BrLKWDcwZyhHtehOahDDQSwwMK5x%2BnFaR%2BBZcrcyiMkqswUIahAAGgw2MDQ3NTgxMDI2NjUiDGQ300VrvDYj0Hea7yqQBc32EouYTyH%2BbtTbTOe2ah9x8eEUzck8L0AZk9cOZqhhPYtVHadBvX8cf8ZM2azPZKT0I6tlQ%2FP4ExLbRzISqFocGJkYe%2BC9ptUgmYZKgKS4m%2B6zjqm0X0rQEhkAqtWQCa8k5L7XlUFgknbjVlIc3znpIDV0VHv8ryO1JYusosBMMq5Pf8hlBumtBO9%2Fv6u%2Fol9JAXzqsP8jolSoVoaBDWUDRucuH8F0qYcBpYO7QGhfLsJb%2F6jnSqzQzx7voL4ctSP8uY6bOgQPwKhAL9vyj%2FELBwsq9WS7S64PSbuv78ikvbTvUPZgP3Cd4H7JPbUY2Bc%2F1gXE0na4mA8Mg3lKlxshHT%2F7q%2F8lP6QB8%2BEbNleO89HbHxthXqP9In7JcMvKPcZMA4FRdhy1gk%2FdQcVgfdOd%2FwKYp8F%2FPb1lIMpeqfSBtwMmwUTgo1Nnucha1ObcsyO7oJViEF3yHy455ULCrW2%2BKmr5CmeYYd4jdzkNAQdK%2B%2Bczwp3Q3QGq2S2E3qLW6ADvGeSwF9dldKgIf280HVOquAZgxa%2BwFn8j1%2FRK%2BKf%2By%2FX86MPOCwZj8BTyOVVnmNPgsi5Ec%2FeW475v%2BrnfTSDMEJDytmJ5axfvRZvtiB%2FU%2Byvaxw1S6vRiMscy3xA5jxsM3Y0vcsTd7PzxSiKILGFRDX0MdEUVvPj1ieg6StZ66Uwn85IvPDiFK26YQNfa8PWW2lqm%2BhnyuyuWBIP0Gva5RJgFb6irnKrYhLosR5ytxkQ7i9uxH5DJUaWfDk0o8c%2BZMHhHhN8bKOKQsH17dYz0dpNolAXfWMC2AqRXXEsw4hdZr%2BspKlTFkiU4E%2BCgiPLhn3VX9cmbG7%2F3M8Bt%2F%2F7eCdJZ1%2BBxDB0yhnLlNTiDMN71stIGOrEBQnLPzXpqrhzlqlZmlUv828aFcptAeNNa4Kuofnzi9RxiCAjIZVO4lGAywnjMLpfCbxHId2kQqU8AXsqKydRM2u248cy8Yb%2FwgGg5XSyrI5EnblLygrRLD3ajEWqkh%2B8FWu3L5MQAnpfLdNR%2B6WR8NvOo9BIy1mZ1HesFod5AClXZv1aRKfi%2FizGfJFM2T%2FzaOf03iN21jQlZiWLsa%2BR1b9UEw7BsRw34wiOLmEi2HHI8&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260707T115040Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAYZTTEKKEVXI6IW3K%2F20260707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=1200&X-Amz-Signature=2eeb0bb94b42dd2ae4c2c2f75af2125cbe56d39748665ec7b5d3735a17dcd643
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### OH_SCHOOL_CROSSING_GUARD_LOCATIONS.pdf
+
+- **URL**: https://www.arcgis.com/itemdata/92d347a7683b26a11dab76ccf9a5cac2/880c079ab768439f9bc3e81ba96e8454/OH_SCHOOL_CROSSING_GUARD_LOCATIONS.pdf?response-cache-control=max-age%3D0%2C%20s-maxage%3D1200%2C%20v%3D1634337999000&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQD608F%2BLyNmOdQ7EaO56Vzg0yltAHsnjvnyx6ivAR36pgIgGQmqOLv2ey1h9uIeupYvJVRbKfLBYeir7tdsn1tpjj8qswUIaxAAGgw2MDQ3NTgxMDI2NjUiDHnNi9dC58MoQspT7CqQBX1LBnEul8BMYn5ilKPAyxW1uLMt0nR9Uv5zIdAuqx6VUBRbmyfucG%2B5wEv5uGsDbVZHL%2BT2H9%2FXyHqSKG0Cv%2Bc4HsFOZG%2FSe3uH5O48zsEjEnFNzrL1ujYBEaEwTObQ1Uk%2Br%2Fekb2hYCar93sj4wXXazIw5rmoyRiUN6pYiw0wksloIafA2gcq4NTwILvsE7z7WG5I%2FnEosP8xdrWcJzFIchsKTopWw78lnoH3Wg0nEVKZSd96cfh%2B%2FdIG16VAcLlrPxk1LZ%2B0IlxAUBb4e2xGpB7HAnJdvLIRC4h8g3FcPsdKWIhgp4Wl1MNVAqsjbbv7iwc6m2x9ApH%2BFMleZUZnb3G14%2F0yNb7HzbIqDeqU0NYj1MWc18iIj3kfmzvREQqQ%2Fe0fPPDhxf%2B0eoYtT826b%2Fq6Oqzr8qb7k%2F%2BVVnfKEVQm8VTZCero2pbs26NxSfR1fn6RJvFiotRQ0vXPd76%2B28KPKU%2BC%2Fw%2Bm5x4Ga2AVVcX4%2BJjn8wp%2BdAppGmr5CbFDVh6WgAgIeQyd%2F3QSPlQ7Wg2%2B75pGb0%2FmzV7tt3YEHc6bnOvb%2Fax9xBwDtZ9POgqivf%2FMB4cl%2F8fqj6OXh2G7rGLVMkOi%2FzRjlBoJvYHJ24BStsnVIcD5dvBLPu93rUMDW6rgf9dLfMNcsdXu76bDBBhngWOs0dL%2BKP%2FckjjyQxFqZDRYktROgqqHeHxqP3cuXHt5hBDnh6KfVuJy%2BXaMidtGaq%2FB8uvu%2BmAMtiKcJiLoiJyg0YTYleqz%2FysTFVaPlzv5TgZ1af6NsgQb6mi6gzYKo9FpjmtfLU%2BzTN9HS3bxq2X7sL8Ofc6MhdUKsdRCRNO4V7ZIlleU%2FDltIXc0MaeNDqyNaaQiNqwltpJocMJKgs9IGOrEBHwAlA9v0365Dy1Geit%2BrVFyrrYOeyU71wyVrw33yOx1SweHvz3G5RHaknIEvZp11T5PmDnB1xT6KxkVtn7pIB3isPeDf1LG0cZ2jeYDB%2FkrZvt1Ao9a%2FdLoVFbmkYfX2Ini6FVsjvxI3XuK0Rnwi4XL9qbJ0QqZmfMxCHNZ2RGj1a79SUReE9GRBLwqkPL2Kf31nDjjHnWiQ77KTswLdwIqwRTQyB917qY17pg%2B4Z2zj&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260707T115011Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAYZTTEKKE4CT55MKG%2F20260707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=1200&X-Amz-Signature=a257e20c9126cbb73b557d241cd22a8f83551089bf8d427f32fb2ae87385b5de
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### block1-stoney-creek-pic3-presentation-slide12.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-09/block1-stoney-creek-pic3-presentation-slide12.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### block1-stoney-creek-pic3-presentation-slide13.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-09/block1-stoney-creek-pic3-presentation-slide13.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### block1-stoney-creek-pic3-presentation-slide14.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-09/block1-stoney-creek-pic3-presentation-slide14.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixA.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixA.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixB.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixB.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixC.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixD.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixD.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixE.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixE.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixF1.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixF1.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixF2.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixF2.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixF3.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixF3.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixF4.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixF4.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixG.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixG.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixH1.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixH1.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixH2.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixH2.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### cOMM-UPDATE-Development-Related-Public-Tree-Removals-1190MainStWest.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-11/cOMM-UPDATE-Development-Related-Public-Tree-Removals-1190MainStWest.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### candida-auris-new-case-management.pdf
+
+- **URL**: https://www.publichealthontario.ca/-/media/Documents/C/24/candida-auris-new-case-management.pdf?rev=76c795c712d646daa58c60255ce4057e&sc_lang=en
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### carlisle-ea-pic1-presentation.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/carlisle-ea-pic1-presentation.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DFS24.pdf
+
+- **URL**: https://oca.dc.gov/sites/default/files/dc/sites/oca/publication/attachments/DFS24.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DGS%20Barring%20Policy%202014.pdf
+
+- **URL**: https://dgs.dc.gov/sites/default/files/dc/sites/dgs/publication/attachments/DGS%20Barring%20Policy%202014.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DGS%20Office%20of%20the%20Director%20Org%20Chart%20%20June%202026%20Update.pdf
+
+- **URL**: https://dgs.dc.gov/sites/default/files/dc/sites/dgs/publication/attachments/DGS%20Office%20of%20the%20Director%20Org%20Chart%20%20June%202026%20Update.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DGS%20Proactive%20Disclosure%20DC%20Freedom%20Of%20Information%20Act%20Compliance%20Checklist.pdf
+
+- **URL**: https://dgs.dc.gov/sites/default/files/dc/sites/dgs/publication/attachments/DGS%20Proactive%20Disclosure%20DC%20Freedom%20Of%20Information%20Act%20Compliance%20Checklist.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DISB2014OpenGovernmentReport.pdf
+
+- **URL**: https://disb.dc.gov/sites/default/files/dc/sites/disb/publication/attachments/DISB2014OpenGovernmentReport.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DME%20Testimony%20for%20102621%20OSSE%20Independence%20Bill%20Hearing%20FINAL.pdf
+
+- **URL**: https://dme.dc.gov/sites/default/files/dc/sites/dme/publication/attachments/DME%20Testimony%20for%20102621%20OSSE%20Independence%20Bill%20Hearing%20FINAL.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DME%20Testimony%20for%20No%20Shots%20No%20School%20Roundtable%2062922.pdf
+
+- **URL**: https://dme.dc.gov/sites/default/files/dc/sites/dme/publication/attachments/DME%20Testimony%20for%20No%20Shots%20No%20School%20Roundtable%2062922.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DME%20Testimony%20on%20Attendance%20Hearing%2031122%20%281%29.pdf
+
+- **URL**: https://dme.dc.gov/sites/default/files/dc/sites/dme/publication/attachments/DME%20Testimony%20on%20Attendance%20Hearing%2031122%20%281%29.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DOES%20Org%20Chart%20-%20Program%20Names%20w%20Execs%20April%202023%20%28002%29.pdf
+
+- **URL**: https://does.dc.gov/sites/default/files/dc/sites/does/page_content/attachments/DOES%20Org%20Chart%20-%20Program%20Names%20w%20Execs%20April%202023%20%28002%29.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DOPA%20Fact%20Sheet%20March%202018.pdf
+
+- **URL**: https://dhcd.dc.gov/sites/default/files/dc/sites/dhcd/publication/attachments/DOPA%20Fact%20Sheet%20March%202018.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DPR%202023%20summer%20camp%20information%20FRENCH.pdf
+
+- **URL**: https://dpr.dc.gov/sites/default/files/dc/sites/dpr/page_content/attachments/DPR%202023%20summer%20camp%20information%20FRENCH.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DPR%20Volunteer%20one%20pager_Spanish%202016.pdf
+
+- **URL**: https://dpr.dc.gov/sites/default/files/dc/sites/dpr/page_content/attachments/DPR%20Volunteer%20one%20pager_Spanish%202016.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DPR%20Volunteer%20one%20pager_Vietnamese%202016.pdf
+
+- **URL**: https://dpr.dc.gov/sites/default/files/dc/sites/dpr/page_content/attachments/DPR%20Volunteer%20one%20pager_Vietnamese%202016.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DPRPermitsposter%20Spanish_0.pdf
+
+- **URL**: https://dpr.dc.gov/sites/default/files/dc/sites/dpr/page_content/attachments/DPRPermitsposter%20Spanish_0.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DPR_Become%20a%20Programmatic%20Partner_Spanish.pdf
+
+- **URL**: https://dpr.dc.gov/sites/default/files/dc/sites/dpr/page_content/attachments/DPR_Become%20a%20Programmatic%20Partner_Spanish.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DPR_Become%20a%20Programmatic%20Partner_Vietnamese.pdf
+
+- **URL**: https://dpr.dc.gov/sites/default/files/dc/sites/dpr/page_content/attachments/DPR_Become%20a%20Programmatic%20Partner_Vietnamese.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DPR_Permits%20poster_Vietnamese%202016.pdf
+
+- **URL**: https://dpr.dc.gov/sites/default/files/dc/sites/dpr/page_content/attachments/DPR_Permits%20poster_Vietnamese%202016.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DRAFT-SY14-15-Year-End-Data-Committee-Report.pdf
+
+- **URL**: https://attendance.dc.gov/sites/default/files/dc/sites/attendance/publication/attachments/DRAFT-SY14-15-Year-End-Data-Committee-Report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DYRS.pdf
+
+- **URL**: https://oca.dc.gov/sites/default/files/dc/sites/oca/page_content/attachments/DYRS.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DesignatedEmployee-Young%28OGE%29_2-0.pdf
+
+- **URL**: https://bega.dc.gov/sites/bega/files/publication/attachments/DesignatedEmployee-Young%28OGE%29_2.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DesignatedEmployee-Young%28OGE%29_2.pdf
+
+- **URL**: https://www.bega.dc.gov/sites/bega/files/publication/attachments/DesignatedEmployee-Young%28OGE%29_2.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### District%20Comprehensive%20Plan%20for%20Early%20Childhood%20and%20School-Based%20Mental%20Health%20Services.PDF
+
+- **URL**: https://dmhhs.dc.gov/sites/default/files/dc/sites/dmhhs/publication/attachments/District%20Comprehensive%20Plan%20for%20Early%20Childhood%20and%20School-Based%20Mental%20Health%20Services.PDF
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### District%20School%20Health%20Services%20Program.pdf
+
+- **URL**: https://dmhhs.dc.gov/sites/default/files/dc/sites/dmhhs/publication/attachments/District%20School%20Health%20Services%20Program.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### District%20School-Based%20Behavioral%20Health%20Services%20Rollout%20Plan.pdf
+
+- **URL**: https://dmhhs.dc.gov/sites/default/files/dc/sites/dmhhs/publication/attachments/District%20School-Based%20Behavioral%20Health%20Services%20Rollout%20Plan.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### EEO%20Workplace%20Poster_Vietnamese_5.17.2024.pdf
+
+- **URL**: https://ohr.dc.gov/sites/default/files/dc/sites/ohr/EEO%20Workplace%20Poster_Vietnamese_5.17.2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter%20-%20Amharic.pdf
+
+- **URL**: https://dcps.dc.gov/sites/default/files/dc/sites/dcps/publication/attachments/ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter%20-%20Amharic.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter%20-%20Chinese.pdf
+
+- **URL**: https://dcps.dc.gov/sites/default/files/dc/sites/dcps/publication/attachments/ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter%20-%20Chinese.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter%20-%20Spanish.pdf
+
+- **URL**: https://dcps.dc.gov/sites/default/files/dc/sites/dcps/publication/attachments/ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter%20-%20Spanish.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter_French.pdf
+
+- **URL**: https://dcps.dc.gov/sites/default/files/dc/sites/dcps/publication/attachments/ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter_French.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter_Vietnamese.pdf
+
+- **URL**: https://dcps.dc.gov/sites/default/files/dc/sites/dcps/publication/attachments/ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter_Vietnamese.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### El%20Desempleo%20en%20el%20Distrito%20de%20Columbia%20mejora%20en%205%2C5%20por%20ciento%20en%20diciembre.pdf
+
+- **URL**: https://does.dc.gov/sites/default/files/dc/sites/does/page_content/attachments/El%20Desempleo%20en%20el%20Distrito%20de%20Columbia%20mejora%20en%205%2C5%20por%20ciento%20en%20diciembre.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### El%20Desempleo%20en%20el%20Distrito%20de%20Columbia%20se%20mantiene%20estable%20en%2031%20por%20ciento%20en%20noviembre.pdf
+
+- **URL**: https://does.dc.gov/sites/default/files/dc/sites/does/page_content/attachments/El%20Desempleo%20en%20el%20Distrito%20de%20Columbia%20se%20mantiene%20estable%20en%2031%20por%20ciento%20en%20noviembre.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Emancipation%20Commission%20Meeting%20Agenda%20-%20April%2011th%202024.pdf
+
+- **URL**: https://os.dc.gov/sites/default/files/dc/sites/os/page_content/attachments/Emancipation%20Commission%20Meeting%20Agenda%20-%20April%2011th%202024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Emancipation%20Commission%20Meeting%20Agenda%20-%20April%204th%202024.pdf
+
+- **URL**: https://os.dc.gov/sites/default/files/dc/sites/os/page_content/attachments/Emancipation%20Commission%20Meeting%20Agenda%20-%20April%204th%202024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Emancipation%20Commission%20Meeting%20Agenda%20Notes%20-%20April%2011th%202024.pdf
+
+- **URL**: https://os.dc.gov/sites/default/files/dc/sites/os/page_content/attachments/Emancipation%20Commission%20Meeting%20Agenda%20Notes%20-%20April%2011th%202024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Emancipation%20Commission%20Meeting%20Agenda%20Notes%20-%20April%204th%202024.pdf
+
+- **URL**: https://os.dc.gov/sites/default/files/dc/sites/os/page_content/attachments/Emancipation%20Commission%20Meeting%20Agenda%20Notes%20-%20April%204th%202024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Emancipation%20Commission%20Meeting%20Agenda%20Notes%20-%20March%2014th%202024_0.pdf
+
+- **URL**: https://os.dc.gov/sites/default/files/dc/sites/os/page_content/attachments/Emancipation%20Commission%20Meeting%20Agenda%20Notes%20-%20March%2014th%202024_0.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### FAQs%20With%20Responses_Self%20Service_4-4-22%20DH%20V2%20FINAL%20.pdf
+
+- **URL**: https://dcrb.dc.gov/sites/default/files/dc/sites/dcrb/page_content/attachments/FAQs%20With%20Responses_Self%20Service_4-4-22%20DH%20V2%20FINAL%20.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### FOIA%20Request%20%23%202020-FOIA-04530%20Denial%20Letter.pdf
+
+- **URL**: https://perb.dc.gov/sites/default/files/dc/sites/perb/page_content/attachments/FOIA%20Request%20%23%202020-FOIA-04530%20Denial%20Letter.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### FOIA%20Request%20%23%202020-FOIA-04936%20Denial%20Letter.pdf
+
+- **URL**: https://perb.dc.gov/sites/default/files/dc/sites/perb/page_content/attachments/FOIA%20Request%20%23%202020-FOIA-04936%20Denial%20Letter.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### FOIA%20Request%20%23%202020-FOIA-06781%20Denial%20Letter.pdf
+
+- **URL**: https://perb.dc.gov/sites/default/files/dc/sites/perb/page_content/attachments/FOIA%20Request%20%23%202020-FOIA-06781%20Denial%20Letter.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 10001.pdf
+
+- **URL**: https://www.medicare.gov/media/10001
+- **Status**: analysed
+- fonts:/BIVPFA+Montserrat-Regular, /NGQJRC+Gotham-Medium, /NGQJRC+Gotham-Bold, /NGQJRC+Gotham-BookItalic, /NGQJRC+Montserrat-SemiBold, /NGQJRC+Gotham-Black, /NGQJRC+Montserrat-ExtraBold, /NGQJRC+Montserrat-Medium, /NGQJRC+Gotham-Book, /BIVPFA+Webdings, /NGQJRC+Montserrat-Bold, /BIVPFA+Wingdings-Regularheadings-skip, lists-warn, tables-fail, 
+
+### 10011.pdf
+
+- **URL**: https://www.medicare.gov/media/10011
+- **Status**: analysed
+- fonts:/SDQLJS+Gotham-Bold, /SDQLJS+Montserrat-Bold, /SDQLJS+Gotham-Medium, /BVYOFA+Montserrat-Medium, /SDQLJS+Montserrat-ExtraBold, /SDQLJS+Gotham-Book, /SDQLJS+Gotham-BookItalic, /BVYOFA+Montserrat-SemiBold, /BVYOFA+Montserrat-Regularheadings-skip, 
+
+### 10021.pdf
+
+- **URL**: https://www.medicare.gov/media/10021
+- **Status**: analysed
+- fonts:/HXCNQO+Gotham-Book, /HXCNQO+Gotham-BookItalic, /HXCNQO+Montserrat-ExtraBold, /SWIBOS+Gotham-Black, /HXCNQO+Gotham-Medium, /HXCNQO+Montserrat-Bold, /HXCNQO+Montserrat-SemiBold, /HXCNQO+Gotham-Bold, /SWIBOS+MinionPro-Regular, /HXCNQO+Montserrat-Mediumheadings-skip, tables-fail, annotations-tagging-fail, 
+
+### 10036.pdf
+
+- **URL**: https://www.medicare.gov/es/media/10036
+- **Status**: analysed
+- fonts:/KFGKVI+Montserrat-ExtraBold, /KFGKVI+Montserrat-Bold, /KFGKVI+Montserrat-Medium, /KFGKVI+Montserrat-SemiBold, /YERCJG+MinionPro-Regular, /KFGKVI+Gotham-Black, /KFGKVI+Gotham-Book, /KFGKVI+Gotham-Medium, /KFGKVI+Gotham-BookItalic, /YERCJG+Gotham-Boldannotations-tagging-fail, 
+
+### 10050-medicare-and-you.pdf
+
+- **URL**: https://www.medicare.gov/publications/10050-medicare-and-you.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### 10056.pdf
+
+- **URL**: https://www.medicare.gov/media/10056
+- **Status**: analysed
+- fonts:/SJUIJN+Gotham-Bold, /SJUIJN+Montserrat-Medium, /PRUNOT+Gotham-Medium, /SJUIJN+Montserrat-ExtraBold, /SJUIJN+Gotham-Book, /SJUIJN+Montserrat-SemiBold, /SPYFEN+Gotham-Book, /NKMERX+Montserrat-Bold, /SJUIJN+Gotham-Medium, /SJUIJN+Gotham-BookItalic, /NKMERX+Gotham-Black, /SJUIJN+Montserrat-Boldlists-warn, tables-fail, annotations-tagging-fail, 
+
+### 10181guidetochoosing-ahospital.pdf
+
+- **URL**: https://www.medicare.gov/publications/10181guidetochoosing-ahospital.pdf
+- **Status**: analysed
+- fonts:/VBZYMD+MinionPro-Regular, /ACVSGX+Montserrat-Bold, /ACVSGX+Montserrat-Regular, /BKFYUV+Gotham-Medium, /ACVSGX+Gotham-Book, /ACVSGX+Gotham-Bold, /ACVSGX+MyriadPro-BoldCond
+
+### 11095-Get-Ready-for-Medicare-package-in-United-States.pdf
+
+- **URL**: https://www.medicare.gov/media/11095-Get-Ready-for-Medicare-package-in-United-States.pdf
+- **Status**: analysed
+- fonts:/OUHVAV+Montserrat-Regular, /SJAVON+Gotham-Bold, /SJAVON+Montserrat-Medium, /OUHVAV+Gotham-Black, /SJAVON+Gotham-Book, /SJAVON+Montserrat-ExtraBold, /SJAVON+Gotham-BookItalic, /OUHVAV+Webdings, /OUHVAV+Gotham-Medium, /FMNAZN+Gotham-Book, /OUHVAV+Wingdings-Regular, /SJAVON+Montserrat-SemiBold, /SJAVON+Montserrat-Boldtables-fail, 
+
+### 11154-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11154-S.pdf
+- **Status**: analysed
+- fonts:/SXDNON+SymbolMT, /UPFJQJ+TimesNewRomanPS-BoldMT, /ZMUSIZ+ArialMT, /KAFBGD+TimesNewRomanPSMT, /NVOEWX+MS-Gothic, /OPZFKV+Gulim, /IQBAEH+MS-Mincho, /QBJLMR+BookAntiqua, /GGVCPG+Cambria, /AYHTWX+TimesNewRomanPS-BoldMT, /YYCCUB+TimesNewRomanPSMT, /SXDNON+Arial-Black, /IYZAEH+MalgunGothicBold, /APVSJS+Arial-BoldMT, /CASELO+SymbolMT, /EXAHAP+MS-Gothic, /SXDNON+SegoeUIalt-nested-fail, headings-none, 
+
+### 11154.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11154.pdf
+- **Status**: analysed
+- fonts:/BZZXXW+BookAntiqua, /NWDRJY+Arial-Black, /MBUNFA+SymbolMT, /AAPRJY+SegoeUI, /UWRMDK+TimesNewRomanPS-BoldMT, /VYANRI+MS-Mincho, /WJUDFG+TimesNewRomanPSMT, /NWDRJY+SymbolMT, /AAPRJY+MS-Gothic, /FAYQBO+Gulim, /VYANRI+MalgunGothicBold, /KXNZTE+MS-Gothic, /LYDKHC+TimesNewRomanPSMT, /XUJBDE+Arial-BoldMT, /DRGTZS+ArialMT, /FXEABO+TimesNewRomanPS-BoldMTalt-nested-fail, 
+
+### 11166-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11166-S.pdf
+- **Status**: analysed
+- fonts:/WUBQXG+SymbolMT, /YOMBHB+BookAntiqua, /RUSRFQ+TimesNewRomanPSMT, /YOMBHB+TimesNewRomanPSMT, /RMSBIP+MS-Gothic, /BWQUPW+TimesNewRomanPS-BoldMT, /MXDINA+Arial-BoldMT, /AKGDEX+MS-Mincho, /WUBQXG+ArialMT, /HPUYDJ+SymbolMT, /AKGDEX+MalgunGothicBold, /MMJCVZ+TimesNewRomanPS-BoldMT, /XNWQTD+Arial-Black, /HPUYDJ+SegoeUI, /LLORCB+Gulim, /HPUYDJ+MS-Gothic, /IYIJRH+TimesNewRomanPSMT, /NNZSJX+ArialMTalt-nested-fail, headings-none, 
+
+### 11166.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11166.pdf
+- **Status**: analysed
+- fonts:/BAJEKW+MalgunGothicBold, /VGPZEI+Arial-Black, /GJDXCM+TimesNewRomanPSMT, /WZHPSG+TimesNewRomanPSMT, /EEYBAQ+BookAntiqua, /YDZMUC+MS-Gothic, /PFLPYU+MS-Gothic, /LCHHUC+Gulim, /Arial-BoldMT, /PFLPYU+SymbolMT, /TimesNewRomanPSMT, /QGBAMS+TimesNewRomanPS-BoldMT, /PQSSKZ+SymbolMT, /PESEYU+ArialMT, /EEYBAQ+SegoeUI, /TGKICM+MS-Mincho, /ArialMT, /BHOOKW+TimesNewRomanPS-BoldMTalt-nested-fail, 
+
+### 11186-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11186-S.pdf
+- **Status**: analysed
+- fonts:/RSSTOL+Arial-Black, /SHDRID+Arial-BoldMT, /DYIYAN+Gulim, /WIXNGB+MS-Gothic, /DQKYAN+MalgunGothicBold, /LFDDIX+TimesNewRomanPS-BoldMT, /RIOOOL+MS-Gothic, /GIOZQH+TimesNewRomanPS-BoldMT, /UHELEF+SymbolMT, /ZZPKWV+SegoeUI, /VXCGSD+TimesNewRomanPSMT, /USWBEF+MS-Mincho, /VMFQSD+ArialMT, /USAYKZ+SymbolMT, /OYCWYR+BookAntiqua, /XLTIUZ+TimesNewRomanPSMTheadings-none, 
+
+### 11186.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11186.pdf
+- **Status**: analysed
+- fonts:/HCRBIE+TimesNewRomanPS-BoldMT, /HFLWIE+MS-Mincho, /HFLWIE+MalgunGothicBold, /RCJESK+Gulim, /MCAAAU+SegoeUI, /REPJSK+Arial-Black, /CCICVO+TimesNewRomanPSMT, /MBHPFU+ArialMT, /JYGAHW+TimesNewRomanPSMT, /XCUDDY+TimesNewRomanPSMT, /WEYIKA+MS-Gothic, /XBHBVU+Arial-BoldMT, /CFCXQO+SymbolMT, /MCAAAU+MS-Gothic, /MISNXQ+ArialMT, /XFTYDY+TimesNewRomanPS-BoldMT, /CFCXQO+BookAntiqua, /NMCTLO+SymbolMT
+
+### 11198-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11198-S.pdf
+- **Status**: analysed
+- tagged-content-fail, fonts:/AAAAAE+ArialMT, /AAAABD+Gulim, /AAAAAH+ArialMT, /TWOKRW+SymbolMT, /AAAAAJ+TimesNewRomanPSMT, /AAAAAZ+MS-Mincho, /AAAAAC+ArialMT, /YYDOJM+TimesNewRomanPSMT, /AAAAAX+MS-Gothic, /AAAABB+MalgunGothicBold, /AAAAAT+Helvetica, /AAAABE+TimesNewRomanPSMT, /IVBWTS+Arial-BoldMT, /AAAAAF+Palatino-Roman, /AAAAAP+Arial-Black, /AAAAAN+TimesNewRomanPS-BoldMT, /TWOKRW+TimesNewRomanPS-BoldMT, /TWOKRW+ArialMT, /AAAAAR+Palatino-Roman, /AAAAAL+Arial-Black, /AAAAAS+Helvetica, /AAAAAQ+SymbolMT, /AAAAAV+TimesNewRomanPSMT, /EHVVCU+Arial-Blackheadings-none, annotations-tagging-fail, 
+
+### 11198.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11198.pdf
+- **Status**: analysed
+- tagged-content-fail, fonts:/AAAAAE+ArialMT, /AAAABB+Gulim, /AAAAAC+ArialMT, /AAAAAV+MS-Gothic, /AAAAAR+Helvetica, /AAAABC+TimesNewRomanPSMT, /AAAAAX+MS-Mincho, /AAAAAN+SymbolMT, /AAAAAG+ArialMT, /AAAAAI+TimesNewRomanPSMT, /CHCAKK+SymbolMT, /AAAAAT+TimesNewRomanPSMT, /Arial-BoldMT, /AAAAAQ+Palatino-Roman, /TimesNewRomanPSMT, /AAAAAK+Arial-Black, /AAAAAP+TimesNewRomanPS-BoldMT, /GHPHEQ+Arial-Black, /AAAAAZ+MalgunGothicBold, /ArialMT, /AAAAAM+Arial-Blackheadings-none, 
+
+### 11199-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11199-S.pdf
+- **Status**: analysed
+- fonts:/GNATPG+ArialMT, /TLIKNG+TimesNewRomanPSMT, /BNWNNV+TimesNewRomanPSMT, /RNCNHV+SymbolMT, /KEFAJD+MS-PGothic, /NPZMZX+TimesNewRomanPSMT, /SIDBRN+SimSun, /GMPZJR+Arial-BoldMT, /PLTOBT+TimesNewRomanPS-BoldMT, /EJSPDP+ArialMT, /NPZMZX+Arial-Black, /SQGBRN+MS-PGothic, /WPRWZL+TimesNewRomanPSMT, /SATMFT+TimesNewRomanPSMT, /ALNRZX+SegoeUIHistoric, /ATIFFN+ArialMT, /SLCWRN+Batang, /WJCUVF+MalgunGothicBold, /RNCNHV+TimesNewRomanPS-BoldMT, /MBHBGU+ArialMT, /WGIEVF+MS-Gothic, /RNCNHV+ArialMT, /EKGADP+TimesNewRomanPS-BoldMTheadings-none, annotations-tagging-fail, 
+
+### 11199.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11199.pdf
+- **Status**: analysed
+- fonts:/JPBOJB+SimSun, /JOIDJB+ArialMT, /DNJODN+TimesNewRomanPSMT, /EHPPRL+TimesNewRomanPSMT, /PRLOVT+SymbolMT, /XCNXCJ+ArialMT, /CMOYPP+TimesNewRomanPS-BoldMT, /TRZRTH+MS-PGothic, /YOHIAH+ArialMT, /Arial-BoldMT, /DOXZDN+MalgunGothicBold, /TimesNewRomanPSMT, /HQOCVP+ArialMT, /MORGZV+BookAntiqua, /YOOALX+MS-Gothic, /YEKVLX+MalgunGothic, /FTDRQO+TimesNewRomanPSMT, /RLBPRL+Arial-BoldMT, /MBUMKA+TimesNewRomanPS-BoldMT, /LWSANW+TimesNewRomanPS-BoldMT, /USCDXP+ArialMT, /FNQQHI+TimesNewRomanPSMT, /JPBOJB+MS-PGothic, /ArialMT
+
+### 11208-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11208-S.pdf
+- **Status**: analysed
+- fonts:/BCDJEE+MalgunGothicBold, /TimesNewRomanPS-BoldMT, /BMTRHL+ArialMT, /BCDHEE+MS-Gothic, /SWIKLD+Arial-Black, /Helvetica, /BCDEEE+SegoeUIHistoric, /BCDGEE+Wingdings-Regular, /GEEQZB+SymbolMT, /BCDKEE+Gulim, /TimesNewRomanPSMT, /BCDFEE+Arial-Black, /SymbolMT, /RXTEXF+TimesNewRomanPSMT, /YKFZRR+Arial-BoldMT, /ArialMT, /BCDIEE+MS Minchoheadings-none, 
+
+### 11208.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11208.pdf
+- **Status**: analysed
+- tagged-content-fail, fonts:/AAAAAW+Palatino-Roman, /AAAAAX+Helvetica, /ZDDFSU+TimesNewRomanPSMT, /AAAABD+MS-Mincho, /EVOEKK+ArialMT, /IBMCOC+TimesNewRomanPS-BoldMT, /AAAAAC+ArialMT, /AAAABB+MS-Gothic, /AAAAAZ+TimesNewRomanPSMT, /AAAAAN+SymbolMT, /AAAAAG+ArialMT, /AAAAAI+Arial-Black, /AAAABH+Gulim, /AAAAAK+TimesNewRomanPSMT, /AAAAAP+Arial-Black, /AAAAAV+TimesNewRomanPS-BoldMT, /AAAAAM+TimesNewRomanPS-BoldMT, /OKORUQ+Arial-BoldMT, /AAAABI+TimesNewRomanPSMT, /AAAABF+MalgunGothicBold, /AAAAAT+ArialMT, /AAAAAR+Wingdings-Regular, /FZYKYI+SymbolMTheadings-none, 
+
+### 11209-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11209-S.pdf
+- **Status**: analysed
+- fonts:/BCDJEE+MalgunGothicBold, /TimesNewRomanPS-BoldMT, /BCDHEE+MS-Gothic, /MTTZCP+SymbolMT, /MLVZCP+Arial-BoldMT, /BSGLEL+TimesNewRomanPSMT, /LUETOR+ArialMT, /Helvetica, /EZUDUF+TimesNewRomanPS-BoldMT, /BCDEEE+SegoeUIHistoric, /BCDGEE+Wingdings-Regular, /BCDKEE+Gulim, /TimesNewRomanPSMT, /BCDFEE+Arial-Black, /SymbolMT, /ArialMT, /BCDIEE+MS Minchoheadings-none, 
+
+### 11209.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11209.pdf
+- **Status**: analysed
+- fonts:/BCDJEE+MalgunGothicBold, /BCDGEE+SegoeUIHistoric, /TimesNewRomanPS-BoldMT, /BCDHEE+MS-Gothic, /LABQAS+TimesNewRomanPSMT, /Helvetica, /UYKSWA+SymbolMT, /BCDKEE+Gulim, /TimesNewRomanPSMT, /SymbolMT, /BCDFEE+Wingdings-Regular, /TZAMIC+ArialMT, /AMMCCO+Arial-BoldMT, /BCDEEE+Arial-Black, /ArialMT, /BCDIEE+MS Minchoheadings-none, 
+
+### 11267-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11267-S.pdf
+- **Status**: analysed
+- fonts:/BCDJEE+MalgunGothicBold, /YQGKVM+ArialMT, /TimesNewRomanPS-BoldMT, /ZCOLJK+SymbolMT, /WNCYTQ+Arial-BoldMT, /BCDHEE+MS-Gothic, /Helvetica, /BCDEEE+SegoeUIHistoric, /BCDGEE+Wingdings-Regular, /LUSKVM+TimesNewRomanPSMT, /BCDKEE+Gulim, /TimesNewRomanPSMT, /BCDFEE+Arial-Black, /SymbolMT, /PFQIZE+TimesNewRomanPS-BoldMT, /ArialMT, /BCDIEE+MS Minchoheadings-none, 
+
+### 11267.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11267.pdf
+- **Status**: analysed
+- fonts:/BCDJEE+MalgunGothicBold, /BCDGEE+SegoeUIHistoric, /TimesNewRomanPS-BoldMT, /CWVWQT+TimesNewRomanPSMT, /BCDHEE+MS-Gothic, /Helvetica, /HJLAIJ+ArialMT, /INVGWH+SymbolMT, /BCDKEE+Gulim, /TimesNewRomanPSMT, /SymbolMT, /BCDFEE+Wingdings-Regular, /BCDEEE+Arial-Black, /ArialMT, /PAMWQT+Arial-BoldMT, /BCDIEE+MS Minchoheadings-none, 
+
+### 11334-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11334-S.pdf
+- **Status**: analysed
+- fonts:/LRLZXM+Arial-BoldMT, /XQXPWO+Gulim, /XRKOWO+ArialMT, /XQXPWO+MalgunGothicBold, /CPSDOE+SymbolMT, /CRTNOE+TimesNewRomanPSMT, /CSMYOE+MS-Gothic, /BCLRNG+TimesNewRomanPSMT, /JWKNVQ+ArialMT, /HOIWGU+BookAntiqua, /SPVFEY+Arial-Black, /MPKGYK+MS-Mincho, /RRZKQA+MS-Gothic, /CPSDOE+TimesNewRomanPS-BoldMT, /HRCMGU+TimesNewRomanPSMT, /HPBHGU+SegoeUI, /XSDZWO+TimesNewRomanPS-BoldMT, /KAZTJO+SymbolMT, /OGXRNG+TimesNewRomanPS-BoldMTheadings-none, 
+
+### 11334.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11334.pdf
+- **Status**: analysed
+- fonts:/WBVAKF+MS-Mincho, /WEPVKF+Gulim, /EFNKSP+TimesNewRomanPSMT, /UOMXIJ+TimesNewRomanPS-BoldMT, /YKGQMB+TimesNewRomanPS-BoldMT, /TYOXUL+MS-Gothic, /ZMOAAZ+TimesNewRomanPSMT, /QCXVER+MS-Gothic, /MVZFAZ+Arial-Black, /REGWSP+MalgunGothicBold, /DXSPER+SymbolMT, /QBEKER+BookAntiqua, /WUZTPG+Arial-BoldMT, /FKTULN+ArialMT, /LZPGMB+SegoeUI, /HVMCNK+SymbolMT
+
+### 11389-Medicare-Getting-Started.pdf
+
+- **URL**: https://www.medicare.gov/publications/11389-Medicare-Getting-Started.pdf
+- **Status**: analysed
+- fonts:/TNJVQL+Gotham-Book, /TNJVQL+Montserrat-Regular, /TNJVQL+Montserrat-Bold, /TNJVQL+Gotham-Medium, /TNJVQL+Gotham-Boldannotations-tagging-fail, 
+
+### 11429-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11429-S.pdf
+- **Status**: analysed
+- fonts:/XUFKLO+Cambria, /CJGJCJ+MS-Gothic, /WICUWV+Gulim, /SMIBSD+SegoeUI, /SMIBSD+SymbolMT, /OODDOL+MS-Mincho, /ZOXBMP+TimesNewRomanPSMT, /KMQUKT+BookAntiqua, /TOCMHW+SymbolMT, /GOLWGB+TimesNewRomanPS-BoldMT, /OLJIOL+TimesNewRomanPSMT, /EZDQEF+MalgunGothicBold, /UOOCUZ+TimesNewRomanPS-BoldMT, /WISJXQ+Arial-BoldMT, /JOUZWV+Arial-Black, /SMIBSD+MS-Gothic, /KMQUKT+ArialMTalt-nested-fail, headings-none, 
+
+### 11429.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11429.pdf
+- **Status**: analysed
+- fonts:/SIQTSD+TimesNewRomanPS-BoldMT, /XIESKT+BookAntiqua, /VABBIX+Gulim, /LICDYR+Arial-Black, /HCWVRJ+SymbolMT, /OMWAOL+TimesNewRomanPSMT, /EKTXEF+ArialMT, /UYKARJ+Arial-BoldMT, /NBCKAN+MalgunGothicBold, /LICDYR+SymbolMT, /NBCKAN+MS-Mincho, /XIESKT+SegoeUI, /DJDHQH+TimesNewRomanPS-BoldMT, /GGNUGB+MS-Gothic, /XIESKT+MS-Gothic, /DBFMQH+TimesNewRomanPSMTalt-nested-fail, 
+
+### 11433.pdf
+
+- **URL**: https://www.cms.gov/Outreach-and-Education/Outreach/Partnerships/downloads/11433.pdf
+- **Status**: analysed
+- tagged-content-fail, fonts:/PGEYBO+Gulim, /WTHPGL+ArialMT, /TimesNewRomanPS-BoldMT, /OMKMLB+ArialMT, /AWVQTY+ArialMT, /DDIJPM+SymbolMT, /EYDZHV+ArialMT, /IDLSYD+Arial, /Arial-BoldMT, /USGRGZ+ArialMT, /TimesNewRomanPSMT, /VERKQD+TimesNewRomanPS-BoldMT, /CEYDBO+TimesNewRomanPS-BoldMT, /KXADQU+TimesNewRomanPSMT, /OPTMDW+ArialMT, /TYZZUB+TimesNewRomanPSMT, /RCIHUA+TimesNewRomanPSMT, /FIDPPO+ArialMT, /ZUCXQP+SymbolMT, /MOGIUV+TimesNewRomanPSMT, /EFNBMG+Arial, /MOLSJF+ArialMT, /WLSOVA+SimSun, /GXHUUB+CourierNewPSMT, /IQDSUX+SymbolMT, /VMRFTI+ArialMT, /BVRPWR+ArialMT, /ZAEGLU+MalgunGothicBold, /VNYBUY+Arial, /ZLLICK+TimesNewRomanPS-BoldMT, /FTKVRI+MS-Gothic, /XVHRTU+Arial, /SXWVRI+SimSun, /NXVPON+Arial-Black, /CHBFVT+TimesNewRomanPSMT, /CZDIOJ+Arial-Black, /DCQNWI+ArialMT, /QHEOCH+TimesNewRomanPS-BoldMT, /XULZJY+TimesNewRomanPSMT, /SCFAED+TimesNewRomanPSMT, /KKPTRD+TimesNewRomanPSMT, /ZFNZAQ+ArialMT, /JPEOVA+MS-PGothic, /HROMGZ+BookAntiqua, /WMZIZB+Arial, /XQUBAU+ArialMT, /QMHCEH+Arial-BoldMT, /JNQFHL+ArialMT, /NHZUON+ArialMT, /LQFPGB+ArialMT, /IJZFYS+ArialMT, /QDFTTX+TimesNewRomanPSMT, /TTVUUB+SymbolMTheadings-none, 
+
+### 11443-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11443-S.pdf
+- **Status**: analysed
+- fonts:/BCDJEE+Gulim, /YKMBBM+SymbolMT, /TimesNewRomanPS-BoldMT, /BCDHEE+MS Mincho, /TimesNewRomanPSMT, /BCDFEE+Arial-Black, /OIOYRG+TimesNewRomanPSMT, /SymbolMT, /QVASBI+TimesNewRomanPSMT, /Helvetica, /BCDGEE+MS-Gothic, /BCDEEE+SegoeUIHistoric, /ArialMT, /BCDIEE+MalgunGothicBold, /ELQQHA+Arial-BoldMTheadings-none, annotations-tagging-fail, 
+
+### 11443.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11443.pdf
+- **Status**: analysed
+- fonts:/Arial-BoldMT, /TimesNewRomanPS-BoldMT, /BCDHEE+MS Mincho, /DXQAPS+TimesNewRomanPSMT, /TimesNewRomanPSMT, /SymbolMT, /MNNXAF+SymbolMT, /BCDFEE+SegoeUIHistoric, /BCDEEE+Arial-Black, /UHATTK+TimesNewRomanPSMT, /Helvetica, /BCDGEE+MS-Gothic, /BCDJEE+Gulim, /ArialMT, /BCDIEE+MalgunGothicBoldheadings-none, annotations-tagging-fail, 
+
+### 11452notice.pdf
+
+- **URL**: https://www.medicare.gov/publications/11452notice.pdf
+- **Status**: analysed
+- fonts:/LOEFPR+TimesNewRomanPSMT, /IDKJSY+ArialMT, /TimesNewRomanPS-BoldMT, /GWPFOC+ArialMT, /GMPWXB+SimSun, /MUNJNA+Arial-Black, /ZQBJNA+ArialMT, /LEIKHS+ArialMT, /MMPJNA+TimesNewRomanPSMT, /VLCIZX+MS-Gothic, /LMYVPR+Gulim, /Arial-Black, /WPWBMB+TimesNewRomanPSMT, /QQKPGI+ArialMT, /LEFIOX+ArialMT, /TimesNewRomanPSMT, /QONEHH+MS-PGothic, /ALLHRN+MalgunGothicBold, /LOEFPR+TimesNewRomanPS-BoldMT, /XWJCAZ+TimesNewRomanPS-BoldMT, /ArialMT, /LOEFPR+BookAntiqua, /LOEFPR+SymbolMT
+
+### 11475-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11475-S.pdf
+- **Status**: analysed
+- fonts:/BCDJEE+MalgunGothicBold, /PZESKZ+SymbolMT, /TimesNewRomanPS-BoldMT, /BCDHEE+MS-Gothic, /BWIRWB+TimesNewRomanPSMT, /QVVDYX+Calibri, /Helvetica, /BCDEEE+SegoeUIHistoric, /BCDGEE+Arial-Black, /DZHDYX+Arial-Black, /BCDKEE+Gulim, /TimesNewRomanPSMT, /BCDFEE+Arial-Black, /SymbolMT, /TXJVOR+ArialMT, /BCDIEE+MS Mincho, /ArialMT, /KMTTSJ+Arial-BoldMTtables-warn, 
+
+### 11475.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11475.pdf
+- **Status**: analysed
+- fonts:/BCDJEE+MalgunGothicBold, /ZOTQNA+ArialMT, /BCDGEE+SegoeUIHistoric, /TimesNewRomanPS-BoldMT, /BCDHEE+MS-Gothic, /Helvetica, /BCDKEE+Gulim, /TimesNewRomanPSMT, /BCDFEE+Arial-Black, /SymbolMT, /LGSPZC+Arial-BoldMT, /BCDEEE+Arial-Black, /BRSCPW+SymbolMT, /ArialMT, /DMTTRS+TimesNewRomanPSMT, /BCDIEE+MS Minchoheadings-none, tables-warn, 
+
+### 11496-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11496-S.pdf
+- **Status**: analysed
+- fonts:/XUFKLO+Cambria, /SPSGTY+ArialMT, /BCDJEE+MalgunGothicBold, /TimesNewRomanPS-BoldMT, /BCDHEE+MS-Gothic, /TOCMHW+SymbolMT, /Helvetica, /BCDEEE+SegoeUIHistoric, /PAGODE+TimesNewRomanPSMT, /BCDGEE+Arial-Black, /CESODE+TimesNewRomanPS-BoldMT, /BCDKEE+Gulim, /WISJXQ+Arial-BoldMT, /PIEODE+Arial-Black, /TimesNewRomanPSMT, /BCDFEE+Arial-Black, /SymbolMT, /ArialMT, /BCDIEE+MS Minchoheadings-none, tables-warn, 
+
+### 11496.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11496.pdf
+- **Status**: analysed
+- fonts:/BCDJEE+MalgunGothicBold, /BCDGEE+SegoeUIHistoric, /TimesNewRomanPS-BoldMT, /BCDHEE+MS-Gothic, /Helvetica, /IDKZMY+SymbolMT, /BCDKEE+Gulim, /TimesNewRomanPSMT, /BCDFEE+Arial-Black, /SymbolMT, /AJLIJO+TimesNewRomanPSMT, /HEATYA+ArialMT, /BCDEEE+Arial-Black, /ArialMT, /PQBULK+Arial-BoldMT, /BCDIEE+MS Minchoheadings-none, tables-warn, 
+
+### 11659-understanding-cms-500-trifold-508c.pdf
+
+- **URL**: https://www.medicare.gov/publications/11659-understanding-cms-500-trifold-508c.pdf
+- **Status**: analysed
+- fonts:/NAEAMC+MyriadPro-Regular, /NAEAMC+MyriadPro-BlackCond, /NAEAMC+ZapfDingbatsITC, /NAEAMC+MyriadPro-Bold, /NAEAMC+MyriadPro-Semibold
+
+### 11659-understanding-cms-500-trifold-may-2023.pdf
+
+- **URL**: https://www.medicare.gov/publications/11659-understanding-cms-500-trifold-may-2023.pdf
+- **Status**: analysed
+- fonts:/FWAGUH+MyriadPro-Semibold, /FWAGUH+MyriadPro-Regular, /FWAGUH+MyriadPro-BlackCond, /FWAGUH+MyriadPro-Bold
+
+### 11659s-understanding-cms-500-trifold-508c.pdf
+
+- **URL**: https://www.medicare.gov/publications/11659s-understanding-cms-500-trifold-508c.pdf
+- **Status**: analysed
+- fonts:/DQISCW+MyriadPro-Bold, /DQISCW+MyriadPro-BlackCond, /DQISCW+ZapfDingbatsITC, /DQISCW+MyriadPro-Regular, /DQISCW+MyriadPro-Semibold
+
+### 11816.pdf
+
+- **URL**: https://www.medicare.gov/es/media/11816
+- **Status**: analysed
+- fonts:/YESWWV+MyriadPro-Semibold, /KMCHOX+MyriadPro-Semibold, /TKYMKF+MyriadPro-Regular, /YESWWV+MyriadPro-BlackCond, /YESWWV+MyriadPro-Regular, /YESWWV+MyriadPro-Bold
+
+### 11871-Welcome-to-Medicare-package-foreign.pdf
+
+- **URL**: https://www.medicare.gov/media/11871-Welcome-to-Medicare-package-foreign.pdf
+- **Status**: analysed
+- fonts:/QHWWHR+Gotham-Bold, /QHWWHR+Gotham-BookItalic, /QHWWHR+Montserrat-SemiBold, /QHWWHR+Gotham-Medium, /QHWWHR+Montserrat-Bold, /QPQUCR+Montserrat-Medium, /QHWWHR+Montserrat-ExtraBold, /QPQUCR+Montserrat-Regular, /QHWWHR+Gotham-Book, /QPQUCR+MinionPro-Regular
+
+### 11873-Sign-up-Part-B-package-US.pdf
+
+- **URL**: https://www.medicare.gov/media/11873-Sign-up-Part-B-package-US.pdf
+- **Status**: analysed
+- fonts:/EZHBAP+Montserrat-Bold, /EQBPAP+Montserrat-Black, /EZHBAP+Gotham-BookItalic, /EZHBAP+Gotham-Bold, /EZHBAP+Gotham-Book, /EZHBAP+Montserrat-SemiBold, /EZHBAP+Montserrat-ExtraBold, /EZHBAP+Montserrat-Medium, /EZHBAP+Gotham-Mediumtables-fail, annotations-tagging-fail, 
+
+### 11873-s-sign-up-for-part-b.pdf
+
+- **URL**: https://www.medicare.gov/es/publications/11873-s-sign-up-for-part-b.pdf
+- **Status**: analysed
+- fonts:/ZZYDYZ+Montserrat-ExtraBold, /ZZYDYZ+Montserrat-Bold, /ZZYDYZ+Montserrat-Medium, /ZZYDYZ+Montserrat-SemiBold, /WIYBIF+Montserrat-Regular, /WIYBIF+Montserrat-Black, /ZZYDYZ+Gotham-Medium, /ZZYDYZ+Gotham-BookItalic, /ZZYDYZ+Gotham-Book, /ZZYDYZ+Gotham-Boldtables-fail, annotations-tagging-fail, 
+
+### 11874-Sign-up-Part-B-package-Puerto-Rico.pdf
+
+- **URL**: https://www.medicare.gov/media/11874-Sign-up-Part-B-package-Puerto-Rico.pdf
+- **Status**: analysed
+- fonts:/MOEXIZ+Montserrat-ExtraBold, /MOEXIZ+Montserrat-Bold, /MOEXIZ+Gotham-Medium, /MOEXIZ+Montserrat-Medium, /MOEXIZ+Gotham-Book, /MOEXIZ+Gotham-Bold, /MOEXIZ+Gotham-BookItalic, /SWHHJN+Gotham-Black, /MOEXIZ+Montserrat-SemiBoldtables-fail, annotations-tagging-fail, 
+
+### 11915-2024508.pdf
+
+- **URL**: https://www.medicare.gov/publications/11915-2024508.pdf
+- **Status**: analysed
+- fonts:/XWOQDM+MyriadPro-Regular, /CVZXMO+MyriadPro-Regular, /XWOQDM+MyriadPro-Bold, /PGEYBO+Gulim, /TimesNewRomanPS-BoldMT, /FTKVRI+MS-Gothic, /SXWVRI+SimSun, /XWOQDM+MinionPro-Regular, /CEJJCY+MyriadPro-Regular, /XULZJY+TimesNewRomanPSMT, /JPEOVA+MS-PGothic, /TimesNewRomanPSMT, /CEYDBO+TimesNewRomanPS-BoldMT, /XWOQDM+MinionPro-Bold, /UWHEYK+MyriadPro-Regular, /ArialMT, /WLSOVA+SimSun, /ZAEGLU+MalgunGothicBoldheadings-none, 
+
+### 11915-s-2024508.pdf
+
+- **URL**: https://www.medicare.gov/es/publications/11915-s-2024508.pdf
+- **Status**: analysed
+- fonts:/XWOQDM+MyriadPro-Regular, /NCYBDT+Arial-Black, /PGEYBO+Gulim, /TimesNewRomanPS-BoldMT, /RBNJLA+TimesNewRomanPSMT, /AAWMPO+Arial-Black, /FTKVRI+MS-Gothic, /QRKTTN+MyriadPro-Regular, /HIHNUO+MyriadPro-Regular, /SXWVRI+SimSun, /IXDSFI+MyriadPro-Regular, /URUCJA+TimesNewRomanPSMT, /XWOQDM+MinionPro-Regular, /EXNJPF+MinionPro-Regular, /XULZJY+TimesNewRomanPSMT, /JPEOVA+MS-PGothic, /VTZXLD+TimesNewRomanPSMT, /TimesNewRomanPSMT, /PGBTYK+MyriadPro-Regular, /CEYDBO+TimesNewRomanPS-BoldMT, /XWOQDM+MinionPro-Bold, /XYIUZU+Arial-Black, /AAULNN+MyriadPro-Regular, /WLSOVA+SimSun, /ZAEGLU+MalgunGothicBoldheadings-none, 
+
+### 11952-2024508.pdf
+
+- **URL**: https://www.medicare.gov/publications/11952-2024508.pdf
+- **Status**: analysed
+- fonts:/VGUEBQ+MinionPro-Bold, /PGEYBO+Gulim, /TimesNewRomanPS-BoldMT, /FTKVRI+MS-Gothic, /SXWVRI+SimSun, /XULZJY+TimesNewRomanPSMT, /ANBBQT+MyriadPro-Regular, /JPEOVA+MS-PGothic, /ILRTIM+MyriadPro-Regular, /TimesNewRomanPSMT, /CEYDBO+TimesNewRomanPS-BoldMT, /VGUEBQ+MyriadPro-Bold, /VGUEBQ+MyriadPro-Regular, /WLSOVA+SimSun, /AQHSFI+MyriadPro-Regular, /VGUEBQ+MinionPro-Regular, /ZAEGLU+MalgunGothicBoldheadings-none, 
+
+### 11952-s-2024508.pdf
+
+- **URL**: https://www.medicare.gov/es/publications/11952-s-2024508.pdf
+- **Status**: analysed
+- fonts:/VGUEBQ+MinionPro-Bold, /PGEYBO+Gulim, /TimesNewRomanPS-BoldMT, /FTKVRI+MS-Gothic, /MWFOHV+MyriadPro-Regular, /LNODBM+MinionPro-Regular, /SXWVRI+SimSun, /ZSUNJU+MyriadPro-Regular, /NKPXAC+MyriadPro-Regular, /QZYGWC+MyriadPro-Regular, /OYKEOR+Arial-Black, /XULZJY+TimesNewRomanPSMT, /MVLSMV+Arial-Black, /JPEOVA+MS-PGothic, /TimesNewRomanPSMT, /NQNPDI+MyriadPro-Regular, /CEYDBO+TimesNewRomanPS-BoldMT, /WPLAWB+TimesNewRomanPSMT, /VGUEBQ+MyriadPro-Regular, /WLSOVA+SimSun, /VGUEBQ+MinionPro-Regular, /ZAEGLU+MalgunGothicBoldheadings-none, 
+
+### 11989-Welcome-to-Medicare-packate-Puerto-Rico.pdf
+
+- **URL**: https://www.medicare.gov/media/11989-Welcome-to-Medicare-packate-Puerto-Rico.pdf
+- **Status**: analysed
+- fonts:/ZCJPWJ+MyriadPro-Semibold, /ZCJPWJ+MyriadPro-Bold, /ZCJPWJ+MyriadPro-Regular, /ZCJPWJ+MinionPro-Bold, /BYDBYF+MinionPro-Semibold, /BYDBYF+Times-Bold, /ZCJPWJ+MinionPro-Regular
+
+### 12020-Welcome-to-Medicare-0.pdf
+
+- **URL**: https://www.medicare.gov/media/12020-Welcome-to-Medicare.pdf?linkit_matcher=1
+- **Status**: analysed
+- fonts:/PWMDYT+Gotham-Medium, /PWMDYT+Montserrat-SemiBold, /PWMDYT+Gotham-Bold, /PWMDYT+Gotham-BookItalic, /PSWBOT+Montserrat-Bold, /PWMDYT+Montserrat-ExtraBold, /PSWBOT+MinionPro-Regular, /PWMDYT+Montserrat-Medium, /PWMDYT+Montserrat-Bold, /PWMDYT+Gotham-Booklists-warn, tables-fail, annotations-tagging-fail, 
+
+### 12020-Welcome-to-Medicare.pdf
+
+- **URL**: https://www.medicare.gov/media/12020-Welcome-to-Medicare.pdf
+- **Status**: analysed
+- fonts:/PWMDYT+Gotham-Medium, /PWMDYT+Montserrat-SemiBold, /PWMDYT+Gotham-Bold, /PWMDYT+Gotham-BookItalic, /PSWBOT+Montserrat-Bold, /PWMDYT+Montserrat-ExtraBold, /PSWBOT+MinionPro-Regular, /PWMDYT+Montserrat-Medium, /PWMDYT+Montserrat-Bold, /PWMDYT+Gotham-Booklists-warn, tables-fail, annotations-tagging-fail, 
+
+### 12095-Eng-Span-letter-508.pdf
+
+- **URL**: https://www.medicare.gov/media/12095-Eng-Span-letter-508.pdf
+- **Status**: analysed
+- fonts:/WTKRPZ+MinionPro-Bold, /WTKRPZ+MinionPro-Regular, /WTKRPZ+MyriadPro-Regular, /WTKRPZ+MyriadPro-Bold
+
+### 12096-Eng-Span-letter-508.pdf
+
+- **URL**: https://www.medicare.gov/media/12096-Eng-Span-letter-508.pdf
+- **Status**: analysed
+- fonts:/DIKFEL+MinionPro-Regular, /DIKFEL+MinionPro-Bold, /DIKFEL+MyriadPro-Regular, /DIKFEL+MyriadPro-Bold
+
+### 12097-Eng-Span-letter-508.pdf
+
+- **URL**: https://www.medicare.gov/media/12097-Eng-Span-letter-508.pdf
+- **Status**: analysed
+- fonts:/DEXHJL+MinionPro-Regular, /DEXHJL+MinionPro-Bold, /DEXHJL+MyriadPro-Bold, /DEXHJL+MyriadPro-Regular
+
+### 12098-Eng-Span-letter-508.pdf
+
+- **URL**: https://www.medicare.gov/media/12098-Eng-Span-letter-508.pdf
+- **Status**: analysed
+- fonts:/JFHPKZ+TimesNewRomanPSMT, /JFHPKZ+MinionPro-Bold, /JFHPKZ+MinionPro-Regular, /JFHPKZ+MyriadPro-Regular, /JFHPKZ+MyriadPro-Bold, /JFHPKZ+Times-Roman
+
+### 12099-Eng-Span-letter-508.pdf
+
+- **URL**: https://www.medicare.gov/media/12099-Eng-Span-letter-508.pdf
+- **Status**: analysed
+- fonts:/SOURGH+MinionPro-Bold, /SOURGH+TimesNewRomanPSMT, /SOURGH+MinionPro-Regular, /SOURGH+MyriadPro-Bold, /SOURGH+MyriadPro-Regular
+
+### 12100-Eng-Span-letter-508.pdf
+
+- **URL**: https://www.medicare.gov/media/12100-Eng-Span-letter-508.pdf
+- **Status**: analysed
+- fonts:/IYJJWB+TimesNewRomanPSMT, /IYJJWB+MinionPro-Bold, /IYJJWB+MyriadPro-Bold, /IYJJWB+MinionPro-Regular, /IYJJWB+MyriadPro-Regular, /IYJJWB+Times-Roman
+
+### 12101-Eng-Span-letter-508.pdf
+
+- **URL**: https://www.medicare.gov/media/12101-Eng-Span-letter-508.pdf
+- **Status**: analysed
+- fonts:/WROPKZ+MinionPro-Regular, /WROPKZ+Times-Roman, /WROPKZ+MyriadPro-Regular, /WROPKZ+MyriadPro-Bold, /WROPKZ+TimesNewRomanPSMT, /WROPKZ+MinionPro-Bold
+
+### 12112-understanding-mep-trifold-508c.pdf
+
+- **URL**: https://www.medicare.gov/publications/12112-understanding-mep-trifold-508c.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12112s-understanding-mep-trifold-508c.pdf
+
+- **URL**: https://www.medicare.gov/publications/12112s-understanding-mep-trifold-508c.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12116-Welcome-to-Medicare.pdf
+
+- **URL**: https://www.medicare.gov/media/12116-Welcome-to-Medicare.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12116-s-bienvenido-a-medicare.pdf
+
+- **URL**: https://www.medicare.gov/publications/12116-s-bienvenido-a-medicare.pdf?linkit_matcher=1
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12130nursing-home-checklist508.pdf
+
+- **URL**: https://www.medicare.gov/publications/12130nursing-home-checklist508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12172-3-things-to-know-about-medicare-insulin-costs.pdf
+
+- **URL**: https://www.medicare.gov/publications/12172-3-things-to-know-about-medicare-insulin-costs.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12177-2023-02-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/12177-2023-02-508.pdf?linkit_matcher=1
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12181-3-6-24.pdf
+
+- **URL**: https://www.medicare.gov/publications/12181-3-6-24.pdf?linkit_matcher=1
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12181-s-3-5-24-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/12181-s-3-5-24-508.pdf?linkit_matcher=1
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2012-annual-cms-plain-language-report-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2012-annual-cms-plain-language-report-508.pdf?linkit_matcher=1
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2013-annual-cms-plain-language-report-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2013-annual-cms-plain-language-report-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2014-annual-cms-plain-language-report-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2014-annual-cms-plain-language-report-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2015-annual-cms-plain-language-report-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2015-annual-cms-plain-language-report-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2016-annual-cms-plain-language-report-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2016-annual-cms-plain-language-report-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2017-annual-cms-plain-language-report-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2017-annual-cms-plain-language-report-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2018-annual-cms-plain-language-report-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2018-annual-cms-plain-language-report-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2019-annual-CMS-plain-language-report.pdf
+
+- **URL**: https://www.medicare.gov/media/2019-annual-CMS-plain-language-report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2020-Annual-Plain-Writing-Report.pdf
+
+- **URL**: https://www.medicare.gov/media/2020-Annual-Plain-Writing-Report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2021-annual-CMS-plain-language-report.pdf
+
+- **URL**: https://www.medicare.gov/media/2021-annual-CMS-plain-language-report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2022-annual-cms-plain-language-report-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2022-annual-cms-plain-language-report-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2023-annual-cms-plain-language-report.pdf
+
+- **URL**: https://www.medicare.gov/publications/2023-annual-cms-plain-language-report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024-annual-cms-plain-language-report-final.pdf
+
+- **URL**: https://www.medicare.gov/publications/2024-annual-cms-plain-language-report-final.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2025-annual-cms-plain-language-report-final.pdf
+
+- **URL**: https://www.medicare.gov/publications/2025-annual-cms-plain-language-report-final.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2025-my-national-english-other-languages-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2025-my-national-english-other-languages-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-annual-cms-plain-language-report-final-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2026-annual-cms-plain-language-report-final-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CMS10106.pdf
+
+- **URL**: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/Downloads/CMS10106.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CMS10106S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/Downloads/CMS10106S.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CMS1490S-Spanish.pdf
+
+- **URL**: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/Downloads/CMS1490S-Spanish.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CMS20027.pdf
+
+- **URL**: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/downloads/CMS20027.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CMS2728.pdf
+
+- **URL**: https://www.cms.gov/medicare/cms-forms/cms-forms/downloads/CMS2728.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CMS40B-E.pdf
+
+- **URL**: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/Downloads/CMS40B-E.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DFC_checklist_11-26-19_508.pdf
+
+- **URL**: https://www.medicare.gov/care-compare/en/assets/resources/dialysis-facility/DFC_checklist_11-26-19_508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### G-HI_00815.025-1.pdf
+
+- **URL**: https://secure.ssa.gov/apps10/public/pomsimages.nsf/gfx_num/G-HI_00815.025-1/$File/G-HI_00815.025-1.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### ARS%20Worker%20handout_2023-acc.pdf
+
+- **URL**: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2023-06/ARS%20Worker%20handout_2023-acc.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### BantheBox_Brochure_r2Final_opt_tcm1061-335905.pdf
+
+- **URL**: https://mn.gov/mdhr/assets/BantheBox_Brochure_r2Final_opt_tcm1061-335905.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CareerForce%20student%20focused%20flyer%202025_ACC.pdf
+
+- **URL**: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2025-04/CareerForce%20student%20focused%20flyer%202025_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CareerForce_Brochure_Veterans%20Helping%20Veterans-2026_ACC.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2026-03/CareerForce_Brochure_Veterans%20Helping%20Veterans-2026_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CareerForce_High%20School%20handout-2025_ACC.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2025-12/CareerForce_High%20School%20handout-2025_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CareerForce_High%20School%20poster-2025_ACC.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2025-12/CareerForce_High%20School%20poster-2025_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Central-Minnesota-2024_tcm1045-288717.pdf
+
+- **URL**: https://mn.gov/deed/assets/Central-Minnesota-2024_tcm1045-288717.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DIMI%20structure%20handout_ACC.pdf
+
+- **URL**: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2023-07/DIMI%20structure%20handout_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Employment--Training-Contact-Record.pdf
+
+- **URL**: https://www.scottcountymn.gov/DocumentCenter/View/13569/Employment--Training-Contact-Record?bidId=
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Federal%20Bonding%20Program%20handout_ACC.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2026-07/Federal%20Bonding%20Program%20handout_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### How%20DEED%20helps%20employers%20handout%202025_ACC.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2025-04/How%20DEED%20helps%20employers%20handout%202025_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### MN%20Job%20Quality%20Principles%20handout_ACC.pdf
+
+- **URL**: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2024-02/MN%20Job%20Quality%20Principles%20handout_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### MNWorks%20Job%20Seeker%20Guide%202019_ACC.pdf
+
+- **URL**: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2019-03/MNWorks%20Job%20Seeker%20Guide%202019_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### MNWorksEmployersBrochure2019_ACC.pdf
+
+- **URL**: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2019-03/MNWorksEmployersBrochure2019_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### MnDOT-DEED%20Highway%20Construction%20Cement%20Masons%20postcard%201-2026_ACC.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2026-02/MnDOT-DEED%20Highway%20Construction%20Cement%20Masons%20postcard%201-2026_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### MnDOT-DEED%20Highway%20Construction%20Training%20flyer_ACC.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2026-02/MnDOT-DEED%20Highway%20Construction%20Training%20flyer_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Northeast-Minnesota-2024_tcm1045-288725.pdf
+
+- **URL**: https://mn.gov/deed/assets/Northeast-Minnesota-2024_tcm1045-288725.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Northwest-Minnesota-2024_tcm1045-288726.pdf
+
+- **URL**: https://mn.gov/deed/assets/Northwest-Minnesota-2024_tcm1045-288726.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Pre-Application%202026%20MnDOT_ACC%20fillable%20FINAL.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2026-02/Pre-Application%202026%20MnDOT_ACC%20fillable%20FINAL.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Southeast-Minnesota-2024_tcm1045-288727.pdf
+
+- **URL**: https://mn.gov/deed/assets/Southeast-Minnesota-2024_tcm1045-288727.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Southwest-Minnesota-2024_tcm1045-288728.pdf
+
+- **URL**: https://mn.gov/deed/assets/Southwest-Minnesota-2024_tcm1045-288728.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Technical%20Guidance%20364.021_tcm1061-213501.pdf
+
+- **URL**: https://mn.gov/mdhr/assets/Technical%20Guidance%20364.021_tcm1061-213501.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Teen%20Caring%20Career%20Resource%20Handout_ACC.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2025-08/Teen%20Caring%20Career%20Resource%20Handout_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### TeenJobFairEmployerList.pdf
+
+- **URL**: https://www.co.dakota.mn.us/libraries/Programs/Teens/Documents/TeenJobFairEmployerList.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### TwinCities-2024_tcm1045-288722.pdf
+
+- **URL**: https://mn.gov/deed/assets/TwinCities-2024_tcm1045-288722.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### VetCareerFair%202026%20Directory-acc.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2026-05/VetCareerFair%202026%20Directory-acc.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### dei-employer-guide-acc.pdf
+
+- **URL**: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2020-09/dei-employer-guide-acc.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### dimi-membership-agreement-acc.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2025-06/dimi-membership-agreement-acc.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### econ-dev-resource-guide_tcm1045-153149.pdf
+
+- **URL**: https://mn.gov/deed/assets/econ-dev-resource-guide_tcm1045-153149.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### employer-reasonable-accommodation-fund-acc_tcm1045-595953.pdf
+
+- **URL**: https://mn.gov/deed/assets/employer-reasonable-accommodation-fund-acc_tcm1045-595953.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### employment-resource-guide.pdf
+
+- **URL**: https://apps.deed.state.mn.us/assets/employment-resource-guide.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### f8826.pdf
+
+- **URL**: https://www.irs.gov/pub/irs-pdf/f8826.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### right-fair-treatment_tcm1045-363157.pdf
+
+- **URL**: https://mn.gov/deed/assets/right-fair-treatment_tcm1045-363157.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### wioa-discrimination-complaint_tcm1045-596623.pdf
+
+- **URL**: https://mn.gov/deed/assets/wioa-discrimination-complaint_tcm1045-596623.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### 191001-ministerrat.pdf
 
@@ -67862,6 +70562,270 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-SPED.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.759241+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-BOURGAIL-2025.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-ZA-BOURGAIL-2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.762600+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-BOURGAIL-2026.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-ZA-BOURGAIL-2026.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.766136+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-BOUSSENS-2025.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-ZA-BOUSSENS-2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.769450+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-BOUSSENS-2026.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-ZA-BOUSSENS-2026.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.772957+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-DESCAILLAUX-2025.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-ZA-DESCAILLAUX-2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.776275+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-DESCAILLAUX-2026.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-ZA-DESCAILLAUX-2026.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.779827+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-LHERM-2025-0.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-ZA-LHERM-2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.783334+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-LHERM-2025.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-ZA-LHERM-2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.786657+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-MARTRES-2025.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-ZA-MARTRES-2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.790007+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-MARTRES-2026.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-ZA-MARTRES-2026.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.793533+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-STE-FOY-2025.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-ZA-STE-FOY-2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.796901+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-STE-FOY-2026.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-ZA-STE-FOY-2026.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.800408+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Berat-2026.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/12/Berat-2026.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.807813+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Boussens-2026.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/12/Boussens-2026.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.815206+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-BUDGET-PRINCIPAL-4.04.19.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-BUDGET-PRINCIPAL-4.04.19.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.823098+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-PDR-1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-PDR-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.830528+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-PDR.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-PDR.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.837438+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-BOURGAIL.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-BOURGAIL.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.844422+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-BOUSSENS-1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-BOUSSENS-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.851804+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-BOUSSENS.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-BOUSSENS.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.858907+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-DESCAILLAUX-2.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-DESCAILLAUX-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.866051+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-DESCAILLAUX.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-DESCAILLAUX.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.873201+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-LHERM-1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-LHERM-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.880767+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-LHERM.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-LHERM.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.887905+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-MARTRES-TOLOSANE-1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-MARTRES-TOLOSANE-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.895275+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-MARTRES-TOLOSANE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-MARTRES-TOLOSANE.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.902363+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-STE-FOY-1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-STE-FOY-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.909853+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-STE-FOY.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-STE-FOY.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.916957+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M22-2020.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/Budget-M22-2020.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.920770+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M22-2021.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-M22-2021.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.924459+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M22-2022-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/Budget-M22-2022-VOTE.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.928323+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M22-2023-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/Budget-M22-2023-VOTE.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.932194+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M22-SAD-1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M22-SAD-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.936044+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M22-SAD.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M22-SAD.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.939742+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M4-PHOTOVOLTAIQUE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M4-PHOTOVOLTAIQUE.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.946537+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M4-Photovoltaique.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M4-Photovoltaique.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.952996+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M49-EAU.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M49-EAU.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.959864+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-OTI-2021.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-OTI-2021.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.965086+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-PDR-2021.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-PDR-2021.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.970323+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-Photovoltaique-2021.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-Photovoltaique-2021.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.973090+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-Principal-3CG-2021.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-Principal-3CG-2021.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.979345+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-ZA-Bourgail-a-Berat-2021.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-ZA-Bourgail-a-Berat-2021.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.984527+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-ZA-Boussens-2021.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-ZA-Boussens-2021.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.989706+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-ZA-DESCAILLAUX-2021.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-ZA-DESCAILLAUX-2021.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.994858+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 7577Birth-certificates-and-source-documents-FAQ.pdf
 
