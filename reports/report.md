@@ -53901,6 +53901,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - fonts:/CWYWFU+Roboto-Regular, /XENXNE+ArialMT, /NUMPDY+Calibri-Bold, /ZHMJPA+SymbolMT, /SUATVO+TimesNewRomanPSMT, /ZESOPA+Calibri, /CJABFU+Calibri-BoldItalic, /SUATVO+MS-Gothic, /UHDKXK+Calibri-Light, /MDAJPA+Calibri-Italictables-warn, 
 
+### PIA%20Guide%20Aug%202023_0.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-08/PIA%20Guide%20Aug%202023_0.pdf
+- **Status**: analysed
+- fonts:/CWYWFU+Roboto-Regular, /XENXNE+ArialMT, /NUMPDY+Calibri-Bold, /ZHMJPA+SymbolMT, /SUATVO+TimesNewRomanPSMT, /ZESOPA+Calibri, /CJABFU+Calibri-BoldItalic, /SUATVO+MS-Gothic, /UHDKXK+Calibri-Light, /MDAJPA+Calibri-Italictables-warn, 
+
 ### advanced-instrumentation-information-and-control-system-technologies-nondestructive.pdf
 
 - **URL**: https://www.energy.gov/ne/articles/advanced-instrumentation-information-and-control-system-technologies-nondestructive
