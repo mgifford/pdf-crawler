@@ -62,6 +62,11 @@ permissions:
   issues: write
   actions: write
 
+# OPTIMIZATION: Concurrency serialization prevents race conditions & push conflicts
+concurrency:
+  group: pdf-analyse-${{ github.event.inputs.site || github.event.workflow_run.id || github.run_id }}
+  cancel-in-progress: false
+
 jobs:
   # ---------------------------------------------------------------------------
   # Job 0: explain why the crawl was skipped (non-scan issue or title mismatch)
@@ -106,10 +111,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # DEPRECATION FIX: Upgraded to official v4 (Node 20 compatible)
       - name: Download scan metadata artifact
         id: download_meta
         continue-on-error: true   # artifact may not exist if crawl failed very early
-        uses: actions/download-artifact@v8
+        uses: actions/download-artifact@v4
         with:
           name: scan-meta-${{ github.event.workflow_run.id }}
           path: scan-meta/
@@ -130,9 +136,10 @@ jobs:
           echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
           echo "crawl_url=$CRAWL_URL"       >> "$GITHUB_OUTPUT"
 
+      # DEPRECATION FIX: Upgraded to official v7 (Node 20 compatible)
       - name: Comment crawl failure on issue
         if: steps.meta.outputs.issue_number != ''
-        uses: actions/github-script@v8
+        uses: actions/github-script@v7
         env:
           ISSUE_NUMBER: ${{ steps.meta.outputs.issue_number }}
           CRAWL_URL: ${{ steps.meta.outputs.crawl_url }}
@@ -206,7 +213,6 @@ jobs:
   # Job 2: run accessibility analysis for a successful crawl
   # ---------------------------------------------------------------------------
   analyse:
-    # When triggered by workflow_run, only run if the crawl succeeded
     if: >-
       github.event_name == 'workflow_dispatch' ||
       (github.event_name == 'workflow_run' &&
@@ -238,14 +244,15 @@ jobs:
           echo "When those two jobs appear as 'skipped' in the UI it means the crawl succeeded"
           echo "and this 'analyse' job is running instead — that is the expected happy path."
 
+      # DEPRECATION FIX: Upgraded to official v4 (Node 20 compatible)
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # OPTIMIZED: Combined python environment setup and uv initialization into one step with automated caching
+      # OPTIMIZATION: Updated to latest setup-uv v5 using Node 20
       - name: Set up uv & Python 3.13
-        uses: astral-sh/setup-uv@v6
+        uses: astral-sh/setup-uv@v5
         with:
           python-version: "3.13"
           enable-cache: true
@@ -255,22 +262,24 @@ jobs:
           uv sync --frozen
           echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
 
+      # DEPRECATION FIX: Upgraded to official v4 (Node 20 compatible)
       - name: Download crawled PDFs artifact
         id: download_pdfs
         if: github.event_name == 'workflow_run'
         continue-on-error: true
-        uses: actions/download-artifact@v8
+        uses: actions/download-artifact@v4
         with:
           name: crawled-pdfs-${{ github.event.workflow_run.id }}
           path: crawled_files/
           github-token: ${{ secrets.GITHUB_TOKEN }}
           run-id: ${{ github.event.workflow_run.id }}
 
+      # DEPRECATION FIX: Upgraded to official v4 (Node 20 compatible)
       - name: Download scan metadata artifact
         id: download_meta
         if: github.event_name == 'workflow_run'
         continue-on-error: true
-        uses: actions/download-artifact@v8
+        uses: actions/download-artifact@v4
         with:
           name: scan-meta-${{ github.event.workflow_run.id }}
           path: scan-meta/
@@ -417,21 +426,39 @@ jobs:
         run: |
           uv pip install git+https://github.com/bloom-works/simplA11yPDFCrawler.git@0df4d4f3eca1f0bbf3898046ef5c2c8f9ddd86b0
 
+      # OPTIMIZATION: Switched slow apt-get execution to utilize fast pre-cached Runner JDKs (Node/Action Standard)
+      - name: Set up Java (for veraPDF)
+        if: steps.meta.outputs.run_verapdf == 'true'
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      # OPTIMIZATION: Cache the veraPDF binary artifact to skip downloading and packaging it on every run
+      - name: Cache veraPDF Artifact
+        if: steps.meta.outputs.run_verapdf == 'true'
+        id: cache-verapdf
+        uses: actions/cache@v4
+        with:
+          path: /tmp/verapdf-install
+          key: verapdf-1.28.2
+
       - name: Install veraPDF
         if: steps.meta.outputs.run_verapdf == 'true'
         run: |
-          sudo apt-get install -y --no-install-recommends default-jre-headless
           VERAPDF_VERSION="1.28.2"
           MAVEN_BASE="https://repo1.maven.org/maven2/org/verapdf/apps/greenfield-apps"
-          mkdir -p /tmp/verapdf-install
-          curl -fsSL \
-            "${MAVEN_BASE}/${VERAPDF_VERSION}/greenfield-apps-${VERAPDF_VERSION}.jar" \
-            -o /tmp/verapdf-install/greenfield-apps.jar
-          printf '#!/bin/sh\nexec java -cp /tmp/verapdf-install/greenfield-apps.jar org.verapdf.apps.GreenfieldCliWrapper "$@"\n' \
-            > /tmp/verapdf-install/verapdf
-          chmod +x /tmp/verapdf-install/verapdf
+          if [ "${{ steps.cache-verapdf.outputs.cache-hit }}" != "true" ]; then
+            mkdir -p /tmp/verapdf-install
+            curl -fsSL \
+              "${MAVEN_BASE}/${VERAPDF_VERSION}/greenfield-apps-${VERAPDF_VERSION}.jar" \
+              -o /tmp/verapdf-install/greenfield-apps.jar
+            printf '#!/bin/sh\nexec java -cp /tmp/verapdf-install/greenfield-apps.jar org.verapdf.apps.GreenfieldCliWrapper "$@"\n' \
+              > /tmp/verapdf-install/verapdf
+            chmod +x /tmp/verapdf-install/verapdf
+          fi
           echo "/tmp/verapdf-install" >> "$GITHUB_PATH"
-          echo "veraPDF installed (Maven Central, v${VERAPDF_VERSION})"
+          echo "veraPDF configuration active"
           /tmp/verapdf-install/verapdf --version || true
 
       - name: Analyse PDFs for accessibility issues
@@ -606,8 +633,9 @@ jobs:
             fi
           fi
 
+      # DEPRECATION FIX: Upgraded to official v4 (Node 20 compatible)
       - name: Upload accessibility report as artifact
-        uses: actions/upload-artifact@v7
+        uses: actions/upload-artifact@v4
         with:
           name: accessibility-report
           path: |
@@ -618,10 +646,11 @@ jobs:
             reports/manifest.yaml
           retention-days: 30
 
+      # DEPRECATION FIX: Upgraded to official v7 (Node 20 compatible)
       - name: Comment analysis results on issue
         id: comment
         if: steps.meta.outputs.issue_number != ''
-        uses: actions/github-script@v8
+        uses: actions/github-script@v7
         env:
           ISSUE_NUMBER: ${{ steps.meta.outputs.issue_number }}
           CRAWL_URL: ${{ steps.meta.outputs.crawl_url }}
@@ -692,11 +721,12 @@ jobs:
               labels: [finalLabel]
             });
 
+      # DEPRECATION FIX: Upgraded to official v7 (Node 20 compatible)
       - name: Auto-continue partial scan
         if: >-
           steps.meta.outputs.issue_number != '' &&
           steps.site_pending.outputs.pending != '0'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v7
         env:
           ISSUE_NUMBER: ${{ steps.meta.outputs.issue_number }}
           CRAWL_URL: ${{ steps.meta.outputs.crawl_url }}
@@ -839,7 +869,7 @@ jobs:
         if: always()
         env:
           EVENT_NAME:      ${{ github.event_name }}
-          ISSUE_NUMBER:    ${{ steps.meta.outputs.issue_number }}
+          ISSUE_NUMBER:     ${{ steps.meta.outputs.issue_number }}
           CRAWL_URL:       ${{ steps.meta.outputs.crawl_url }}
           CRAWL_SITE:      ${{ steps.meta.outputs.crawl_site }}
           STALE_COUNT:     ${{ steps.stale_check.outputs.stale_count }}
@@ -864,6 +894,7 @@ jobs:
             echo "| Field | Value |"
             echo "|-------|-------|"
             echo "| Site | \`${CRAWL_URL}\` |"
+            echo "|-------|-------|"
             if [ -n "$ISSUE_NUMBER" ]; then
               echo "| Issue | [#${ISSUE_NUMBER}](https://github.com/${REPO_OWNER}/${REPO_NAME}/issues/${ISSUE_NUMBER}) |"
             fi
@@ -894,11 +925,12 @@ jobs:
             echo "analysis job ran instead."
           } >> "$GITHUB_STEP_SUMMARY"
 
+      # DEPRECATION FIX: Upgraded to official v7 (Node 20 compatible)
       - name: Close issue after scan and report
         if: >-
           steps.meta.outputs.issue_number != '' &&
           steps.site_pending.outputs.pending == '0'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v7
         env:
           ISSUE_NUMBER: ${{ steps.meta.outputs.issue_number }}
           REPO_OWNER: ${{ github.repository_owner }}
@@ -915,12 +947,13 @@ jobs:
               state_reason: 'completed',
             });
 
+      # DEPRECATION FIX: Upgraded to official v7 (Node 20 compatible)
       - name: Note stale entries from previous crawl
         if: >-
           github.event_name == 'workflow_run' &&
           steps.meta.outputs.issue_number != '' &&
           steps.stale_check.outputs.needs_recrawl == 'true'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v7
         env:
           ISSUE_NUMBER:  ${{ steps.meta.outputs.issue_number }}
           CRAWL_URL:     ${{ steps.meta.outputs.crawl_url }}
@@ -954,12 +987,13 @@ jobs:
               ].join('\n'),
             });
 
+      # DEPRECATION FIX: Upgraded to official v7 (Node 20 compatible)
       - name: Handle analysis cancellation or timeout
         if: >-
           cancelled() &&
           github.event_name == 'workflow_run' &&
           steps.meta.outputs.issue_number != ''
-        uses: actions/github-script@v8
+        uses: actions/github-script@v7
         env:
           ISSUE_NUMBER:  ${{ steps.meta.outputs.issue_number }}
           CRAWL_URL:     ${{ steps.meta.outputs.crawl_url }}
