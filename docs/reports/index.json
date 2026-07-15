@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-07-15T17:38:50.501856+00:00",
+    "site": "energy.gov",
+    "crawl_url": "https://www.energy.gov",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29434436780",
+    "issue_url": "",
+    "archive_file": "2026-07-15_17-38-50-501_energy.gov.html",
+    "total": 4642,
+    "analysed": 729,
+    "accessible": 197,
+    "analysis_engines": [
+      "bloom",
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
     "date": "2026-07-15T16:54:58.464870+00:00",
     "site": "energy.gov",
     "crawl_url": "https://www.energy.gov",
