@@ -24,11 +24,12 @@
     "crawl_url": "https://www.pa.gov/",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29429032953",
     "issue_url": "",
-    "archive_file": "2026-07-15_16-22-24-316_pa.gov.html",
-    "total": 736,
-    "analysed": 272,
-    "accessible": 54,
+    "archive_file": "2026-07-15_16-54-58-464_energy.gov.html",
+    "total": 4642,
+    "analysed": 729,
+    "accessible": 197,
     "analysis_engines": [
+      "bloom",
       "original"
     ],
     "verapdf": false,
@@ -38,15 +39,15 @@
     "vp_error_files": 0
   },
   {
-    "date": "2026-07-15T15:38:47.759040+00:00",
-    "site": "pa.gov",
-    "crawl_url": "https://www.pa.gov/",
-    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29425812401",
-    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/113#issuecomment-4982455308",
-    "archive_file": "2026-07-15_15-38-47-759_pa.gov.html",
-    "total": 736,
-    "analysed": 272,
-    "accessible": 54,
+    "date": "2026-07-15T16:10:58.474410+00:00",
+    "site": "energy.gov",
+    "crawl_url": "https://www.energy.gov",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29428183081",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/261#issuecomment-4982776703",
+    "archive_file": "2026-07-15_16-10-58-474_energy.gov.html",
+    "total": 4642,
+    "analysed": 729,
+    "accessible": 197,
     "analysis_engines": [
       "bloom",
       "original"
