@@ -24,11 +24,12 @@
     "crawl_url": "https://www.pa.gov/",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29432178110",
     "issue_url": "",
-    "archive_file": "2026-07-15_17-06-12-218_pa.gov.html",
-    "total": 736,
-    "analysed": 272,
-    "accessible": 54,
+    "archive_file": "2026-07-15_17-38-50-501_energy.gov.html",
+    "total": 4642,
+    "analysed": 729,
+    "accessible": 197,
     "analysis_engines": [
+      "bloom",
       "original"
     ],
     "verapdf": false,
@@ -38,10 +39,10 @@
     "vp_error_files": 0
   },
   {
-    "date": "2026-07-15T16:22:24.316118+00:00",
-    "site": "pa.gov",
-    "crawl_url": "https://www.pa.gov/",
-    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29429032953",
+    "date": "2026-07-15T16:54:58.464870+00:00",
+    "site": "energy.gov",
+    "crawl_url": "https://www.energy.gov",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29431401911",
     "issue_url": "",
     "archive_file": "2026-07-15_16-54-58-464_energy.gov.html",
     "total": 4642,
