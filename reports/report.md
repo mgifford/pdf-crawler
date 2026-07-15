@@ -7,14 +7,14 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | Metric | Count |
 |--------|-------|
 | Total files tracked | 29630 |
-| Analysed | 6327 |
-| Pending analysis | 16682 |
-| Errors during analysis | 6621 |
-| Accessible | 2007 |
-| Issues found | 4320 |
-| Totally inaccessible subset | 263 |
-| Broken / unreadable | 32 |
-| Exempt (pre-2018) | 1502 |
+| Analysed | 6488 |
+| Pending analysis | 17461 |
+| Errors during analysis | 5681 |
+| Accessible | 2016 |
+| Issues found | 4472 |
+| Totally inaccessible subset | 289 |
+| Broken / unreadable | 29 |
+| Exempt (pre-2018) | 1529 |
 
 ## Files per Site
 
@@ -1053,7 +1053,10 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [BABA_WaiverRequestSubmission_2022_508.pdf](https://nsf-gov-resources.nsf.gov/2022-05/BABA_WaiverRequestSubmission_2022_508.pdf) | nsf.gov | 2022-05-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
 | [Build%20America%20Buy%20America%20Factsheet%20and%20FAQs%20for%20Award%20Recipients.pdf](https://nsf-gov-resources.nsf.gov/2022-08/Build%20America%20Buy%20America%20Factsheet%20and%20FAQs%20for%20Award%20Recipients.pdf) | nsf.gov | 2022-08-05 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | — | — |
 | [BuildAmericaBuyAmericaPL117-58IIJASec70911_0.pdf](https://nsf-gov-resources.nsf.gov/2022-05/BuildAmericaBuyAmericaPL117-58IIJASec70911_0.pdf) | nsf.gov | 2022-04-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | — | — |
+| [Dr.SchragTestimony508_0.pdf](https://nsf-gov-resources.nsf.gov/2022-04/Dr.SchragTestimony508_0.pdf) | nsf.gov | 2022-04-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | — | — |
 | [How%20do%20I%20know%20if%20the%20Act%20applies%20to%20my%20award_1.pdf](https://nsf-gov-resources.nsf.gov/2022-06/How%20do%20I%20know%20if%20the%20Act%20applies%20to%20my%20award_1.pdf) | nsf.gov | 2022-06-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
+| [NSF%20HSST%20NWIRP%20Testimony%20Final-CLEARED_0.pdf](https://nsf-gov-resources.nsf.gov/2021-11/NSF%20HSST%20NWIRP%20Testimony%20Final-CLEARED_0.pdf) | nsf.gov | 2021-11-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | — | — |
+| [NSF-scientific-integrity-policy.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-scientific-integrity-policy.pdf) | nsf.gov | 2025-05-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
 | [NSF_Response_supported_Glaciers_and_Glaciology_Award.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_supported_Glaciers_and_Glaciology_Award.pdf) | nsf.gov | 2016-03-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — | — |
 | [NSF_Response_to_Festivus_Report_2020.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Festivus_Report_2020.pdf) | nsf.gov | 2021-02-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | — | — |
 | [NSF_Response_to_Festivus_Report_2021.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Festivus_Report_2021.pdf) | nsf.gov | 2022-01-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
@@ -1079,6 +1082,8 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [NSF_Response_to_Senator_Pauls_Spring_2019_Waste_in_Full_Bloom.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Pauls_Spring_2019_Waste_in_Full_Bloom.pdf) | nsf.gov | 2021-05-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | — | — |
 | [NSF_Response_to_Senator_Pauls_Summer_2019_Waste_Report.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Pauls_Summer_2019_Waste_Report.pdf) | nsf.gov | 2021-05-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
 | [SciENcvFAQs.pdf](https://nsf-gov-resources.nsf.gov/files/SciENcvFAQs.pdf) | nsf.gov | 2024-08-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 19 | — | — | — |
+| [TIP%20Impact%20Infographic%20508%20v2.pdf](https://nsf-gov-resources.nsf.gov/files/TIP%20Impact%20Infographic%20508%20v2.pdf) | nsf.gov | 2025-03-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
+| [appendix-a-r.pdf](https://nsf-gov-resources.nsf.gov/files/appendix-a-r.pdf) | nsf.gov | 2025-02-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | — | — |
 | [nsb20198-fig03-021.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/figures/nsb20198-fig03-021.pdf) | nsf.gov | 2019-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
 | [nsb20198-fig03-022.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/figures/nsb20198-fig03-022.pdf) | nsf.gov | 2019-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
 | [nsb20198-fig03-023.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/figures/nsb20198-fig03-023.pdf) | nsf.gov | 2019-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
@@ -1094,6 +1099,9 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [nsb20198-tab03-021.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/tables/nsb20198-tab03-021.pdf) | nsf.gov | 2019-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
 | [nsb20198-tab03-022.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/tables/nsb20198-tab03-022.pdf) | nsf.gov | 2019-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
 | [nsb20198-tab03-023.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/tables/nsb20198-tab03-023.pdf) | nsf.gov | 2019-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
+| [nsf23104.pdf](https://nsf-gov-resources.nsf.gov/pubs/2023/nsf23104/nsf23104.pdf) | nsf.gov | 2023-07-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 28 | — | — | — |
+| [nsf23_1.pdf](https://nsf-gov-resources.nsf.gov/2022-10/nsf23_1.pdf) | nsf.gov | 2024-02-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 203 | — | — | — |
+| [nsf24_1.pdf](https://nsf-gov-resources.nsf.gov/files/nsf24_1.pdf) | nsf.gov | 2025-12-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 216 | — | — | — |
 | [nsf25003.pdf](https://nsf-gov-resources.nsf.gov/files/nsf25003.pdf) | nsf.gov | 2025-01-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 34 | — | — | — |
 | [nsf26313-tab009.pdf](https://ncses.nsf.gov/pubs/nsf26313/assets/data-tables/tables/nsf26313-tab009.pdf) | nsf.gov | 2026-02-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — | — |
 | [nsf26313-tab010.pdf](https://ncses.nsf.gov/pubs/nsf26313/assets/data-tables/tables/nsf26313-tab010.pdf) | nsf.gov | 2026-02-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
@@ -1457,6 +1465,7 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [ons_stad_49-1995_12-14.pdf](https://onsstad.vdl.lu/fileadmin/uploads/media/ons_stad_49-1995_12-14.pdf) | vdl.lu | 2009-07-31 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | — | — |
 | [ons_stad_93-2010_58-61.pdf](https://onsstad.vdl.lu/fileadmin/uploads/media/ons_stad_93-2010_58-61.pdf) | vdl.lu | 2010-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 4 | — | — | — |
 | [01302019_non_fed_101_slides.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/01302019_non_fed_101_slides.pdf) | cms.gov | 2019-04-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 25 | — | — | — |
+| [11082012-teleconference-transcript.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/11082012-teleconference-transcript.pdf) | cms.gov | 2012-12-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 11 | — | — | — |
 | [1998d001.pdf](https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d001.pdf) | cms.gov | 1999-02-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 20 | — | — | — |
 | [1998d002.pdf](https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d002.pdf) | cms.gov | 1999-02-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 12 | — | — | — |
 | [1998d003.pdf](https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d003.pdf) | cms.gov | 1999-02-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 10 | — | — | — |
@@ -1464,6 +1473,7 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [1998d005.pdf](https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d005.pdf) | cms.gov | 1999-02-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 13 | — | — | — |
 | [1998d006.pdf](https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d006.pdf) | cms.gov | 1999-02-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 6 | — | — | — |
 | [1998d007.pdf](https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d007.pdf) | cms.gov | 1999-02-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 14 | — | — | — |
+| [2013-navigator-foa-4-9-2013.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/2013-navigator-foa-4-9-2013.pdf) | cms.gov | 2013-04-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 41 | — | — | — |
 | [2014-risk-corridors-validation-instructions.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/2014-risk-corridors-validation-instructions.pdf) | cms.gov | 2015-08-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 37 | — | — | — |
 | [2014_medical_loss_ratio_report.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/2014_medical_loss_ratio_report.pdf) | cms.gov | 2015-11-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 4 | — | — | — |
 | [2016-unified-rate-review-instructions-20150222-final.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/2016-unified-rate-review-instructions-20150222-final.pdf) | cms.gov | 2015-02-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 69 | — | — | — |
@@ -1476,12 +1486,14 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [2021-urr-instructions.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/2021-urr-instructions.pdf) | cms.gov | 2020-04-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 49 | — | — | — |
 | [2022-mhpaea-report-congress.pdf](https://www.cms.gov/files/document/2022-mhpaea-report-congress.pdf) | cms.gov | 2022-01-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 54 | — | — | — |
 | [2023-mhpaea-report-congress.pdf](https://www.cms.gov/files/document/2023-mhpaea-report-congress.pdf) | cms.gov | 2023-07-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 119 | — | — | — |
+| [2023-open-enrollment-report-infographic.pdf](https://www.cms.gov/marketplace/outreach-and-education/2023-open-enrollment-report-infographic.pdf) | cms.gov | 2023-03-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
 | [2024-145-ipfema-exception-memo-hurricane-francinefinal508.pdf](https://www.cms.gov/files/document/2024-145-ipfema-exception-memo-hurricane-francinefinal508.pdf) | cms.gov | 2024-10-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
 | [2024-146-ipfema-exception-memo-hurricanes-helene-miltonfinal508.pdf](https://www.cms.gov/files/document/2024-146-ipfema-exception-memo-hurricanes-helene-miltonfinal508.pdf) | cms.gov | 2024-10-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — | — |
 | [2024-mhpaea-report-congress.pdf](https://www.cms.gov/files/document/2024-mhpaea-report-congress.pdf) | cms.gov | 2025-01-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 142 | — | — | — |
 | [2025-74-ipfematexasflooding508.pdf](https://www.cms.gov/files/document/2025-74-ipfematexasflooding508.pdf) | cms.gov | 2025-07-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | — | — |
 | [2025-ichra-employer-lowest-cost-silver-plan-premium-look-up-table-data-dictionary.pdf](https://www.cms.gov/files/document/2025-ichra-employer-lowest-cost-silver-plan-premium-look-up-table-data-dictionary.pdf) | cms.gov | 2024-11-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
 | [303d.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/303d.pdf) | cms.gov | 2004-12-10 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 9 | — | — | — |
+| [5-things-about-svi.pdf](https://www.cms.gov/marketplace/technical-assistance-resources/5-things-about-svi.pdf) | cms.gov | 2017-08-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | — | — | — |
 | [508_cms-10379-2017-unified-rate-review-instructions.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/508_cms-10379-2017-unified-rate-review-instructions.pdf) | cms.gov | 2016-03-04 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 78 | — | — | — |
 | [508_cms-10379-rate-review-supporting-statement.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/508_cms-10379-rate-review-supporting-statement.pdf) | cms.gov | 2016-03-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 9 | — | — | — |
 | [FINAL-2017-Unified-Rate-Review-Instructions.pdf](https://www.cms.gov/CCIIO/Resources/Forms-Reports-and-Other-Resources/Downloads/FINAL-2017-Unified-Rate-Review-Instructions.pdf) | cms.gov | 2016-08-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 78 | — | — | — |
@@ -1491,6 +1503,13 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [abn-form-instructions.pdf](https://www.cms.gov/medicare/medicare-general-information/bni/downloads/abn-form-instructions.pdf) | cms.gov | 2023-03-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | — | — |
 | [add-code-file-enhanced-format-document.pdf](https://www.cms.gov/files/document/add-code-file-enhanced-format-document.pdf) | cms.gov | 2026-02-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
 | [agent-broker-help-desks.pdf](https://www.cms.gov/marketplace/agents-brokers/files/agent-broker-help-desks.pdf) | cms.gov | 2024-05-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | — | — |
+| [amended-spring-2012-establishment-foa.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/amended-spring-2012-establishment-foa.pdf) | cms.gov | 2014-01-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 79 | — | — | — |
+| [annrpt03.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/annrpt03.pdf) | cms.gov | 2006-05-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 7 | — | — | — |
+| [annrpt06.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/annrpt06.pdf) | cms.gov | 2006-11-09 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 19 | — | — | — |
+| [asc_hai_map.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/asc_hai_map.pdf) | cms.gov | 2009-08-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — | — |
+| [august_10_foa_teleconference_transcript0816_final.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/august_10_foa_teleconference_transcript0816_final.pdf) | cms.gov | 2011-08-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 48 | — | — | — |
+| [authorizationform.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/authorizationform.pdf) | cms.gov | 2018-10-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
+| [black-and-white.pdf](https://www.cms.gov/files/document/emtala-poster-non-medicaid-participating-spanish/black-and-white.pdf) | cms.gov | 2024-08-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
 | [bp102c07.pdf](https://www.cms.gov/Regulations-and-Guidance/Guidance/Manuals/downloads/bp102c07.pdf) | cms.gov | 2024-01-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 108 | — | — | — |
 | [bp102c13.pdf](https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/bp102c13.pdf) | cms.gov | 2026-01-20 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 70 | — | — | — |
 | [cac-assign-cac-idpdf.pdf](https://www.cms.gov/files/document/cac-assign-cac-idpdf.pdf) | cms.gov | 2020-09-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
@@ -1506,16 +1525,30 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [cms-10459-enrollee-notice.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/cms-10459-enrollee-notice.pdf) | cms.gov | 2013-06-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — | — |
 | [cms-request-for-review-cobra-premium-assist-denial.pdf](https://www.cms.gov/cciio/resources/files/downloads/cms-request-for-review-cobra-premium-assist-denial.pdf) | cms.gov | 2012-10-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 13 | — | — | — |
 | [cms_rtc_hrp_final073109.pdf](https://www.cms.gov/cciio/resources/files/downloads/cms_rtc_hrp_final073109.pdf) | cms.gov | 2011-10-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 24 | — | — | — |
+| [consumer_assistance_program_grant_foa.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/consumer_assistance_program_grant_foa.pdf) | cms.gov | 2011-01-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 24 | — | — | — |
+| [coop-foa-transcript-20120301.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/coop-foa-transcript-20120301.pdf) | cms.gov | 2012-07-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 13 | — | — | — |
+| [coop-foa-transcript-20120516.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/coop-foa-transcript-20120516.pdf) | cms.gov | 2012-07-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 28 | — | — | — |
+| [cycle_i_rate_review_grant-rerelease_territories.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/cycle_i_rate_review_grant-rerelease_territories.pdf) | cms.gov | 2011-08-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 26 | — | — | — |
+| [cycle_ii_rate_review_grants_funding_opportunity_announcement.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/cycle_ii_rate_review_grants_funding_opportunity_announcement.pdf) | cms.gov | 2011-08-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 55 | — | — | — |
 | [detailed-explanation-non-coverage-instructions-eff-jan-2025.pdf](https://www.cms.gov/files/document/detailed-explanation-non-coverage-instructions-eff-jan-2025.pdf) | cms.gov | 2024-12-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
 | [document-5-csr-reconciliation-attestation-form-a-benefit-year-2019-or-2018.pdf](https://www.cms.gov/cciio/resources/regulations-and-guidance/downloads/document-5-csr-reconciliation-attestation-form-a-benefit-year-2019-or-2018.pdf) | cms.gov | 2020-03-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
 | [document-5-csr-reconciliation-attestation-form-a-benefit-year-2020-or-2019.pdf](https://www.cms.gov/cciio/resources/regulations-and-guidance/downloads/document-5-csr-reconciliation-attestation-form-a-benefit-year-2020-or-2019.pdf) | cms.gov | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — | — |
 | [document-6-csr-reconciliation-attestation-form-b-benefit-year-2019-or-2018.pdf](https://www.cms.gov/cciio/resources/regulations-and-guidance/downloads/document-6-csr-reconciliation-attestation-form-b-benefit-year-2019-or-2018.pdf) | cms.gov | 2020-04-01 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
 | [document-6-csr-reconciliation-attestation-form-b-benefit-year-2020-or-2019.pdf](https://www.cms.gov/cciio/resources/regulations-and-guidance/downloads/document-6-csr-reconciliation-attestation-form-b-benefit-year-2020-or-2019.pdf) | cms.gov | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — | — |
+| [early_innovator_grants.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/early_innovator_grants.pdf) | cms.gov | 2011-01-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 41 | — | — | — |
+| [eaw-grant-fact-sheet.pdf](https://www.cms.gov/files/document/eaw-grant-fact-sheet.pdf) | cms.gov | 2024-09-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
+| [eaw-grant-pre-application-call-slides.pdf](https://www.cms.gov/files/document/eaw-grant-pre-application-call-slides.pdf) | cms.gov | 2024-07-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | — | — | — |
+| [eaw-grant-program-proposed-state-activities-final.pdf](https://www.cms.gov/files/document/eaw-grant-program-proposed-state-activities-final.pdf) | cms.gov | 2024-10-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
 | [effective-rate-review-survey-instructions-20150202-final.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/effective-rate-review-survey-instructions-20150202-final.pdf) | cms.gov | 2015-02-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | — | — |
+| [ehb-grant-external-faq508.pdf](https://www.cms.gov/files/document/ehb-grant-external-faq508.pdf) | cms.gov | 2024-11-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — | — |
 | [err-determination-and-status-questions-5-20-14.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/err-determination-and-status-questions-5-20-14.pdf) | cms.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | — | — | — |
+| [exchange_planning_grant_foa.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/exchange_planning_grant_foa.pdf) | cms.gov | 2011-01-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 20 | — | — | — |
+| [expanding-access-womens-health-grant-program-nofo.pdf](https://www.cms.gov/files/document/expanding-access-womens-health-grant-program-nofo.pdf) | cms.gov | 2024-07-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 66 | — | — | — |
 | [faqs-for-tpa-issuer-user-fee-final.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/faqs-for-tpa-issuer-user-fee-final.pdf) | cms.gov | 2015-10-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | — | — | — |
 | [ffe-user-fee-adj-webform-quick-start-guide.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/ffe-user-fee-adj-webform-quick-start-guide.pdf) | cms.gov | 2018-05-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 19 | — | — | — |
+| [final-navigator-2014-foa-06-10-2014.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/final-navigator-2014-foa-06-10-2014.pdf) | cms.gov | 2014-06-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 58 | — | — | — |
 | [final-oasis-e2-manual-04-01-2026.pdf](https://www.cms.gov/files/document/final-oasis-e2-manual-04-01-2026.pdf) | cms.gov | 2026-02-20 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 346 | — | — | — |
+| [final_premium_review_grant_solicitation_with_disclosure_statement.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/final_premium_review_grant_solicitation_with_disclosure_statement.pdf) | cms.gov | 2011-01-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 26 | — | — | — |
 | [fm-1a-risk-adj-overview.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-1a-risk-adj-overview.pdf) | cms.gov | 2012-05-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 9 | — | — | — |
 | [fm-1b-risk-adj-final-rule.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-1b-risk-adj-final-rule.pdf) | cms.gov | 2012-05-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 10 | — | — | — |
 | [fm-1c-risk-adj-model.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-1c-risk-adj-model.pdf) | cms.gov | 2012-05-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 22 | — | — | — |
@@ -1524,10 +1557,22 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [fm-2a-fed-ra-ov-dv.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-2a-fed-ra-ov-dv.pdf) | cms.gov | 2012-05-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 24 | — | — | — |
 | [fm-2b-dist-mdl-tech-prop.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-2b-dist-mdl-tech-prop.pdf) | cms.gov | 2012-05-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 6 | — | — | — |
 | [fm-2c-state-flex-imp.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-2c-state-flex-imp.pdf) | cms.gov | 2012-05-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 12 | — | — | — |
+| [foa_exchange_establishment.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/foa_exchange_establishment.pdf) | cms.gov | 2011-02-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 89 | — | — | — |
+| [foa_territories_establishment.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/foa_territories_establishment.pdf) | cms.gov | 2011-02-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 44 | — | — | — |
+| [foia-faq-2022.pdf](https://www.cms.gov/files/document/foia-faq-2022.pdf) | cms.gov | 2023-10-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — | — |
+| [foiaappeal.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiaappeal.pdf) | cms.gov | 2010-10-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — | — |
+| [foiafaq.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiafaq.pdf) | cms.gov | 2022-09-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — | — |
+| [foiahandbook.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiahandbook.pdf) | cms.gov | 2011-01-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 28 | — | — | — |
+| [foiarequestletter.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletter.pdf) | cms.gov | 2010-10-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — | — |
+| [foiarequestletterdeceasedbene.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterdeceasedbene.pdf) | cms.gov | 2023-10-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
+| [foiarequestletterlivingbene.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterlivingbene.pdf) | cms.gov | 2023-10-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
+| [foiarequestletterownrecords.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterownrecords.pdf) | cms.gov | 2023-10-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
 | [fraud-abuse-mln4649244.pdf](https://www.cms.gov/outreach-and-education/medicare-learning-network-mln/mlnproducts/downloads/fraud-abuse-mln4649244.pdf) | cms.gov | 2021-02-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 23 | — | — | — |
+| [fy2010aschai.pdf](https://www.cms.gov/regulations-and-guidance/legislation/recovery/downloads/fy2010aschai.pdf) | cms.gov | 2009-11-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | — | — |
 | [fy2018-mhpaea-enforcement-report.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/fy2018-mhpaea-enforcement-report.pdf) | cms.gov | 2019-03-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
 | [fy_2012_final_hacscodelist.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-payment/hospitalacqcond/downloads/fy_2012_final_hacscodelist.pdf) | cms.gov | 2020-06-04 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
 | [fy_2013_final_hacscodelist.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-payment/hospitalacqcond/downloads/fy_2013_final_hacscodelist.pdf) | cms.gov | 2020-07-13 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
+| [grants-to-states-added-flexibility-2020.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/grants-to-states-added-flexibility-2020.pdf) | cms.gov | 2020-11-05 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 72 | — | — | — |
 | [guide-home-health-help-desks-updated-january-2024.pdf](https://www.cms.gov/files/document/guide-home-health-help-desks-updated-january-2024.pdf) | cms.gov | 2024-01-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
 | [hh-qrp-measure-specificationschanges-skin-integrity2023.pdf](https://www.cms.gov/files/document/hh-qrp-measure-specificationschanges-skin-integrity2023.pdf) | cms.gov | 2024-02-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | — | — |
 | [hhccn-form-cms10280-instructions-exp-2027.pdf](https://www.cms.gov/files/document/hhccn-form-cms10280-instructions-exp-2027.pdf) | cms.gov | 2024-12-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | — | — |
@@ -1547,13 +1592,17 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [hipaaoptouts-0725.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/hipaaoptouts-0725.pdf) | cms.gov | 2026-01-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
 | [hipaaoptouts03182021.pdf](https://www.cms.gov/files/document/hipaaoptouts03182021.pdf) | cms.gov | 2023-07-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | — | — |
 | [home-health-oasis-all-payer-qa-november-2024.pdf](https://www.cms.gov/files/document/home-health-oasis-all-payer-qa-november-2024.pdf) | cms.gov | 2024-11-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
+| [hospice-certifying-enrollment-faqs.pdf](https://www.cms.gov/files/document/hospice-certifying-enrollment-faqs.pdf) | cms.gov | 2024-09-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — | — |
+| [hospital-appeals-provider-listing.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/hospital-appeals-provider-listing.pdf) | cms.gov | 2016-08-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 39 | — | — | — |
 | [ichra-employer-lowest-cost-silver-plan-premium-look-up-table-data-dictionary.pdf](https://www.cms.gov/files/document/ichra-employer-lowest-cost-silver-plan-premium-look-up-table-data-dictionary.pdf) | cms.gov | 2025-10-20 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
 | [ignagni.pdf](https://www.cms.gov/cciio/resources/files/downloads/dwnlds/ignagni.pdf) | cms.gov | 2010-09-24 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | — | — | — |
 | [instructions_for_the_redacted_actuarial_memorandum_20150416.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/instructions_for_the_redacted_actuarial_memorandum_20150416.pdf) | cms.gov | 2015-04-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — | — |
 | [issuer-jobaid-final.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/issuer-jobaid-final.pdf) | cms.gov | 2015-10-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 6 | — | — | — |
 | [letter_to_j_cline.pdf](https://www.cms.gov/cciio/resources/files/downloads/letter_to_j_cline.pdf) | cms.gov | 2010-10-12 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 4 | — | — | — |
+| [limited_competition_foa_2nd_planning_grant_foa_for_clearance.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/limited_competition_foa_2nd_planning_grant_foa_for_clearance.pdf) | cms.gov | 2011-02-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 29 | — | — | — |
 | [market-reforms-aca-and-hipaa-grandfathered-plan-provisions.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/market-reforms-aca-and-hipaa-grandfathered-plan-provisions.pdf) | cms.gov | 2016-07-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 11 | — | — | — |
 | [market-reforms-aca-and-hipaa-non-grandfathered-plan-provisions.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/market-reforms-aca-and-hipaa-non-grandfathered-plan-provisions.pdf) | cms.gov | 2016-07-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 24 | — | — | — |
+| [marketplace-casework-overview.pdf](https://www.cms.gov/marketplace/technical-assistance-resources/marketplace-casework-overview.pdf) | cms.gov | 2015-07-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 13 | — | — | — |
 | [medical_loss_ratio_2016_annual_reportpdf.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/medical_loss_ratio_2016_annual_reportpdf.pdf) | cms.gov | 2017-12-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 7 | — | — | — |
 | [medical_loss_ratio_annual_report_2016-11-22.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/medical_loss_ratio_annual_report_2016-11-22.pdf) | cms.gov | 2016-11-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 4 | — | — | — |
 | [mhpaea-enforcement-2019-fact-sheet-appendix.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/mhpaea-enforcement-2019-fact-sheet-appendix.pdf) | cms.gov | 2020-03-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
@@ -1579,6 +1628,7 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [mm13503-specimen-collection-fees-and-travel-allowance-2024-update.pdf](https://www.cms.gov/files/document/mm13503-specimen-collection-fees-and-travel-allowance-2024-update.pdf) | cms.gov | 2024-01-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — | — |
 | [mm13507-icd-10-other-coding-revisions-national-coverage-determinations-july-2024-update.pdf](https://www.cms.gov/files/document/mm13507-icd-10-other-coding-revisions-national-coverage-determinations-july-2024-update.pdf) | cms.gov | 2024-02-05 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
 | [mm13513-pulmonary-rehabilitation-cardiac-rehabilitation-intensive-cardiac-rehabilitation-expansion.pdf](https://www.cms.gov/files/document/mm13513-pulmonary-rehabilitation-cardiac-rehabilitation-intensive-cardiac-rehabilitation-expansion.pdf) | cms.gov | 2024-02-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
+| [mm13531-hospice-claims-edits-certifying-physicians.pdf](https://www.cms.gov/files/document/mm13531-hospice-claims-edits-certifying-physicians.pdf) | cms.gov | 2024-09-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
 | [mm13541-clinical-laboratory-fee-schedule-laboratory-services-reasonable-charge-payment-quarterly.pdf](https://www.cms.gov/files/document/mm13541-clinical-laboratory-fee-schedule-laboratory-services-reasonable-charge-payment-quarterly.pdf) | cms.gov | 2024-02-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
 | [mm13546-new-waived-tests.pdf](https://www.cms.gov/files/document/mm13546-new-waived-tests.pdf) | cms.gov | 2024-03-07 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
 | [mm13548-medicare-claims-processing-manual-updates-hcpcs-billing-codes-advance-beneficiary-notice-non.pdf](https://www.cms.gov/files/document/mm13548-medicare-claims-processing-manual-updates-hcpcs-billing-codes-advance-beneficiary-notice-non.pdf) | cms.gov | 2024-03-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
@@ -1595,6 +1645,8 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [mm13766-inpatient-psychiatric-facilities-prospective-payment-system-fy-2025-updates.pdf](https://www.cms.gov/files/document/mm13766-inpatient-psychiatric-facilities-prospective-payment-system-fy-2025-updates.pdf) | cms.gov | 2024-09-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — | — |
 | [mm13838-home-health-prospective-payment-system-cy-2025-rate-update.pdf](https://www.cms.gov/files/document/mm13838-home-health-prospective-payment-system-cy-2025-rate-update.pdf) | cms.gov | 2024-11-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — | — |
 | [mm13918-billing-instructions-expedited-determinations-based-medicare-change-status-notifications.pdf](https://www.cms.gov/files/document/mm13918-billing-instructions-expedited-determinations-based-medicare-change-status-notifications.pdf) | cms.gov | 2025-01-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | — | — |
+| [navigator-2016-foa.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/navigator-2016-foa.pdf) | cms.gov | 2016-07-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 86 | — | — | — |
+| [navigator_2015_foa_final_04_15_2015.pdf](https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-marketplaces/downloads/navigator_2015_foa_final_04_15_2015.pdf) | cms.gov | 2015-04-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 78 | — | — | — |
 | [non-federal-governmental-plans-mhpaea-presentation-6-4-19.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/non-federal-governmental-plans-mhpaea-presentation-6-4-19.pdf) | cms.gov | 2019-07-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 45 | — | — | — |
 | [notice-medicare-non-coverage-instructions-eff-jan-2025.pdf](https://www.cms.gov/files/document/notice-medicare-non-coverage-instructions-eff-jan-2025.pdf) | cms.gov | 2024-05-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
 | [oasis-e2-draft-508-11-14-25.pdf](https://www.cms.gov/files/document/oasis-e2-draft-508-11-14-25.pdf) | cms.gov | 2025-11-13 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 344 | — | — | — |
@@ -1607,6 +1659,7 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [pac-hha-cy2025-non-compliant-apu-20250131.pdf](https://www.cms.gov/files/document/pac-hha-cy2025-non-compliant-apu-20250131.pdf) | cms.gov | 2025-04-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 27 | — | — | — |
 | [parts-c-and-d-enrollee-grievances-organization-coverage-determinations-and-appeals-guidance.pdf](https://www.cms.gov/medicare/appeals-and-grievances/mmcag/downloads/parts-c-and-d-enrollee-grievances-organization-coverage-determinations-and-appeals-guidance.pdf) | cms.gov | 2024-11-20 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 117 | — | — | — |
 | [patients-bill-of-rights09232011a.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/patients-bill-of-rights09232011a.pdf) | cms.gov | 2011-09-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 13 | — | — | — |
+| [pre-call-application-ecp-grant-final.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/pre-call-application-ecp-grant-final.pdf) | cms.gov | 2016-07-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 20 | — | — | — |
 | [provider-demographic-updates-jan-2026.pdf](https://www.cms.gov/files/document/provider-demographic-updates-jan-2026.pdf) | cms.gov | 2026-01-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
 | [py-26-individual-market-rate-filing-instructions.pdf](https://www.cms.gov/files/document/py-26-individual-market-rate-filing-instructions.pdf) | cms.gov | 2025-05-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | — | — |
 | [r12238fm.pdf](https://www.cms.gov/files/document/r12238fm.pdf) | cms.gov | 2024-02-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — | — |
@@ -1748,8 +1801,33 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [risk-adjustment-technical-specificationsjanuary2023.pdf](https://www.cms.gov/files/document/risk-adjustment-technical-specificationsjanuary2023.pdf) | cms.gov | 2023-02-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 62 | — | — | — |
 | [riskadjustment_whitepaper_web.pdf](https://www.cms.gov/cciio/resources/files/downloads/riskadjustment_whitepaper_web.pdf) | cms.gov | 2011-09-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 94 | — | — | — |
 | [rrj-instructions-manual-20150401-final.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/rrj-instructions-manual-20150401-final.pdf) | cms.gov | 2015-04-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 22 | — | — | — |
+| [scletter08-06.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-06.pdf) | cms.gov | 2009-02-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 167 | — | — | — |
+| [scletter08-08.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-08.pdf) | cms.gov | 2008-12-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 6 | — | — | — |
+| [scletter08-09.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-09.pdf) | cms.gov | 2008-12-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | — | — |
+| [scletter08-10.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-10.pdf) | cms.gov | 2009-01-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | — | — |
+| [scletter08-11.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-11.pdf) | cms.gov | 2009-01-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | — | — | — |
+| [scletter08-12.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-12.pdf) | cms.gov | 2009-01-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 27 | — | — | — |
+| [scletter08-13.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-13.pdf) | cms.gov | 2009-01-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — | — |
+| [scletter08-14.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-14.pdf) | cms.gov | 2009-01-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 12 | — | — | — |
+| [scletter08-15.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-15.pdf) | cms.gov | 2009-01-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 43 | — | — | — |
+| [scletter08-16.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-16.pdf) | cms.gov | 2009-01-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 7 | — | — | — |
+| [scletter08-17.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-17.pdf) | cms.gov | 2009-01-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | — | — | — |
+| [scletter08-18.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-18.pdf) | cms.gov | 2009-01-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 356 | — | — | — |
+| [scletter08-19.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-19.pdf) | cms.gov | 2009-01-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — | — |
+| [scletter08-20.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-20.pdf) | cms.gov | 2009-01-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | — | — |
+| [scletter08-21.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-21.pdf) | cms.gov | 2009-01-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | — | — | — |
+| [scletter08-22.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-22.pdf) | cms.gov | 2009-01-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — | — |
+| [scletter08-23.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-23.pdf) | cms.gov | 2009-01-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 9 | — | — | — |
+| [scletter08-25.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-25.pdf) | cms.gov | 2009-01-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 110 | — | — | — |
+| [september_7_co_op_teleconference_transcript_final.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/september_7_co_op_teleconference_transcript_final.pdf) | cms.gov | 2011-09-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 26 | — | — | — |
 | [serota.pdf](https://www.cms.gov/cciio/resources/files/downloads/dwnlds/serota.pdf) | cms.gov | 2010-09-24 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | — | — | — |
 | [snf-abn-cms-10055-fillable-pdf.pdf](https://www.cms.gov/files/document/snf-abn-cms-10055-fillable-pdf.pdf) | cms.gov | 2024-08-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
+| [special-enrollment-periods-available-consumers.pdf](https://www.cms.gov/marketplace/agents-brokers/files/special-enrollment-periods-available-consumers.pdf) | cms.gov | 2025-06-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | — | — |
+| [state-based-marketplace-modernization-grant-awardee-list-2021.pdf](https://www.cms.gov/files/document/state-based-marketplace-modernization-grant-awardee-list-2021.pdf) | cms.gov | 2021-09-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | — | — |
+| [state-flexibility-cycle-ii-grant-fact-sheet.pdf](https://www.cms.gov/files/document/state-flexibility-cycle-ii-grant-fact-sheet.pdf) | cms.gov | 2021-09-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
+| [state-flexibility-market-grant-cycle-ii-slides.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/state-flexibility-market-grant-cycle-ii-slides.pdf) | cms.gov | 2020-12-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 21 | — | — | — |
+| [state-flexibility-market-grant-slides.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/state-flexibility-market-grant-slides.pdf) | cms.gov | 2018-02-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 22 | — | — | — |
+| [the-health-insurance-enforcement-and-consumer-protections-grant-foa-6-15.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/the-health-insurance-enforcement-and-consumer-protections-grant-foa-6-15.pdf) | cms.gov | 2016-06-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 81 | — | — | — |
 | [tpa-jobaid-final.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/tpa-jobaid-final.pdf) | cms.gov | 2015-10-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 7 | — | — | — |
 | [uf-webguide-5cr-081816.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/uf-webguide-5cr-081816.pdf) | cms.gov | 2016-08-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 20 | — | — | — |
 | [unified-rate-review-instructions.pdf](https://www.cms.gov/files/document/unified-rate-review-instructions.pdf) | cms.gov | 2025-01-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 54 | — | — | — |
@@ -1820,10 +1898,13 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [NSF_Major_Multi_User_Facilities_Fact_Sheet_FI.pdf](https://nsf-gov-resources.nsf.gov/files/NSF_Major_Multi_User_Facilities_Fact_Sheet_FI.pdf?VersionId=Z24KTQq6JL0R6pkBHvV81llGRoYfMZS_) | nsf.gov | 2025-12-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | — | — |
 | [No-FEAR-Act-Data-FY2020-Q1.pdf](https://nsf-gov-resources.nsf.gov/files/No-FEAR-Act-Data-FY2020-Q1.pdf?VersionId=TT57vG.xEtES6DVWn2bjs2ov8WnhDBHx) | nsf.gov | 2020-08-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | — | — |
 | [No-FEAR-Act-Data-FY2020-Q2.pdf](https://nsf-gov-resources.nsf.gov/files/No-FEAR-Act-Data-FY2020-Q2.pdf?VersionId=ZBDvoDkw9sBs9hJTTTJJSRl767h9Bbpt) | nsf.gov | 2020-08-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | — | — |
+| [PQ-Guidelines-Current-13-March-2025.pdf](https://nsf-gov-resources.nsf.gov/files/PQ-Guidelines-Current-13-March-2025.pdf) | nsf.gov | 2025-03-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 71 | — | — | — |
 | [SOH_POL_2000.10_VOL1_Mar_2025-0.pdf](https://nsf-gov-resources.nsf.gov/files/SOH_POL_2000.10_VOL1_Mar_2025.pdf) | nsf.gov | 2025-06-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 114 | — | — | — |
 | [SOH_POL_2000.10_VOL1_Mar_2025.pdf](https://nsf-gov-resources.nsf.gov/files/SOH_POL_2000.10_VOL1_Mar_2025.pdf?VersionId=g9q07U8qCjaATlNsnWP9RBZcLdrYQzox) | nsf.gov | 2025-06-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 114 | — | — | — |
+| [SOH_POL_2000.10_VOL2.pdf](https://nsf-gov-resources.nsf.gov/files/SOH_POL_2000.10_VOL2.pdf) | nsf.gov | 2024-06-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 27 | — | — | — |
 | [System_Requirements.pdf](https://nsf-gov-resources.nsf.gov/files/System_Requirements.pdf) | nsf.gov | 2023-10-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
 | [TIPRoadmap_WEB.pdf](https://nsf-gov-resources.nsf.gov/files/TIPRoadmap_WEB.pdf) | nsf.gov | 2024-08-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 40 | — | — | — |
+| [TIP_I-CorpsReport_2023_Final_6.21.2023.508.pdf](https://nsf-gov-resources.nsf.gov/2023-06/TIP_I-CorpsReport_2023_Final_6.21.2023.508.pdf?VersionId=7hktpt_12oxeM2sHpOrTR6uG3mm6_DMk) | nsf.gov | 2023-06-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 51 | — | — | — |
 | [Zoom_Test_Meeting.pdf](https://nsf-gov-resources.nsf.gov/files/Zoom_Test_Meeting.pdf) | nsf.gov | 2024-08-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
 | [agencyimpstatements-20201112-r.pdf](https://nsf-gov-resources.nsf.gov/files/agencyimpstatements-20201112-r.pdf?VersionId=VByFXrlRqf4TsZmBOX9UyBKj5oGmQIJf) | nsf.gov | 2025-01-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
 | [alabama_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/alabama_factsheet.pdf) | nsf.gov | 2026-01-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
@@ -2735,8 +2816,8 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [consent-bankruptcy.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/consent-bankruptcy.pdf) | wellsfargo.com | 2023-04-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 442 | 1 |
 | [consent-mediation.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/consent-mediation.pdf) | wellsfargo.com | 2023-04-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 327 | 1 |
 | [contributor-acknowledgment.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/contributor-acknowledgment.pdf) | wellsfargo.com | 2023-10-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 674 | 0 |
-| [elder-financial-abuse.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/elder-financial-abuse.pdf) | wellsfargo.com | 2025-09-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 7 | 223.9 KB | — | — |
-| [elite-visa-signature-guide-to-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/elite-visa-signature-guide-to-benefits.pdf) | wellsfargo.com | 2022-08-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 15 | 438.4 KB | — | — |
+| [elder-financial-abuse.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/elder-financial-abuse.pdf) | wellsfargo.com | 2025-09-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | 223.9 KB | 1561 | 4 |
+| [elite-visa-signature-guide-to-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/elite-visa-signature-guide-to-benefits.pdf) | wellsfargo.com | 2022-08-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 15 | 438.4 KB | 15301 | 0 |
 | [error-resolution-and-cancellation-rights-es.pdf](https://www.wellsfargo.com/assets/pdf/personal/online-banking/error-resolution-and-cancellation-rights-es.pdf) | wellsfargo.com | 2024-09-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 725 | 0 |
 | [existing-customers-4506c.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/existing-customers-4506c.pdf) | wellsfargo.com | 2024-09-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 2605 | 0 |
 | [existing-customers-borrower-consent.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/existing-customers-borrower-consent.pdf) | wellsfargo.com | 2023-02-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 162 | 2 |
@@ -2745,13 +2826,13 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [financial-contribution-gse.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/financial-contribution-gse.pdf) | wellsfargo.com | 2023-04-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 276 | 2 |
 | [financial-contribution-wobp.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/financial-contribution-wobp.pdf) | wellsfargo.com | 2023-04-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 276 | 2 |
 | [frd-overdraft-wellsfargo.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/debit-card/frd-overdraft-wellsfargo.pdf) | wellsfargo.com | 2025-09-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 907 | 0 |
-| [identity-theft-kit.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf) | wellsfargo.com | 2025-08-19 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | ❌ Fail | 3 | 147.1 KB | — | — |
+| [identity-theft-kit.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf) | wellsfargo.com | 2026-03-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 147.1 KB | 1229 | 0 |
 | [initiate.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/checking/initiate.pdf) | wellsfargo.com | 2026-02-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1953 | 0 |
 | [mortgage-assistance-application.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/mortgage-assistance-application.pdf) | wellsfargo.com | 2022-07-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1655 | 0 |
 | [mortgage-assistance-debts-expense.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/mortgage-assistance-debts-expense.pdf) | wellsfargo.com | 2023-04-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 1974 | 0 |
 | [navigate.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/checking/navigate.pdf) | wellsfargo.com | 2025-10-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 2009 | 0 |
 | [online-wires-supported-currency-list-0.pdf](https://www.wellsfargo.com/assets/pdf/personal/online-banking/online-wires-supported-currency-list.pdf) | wellsfargo.com | 2026-02-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | 1744 | 0 |
-| [online-wires-supported-currency-list.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/online-banking/online-wires-supported-currency-list.pdf) | wellsfargo.com | 2026-02-04 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | ✅ Pass | ❌ Fail | 8 | 175.4 KB | — | — |
+| [online-wires-supported-currency-list.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/online-banking/online-wires-supported-currency-list.pdf) | wellsfargo.com | 2026-02-04 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | 175.4 KB | 2178 | 0 |
 | [optimize.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/checking/optimize.pdf) | wellsfargo.com | 2025-10-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 2469 | 0 |
 | [payment-assist-mtg-assumption-terms-acknowledgment.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/payment-assist-mtg-assumption-terms-acknowledgment.pdf) | wellsfargo.com | 2023-10-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 564 | 0 |
 | [platinum-visa-guide-to-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/platinum-visa-guide-to-benefits.pdf) | wellsfargo.com | 2022-08-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 6592 | 0 |
@@ -2768,9 +2849,9 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [third-party-release.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/third-party-release.pdf) | wellsfargo.com | 2023-11-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 308 | 1 |
 | [travel-accident-and-baggage-delay.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/travel-accident-and-baggage-delay.pdf) | wellsfargo.com | 2024-07-11 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | 4674 | 0 |
 | [us-purchase-order-terms.pdf](https://www.wellsfargo.com/assets/pdf/about/corporate/us-purchase-order-terms.pdf) | wellsfargo.com | 2025-03-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 20 | — | 25841 | 0 |
-| [us_consumer_privacy_notice_english.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf) | wellsfargo.com | 2025-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 138.3 KB | — | — |
+| [us_consumer_privacy_notice_english.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf) | wellsfargo.com | 2025-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 138.3 KB | 1411 | 1 |
 | [visa-benefits-guide.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/debit-card/visa-benefits-guide.pdf) | wellsfargo.com | 2024-09-13 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | 7466 | 0 |
-| [visa-signature-business-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/visa-signature-business-benefits.pdf) | wellsfargo.com | 2022-07-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 16 | 971.7 KB | — | — |
+| [visa-signature-business-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/visa-signature-business-benefits.pdf) | wellsfargo.com | 2022-07-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | 971.7 KB | 9451 | 1 |
 | [Applicant_NJFC_Application_Check_List_en.pdf](https://njfamilycare.dhs.state.nj.us/docs/Applicant_NJFC_Application_Check_List_en.pdf) | njfamilycare.dhs.state.nj.us | 2023-04-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 458 | 2 |
 | [Applicant_NJFC_Application_Check_List_sp.pdf](https://njfamilycare.dhs.state.nj.us/docs/Applicant_NJFC_Application_Check_List_sp.pdf) | njfamilycare.dhs.state.nj.us | 2023-05-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 581 | 2 |
 | [FAQs_UM_Appeal_Changes.pdf](https://njfamilycare.dhs.state.nj.us/docs/FAQs_UM_Appeal_Changes.pdf) | njfamilycare.dhs.state.nj.us | 2017-08-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | 950 | 0 |
@@ -3085,10 +3166,17 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [aa370c5e-20b5-821a-db0b-f4fdd3cc10f9.pdf](https://euclinicaltrials.eu/documents/20482/2921140/Release+notes-v1.0.0.5-Jan2022/aa370c5e-20b5-821a-db0b-f4fdd3cc10f9.pdf) | euclinicaltrials.eu | 2022-01-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | 2115 | 7 |
 | [bb56ea20-45f7-5cd9-ea96-09a4fbe0e9fc.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS+List+of+known+issues+for+Sponsors+-+v1.0.6.0_oct2022.pdf/bb56ea20-45f7-5cd9-ea96-09a4fbe0e9fc.pdf) | euclinicaltrials.eu | 2022-10-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 4890 | 2 |
 | [IJCACopyrightForm.pdf](https://www.ijcaonline.org/ip/IJCACopyrightForm.pdf) | ijcaonline.org | 2011-02-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | 995 | 5 |
+| [2024-2028-Hamilton-Tourism-Strategy.pdf](https://www.hamilton.ca/sites/default/files/2025-04/2024-2028-Hamilton-Tourism-Strategy.pdf) | hamilton.ca | 2025-04-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 50 | — | 19125 | 184 |
 | [23-045.pdf](https://www.hamilton.ca/sites/default/files/2023-04/23-045.pdf) | hamilton.ca | 2023-03-29 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | 2133 | 1 |
 | [25-043.pdf](https://www.hamilton.ca/sites/default/files/2025-03/25-043.pdf) | hamilton.ca | 2025-03-13 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 1346 | 1 |
 | [25-044.pdf](https://www.hamilton.ca/sites/default/files/2025-03/25-044.pdf) | hamilton.ca | 2025-03-13 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 1363 | 1 |
+| [25-049.pdf](https://www.hamilton.ca/sites/default/files/2025-03/25-049.pdf) | hamilton.ca | 2025-03-31 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | — | 1531 | 1 |
+| [25-050.pdf](https://www.hamilton.ca/sites/default/files/2025-03/25-050.pdf) | hamilton.ca | 2025-03-31 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 1399 | 3 |
+| [25-144.pdf](https://www.hamilton.ca/sites/default/files/2025-08/25-144.pdf) | hamilton.ca | 2025-08-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | — | 1612 | 1 |
 | [25-145.pdf](https://www.hamilton.ca/sites/default/files/2025-08/25-145.pdf) | hamilton.ca | 2025-08-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | — | 1496 | 1 |
+| [25-146.pdf](https://www.hamilton.ca/sites/default/files/2025-08/25-146.pdf) | hamilton.ca | 2025-08-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 1383 | 1 |
+| [26-032.pdf](https://www.hamilton.ca/sites/default/files/2026-02/26-032.pdf) | hamilton.ca | 2026-02-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 1414 | 1 |
+| [26-033.pdf](https://www.hamilton.ca/sites/default/files/2026-02/26-033.pdf) | hamilton.ca | 2026-02-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 1415 | 1 |
 | [Accessibility-AssistiveDevices-Policy.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-AssistiveDevices-Policy.pdf) | hamilton.ca | 2022-09-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 922 | 0 |
 | [Accessibility-ClearPrint-Guidelines.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-ClearPrint-Guidelines.pdf) | hamilton.ca | 2022-09-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 1840 | 0 |
 | [Accessibility-Communication-Policy.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-Communication-Policy.pdf) | hamilton.ca | 2022-09-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 940 | 0 |
@@ -3097,6 +3185,11 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [Accessibility-ServiceAnimal-Policy.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-ServiceAnimal-Policy.pdf) | hamilton.ca | 2022-09-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1135 | 0 |
 | [Accessibility-SupportPersons-Policy.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-SupportPersons-Policy.pdf) | hamilton.ca | 2022-09-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 659 | 0 |
 | [Accessibility-Training-Policy.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-Training-Policy.pdf) | hamilton.ca | 2022-09-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 845 | 0 |
+| [CSWB_Gender-Based-Safety-Audit-Consideration-Report.pdf](https://www.hamilton.ca/sites/default/files/2025-05/CSWB_Gender-Based-Safety-Audit-Consideration-Report.pdf) | hamilton.ca | 2025-05-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | 2953 | 1 |
+| [CommsUpdate-PED-OurFutureDowntown10YearDowntownRevitalizationStrategyProjectUpdate.pdf](https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PED-OurFutureDowntown10YearDowntownRevitalizationStrategyProjectUpdate.pdf) | hamilton.ca | 2025-04-01 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1098 | 2 |
+| [Digital-Strategy-Accessible.pdf](https://www.hamilton.ca/sites/default/files/2023-02/Digital-Strategy-Accessible.pdf) | hamilton.ca | 2023-02-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 44 | — | 3524 | 1 |
+| [EDI-2019urbanindigenousstrategy-Report.pdf](https://www.hamilton.ca/sites/default/files/2022-05/EDI-2019urbanindigenousstrategy-Report.pdf) | hamilton.ca | 2022-05-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 44 | — | 6356 | 60 |
+| [EDI-UISimplementationplan2021.pdf](https://www.hamilton.ca/sites/default/files/2022-05/EDI-UISimplementationplan2021.pdf) | hamilton.ca | 2022-05-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 20 | — | 3152 | 85 |
 | [EDI-orangeshirtday-colouringactivitypages.pdf](https://www.hamilton.ca/sites/default/files/2022-05/EDI-orangeshirtday-colouringactivitypages.pdf) | hamilton.ca | 2021-09-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 0 | 4 |
 | [Existing-Truck-Route-Network.pdf](https://www.hamilton.ca/sites/default/files/2023-03/Existing-Truck-Route-Network.pdf) | hamilton.ca | 2023-03-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 414 | 4 |
 | [News-Policy-mandatory-covid19-vaccination-verification-08262021.pdf](https://www.hamilton.ca/sites/default/files/2022-04/News-Policy-mandatory-covid19-vaccination-verification-08262021.pdf) | hamilton.ca | 2021-08-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | 2182 | 8 |
@@ -3112,18 +3205,49 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [Strategic-Transportation-Network-Review-structures-programs-list.pdf](https://www.hamilton.ca/sites/default/files/2025-05/Strategic-Transportation-Network-Review-structures-programs-list.pdf) | hamilton.ca | 2025-05-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 459 | 0 |
 | [WWSMP-Notice-of-Study-Transition.pdf](https://www.hamilton.ca/sites/default/files/2025-12/WWSMP-Notice-of-Study-Transition.pdf) | hamilton.ca | 2025-11-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 422 | 8 |
 | [Water-Wastewater-Stormwater-Master-Plans-Strategic-Transportation-Network-Review-PIC-1-Presentation.pdf](https://www.hamilton.ca/sites/default/files/2023-05/Water-Wastewater-Stormwater-Master-Plans-Strategic-Transportation-Network-Review-PIC-1-Presentation.pdf) | hamilton.ca | 2023-05-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 31 | — | 3310 | 242 |
+| [Youth-Strategy-Report-2022-2027.pdf](https://www.hamilton.ca/sites/default/files/2023-03/Youth-Strategy-Report-2022-2027.pdf) | hamilton.ca | 2023-03-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 32 | — | 4863 | 27 |
 | [accessibility-clause-advertisements-pic-pmeetings-july-2022.pdf](https://www.hamilton.ca/sites/default/files/2023-01/accessibility-clause-advertisements-pic-pmeetings-july-2022.pdf) | hamilton.ca | 2023-01-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 66 | 0 |
 | [accessible-meeting-checklist.pdf](https://www.hamilton.ca/sites/default/files/2022-09/accessible-meeting-checklist.pdf) | hamilton.ca | 2017-01-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | 814 | 0 |
 | [aegd-tmp-updated-conceptual-cross-section-Oct2022.pdf](https://www.hamilton.ca/sites/default/files/2022-10/aegd-tmp-updated-conceptual-cross-section-Oct2022.pdf) | hamilton.ca | 2022-08-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 896 | 23 |
 | [aoda-2005-statement-of-acknowledgement-fillable-mar2023.pdf](https://www.hamilton.ca/sites/default/files/2023-03/aoda-2005-statement-of-acknowledgement-fillable-mar2023.pdf) | hamilton.ca | 2023-03-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 201 | 1 |
+| [budget-flowchart-2026.pdf](https://www.hamilton.ca/sites/default/files/2025-11/budget-flowchart-2026.pdf) | hamilton.ca | 2025-11-14 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 13 | 3 |
+| [building-safer-communities-multi-year-plan.pdf](https://www.hamilton.ca/sites/default/files/2023-09/building-safer-communities-multi-year-plan.pdf) | hamilton.ca | 2023-09-13 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 29 | — | 8685 | 15 |
+| [child-youth-network-SOP-agenda-planning-procedure-june2025.pdf](https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-agenda-planning-procedure-june2025.pdf) | hamilton.ca | 2025-06-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 537 | 2 |
+| [child-youth-network-SOP-collaborative-grant-procedure-june2025.pdf](https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-collaborative-grant-procedure-june2025.pdf) | hamilton.ca | 2025-06-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1215 | 4 |
+| [child-youth-network-SOP-email-distribution-procedure-june2025.pdf](https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-email-distribution-procedure-june2025.pdf) | hamilton.ca | 2025-06-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 420 | 2 |
+| [child-youth-network-community-engagement-procedure.pdf](https://www.hamilton.ca/sites/default/files/2025-10/child-youth-network-community-engagement-procedure.pdf) | hamilton.ca | 2025-09-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1146 | 4 |
+| [child-youth-network-data-decision-support-guide1.pdf](https://www.hamilton.ca/sites/default/files/2025-11/child-youth-network-data-decision-support-guide1.pdf) | hamilton.ca | 2025-11-06 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | 0 | 10 |
+| [child-youth-network-terms-of-Reference-sep2025.pdf](https://www.hamilton.ca/sites/default/files/2025-10/child-youth-network-terms-of-Reference-sep2025.pdf) | hamilton.ca | 2025-09-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 3450 | 12 |
+| [comm-update-2023-Urban-Forest-Pests.pdf](https://www.hamilton.ca/sites/default/files/2023-02/comm-update-2023-Urban-Forest-Pests.pdf) | hamilton.ca | 2023-02-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1689 | 1 |
+| [comm-update-CSWB-toronto-community-Crisis-Centre-Hamiltons-Mental-Health-Crisis-Response.pdf](https://www.hamilton.ca/sites/default/files/2024-12/comm-update-CSWB-toronto-community-Crisis-Centre-Hamiltons-Mental-Health-Crisis-Response.pdf) | hamilton.ca | 2024-11-07 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | 4306 | 2 |
 | [comm-update-PED-downtown-cleanliness-service-level-enhancements-update-august-8-2023.pdf](https://www.hamilton.ca/sites/default/files/2023-08/comm-update-PED-downtown-cleanliness-service-level-enhancements-update-august-8-2023.pdf) | hamilton.ca | 2023-08-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 848 | 3 |
+| [comm-update_Hemlock-Woolly-Adelgid-Identified-on-City-Property.pdf](https://www.hamilton.ca/sites/default/files/2023-03/comm-update_Hemlock-Woolly-Adelgid-Identified-on-City-Property.pdf) | hamilton.ca | 2023-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1061 | 3 |
 | [comm-update_Strategic-Transportation-Network-Study-to-Support-Background-Study.pdf](https://www.hamilton.ca/sites/default/files/2023-04/comm-update_Strategic-Transportation-Network-Study-to-Support-Background-Study.pdf) | hamilton.ca | 2023-04-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 433 | 2 |
+| [community-garden-final-report.pdf](https://www.hamilton.ca/sites/default/files/2022-08/community-garden-final-report.pdf) | hamilton.ca | 2020-01-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 3226 | 1 |
+| [community-garden-infographic.pdf](https://www.hamilton.ca/sites/default/files/2022-08/community-garden-infographic.pdf) | hamilton.ca | 2019-12-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 112 | 14 |
+| [community-garden-summary-report.pdf](https://www.hamilton.ca/sites/default/files/2022-08/community-garden-summary-report.pdf) | hamilton.ca | 2020-01-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 908 | 0 |
+| [consideration-report-HSC25012-2025-2029-cswb-plan.pdf](https://www.hamilton.ca/sites/default/files/2025-06/consideration-report-HSC25012-2025-2029-cswb-plan.pdf) | hamilton.ca | 2025-05-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | — | 1837 | 1 |
 | [developmentcharges-backgroundstudy-2019.pdf](https://www.hamilton.ca/sites/default/files/2023-02/developmentcharges-backgroundstudy-2019.pdf) | hamilton.ca | 2019-07-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 666 | — | 187176 | 911 |
 | [ea-safari-rd-pic2-presentation.pdf](https://www.hamilton.ca/sites/default/files/2025-09/ea-safari-rd-pic2-presentation.pdf) | hamilton.ca | 2025-09-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 21 | — | 2702 | 73 |
 | [emergency_hps-master-plan-2022-2031.pdf](https://www.hamilton.ca/sites/default/files/2022-06/emergency_hps-master-plan-2022-2031.pdf) | hamilton.ca | 2022-05-25 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 234 | — | 57139 | 174 |
+| [engagement-municipal-scan-practices.pdf](https://www.hamilton.ca/sites/default/files/2024-05/engagement-municipal-scan-practices.pdf) | hamilton.ca | 2023-06-12 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | 1153 | 1109 |
+| [engagement-public-engagement-policy-CMO-GRCE-24-01.pdf](https://www.hamilton.ca/sites/default/files/2024-05/engagement-public-engagement-policy-CMO-GRCE-24-01.pdf) | hamilton.ca | 2024-04-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 1796 | 6 |
 | [environmentalassessments-SafariRdEA_PIC1-Displays.pdf](https://www.hamilton.ca/sites/default/files/2024-09/environmentalassessments-SafariRdEA_PIC1-Displays.pdf) | hamilton.ca | 2024-08-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 11 | — | 964 | 35 |
+| [hamilton-digital-strategy_0.pdf](https://www.hamilton.ca/sites/default/files/2023-01/hamilton-digital-strategy_0.pdf) | hamilton.ca | 2023-01-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 15 | — | 3432 | 5 |
+| [hamilton-drug-strategy-report.pdf](https://www.hamilton.ca/sites/default/files/2022-08/hamilton-drug-strategy-report.pdf) | hamilton.ca | 2020-01-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 2646 | 18 |
+| [hamilton-food-literacy-network-forum-report-2017.pdf](https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-literacy-network-forum-report-2017.pdf) | hamilton.ca | 2017-02-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 44 | — | 7810 | 34 |
+| [hamilton-food-strategy-forum-summary.pdf](https://www.hamilton.ca/sites/default/files/2023-07/hamilton-food-strategy-forum-summary.pdf) | hamilton.ca | 2023-07-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 24 | — | 5817 | 11 |
+| [hamilton-food-strategy.pdf](https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-strategy.pdf) | hamilton.ca | 2018-11-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 125 | — | 17089 | 144 |
+| [hamilton-supervised-injection-site-study.pdf](https://www.hamilton.ca/sites/default/files/2023-03/hamilton-supervised-injection-site-study.pdf) | hamilton.ca | 2017-12-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 96 | — | 24633 | 14 |
+| [harassment-discrimination-prevention-policy.pdf](https://www.hamilton.ca/sites/default/files/2024-09/harassment-discrimination-prevention-policy.pdf) | hamilton.ca | 2023-09-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | — | 5036 | 16 |
 | [hwy52-powerlinerd-ea-pic1-presentation-apr2025-1.pdf](https://www.hamilton.ca/sites/default/files/2025-04/hwy52-powerlinerd-ea-pic1-presentation-apr2025-1.pdf) | hamilton.ca | 2025-04-11 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 22 | — | 2236 | 46 |
 | [hwy52-powerlinerd-ea-pic2-presentation-oct2025.pdf](https://www.hamilton.ca/sites/default/files/2025-10/hwy52-powerlinerd-ea-pic2-presentation-oct2025.pdf) | hamilton.ca | 2025-10-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | — | 1262 | 65 |
+| [indigenous-health-strateg-2023.pdf](https://www.hamilton.ca/sites/default/files/2025-07/indigenous-health-strateg-2023.pdf) | hamilton.ca | 2025-07-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 32 | — | 7508 | 26 |
+| [indigenous-relations-honouring-our-roots-report_0.pdf](https://www.hamilton.ca/sites/default/files/2024-07/indigenous-relations-honouring-our-roots-report_0.pdf) | hamilton.ca | 2022-04-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 40 | — | 15180 | 5 |
+| [indigenous-tourism-development-strategy.pdf](https://www.hamilton.ca/sites/default/files/2025-11/indigenous-tourism-development-strategy.pdf) | hamilton.ca | 2025-02-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 32 | — | 8756 | 51 |
+| [info-report-CSWB-Progress-Report-%28HSC24050%29.pdf](https://www.hamilton.ca/sites/default/files/2024-12/info-report-CSWB-Progress-Report-%28HSC24050%29.pdf) | hamilton.ca | 2024-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 2093 | 2 |
+| [info-report-HSC23033-Building-Safer-Communities-Multi-Year-Plan-jun2142023.pdf](https://www.hamilton.ca/sites/default/files/2023-08/info-report-HSC23033-Building-Safer-Communities-Multi-Year-Plan-jun2142023.pdf) | hamilton.ca | 2023-06-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 1675 | 2 |
+| [info-update-HSC24015-Community-Safety-and-Well-Being-Annual-Report-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-09/info-update-HSC24015-Community-Safety-and-Well-Being-Annual-Report-2024.pdf) | hamilton.ca | 2024-04-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | — | 2725 | 2 |
 | [main-whitney-ea-pic1-presentation.pdf](https://www.hamilton.ca/sites/default/files/2023-01/main-whitney-ea-pic1-presentation.pdf) | hamilton.ca | 2022-05-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | 978 | 148 |
 | [main-whitney-ea-pic2-comment.pdf](https://www.hamilton.ca/sites/default/files/2023-04/main-whitney-ea-pic2-comment.pdf) | hamilton.ca | 2023-04-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 339 | 6 |
 | [main-whitney-ea-pic2-presentation.pdf](https://www.hamilton.ca/sites/default/files/2023-04/main-whitney-ea-pic2-presentation.pdf) | hamilton.ca | 2023-04-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 19 | — | 2700 | 296 |
@@ -3154,14 +3278,67 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [masterplan-water-wastewater-newsletter-oct2021.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-water-wastewater-newsletter-oct2021.pdf) | hamilton.ca | 2021-10-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 1293 | 25 |
 | [masterplan-water-wastewater-notice-commencement.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-water-wastewater-notice-commencement.pdf) | hamilton.ca | 2021-03-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 438 | 3 |
 | [mcquestenparkpedbridge-pic1-presentation.pdf](https://www.hamilton.ca/sites/default/files/2026-02/mcquestenparkpedbridge-pic1-presentation.pdf) | hamilton.ca | 2026-02-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 17 | — | 1914 | 71 |
+| [medical-advisory-CMOH-COVID-19-KP2-Vaccine-Market-Withdrawal.pdf](https://www.hamilton.ca/sites/default/files/2025-08/medical-advisory-CMOH-COVID-19-KP2-Vaccine-Market-Withdrawal.pdf) | hamilton.ca | 2025-08-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | 1744 | 4 |
+| [medicaladvisory_RSV-Older-Adult-High-Risk-Fact-Sheet-HCP.pdf](https://www.hamilton.ca/sites/default/files/2025-09/medicaladvisory_RSV-Older-Adult-High-Risk-Fact-Sheet-HCP.pdf) | hamilton.ca | 2025-09-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 1668 | 1 |
 | [municipal-act-charges-proposed-bylaws-BHH-dec30-2025.pdf](https://www.hamilton.ca/sites/default/files/2026-01/municipal-act-charges-proposed-bylaws-BHH-dec30-2025.pdf) | hamilton.ca | 2026-01-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 13 | — | 1764 | 10 |
+| [municipal-act-charges-proposed-bylaws-apr23-2025.pdf](https://www.hamilton.ca/sites/default/files/2025-04/municipal-act-charges-proposed-bylaws-apr23-2025.pdf) | hamilton.ca | 2025-04-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 38 | — | 7804 | 7 |
+| [neighbourhood-risk-management-toolkit.pdf](https://www.hamilton.ca/sites/default/files/2022-12/neighbourhood-risk-management-toolkit.pdf) | hamilton.ca | 2018-03-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 32 | — | 3825 | 737 |
+| [our-future-hamilton-2018-summit-summary-report.pdf](https://www.hamilton.ca/sites/default/files/2025-02/our-future-hamilton-2018-summit-summary-report.pdf) | hamilton.ca | 2019-04-24 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 17 | — | 2895 | 15 |
+| [our-future-hamilton-2019-summit-summary-report.pdf](https://www.hamilton.ca/sites/default/files/2023-10/our-future-hamilton-2019-summit-summary-report.pdf) | hamilton.ca | 2020-06-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | — | 2752 | 24 |
+| [ourfuturehamilton-final-report-2017.pdf](https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-final-report-2017.pdf) | hamilton.ca | 2018-07-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 36 | — | 5733 | 76 |
+| [ourfuturehamilton-progress-report-2018.pdf](https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-progress-report-2018.pdf) | hamilton.ca | 2019-01-29 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 20 | — | 5787 | 2962 |
+| [ourfuturehamilton-suggested-actions.pdf](https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-suggested-actions.pdf) | hamilton.ca | 2017-07-25 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 28 | — | 4187 | 48 |
 | [parking-master-plan.pdf](https://www.hamilton.ca/sites/default/files/2024-01/parking-master-plan.pdf) | hamilton.ca | 2024-01-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 40 | — | 12747 | 65 |
+| [public-engagement-charter.pdf](https://www.hamilton.ca/sites/default/files/2023-10/public-engagement-charter.pdf) | hamilton.ca | 2023-10-10 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 28 | — | 2893 | 44 |
 | [recreation-master-plan.pdf](https://www.hamilton.ca/sites/default/files/2022-11/recreation-master-plan.pdf) | hamilton.ca | 2022-08-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 135 | — | 39549 | 115 |
 | [recreation_08.2-Appendix-A-Recreation-Master-Plan-Implementation%20Strategy-%28revised%29-Sep162025.pdf](https://www.hamilton.ca/sites/default/files/2025-09/recreation_08.2-Appendix-A-Recreation-Master-Plan-Implementation%20Strategy-%28revised%29-Sep162025.pdf) | hamilton.ca | 2025-09-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 174 | — | 44280 | 112 |
+| [report-HSC24006-Community-Safety-and-Wellbeing-Situation-Table.pdf](https://www.hamilton.ca/sites/default/files/2024-09/report-HSC24006-Community-Safety-and-Wellbeing-Situation-Table.pdf) | hamilton.ca | 2024-03-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 1904 | 2 |
+| [rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf](https://www.hamilton.ca/sites/default/files/2024-05/rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf) | hamilton.ca | 2024-05-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 703 | 3 |
+| [rymal-road-ea-pic1-panels-accessible.pdf](https://www.hamilton.ca/sites/default/files/2022-08/rymal-road-ea-pic1-panels-accessible.pdf) | hamilton.ca | 2022-03-21 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 0 | — | 1696 | 0 |
 | [rymal-road-ea-pic1-panels.pdf](https://www.hamilton.ca/sites/default/files/2022-08/rymal-road-ea-pic1-panels.pdf) | hamilton.ca | 2022-03-21 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 0 | — | 1019 | 0 |
 | [rymalrdEA-pic2-evaluation-alternative-design-concepts.pdf](https://www.hamilton.ca/sites/default/files/2023-09/rymalrdEA-pic2-evaluation-alternative-design-concepts.pdf) | hamilton.ca | 2023-09-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 14 | — | 4745 | 1 |
 | [rymalrdEA-pic2-preferred-design-set.pdf](https://www.hamilton.ca/sites/default/files/2023-09/rymalrdEA-pic2-preferred-design-set.pdf) | hamilton.ca | 2023-09-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 17 | — | 3664 | 813 |
+| [strategies-10-Year-Downtown-Revitalization-Strategy-Engage-Hamilton-Summary-Findings-Report-Appendix-A.pdf](https://www.hamilton.ca/sites/default/files/2025-08/strategies-10-Year-Downtown-Revitalization-Strategy-Engage-Hamilton-Summary-Findings-Report-Appendix-A.pdf) | hamilton.ca | 2025-08-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 1852 | 7 |
+| [strategies-community-garden-directory-mar2025.pdf](https://www.hamilton.ca/sites/default/files/2025-03/strategies-community-garden-directory-mar2025.pdf) | hamilton.ca | 2025-03-20 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 533 | 3 |
+| [strategies-consumption-treatment-services-local-guidance-applicants-2023.pdf](https://www.hamilton.ca/sites/default/files/2023-12/strategies-consumption-treatment-services-local-guidance-applicants-2023.pdf) | hamilton.ca | 2023-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 4562 | 18 |
 | [strategies-indigenous-archaeological-monitoring-policy-nov2024.pdf](https://www.hamilton.ca/sites/default/files/2024-11/strategies-indigenous-archaeological-monitoring-policy-nov2024.pdf) | hamilton.ca | 2024-11-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 11 | — | 2764 | 11 |
+| [strategies-our-future-downtown-10-year-strategy-engage-hamilton-summary-report-july2025.pdf](https://www.hamilton.ca/sites/default/files/2025-08/strategies-our-future-downtown-10-year-strategy-engage-hamilton-summary-report-july2025.pdf) | hamilton.ca | 2025-08-01 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 1628 | 11 |
+| [strategies_08.1-HSC25007%28a%29-Appendix-A-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf](https://www.hamilton.ca/sites/default/files/2025-09/strategies_08.1-HSC25007%28a%29-Appendix-A-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf) | hamilton.ca | 2025-08-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 4179 | 0 |
+| [strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf](https://www.hamilton.ca/sites/default/files/2025-09/strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf) | hamilton.ca | 2025-09-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 1455 | 1 |
+| [strategies_2nd-Annual-HamOntYouth-Summit-2024-exec-summary.pdf](https://www.hamilton.ca/sites/default/files/2025-05/strategies_2nd-Annual-HamOntYouth-Summit-2024-exec-summary.pdf) | hamilton.ca | 2025-05-01 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | 1830 | 23 |
+| [strategies_2nd-Annual-HamOntYouth-Summit-2024-report.pdf](https://www.hamilton.ca/sites/default/files/2025-05/strategies_2nd-Annual-HamOntYouth-Summit-2024-report.pdf) | hamilton.ca | 2025-05-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 35 | — | 7786 | 40 |
+| [strategies_CSWB-Plan-2025-2029.pdf](https://www.hamilton.ca/sites/default/files/2025-06/strategies_CSWB-Plan-2025-2029.pdf) | hamilton.ca | 2025-05-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 43 | — | 10458 | 64 |
+| [strategies_Connected-Communities-2-Page-Summary-Report.pdf](https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-2-Page-Summary-Report.pdf) | hamilton.ca | 2025-09-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 480 | 2 |
+| [strategies_Connected-Communities-Full-Report-final.pdf](https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Full-Report-final.pdf) | hamilton.ca | 2025-11-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 71 | — | 17639 | 64 |
+| [strategies_Connected-Communities-Summary-Report.pdf](https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Summary-Report.pdf) | hamilton.ca | 2025-09-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | 1995 | 14 |
+| [strategies_Summary-of-Assets-Final.pdf](https://www.hamilton.ca/sites/default/files/2025-11/strategies_Summary-of-Assets-Final.pdf) | hamilton.ca | 2025-11-11 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 497 | 0 |
+| [strategy-2023-HPS-Asset-Management-Plan.pdf](https://www.hamilton.ca/sites/default/files/2023-12/strategy-2023-HPS-Asset-Management-Plan.pdf) | hamilton.ca | 2023-12-12 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 115 | — | 30723 | 230 |
+| [strategy-asset-management-plan-overview-jun2022.pdf](https://www.hamilton.ca/sites/default/files/2022-12/strategy-asset-management-plan-overview-jun2022.pdf) | hamilton.ca | 2022-06-27 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 155 | — | 25465 | 623 |
+| [strategy-childrens-community-services-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-childrens-community-services-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 101 | — | 21323 | 210 |
+| [strategy-cityhousing-hamilton-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-cityhousing-hamilton-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 123 | — | 32364 | 353 |
+| [strategy-corp-real-estate-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/strategy-corp-real-estate-asset-management-plan-2024.pdf) | hamilton.ca | 2024-04-15 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 46 | — | 11823 | 135 |
+| [strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 84 | — | 22586 | 207 |
+| [strategy-corporate-asset-management-overview-appendix-b.pdf](https://www.hamilton.ca/sites/default/files/2025-06/strategy-corporate-asset-management-overview-appendix-b.pdf) | hamilton.ca | 2025-06-04 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 48 | — | 12878 | 82 |
+| [strategy-corporate-asset-management-proposed-levels-service.pdf](https://www.hamilton.ca/sites/default/files/2025-06/strategy-corporate-asset-management-proposed-levels-service.pdf) | hamilton.ca | 2025-06-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 476 | — | 91456 | 1342 |
+| [strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 97 | — | 26162 | 224 |
+| [strategy-fire-dept-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/strategy-fire-dept-asset-management-plan-2024.pdf) | hamilton.ca | 2024-04-15 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 116 | — | 31569 | 257 |
+| [strategy-forestry-horticulture-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-forestry-horticulture-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 121 | — | 31061 | 273 |
+| [strategy-hamilton-municipal-cemeteries-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-hamilton-municipal-cemeteries-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 129 | — | 34080 | 182 |
+| [strategy-hpl-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/strategy-hpl-asset-management-plan-2024.pdf) | hamilton.ca | 2024-04-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 119 | — | 30968 | 260 |
+| [strategy-hsr-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/strategy-hsr-asset-management-plan-2024.pdf) | hamilton.ca | 2024-04-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 81 | — | 22488 | 131 |
+| [strategy-information-technology-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-information-technology-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 73 | — | 18815 | 190 |
+| [strategy-licensing-bylaw-services-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-licensing-bylaw-services-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 105 | — | 29101 | 223 |
+| [strategy-long-term-care-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-long-term-care-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 108 | — | 29363 | 266 |
+| [strategy-natural-assets-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-natural-assets-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 28 | — | 6594 | 34 |
+| [strategy-paramedics-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/strategy-paramedics-asset-management-plan-2024.pdf) | hamilton.ca | 2024-04-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 122 | — | 26599 | 249 |
+| [strategy-parking-system-asset-plan-2023.pdf](https://www.hamilton.ca/sites/default/files/2023-12/strategy-parking-system-asset-plan-2023.pdf) | hamilton.ca | 2023-12-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 128 | — | 35039 | 271 |
+| [strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 153 | — | 42706 | 207 |
+| [strategy-public-health-services-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-public-health-services-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 72 | — | 19245 | 97 |
+| [strategy-recreation-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-recreation-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 123 | — | 31457 | 273 |
+| [strategy-tourism-and-culture-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-tourism-and-culture-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 108 | — | 28420 | 247 |
+| [strategy-transportation-asset-management-plan-jun2022.pdf](https://www.hamilton.ca/sites/default/files/2022-12/strategy-transportation-asset-management-plan-jun2022.pdf) | hamilton.ca | 2022-06-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 156 | — | 38194 | 408 |
+| [strategy-waste-management-asset-plan-2023.pdf](https://www.hamilton.ca/sites/default/files/2023-12/strategy-waste-management-asset-plan-2023.pdf) | hamilton.ca | 2023-12-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 114 | — | 30225 | 266 |
+| [strategy-waterworks-asset-management-plan-jun2022.pdf](https://www.hamilton.ca/sites/default/files/2022-12/strategy-waterworks-asset-management-plan-jun2022.pdf) | hamilton.ca | 2022-06-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 232 | — | 58526 | 597 |
 | [tmp-aegd-notice-of-commencement-pic1.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-notice-of-commencement-pic1.pdf) | hamilton.ca | 2021-04-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 432 | 4 |
 | [tmp-aegd-pic1-alternative-preferred.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-pic1-alternative-preferred.pdf) | hamilton.ca | 2021-03-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 215 | 127 |
 | [tmp-aegd-pic1-alternative1.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-pic1-alternative1.pdf) | hamilton.ca | 2021-03-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 136 | 127 |
@@ -3175,12 +3352,20 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [tmp-centennialneighbourhood-volume1.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-centennialneighbourhood-volume1.pdf) | hamilton.ca | 2018-05-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 75 | — | 21626 | 55 |
 | [tmp-centennialneighbourhood-volume2.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-centennialneighbourhood-volume2.pdf) | hamilton.ca | 2022-08-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 230 | — | 46893 | 11402 |
 | [truck-route-network-map.pdf](https://www.hamilton.ca/sites/default/files/2023-03/truck-route-network-map.pdf) | hamilton.ca | 2023-03-14 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | 0 | 40 |
+| [uhop-vol1-appendix-f4-archaeologicalpotential-dec2023.pdf](https://www.hamilton.ca/sites/default/files/2024-10/uhop-vol1-appendix-f4-archaeologicalpotential-dec2023.pdf) | hamilton.ca | 2024-08-07 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 509 | 2 |
+| [violence-workplace-prevention-policy.pdf](https://www.hamilton.ca/sites/default/files/2024-09/violence-workplace-prevention-policy.pdf) | hamilton.ca | 2024-07-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | 2383 | 8 |
 | [07-170-consolidated-nov302023.pdf](https://www.hamilton.ca/sites/default/files/2023-12/07-170-consolidated-nov302023.pdf) | hamilton.ca | 2023-12-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 382 | — | 98660 | 8 |
+| [2025-spring-community-compost-giveaway-events-july292025.pdf](https://www.hamilton.ca/sites/default/files/2025-08/2025-spring-community-compost-giveaway-events-july292025.pdf) | hamilton.ca | 2025-07-29 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 784 | 2 |
+| [BartonTiffanyLandsZoneB-ERMM-TemporaryShelterHousing-Oct.29.2024.pdf](https://www.hamilton.ca/sites/default/files/2024-12/BartonTiffanyLandsZoneB-ERMM-TemporaryShelterHousing-Oct.29.2024.pdf) | hamilton.ca | 2024-12-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 18 | — | 4061 | 49 |
 | [Comms-Update-CityofHamiltonAAACreditRatingCityWide.pdf](https://www.hamilton.ca/sites/default/files/2022-10/Comms-Update-CityofHamiltonAAACreditRatingCityWide.pdf) | hamilton.ca | 2022-10-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 262 | 1 |
 | [CommsUpdate-PW-2025RuralRoadsideUrbanBlvdExpresswayGrassCuttingPrograms.pdf](https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-2025RuralRoadsideUrbanBlvdExpresswayGrassCuttingPrograms.pdf) | hamilton.ca | 2025-04-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 553 | 2 |
+| [CommsUpdate-PW-CleanGreenHamiltonStrategy2024YearEndUpdate.pdf](https://www.hamilton.ca/sites/default/files/2025-05/CommsUpdate-PW-CleanGreenHamiltonStrategy2024YearEndUpdate.pdf) | hamilton.ca | 2025-05-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1203 | 2 |
+| [CommsUpdate-PW-HSR150CelebrationActivitiesEvents.pdf](https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-HSR150CelebrationActivitiesEvents.pdf) | hamilton.ca | 2025-03-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 687 | 2 |
 | [CommsUpdate-PW-PlaygroundSprayPadsPlay%20CourtFacilitiesMaintenanceServiceLevelsUpdate.pdf](https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-PlaygroundSprayPadsPlay%20CourtFacilitiesMaintenanceServiceLevelsUpdate.pdf) | hamilton.ca | 2025-04-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 644 | 2 |
+| [CommsUpdate-PW-Release-EAS-TemporaryOutdoorShelter%20Project-259%20CarolineStreet.pdf](https://www.hamilton.ca/sites/default/files/2024-12/CommsUpdate-PW-Release-EAS-TemporaryOutdoorShelter%20Project-259%20CarolineStreet.pdf) | hamilton.ca | 2024-12-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 821 | 4 |
 | [DetourRoutes_403Closure.pdf](https://www.hamilton.ca/sites/default/files/2022-09/DetourRoutes_403Closure.pdf) | hamilton.ca | 2022-09-14 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 142 | 2 |
 | [Notice-of-Compliance-Dundas-Transfer-Station-Scale-House.pdf](https://www.hamilton.ca/sites/default/files/2025-09/Notice-of-Compliance-Dundas-Transfer-Station-Scale-House.pdf) | hamilton.ca | 2025-09-09 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 0 | 1 |
+| [PreDemoDesignatedSubstancesSurveyBartonTiffanyLands-Nov.27.2024.pdf](https://www.hamilton.ca/sites/default/files/2024-12/PreDemoDesignatedSubstancesSurveyBartonTiffanyLands-Nov.27.2024.pdf) | hamilton.ca | 2024-11-27 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 20 | — | 5307 | 19 |
 | [ainslie-wood-creek-ea-pic1-feedback-mar2023.pdf](https://www.hamilton.ca/sites/default/files/2023-03/ainslie-wood-creek-ea-pic1-feedback-mar2023.pdf) | hamilton.ca | 2023-03-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 395 | 1 |
 | [ainslie-wood-creek-ea-pic1-presentation.pdf](https://www.hamilton.ca/sites/default/files/2023-02/ainslie-wood-creek-ea-pic1-presentation.pdf) | hamilton.ca | 2023-02-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 17 | — | 1858 | 41 |
 | [ainslie-wood-creek-ea-pic2-comment.pdf](https://www.hamilton.ca/sites/default/files/2023-12/ainslie-wood-creek-ea-pic2-comment.pdf) | hamilton.ca | 2023-11-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 438 | 1 |
@@ -3188,14 +3373,27 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [better-homes-draft-by-law.pdf](https://www.hamilton.ca/sites/default/files/2023-11/better-homes-draft-by-law.pdf) | hamilton.ca | 2023-11-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 11 | — | 3608 | 0 |
 | [bicycle-blvds-feasibility-study-Jan2022.pdf](https://www.hamilton.ca/sites/default/files/2022-08/bicycle-blvds-feasibility-study-Jan2022.pdf) | hamilton.ca | 2022-06-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 40 | — | 8847 | 37 |
 | [comm-update-Ancaster-Square-Life-Cycle-Improvements.pdf](https://www.hamilton.ca/sites/default/files/2025-04/comm-update-Ancaster-Square-Life-Cycle-Improvements.pdf) | hamilton.ca | 2025-04-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 932 | 2 |
+| [comm-update-ENG24002-2024-Construction-Projects-in-the-Right-of-Way.pdf](https://www.hamilton.ca/sites/default/files/2024-04/comm-update-ENG24002-2024-Construction-Projects-in-the-Right-of-Way.pdf) | hamilton.ca | 2024-04-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1415 | 4 |
+| [comm-update-HSR-150-Celebrations.pdf](https://www.hamilton.ca/sites/default/files/2024-05/comm-update-HSR-150-Celebrations.pdf) | hamilton.ca | 2024-05-01 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 592 | 2 |
+| [comm-update-HW.22.08-Chedoke-Creek-Remediation.pdf](https://www.hamilton.ca/sites/default/files/2022-09/comm-update-HW.22.08-Chedoke-Creek-Remediation.pdf) | hamilton.ca | 2022-09-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 901 | 2 |
+| [comm-update-HW2402-Annual-Drinking-Water-Report.pdf](https://www.hamilton.ca/sites/default/files/2024-03/comm-update-HW2402-Annual-Drinking-Water-Report.pdf) | hamilton.ca | 2024-03-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 19 | — | 4718 | 5 |
+| [comm-update-HW2403-COH-Watershed-Action-Plan-Public-Engagement.pdf](https://www.hamilton.ca/sites/default/files/2024-04/comm-update-HW2403-COH-Watershed-Action-Plan-Public-Engagement.pdf) | hamilton.ca | 2024-04-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 894 | 2 |
 | [comm-update-HW2405-Reaccreditation-Citys-Drinking-Water-Quality-Management-System.pdf](https://www.hamilton.ca/sites/default/files/2024-06/comm-update-HW2405-Reaccreditation-Citys-Drinking-Water-Quality-Management-System.pdf) | hamilton.ca | 2024-06-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 509 | 2 |
 | [comm-update-Hamilton-Street-Railway-%28HSR%29-Alert-Dashboard-%28HSR2503%29.pdf](https://www.hamilton.ca/sites/default/files/2025-06/comm-update-Hamilton-Street-Railway-%28HSR%29-Alert-Dashboard-%28HSR2503%29.pdf) | hamilton.ca | 2025-06-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 476 | 2 |
+| [comm-update-Harmful-Algal-Bloom-Strategy-%28HW2505%29.pdf](https://www.hamilton.ca/sites/default/files/2025-08/comm-update-Harmful-Algal-Bloom-Strategy-%28HW2505%29.pdf) | hamilton.ca | 2025-07-31 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1433 | 2 |
+| [comm-update-Maintenance-on-Lincoln-M-Alexander-Parkway.pdf](https://www.hamilton.ca/sites/default/files/2024-05/comm-update-Maintenance-on-Lincoln-M-Alexander-Parkway.pdf) | hamilton.ca | 2024-05-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 378 | 4 |
 | [comm-update-PW-Bill-Simone-Hall-CFEM2406.pdf](https://www.hamilton.ca/sites/default/files/2024-07/comm-update-PW-Bill-Simone-Hall-CFEM2406.pdf) | hamilton.ca | 2024-07-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 696 | 2 |
+| [comm-update-PW-HSR-150-apr2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-HSR-150-apr2024.pdf) | hamilton.ca | 2024-04-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 260 | 2 |
+| [comm-update-PW-Mountain-Drive-Park-Soils-Finding-ES2402-apr2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-Mountain-Drive-Park-Soils-Finding-ES2402-apr2024.pdf) | hamilton.ca | 2024-04-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 470 | 3 |
 | [comm-update-PW-Mountain-Drive-Park-Soils-Finding-update2-ES2402a-aug2024.pdf](https://www.hamilton.ca/sites/default/files/2024-08/comm-update-PW-Mountain-Drive-Park-Soils-Finding-update2-ES2402a-aug2024.pdf) | hamilton.ca | 2024-08-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 716 | 3 |
+| [comm-update-PW-Playground-Spray-Pads-Play-Court-Facilities-Maintenance-Service-Levels-Update-Apr2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-Playground-Spray-Pads-Play-Court-Facilities-Maintenance-Service-Levels-Update-Apr2024.pdf) | hamilton.ca | 2024-04-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 630 | 2 |
+| [comm-update-PW-Update3-fire-damage-woodlands-park-washroom.pdf](https://www.hamilton.ca/sites/default/files/2024-03/comm-update-PW-Update3-fire-damage-woodlands-park-washroom.pdf) | hamilton.ca | 2024-03-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 782 | 5 |
 | [comm-update-PW-Urban-Forest-Invasive-Species-Management-jun2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/comm-update-PW-Urban-Forest-Invasive-Species-Management-jun2024.pdf) | hamilton.ca | 2024-06-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 647 | 2 |
+| [comm-update-TSSA-Inspection-Report%2310150505-Bernie-Morelli-Recreation-Centre-%28CFEM2404%29.pdf](https://www.hamilton.ca/sites/default/files/2024-02/comm-update-TSSA-Inspection-Report%2310150505-Bernie-Morelli-Recreation-Centre-%28CFEM2404%29.pdf) | hamilton.ca | 2024-02-07 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 1595 | 8 |
 | [comm-update-macassa-lodge-long-term-care-redevelopment-aug232024.pdf](https://www.hamilton.ca/sites/default/files/2024-08/comm-update-macassa-lodge-long-term-care-redevelopment-aug232024.pdf) | hamilton.ca | 2024-08-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 781 | 4 |
 | [comm-update-pw-central-composting-facility-feb-2019.pdf](https://www.hamilton.ca/sites/default/files/2023-03/comm-update-pw-central-composting-facility-feb-2019.pdf) | hamilton.ca | 2019-02-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 471 | 2 |
 | [comm-update-pw-delays-waste-collections-due-inclement-weather-staff-work-refusal-es-19002.pdf](https://www.hamilton.ca/sites/default/files/2023-03/comm-update-pw-delays-waste-collections-due-inclement-weather-staff-work-refusal-es-19002.pdf) | hamilton.ca | 2019-02-07 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 0 | 2 |
+| [comm-update-stoney-creek-water-quality-may-20-21-2025-hw2504_0.pdf](https://www.hamilton.ca/sites/default/files/2025-06/comm-update-stoney-creek-water-quality-may-20-21-2025-hw2504_0.pdf) | hamilton.ca | 2025-06-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | 1684 | 6 |
 | [comms-update-pw-york-blvd-cannon-street-urbanization-500mm-trunk-watermain-installation-june282024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/comms-update-pw-york-blvd-cannon-street-urbanization-500mm-trunk-watermain-installation-june282024.pdf) | hamilton.ca | 2024-06-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 897 | 2 |
 | [cycling-accelerated-active-transportation-implementation-plan.pdf](https://www.hamilton.ca/sites/default/files/2024-03/cycling-accelerated-active-transportation-implementation-plan.pdf) | hamilton.ca | 2023-12-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 32 | — | 10359 | 35 |
 | [election-accessibility-plan-2022.pdf](https://www.hamilton.ca/sites/default/files/2022-09/election-accessibility-plan-2022.pdf) | hamilton.ca | 2022-09-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 21 | — | 3940 | 2 |
@@ -3225,12 +3423,24 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [Budget%20Testimony%203.23.22_DLI%20.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/Budget%20Testimony%203.23.22_DLI%20.pdf) | dc.gov | 2022-03-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 580 | 1 |
 | [Budget%20Testimony%20Final%204.25.23.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/Budget%20Testimony%20Final%204.25.23.pdf) | dc.gov | 2023-04-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 848 | 1 |
 | [Bulletin%20106%20Eligibility%20Requirements%20for%20MHRS%20Providers%206.7.16%20.pdf](https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/Bulletin%20106%20Eligibility%20Requirements%20for%20MHRS%20Providers%206.7.16%20.pdf) | dc.gov | 2017-12-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | 542 | 1 |
+| [CAB%20ADA%20Grievance%20Procedure%20%282-2-2026%29%20%281%29.pdf](https://cab.dc.gov/sites/default/files/u76776/CAB%20ADA%20Grievance%20Procedure%20%282-2-2026%29%20%281%29.pdf) | dc.gov | 2026-02-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 592 | 0 |
 | [CFSA%20NOPP%20rev.2020.pdf](https://cfsa.dc.gov/sites/default/files/dc/sites/cfsa/publication/attachments/CFSA%20NOPP%20rev.2020.pdf) | dc.gov | 2021-02-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1413 | 1 |
 | [CFSA%20Organizational%20Chart%20FY25%2012.2.24.pdf](https://cfsa.dc.gov/sites/default/files/dc/sites/cfsa/page_content/attachments/CFSA%20Organizational%20Chart%20FY25%2012.2.24.pdf) | dc.gov | 2024-12-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 47 | — | 12628 | 2 |
+| [CIC%20FY17%20Performance%20Oversight%20Hearing%20Testimony%203.2.17_0.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20FY17%20Performance%20Oversight%20Hearing%20Testimony%203.2.17_0.pdf) | dc.gov | 2017-05-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 4 | — | 1725 | 1 |
+| [CIC%20FY18%20Performance%20Oversight%20Hearing%20Testimony%202.15.18.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20FY18%20Performance%20Oversight%20Hearing%20Testimony%202.15.18.pdf) | dc.gov | 2018-02-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | — | 2094 | 1 |
+| [CIC%20Testimony%20on%20Bill22-459%20Opioid%20Abuse%20Treatment%20Act%2012.12.17_0.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20Testimony%20on%20Bill22-459%20Opioid%20Abuse%20Treatment%20Act%2012.12.17_0.pdf) | dc.gov | 2017-12-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 4 | — | 1588 | 1 |
 | [CIC%20Testimony%20on%20Letterhead.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/CIC%20Testimony%20on%20Letterhead.pdf) | dc.gov | 2019-04-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1139 | 2 |
 | [CIC%20Testimony%20on%20Roundtable%20on%20DOC%202.15.18.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20Testimony%20on%20Roundtable%20on%20DOC%202.15.18.pdf) | dc.gov | 2018-02-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 4 | — | 1829 | 1 |
+| [CIC%20Testimony%20on%20Youth%20Rehabilitation%20Amendment%20Act%202017%2010.26.17_0.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20Testimony%20on%20Youth%20Rehabilitation%20Amendment%20Act%202017%2010.26.17_0.pdf) | dc.gov | 2017-11-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | 1465 | 1 |
 | [CIC%20Testimony-Judiciary%20and%20Public%20Safety%20Committee%2011.10.21.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/CIC%20Testimony-Judiciary%20and%20Public%20Safety%20Committee%2011.10.21.pdf) | dc.gov | 2022-02-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 885 | 1 |
+| [CIC-Education%20Committee%20Testimony%2010.4.17.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/CIC-Education%20Committee%20Testimony%2010.4.17.pdf) | dc.gov | 2017-10-05 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | 1539 | 1 |
+| [CJDT%2016%20STATUTE%20AMENDING%20FINANCIAL%20REPORTING%20REQUIREMENTS.pdf](https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/CJDT%2016%20STATUTE%20AMENDING%20FINANCIAL%20REPORTING%20REQUIREMENTS.pdf) | dc.gov | 2017-06-30 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 4 | — | 1045 | 0 |
+| [CJS%202018%20Summit%20Summary%204.17%20%28MAB%20edits%29%20final.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/CJS%202018%20Summit%20Summary%204.17%20%28MAB%20edits%29%20final.pdf) | dc.gov | 2018-04-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 12 | — | 4398 | 18 |
+| [CJS1%20Summary%20FINAL.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/CJS1%20Summary%20FINAL.pdf) | dc.gov | 2021-04-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 11 | — | 3274 | 7 |
+| [CJS2%20Webinar%20Summary.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/CJS2%20Webinar%20Summary.pdf) | dc.gov | 2021-06-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | 2200 | 7 |
 | [CONTRACT%20AWARD%20NOTIFICATIONS-JANUARY%202015.pdf](https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/CONTRACT%20AWARD%20NOTIFICATIONS-JANUARY%202015.pdf) | dc.gov | 2015-04-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 17 | — | 5211 | 0 |
+| [Commission%20Rules-2003%20-%20Amended%202024_0.pdf](https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/Commission%20Rules-2003%20-%20Amended%202024_0.pdf) | dc.gov | 2024-03-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 1542 | 0 |
+| [Criminal%20Justice%20Summit%20Brochure%202018%20%28Final%29.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/Criminal%20Justice%20Summit%20Brochure%202018%20%28Final%29.pdf) | dc.gov | 2018-03-13 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 12 | — | 4810 | 52 |
 | [D-0004_1_07-17-1958_findings_opinions_decision_board-002.pdf](https://cab.dc.gov/sites/default/files/dc/sites/cab/publication/attachments/D-0004_1_07-17-1958_findings_opinions_decision_board-002.pdf) | dc.gov | 2023-04-14 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 15 | — | 4799 | 15 |
 | [DC%20Gun%20Violence%20Problem%20Analysis%20Summary%20Report.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/release_content/attachments/DC%20Gun%20Violence%20Problem%20Analysis%20Summary%20Report.pdf) | dc.gov | 2022-02-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 11 | — | 2402 | 14 |
 | [DCOCFO_Volume_4.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/DCOCFO_Volume_4.pdf) | dc.gov | 2014-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 444 | — | 138272 | 25 |
@@ -3238,25 +3448,34 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [DLI%20Testimony-Performance%20Hearing%203.2.22.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/DLI%20Testimony-Performance%20Hearing%203.2.22.pdf) | dc.gov | 2022-03-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 929 | 1 |
 | [FY%2023%20%20Org%20Chart-0.pdf](https://dbh.dc.gov/sites/default/files/dc/sites/dmh/page_content/attachments/FY%2023%20%20Org%20Chart.pdf) | dc.gov | 2024-01-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 256 | 50 |
 | [FY%2023%20%20Org%20Chart.pdf](https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/FY%2023%20%20Org%20Chart.pdf) | dc.gov | 2024-01-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 256 | 50 |
+| [FY2018%20CIC%20Budget%20Hearing%20Testimony%20of%20Michelle%20Bonner%204.24.17_0.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/FY2018%20CIC%20Budget%20Hearing%20Testimony%20of%20Michelle%20Bonner%204.24.17_0.pdf) | dc.gov | 2017-05-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | 1305 | 1 |
 | [Fact%20Sheet%20on%20Female%20DC%20Code%20Offenders%20in%20BOP%20as%20of%20January%201%202022.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/Fact%20Sheet%20on%20Female%20DC%20Code%20Offenders%20in%20BOP%20as%20of%20January%201%202022.pdf) | dc.gov | 2022-04-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 566 | 1 |
+| [Form%2010A%20-%20Updated%20Public%20Access%20Request%20Form%202024.pdf](https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/Form%2010A%20-%20Updated%20Public%20Access%20Request%20Form%202024.pdf) | dc.gov | 2024-03-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 520 | 0 |
 | [Housing%20Webinar%20Summary%2009.20.23.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Housing%20Webinar%20Summary%2009.20.23.pdf) | dc.gov | 2023-11-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 1546 | 1 |
 | [ISF%20Program%202025.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/ISF%20Program%202025.pdf) | dc.gov | 2025-05-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 14 | — | 3985 | 42 |
 | [ISF%20Summary%202025%20%28Final%29.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/ISF%20Summary%202025%20%28Final%29.pdf) | dc.gov | 2025-08-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 17 | — | 4885 | 52 |
 | [JJ%20Webinar%20Alternatives%20to%20Incarceration%20for%20Youth.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/JJ%20Webinar%20Alternatives%20to%20Incarceration%20for%20Youth.pdf) | dc.gov | 2023-09-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | — | 2108 | 1 |
 | [JJ%20Webinar%20Series%20Session%20Four.Reducing%20Youth%20Justice%20System%20Involvement.What%20Works.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/JJ%20Webinar%20Series%20Session%20Four.Reducing%20Youth%20Justice%20System%20Involvement.What%20Works.pdf) | dc.gov | 2021-08-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 11 | — | 3216 | 8 |
 | [July%20Spotlight%20on%20Aging%202019.pdf](https://dacl.dc.gov/sites/default/files/dc/sites/dcoa/release_content/attachments/July%20Spotlight%20on%20Aging%202019.pdf) | dc.gov | 2019-07-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 1494 | 6 |
+| [Juvenile%20Justice%20Webinar%20Series%202%20Summary.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Series%202%20Summary.pdf) | dc.gov | 2021-03-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | 2984 | 4 |
+| [Juvenile%20Justice%20Webinar%20Series%20Session%203%20Summary.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Series%20Session%203%20Summary.pdf) | dc.gov | 2021-06-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | 2888 | 9 |
 | [Juvenile%20Justice%20Webinar%20Summary%20-%20Restorative%20Justice.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Summary%20-%20Restorative%20Justice.pdf) | dc.gov | 2021-12-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 1735 | 6 |
+| [Kids%20Ride%20Free%20Brochure%20Spanish%20-%202025.pdf](https://ddot.dc.gov/sites/default/files/dc/sites/ddot/page_content/attachments/Kids%20Ride%20Free%20Brochure%20Spanish%20-%202025.pdf) | dc.gov | 2025-08-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 1030 | 16 |
 | [MHRS%20Bulletin%20Listing_0.pdf](https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/MHRS%20Bulletin%20Listing_0.pdf) | dc.gov | 2016-09-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 4 | — | 1100 | 2 |
 | [Medical%20Cannabis%20Registered%20Practitioners%20-%20July%202024.pdf](https://abca.dc.gov/sites/default/files/dc/sites/abra/publication/attachments/Medical%20Cannabis%20Registered%20Practitioners%20-%20July%202024.pdf) | dc.gov | 2024-07-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 38 | — | 8991 | 0 |
 | [November%20Spotlight%20on%20Aging%202019.pdf](https://dacl.dc.gov/sites/default/files/dc/sites/dcoa/release_content/attachments/November%20Spotlight%20on%20Aging%202019.pdf) | dc.gov | 2019-11-01 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 1586 | 10 |
 | [Promising%20Practices%20at%20the%20Front%20End%20%20%28March%202023%29.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Promising%20Practices%20at%20the%20Front%20End%20%20%28March%202023%29.pdf) | dc.gov | 2023-10-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 759 | 3 |
+| [QuickPaymentAct-11172021.pdf](https://cab.dc.gov/sites/default/files/dc/sites/cab/publication/attachments/QuickPaymentAct-11172021.pdf) | dc.gov | 2021-11-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 430 | 0 |
 | [Racial%20Equity%20in%20Data%20Integration%20%28June%202022%29.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Racial%20Equity%20in%20Data%20Integration%20%28June%202022%29.pdf) | dc.gov | 2023-02-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 913 | 3 |
 | [Risk%20Assessment%20Information%20Session%20Summary%20Final%20Draft%20.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Risk%20Assessment%20Information%20Session%20Summary%20Final%20Draft%20.pdf) | dc.gov | 2025-10-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1377 | 1 |
+| [SROJJTA_Summary.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/SROJJTA_Summary.pdf) | dc.gov | 2020-02-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | 4590 | 4 |
+| [The%20District%20of%20Columbia%E2%80%99s%20Criminal%20Justice%20System%20under%20the%20Revitalization%20Act.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/The%20District%20of%20Columbia%E2%80%99s%20Criminal%20Justice%20System%20under%20the%20Revitalization%20Act.pdf) | dc.gov | 2023-01-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 57 | — | 26325 | 18 |
 | [Trauma%20Informed%20Webinar%20Summary%20.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Trauma%20Informed%20Webinar%20Summary%20.pdf) | dc.gov | 2022-02-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | 2713 | 6 |
 | [Truck_Touch_2015%283%29.pdf](https://calendar.dc.gov/sites/default/files/dc/sites/calendar/event_content/attachments/Truck_Touch_2015%283%29.pdf) | dc.gov | 2015-05-13 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 0 | 1 |
 | [ag0_bega_chapter_2025j.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/ag0_bega_chapter_2025j.pdf) | dc.gov | 2024-07-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 1472 | 0 |
 | [ag_bega_tables_2025j.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/ag_bega_tables_2025j.pdf) | dc.gov | 2024-07-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | — | 2891 | 0 |
 | [evaluation_fredrick_weisberg.pdf](https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/evaluation_fredrick_weisberg.pdf) | dc.gov | 2008-08-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 9 | — | 2072 | 0 |
+| [one%20pager%20JJS120%20%282%29.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/one%20pager%20JJS120%20%282%29.pdf) | dc.gov | 2020-12-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 1041 | 1 |
 | [rl_cfsa_chapter_2019j.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/rl_cfsa_chapter_2019j.pdf) | dc.gov | 2018-07-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 14 | — | 249 | 0 |
 | [rl_cfsa_tables_2019j.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/rl_cfsa_tables_2019j.pdf) | dc.gov | 2018-07-05 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 13 | — | 9428 | 0 |
 | [rm_dbh_capital_2019j.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/rm_dbh_capital_2019j.pdf) | dc.gov | 2018-07-10 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | — | 1780 | 3 |
@@ -3475,6 +3694,7 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [2023qhppremiumschoicereport.pdf](https://www.cms.gov/cciio/resources/data-resources/downloads/2023qhppremiumschoicereport.pdf) | cms.gov | 2022-10-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 3699 | 7 |
 | [2024-announcement-pdf.pdf](https://www.cms.gov/files/document/2024-announcement-pdf.pdf) | cms.gov | 2023-03-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 200 | — | 80666 | 11 |
 | [2026-ma-part-d-landscape-state-state-fact-sheet.pdf](https://www.cms.gov/files/document/2026-ma-part-d-landscape-state-state-fact-sheet.pdf) | cms.gov | 2025-09-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 168 | — | 45252 | 56 |
+| [5010_provider_natl_conf_call_06092009.pdf](https://www.cms.gov/regulations-and-guidance/administrative-simplification/versions5010andd0/downloads/5010_provider_natl_conf_call_06092009.pdf) | cms.gov | 2009-06-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 27 | — | 2503 | 93 |
 | [7716-ab-registrationtermination-list-data-dictionary-web_1.pdf](https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-marketplaces/downloads/7716-ab-registrationtermination-list-data-dictionary-web_1.pdf) | cms.gov | 2019-04-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 689 | 0 |
 | [82820-mi-ehb.pdf](https://www.cms.gov/files/document/82820-mi-ehb.pdf) | cms.gov | 2020-08-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 579 | 1 |
 | [82820-nm-ehb.pdf](https://www.cms.gov/files/document/82820-nm-ehb.pdf) | cms.gov | 2020-08-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 593 | 1 |
@@ -3510,8 +3730,10 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [frequently-asked-questions-cms-waivers-flexibilities-and-end-covid-19-public-health-emergency.pdf](https://www.cms.gov/files/document/frequently-asked-questions-cms-waivers-flexibilities-and-end-covid-19-public-health-emergency.pdf) | cms.gov | 2023-05-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 19 | — | 8681 | 19 |
 | [fy-2024-hcfac-operating-plan.pdf](https://www.cms.gov/files/document/fy-2024-hcfac-operating-plan.pdf) | cms.gov | 2024-05-14 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 50 | 0 |
 | [fy-2024-program-management-operating-plan.pdf](https://www.cms.gov/files/document/fy-2024-program-management-operating-plan.pdf) | cms.gov | 2024-05-14 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 182 | 0 |
+| [grants-to-states-added-flexibility-2018.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/grants-to-states-added-flexibility-2018.pdf) | cms.gov | 2018-02-05 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 70 | — | 22220 | 0 |
 | [inflation-rebate-fact-sheet-february-2023.pdf](https://www.cms.gov/files/document/inflation-rebate-fact-sheet-february-2023.pdf) | cms.gov | 2023-02-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 1241 | 0 |
 | [infographic-negotiated-prices-ipay-2027.pdf](https://www.cms.gov/files/document/infographic-negotiated-prices-ipay-2027.pdf) | cms.gov | 2025-11-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 432 | 0 |
+| [innovators-guide-master-7-23-15.pdf](https://www.cms.gov/medicare/coverage/councilontechinnov/downloads/innovators-guide-master-7-23-15.pdf) | cms.gov | 2015-09-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 63 | — | 26524 | 18 |
 | [january_2008_list_of_drugs_supplied_under_the_cap.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/january_2008_list_of_drugs_supplied_under_the_cap.pdf) | cms.gov | 2009-12-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 24 | — | 2327 | 0 |
 | [macs-hub-medicare-ffs-program.pdf](https://www.cms.gov/files/document/macs-hub-medicare-ffs-program.pdf) | cms.gov | 2025-08-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 63 | 0 |
 | [maternal-morbidity-structural-measure-specifications.pdf](https://www.cms.gov/files/document/maternal-morbidity-structural-measure-specifications.pdf) | cms.gov | 2021-04-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 365 | 0 |
@@ -3532,10 +3754,12 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [proposed-2022-hhs-notice-benefit-and-payment-parameters-fact-sheet.pdf](https://www.cms.gov/files/document/proposed-2022-hhs-notice-benefit-and-payment-parameters-fact-sheet.pdf) | cms.gov | 2020-11-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 2663 | 0 |
 | [py2023-county-coverage-map.pdf](https://www.cms.gov/files/document/py2023-county-coverage-map.pdf) | cms.gov | 2022-10-31 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 112 | 0 |
 | [qin-qio-fact-page.pdf](https://www.cms.gov/files/document/qin-qio-fact-page.pdf) | cms.gov | 2025-12-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 347 | 11 |
+| [qso-22-05-hospitals.pdf](https://www.cms.gov/files/document/qso-22-05-hospitals.pdf) | cms.gov | 2021-12-07 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1656 | 1 |
 | [qssam-25-02-hospitals.pdf](https://www.cms.gov/files/document/qssam-25-02-hospitals.pdf) | cms.gov | 2025-03-05 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1151 | 1 |
 | [r12590ncd.pdf](https://www.cms.gov/files/document/r12590ncd.pdf) | cms.gov | 2024-04-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 1204 | 0 |
 | [r777cp.pdf](https://www.cms.gov/regulations-and-guidance/guidance/transmittals/downloads/r777cp.pdf) | cms.gov | 2005-12-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 26 | — | 6573 | 0 |
 | [r866cppdf.pdf](https://www.cms.gov/regulations-and-guidance/guidance/transmittals/downloads/dwnlds/r866cppdf) | cms.gov | 2006-02-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 40 | — | 12131 | 0 |
+| [report-to-congress-september-2015.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-payment/ambulancefeeschedule/downloads/report-to-congress-september-2015.pdf) | cms.gov | 2022-02-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 63 | — | 19371 | 42 |
 | [rfi-medicare-dialysis.pdf](https://www.cms.gov/about-cms/components/cpi/downloads/rfi-medicare-dialysis.pdf) | cms.gov | 2016-08-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | 572 | 1 |
 | [se20005.pdf](https://www.cms.gov/files/document/se20005.pdf) | cms.gov | 2021-08-20 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 1742 | 15 |
 | [social-media-evolution-excellence.pdf](https://www.cms.gov/files/document/social-media-evolution-excellence.pdf) | cms.gov | 2025-12-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 174 | 0 |
@@ -3544,6 +3768,7 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [social-media-transforming-healthcare-quality.pdf](https://www.cms.gov/files/document/social-media-transforming-healthcare-quality.pdf) | cms.gov | 2025-12-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 174 | 0 |
 | [som107ap_z_emergprep.pdf](https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/som107ap_z_emergprep.pdf) | cms.gov | 2021-04-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 108 | — | 42154 | 0 |
 | [state-exchange-oe-chart-py-2025.pdf](https://www.cms.gov/files/document/state-exchange-oe-chart-py-2025.pdf) | cms.gov | 2024-10-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 862 | 0 |
+| [state-flexibility-grant-fact-sheet.pdf](https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-market-reforms/downloads/state-flexibility-grant-fact-sheet.pdf) | cms.gov | 2018-08-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | 882 | 0 |
 | [talking-people-medicare-about-covid-19-vaccine.pdf](https://www.cms.gov/files/document/talking-people-medicare-about-covid-19-vaccine.pdf) | cms.gov | 2021-03-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 491 | 0 |
 | [trhcapdf.pdf](https://www.cms.gov/regulations-and-guidance/legislation/legislativeupdate/downloads/trhcapdf.pdf) | cms.gov | 2006-12-12 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 559 | — | 111856 | 0 |
 | [what-macfunctional-contractors-overview.pdf](https://www.cms.gov/files/document/what-macfunctional-contractors-overview.pdf) | cms.gov | 2025-08-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 948 | 0 |
@@ -4073,20 +4298,21 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [yn_sandhills.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/2021/mar-apr/yn/yn_sandhills.pdf) | dnr.state.mn.us | 2021-01-29 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 2280 | 14 |
 | [1.1%20Pre%20-%20Counseling%20Intake%20Form%20Rev%2011%20FEB%202025.pdf](https://www.energy.gov/sites/default/files/2025-06/1.1%20Pre%20-%20Counseling%20Intake%20Form%20Rev%2011%20FEB%202025.pdf) | energy.gov | 2025-03-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 1217 | 1 |
 | [2024_Impact%20Flyer%20-%20website%20version.pdf](https://www.energy.gov/sites/default/files/2025-05/2024_Impact%20Flyer%20-%20website%20version.pdf) | energy.gov | 2025-03-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 537 | 10 |
+| [3118-sasc-nomination-testimonypdf.pdf](https://www.energy.gov/documents/3118-sasc-nomination-testimonypdf) | energy.gov | 2018-02-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | 755 | 0 |
 | [DOE%20Final%20EO%20Report%20%28REVISED%20OCT%2027%29.pdf](https://www.energy.gov/sites/default/files/2025-11/DOE%20Final%20EO%20Report%20%28REVISED%20OCT%2027%29.pdf) | energy.gov | 2025-10-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 73 | — | 18302 | 58 |
-| [DOE%20USMDL%20Final%20240606%20%28compliant%29_0.pdf](https://www.energy.gov/sites/default/files/2025-02/DOE%20USMDL%20Final%20240606%20%28compliant%29_0.pdf) | energy.gov | 2025-02-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | Warn | NotApplicable | ❌ Fail | 1 | — | — | — |
 | [MSIPP%20FY2022%20%20Impact_2.pdf](https://www.energy.gov/sites/default/files/2023-06/MSIPP%20FY2022%20%20Impact_2.pdf) | energy.gov | 2023-04-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 923 | 3 |
 | [Open-Government-Plan-4.0-Final.pdf](https://www.energy.gov/sites/default/files/2016/10/f33/Open-Government-Plan-4.0-Final.pdf) | energy.gov | 2016-10-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 22 | 1.1 MB | — | — |
 | [Organization-Chart-11.20.2025-2.pdf](https://www.energy.gov/sites/default/files/2025-11/Organization-Chart-11.20.2025-2.pdf) | energy.gov | 2025-11-19 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 105.3 KB | — | — |
 | [PIA%20Guide%20Aug%202023_0.pdf](https://www.energy.gov/sites/default/files/2023-08/PIA%20Guide%20Aug%202023_0.pdf) | energy.gov | 2023-08-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 37 | — | — | — |
 | [applying-msipp-grants.pdf](https://www.energy.gov/nnsa/articles/applying-msipp-grants) | energy.gov | 2023-03-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | 2436 | 1 |
 | [centralia-order-no-202-26-18.pdf](https://www.energy.gov/documents/centralia-order-no-202-26-18) | energy.gov | — | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | — | 2703 | 1 |
+| [final-hasc-em-fy18-written-testimonypdf.pdf](https://www.energy.gov/documents/final-hasc-em-fy18-written-testimonypdf) | energy.gov | 2017-05-25 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 9 | — | 2679 | 0 |
+| [final-sasc-em-fy18-written-testimonypdf.pdf](https://www.energy.gov/documents/final-sasc-em-fy18-written-testimonypdf) | energy.gov | 2017-05-24 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 9 | — | 2678 | 0 |
 | [fossil-energy-fy-2009-budget.pdf](https://www.energy.gov/hgeo/articles/fossil-energy-fy-2009-budget) | energy.gov | 2013-05-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 14 | — | 3375 | 0 |
 | [gto-quarterly-update-q1-2020.pdf](https://www.energy.gov/hgeo/geothermal/articles/gto-quarterly-update-q1-2020) | energy.gov | 2020-01-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 30 | — | 1644 | 136 |
-| [guide-financial-assistance-october-2024pdf.pdf](https://www.energy.gov/documents/guide-financial-assistance-october-2024pdf) | energy.gov | 2025-01-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | Warn | ❌ Fail | 116 | — | — | — |
+| [guide-financial-assistance-october-2024pdf.pdf](https://www.energy.gov/documents/guide-financial-assistance-october-2024pdf) | energy.gov | 2025-01-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 116 | — | 46444 | 1 |
 | [next-generation-nuclear-plant-report-congress.pdf](https://www.energy.gov/ne/articles/next-generation-nuclear-plant-report-congress) | energy.gov | 2010-04-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 36 | — | 11886 | 498 |
 | [ord4446-B.pdf](https://www.energy.gov/sites/default/files/2026-03/ord4446-B.pdf) | energy.gov | 2026-03-13 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 68 | — | 22266 | 0 |
-| [order-addressing-arguments-raised-rehearing-202-25-7b.pdf](https://www.energy.gov/documents/order-addressing-arguments-raised-rehearing-202-25-7b) | energy.gov | 2026-01-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | ❌ Fail | 33 | 472.5 KB | — | — |
 | [march-2023-thank-you.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/pages/march-2023-thank-you.pdf) | dnr.state.mn.us | 2023-03-13 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 27 | — | 25097 | 26 |
 | [march_2024_thank_you.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/pages/march_2024_thank_you.pdf) | dnr.state.mn.us | 2024-02-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 24 | — | 23147 | 23 |
 | [sep-oct-2022-thank-you.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/pages/sep-oct-2022-thank-you.pdf) | dnr.state.mn.us | 2022-08-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 32 | — | 31103 | 32 |
@@ -4103,20 +4329,20 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [DOE-FOA-2740-Teaming-Partner-List_updated-3-12-2023.pdf](https://www.energy.gov/sites/default/files/2023-03/DOE-FOA-2740-Teaming-Partner-List_updated-3-12-2023.pdf) | energy.gov | 2023-03-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 6920 | 0 |
 | [DOE-FY2019-Budget-Volume-3-Part-1_0.pdf](https://www.energy.gov/sites/prod/files/2018/03/f49/DOE-FY2019-Budget-Volume-3-Part-1_0.pdf) | energy.gov | 2018-03-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 524 | — | 130897 | 26 |
 | [EEIO-IIA-model-documentation_9_01_23_v2.pdf](https://www.energy.gov/sites/default/files/2025-12/EEIO-IIA-model-documentation_9_01_23_v2.pdf) | energy.gov | 2025-12-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 60 | — | 16351 | 13 |
-| [Elective_Pay_Fact_Sheet_Territories_073124.pdf](https://www.energy.gov/sites/default/files/2024-08/Elective_Pay_Fact_Sheet_Territories_073124.pdf) | energy.gov | 2024-07-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | — | — | — |
+| [Elective_Pay_Fact_Sheet_Territories_073124.pdf](https://www.energy.gov/sites/default/files/2024-08/Elective_Pay_Fact_Sheet_Territories_073124.pdf) | energy.gov | 2024-07-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1441 | 2 |
 | [Energy%20Storage%20Grand%20Challenge%20Roadmap.pdf](https://www.energy.gov/sites/default/files/2020/12/f81/Energy%20Storage%20Grand%20Challenge%20Roadmap.pdf) | energy.gov | 2020-12-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 157 | — | 61649 | 119 |
 | [FCAB%20Year%20End%20Report%20Oct%202021%20FINAL.pdf](https://www.energy.gov/sites/default/files/2021-12/FCAB%20Year%20End%20Report%20Oct%202021%20FINAL.pdf) | energy.gov | 2021-12-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 505 | 2 |
 | [FY2017BudgetVolume3.pdf](https://www.energy.gov/sites/prod/files/2016/02/f30/FY2017BudgetVolume3.pdf) | energy.gov | 2016-02-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 822 | — | 234372 | 10 |
-| [FY21-DOEAnnualReport_ConfActivities_Web_0.pdf](https://www.energy.gov/sites/default/files/2022-01/FY21-DOEAnnualReport_ConfActivities_Web_0.pdf) | energy.gov | 2022-01-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | ✅ Pass | ❌ Fail | 3 | — | — | — |
-| [FY22-DOEAnnualReport_ConfActivities_Web.pdf](https://www.energy.gov/sites/default/files/2023-01/FY22-DOEAnnualReport_ConfActivities_Web.pdf) | energy.gov | 2023-01-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ❌ Fail | 11 | — | — | — |
-| [FY23-DOEAnnualReport_ConfActivities_Web.pdf](https://www.energy.gov/sites/default/files/2024-01/FY23-DOEAnnualReport_ConfActivities_Web.pdf) | energy.gov | 2024-01-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 13 | — | — | — |
-| [FY24-DOE-Conference-Activity-Annual-Report.pdf](https://www.energy.gov/sites/default/files/2025-01/FY24-DOE-Conference-Activity-Annual-Report.pdf) | energy.gov | 2025-01-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | ❌ Fail | ❌ Fail | 16 | — | — | — |
+| [FY21-DOEAnnualReport_ConfActivities_Web_0.pdf](https://www.energy.gov/sites/default/files/2022-01/FY21-DOEAnnualReport_ConfActivities_Web_0.pdf) | energy.gov | 2022-01-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 503 | 0 |
+| [FY22-DOEAnnualReport_ConfActivities_Web.pdf](https://www.energy.gov/sites/default/files/2023-01/FY22-DOEAnnualReport_ConfActivities_Web.pdf) | energy.gov | 2023-01-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 11 | — | 1283 | 5 |
+| [FY23-DOEAnnualReport_ConfActivities_Web.pdf](https://www.energy.gov/sites/default/files/2024-01/FY23-DOEAnnualReport_ConfActivities_Web.pdf) | energy.gov | 2024-01-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 13 | — | 1642 | 5 |
+| [FY24-DOE-Conference-Activity-Annual-Report.pdf](https://www.energy.gov/sites/default/files/2025-01/FY24-DOE-Conference-Activity-Annual-Report.pdf) | energy.gov | 2025-01-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | — | 2605 | 7 |
 | [FY24SSMP_FINAL_NOVEMBER_2023_0.pdf](https://www.energy.gov/sites/default/files/2023-11/FY24SSMP_FINAL_NOVEMBER_2023_0.pdf) | energy.gov | 2023-11-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 335 | — | 127163 | 279 |
 | [GRIP_Call-for-Reviewers_March-13-2023.pdf](https://www.energy.gov/sites/default/files/2023-03/GRIP_Call-for-Reviewers_March-13-2023.pdf) | energy.gov | 2023-03-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 460 | 2 |
 | [Indiana_Investing-in-America_December-2024_0.pdf](https://www.energy.gov/sites/default/files/2025-01/Indiana_Investing-in-America_December-2024_0.pdf) | energy.gov | 2025-01-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 484 | 3 |
 | [MESC_Request_For_Information_Supply_Chain.pdf](https://www.energy.gov/sites/default/files/2024-04/MESC_Request_For_Information_Supply_Chain.pdf) | energy.gov | 2024-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | 2768 | 2 |
 | [MMRV%20Framework%20US%20Stakeholder%20Meeting_Final_15Sept2023.pdf](https://www.energy.gov/sites/default/files/2023-09/MMRV%20Framework%20US%20Stakeholder%20Meeting_Final_15Sept2023.pdf) | energy.gov | 2023-09-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 27 | — | 1733 | 111 |
-| [Mercury%20Treatment%20Facility_2024.pdf](https://www.energy.gov/sites/default/files/2023-12/Mercury%20Treatment%20Facility_2024.pdf) | energy.gov | 2023-12-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — | — |
+| [Mercury%20Treatment%20Facility_2024.pdf](https://www.energy.gov/sites/default/files/2023-12/Mercury%20Treatment%20Facility_2024.pdf) | energy.gov | 2023-12-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 359 | 8 |
 | [NSLSII_Lessons_Learned_2015-08_0.pdf](https://www.energy.gov/sites/prod/files/2016/02/f29/NSLSII_Lessons_Learned_2015-08_0.pdf) | energy.gov | 2015-10-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 36 | — | 10893 | 100 |
 | [Order%20No.%20202-25-10.pdf](https://www.energy.gov/sites/default/files/2025-11/Order%20No.%20202-25-10.pdf) | energy.gov | 2025-11-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | 3557 | 2 |
 | [Report%20to%20Congress%20on%20Recovery%20of%20Rare%20Earth%20Elements%20and%20Critical%20Minerals%20from%20Coal%20and%20Coal%20By-Products.pdf](https://www.energy.gov/sites/default/files/2022-05/Report%20to%20Congress%20on%20Recovery%20of%20Rare%20Earth%20Elements%20and%20Critical%20Minerals%20from%20Coal%20and%20Coal%20By-Products.pdf) | energy.gov | 2022-05-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 86 | — | 22399 | 16 |
@@ -4129,7 +4355,7 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [annualreportonpart810processingfy2017pdf.pdf](https://www.energy.gov/documents/annualreportonpart810processingfy2017pdf) | energy.gov | 2018-05-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 11 | — | 2709 | 11 |
 | [appendix-part-625-title-10.pdf](https://www.energy.gov/documents/appendix-part-625-title-10) | energy.gov | 2025-06-26 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 50 | — | 22499 | 1 |
 | [appliance-and-equipment-standards-fact-sheet.pdf](https://www.energy.gov/cmei/buildings/articles/appliance-and-equipment-standards-fact-sheet) | energy.gov | 2017-01-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | 1270 | 4 |
-| [better-plants-infographic_2025-april.pdf](https://www.energy.gov/sites/default/files/2025-04/better-plants-infographic_2025-april.pdf) | energy.gov | 2025-04-01 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | — | — | — |
+| [better-plants-infographic_2025-april.pdf](https://www.energy.gov/sites/default/files/2025-04/better-plants-infographic_2025-april.pdf) | energy.gov | 2025-04-01 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 297 | 8 |
 | [bioproducts_to_enable_biofuels_workshop_report.pdf](https://www.energy.gov/sites/prod/files/2015/12/f27/bioproducts_to_enable_biofuels_workshop_report.pdf) | energy.gov | 2015-12-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 40 | — | 9954 | 1 |
 | [bto-2024-zedd-application-checklist-020824.pdf](https://www.energy.gov/sites/default/files/2024-02/bto-2024-zedd-application-checklist-020824.pdf) | energy.gov | 2024-02-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 272 | 1 |
 | [bto-manufactured-housing-financing-guide-030625.pdf](https://www.energy.gov/sites/default/files/2025-03/bto-manufactured-housing-financing-guide-030625.pdf) | energy.gov | 2025-03-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 67 | — | 19463 | 14 |
@@ -4176,6 +4402,7 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [report-strengthening-cybersecurity-federal-networks-and-critical-infrastructure.pdf](https://www.energy.gov/articles/report-strengthening-cybersecurity-federal-networks-and-critical-infrastructure) | energy.gov | 2018-05-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 55 | — | 20458 | 3 |
 | [shines-kickoff-presentation-austin-energy.pdf](https://www.energy.gov/eere/solar/articles/shines-kickoff-presentation-austin-energy) | energy.gov | 2016-05-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 19 | — | 700 | 160 |
 | [shines-kickoff-presentation-hawaiian-electric-company.pdf](https://www.energy.gov/eere/solar/articles/shines-kickoff-presentation-hawaiian-electric-company) | energy.gov | 2016-05-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 22 | — | 900 | 249 |
+| [strategic%20petroleum%20reserve%20factsheet%2008.2024.pdf](https://www.energy.gov/sites/default/files/2024-09/strategic%20petroleum%20reserve%20factsheet%2008.2024.pdf) | energy.gov | 2024-08-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 1185 | 1 |
 | [suny_project_abstract.pdf](https://www.energy.gov/sites/prod/files/2014/04/f14/suny_project_abstract.pdf) | energy.gov | 2012-12-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 546 | 0 |
 | [transition-and-transfer-remediated-fusrap-sites-usace-us-doe-long-term-surveillance-and.pdf](https://www.energy.gov/lm/articles/transition-and-transfer-remediated-fusrap-sites-usace-us-doe-long-term-surveillance-and) | energy.gov | 2017-07-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 31 | — | 5896 | 8 |
 | [tva-wpto-mou-action-plan.pdf](https://www.energy.gov/sites/default/files/2024-01/tva-wpto-mou-action-plan.pdf) | energy.gov | 2024-01-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | 3901 | 0 |
@@ -4863,15 +5090,25 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [2025-2026_SANGRE_DE_CRISTO_SCHOOLS.pdf](https://www.slvboces.org/pdfs/calendars/2025-2026_SANGRE_DE_CRISTO_SCHOOLS.pdf) | slvboces.org | 2025-04-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 593 | 0 |
 | [2025-2026_SOUTH_CONEJOS_SCHOOL_CALENDER.pdf](https://www.slvboces.org/pdfs/calendars/2025-2026_SOUTH_CONEJOS_SCHOOL_CALENDER.pdf) | slvboces.org | 2025-04-21 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 0 | 3 |
 | [2025-2026_Sanford_District_Calendar_jpg.pdf](https://www.slvboces.org/pdfs/calendars/2025-2026_Sanford_District_Calendar_jpg.pdf) | slvboces.org | 2025-06-17 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 0 | 1 |
+| [2025-2026_School_Calendar-Mountain_Valley.pdf](https://www.slvboces.org/pdfs/calendars/2025-2026_School_Calendar-Mountain_Valley.pdf) | slvboces.org | 2025-05-25 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 694 | 0 |
 | [2025-2026_School_Calendar_CENTER.pdf](https://www.slvboces.org/pdfs/calendars/2025-2026_School_Calendar_CENTER.pdf) | slvboces.org | 2025-04-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 825 | 2 |
 | [2025-2026_School_Creede.pdf](https://www.slvboces.org/pdfs/calendars/2025-2026_School_Creede.pdf) | slvboces.org | 2025-06-17 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 0 | 1 |
 | [2025-2026_UPPER_RIO_GRANDE_SCHOOL_DISTRICT_CALENDER.pdf](https://www.slvboces.org/pdfs/calendars/2025-2026_UPPER_RIO_GRANDE_SCHOOL_DISTRICT_CALENDER.pdf) | slvboces.org | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 733 | 0 |
+| [2025-26-Sierra-Grande-Calendar.pdf](https://www.slvboces.org/pdfs/calendars/2025-26-Sierra-Grande-Calendar.pdf) | slvboces.org | 2025-04-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 749 | 1 |
 | [2025-26_Centennial_R-1_District_Calendar_FINAL.pdf](https://www.slvboces.org/pdfs/calendars/2025-26_Centennial_R-1_District_Calendar_FINAL.pdf) | slvboces.org | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 688 | 1 |
 | [BOCES%20Employment%20Application%20-%20Certified.pdf](https://www.slvboces.org/ourpages/auto/2025/1/23/55962244/BOCES%20Employment%20Application%20-%20Certified.pdf?rnd=1758661327288) | slvboces.org | 2025-01-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 525 | 1 |
 | [BOCES%20Employment%20Application%20-%20Classified.pdf](https://www.slvboces.org/ourpages/auto/2025/1/23/55962244/BOCES%20Employment%20Application%20-%20Classified.pdf?rnd=1744050964923) | slvboces.org | 2025-01-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 525 | 1 |
+| [CEBT-Benefit-Plans.pdf](https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/CEBT-Benefit-Plans.pdf?rnd=1728930714680) | slvboces.org | 2022-05-11 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | 0 | 58 |
 | [Change%20of%20Status.pdf](https://www.slvboces.org/ourpages/auto/2025/1/15/47690234/Change%20of%20Status.pdf?rnd=1739288075182) | slvboces.org | 2022-09-09 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 0 | 7 |
+| [Delta-Dental.pdf](https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Delta-Dental.pdf?rnd=1728930726976) | slvboces.org | 2022-05-12 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 0 | 1 |
 | [Employee%20Handbook.docx.pdf](https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Employee%20Handbook.docx.pdf?rnd=1736274975906) | slvboces.org | — | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 26 | — | 9512 | 1 |
+| [Enrollment-From.pdf](https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Enrollment-From.pdf?rnd=1728930734744) | slvboces.org | 2022-09-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 393 | 0 |
+| [Fingerpringing-Instructions.pdf](https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerpringing-Instructions.pdf?rnd=1728930764841) | slvboces.org | 2019-02-05 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 311 | 2 |
+| [Fingerprinting-Locations.pdf](https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerprinting-Locations.pdf?rnd=1728930770307) | slvboces.org | 2019-02-05 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 198 | 2 |
+| [Fingerprinting-Notice-to-Applicants.pdf](https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerprinting-Notice-to-Applicants.pdf?rnd=1774276865695) | slvboces.org | 2026-03-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 352 | 3 |
 | [First_Report_of_Injury%20%281%29-1.pdf](https://www.slvboces.org/ourpages/auto/2024/10/14/48977507/First_Report_of_Injury%20%281%29-1.pdf?rnd=1774276726561) | slvboces.org | 2026-03-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 337 | 0 |
+| [Forms_%20Referral%20_English.pdf](https://www.slvboces.org/ourpages/auto/2024/12/11/51314671/Forms_%20Referral%20_English.pdf?rnd=1733949451678) | slvboces.org | 2024-08-20 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 510 | 2 |
+| [Grants%20Coordinator%20.pdf](https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Grants%20Coordinator%20.pdf?rnd=1728931650023) | slvboces.org | 2022-12-15 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 0 | 4 |
 | [7StepstoStartingYourBusiness-20231017.pdf](https://businessexpress.maryland.gov/documents/7StepstoStartingYourBusiness-20231017.pdf) | businessexpress.maryland.gov | 2023-10-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 164 | 8 |
 | [001B1600087-BPW-Agenda.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Wireless-Voice-Data-and-Accessories/Documents/001B1600087-BPW-Agenda.pdf) | doit.maryland.gov | 2025-12-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 401 | 4 |
 | [060B3490012BPWitem2-IT.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Documents/SPSSAASHC/060B3490012BPWitem2-IT.pdf) | doit.maryland.gov | 2025-12-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 403 | 2 |
@@ -5127,7 +5364,7 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [antares_project_abstract.pdf](https://www.energy.gov/sites/prod/files/2014/03/f14/antares_project_abstract.pdf) | energy.gov | 2012-12-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 372 | 0 |
 | [appendix-e-coverpdf.pdf](https://www.energy.gov/documents/appendix-e-coverpdf) | energy.gov | 2016-12-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | 8 | 0 |
 | [appendix-e-mrlpdf.pdf](https://www.energy.gov/documents/appendix-e-mrlpdf) | energy.gov | 2016-12-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 126 | — | 8387 | 215 |
-| [attachment-bpa-master-performance-work-statementpdf.pdf](https://www.energy.gov/documents/attachment-bpa-master-performance-work-statementpdf) | energy.gov | 2022-06-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 12 | — | — | — |
+| [attachment-bpa-master-performance-work-statementpdf.pdf](https://www.energy.gov/documents/attachment-bpa-master-performance-work-statementpdf) | energy.gov | 2022-06-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 4167 | 0 |
 | [busch-weldon-greenspace-map.pdf](https://www.energy.gov/lm/articles/busch-weldon-greenspace-map) | energy.gov | 2018-11-05 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 261 | 7 |
 | [corky-mittelsteadt-plug-power.pdf](https://www.energy.gov/documents/corky-mittelsteadt-plug-power) | energy.gov | 2022-04-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 19 | — | 746 | 69 |
 | [doe-nepa-compliance-officers-directory-march-23-2026.pdf](https://www.energy.gov/documents/doe-nepa-compliance-officers-directory-march-23-2026) | energy.gov | 2026-03-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 677 | 0 |
@@ -5159,20 +5396,21 @@ Generated: 2026-07-15T19:19:35.393364+00:00
 | [ground-based-coastal-air-surveillance-radar-wtri-study-public-summary.pdf](https://www.energy.gov/documents/ground-based-coastal-air-surveillance-radar-wtri-study-public-summary) | energy.gov | 2017-12-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 9 | — | 1726 | 4 |
 | [hallam-nebraska-decommissioned-reactor-site-fact-sheet.pdf](https://www.energy.gov/lm/articles/hallam-nebraska-decommissioned-reactor-site-fact-sheet) | energy.gov | 2025-12-10 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1093 | 6 |
 | [history-atomic-energy-commission.pdf](https://www.energy.gov/management/articles/history-atomic-energy-commission) | energy.gov | 2012-03-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 42 | — | 11420 | 23 |
-| [nepa-support-services-bpa-ordering-guide-2023-09-12pdf.pdf](https://www.energy.gov/documents/nepa-support-services-bpa-ordering-guide-2023-09-12pdf) | energy.gov | 2023-09-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 9 | — | — | — |
+| [ne-dpa-consortium-faqs-091525.pdf](https://www.energy.gov/sites/default/files/2025-09/ne-dpa-consortium-faqs-091525.pdf) | energy.gov | 2025-09-15 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 1318 | 0 |
+| [nepa-support-services-bpa-ordering-guide-2023-09-12pdf.pdf](https://www.energy.gov/documents/nepa-support-services-bpa-ordering-guide-2023-09-12pdf) | energy.gov | 2023-09-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | 2500 | 1 |
 | [noa-eis-0552-lanl-site-wide-2026-03.pdf](https://www.energy.gov/sites/default/files/2026-03/noa-eis-0552-lanl-site-wide-2026-03.pdf) | energy.gov | 2026-03-27 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 1068 | 0 |
 | [noi-eis-0552-lanl-site-wide-2022-08pdf.pdf](https://www.energy.gov/documents/noi-eis-0552-lanl-site-wide-2022-08pdf) | energy.gov | 2022-08-19 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 4077 | 0 |
 | [order-granting-rehearing-request-nos-202-26-01-though-15.pdf](https://www.energy.gov/documents/order-granting-rehearing-request-nos-202-26-01-though-15) | energy.gov | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1317 | 1 |
 | [pathways-commercial-success-technologies-and-innovations-enabled-us-department.pdf](https://www.energy.gov/cmei/fuels/articles/pathways-commercial-success-technologies-and-innovations-enabled-us-department) | energy.gov | 2017-10-11 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 328 | — | 99748 | 162 |
 | [pitka-point-final-reportpdf.pdf](https://www.energy.gov/documents/pitka-point-final-reportpdf) | energy.gov | 2020-04-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 2360 | 3 |
 | [rad-air-emissions-eis-0552-lanl-site-wide-2025-02_0.pdf](https://www.energy.gov/sites/default/files/2025-02/rad-air-emissions-eis-0552-lanl-site-wide-2025-02_0.pdf) | energy.gov | 2025-02-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 201 | 5 |
-| [radiological-assistance-program-60th-anniversary-brochure.pdf](https://www.energy.gov/nnsa/articles/radiological-assistance-program-60th-anniversary-brochure) | energy.gov | 2018-10-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 28 | — | — | — |
+| [radiological-assistance-program-60th-anniversary-brochure.pdf](https://www.energy.gov/nnsa/articles/radiological-assistance-program-60th-anniversary-brochure) | energy.gov | 2018-10-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 28 | — | 3348 | 96 |
 | [rd-greet-hydrogen-fact-sheet_january-2025.pdf](https://www.energy.gov/sites/default/files/2025-01/rd-greet-hydrogen-fact-sheet_january-2025.pdf) | energy.gov | 2025-01-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 972 | 1 |
 | [regulatory-support-advanced-light-water-reactor-deployment-advanced-boiling-water.pdf](https://www.energy.gov/ne/articles/regulatory-support-advanced-light-water-reactor-deployment-advanced-boiling-water) | energy.gov | 2018-04-30 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 419 | 1 |
 | [resolving-regulatory-issues-implementation-online-monitoring-technologies-extend.pdf](https://www.energy.gov/ne/articles/resolving-regulatory-issues-implementation-online-monitoring-technologies-extend) | energy.gov | 2018-01-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 250 | 1 |
 | [rod-eis-0552-lanl-site-wide-2026-03.pdf](https://www.energy.gov/sites/default/files/2026-03/rod-eis-0552-lanl-site-wide-2026-03.pdf) | energy.gov | 2026-03-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 2203 | 1 |
 | [site-aplot-m-illinois-decommissioned-reactor-site-fact-sheet.pdf](https://www.energy.gov/lm/articles/site-aplot-m-illinois-decommissioned-reactor-site-fact-sheet) | energy.gov | 2025-12-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1092 | 8 |
-| [strategic%20petroleum%20reserve%20factsheet.2_1.pdf](https://www.energy.gov/sites/default/files/2022-09/strategic%20petroleum%20reserve%20factsheet.2_1.pdf) | energy.gov | 2022-09-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | — | — | — |
+| [strategic%20petroleum%20reserve%20factsheet.2_1.pdf](https://www.energy.gov/sites/default/files/2022-09/strategic%20petroleum%20reserve%20factsheet.2_1.pdf) | energy.gov | 2022-09-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 1172 | 1 |
 | [21-26%20ERP-Accounting%20RFP%20Narrative.pdf](https://www.ecboces.org/pluginfile.php/29957/mod_resource/content/1/21-26%20ERP-Accounting%20RFP%20Narrative.pdf) | ecboces.org | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | 4321 | 1 |
 | [22-23%20ECBOCES%20Finance%20December%20Detail%20Data%20Report.pdf](https://www.ecboces.org/pluginfile.php/46687/mod_resource/content/0/22-23%20ECBOCES%20Finance%20December%20Detail%20Data%20Report.pdf) | ecboces.org | 2023-12-01 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 4407 | 24 |
 | [23-24%20ECBOCES%20Finance%20December%20Detail%20Data%20Report.pdf](https://www.ecboces.org/pluginfile.php/50688/mod_resource/content/0/23-24%20ECBOCES%20Finance%20December%20Detail%20Data%20Report.pdf) | ecboces.org | 2024-11-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 13 | — | 4557 | 26 |
@@ -5736,7 +5974,7 @@ Report to Congress | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 | [iah-fg-yr4eval.pdf](https://www.cms.gov/priorities/innovation/files/reports/iah-fg-yr4eval.pdf) | cms.gov | 2019-05-23 | Evaluation of the Independence at Home Demonstration: Evaluation of Performance Years 1 to 4 (2012-2016) | Mathematica; CMS; CMMI; Innovation Center | {'Independence at Home; IAH; alternative primary care; home care; home-based primary care; primary care; payment innovation; evaluation; impact'} | "Independence at Home; IAH; alternative primary care; home care; home-based primary care; primary care; payment innovation; evaluation; impact" | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | — | 747 | 4 |
 | [02118-part-b-outpatient-services.pdf](https://www.medicare.gov/publications/02118-part-b-outpatient-services.pdf) | medicare.gov | 2017-12-07 | Quick facts about payment for outpatient services for people with Medicare Part B. | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 4 | — | 963 | 4 |
 | [02118-s-part-b-outpatient-services.pdf](https://www.medicare.gov/publications/02118-s-part-b-outpatient-services.pdf) | medicare.gov | 2018-01-04 | Resumen sobre el Sistema de Pago de Servicios Ambulatorios para las Personas con la Parte B de Medicare | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 4 | — | 1090 | 4 |
-| [02154-medicare-hospice-benefits.pdf](https://www.medicare.gov/publications/02154-medicare-hospice-benefits.pdf) | medicare.gov | 2026-02-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 20 | — | — | — |
+| [02154-medicare-hospice-benefits.pdf](https://www.medicare.gov/publications/02154-medicare-hospice-benefits.pdf) | medicare.gov | 2026-02-27 | Medicare Hospice Benefits | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 20 | — | 4455 | 4 |
 | [02173-getting-a-second-opinion-before-surgery.pdf](https://www.medicare.gov/publications/02173-getting-a-second-opinion-before-surgery.pdf) | medicare.gov | 2022-01-11 | Getting a second opinion before surgery. | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 4 | — | 802 | 4 |
 | [02173-s-getting-a-second-opinion-before-surgery.pdf](https://www.medicare.gov/publications/02173-s-getting-a-second-opinion-before-surgery.pdf) | medicare.gov | 2022-01-21 | Una Segunda Opinión Antes de la Cirugía. | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 4 | — | 952 | 4 |
 | [02174-s-your-guide-to-choosing-a-nursing-home.pdf](https://www.medicare.gov/publications/02174-s-your-guide-to-choosing-a-nursing-home.pdf) | medicare.gov | 2025-11-21 | 02174-S: Su guía para elegir un asilo de ancianos | Centers for Medicare and Medicaid Services | {'booklet', 'Your Guide to Choosing a Nursing Home', 'Medicare', 'Spanish', 'Su guía para elegir un asilo de ancianos', '02174', 'Centers for Medicare & Medicaid Services'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 16 | — | 3376 | 9 |
@@ -5771,7 +6009,7 @@ Report to Congress | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 | [10153-medicare-coverage-of-skilled-nursing-facility-care-508.pdf](https://www.medicare.gov/publications/10153-medicare-coverage-of-skilled-nursing-facility-care-508.pdf) | medicare.gov | 2025-08-06 | Medicare Coverage of Skilled Nursing Facility Care | Centers for Medicare and Medicaid Services | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 36 | — | 7612 | 10 |
 | [10153-s-medicare-skilled-nursing-facility.pdf](https://www.medicare.gov/publications/10153-s-medicare-skilled-nursing-facility.pdf) | medicare.gov | 2025-08-20 | Medicare Rights & Protections | Centers for Medicare and Medicaid Services | {'11534', 'Medicare Rights & Protections', 'Medicare'} | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 36 | — | 8543 | 9 |
 | [10181-s-guide-to-choosing-a-hospital.pdf](https://www.medicare.gov/publications/10181-s-guide-to-choosing-a-hospital.pdf) | medicare.gov | 2026-03-31 | La guía para escoger un hospital | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 16 | — | 3512 | 7 |
-| [10969-medicare-and-home-health-care.pdf](https://www.medicare.gov/publications/10969-medicare-and-home-health-care.pdf) | medicare.gov | 2025-06-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | — | — | — |
+| [10969-medicare-and-home-health-care.pdf](https://www.medicare.gov/publications/10969-medicare-and-home-health-care.pdf) | medicare.gov | 2025-06-24 | 10969 Medicare and Home Health Care | Centers for Medicare and Medicaid Services | {'Medicare', 'Medicare and Home Health Care', '10969', 'CMS'} | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | — | 5521 | 5 |
 | [10969-s-medicare-and-home-health-care.pdf](https://www.medicare.gov/publications/10969-s-medicare-and-home-health-care.pdf) | medicare.gov | 2025-08-18 | 10969 Medicare y el Cuidado de Salud en el Hogar | Centers for Medicare and Medicaid Services | {'Medicare and Home Health Care Booklet', 'Medicare y el Cuidado de Salud en el Hogar', 'Centers for Medicare and Medicaid Services', 'Spanish', 'CMS'} | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ❌ Fail | 24 | — | 6675 | 5 |
 | [10988-medicare-coverage-of-therapy-services.pdf](https://www.medicare.gov/publications/10988-medicare-coverage-of-therapy-services.pdf) | medicare.gov | 2024-11-05 | Medicare Coverage of Therapy Services | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | — | 464 | 0 |
 | [10988-s-medicare-coverage-therapy-services.pdf](https://www.medicare.gov/publications/10988-s-medicare-coverage-therapy-services.pdf) | medicare.gov | 2025-01-22 | Cobertura de Medicare para servicios de terapia | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | — | 550 | 0 |
@@ -5806,7 +6044,7 @@ Report to Congress | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 | [11145-j.pdf](https://www.medicare.gov/publications/11145-j.pdf) | medicare.gov | 2015-07-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 2 | — | 98 | 2 |
 | [11173-medicare-beneficiary-ombudsman.pdf](https://www.medicare.gov/publications/11173-medicare-beneficiary-ombudsman.pdf) | medicare.gov | 2024-09-10 | The Medicare Beneficiary Ombudsman Works for You | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | — | 473 | 0 |
 | [11173-s-the-medicare-beneficiary-ombudsman-works-for-you.pdf](https://www.medicare.gov/publications/11173-s-the-medicare-beneficiary-ombudsman-works-for-you.pdf) | medicare.gov | 2024-09-10 | El Defensor del Beneficiario de Medicare trabaja para usted | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | — | 571 | 0 |
-| [11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf](https://www.medicare.gov/publications/11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf) | medicare.gov | 2026-03-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | — | — | — |
+| [11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf](https://www.medicare.gov/publications/11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf) | medicare.gov | 2026-03-11 | Understanding Medicare Advantage & Medicare Drug Plan Enrollment Periods | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | — | 4257 | 0 |
 | [11220-I-have-you-done-your-yearly-medicare-plan-review.pdf](https://www.medicare.gov/publications/11220-I-have-you-done-your-yearly-medicare-plan-review.pdf) | medicare.gov | 2025-09-23 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | — | 1020 | 1 |
 | [11220-ar-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-ar-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | — | 916 | 1 |
 | [11220-arb-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-arb-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | — | 1008 | 1 |
@@ -5844,7 +6082,7 @@ Home Health Benefit | Centers for Medicare & Medicaid Services | {'Home Health B
 | [11361-s-medicare-and-hospice-benefits.pdf](https://www.medicare.gov/publications/11361-s-medicare-and-hospice-benefits.pdf) | medicare.gov | 2025-07-03 | Medicare y los beneficios de hospicio | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | — | 1511 | 1 |
 | [11368-n-bringing-better-heal-care.pdf](https://www.medicare.gov/publications/11368-n-bringing-better-heal-care.pdf) | medicare.gov | 2015-08-24 | Bringing Better Health Care to Native Communities | {'The Centers for Medicare & Medicaid Services'} | {'tribal', 'American Indian', 'health insurance', 'Medicare', 'Centers for Medicare and Medicaid Services', 'Native health', 'CMS', 'health coverage', 'Alaska Native', 'Indian Country', 'Medicaid', 'AI/AN', 'Marketplace'} | CMS, Centers for Medicare and Medicaid Services, Native health, Indian Country, American Indian, Alaska Native, AI/AN, tribal, Medicare, Medicaid, Marketplace, health insurance, health coverage | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 2 | — | 496 | 5 |
 | [11376-s-your-discharge-planning-checklist.pdf](https://www.medicare.gov/publications/11376-s-your-discharge-planning-checklist.pdf) | medicare.gov | 2025-12-09 | Su lista de verificación para la planificación del alta | — | {'11376', 'Medicare', 'Your discharge planning checklist'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | — | 1624 | 1 |
-| [11376-your-discharge-planning-checklist.pdf](https://www.medicare.gov/publications/11376-your-discharge-planning-checklist.pdf) | medicare.gov | 2025-12-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | — | — | — |
+| [11376-your-discharge-planning-checklist.pdf](https://www.medicare.gov/publications/11376-your-discharge-planning-checklist.pdf) | medicare.gov | 2025-12-03 | Your discharge planning checklist | — | {'11376', 'Medicare', 'Your discharge planning checklist'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | — | 1379 | 1 |
 | [11377-getting-care-and-drugs-in-a-disaster-or-emergency.pdf](https://www.medicare.gov/publications/11377-getting-care-and-drugs-in-a-disaster-or-emergency.pdf) | medicare.gov | 2025-03-04 | Getting Care & Drugs in a Disaster or Emergency | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | — | 1249 | 0 |
 | [11377-s-getting-care-and-drugs-in-a-disaster-or-emergency.pdf](https://www.medicare.gov/publications/11377-s-getting-care-and-drugs-in-a-disaster-or-emergency.pdf) | medicare.gov | 2025-03-07 | Cómo obtener atención médica y medicamentos en una situación de desastre o emergencia | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | — | 1427 | 0 |
 | [11389-s-medicare-getting-started.pdf](https://www.medicare.gov/publications/11389-s-medicare-getting-started.pdf) | medicare.gov | 2026-02-27 | Medicare: Conozca los conceptos básicos | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | — | 1789 | 1 |
@@ -5888,8 +6126,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [11514-a-quick-look-at-medicare-2.pdf](https://www.medicare.gov/publications/11514-a-quick-look-at-medicare-2.pdf) | medicare.gov | 2020-07-21 | A Quick Look at Medicare | CMS | {'Original Medicare', 'Medicare Advantage', 'resources', 'help', 'Medicare basics'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 4 | — | 611 | 2 |
 | [11514-s-a-quick-look-medicare.pdf](https://www.medicare.gov/publications/11514-s-a-quick-look-medicare.pdf) | medicare.gov | 2020-07-30 | Resumen Corto Sobre Medicare | {'CMS'} | {'información básica', 'Medicare Advantage', 'ayuda', 'recursos', 'Medicare Original'} | Medicare Original, Medicare Advantage, recursos, ayuda, información básica | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 4 | — | 686 | 2 |
 | [11525-medicare-appeals.pdf](https://www.medicare.gov/publications/11525-medicare-appeals.pdf) | medicare.gov | 2026-04-21 | Medicare Appeals | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 48 | — | 14904 | 8 |
-| [11579-medicare-costs.pdf](https://www.medicare.gov/publications/11579-medicare-costs.pdf) | medicare.gov | 2025-12-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | — | — | — |
-| [summarynoticeenvelope.pdf](https://www.medicare.gov/publications/summarynoticeenvelope.pdf) | medicare.gov | 2024-04-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — | — |
 | [BF-KfW-Green-Bonds-Reporting-2021_2022-A4-240909-02_CR_V4.pdf](https://www.kfw.de/PDF/Investor-Relations/PDF-Dokumente-Green-Bonds/Impact-and-Allocation-Reporting/BF-KfW-Green-Bonds-Reporting-2021_2022-A4-240909-02_CR_V4.pdf) | kfw.de | 2024-10-17 | Green Bonds – Made by KfW: Impact achieved by KfW’s green bond issuances 2021 & 2022 (September 2024) | KfW Group | Impact achieved by KfW’s green bond issuances 2021 & 2022 | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ❌ Fail | 19 | — | 11677 | 23 |
 | [KfW-FInancial-Report-2023.pdf](https://www.kfw.de/PDF/Download-Center/Finanzpublikationen/PDF-Dokumente-Berichte-etc/3_Finanzberichte/KfW-FInancial-Report-2023.pdf) | kfw.de | 2024-06-03 | Financial Report 2023 | {'KfW Bankengruppe'} | Shaping transformation | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 224 | — | 89690 | 26 |
 | [KfW-Gesetz-DE-EN.pdf](https://www.kfw.de/PDF/Download-Center/Law-Concerning-KfW/KfW-Gesetz-DE-EN.pdf) | kfw.de | 2021-01-27 | Law Concerning Kreditanstalt für Wiederaufbau | KfW | Law Concerning Kreditanstalt für Wiederaufbau | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 12 | — | 4466 | 0 |
@@ -6144,95 +6380,189 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [Stellungnahme_vbw_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_vbw_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 4 | — | — | — |
 | [Webinar-2-Funktion-der-Blockchain-erkl%C3%A4rt.pdf](https://www.ihk-muenchen.de/ihk/Digitalisierung/Blockchain-Webinarreihe-2021/Webinar-2-Funktion-der-Blockchain-erkl%C3%A4rt.pdf) | stmd.bayern.de *(ext: ihk-muenchen.de)* | 2021-05-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 54 | — | — | — |
 | [White_Paper_NESSI.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/11/White_Paper_NESSI.pdf) | stmd.bayern.de | 2022-04-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 54 | — | — | — |
-| [08_impots_gouv_fr_prendre_rdv.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/11/08_impots_gouv_fr_prendre_rdv.pdf) | cc-coeurdegaronne.fr | 2020-01-13 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 718.7 KB | — | — |
-| [1-BP-2024-BUDGET-PRINCIPAL.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/1-BP-2024-BUDGET-PRINCIPAL.pdf) | cc-coeurdegaronne.fr | 2024-03-13 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 185 | 1.1 MB | — | — |
-| [1-CA-2023-Budget-pricipal.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/1-CA-2023-Budget-pricipal.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 208 | 1.8 MB | — | — |
-| [1-DOB-2023.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/03/1-DOB-2023.pdf) | cc-coeurdegaronne.fr | 2023-02-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | Warn | ❌ Fail | 49 | 1.3 MB | — | — |
-| [1-NOTE-DE-PRESENTATION-NON-TECHNIQUE_MENTION-DES-TEXTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/1-NOTE-DE-PRESENTATION-NON-TECHNIQUE_MENTION-DES-TEXTE.pdf) | cc-coeurdegaronne.fr | 2024-01-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | Warn | ❌ Fail | 16 | 5.0 MB | — | — |
-| [1-NOTICE-DE-PRESENTATION-DE-LENQUETE-PUBLIQUE-UNIQUE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/04/1-NOTICE-DE-PRESENTATION-DE-LENQUETE-PUBLIQUE-UNIQUE.pdf) | cc-coeurdegaronne.fr | 2025-03-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 31 | 660.4 KB | — | — |
-| [1-Note-DOB-2024.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/1-Note-DOB-2024.pdf) | cc-coeurdegaronne.fr | 2024-02-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | Warn | ❌ Fail | ❌ Fail | 56 | 1.7 MB | — | — |
-| [1-Note-synthetique-Compte-Administratif-2025.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/1-Note-synthetique-Compte-Administratif-2025.pdf) | cc-coeurdegaronne.fr | 2026-02-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | Warn | ❌ Fail | 10 | 485.0 KB | — | — |
-| [1-Rapport-Egalite-Femmes-Hommes-2025-et-plan-daction.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/01/1-Rapport-Egalite-Femmes-Hommes-2025-et-plan-daction.pdf) | cc-coeurdegaronne.fr | 2026-01-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 60 | 3.9 MB | — | — |
-| [1-Zonage_20181130.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/04/1-Zonage_20181130.pdf) | cc-coeurdegaronne.fr | 2018-11-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 1.4 MB | — | — |
-| [1-voirie.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/1-voirie.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 7 | 1.0 MB | — | — |
-| [1.-RAPPORT-DE-PRESENTATION_PLU-ARRETE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/1.-RAPPORT-DE-PRESENTATION_PLU-ARRETE.pdf) | cc-coeurdegaronne.fr | 2023-03-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | Warn | ❌ Fail | 204 | 17.8 MB | — | — |
-| [1.Les-zones-dactivit%C3%A9-du-territoire-Coeur-de-Garonne.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.Les-zones-dactivit%C3%A9-du-territoire-Coeur-de-Garonne.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 220.8 KB | — | — |
-| [1.ZAE-B%C3%A9rat-Bourgail.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-B%C3%A9rat-Bourgail.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 704.9 KB | — | — |
-| [1.ZAE-Boussens-Estarac-Le-Bousquet-Sansonnet.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Boussens-Estarac-Le-Bousquet-Sansonnet.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 5 | 1.3 MB | — | — |
-| [1.ZAE-Caz%C3%A8res-Mailhol.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Caz%C3%A8res-Mailhol.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 5 | 1.3 MB | — | — |
-| [1.ZAE-Caz%C3%A8res-Masqu%C3%A8re.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Caz%C3%A8res-Masqu%C3%A8re.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 862.0 KB | — | — |
-| [1.ZAE-Le-Fousseret-Bordebasse.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Le-Fousseret-Bordebasse.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 618.4 KB | — | — |
-| [1.ZAE-Lherm-A%C3%A9rodrome.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Lherm-A%C3%A9rodrome.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 652.9 KB | — | — |
-| [1.ZAE-Lherm-Coucoures.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Lherm-Coucoures.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 697.8 KB | — | — |
-| [1.ZAE-Martres-Tolosane-Bordie.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Martres-Tolosane-Bordie.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 759.2 KB | — | — |
-| [1.ZAE-Martres-Tolosane-Cantalauze-Berre-Nord-Carnaval.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Martres-Tolosane-Cantalauze-Berre-Nord-Carnaval.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 5 | 1.2 MB | — | — |
-| [1.ZAE-Martres-Tolosane-Epinette.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Martres-Tolosane-Epinette.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 797.0 KB | — | — |
-| [1.ZAE-Mondavezan-Bordegrosse.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Mondavezan-Bordegrosse.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 714.1 KB | — | — |
-| [1.ZAE-Palaminy-Saint-Blancat.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Palaminy-Saint-Blancat.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 776.0 KB | — | — |
-| [1.ZAE-Poucharramet-Broucassa.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Poucharramet-Broucassa.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 717.3 KB | — | — |
-| [1.ZAE-Rieumes-Houns-de-la-Costo.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Rieumes-Houns-de-la-Costo.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 809.4 KB | — | — |
-| [1.ZAE-Saint-Elix-le-Ch%C3%A2teau-Descaillaux.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Saint-Elix-le-Ch%C3%A2teau-Descaillaux.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 762.0 KB | — | — |
-| [1.ZAE-Sainte-Foy-de-Peyroli%C3%A8res-Couloum%C3%A9.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Sainte-Foy-de-Peyroli%C3%A8res-Couloum%C3%A9.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 763.1 KB | — | — |
-| [1.ZAE-Sainte-Foy-de-Peyroli%C3%A8res-La-Saudrune.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Sainte-Foy-de-Peyroli%C3%A8res-La-Saudrune.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 778.6 KB | — | — |
-| [10-BP-2024-ZA-BERAT.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/10-BP-2024-ZA-BERAT.pdf) | cc-coeurdegaronne.fr | 2024-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 143 | 612.8 KB | — | — |
-| [10-CA-2023-ZA-BOURGAIL-BERAT.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/10-CA-2023-ZA-BOURGAIL-BERAT.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 130 | 1.0 MB | — | — |
-| [10-TRANSPORT-A-LA-DEMANDE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/10-TRANSPORT-A-LA-DEMANDE.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 4 | 529.2 KB | — | — |
-| [11-BP-2024-PHOTOVOLTAIQUE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/11-BP-2024-PHOTOVOLTAIQUE.pdf) | cc-coeurdegaronne.fr | 2024-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 49 | 253.2 KB | — | — |
-| [11-CA-2023-PHOTOVOLTAIQUE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/11-CA-2023-PHOTOVOLTAIQUE.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 63 | 317.3 KB | — | — |
-| [11-PROJETS-TRANSVERSES.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/11-PROJETS-TRANSVERSES.pdf) | cc-coeurdegaronne.fr | 2025-10-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 8 | 1.9 MB | — | — |
-| [12-BP-2024-SPED.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/12-BP-2024-SPED.pdf) | cc-coeurdegaronne.fr | 2024-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 51 | 271.7 KB | — | — |
-| [12-CA-2023-SPED.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/12-CA-2023-SPED.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 64 | 343.6 KB | — | — |
-| [12-PETITE-ENFANCE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/12-PETITE-ENFANCE.pdf) | cc-coeurdegaronne.fr | 2025-10-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | Warn | ❌ Fail | 23 | 2.2 MB | — | — |
-| [13-ENFANCE-JEUNESSE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/13-ENFANCE-JEUNESSE.pdf) | cc-coeurdegaronne.fr | 2025-10-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 30 | 2.0 MB | — | — |
-| [14-ACCOMPAGNEMENT-SOCIAL.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/14-ACCOMPAGNEMENT-SOCIAL.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 7 | 510.7 KB | — | — |
-| [15-PORTAGE-DE-REPAS.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/15-PORTAGE-DE-REPAS.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | ✅ Pass | ❌ Fail | 8 | 602.1 KB | — | — |
-| [16-PREVENTION-SENIORS.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/16-PREVENTION-SENIORS.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 18 | 4.2 MB | — | — |
-| [17-HEBERGEMENT-DE-TRANSITION.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/17-HEBERGEMENT-DE-TRANSITION.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 4 | 455.7 KB | — | — |
-| [18-AUTONOMIE-A-DOMICILE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/18-AUTONOMIE-A-DOMICILE.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 15 | 1.6 MB | — | — |
-| [19-ANIMATION-VIE-SOCIALE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/19-ANIMATION-VIE-SOCIALE.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 9 | 1.8 MB | — | — |
-| [2-AVIS-NOTE-DINTENTION.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/2-AVIS-NOTE-DINTENTION.pdf) | cc-coeurdegaronne.fr | 2024-02-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 72 | 11.5 MB | — | — |
-| [2-BP-2024-SAAD.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/2-BP-2024-SAAD.pdf) | cc-coeurdegaronne.fr | 2024-03-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 31 | 808.7 KB | — | — |
-| [2-CA-2023-SAAD.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/2-CA-2023-SAAD.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 37 | 954.3 KB | — | — |
-| [2-DECHETS.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/2-DECHETS.pdf) | cc-coeurdegaronne.fr | 2025-10-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 29 | 4.1 MB | — | — |
-| [2-DOB-2020.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/2-DOB-2020.pdf) | cc-coeurdegaronne.fr | 2020-02-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 37 | 1019.7 KB | — | — |
-| [2-NOTE-DE-PRESENTATION-DU-COMPTE-ADMINISTRATIF-2024.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/2-NOTE-DE-PRESENTATION-DU-COMPTE-ADMINISTRATIF-2024.pdf) | cc-coeurdegaronne.fr | 2025-03-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | Warn | ❌ Fail | 5 | 245.8 KB | — | — |
-| [2-Note-Synthetique-Budget-Primitif-2026.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/2-Note-Synthetique-Budget-Primitif-2026.pdf) | cc-coeurdegaronne.fr | 2026-02-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 7 | 398.3 KB | — | — |
-| [2-Note-introductive-Debat-dorientations-budgetaires-2026-2.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/01/2-Note-introductive-Debat-dorientations-budgetaires-2026-2.pdf) | cc-coeurdegaronne.fr | 2026-01-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 42 | 1.1 MB | — | — |
-| [2-RAPPORT-TECHNIQUE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/2-RAPPORT-TECHNIQUE.pdf) | cc-coeurdegaronne.fr | 2023-12-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 113 | 46.2 MB | — | — |
-| [2-Reglement-ecrit_20181130.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/04/2-Reglement-ecrit_20181130.pdf) | cc-coeurdegaronne.fr | 2018-11-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 31 | 593.7 KB | — | — |
-| [2.-PADD_PLU-ARRETE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/2.-PADD_PLU-ARRETE.pdf) | cc-coeurdegaronne.fr | 2023-03-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 19 | 1.2 MB | — | — |
-| [2022-10-21-fiche-maternite-version-definitive-ml-version2.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/2022-10-21-fiche-maternite-version-definitive-ml-version2.pdf) | cc-coeurdegaronne.fr | 2022-10-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 5 | 275.1 KB | — | — |
-| [21562_Flyer-lutte-frelon_A5.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/21562_Flyer-lutte-frelon_A5.pdf) | cc-coeurdegaronne.fr | 2024-07-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 910.3 KB | — | — |
-| [22-070-Publication-des-actes-Berat.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/07/22-070-Publication-des-actes-Berat.pdf) | cc-coeurdegaronne.fr | 2024-07-24 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 634.4 KB | — | — |
-| [3-BP-2024-PDR.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/3-BP-2024-PDR.pdf) | cc-coeurdegaronne.fr | 2024-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 144 | 624.4 KB | — | — |
-| [3-CA-2023-PDR.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/3-CA-2023-PDR.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 134 | 1.1 MB | — | — |
-| [3-EQUIPEMENTS-SPORTIFS.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/3-EQUIPEMENTS-SPORTIFS.pdf) | cc-coeurdegaronne.fr | 2025-10-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 14 | 1.4 MB | — | — |
-| [3-NOTE-DE-PRESENTATION-BUDGET-PRIMITIF-2025.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/3-NOTE-DE-PRESENTATION-BUDGET-PRIMITIF-2025.pdf) | cc-coeurdegaronne.fr | 2025-03-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 7 | 318.8 KB | — | — |
-| [3-Orientations-dAmenagement-et-de-Programmation_20181130.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/04/3-Orientations-dAmenagement-et-de-Programmation_20181130.pdf) | cc-coeurdegaronne.fr | 2019-07-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 5 | 170.7 KB | — | — |
-| [3-PLU-AVIS-MRAE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/3-PLU-AVIS-MRAE.pdf) | cc-coeurdegaronne.fr | 2022-06-01 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | 200.3 KB | — | — |
-| [3-PROJET-DE-ZONAGE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/3-PROJET-DE-ZONAGE.pdf) | cc-coeurdegaronne.fr | 2023-12-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | Warn | ❌ Fail | 3 | 2.8 MB | — | — |
-| [3-Rapport-Annuel-2024-sur-le-service-public-de-prevention-et-dechets-menag.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/09/3-Rapport-Annuel-2024-sur-le-service-public-de-prevention-et-dechets-menag.pdf) | cc-coeurdegaronne.fr | 2025-09-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | Warn | ❌ Fail | 57 | 4.8 MB | — | — |
-| [3-Rapport-annuel-SPED-2023.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/06/3-Rapport-annuel-SPED-2023.pdf) | cc-coeurdegaronne.fr | 2025-06-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | Warn | ❌ Fail | 49 | 3.6 MB | — | — |
-| [3-Reglement-de-voirie-et-ses-annexes-v1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/3-Reglement-de-voirie-et-ses-annexes-v1.pdf) | cc-coeurdegaronne.fr | 2025-10-30 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 144 | 4.8 MB | — | — |
-| [3.-Reglement.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/3.-Reglement.pdf) | cc-coeurdegaronne.fr | 2023-03-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 191.3 KB | — | — |
-| [3.1-REGLEMENT.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/3.1-REGLEMENT.pdf) | cc-coeurdegaronne.fr | 2023-04-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 86 | 3.1 MB | — | — |
-| [3.2.1-ZONAGE-COMMUNE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/3.2.1-ZONAGE-COMMUNE.pdf) | cc-coeurdegaronne.fr | 2020-07-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 16.5 MB | — | — |
-| [3.2.2-ZONAGE-VILLAGE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/3.2.2-ZONAGE-VILLAGE.pdf) | cc-coeurdegaronne.fr | 2020-07-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 7.9 MB | — | — |
-| [4-ANNEXES-ADMINISTRATIVES.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4-ANNEXES-ADMINISTRATIVES.pdf) | cc-coeurdegaronne.fr | 2023-12-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | NotApplicable | Warn | ❌ Fail | 11 | 817.2 KB | — | — |
-| [4-BP-2024-OTI.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/4-BP-2024-OTI.pdf) | cc-coeurdegaronne.fr | 2024-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 145 | 641.6 KB | — | — |
-| [4-CA-2023-OTI.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/4-CA-2023-OTI.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 135 | 1.1 MB | — | — |
-| [4-PLU_NOTE-DE-PRESENTATION.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4-PLU_NOTE-DE-PRESENTATION.pdf) | cc-coeurdegaronne.fr | 2024-01-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 1.9 MB | — | — |
-| [4-SERVICES-TECHNIQUES.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/4-SERVICES-TECHNIQUES.pdf) | cc-coeurdegaronne.fr | 2025-10-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 7 | 950.9 KB | — | — |
-| [4.1.1-RESEAU-AEP.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4.1.1-RESEAU-AEP.pdf) | cc-coeurdegaronne.fr | 2023-03-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 1020.3 KB | — | — |
-| [4.1.2-RESEAU-EU.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4.1.2-RESEAU-EU.pdf) | cc-coeurdegaronne.fr | 2023-03-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 1007.9 KB | — | — |
-| [4.2.1-LISTE-SUP.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4.2.1-LISTE-SUP.pdf) | cc-coeurdegaronne.fr | 2023-03-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | ✅ Pass | ❌ Fail | 2 | 285.8 KB | — | — |
-| [4.2.2-PLAN-SUP.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4.2.2-PLAN-SUP.pdf) | cc-coeurdegaronne.fr | 2020-07-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 11.9 MB | — | — |
-| [4.2.3-PPR-SECHERESSE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4.2.3-PPR-SECHERESSE.pdf) | cc-coeurdegaronne.fr | 2024-02-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 56 | 9.7 MB | — | — |
-| [4.3.1-CIZI.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4.3.1-CIZI.pdf) | cc-coeurdegaronne.fr | 2023-03-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 6 | 3.3 MB | — | — |
-| [5-BP-2024-ZA-LHERM.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/5-BP-2024-ZA-LHERM.pdf) | cc-coeurdegaronne.fr | 2024-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 143 | 614.2 KB | — | — |
-| [5-CA-2023-ZA-LHERM.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/5-CA-2023-ZA-LHERM.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 130 | 1.0 MB | — | — |
-| [99_DE-031-200068815-20230213-DEC_2023_5_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/99_DE-031-200068815-20230213-DEC_2023_5_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2023-02-14 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 45.8 KB | — | — |
-| [Articulation-des-diff%C3%A9rentes-%C3%A9tudes-GEMAPI-en-cours-sur-le-bassin-versant-du-Touch-PAPI-janvier-2023.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/Articulation-des-diff%C3%A9rentes-%C3%A9tudes-GEMAPI-en-cours-sur-le-bassin-versant-du-Touch-PAPI-janvier-2023.pdf) | cc-coeurdegaronne.fr | 2023-02-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | 1.3 MB | — | — |
+| [08_impots_gouv_fr_prendre_rdv.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/11/08_impots_gouv_fr_prendre_rdv.pdf) | cc-coeurdegaronne.fr | 2020-01-13 | Pas à pas - Je prends rendez-vous avec mon service (PART) | Marie Albet | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 718.7 KB | 562 | 40 |
+| [1-BP-2024-BUDGET-PRINCIPAL.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/1-BP-2024-BUDGET-PRINCIPAL.pdf) | cc-coeurdegaronne.fr | 2024-03-13 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 185 | 1.1 MB | 53568 | 0 |
+| [1-CA-2023-Budget-pricipal.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/1-CA-2023-Budget-pricipal.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 208 | 1.8 MB | 77126 | 0 |
+| [1-DOB-2023.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/03/1-DOB-2023.pdf) | cc-coeurdegaronne.fr | 2023-02-22 | — | Christine | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | Warn | ❌ Fail | 49 | 1.3 MB | 12601 | 17 |
+| [1-NOTE-DE-PRESENTATION-NON-TECHNIQUE_MENTION-DES-TEXTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/1-NOTE-DE-PRESENTATION-NON-TECHNIQUE_MENTION-DES-TEXTE.pdf) | cc-coeurdegaronne.fr | 2024-01-08 | — | MENIER Betty (SCE) | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | Warn | ❌ Fail | 16 | 5.0 MB | 3260 | 15 |
+| [1-NOTICE-DE-PRESENTATION-DE-LENQUETE-PUBLIQUE-UNIQUE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/04/1-NOTICE-DE-PRESENTATION-DE-LENQUETE-PUBLIQUE-UNIQUE.pdf) | cc-coeurdegaronne.fr | 2025-03-04 | — | atelier urbain SEGUI  COLOMB | Elaboration du Plan Local d’Urbanisme | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 31 | 660.4 KB | 13224 | 5 |
+| [1-Note-DOB-2024.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/1-Note-DOB-2024.pdf) | cc-coeurdegaronne.fr | 2024-02-12 | — | Christine | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | Warn | ❌ Fail | ❌ Fail | 56 | 1.7 MB | 13612 | 23 |
+| [1-Note-synthetique-Compte-Administratif-2025.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/1-Note-synthetique-Compte-Administratif-2025.pdf) | cc-coeurdegaronne.fr | 2026-02-18 | — | Laurent HANNEZO | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | Warn | ❌ Fail | 10 | 485.0 KB | 3455 | 0 |
+| [1-Rapport-Egalite-Femmes-Hommes-2025-et-plan-daction.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/01/1-Rapport-Egalite-Femmes-Hommes-2025-et-plan-daction.pdf) | cc-coeurdegaronne.fr | 2026-01-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 60 | 3.9 MB | 15139 | 121 |
+| [1-Zonage_20181130.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/04/1-Zonage_20181130.pdf) | cc-coeurdegaronne.fr | 2018-11-22 | Mise en page | julie.bares | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 1.4 MB | 209 | 144 |
+| [1-voirie.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/1-voirie.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | Bilan de mi-mandat Cadre de vie | Virginie Didy | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 7 | 1.0 MB | 549 | 25 |
+| [1.-RAPPORT-DE-PRESENTATION_PLU-ARRETE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/1.-RAPPORT-DE-PRESENTATION_PLU-ARRETE.pdf) | cc-coeurdegaronne.fr | 2023-03-24 | — | atelier urbain SEGUI  COLOMB | Elaboration du Plan Local d’Urbanisme | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | Warn | ❌ Fail | 204 | 17.8 MB | 52329 | 364 |
+| [1.Les-zones-dactivit%C3%A9-du-territoire-Coeur-de-Garonne.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.Les-zones-dactivit%C3%A9-du-territoire-Coeur-de-Garonne.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 220.8 KB | 55 | 1 |
+| [1.ZAE-B%C3%A9rat-Bourgail.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-B%C3%A9rat-Bourgail.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 704.9 KB | 70 | 3 |
+| [1.ZAE-Boussens-Estarac-Le-Bousquet-Sansonnet.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Boussens-Estarac-Le-Bousquet-Sansonnet.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 5 | 1.3 MB | 71 | 5 |
+| [1.ZAE-Caz%C3%A8res-Mailhol.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Caz%C3%A8res-Mailhol.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 5 | 1.3 MB | 70 | 5 |
+| [1.ZAE-Caz%C3%A8res-Masqu%C3%A8re.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Caz%C3%A8res-Masqu%C3%A8re.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 862.0 KB | 84 | 3 |
+| [1.ZAE-Le-Fousseret-Bordebasse.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Le-Fousseret-Bordebasse.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 618.4 KB | 71 | 3 |
+| [1.ZAE-Lherm-A%C3%A9rodrome.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Lherm-A%C3%A9rodrome.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 652.9 KB | 58 | 3 |
+| [1.ZAE-Lherm-Coucoures.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Lherm-Coucoures.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 697.8 KB | 70 | 3 |
+| [1.ZAE-Martres-Tolosane-Bordie.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Martres-Tolosane-Bordie.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 759.2 KB | 70 | 3 |
+| [1.ZAE-Martres-Tolosane-Cantalauze-Berre-Nord-Carnaval.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Martres-Tolosane-Cantalauze-Berre-Nord-Carnaval.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 5 | 1.2 MB | 84 | 5 |
+| [1.ZAE-Martres-Tolosane-Epinette.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Martres-Tolosane-Epinette.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 797.0 KB | 70 | 3 |
+| [1.ZAE-Mondavezan-Bordegrosse.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Mondavezan-Bordegrosse.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 714.1 KB | 83 | 3 |
+| [1.ZAE-Palaminy-Saint-Blancat.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Palaminy-Saint-Blancat.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 776.0 KB | 82 | 3 |
+| [1.ZAE-Poucharramet-Broucassa.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Poucharramet-Broucassa.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 717.3 KB | 58 | 3 |
+| [1.ZAE-Rieumes-Houns-de-la-Costo.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Rieumes-Houns-de-la-Costo.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 809.4 KB | 75 | 3 |
+| [1.ZAE-Saint-Elix-le-Ch%C3%A2teau-Descaillaux.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Saint-Elix-le-Ch%C3%A2teau-Descaillaux.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 762.0 KB | 70 | 3 |
+| [1.ZAE-Sainte-Foy-de-Peyroli%C3%A8res-Couloum%C3%A9.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Sainte-Foy-de-Peyroli%C3%A8res-Couloum%C3%A9.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 763.1 KB | 75 | 3 |
+| [1.ZAE-Sainte-Foy-de-Peyroli%C3%A8res-La-Saudrune.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Sainte-Foy-de-Peyroli%C3%A8res-La-Saudrune.pdf) | cc-coeurdegaronne.fr | 2023-07-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 778.6 KB | 74 | 3 |
+| [10-BP-2024-ZA-BERAT.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/10-BP-2024-ZA-BERAT.pdf) | cc-coeurdegaronne.fr | 2024-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 143 | 612.8 KB | 27894 | 0 |
+| [10-CA-2023-ZA-BOURGAIL-BERAT.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/10-CA-2023-ZA-BOURGAIL-BERAT.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 130 | 1.0 MB | 36665 | 0 |
+| [10-TRANSPORT-A-LA-DEMANDE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/10-TRANSPORT-A-LA-DEMANDE.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | Slide 1 | Asus | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 4 | 529.2 KB | 457 | 3 |
+| [11-BP-2024-PHOTOVOLTAIQUE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/11-BP-2024-PHOTOVOLTAIQUE.pdf) | cc-coeurdegaronne.fr | 2024-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 49 | 253.2 KB | 12805 | 0 |
+| [11-CA-2023-PHOTOVOLTAIQUE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/11-CA-2023-PHOTOVOLTAIQUE.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 63 | 317.3 KB | 14069 | 0 |
+| [11-PROJETS-TRANSVERSES.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/11-PROJETS-TRANSVERSES.pdf) | cc-coeurdegaronne.fr | 2025-10-10 | Présentation PowerPoint | Jany Schmitz | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 8 | 1.9 MB | 433 | 35 |
+| [12-BP-2024-SPED.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/12-BP-2024-SPED.pdf) | cc-coeurdegaronne.fr | 2024-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 51 | 271.7 KB | 14152 | 0 |
+| [12-CA-2023-SPED.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/12-CA-2023-SPED.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 64 | 343.6 KB | 15911 | 0 |
+| [12-PETITE-ENFANCE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/12-PETITE-ENFANCE.pdf) | cc-coeurdegaronne.fr | 2025-10-10 | Présentation PowerPoint | Utilisateur | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | Warn | ❌ Fail | 23 | 2.2 MB | 1676 | 75 |
+| [13-ENFANCE-JEUNESSE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/13-ENFANCE-JEUNESSE.pdf) | cc-coeurdegaronne.fr | 2025-10-10 | Bilan de mi-mandat Cadre de vie | Virginie Didy | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 30 | 2.0 MB | 2075 | 100 |
+| [14-ACCOMPAGNEMENT-SOCIAL.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/14-ACCOMPAGNEMENT-SOCIAL.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | Bilan de mi-mandat Cadre de vie | Virginie Didy | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 7 | 510.7 KB | 377 | 9 |
+| [15-PORTAGE-DE-REPAS.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/15-PORTAGE-DE-REPAS.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | Bilan de mi-mandat Cadre de vie | Virginie Didy | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | ✅ Pass | ❌ Fail | 8 | 602.1 KB | 423 | 19 |
+| [16-PREVENTION-SENIORS.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/16-PREVENTION-SENIORS.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | Bilan de mi-mandat Cadre de vie | Virginie Didy | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 18 | 4.2 MB | 713 | 73 |
+| [17-HEBERGEMENT-DE-TRANSITION.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/17-HEBERGEMENT-DE-TRANSITION.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | Bilan de mi-mandat Cadre de vie | Virginie Didy | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 4 | 455.7 KB | 284 | 18 |
+| [18-AUTONOMIE-A-DOMICILE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/18-AUTONOMIE-A-DOMICILE.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | Bilan de mi-mandat Cadre de vie | Virginie Didy | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 15 | 1.6 MB | 574 | 22 |
+| [19-ANIMATION-VIE-SOCIALE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/19-ANIMATION-VIE-SOCIALE.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | Bilan de mi-mandat Cadre de vie | Virginie Didy | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 9 | 1.8 MB | 272 | 20 |
+| [2-AVIS-NOTE-DINTENTION.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/2-AVIS-NOTE-DINTENTION.pdf) | cc-coeurdegaronne.fr | 2024-02-01 | — | atelier urbain SEGUI  COLOMB | Elaboration du Plan Local d’Urbanisme | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 72 | 11.5 MB | 13570 | 49 |
+| [2-BP-2024-SAAD.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/2-BP-2024-SAAD.pdf) | cc-coeurdegaronne.fr | 2024-03-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 31 | 808.7 KB | 6074 | 0 |
+| [2-CA-2023-SAAD.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/2-CA-2023-SAAD.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 37 | 954.3 KB | 9725 | 0 |
+| [2-DECHETS.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/2-DECHETS.pdf) | cc-coeurdegaronne.fr | 2025-10-10 | Bilan de mi-mandat Cadre de vie | Virginie Didy | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 29 | 4.1 MB | 1326 | 94 |
+| [2-DOB-2020.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/2-DOB-2020.pdf) | cc-coeurdegaronne.fr | 2020-02-05 | — | Christine | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 37 | 1019.7 KB | 7291 | 14 |
+| [2-NOTE-DE-PRESENTATION-DU-COMPTE-ADMINISTRATIF-2024.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/2-NOTE-DE-PRESENTATION-DU-COMPTE-ADMINISTRATIF-2024.pdf) | cc-coeurdegaronne.fr | 2025-03-20 | — | Laurent HANNEZO | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | Warn | ❌ Fail | 5 | 245.8 KB | 1343 | 0 |
+| [2-Note-Synthetique-Budget-Primitif-2026.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/2-Note-Synthetique-Budget-Primitif-2026.pdf) | cc-coeurdegaronne.fr | 2026-02-18 | Microsoft Word - NOTE DE PRESENTATION BP 2022 | COMPTA | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 7 | 398.3 KB | 2041 | 1 |
+| [2-Note-introductive-Debat-dorientations-budgetaires-2026-2.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/01/2-Note-introductive-Debat-dorientations-budgetaires-2026-2.pdf) | cc-coeurdegaronne.fr | 2026-01-29 | — | Christine | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 42 | 1.1 MB | 10506 | 14 |
+| [2-RAPPORT-TECHNIQUE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/2-RAPPORT-TECHNIQUE.pdf) | cc-coeurdegaronne.fr | 2023-12-07 | Scan | Betty MENIER | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 113 | 46.2 MB | 26661 | 153 |
+| [2-Reglement-ecrit_20181130.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/04/2-Reglement-ecrit_20181130.pdf) | cc-coeurdegaronne.fr | 2018-11-21 | — | admininf | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 31 | 593.7 KB | 8120 | 36 |
+| [2.-PADD_PLU-ARRETE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/2.-PADD_PLU-ARRETE.pdf) | cc-coeurdegaronne.fr | 2023-03-01 | — | Atelier Urbain | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 19 | 1.2 MB | 3870 | 31 |
+| [20-SERVICES-SUPPORT.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/20-SERVICES-SUPPORT.pdf) | cc-coeurdegaronne.fr | 2025-10-10 | Bilan de mi-mandat Cadre de vie | Virginie Didy | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | Warn | ❌ Fail | 31 | 1.4 MB | 1660 | 24 |
+| [2022-10-21-fiche-maternite-version-definitive-ml-version2.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/2022-10-21-fiche-maternite-version-definitive-ml-version2.pdf) | cc-coeurdegaronne.fr | 2022-10-21 | — | Karine | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 5 | 275.1 KB | 2202 | 11 |
+| [21562_Flyer-lutte-frelon_A5.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/21562_Flyer-lutte-frelon_A5.pdf) | cc-coeurdegaronne.fr | 2024-07-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 910.3 KB | 383 | 11 |
+| [22-070-Publication-des-actes-Berat.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/07/22-070-Publication-des-actes-Berat.pdf) | cc-coeurdegaronne.fr | 2024-07-24 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 634.4 KB | 0 | 2 |
+| [3-BP-2024-PDR.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/3-BP-2024-PDR.pdf) | cc-coeurdegaronne.fr | 2024-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 144 | 624.4 KB | 28220 | 0 |
+| [3-CA-2023-PDR.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/3-CA-2023-PDR.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 134 | 1.1 MB | 37950 | 0 |
+| [3-EQUIPEMENTS-SPORTIFS.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/3-EQUIPEMENTS-SPORTIFS.pdf) | cc-coeurdegaronne.fr | 2025-10-10 | Bilan de mi-mandat Cadre de vie | Virginie Didy | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 14 | 1.4 MB | 755 | 19 |
+| [3-NOTE-DE-PRESENTATION-BUDGET-PRIMITIF-2025.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/3-NOTE-DE-PRESENTATION-BUDGET-PRIMITIF-2025.pdf) | cc-coeurdegaronne.fr | 2025-03-20 | Microsoft Word - NOTE DE PRESENTATION BP 2022 | COMPTA | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 7 | 318.8 KB | 2086 | 1 |
+| [3-Orientations-dAmenagement-et-de-Programmation_20181130.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/04/3-Orientations-dAmenagement-et-de-Programmation_20181130.pdf) | cc-coeurdegaronne.fr | 2019-07-03 | Microsoft Word - Pièce 3 - OAP savères (2).doc | laure.lamarque | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 5 | 170.7 KB | 683 | 6 |
+| [3-PLU-AVIS-MRAE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/3-PLU-AVIS-MRAE.pdf) | cc-coeurdegaronne.fr | 2022-06-01 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | 200.3 KB | 922 | 12 |
+| [3-PROJET-DE-ZONAGE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/3-PROJET-DE-ZONAGE.pdf) | cc-coeurdegaronne.fr | 2023-12-07 | — | MENIER Betty (SCE) | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | Warn | ❌ Fail | 3 | 2.8 MB | 85 | 12 |
+| [3-Rapport-Annuel-2024-sur-le-service-public-de-prevention-et-dechets-menag.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/09/3-Rapport-Annuel-2024-sur-le-service-public-de-prevention-et-dechets-menag.pdf) | cc-coeurdegaronne.fr | 2025-09-11 | Microsoft Word - Rapport 2020_DV_RAPPORT.2021.V.2022-06-02 - v3bis.v4 | f.mirassou | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | Warn | ❌ Fail | 57 | 4.8 MB | 10969 | 129 |
+| [3-Rapport-annuel-SPED-2023.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/06/3-Rapport-annuel-SPED-2023.pdf) | cc-coeurdegaronne.fr | 2025-06-18 | Microsoft Word - Rapport 2020_DV_RAPPORT.2021.V.2022-06-02 - v3bis.v4 | f.mirassou | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | Warn | ❌ Fail | 49 | 3.6 MB | 9233 | 71 |
+| [3-Reglement-de-voirie-et-ses-annexes-v1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/3-Reglement-de-voirie-et-ses-annexes-v1.pdf) | cc-coeurdegaronne.fr | 2025-10-30 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 144 | 4.8 MB | 29306 | 359 |
+| [3.-Reglement.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/3.-Reglement.pdf) | cc-coeurdegaronne.fr | 2023-03-01 | — | atelier urbain SEGUI  COLOMB | Elaboration du Plan Local d’Urbanisme | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 191.3 KB | 38 | 2 |
+| [3.1-REGLEMENT.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/3.1-REGLEMENT.pdf) | cc-coeurdegaronne.fr | 2023-04-07 | POUY DE TOUGES | Atelier Urbain | Elaboration du Plan Local d’Urbanisme | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 86 | 3.1 MB | 24421 | 22 |
+| [3.2.1-ZONAGE-COMMUNE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/3.2.1-ZONAGE-COMMUNE.pdf) | cc-coeurdegaronne.fr | 2020-07-21 | — | Atelier Urbain | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 16.5 MB | 265 | 27 |
+| [3.2.2-ZONAGE-VILLAGE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/3.2.2-ZONAGE-VILLAGE.pdf) | cc-coeurdegaronne.fr | 2020-07-21 | — | Atelier Urbain | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 7.9 MB | 265 | 27 |
+| [4-ANNEXES-ADMINISTRATIVES.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4-ANNEXES-ADMINISTRATIVES.pdf) | cc-coeurdegaronne.fr | 2023-12-19 | S22C-823100407540 | MENIER Betty (SCE) | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | NotApplicable | Warn | ❌ Fail | 11 | 817.2 KB | 1227 | 46 |
+| [4-BP-2024-OTI.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/4-BP-2024-OTI.pdf) | cc-coeurdegaronne.fr | 2024-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 145 | 641.6 KB | 29673 | 0 |
+| [4-CA-2023-OTI.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/4-CA-2023-OTI.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 135 | 1.1 MB | 39704 | 0 |
+| [4-PLU_NOTE-DE-PRESENTATION.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4-PLU_NOTE-DE-PRESENTATION.pdf) | cc-coeurdegaronne.fr | 2024-01-31 | — | atelier urbain SEGUI  COLOMB | Elaboration du Plan Local d’Urbanisme | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 1.9 MB | 3656 | 14 |
+| [4-SERVICES-TECHNIQUES.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/4-SERVICES-TECHNIQUES.pdf) | cc-coeurdegaronne.fr | 2025-10-10 | Bilan de mi-mandat Cadre de vie | Virginie Didy | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 7 | 950.9 KB | 368 | 12 |
+| [4.1.1-RESEAU-AEP.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4.1.1-RESEAU-AEP.pdf) | cc-coeurdegaronne.fr | 2023-03-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 1020.3 KB | 41 | 3 |
+| [4.1.2-RESEAU-EU.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4.1.2-RESEAU-EU.pdf) | cc-coeurdegaronne.fr | 2023-03-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 1007.9 KB | 96 | 12 |
+| [4.2.1-LISTE-SUP.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4.2.1-LISTE-SUP.pdf) | cc-coeurdegaronne.fr | 2023-03-01 | — | atelier urbain SEGUI  COLOMB | Elaboration du Plan Local d’Urbanisme | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | ✅ Pass | ❌ Fail | 2 | 285.8 KB | 218 | 2 |
+| [4.2.2-PLAN-SUP.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4.2.2-PLAN-SUP.pdf) | cc-coeurdegaronne.fr | 2020-07-21 | — | Atelier Urbain | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 11.9 MB | 71 | 4 |
+| [4.2.3-PPR-SECHERESSE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4.2.3-PPR-SECHERESSE.pdf) | cc-coeurdegaronne.fr | 2024-02-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 56 | 9.7 MB | 15509 | 55 |
+| [4.3.1-CIZI.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4.3.1-CIZI.pdf) | cc-coeurdegaronne.fr | 2023-03-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 6 | 3.3 MB | 1947 | 10 |
+| [5-BP-2024-ZA-LHERM.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/5-BP-2024-ZA-LHERM.pdf) | cc-coeurdegaronne.fr | 2024-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 143 | 614.2 KB | 27719 | 0 |
+| [5-CA-2023-ZA-LHERM.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/5-CA-2023-ZA-LHERM.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 130 | 1.0 MB | 36833 | 0 |
+| [5-CULTURE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/5-CULTURE.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | Slide 1 | Asus | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 60 | 8.2 MB | 4577 | 301 |
+| [5-PLU_MENTION-DES-TEXTES.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/5-PLU_MENTION-DES-TEXTES.pdf) | cc-coeurdegaronne.fr | 2024-01-31 | — | atelier urbain SEGUI  COLOMB | Elaboration du Plan Local d’Urbanisme | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 27 | 775.7 KB | 10342 | 3 |
+| [5.-OAP_PLU-ARRETE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/5.-OAP_PLU-ARRETE.pdf) | cc-coeurdegaronne.fr | 2023-03-01 | POUY DE TOUGES | Atelier Urbain | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | Warn | ❌ Fail | 22 | 2.9 MB | 4169 | 128 |
+| [6-BP-2024-ZA-STE-FOY.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/6-BP-2024-ZA-STE-FOY.pdf) | cc-coeurdegaronne.fr | 2024-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 143 | 614.2 KB | 27962 | 0 |
+| [6-CA-2023-ZA-STE-FOY.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/6-CA-2023-ZA-STE-FOY.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 130 | 1.0 MB | 36735 | 0 |
+| [6-TOURISME.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/6-TOURISME.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | Slide 1 | Asus | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 20 | 3.6 MB | 1370 | 126 |
+| [6414-Depliant-promo-Appli-Pajemploi-Urssaf.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/09/6414-Depliant-promo-Appli-Pajemploi-Urssaf.pdf) | cc-coeurdegaronne.fr | 2023-08-09 | 6414-Depliant-promo-Appli-Pajemploi-Urssaf.indd | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 5.0 MB | 0 | 90 |
+| [7-BP-2024-ZA-DESCAILLAUX.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/7-BP-2024-ZA-DESCAILLAUX.pdf) | cc-coeurdegaronne.fr | 2024-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 143 | 616.6 KB | 27898 | 0 |
+| [7-CA-2023-ZA-DESCAILLAUX.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/7-CA-2023-ZA-DESCAILLAUX.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 130 | 1.1 MB | 37050 | 0 |
+| [7-DEVELOPPEMENT-ECONOMIQUE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/7-DEVELOPPEMENT-ECONOMIQUE.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | Slide 1 | Asus | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 15 | 1.9 MB | 1300 | 96 |
+| [8-BP-2024-ZA-BOUSSENS.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/8-BP-2024-ZA-BOUSSENS.pdf) | cc-coeurdegaronne.fr | 2024-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 143 | 610.2 KB | 27372 | 0 |
+| [8-CA-2023-ZA-BOUSSENS.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/8-CA-2023-ZA-BOUSSENS.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 130 | 1.0 MB | 36116 | 0 |
+| [8-FRANCE-SERVICES.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/8-FRANCE-SERVICES.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | Slide 1 | Asus | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 7 | 884.1 KB | 586 | 34 |
+| [9-BP-2024-ZA-MARTRES.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/9-BP-2024-ZA-MARTRES.pdf) | cc-coeurdegaronne.fr | 2024-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 143 | 613.4 KB | 27588 | 0 |
+| [9-CA-2023-ZA-MARTRES.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/9-CA-2023-ZA-MARTRES.pdf) | cc-coeurdegaronne.fr | 2024-03-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 130 | 1.0 MB | 36378 | 0 |
+| [9-NUMERIQUE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/9-NUMERIQUE.pdf) | cc-coeurdegaronne.fr | 2025-10-14 | Slide 1 | Asus | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 3 | 352.2 KB | 213 | 3 |
+| [99_DE-031-200068815-20210303-D_2021_34_7_10-DE-1-1_2.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/99_DE-031-200068815-20210303-D_2021_34_7_10-DE-1-1_2.pdf) | cc-coeurdegaronne.fr | 2021-03-09 | — | Christine | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 51 | 1.2 MB | 11328 | 13 |
+| [99_DE-031-200068815-20220721-D_2022_17_7_5-DE-1-1_1-1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220721-D_2022_17_7_5-DE-1-1_1-1.pdf) | cc-coeurdegaronne.fr | 2022-07-28 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 43.4 KB | 0 | 2 |
+| [99_DE-031-200068815-20220728-DEC_2022_16_8_4-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/07/99_DE-031-200068815-20220728-DEC_2022_16_8_4-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-07-28 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 60.8 KB | 0 | 2 |
+| [99_DE-031-200068815-20220830-DEC_2022_18_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220830-DEC_2022_18_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-09-06 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 36.0 KB | 0 | 1 |
+| [99_DE-031-200068815-20220908-DEC_2022_19_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220908-DEC_2022_19_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-09-08 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 45.1 KB | 0 | 1 |
+| [99_DE-031-200068815-20220908-D_2022_20_7_3-DE-1-1_1-2.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220908-D_2022_20_7_3-DE-1-1_1-2.pdf) | cc-coeurdegaronne.fr | 2022-09-09 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 52.9 KB | 0 | 2 |
+| [99_DE-031-200068815-20220920-DEC_2022_21_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220920-DEC_2022_21_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-09-20 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 40.5 KB | 0 | 1 |
+| [99_DE-031-200068815-20220920-DE_2022_22_7_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220920-DE_2022_22_7_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-09-29 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 54.0 KB | 0 | 2 |
+| [99_DE-031-200068815-20220922-D_2022_159_7_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220922-D_2022_159_7_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-09-27 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | 146.8 KB | 0 | 4 |
+| [99_DE-031-200068815-20220927-DEC_2022_23_1_1-DE-1-1_1-1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220927-DEC_2022_23_1_1-DE-1-1_1-1.pdf) | cc-coeurdegaronne.fr | 2022-09-30 | — | Sivom de Rieumes | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | ❌ Fail | ❌ Fail | 1 | 209.5 KB | 255 | 2 |
+| [99_DE-031-200068815-20221011-DEC_2022_24_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/10/99_DE-031-200068815-20221011-DEC_2022_24_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-10-13 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 39.3 KB | 0 | 1 |
+| [99_DE-031-200068815-20221018-DEC_2022_25_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221018-DEC_2022_25_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-11-03 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 38.6 KB | 0 | 1 |
+| [99_DE-031-200068815-20221020-D_2022_194_7_2-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/10/99_DE-031-200068815-20221020-D_2022_194_7_2-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-10-21 | — | Sivom de Rieumes | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 4 | 361.8 KB | 1024 | 2 |
+| [99_DE-031-200068815-20221031-DEC_2022_26_7_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221031-DEC_2022_26_7_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-11-03 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 52.3 KB | 0 | 2 |
+| [99_DE-031-200068815-20221107-DEC_2022_27_71-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221107-DEC_2022_27_71-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-11-14 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 6 | 255.9 KB | 0 | 6 |
+| [99_DE-031-200068815-20221108-DEC_2022_28_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221108-DEC_2022_28_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-11-14 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 61.9 KB | 0 | 1 |
+| [99_DE-031-200068815-20221129-DEC_2022_30_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221129-DEC_2022_30_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-11-30 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 36.9 KB | 0 | 1 |
+| [99_DE-031-200068815-20221208-DEC_2022_31_71B-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221208-DEC_2022_31_71B-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-12-14 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 38.7 KB | 0 | 1 |
+| [99_DE-031-200068815-20221212-DEC_2022_32_7_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221212-DEC_2022_32_7_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-12-13 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 37.8 KB | 0 | 1 |
+| [99_DE-031-200068815-20221213-DEC_2022_33_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221213-DEC_2022_33_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-12-13 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 47.1 KB | 0 | 1 |
+| [99_DE-031-200068815-20221215-D_2022_246_7_8-DE-1-1_1-combine_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221215-D_2022_246_7_8-DE-1-1_1-combine_1.pdf) | cc-coeurdegaronne.fr | 2022-12-20 | — | Sivom de Rieumes | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 97 | 4.8 MB | 29696 | 39 |
+| [99_DE-031-200068815-20221219-DEC_2022_34_8_2-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221219-DEC_2022_34_8_2-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-12-20 | — | Sivom de Rieumes | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 2 | 207.4 KB | 513 | 2 |
+| [99_DE-031-200068815-20221220-DEC_2022_35_710-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221220-DEC_2022_35_710-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-12-20 | — | Sivom de Rieumes | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 2 | 210.9 KB | 620 | 2 |
+| [99_DE-031-200068815-20230103-DEC_2023_01_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/01/99_DE-031-200068815-20230103-DEC_2023_01_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2023-01-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 116.0 KB | 1 | 1 |
+| [99_DE-031-200068815-20230117-DEC_2023_2_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/01/99_DE-031-200068815-20230117-DEC_2023_2_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2023-01-19 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 103.9 KB | 1 | 1 |
+| [99_DE-031-200068815-20230117-DEC_2023_3_8_2B-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/01/99_DE-031-200068815-20230117-DEC_2023_3_8_2B-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2023-01-19 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 141.6 KB | 1 | 2 |
+| [99_DE-031-200068815-20230124-DEC_2023_4_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/99_DE-031-200068815-20230124-DEC_2023_4_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2023-01-30 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 38.0 KB | 0 | 1 |
+| [99_DE-031-200068815-20230213-DEC_2023_5_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/99_DE-031-200068815-20230213-DEC_2023_5_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2023-02-14 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 45.8 KB | 0 | 1 |
+| [99_DE-031-200068815-20230216-D_2023_18_7_8-DE-1-1_1-combin%C3%A9.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/99_DE-031-200068815-20230216-D_2023_18_7_8-DE-1-1_1-combin%C3%A9.pdf) | cc-coeurdegaronne.fr | 2023-02-21 | — | Sivom de Rieumes | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 88 | 3.0 MB | 27791 | 29 |
+| [A-Rapport-denquete-unique-evolution-PLU-Savere.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/A-Rapport-denquete-unique-evolution-PLU-Savere.pdf) | cc-coeurdegaronne.fr | 2025-06-26 | — | Jean-René Odier | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 26 | 1.2 MB | 6133 | 13 |
+| [A2-Annexes-rapport-Saveres.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/A2-Annexes-rapport-Saveres.pdf) | cc-coeurdegaronne.fr | 2025-06-26 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 36 | 5.4 MB | 10528 | 65 |
+| [ARRETE-2.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/ARRETE-2.pdf) | cc-coeurdegaronne.fr | 2024-02-08 | S22C-824020816420 | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | 196.5 KB | 0 | 34 |
+| [AVIS-DE-PUBLICATION.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/AVIS-DE-PUBLICATION.pdf) | cc-coeurdegaronne.fr | 2024-02-08 | S22C-824020816421 | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 68.8 KB | 0 | 36 |
+| [Affiche-2024.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/Affiche-2024.pdf) | cc-coeurdegaronne.fr | 2024-03-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 576.0 KB | 80 | 4 |
+| [Affiche-Contactez-nous-27.07.2023.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/10/Affiche-Contactez-nous-27.07.2023.pdf) | cc-coeurdegaronne.fr | 2023-07-27 | — | Béatrice Jourda | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 153.1 KB | 64 | 2 |
+| [Aides-employeur-Septembre-2025.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/09/Aides-employeur-Septembre-2025.pdf) | cc-coeurdegaronne.fr | 2025-09-08 | LES AIDES FINANCIERES (PAJE) | admprof | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 278.9 KB | 2054 | 9 |
+| [Annexe-1_PADD-debattu.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-1_PADD-debattu.pdf) | cc-coeurdegaronne.fr | 2021-12-22 | — | Atelier Urbain | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 19 | 1.2 MB | 3841 | 61 |
+| [Annexe-2_Zonage-de-la-carte-communale.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-2_Zonage-de-la-carte-communale.pdf) | cc-coeurdegaronne.fr | 2020-07-16 | S30C-0i20071614550 | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | 1.1 MB | 0 | 323 |
+| [Annexe-3_Zonage-PLU_En-cours.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-3_Zonage-PLU_En-cours.pdf) | cc-coeurdegaronne.fr | 2022-04-08 | — | Atelier Urbain | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 3.2 MB | 114 | 14 |
+| [Annexe-4_Cartographie-de-superposition.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-4_Cartographie-de-superposition.pdf) | cc-coeurdegaronne.fr | 2022-03-31 | — | Mathilde REDON | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 1 | 533.3 KB | 82 | 2 |
+| [Annuaire-Coeur-de-Garonne-Mfhg-v5.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/09/Annuaire-Coeur-de-Garonne-Mfhg-v5.pdf) | cc-coeurdegaronne.fr | 2025-09-12 | — | MBARTHES | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 260.1 KB | 167 | 1 |
+| [Arrete-du-23-septembre-2021-portant-creation-dune-charte-nationale-pour-laccueil-du-jeune-enfant.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/03/Arrete-du-23-septembre-2021-portant-creation-dune-charte-nationale-pour-laccueil-du-jeune-enfant.pdf) | cc-coeurdegaronne.fr | 2022-02-22 | Journal officiel de la République française - N° 228 du 30 septembre 2021 | Direction de l'information légale et administrative | Lois et décrets | ISSN:0373-0425 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 6 | 192.2 KB | 5042 | 6 |
+| [Articulation-des-diff%C3%A9rentes-%C3%A9tudes-GEMAPI-en-cours-sur-le-bassin-versant-du-Touch-PAPI-janvier-2023.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/Articulation-des-diff%C3%A9rentes-%C3%A9tudes-GEMAPI-en-cours-sur-le-bassin-versant-du-Touch-PAPI-janvier-2023.pdf) | cc-coeurdegaronne.fr | 2023-02-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | 1.3 MB | 564 | 9 |
+| [Avis-dappel-a-candidature-aux-assos-Nomination-des-administrateurs-CIAS-3CG.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/Avis-dappel-a-candidature-aux-assos-Nomination-des-administrateurs-CIAS-3CG.pdf) | cc-coeurdegaronne.fr | 2025-07-09 | — | Caroline Boutonnet | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 320.4 KB | 358 | 2 |
+| [Avis_enquete_PNRCBP.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/02/Avis_enquete_PNRCBP.pdf) | cc-coeurdegaronne.fr | 2025-02-20 | Microsoft Word - Avis_enquete_PNRCBP-140325 | GOUNOT Cecile | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 714.9 KB | 1660 | 3 |
+| [B-Conclusions-et-avis-Modification-n%C2%B02-PLU-Saveres-31.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/B-Conclusions-et-avis-Modification-n%C2%B02-PLU-Saveres-31.pdf) | cc-coeurdegaronne.fr | 2025-06-26 | — | Jean-René Odier | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 14 | 519.3 KB | 4072 | 4 |
+| [BP-2020-PDR.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-PDR.pdf) | cc-coeurdegaronne.fr | 2020-02-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 44 | 1.7 MB | 7893 | 0 |
+| [BP-2020-PHOTOVOLTAIQUE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-PHOTOVOLTAIQUE.pdf) | cc-coeurdegaronne.fr | 2020-02-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 47 | 2.0 MB | 10854 | 0 |
+| [BP-2020-ZA-BOURGAIL-BERAT.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-BOURGAIL-BERAT.pdf) | cc-coeurdegaronne.fr | 2020-02-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 56 | 2.2 MB | 12758 | 0 |
+| [BP-2020-ZA-BOUSSENS.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-BOUSSENS.pdf) | cc-coeurdegaronne.fr | 2020-02-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 55 | 2.2 MB | 12574 | 0 |
+| [BP-2020-ZA-DESCAILLAUX.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-DESCAILLAUX.pdf) | cc-coeurdegaronne.fr | 2020-02-25 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 60 | 2.4 MB | 14992 | 0 |
+| [BP-2020-ZA-MARTRES-TOLOSANE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-MARTRES-TOLOSANE.pdf) | cc-coeurdegaronne.fr | 2020-02-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 56 | 2.3 MB | 13081 | 0 |
+| [BP-2020-ZA-STE-FOY-DE-PEYROLIERES.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-STE-FOY-DE-PEYROLIERES.pdf) | cc-coeurdegaronne.fr | 2020-02-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 55 | 2.3 MB | 12754 | 0 |
+| [BP-2022-OTI-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-OTI-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 119 | 1.0 MB | 36070 | 0 |
+| [BP-2022-PDR-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-PDR-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 118 | 1.0 MB | 35253 | 0 |
+| [BP-2022-PHOTOVOLTAIQUE-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-PHOTOVOLTAIQUE-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 52 | 245.5 KB | 12226 | 0 |
+| [BP-2022-PRINCIPAL-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-PRINCIPAL-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 156 | 1.4 MB | 53811 | 0 |
+| [BP-2022-ZA-BOURGAIL-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-BOURGAIL-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 117 | 1.0 MB | 35458 | 0 |
+| [BP-2022-ZA-BOUSSENS-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-BOUSSENS-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 117 | 1.0 MB | 34722 | 0 |
+| [BP-2022-ZA-DESCAILLAUX-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-DESCAILLAUX-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 117 | 1.0 MB | 35555 | 0 |
+| [BP-2022-ZA-LHERM-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-LHERM-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 117 | 1.0 MB | 35318 | 0 |
+| [BP-2022-ZA-MARTRES-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-MARTRES-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 117 | 1.0 MB | 35097 | 0 |
+| [BP-2022-ZA-STE-FOY-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-STE-FOY-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 117 | 1.0 MB | 35738 | 0 |
+| [BP-2023-BP-PRINCIPAL-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-BP-PRINCIPAL-VOTE.pdf) | cc-coeurdegaronne.fr | 2023-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 156 | 1.3 MB | 53508 | 0 |
+| [BP-2023-OTI-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-OTI-VOTE.pdf) | cc-coeurdegaronne.fr | 2023-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 117 | 1017.8 KB | 35126 | 0 |
+| [BP-2023-PDR-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-PDR-VOTE.pdf) | cc-coeurdegaronne.fr | 2023-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 116 | 1005.9 KB | 34229 | 0 |
+| [BP-2023-PHOTOVOLTAIQUE-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-PHOTOVOLTAIQUE-VOTE.pdf) | cc-coeurdegaronne.fr | 2023-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 54 | 253.9 KB | 12396 | 0 |
+| [BP-2023-ZA-BERAT-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-BERAT-VOTE.pdf) | cc-coeurdegaronne.fr | 2023-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 115 | 1005.4 KB | 34474 | 0 |
+| [BP-2023-ZA-BOUSSENS-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-BOUSSENS-VOTE.pdf) | cc-coeurdegaronne.fr | 2023-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 115 | 1003.5 KB | 34085 | 0 |
+| [BP-2023-ZA-DESCAILLAUX.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-DESCAILLAUX.pdf) | cc-coeurdegaronne.fr | 2023-03-15 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 102 | 958.5 KB | 32451 | 0 |
+| [BP-2023-ZA-LHERM-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-LHERM-VOTE.pdf) | cc-coeurdegaronne.fr | 2023-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 115 | 1004.5 KB | 34378 | 0 |
+| [BP-2023-ZA-MARTRES-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-MARTRES-VOTE.pdf) | cc-coeurdegaronne.fr | 2023-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 115 | 1005.0 KB | 34140 | 0 |
+| [BP-2023-ZA-STE-FOY-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-STE-FOY-VOTE.pdf) | cc-coeurdegaronne.fr | 2023-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 115 | 1005.9 KB | 34473 | 0 |
+| [BP-BUDGET-PRINCIPAL-18-VERSION-4.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/BP-BUDGET-PRINCIPAL-18-VERSION-4.pdf) | cc-coeurdegaronne.fr | 2019-05-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 117 | 2.5 MB | 38822 | 0 |
+| [BP-CIAS-2026-SAAD-A-imprimer.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-CIAS-2026-SAAD-A-imprimer.pdf) | cc-coeurdegaronne.fr | 2025-12-15 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 15 | 5.5 MB | 4671 | 3 |
+| [BP-CIAS-2026-SCELLE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-CIAS-2026-SCELLE.pdf) | cc-coeurdegaronne.fr | 2025-12-12 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 156 | 687.3 KB | 29696 | 0 |
+| [BP-CIAS-PDR-2026-SCELLE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-CIAS-PDR-2026-SCELLE.pdf) | cc-coeurdegaronne.fr | 2025-12-12 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 155 | 661.8 KB | 27969 | 0 |
+| [BP-OTI-2025.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-OTI-2025.pdf) | cc-coeurdegaronne.fr | 2025-03-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 140 | 616.5 KB | 28086 | 0 |
+| [BP-OTI.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-OTI.pdf) | cc-coeurdegaronne.fr | 2026-02-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 159 | 700.6 KB | 30188 | 0 |
 | [7577Birth-certificates-and-source-documents-FAQ.pdf](https://www.govt.nz/assets/Documents/Government-A-Z/7577Birth-certificates-and-source-documents-FAQ.pdf) | govt.nz | 2020-10-06 | — | Claire Mortimer | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 97.8 KB | 353 | 0 |
 | [7684Declaration-interpret-or-translate-marriage-or-civil-union-BDM35T.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/7684Declaration-interpret-or-translate-marriage-or-civil-union-BDM35T.pdf) | govt.nz | 2025-06-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | ❌ Fail | ❌ Fail | 1 | 179.0 KB | 252 | 1 |
 | [Application-by-donor-offspring-or-guardian-to-access-information-on-human-assisted-reproductive-technology-register-BDM404.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Application-by-donor-offspring-or-guardian-to-access-information-on-human-assisted-reproductive-technology-register-BDM404.pdf) | govt.nz | 2025-06-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 7 | 191.8 KB | 1397 | 3 |
@@ -6413,20 +6743,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 | [CDR_2021.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2021.pdf) | pa.gov | 2022-10-16 | Microsoft Word - PSP Year 1 Report Jan-Dec 2021 FINAL reissued 10172022 | jennm | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 27 | 1.3 MB | 10289 | 4 |
 | [CDR_2022.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2022.pdf) | pa.gov | 2023-05-23 | Pennsylvania State Police Traffic Stop Study: 2022 Annual Report | Jennifer Cherkauskas | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 169 | 2.7 MB | 54965 | 2 |
 | [CDR_2022_1st.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2022_1st.pdf) | pa.gov | 2022-10-06 | Microsoft Word - PSP Year 2 1st Quarterly Report FINAL | jennm | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 56 | 2.6 MB | 17301 | 4 |
-| [590921.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/590921.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2025-11-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 1 | 731.7 KB | — | — |
-| [593931.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/593931.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2023-08-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | NotApplicable | ❌ Fail | 3 | 7.9 MB | — | — |
-| [595906.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/595906.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2022-01-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 181.8 KB | — | — |
-| [ADD-CA-EN.pdf](https://www.wellsfargo.com/assets/pdf/small-business/ADD-CA-EN.pdf) | wellsfargo.com | 2026-05-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 139.6 KB | — | — |
-| [DMCA-notice.pdf](https://www.wellsfargo.com/assets/pdf/privacy-security/DMCA-notice.pdf) | wellsfargo.com | 2021-09-20 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 173.5 KB | — | — |
-| [california.pdf](https://www.wellsfargo.com/assets/pdf/es/small-business/deposits/online-disclosures/addenda/california.pdf) | wellsfargo.com | 2026-05-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 198.8 KB | — | — |
-| [fetch-pdf-0.pdf](https://www.wellsfargo.com/fetch-pdf?formNumber=CNS2013&subProductCode=ANY) | wellsfargo.com | 2025-09-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 267.3 KB | — | — |
-| [fetch-pdf-1.pdf](https://www.wellsfargo.com/fetch-pdf?formNumber=CCB2018C&subProductCode=ANY) | wellsfargo.com | 2025-09-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 44 | 528.1 KB | — | — |
-| [fetch-pdf-2.pdf](https://www.wellsfargo.com/fetch-pdf?formNumber=CNS2013SP&subProductCode=ANY) | wellsfargo.com | 2025-09-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 209.7 KB | — | — |
-| [fetch-pdf.pdf](https://www.wellsfargo.com/fetch-pdf?documentName=Account%20Addenda&subProductCode=ANY) | wellsfargo.com | 2026-06-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 189.7 KB | — | — |
-| [fw8ben.pdf](https://www.irs.gov/pub/irs-pdf/fw8ben.pdf) | wellsfargo.com *(ext: irs.gov)* | 2021-09-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 1 | 66.1 KB | — | — |
-| [fw9.pdf](https://www.irs.gov/pub/irs-pdf/fw9.pdf) | wellsfargo.com *(ext: irs.gov)* | 2024-03-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 137.5 KB | — | — |
-| [set-up-direct-deposit-CNS3519.pdf](https://www.wellsfargo.com/assets/pdf/personal/checking/set-up-direct-deposit-CNS3519.pdf) | wellsfargo.com | 2024-09-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 177.8 KB | — | — |
-| [us_consumer_privacy_notice_english-0.pdf](https://www08.wellsfargomedia.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf) | wellsfargo.com *(ext: www08.wellsfargomedia.com)* | 2025-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 138.3 KB | — | — |
 | [New-Zealand-Traveller-Declaration-Easy-Read-22-07-2024.pdf](https://www.travellerdeclaration.govt.nz/assets/pdfs/New-Zealand-Traveller-Declaration-Easy-Read-22-07-2024.pdf) | govt.nz | 2024-07-22 | Microsoft Word - Customs - NZ Traveller Declaration - Easy Read - 22-07-2024 EDITED | KathrynParrish | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 32 | 2.3 MB | 1873 | 153 |
 | [Traveller-factsheet-English.pdf](https://www.travellerdeclaration.govt.nz/assets/pdfs/Traveller-factsheet-English.pdf) | govt.nz | 2023-07-11 | Traveller factsheet - English | {'New Zealand Traveller Declaration'} | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 258.6 KB | 643 | 0 |
 | [building-code-handbook-3rd-edition-amendment-13.pdf](https://www.building.govt.nz/assets/Uploads/building-code-compliance/handbooks/building-code-handbook/building-code-handbook-3rd-edition-amendment-13.pdf) | govt.nz | 2014-03-05 | Building Code Handbook | Third edition | Amendment 13 | {'Ministry of Business, Innovation and Employment'} | New Zealand Building Code | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 226 | 1.6 MB | 89904 | 0 |
@@ -9973,7 +10289,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-03/233%20-%20PI%20Order%20and%20Mem.%20Op..pdf
 - **Status**: analysed
-- title, no bookmarks and more than 20 pages, fonts:/GXBDGM+LiberationSans, /QHCLYR+KING, /QHCLYR+ArialMT, /QHCLYR+Arial-ItalicMT, /VJRPQH+TimesNewRomanPS-BoldMT, /VJRPQH+TimesNewRomanPSMT, /FGPXAN+TimesNewRomanPS-ItalicMT, /QHCLYR+Arial-BoldMT, /QHCLYR+SymbolMTheadings-skip, 
+- title, no bookmarks and more than 20 pages, 
 
 ### 2527.pdf
 
@@ -10381,7 +10697,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-02/RI_TRO_Notice.pdf
 - **Status**: analysed
-- no date found, title, tagged, tagged-content-fail, lang, fonts:/WOOUYQ+SourceSansPro-Regular, /SSPBUY+Century, /FVAOGE+LiberationSans, /FJNCFJ+ArialMT, /FJNBNK+TimesNewRomanPS-ItalicMT, /QNKFNX+SymbolMT, /DBAKSC+ArialMT, /FJNBKJ+TimesNewRomanPSMT, /FJNBEJ+TimesNewRomanPS-BoldMTheadings-none, 
+- no date found, title, tagged, lang, 
 
 ### Real-time_Energy_Management_Thurs_Columbia4_1115_ReallyFinal.pdf
 
@@ -10670,12 +10986,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/brochure.pdf?sfvrsn=fd9d95e0_1
 - **Status**: analysed
 - title, tagged, lang, 
-
-### bto-ghg-metrics-011525.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2025-01/bto-ghg-metrics-011525.pdf
-- **Status**: analysed
-- fonts:/YYYRQX+Arial-BoldMT, /PQGPUP+TimesNewRomanPSMT, /YYYRQX+Arial-Black, /JZLFOB+FranklinGothic-Medium, /KQXQCZ+ArialMT, /PQGPUP+CambriaMath, /ZFGXEV+Arial-ItalicMT, /PQGPUP+SymbolMT
 
 ### business-card.pdf
 
@@ -22179,12 +22489,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/19_fy2022.pdf?VersionId=Pvr2IemSyQKv3ytydFeKBG_ugunZWHkM (crawled 1 day(s) ago at 2026-03-10T01:18:24.369355+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### 2015-2016-ceose-biennial-report-508_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2015-2016-ceose-biennial-report-508_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### 2021-Merit-Review-Survey-Report-Final_508.pdf?VersionId=pJIAJXpdy5tnFX1ONfQHhcKobGM3UYQn
 
 - **URL**: https://nsf-gov-resources.nsf.gov/2023-10/2021-Merit-Review-Survey-Report-Final_508.pdf?VersionId=pJIAJXpdy5tnFX1ONfQHhcKobGM3UYQn
@@ -22389,12 +22693,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/Daniel-Reed-May-2024-NSB-testimony.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.451566+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### Dr.SchragTestimony508_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-04/Dr.SchragTestimony508_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### EAC-Data-Snapshot-Fairness-by-Experience-508.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/EAC-Data-Snapshot-Fairness-by-Experience-508.pdf
@@ -22425,12 +22723,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/ED-Supp-Template.docx (crawled 1 day(s) ago at 2026-03-10T01:18:24.455496+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-06/EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29_1.pdf?VersionId=IKsxGiL7ThivnhGSx1toUnIeB7ajtPCX
 
 - **URL**: https://nsf-gov-resources.nsf.gov/2023-04/EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29_1.pdf?VersionId=IKsxGiL7ThivnhGSx1toUnIeB7ajtPCX
@@ -22460,12 +22752,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/Ellen-Ochoa-April-2021-NSB-testimony.pdf
 - **Status**: error
 - File not found: crawled_files/nsf.gov/Ellen-Ochoa-April-2021-NSB-testimony.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.527868+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### Envisioning-The-Future-of-EPSCoR-Report.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-08/Envisioning-The-Future-of-EPSCoR-Report.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### Evaluation%20of%20the%20National%20Sciece%20Foundation%27s%20International%20Research%20Experiences%20for%20Students%20%28IRES%29%20Program.pdf?VersionId=vuL.tNYzsDFY9SfTn9vSrW_GkIZ9CkUS
 
@@ -22604,18 +22890,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/Grant%20General%20Conditions%20%28GC-1%29%20-%20Oct%205%202020-r.pdf?VersionId=MyQb_wJrHvbkS5yJCotXjlO7z2WmmOBi
 - **Status**: error
 - File not found: crawled_files/nsf.gov/Grant%20General%20Conditions%20%28GC-1%29%20-%20Oct%205%202020-r.pdf?VersionId=MyQb_wJrHvbkS5yJCotXjlO7z2WmmOBi (crawled 1 day(s) ago at 2026-03-10T01:18:24.587007+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### HAC-CJS-Panchanathan-FY23testimony_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-06/HAC-CJS-Panchanathan-FY23testimony_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### HSSTNSFDOEfinaltestimony.pdf?VersionId=IXsTXFR153FXx5Wolotmu1uO5g0PGDEY
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/HSSTNSFDOEfinaltestimony.pdf?VersionId=IXsTXFR153FXx5Wolotmu1uO5g0PGDEY
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.588116+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### IISOfficehours-for-phds-postdocs_Complaint.pptx?VersionId=18cBBnY_z9wHGwULoNFPnzD7d2lfFyTL
 
@@ -22965,210 +23239,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/NAIRR-2-Year-Progress-Update.pdf?VersionId=rPBRmrQGywlcbucdkNLSHgOWcYlUV1ZT (crawled 1 day(s) ago at 2026-03-10T01:18:24.685437+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### NAIRR-TF-Agenda-01132023.pdf?VersionId=QRs2PXwxSsD6ETYGRc6A9Sj7IC04lEse
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-01132023.pdf?VersionId=QRs2PXwxSsD6ETYGRc6A9Sj7IC04lEse
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.685902+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-02162022.pdf?VersionId=Hl00a.7psq5ac4p_ZqCOTMvsujQk3ToS
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-02162022.pdf?VersionId=Hl00a.7psq5ac4p_ZqCOTMvsujQk3ToS
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.686447+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-04082021.pdf?VersionId=IstCcDCkmF6ynpOCbsnhcZ3TMQfFle0b
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-04082021.pdf?VersionId=IstCcDCkmF6ynpOCbsnhcZ3TMQfFle0b
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.686973+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-05202022.pdf?VersionId=BKcoxtfjQHwZ3UkfxmiNwQlDOEMFfvGa
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-05202022.pdf?VersionId=BKcoxtfjQHwZ3UkfxmiNwQlDOEMFfvGa
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.687427+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-07252022.pdf?VersionId=NRuKbZC4em_DoE7zi9tSxA_R_rh3WeHo
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-07252022.pdf?VersionId=NRuKbZC4em_DoE7zi9tSxA_R_rh3WeHo
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.687906+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-07282021.pdf?VersionId=Wa1i7NGNwuSBwctDgCLvnATPUgDGxK3I
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-07282021.pdf?VersionId=Wa1i7NGNwuSBwctDgCLvnATPUgDGxK3I
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.688520+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-08302021.pdf?VersionId=ehkbPIZB6Uac.K0JCODfuzLB.4FOWnOw
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-08302021.pdf?VersionId=ehkbPIZB6Uac.K0JCODfuzLB.4FOWnOw
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.689060+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-09122022.pdf?VersionId=TLxrwxABnvO12Eh6KgpfkD02.gUNZzzP
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-09122022.pdf?VersionId=TLxrwxABnvO12Eh6KgpfkD02.gUNZzzP
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.689547+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-10212022.pdf?VersionId=GuQRYKe5VSHTrOYbh.uCoxxt6wLNVKpF
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-10212022.pdf?VersionId=GuQRYKe5VSHTrOYbh.uCoxxt6wLNVKpF
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.689998+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-10252021.pdf?VersionId=8q0UPs4QgcqfXLvfaWCKZ8EaUOR0IGiw
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-10252021.pdf?VersionId=8q0UPs4QgcqfXLvfaWCKZ8EaUOR0IGiw
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.690550+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-12132021.pdf?VersionId=7jSHuY6tft1hv1yC0qR6PJcIHMjbZ8Sv
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-12132021.pdf?VersionId=7jSHuY6tft1hv1yC0qR6PJcIHMjbZ8Sv
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.691078+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Interim-Report-2022.pdf?VersionId=.yhXZ_u9o_213S2qQHLt6BMTtmhQWoJe
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Interim-Report-2022.pdf?VersionId=.yhXZ_u9o_213S2qQHLt6BMTtmhQWoJe
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.694506+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-01132023.pdf?VersionId=Qnt71pnkKDC21R0.RKgEHOe4jXOUGQFJ
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-01132023.pdf?VersionId=Qnt71pnkKDC21R0.RKgEHOe4jXOUGQFJ
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.695022+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-02162022.pdf?VersionId=AUZPhcSfklfqn84b4UNWg6t67OfU9kPD
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-02162022.pdf?VersionId=AUZPhcSfklfqn84b4UNWg6t67OfU9kPD
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.695571+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-04082022.pdf?VersionId=ODjOGcm99EE6rlcUNZlYw1wveWtdBd89
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-04082022.pdf?VersionId=ODjOGcm99EE6rlcUNZlYw1wveWtdBd89
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.696111+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-05202022.pdf?VersionId=EmB3i4KtNMWw7lC9fqrMhGb_l42QsyKh
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-05202022.pdf?VersionId=EmB3i4KtNMWw7lC9fqrMhGb_l42QsyKh
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.696616+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-07252022.pdf?VersionId=l09_CKba6WQDYs48AszVuByN1iuDj9LI
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-07252022.pdf?VersionId=l09_CKba6WQDYs48AszVuByN1iuDj9LI
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.697144+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-07282021.pdf?VersionId=lAyw.PkRiEV_CVsaObfnibEN5_FOdcVx
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-07282021.pdf?VersionId=lAyw.PkRiEV_CVsaObfnibEN5_FOdcVx
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.697636+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-08302021.pdf?VersionId=D47RXei6ZIMK21NWv717PBV3sSdX6qCS
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-08302021.pdf?VersionId=D47RXei6ZIMK21NWv717PBV3sSdX6qCS
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.698146+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-09122022.pdf?VersionId=wLRTZS5KIKQYm9NkJQtfpQwrgkH6Qj0q
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-09122022.pdf?VersionId=wLRTZS5KIKQYm9NkJQtfpQwrgkH6Qj0q
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.698685+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-10212022.pdf?VersionId=0glvbx4zIY4nHIQEip3MQtcor33q729O
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-10212022.pdf?VersionId=0glvbx4zIY4nHIQEip3MQtcor33q729O
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.699178+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-10252021.pdf?VersionId=VP.RyaOT3G8ZNPOw8RxM94wmbu0Ou8_s
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-10252021.pdf?VersionId=VP.RyaOT3G8ZNPOw8RxM94wmbu0Ou8_s
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.699675+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-12132021.pdf?VersionId=m55H9iR0ci0J67jz6pYzOgSYG5kWIZcQ
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-12132021.pdf?VersionId=m55H9iR0ci0J67jz6pYzOgSYG5kWIZcQ
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.700253+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-01132023.pdf?VersionId=uxuCEielRZm5BVGMnb3uJ0x8XQQZ4iOl
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-01132023.pdf?VersionId=uxuCEielRZm5BVGMnb3uJ0x8XQQZ4iOl
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.701672+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-02162022.pdf?VersionId=9jZHOC6wBLQWdYjy19iKwVwuhGSYwOgY
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-02162022.pdf?VersionId=9jZHOC6wBLQWdYjy19iKwVwuhGSYwOgY
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.704256+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-04082022.pdf?VersionId=sRX7kwH5x2FKQIvVAUAP5DPcXkl4b9wu
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-04082022.pdf?VersionId=sRX7kwH5x2FKQIvVAUAP5DPcXkl4b9wu
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.706506+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-05202022.pdf?VersionId=jKV9UNLLBw6XmKD0YPdTMpqKks21VitK
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-05202022.pdf?VersionId=jKV9UNLLBw6XmKD0YPdTMpqKks21VitK
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.708253+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-07252022.pdf?VersionId=fVrTn30CwdAKgVx2n3vypOfYF5kDXsXx
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-07252022.pdf?VersionId=fVrTn30CwdAKgVx2n3vypOfYF5kDXsXx
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.714772+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-07282021.pdf?VersionId=oe76jymBnRU4.h6gu3mAkfgQ3OXfhsAZ
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-07282021.pdf?VersionId=oe76jymBnRU4.h6gu3mAkfgQ3OXfhsAZ
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.736040+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-08302021.pdf?VersionId=Bgfg.J4.5UvFm1xQ0x4Ls6jng.Id9PGe
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-08302021.pdf?VersionId=Bgfg.J4.5UvFm1xQ0x4Ls6jng.Id9PGe
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.737963+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-09122022.pdf?VersionId=gqmPfBP9xbfUQEw0m5H7M5GIyVmotBfL
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-09122022.pdf?VersionId=gqmPfBP9xbfUQEw0m5H7M5GIyVmotBfL
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.743927+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-10212022.pdf?VersionId=1rLJCtjsm3IPli.O6cSYI2QhIGIrWK35
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-10212022.pdf?VersionId=1rLJCtjsm3IPli.O6cSYI2QhIGIrWK35
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.747102+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-10252021.pdf?VersionId=pO2JQc1Ze.AyJT.J7Nx3kINcCh_1P.Fs
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-10252021.pdf?VersionId=pO2JQc1Ze.AyJT.J7Nx3kINcCh_1P.Fs
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.789592+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-12132021.pdf?VersionId=LI.TE9oXWVyVoCCGBmS6N84vUOkgi9HO
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-12132021.pdf?VersionId=LI.TE9oXWVyVoCCGBmS6N84vUOkgi9HO
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.793431+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
 ### NASEM-Report.pdf?VersionId=rzLokBbl9Yw2vscRhztc6ezG94SgWI5c
 
 - **URL**: https://nsf-gov-resources.nsf.gov/2023-09/NASEM-Report.pdf?VersionId=rzLokBbl9Yw2vscRhztc6ezG94SgWI5c
@@ -23262,8 +23332,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### NSF%20HSST%20NWIRP%20Testimony%20Final-CLEARED_0.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/2021-11/NSF%20HSST%20NWIRP%20Testimony%20Final-CLEARED_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### NSF%20IDSS.pdf?VersionId=KSLD0pffarWPie1UYUL9VpSh8EDuYyRd
 
@@ -23360,12 +23430,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-international-research-terms-conditions-20210104-r.pdf?VersionId=kl4eWweyPgPYp16Vn7W4CMwPBTCWq3b2
 - **Status**: error
 - File not found: crawled_files/nsf.gov/NSF-international-research-terms-conditions-20210104-r.pdf?VersionId=kl4eWweyPgPYp16Vn7W4CMwPBTCWq3b2 (crawled 1 day(s) ago at 2026-03-10T01:18:24.924992+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NSF-scientific-integrity-policy.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-scientific-integrity-policy.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### NSFAnti-HarassmentES_0.pdf?VersionId=OW7tYGjLTAzzm0GKDUxFMbBC5_Rr9PLQ
 
@@ -23493,12 +23557,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/NSF_act_1950_legislation.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.966818+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### National-AI-Research-Resource-Task-Force-Charter-2021.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/National-AI-Research-Resource-Task-Force-Charter-2021.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### Northeastern-University-OIG-Report-25-1-005.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/Northeastern-University-OIG-Report-25-1-005.pdf
@@ -23559,12 +23617,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/Rough-Transcript-CICI.pdf?VersionId=pYmFvazQsyajPitFMB.gkJZCHZ_FZ4lj (crawled 1 day(s) ago at 2026-03-10T01:18:24.973630+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### SAC%20CJS%20NSF%20FY23%20Testimony%20FINAL.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-06/SAC%20CJS%20NSF%20FY23%20Testimony%20FINAL.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### SBIR-STTR_Revised_Report_Cover.pdf
 
 - **URL**: https://seedfund.nsf.gov/assets/files/awardees/SBIR-STTR_Revised_Report_Cover.pdf
@@ -23612,12 +23664,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/Semiannual_Report_to_Congress-Fall2025.pdf
 - **Status**: error
 - File not found: crawled_files/nsf.gov/Semiannual_Report_to_Congress-Fall2025.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.046574+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### TIP%20Impact%20Infographic%20508%20v2.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/TIP%20Impact%20Infographic%20508%20v2.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### USAP-SAHPR-Report.pdf
 
@@ -23678,12 +23724,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/alertmemo_bfaresponse213.pdf
 - **Status**: error
 - File not found: crawled_files/nsf.gov/alertmemo_bfaresponse213.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.114182+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### appendix-a-r.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/appendix-a-r.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### audit-rep-201004-unc-chapelhill.pdf
 
@@ -25611,12 +25651,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/nsf15089.pdf?VersionId=G4eS8JPUx1gf.Q8jytI16KO5juyTIv7i (crawled 1 day(s) ago at 2026-03-10T01:18:25.471785+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### nsf16_1.pdf?VersionId=RglAArfAx.LGcOalSpQqs_L5frdg0qre
-
-- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pappguide/nsf16001/nsf16_1.pdf?VersionId=RglAArfAx.LGcOalSpQqs_L5frdg0qre
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:25.483548+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
 ### nsf17066.pdf?VersionId=o9536BDMp0zSGUv7RJjt1461GCNXMfGo
 
 - **URL**: https://nsf-gov-resources.nsf.gov/pubs/2017/nsf17066/nsf17066.pdf?VersionId=o9536BDMp0zSGUv7RJjt1461GCNXMfGo
@@ -25689,12 +25723,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/nsf21555.pdf?VersionId=wxUtybPFk8fe1q769DOBj5ULnm0eF6Kn (crawled 1 day(s) ago at 2026-03-10T01:18:25.542508+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### nsf22068.pdf?VersionId=QeimX_s5IrCTtRsHVInSet1iQjahFwNG
-
-- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2022/nsf22068/nsf22068.pdf?VersionId=QeimX_s5IrCTtRsHVInSet1iQjahFwNG
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:25.572460+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
 ### nsf22528.pdf?VersionId=TlMYEXeRibcdxKcml92eKMIJ_0JHvJhn
 
 - **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2022/nsf22528/nsf22528.pdf?VersionId=TlMYEXeRibcdxKcml92eKMIJ_0JHvJhn
@@ -25706,12 +25734,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2022/nsf22529/nsf22529.pdf?VersionId=kDfiaXqzubLX2trSPD91kxcD45I4STfn
 - **Status**: error
 - File not found: crawled_files/nsf.gov/nsf22529.pdf?VersionId=kDfiaXqzubLX2trSPD91kxcD45I4STfn (crawled 1 day(s) ago at 2026-03-10T01:18:25.575759+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### nsf23104.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2023/nsf23104/nsf23104.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### nsf23534.pdf?VersionId=Irmgt52vhpKDNO.Cn1GcYVamTdzCUxED
 
@@ -25731,12 +25753,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/nsf23629.pdf?VersionId=eAPkrNKjQpa91G3P74Dh.1xgzXhydvze (crawled 1 day(s) ago at 2026-03-10T01:18:25.587039+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### nsf23_1.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-10/nsf23_1.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### nsf23_1.pdf?VersionId=VQHMy1XFClNhULRMabdaeCqYvbgykldV
 
 - **URL**: https://nsf-gov-resources.nsf.gov/2022-10/nsf23_1.pdf?VersionId=VQHMy1XFClNhULRMabdaeCqYvbgykldV
@@ -25754,12 +25770,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/nsf24588.pdf?VersionId=gcaK8aTD1T0Gg7WVrIRRez1GDQlf70lg
 - **Status**: error
 - File not found: crawled_files/nsf.gov/nsf24588.pdf?VersionId=gcaK8aTD1T0Gg7WVrIRRez1GDQlf70lg (crawled 1 day(s) ago at 2026-03-10T01:18:25.601620+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### nsf24_1.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/nsf24_1.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### nsf26302-tab001.pdf
 
@@ -26186,12 +26196,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pnag/pnag171.pdf?VersionId=fKt7WYIWedO5SffTDuhcCYNh0TpmX4t_
 - **Status**: error
 - File not found: crawled_files/nsf.gov/pnag171.pdf?VersionId=fKt7WYIWedO5SffTDuhcCYNh0TpmX4t_ (crawled 1 day(s) ago at 2026-03-10T01:18:25.660999+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### polar-coc-r.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/polar-coc-r.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### reportingrequirements.pdf
 
@@ -29508,8 +29512,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### 11082012-teleconference-transcript.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/11082012-teleconference-transcript.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### 1998d001.pdf
 
@@ -29556,8 +29560,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### 2013-navigator-foa-4-9-2013.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/2013-navigator-foa-4-9-2013.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### 2014-risk-corridors-validation-instructions.pdf
 
@@ -29583,23 +29587,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, 
 
-### 2023-open-enrollment-report-infographic.pdf
-
-- **URL**: https://www.cms.gov/marketplace/outreach-and-education/2023-open-enrollment-report-infographic.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### 303d.pdf
 
 - **URL**: https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/303d.pdf
 - **Status**: analysed
 - title, tagged, lang, 
-
-### 5-things-about-svi.pdf
-
-- **URL**: https://www.cms.gov/marketplace/technical-assistance-resources/5-things-about-svi.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### 508_cms-10379-rate-review-supporting-statement.pdf
 
@@ -29634,44 +29626,32 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### amended-spring-2012-establishment-foa.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/amended-spring-2012-establishment-foa.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### annrpt03.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/annrpt03.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, lang, 
 
 ### annrpt06.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/annrpt06.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### asc_hai_map.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/asc_hai_map.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### august_10_foa_teleconference_transcript0816_final.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/august_10_foa_teleconference_transcript0816_final.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### authorizationform.pdf
-
-- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/authorizationform.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### black-and-white.pdf
-
-- **URL**: https://www.cms.gov/files/document/emtala-poster-non-medicaid-participating-spanish/black-and-white.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### clm104c08.pdf
 
@@ -29712,38 +29692,32 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### consumer_assistance_program_grant_foa.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/consumer_assistance_program_grant_foa.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### contact_list.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/medicareprovidersupenroll/downloads/contact_list.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### coop-foa-transcript-20120301.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/coop-foa-transcript-20120301.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### coop-foa-transcript-20120516.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/coop-foa-transcript-20120516.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### cycle_i_rate_review_grant-rerelease_territories.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/cycle_i_rate_review_grant-rerelease_territories.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### cycle_ii_rate_review_grants_funding_opportunity_announcement.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/cycle_ii_rate_review_grants_funding_opportunity_announcement.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### document-5-csr-reconciliation-attestation-form-a-benefit-year-2020-or-2019.pdf
 
@@ -29760,38 +29734,26 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### early_innovator_grants.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/early_innovator_grants.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### eaw-grant-fact-sheet.pdf
 
 - **URL**: https://www.cms.gov/files/document/eaw-grant-fact-sheet.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### eaw-grant-pre-application-call-slides.pdf
-
-- **URL**: https://www.cms.gov/files/document/eaw-grant-pre-application-call-slides.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### eaw-grant-program-proposed-state-activities-final.pdf
 
 - **URL**: https://www.cms.gov/files/document/eaw-grant-program-proposed-state-activities-final.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### effective-rate-review-survey-instructions-20150202-final.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/effective-rate-review-survey-instructions-20150202-final.pdf
 - **Status**: analysed
 - title, 
-
-### ehb-grant-external-faq508.pdf
-
-- **URL**: https://www.cms.gov/files/document/ehb-grant-external-faq508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### err-determination-and-status-questions-5-20-14.pdf
 
@@ -29802,26 +29764,20 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### exchange_planning_grant_foa.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/exchange_planning_grant_foa.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### expanding-access-womens-health-grant-program-nofo.pdf
-
-- **URL**: https://www.cms.gov/files/document/expanding-access-womens-health-grant-program-nofo.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### final-navigator-2014-foa-06-10-2014.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/final-navigator-2014-foa-06-10-2014.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### final_premium_review_grant_solicitation_with_disclosure_statement.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/final_premium_review_grant_solicitation_with_disclosure_statement.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### fm-1a-risk-adj-overview.pdf
 
@@ -29874,74 +29830,62 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### foa_exchange_establishment.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/foa_exchange_establishment.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### foa_territories_establishment.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/foa_territories_establishment.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### foia-faq-2022.pdf
 
 - **URL**: https://www.cms.gov/files/document/foia-faq-2022.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### foiaappeal.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiaappeal.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### foiafaq.pdf
-
-- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiafaq.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### foiahandbook.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiahandbook.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### foiarequestletter.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletter.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### foiarequestletterdeceasedbene.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterdeceasedbene.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### foiarequestletterlivingbene.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterlivingbene.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### foiarequestletterownrecords.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterownrecords.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### fy2010aschai.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/recovery/downloads/fy2010aschai.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### grants-to-states-added-flexibility-2020.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/grants-to-states-added-flexibility-2020.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### hhvbp-odf-homehealthagencies.pdf
 
@@ -29960,18 +29904,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.cms.gov/files/document/hipaaoptouts03182021.pdf
 - **Status**: analysed
 - title, 
-
-### hospice-certifying-enrollment-faqs.pdf
-
-- **URL**: https://www.cms.gov/files/document/hospice-certifying-enrollment-faqs.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### hospital-appeals-provider-listing.pdf
-
-- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/hospital-appeals-provider-listing.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### ignagni.pdf
 
@@ -29994,32 +29926,20 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### limited_competition_foa_2nd_planning_grant_foa_for_clearance.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/limited_competition_foa_2nd_planning_grant_foa_for_clearance.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### marketplace-casework-overview.pdf
 
 - **URL**: https://www.cms.gov/marketplace/technical-assistance-resources/marketplace-casework-overview.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### mm13531-hospice-claims-edits-certifying-physicians.pdf
-
-- **URL**: https://www.cms.gov/files/document/mm13531-hospice-claims-edits-certifying-physicians.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### navigator-2016-foa.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/navigator-2016-foa.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### navigator_2015_foa_final_04_15_2015.pdf
 
 - **URL**: https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-marketplaces/downloads/navigator_2015_foa_final_04_15_2015.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### opt_out_memo.pdf
 
@@ -30032,12 +29952,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/patients-bill-of-rights09232011a.pdf
 - **Status**: analysed
 - title, 
-
-### pre-call-application-ecp-grant-final.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/pre-call-application-ecp-grant-final.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### r12238fm.pdf
 
@@ -30789,12 +30703,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
 
-### report-life-changes-postcard-spanish.pdf
-
-- **URL**: https://www.cms.gov/marketplace/outreach-and-education/report-life-changes-postcard-spanish.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### riskadjustment_whitepaper_web.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/files/downloads/riskadjustment_whitepaper_web.pdf
@@ -30810,116 +30718,116 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### scletter08-06.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-06.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### scletter08-08.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-08.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### scletter08-09.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-09.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### scletter08-10.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-10.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### scletter08-11.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-11.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### scletter08-12.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-12.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### scletter08-13.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-13.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### scletter08-14.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-14.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### scletter08-15.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-15.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### scletter08-16.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-16.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### scletter08-17.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-17.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### scletter08-18.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-18.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### scletter08-19.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-19.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### scletter08-20.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-20.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### scletter08-21.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-21.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### scletter08-22.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-22.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### scletter08-23.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-23.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### scletter08-25.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-25.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### september_7_co_op_teleconference_transcript_final.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/september_7_co_op_teleconference_transcript_final.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### serota.pdf
 
@@ -30927,41 +30835,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, tagged, lang, 
 
-### special-enrollment-periods-available-consumers.pdf
-
-- **URL**: https://www.cms.gov/marketplace/agents-brokers/files/special-enrollment-periods-available-consumers.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### state-based-marketplace-modernization-grant-awardee-list-2021.pdf
 
 - **URL**: https://www.cms.gov/files/document/state-based-marketplace-modernization-grant-awardee-list-2021.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### state-flexibility-cycle-ii-grant-fact-sheet.pdf
-
-- **URL**: https://www.cms.gov/files/document/state-flexibility-cycle-ii-grant-fact-sheet.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### state-flexibility-market-grant-cycle-ii-slides.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/state-flexibility-market-grant-cycle-ii-slides.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### state-flexibility-market-grant-slides.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/state-flexibility-market-grant-slides.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### the-health-insurance-enforcement-and-consumer-protections-grant-foa-6-15.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/the-health-insurance-enforcement-and-consumer-protections-grant-foa-6-15.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, lang, 
 
 ### unified-rate-review-instructions.pdf
 
@@ -31100,24 +30978,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/No-FEAR-Act-Data-FY2020-Q2.pdf?VersionId=ZBDvoDkw9sBs9hJTTTJJSRl767h9Bbpt
 - **Status**: analysed
 - title, 
-
-### PQ-Guidelines-Current-13-March-2025.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/PQ-Guidelines-Current-13-March-2025.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### SOH_POL_2000.10_VOL2.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/SOH_POL_2000.10_VOL2.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### TIP_I-CorpsReport_2023_Final_6.21.2023.508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2023-06/TIP_I-CorpsReport_2023_Final_6.21.2023.508.pdf?VersionId=7hktpt_12oxeM2sHpOrTR6uG3mm6_DMk
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### appendix-a-r.pdf
 
@@ -40923,12 +40783,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.104824+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### 10_Steps_Bringing_Homeownership.pdf
-
-- **URL**: https://www.hud.gov/sites/dfiles/PIH/documents/10_Steps_Bringing_Homeownership.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.105822+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
 ### 11-01ml.pdf
 
 - **URL**: https://www.hud.gov/sites/documents/11-01ml.pdf
@@ -41277,41 +41131,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, tagged, lang, 
 
-### elder-financial-abuse.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/elder-financial-abuse.pdf
-- **Status**: analysed
-- fonts:/QCDNQR+WellsFargoSans-Regular, /QCDNQR+WellsFargoSans-Italic, /QCDNQR+WellsFargoSans-CondensedItalic, /QCDNQR+WellsFargoSans-Light, /QCDNQR+WellsFargoSans-SemiBold, /QCDNQR+WellsFargoSans-Condensed
-
-### elite-visa-signature-guide-to-benefits.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/elite-visa-signature-guide-to-benefits.pdf
-- **Status**: analysed
-- fonts:/MHUEYO+MyriadPro-Regular, /MHUEYO+WellsFargoSans-Bold, /MHUEYO+WellsFargoSans-BoldItalic, /MHUEYO+WellsFargoSans-Regular, /MHUEYO+WellsFargoSans-Italic, /MHUEYO+WellsFargoSans-Condensed, /MHUEYO+WellsFargoSans-SemiBold, /MHUEYO+WellsFargoSans-Light
-
 ### identity-theft-kit.pdf
 
 - **URL**: https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf
 - **Status**: analysed
-- title, tagged, tagged-content-fail, lang, fonts:/AAAAAJ+WellsFargoSans-Condensed, /NEETJX+WellsFargoSans-Regular, /JGLVFF+WellsFargoSans, /AAAAAG+WellsFargoSans-SemiBold, /AAAAAL+WellsFargoSans-Condensed, /CUYFLT+WellsFargoSans-Regular, /AAAAAI+ArialMT, /JGLVFF+WellsFargoSans-Regular, /AAAAAC+TimesNewRomanPSMT, /AAAAAD+WellsFargoSans-Light, /AAAAAK+WellsFargoSans-Regular, /SORLKI+WellsFargoSans-Condensedfigures-alt, headings-skip, lists-fail, forms-fail, annotations-tagging-fail, 
-
-### online-wires-supported-currency-list.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/es/pdf/personal/online-banking/online-wires-supported-currency-list.pdf
-- **Status**: analysed
-- fonts:/BCDHEE+WellsFargoSans-SemiBold, /BCDIEE+WellsFargoSans-Light, /BCDEEE+WellsFargoSans-Regular, /BCDGEE+WellsFargoSans-Display, /BCDFEE+WellsFargoSans-Condensedheadings-none, 
-
-### us_consumer_privacy_notice_english.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf
-- **Status**: analysed
-- fonts:/BCDFEE+WellsFargoSans-Bold, /BCDGEE+WellsFargoSans-Regular, /BCDEEE+WellsFargoSans-Regular, /UYQNJJ+MinionPro-Regular, /FBEDKT+Arial, /BCDJEE+WellsFargoSans-Italic, /BCDHEE+WellsFargoSans-SemiBold, /BCDKEE+Calibri, /BCDLEE+WellsFargoSans-BoldItalic, /BCDIEE+WellsFargoSans-SemiBold
-
-### visa-signature-business-benefits.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/visa-signature-business-benefits.pdf
-- **Status**: analysed
-- fonts:/WBYJIU+Univers-CondensedLight, /WBYJIU+UniversLTStd-LightCn, /WBYJIU+Univers-BlackOblique, /WBYJIU+MyriadPro-Regular, /WBYJIU+UniversLTStd-BoldCn, /WBYJIU+Univers-CondensedBold, /WBYJIU+UniversLTStd-BoldCnObl, /WBYJIU+UniversLTStd-LightCnObl
+- lang, 
 
 ### (R)TERC_Annual_Report_2024-0.pdf
 
@@ -46584,8 +46408,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### 2024-2028-Hamilton-Tourism-Strategy.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-04/2024-2028-Hamilton-Tourism-Strategy.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
 
 ### 23-045.pdf
 
@@ -46608,38 +46432,14 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### 25-049.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-03/25-049.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 25-050.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-03/25-050.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 25-144.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/25-144.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 25-146.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/25-146.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 26-032.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2026-02/26-032.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 26-033.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2026-02/26-033.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### Accessibility-AssistiveDevices-Policy.pdf
 
@@ -46692,32 +46492,20 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### CSWB_Gender-Based-Safety-Audit-Consideration-Report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-05/CSWB_Gender-Based-Safety-Audit-Consideration-Report.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### CommsUpdate-PED-OurFutureDowntown10YearDowntownRevitalizationStrategyProjectUpdate.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PED-OurFutureDowntown10YearDowntownRevitalizationStrategyProjectUpdate.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Digital-Strategy-Accessible.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2023-02/Digital-Strategy-Accessible.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- lang, 
 
 ### EDI-2019urbanindigenousstrategy-Report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-05/EDI-2019urbanindigenousstrategy-Report.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
 
 ### EDI-UISimplementationplan2021.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-05/EDI-UISimplementationplan2021.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, 
 
 ### EDI-orangeshirtday-colouringactivitypages.pdf
 
@@ -46806,8 +46594,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### Youth-Strategy-Report-2022-2027.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-03/Youth-Strategy-Report-2022-2027.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### accessible-meeting-checklist.pdf
 
@@ -46818,62 +46606,56 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### budget-flowchart-2026.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-11/budget-flowchart-2026.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### building-safer-communities-multi-year-plan.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-09/building-safer-communities-multi-year-plan.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### child-youth-network-SOP-agenda-planning-procedure-june2025.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-agenda-planning-procedure-june2025.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### child-youth-network-SOP-collaborative-grant-procedure-june2025.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-collaborative-grant-procedure-june2025.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### child-youth-network-SOP-email-distribution-procedure-june2025.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-email-distribution-procedure-june2025.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### child-youth-network-community-engagement-procedure.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-10/child-youth-network-community-engagement-procedure.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### child-youth-network-data-decision-support-guide1.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-11/child-youth-network-data-decision-support-guide1.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- tagged, 
 
 ### child-youth-network-terms-of-Reference-sep2025.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-10/child-youth-network-terms-of-Reference-sep2025.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### comm-update-2023-Urban-Forest-Pests.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-02/comm-update-2023-Urban-Forest-Pests.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### comm-update-CSWB-toronto-community-Crisis-Centre-Hamiltons-Mental-Health-Crisis-Response.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-12/comm-update-CSWB-toronto-community-Crisis-Centre-Hamiltons-Mental-Health-Crisis-Response.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, lang, 
 
 ### comm-update-PED-downtown-cleanliness-service-level-enhancements-update-august-8-2023.pdf
 
@@ -46884,8 +46666,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### comm-update_Hemlock-Woolly-Adelgid-Identified-on-City-Property.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-03/comm-update_Hemlock-Woolly-Adelgid-Identified-on-City-Property.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### comm-update_Strategic-Transportation-Network-Study-to-Support-Background-Study.pdf
 
@@ -46896,26 +46678,26 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### community-garden-final-report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-08/community-garden-final-report.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### community-garden-infographic.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-08/community-garden-infographic.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### community-garden-summary-report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-08/community-garden-summary-report.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### consideration-report-HSC25012-2025-2029-cswb-plan.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-06/consideration-report-HSC25012-2025-2029-cswb-plan.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- lang, 
 
 ### emergency_hps-master-plan-2022-2031.pdf
 
@@ -46926,14 +46708,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### engagement-municipal-scan-practices.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-05/engagement-municipal-scan-practices.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### engagement-public-engagement-policy-CMO-GRCE-24-01.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-05/engagement-public-engagement-policy-CMO-GRCE-24-01.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### grids-grids-strategy-2006.pdf
 
@@ -46941,83 +46717,71 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Analysis exceeded 120s per-file limit
 
-### hamilton-digital-strategy_0.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2023-01/hamilton-digital-strategy_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### hamilton-drug-strategy-report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-08/hamilton-drug-strategy-report.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### hamilton-food-literacy-network-forum-report-2017.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-literacy-network-forum-report-2017.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### hamilton-food-strategy-forum-summary.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-07/hamilton-food-strategy-forum-summary.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### hamilton-food-strategy.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-strategy.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
 
 ### hamilton-supervised-injection-site-study.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-03/hamilton-supervised-injection-site-study.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### harassment-discrimination-prevention-policy.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-09/harassment-discrimination-prevention-policy.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### indigenous-health-strateg-2023.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-07/indigenous-health-strateg-2023.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### indigenous-relations-honouring-our-roots-report_0.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-07/indigenous-relations-honouring-our-roots-report_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### indigenous-tourism-development-strategy.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-11/indigenous-tourism-development-strategy.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
 
 ### info-report-CSWB-Progress-Report-%28HSC24050%29.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-12/info-report-CSWB-Progress-Report-%28HSC24050%29.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- lang, 
 
 ### info-report-HSC23033-Building-Safer-Communities-Multi-Year-Plan-jun2142023.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-08/info-report-HSC23033-Building-Safer-Communities-Multi-Year-Plan-jun2142023.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, lang, 
 
 ### info-update-HSC24015-Community-Safety-and-Well-Being-Annual-Report-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-09/info-update-HSC24015-Community-Safety-and-Well-Being-Annual-Report-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- lang, 
 
 ### main-whitney-ea-pic1-presentation.pdf
 
@@ -47208,14 +46972,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### medical-advisory-CMOH-COVID-19-KP2-Vaccine-Market-Withdrawal.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-08/medical-advisory-CMOH-COVID-19-KP2-Vaccine-Market-Withdrawal.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### medicaladvisory_RSV-Older-Adult-High-Risk-Fact-Sheet-HCP.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-09/medicaladvisory_RSV-Older-Adult-High-Risk-Fact-Sheet-HCP.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, lang, 
 
 ### municipal-act-charges-proposed-bylaws-BHH-dec30-2025.pdf
 
@@ -47226,44 +46984,44 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### municipal-act-charges-proposed-bylaws-apr23-2025.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-04/municipal-act-charges-proposed-bylaws-apr23-2025.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, lang, 
 
 ### neighbourhood-risk-management-toolkit.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-12/neighbourhood-risk-management-toolkit.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### our-future-hamilton-2018-summit-summary-report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-02/our-future-hamilton-2018-summit-summary-report.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, 
 
 ### our-future-hamilton-2019-summit-summary-report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-10/our-future-hamilton-2019-summit-summary-report.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, 
 
 ### ourfuturehamilton-final-report-2017.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-final-report-2017.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### ourfuturehamilton-progress-report-2018.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-progress-report-2018.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### ourfuturehamilton-suggested-actions.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-suggested-actions.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### parking-master-plan.pdf
 
@@ -47274,8 +47032,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### public-engagement-charter.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-10/public-engagement-charter.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
 
 ### recreation-master-plan.pdf
 
@@ -47286,14 +47044,14 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### report-HSC24006-Community-Safety-and-Wellbeing-Situation-Table.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-09/report-HSC24006-Community-Safety-and-Wellbeing-Situation-Table.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- lang, 
 
 ### rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-05/rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### rymal-ea-pic2-panels.pdf
 
@@ -47304,8 +47062,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### rymal-road-ea-pic1-panels-accessible.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-08/rymal-road-ea-pic1-panels-accessible.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, 
 
 ### rymal-road-ea-pic1-panels.pdf
 
@@ -47379,29 +47137,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, tagged, lang, 
 
-### standing-water-by-law-03-173.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2023-01/standing-water-by-law-03-173.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### strategies-10-Year-Downtown-Revitalization-Strategy-Engage-Hamilton-Summary-Findings-Report-Appendix-A.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/strategies-10-Year-Downtown-Revitalization-Strategy-Engage-Hamilton-Summary-Findings-Report-Appendix-A.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### strategies-community-garden-directory-mar2025.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-03/strategies-community-garden-directory-mar2025.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### strategies-consumption-treatment-services-local-guidance-applicants-2023.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-12/strategies-consumption-treatment-services-local-guidance-applicants-2023.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### strategies-indigenous-archaeological-monitoring-policy-nov2024.pdf
 
@@ -47409,227 +47149,203 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, tagged, lang, 
 
-### strategies-our-future-downtown-10-year-strategy-engage-hamilton-summary-report-july2025.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/strategies-our-future-downtown-10-year-strategy-engage-hamilton-summary-report-july2025.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### strategies_08.1-HSC25007%28a%29-Appendix-A-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-09/strategies_08.1-HSC25007%28a%29-Appendix-A-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, lang, 
 
 ### strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-09/strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### strategies_2nd-Annual-HamOntYouth-Summit-2024-exec-summary.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/strategies_2nd-Annual-HamOntYouth-Summit-2024-exec-summary.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- lang, 
 
 ### strategies_2nd-Annual-HamOntYouth-Summit-2024-report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-05/strategies_2nd-Annual-HamOntYouth-Summit-2024-report.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
 
 ### strategies_CSWB-Plan-2025-2029.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-06/strategies_CSWB-Plan-2025-2029.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
 
 ### strategies_Connected-Communities-2-Page-Summary-Report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-2-Page-Summary-Report.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### strategies_Connected-Communities-Full-Report-final.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Full-Report-final.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### strategies_Connected-Communities-Summary-Report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Summary-Report.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### strategies_Summary-of-Assets-Final.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Summary-of-Assets-Final.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### strategy-2023-HPS-Asset-Management-Plan.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-12/strategy-2023-HPS-Asset-Management-Plan.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### strategy-asset-management-plan-overview-jun2022.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-12/strategy-asset-management-plan-overview-jun2022.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### strategy-childrens-community-services-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-childrens-community-services-asset-management-plan-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### strategy-cityhousing-hamilton-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-cityhousing-hamilton-asset-management-plan-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### strategy-corp-real-estate-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-corp-real-estate-asset-management-plan-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### strategy-corporate-asset-management-overview-appendix-b.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-06/strategy-corporate-asset-management-overview-appendix-b.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### strategy-corporate-asset-management-proposed-levels-service.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-06/strategy-corporate-asset-management-proposed-levels-service.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### strategy-fire-dept-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-fire-dept-asset-management-plan-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### strategy-forestry-horticulture-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-forestry-horticulture-asset-management-plan-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, 
 
 ### strategy-hamilton-municipal-cemeteries-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-hamilton-municipal-cemeteries-asset-management-plan-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, 
 
 ### strategy-hpl-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-hpl-asset-management-plan-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### strategy-hsr-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-hsr-asset-management-plan-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### strategy-information-technology-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-information-technology-asset-management-plan-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### strategy-licensing-bylaw-services-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-licensing-bylaw-services-asset-management-plan-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, 
 
 ### strategy-long-term-care-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-long-term-care-asset-management-plan-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### strategy-natural-assets-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-natural-assets-asset-management-plan-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### strategy-paramedics-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-paramedics-asset-management-plan-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, lang, 
 
 ### strategy-parking-system-asset-plan-2023.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-12/strategy-parking-system-asset-plan-2023.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, 
 
 ### strategy-public-health-services-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-public-health-services-asset-management-plan-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### strategy-recreation-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-recreation-asset-management-plan-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, 
 
 ### strategy-tourism-and-culture-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-tourism-and-culture-asset-management-plan-2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, 
 
 ### strategy-transportation-asset-management-plan-jun2022.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-12/strategy-transportation-asset-management-plan-jun2022.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, lang, 
 
 ### strategy-waste-management-asset-plan-2023.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-12/strategy-waste-management-asset-plan-2023.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### strategy-waterworks-asset-management-plan-jun2022.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-12/strategy-waterworks-asset-management-plan-jun2022.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### tmp-aegd-notice-of-commencement-pic1.pdf
 
@@ -47712,26 +47428,26 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### uhop-vol1-appendix-f4-archaeologicalpotential-dec2023.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-10/uhop-vol1-appendix-f4-archaeologicalpotential-dec2023.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### violence-workplace-prevention-policy.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-09/violence-workplace-prevention-policy.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### 2025-spring-community-compost-giveaway-events-july292025.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-08/2025-spring-community-compost-giveaway-events-july292025.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### BartonTiffanyLandsZoneB-ERMM-TemporaryShelterHousing-Oct.29.2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-12/BartonTiffanyLandsZoneB-ERMM-TemporaryShelterHousing-Oct.29.2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### CommsUpdate-PW-2025RuralRoadsideUrbanBlvdExpresswayGrassCuttingPrograms.pdf
 
@@ -47742,14 +47458,14 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### CommsUpdate-PW-CleanGreenHamiltonStrategy2024YearEndUpdate.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-05/CommsUpdate-PW-CleanGreenHamiltonStrategy2024YearEndUpdate.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- lang, 
 
 ### CommsUpdate-PW-HSR150CelebrationActivitiesEvents.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-HSR150CelebrationActivitiesEvents.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- lang, 
 
 ### CommsUpdate-PW-PlaygroundSprayPadsPlay%20CourtFacilitiesMaintenanceServiceLevelsUpdate.pdf
 
@@ -47760,20 +47476,14 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### CommsUpdate-PW-Release-EAS-TemporaryOutdoorShelter%20Project-259%20CarolineStreet.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-12/CommsUpdate-PW-Release-EAS-TemporaryOutdoorShelter%20Project-259%20CarolineStreet.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, lang, 
 
 ### DetourRoutes_403Closure.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-09/DetourRoutes_403Closure.pdf
 - **Status**: analysed
 - title, tagged, lang, 
-
-### Final-Phase1-ESA-BarttonTiffany-Feb.8.2018.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-12/Final-Phase1-ESA-BarttonTiffany-Feb.8.2018.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### Notice-of-Compliance-Dundas-Transfer-Station-Scale-House.pdf
 
@@ -47784,8 +47494,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### PreDemoDesignatedSubstancesSurveyBartonTiffanyLands-Nov.27.2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-12/PreDemoDesignatedSubstancesSurveyBartonTiffanyLands-Nov.27.2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, 
 
 ### ainslie-wood-creek-ea-pic1-feedback-mar2023.pdf
 
@@ -47832,32 +47542,32 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### comm-update-ENG24002-2024-Construction-Projects-in-the-Right-of-Way.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-ENG24002-2024-Construction-Projects-in-the-Right-of-Way.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### comm-update-HSR-150-Celebrations.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-05/comm-update-HSR-150-Celebrations.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### comm-update-HW.22.08-Chedoke-Creek-Remediation.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-09/comm-update-HW.22.08-Chedoke-Creek-Remediation.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, lang, 
 
 ### comm-update-HW2402-Annual-Drinking-Water-Report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-03/comm-update-HW2402-Annual-Drinking-Water-Report.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- tagged, lang, 
 
 ### comm-update-HW2403-COH-Watershed-Action-Plan-Public-Engagement.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-HW2403-COH-Watershed-Action-Plan-Public-Engagement.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- lang, 
 
 ### comm-update-HW2405-Reaccreditation-Citys-Drinking-Water-Quality-Management-System.pdf
 
@@ -47874,14 +47584,14 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### comm-update-Harmful-Algal-Bloom-Strategy-%28HW2505%29.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-08/comm-update-Harmful-Algal-Bloom-Strategy-%28HW2505%29.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### comm-update-Maintenance-on-Lincoln-M-Alexander-Parkway.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-05/comm-update-Maintenance-on-Lincoln-M-Alexander-Parkway.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### comm-update-PW-Bill-Simone-Hall-CFEM2406.pdf
 
@@ -47892,14 +47602,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### comm-update-PW-HSR-150-apr2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-HSR-150-apr2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### comm-update-PW-Mountain-Drive-Park-Soils-Finding-ES2402-apr2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-Mountain-Drive-Park-Soils-Finding-ES2402-apr2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- lang, 
 
 ### comm-update-PW-Mountain-Drive-Park-Soils-Finding-update2-ES2402a-aug2024.pdf
 
@@ -47910,14 +47614,14 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### comm-update-PW-Playground-Spray-Pads-Play-Court-Facilities-Maintenance-Service-Levels-Update-Apr2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-Playground-Spray-Pads-Play-Court-Facilities-Maintenance-Service-Levels-Update-Apr2024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- lang, 
 
 ### comm-update-PW-Update3-fire-damage-woodlands-park-washroom.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-03/comm-update-PW-Update3-fire-damage-woodlands-park-washroom.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- lang, 
 
 ### comm-update-PW-Urban-Forest-Invasive-Species-Management-jun2024.pdf
 
@@ -47928,8 +47632,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### comm-update-TSSA-Inspection-Report%2310150505-Bernie-Morelli-Recreation-Centre-%28CFEM2404%29.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-02/comm-update-TSSA-Inspection-Report%2310150505-Bernie-Morelli-Recreation-Centre-%28CFEM2404%29.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- tagged, lang, 
 
 ### comm-update-macassa-lodge-long-term-care-redevelopment-aug232024.pdf
 
@@ -47952,8 +47656,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### comm-update-stoney-creek-water-quality-may-20-21-2025-hw2504_0.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-06/comm-update-stoney-creek-water-quality-may-20-21-2025-hw2504_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- lang, 
 
 ### comms-update-pw-york-blvd-cannon-street-urbanization-500mm-trunk-watermain-installation-june282024.pdf
 
@@ -48120,8 +47824,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### CAB%20ADA%20Grievance%20Procedure%20%282-2-2026%29%20%281%29.pdf
 
 - **URL**: https://cab.dc.gov/sites/default/files/u76776/CAB%20ADA%20Grievance%20Procedure%20%282-2-2026%29%20%281%29.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### CFSA%20NOPP%20rev.2020.pdf
 
@@ -48138,20 +47842,20 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### CIC%20FY17%20Performance%20Oversight%20Hearing%20Testimony%203.2.17_0.pdf
 
 - **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20FY17%20Performance%20Oversight%20Hearing%20Testimony%203.2.17_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### CIC%20FY18%20Performance%20Oversight%20Hearing%20Testimony%202.15.18.pdf
 
 - **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20FY18%20Performance%20Oversight%20Hearing%20Testimony%202.15.18.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### CIC%20Testimony%20on%20Bill22-459%20Opioid%20Abuse%20Treatment%20Act%2012.12.17_0.pdf
 
 - **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20Testimony%20on%20Bill22-459%20Opioid%20Abuse%20Treatment%20Act%2012.12.17_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### CIC%20Testimony%20on%20Letterhead.pdf
 
@@ -48168,8 +47872,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### CIC%20Testimony%20on%20Youth%20Rehabilitation%20Amendment%20Act%202017%2010.26.17_0.pdf
 
 - **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20Testimony%20on%20Youth%20Rehabilitation%20Amendment%20Act%202017%2010.26.17_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### CIC%20Testimony-Judiciary%20and%20Public%20Safety%20Committee%2011.10.21.pdf
 
@@ -48180,32 +47884,26 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### CIC-Education%20Committee%20Testimony%2010.4.17.pdf
 
 - **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/CIC-Education%20Committee%20Testimony%2010.4.17.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### CJDT%2016%20STATUTE%20AMENDING%20FINANCIAL%20REPORTING%20REQUIREMENTS.pdf
 
 - **URL**: https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/CJDT%2016%20STATUTE%20AMENDING%20FINANCIAL%20REPORTING%20REQUIREMENTS.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### CJS%202018%20Summit%20Summary%204.17%20%28MAB%20edits%29%20final.pdf
 
 - **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/CJS%202018%20Summit%20Summary%204.17%20%28MAB%20edits%29%20final.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### CJS1%20Summary%20FINAL.pdf
-
-- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/CJS1%20Summary%20FINAL.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### CJS2%20Webinar%20Summary.pdf
 
 - **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/CJS2%20Webinar%20Summary.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### CONTRACT%20AWARD%20NOTIFICATIONS-JANUARY%202015.pdf
 
@@ -48213,17 +47911,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, 
 
-### Commission%20Rules-2003%20-%20Amended%202024_0.pdf
-
-- **URL**: https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/Commission%20Rules-2003%20-%20Amended%202024_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### Criminal%20Justice%20Summit%20Brochure%202018%20%28Final%29.pdf
 
 - **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/Criminal%20Justice%20Summit%20Brochure%202018%20%28Final%29.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, 
 
 ### D-0004_1_07-17-1958_findings_opinions_decision_board-002.pdf
 
@@ -48258,8 +47950,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### FY2018%20CIC%20Budget%20Hearing%20Testimony%20of%20Michelle%20Bonner%204.24.17_0.pdf
 
 - **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/FY2018%20CIC%20Budget%20Hearing%20Testimony%20of%20Michelle%20Bonner%204.24.17_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### Fact%20Sheet%20on%20Female%20DC%20Code%20Offenders%20in%20BOP%20as%20of%20January%201%202022.pdf
 
@@ -48270,8 +47962,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### Form%2010A%20-%20Updated%20Public%20Access%20Request%20Form%202024.pdf
 
 - **URL**: https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/Form%2010A%20-%20Updated%20Public%20Access%20Request%20Form%202024.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### Housing%20Webinar%20Summary%2009.20.23.pdf
 
@@ -48312,14 +48004,14 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### Juvenile%20Justice%20Webinar%20Series%202%20Summary.pdf
 
 - **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Series%202%20Summary.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### Juvenile%20Justice%20Webinar%20Series%20Session%203%20Summary.pdf
 
 - **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Series%20Session%203%20Summary.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### Juvenile%20Justice%20Webinar%20Summary%20-%20Restorative%20Justice.pdf
 
@@ -48330,8 +48022,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### Kids%20Ride%20Free%20Brochure%20Spanish%20-%202025.pdf
 
 - **URL**: https://ddot.dc.gov/sites/default/files/dc/sites/ddot/page_content/attachments/Kids%20Ride%20Free%20Brochure%20Spanish%20-%202025.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, 
 
 ### MHRS%20Bulletin%20Listing_0.pdf
 
@@ -48354,8 +48046,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### QuickPaymentAct-11172021.pdf
 
 - **URL**: https://cab.dc.gov/sites/default/files/dc/sites/cab/publication/attachments/QuickPaymentAct-11172021.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### Racial%20Equity%20in%20Data%20Integration%20%28June%202022%29.pdf
 
@@ -48372,14 +48064,14 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### SROJJTA_Summary.pdf
 
 - **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/SROJJTA_Summary.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### The%20District%20of%20Columbia%E2%80%99s%20Criminal%20Justice%20System%20under%20the%20Revitalization%20Act.pdf
 
 - **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/The%20District%20of%20Columbia%E2%80%99s%20Criminal%20Justice%20System%20under%20the%20Revitalization%20Act.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
 
 ### Trauma%20Informed%20Webinar%20Summary%20.pdf
 
@@ -48414,8 +48106,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### one%20pager%20JJS120%20%282%29.pdf
 
 - **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/one%20pager%20JJS120%20%282%29.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### rl_cfsa_chapter_2019j.pdf
 
@@ -49449,96 +49141,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/pa.gov/york%20nhios%20town%20hall%20flyer.pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.978353+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### 1995-1996-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/1995-1996-ceose-biennial-report-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 1997-1998-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/1997-1998-ceose-biennial-report-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 1999-2000-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/1999-2000-ceose-biennial-report-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2001-2002-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/2001-2002-ceose-biennial-report-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2003-2004-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/2003-2004-ceose-biennial-report-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2005-2006-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/2005-2006-ceose-biennial-report-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2007-2008-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/2007-2008-ceose-biennial-report-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2009-2010-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/2009-2010-ceose-biennial-report-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2011-2012-ceose-biennial-report-508_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2011-2012-ceose-biennial-report-508_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2013-2014-ceose-biennial-report-508_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2013-2014-ceose-biennial-report-508_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2017-2018-ceose-biennial-report-508_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2017-2018-ceose-biennial-report-508_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2019-2020-ceose-biennial-report-508_1.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2019-2020-ceose-biennial-report-508_1.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2023.04.18-Panchanathan.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/2023.04.18-Panchanathan.pdf?VersionId=bqXPI_W_7KKX_BA719VbZqMsQJudWoqZ
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2023.04.19-Panchanathan.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/2023.04.19-Panchanathan.pdf?VersionId=tJDqtAg7mbtbVNSIM1H8RHM4hRFEH7Sc
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2023.04.26-Panchanathan.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/2023.04.26-Panchanathan.pdf?VersionId=eBnztrtMSd9TTsdAR2tNR6kiJpL2GE1j
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### 2024-indicators-rollout-slides.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/2024-indicators-rollout-slides.pdf
@@ -49599,12 +49201,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.837569+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### DFM-PABGrantFAQ-r_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/DFM-PABGrantFAQ-r_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### DFM-PABGrantFAQ.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/DFM-PABGrantFAQ.pdf?VersionId=zLyGdO2m4vigGuM4vn0GOvih5TY_N3fm
@@ -49616,78 +49212,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/DFM_PABNonGrantFAQ.pdf?VersionId=vFBJGErNh3pu9cRDue8DelRuOG.a.ACl
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.847403+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### DRL_FY26_Funding_%20Opps_Webinar_Sep_4_2025.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/DRL_FY26_Funding_%20Opps_Webinar_Sep_4_2025.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Dr-Jennifer-Mercer-Testimony.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/Dr-Jennifer-Mercer-Testimony.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Dr-Saul-Gonzalez-Testimony.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/Dr-Saul-Gonzalez-Testimony.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### FOIA-2025-Q3.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/FOIA-2025-Q3.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### FOIA-2025-Q4.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/FOIA-2025-Q4.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### FOIA-NSF-2025-Q2.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/FOIA-NSF-2025-Q2.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Factsheet_MajorMultiuserFacilities.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/Factsheet_MajorMultiuserFacilities.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Factsheet_NSFAtAGlance.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/Factsheet_NSFAtAGlance.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Future-of-NSF-EPSCoR-Report-Handout-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-08/Future-of-NSF-EPSCoR-Report-Handout-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### HSST%20NSF%20Research%20Security.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/HSST%20NSF%20Research%20Security.pdf?VersionId=24Tt_EGAGCWnTKBS4M3B5WAP4dn4fgpM
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### HSST-NSF-AI.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/HSST-NSF-AI.pdf?VersionId=gFmwAXBtlyi2h6ZBEEDCOsVodVDheSB2
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### House-Oversight-Telework-Hearing-Testimony-NSF.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/House-Oversight-Telework-Hearing-Testimony-NSF.pdf?VersionId=L_RzMRWzqB_SyxHnoSS9iEhQxDwtFZ40
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### Indicators-ALABAMA.pdf
 
@@ -49707,41 +49231,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.974452+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### NSF%20FY25%20Written%20Testimony-CLEARED.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF%20FY25%20Written%20Testimony-CLEARED.pdf?VersionId=WVkvVmvimYP8r80b4cfoXtua57DIi6LC
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### NSF%20FY25%20Written%20Testimony-SenateCJS-CLEARED.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF%20FY25%20Written%20Testimony-SenateCJS-CLEARED.pdf?VersionId=IOXy7dVBqD_IE8SIX_JXyRZUvoZZ99TC
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### NSF%20HSST%20NWIRP-NEHRP%20testimony-CLEARED.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF%20HSST%20NWIRP-NEHRP%20testimony-CLEARED.pdf?VersionId=WeGurDj3zPXT_MXAinMIMaJGyt1SWx3X
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### NSF-22-586-CAREER-Program-2025-Webinars.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-22-586-CAREER-Program-2025-Webinars.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.997045+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NSF-FOIA-Raw-Data-FY2021-r.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-FOIA-Raw-Data-FY2021-r.pdf?VersionId=L_SFeppi9o1YWWbSqhLhnbYVC5T8RBLi
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### NSF_Chief_FOIA_Officers_Report_2026.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF_Chief_FOIA_Officers_Report_2026.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### NSF_New%20Proposer_Proposal%20Submission%20Supplementary%20Guidance_NOTOC_20240320.pdf
 
@@ -49815,12 +49309,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.168760+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### dr-rebecca-keiser-testimony.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/dr-rebecca-keiser-testimony.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### foia-log-2009.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/foia-log-2009.pdf?VersionId=hA3_.8iId4NhmEPfOWWZpDbuZBEgjvmf
@@ -49886,12 +49374,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/foia-log-2019-r_0.pdf?VersionId=wZtMKRHXNdYAX15QlbhHU6a4GcsyYYq.
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.260963+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### hon-panchanathan-10-2023.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2023-11/hon-panchanathan-10-2023.pdf?VersionId=ptY9eFD4CMGWZktorTwJfGYweiqXf3S7
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### jan2024-r.pdf
 
@@ -50952,8 +50434,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### 5010_provider_natl_conf_call_06092009.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/administrative-simplification/versions5010andd0/downloads/5010_provider_natl_conf_call_06092009.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
 
 ### 82820-mi-ehb.pdf
 
@@ -51033,18 +50515,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, tagged, lang, 
 
-### grants-to-states-added-flexibility-2018.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/grants-to-states-added-flexibility-2018.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### innovators-guide-master-7-23-15.pdf
-
-- **URL**: https://www.cms.gov/medicare/coverage/councilontechinnov/downloads/innovators-guide-master-7-23-15.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### january_2008_list_of_drugs_supplied_under_the_cap.pdf
 
 - **URL**: https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/january_2008_list_of_drugs_supplied_under_the_cap.pdf
@@ -51093,12 +50563,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, 
 
-### qso-22-05-hospitals.pdf
-
-- **URL**: https://www.cms.gov/files/document/qso-22-05-hospitals.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### r12590ncd.pdf
 
 - **URL**: https://www.cms.gov/files/document/r12590ncd.pdf
@@ -51116,12 +50580,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.cms.gov/regulations-and-guidance/guidance/transmittals/downloads/dwnlds/r866cppdf
 - **Status**: analysed
 - title, tagged, lang, 
-
-### report-to-congress-september-2015.pdf
-
-- **URL**: https://www.cms.gov/medicare/medicare-fee-for-service-payment/ambulancefeeschedule/downloads/report-to-congress-september-2015.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### rfi-medicare-dialysis.pdf
 
@@ -51158,12 +50616,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/som107ap_z_emergprep.pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
-
-### state-flexibility-grant-fact-sheet.pdf
-
-- **URL**: https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-market-reforms/downloads/state-flexibility-grant-fact-sheet.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### trhcapdf.pdf
 
@@ -53916,8 +53368,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### 3118-sasc-nomination-testimonypdf.pdf
 
 - **URL**: https://www.energy.gov/documents/3118-sasc-nomination-testimonypdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-20T16:06:15.600987+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, 
 
 ### Arctic-Energy-8-page-brochure-October%202024%20printer%20ready.pdf
 
@@ -53930,12 +53382,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.energy.gov/sites/default/files/2025-11/DOE%20Final%20EO%20Report%20%28REVISED%20OCT%2027%29.pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
-
-### DOE%20USMDL%20Final%20240606%20%28compliant%29_0.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2025-02/DOE%20USMDL%20Final%20240606%20%28compliant%29_0.pdf
-- **Status**: analysed
-- fonts:/HLDKOJ+Calibri, /CBXLNK+Calibri, /SMQTMN+Calibri, /ZFLNNK+Calibri, /MTDWKK+Calibri, /Times-Roman, /CIDFont+F1, /CIDFont+F2, /TRTKIH+Calibri, /QFNQRR+Calibrilists-warn, 
 
 ### ES-KitchenAppliances_080221.pdf
 
@@ -53971,7 +53417,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.energy.gov/sites/default/files/2016/10/f33/Open-Government-Plan-4.0-Final.pdf
 - **Status**: analysed
-- title, no bookmarks and more than 20 pages, fonts:/TimesNewRomanPSMT, /ABCDEE+Calibri-Italic, /Arial-BoldMT, /TimesNewRomanPS-BoldMT, /ABCDEE+Calibri, /ABCDEE+Calibri-Bold, /ABCDEE+Calibri-Light, /ABCDEE+Calibri-BoldItalic, /ABCDEE+Calibri-LightItalic, /ArialMT, /ABCDEE+Wingdings-Regular, /SymbolMTfigures-alt, alt-nested-fail, 
+- title, no bookmarks and more than 20 pages, 
 
 ### OralHistoryProject_JacqelineYoung_Transcript.pdf
 
@@ -54000,8 +53446,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### amw-nomination-testimony-jan-18-18pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/amw-nomination-testimony-jan-18-18pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-20T16:06:15.662870+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### applying-msipp-grants.pdf
 
@@ -54030,14 +53476,14 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### final-hasc-em-fy18-written-testimonypdf.pdf
 
 - **URL**: https://www.energy.gov/documents/final-hasc-em-fy18-written-testimonypdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-20T16:06:15.696624+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### final-sasc-em-fy18-written-testimonypdf.pdf
 
 - **URL**: https://www.energy.gov/documents/final-sasc-em-fy18-written-testimonypdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-20T16:06:15.699952+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### fossil-energy-fy-2009-budget.pdf
 
@@ -54073,7 +53519,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.energy.gov/documents/guide-financial-assistance-october-2024pdf
 - **Status**: analysed
-- no bookmarks and more than 20 pages, fonts:/TimesNewRomanPS-ItalicMT, /Arial-BoldMT, /BCDIEE+CourierNewPSMT, /TimesNewRomanPSMT, /ArialMT, /BCDGEE+Wingdings-Regular, /BCDFEE+Cambria, /BCDEEE+Calibri, /SymbolMT, /BCDHEE+SegoeUI, /TimesNewRomanPS-BoldMTfigures-alt, headings-skip, tables-warn, 
+- no bookmarks and more than 20 pages, 
 
 ### neet-workshop-2010.pdf
 
@@ -54181,7 +53627,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.energy.gov/sites/default/files/2024-08/Elective_Pay_Fact_Sheet_Territories_073124.pdf
 - **Status**: analysed
-- title, fonts:/AZUTTC+SegoeUI, /AZUTTC+MinionPro-Regular, /AZUTTC+MinionPro-It, /AZUTTC+SegoeUI-Bold, /AZUTTC+SegoeUI-Semibold, /AZUTTC+SegoeUI-Light, /AZUTTC+MinionPro-Bold, /AZUTTC+AvenirNextCondensed-Bold, /AZUTTC+MinionPro-BoldDispfigures-alt, 
+- title, 
 
 ### Energy%20Storage%20Grand%20Challenge%20Roadmap.pdf
 
@@ -54195,29 +53641,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, tagged, lang, 
 
-### FY21-DOEAnnualReport_ConfActivities_Web_0.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2022-01/FY21-DOEAnnualReport_ConfActivities_Web_0.pdf
-- **Status**: analysed
-- fonts:/BCDFEE+Calibri-Bold, /BCDEEE+Calibri, /BCDGEE+Calibri, /TimesNewRomanPSMTheadings-none, 
-
 ### FY22-DOEAnnualReport_ConfActivities_Web.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2023-01/FY22-DOEAnnualReport_ConfActivities_Web.pdf
 - **Status**: analysed
-- title, fonts:/EYTGFG+Calibri-Light, /APWNBO+Calibri, /VNHJJY+Calibri-Bold, /FMLWTE+TimesNewRomanPSMT
-
-### FY23-DOEAnnualReport_ConfActivities_Web.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2024-01/FY23-DOEAnnualReport_ConfActivities_Web.pdf
-- **Status**: analysed
-- fonts:/VDSPFI+TimesNewRomanPSMT, /CYCFZU+Calibri-Bold, /GMDDDM+ArialMT, /MNCNJA+TimesNewRomanPS-BoldMT, /IPCPFI+SymbolMT, /GMDDDM+Calibri-Light, /SJCXPO+Calibri
-
-### FY24-DOE-Conference-Activity-Annual-Report.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2025-01/FY24-DOE-Conference-Activity-Annual-Report.pdf
-- **Status**: analysed
-- tagged-content-whitespace-warn, fonts:/MTCJTK+TimesNewRomanPS-BoldMT, /FGQTZY+Calibri-Bold, /TORUNW+Calibri, /ZPQJTK+TimesNewRomanPSMTalt-nested-fail, headings-warn, tables-fail, 
+- title, 
 
 ### FY24SSMP_FINAL_NOVEMBER_2023_0.pdf
 
@@ -54241,7 +53669,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.energy.gov/sites/default/files/2023-12/Mercury%20Treatment%20Facility_2024.pdf
 - **Status**: analysed
-- title, fonts:/DFPKGN+PetalaProSemiBold, /ZZMMCV+PetalaProLight, /PJJJSP+PetalaProLight-Italic, /AYBSQT+PetalaPro-Bold, /CBAESP+PetalaProfigures-alt, headings-warn, annotations-tagging-fail, 
+- title, 
 
 ### NSLSII_Lessons_Learned_2015-08_0.pdf
 
@@ -54260,12 +53688,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.energy.gov/sites/default/files/2022-05/Report%20to%20Congress%20on%20Recovery%20of%20Rare%20Earth%20Elements%20and%20Critical%20Minerals%20from%20Coal%20and%20Coal%20By-Products.pdf
 - **Status**: analysed
 - title, 
-
-### Tips_for_a_Strong_FOA_App_FINAL_.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2024-03/Tips_for_a_Strong_FOA_App_FINAL_.pdf
-- **Status**: analysed
-- fonts:/IBIXQS+Wingdings-Regular, /IDJCVS+Calibri-Bold, /YEFPGM+Arial-BoldMT, /TEWQTW+Calibri-Bold, /OCHHWG+CenturyGothic-Bold, /IBIXQS+Calibri-Italic, /CSGNKE+TimesNewRomanPS-BoldMT, /CSGNKE+CenturyGothic-Italic, /PDXXPE+CenturyGothic, /YBLULM+CenturyGothic-BoldItalic, /DBUYDC+Calibri, /OCHHWG+ArialMTfigures-alt, tables-warn, 
 
 ### Water%20Security%20Workshop%20Summary_0.pdf
 
@@ -54296,12 +53718,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.energy.gov/documents/appendix-part-625-title-10
 - **Status**: analysed
 - title, tagged, lang, 
-
-### better-plants-infographic_2025-april.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2025-04/better-plants-infographic_2025-april.pdf
-- **Status**: analysed
-- fonts:/JZLBDK+AvenirLTStd-Medium, /JZLBDK+AvenirLTStd-Black, /JZLBDK+AvenirLTStd-Heavy
 
 ### bioproducts_to_enable_biofuels_workshop_report.pdf
 
@@ -54522,8 +53938,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### strategic%20petroleum%20reserve%20factsheet%2008.2024.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2024-09/strategic%20petroleum%20reserve%20factsheet%2008.2024.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-20T21:31:03.708872+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, 
 
 ### suny_project_abstract.pdf
 
@@ -54613,7 +54029,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.energy.gov/gc/articles/what-foia
 - **Status**: analysed
-- title, fonts:/Arial-BoldMT, /ArialNarrow, /TimesNewRomanPSMT, /IHECOF+SymbolMT, /ArialMTheadings-none, 
+- title, 
 
 ### wpto-third-9505-assessment.pdf
 
@@ -60351,12 +59767,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.358529+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### 0966_001.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/0966_001.pdf?rnd=1736272588276
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### 2025-2026_ALAMOSA_Calendar.pdf
 
 - **URL**: https://www.slvboces.org/pdfs/calendars/2025-2026_ALAMOSA_Calendar.pdf
@@ -60396,8 +59806,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### 2025-2026_School_Calendar-Mountain_Valley.pdf
 
 - **URL**: https://www.slvboces.org/pdfs/calendars/2025-2026_School_Calendar-Mountain_Valley.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 2025-2026_School_Calendar_CENTER.pdf
 
@@ -60420,8 +59830,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### 2025-26-Sierra-Grande-Calendar.pdf
 
 - **URL**: https://www.slvboces.org/pdfs/calendars/2025-26-Sierra-Grande-Calendar.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### 2025-26_Centennial_R-1_District_Calendar_FINAL.pdf
 
@@ -60435,101 +59845,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.412666+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Budget%20Manager.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Budget%20Manager.pdf?rnd=1737674390218
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Cert%20Prof.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Cert%20Prof.pdf?rnd=1737674155963
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Coordinator_Faciliator-1.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Coordinator_Faciliator-1.pdf?rnd=1737673784631
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Executive%20Assist..pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Executive%20Assist..pdf?rnd=1737674560491
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20HR_Payroll%20Manager.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20HR_Payroll%20Manager.pdf?rnd=1737674447895
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Lic%20Prof.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Lic%20Prof.pdf?rnd=1737674018944
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Para-1.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Para-1.pdf?rnd=1737673837608
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Psych_Behavior.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Psych_Behavior.pdf?rnd=1737673908419
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SWAP.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SWAP.pdf?rnd=1737673686905
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Secretary.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Secretary.pdf?rnd=1737674500032
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SpEd%20Director.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SpEd%20Director.pdf?rnd=1737673301081
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Support%20Staff.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Support%20Staff.pdf?rnd=1737673574228
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Advocate_%20Counselor%20.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Advocate_%20Counselor%20.pdf?rnd=1728931612871
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Assistant-Special-Education-Director-SSN-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Assistant-Special-Education-Director-SSN-.pdf?rnd=1728931494099
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### Aviso%20de%20garant%C3%AD%20as%20de%20procedimiento.Spanish%282024%29_a11y.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/16/40104615/Aviso%20de%20garant%C3%AD%20as%20de%20procedimiento.Spanish%282024%29_a11y.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.459818+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-Manager-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Budget-Manager-.pdf?rnd=1728931437280
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### CDE.PSN_.2024April%282%29at10-25-24Accessible.pdf
 
@@ -60540,8 +59860,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### CEBT-Benefit-Plans.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/CEBT-Benefit-Plans.pdf?rnd=1728930714680
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### Change%20of%20Status.pdf
 
@@ -60549,35 +59869,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, tagged, lang, 
 
-### Child-Find-Coordinator-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Child-Find-Coordinator-.pdf?rnd=1728931553965
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Data-Reporting-Specialist-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Data-Reporting-Specialist-.pdf?rnd=1728931489289
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### Delta-Dental.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Delta-Dental.pdf?rnd=1728930726976
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### ECSE-Teacher1.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/ECSE-Teacher1.pdf?rnd=1728931584711
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Educational%20Audiologist%20.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Educational%20Audiologist%20.pdf?rnd=1728931597107
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### Employee%20Handbook.docx.pdf
 
@@ -60588,8 +59884,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### Enrollment-From.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Enrollment-From.pdf?rnd=1728930734744
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### Evidence%20That%20Tier%201%20Instruction%20Is%20Working.pdf
 
@@ -60597,41 +59893,23 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.515632+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### Executive-Administrative-Assistant-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Executive-Administrative-Assistant-.pdf?rnd=1728931424888
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Executive-Director_-Director-of-Exceptional-Student-Services.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Executive-Director_-Director-of-Exceptional-Student-Services.pdf?rnd=1728931381530
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Expelled%20and%20At-Risk%20Student%20Services%20%28EARS%29%20Advocate%20.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Expelled%20and%20At-Risk%20Student%20Services%20%28EARS%29%20Advocate%20.pdf?rnd=1728931608692
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### Fingerpringing-Instructions.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerpringing-Instructions.pdf?rnd=1728930764841
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### Fingerprinting-Locations.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerprinting-Locations.pdf?rnd=1728930770307
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### Fingerprinting-Notice-to-Applicants.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerprinting-Notice-to-Applicants.pdf?rnd=1774276865695
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, 
 
 ### First_Report_of_Injury%20%281%29-1.pdf
 
@@ -60639,41 +59917,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, 
 
-### Forms_%20Referral%20_English.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/12/11/51314671/Forms_%20Referral%20_English.pdf?rnd=1733949451678
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Gifted%20Education%20Reginal%20Consultant%20%28GERC%29%20.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Gifted%20Education%20Reginal%20Consultant%20%28GERC%29%20.pdf?rnd=1728931617010
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Gifted%20and%20Talented%20Coordinator%20%28GT%29%20%282%29.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Gifted%20and%20Talented%20Coordinator%20%28GT%29%20%282%29.pdf?rnd=1728931634154
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### Grants%20Coordinator%20.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Grants%20Coordinator%20.pdf?rnd=1728931650023
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### HR-Intern.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/HR-Intern.pdf?rnd=1728931452247
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Human-Resource-and-Payroll-Manager-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Human-Resource-and-Payroll-Manager-.pdf?rnd=1728931447908
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### Indicator-13-Compliance-Tips-July-20151.pdf
 
@@ -60681,29 +59929,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.558162+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### McKinney-Vento%20Homeless%20Program%20Coordinator%20.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/McKinney-Vento%20Homeless%20Program%20Coordinator%20.pdf?rnd=1728931603725
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Medicaid-Coordinator-1.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Medicaid-Coordinator-1.pdf?rnd=1728931523173
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### Notice-of-Meeting-for-a-student.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2025/2/24/31029106/Notice-of-Meeting-for-a-student.pdf?rnd=1740432535821
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.568792+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Occupational-Therapist-OT-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Occupational-Therapist-OT-.pdf?rnd=1728931533734
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### PLC%20Protocol%20on%20how%20to%20determine%20if%20your%20Tier%201%20Instruction%20is%20Supporting%20or%20Limiting%20RTI_MTSS.pdf
 
@@ -60711,47 +59941,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.575455+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### Paraprofessional%20.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Paraprofessional%20.pdf?rnd=1728931593086
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Physical-Therapist-PT-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Physical-Therapist-PT-.pdf?rnd=1728931528555
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Professional%20Learning%20Coordinator%20.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Professional%20Learning%20Coordinator%20.pdf?rnd=1728931644006
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### RTI-manual.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/16/66592126/RTI-manual.pdf?rnd=1729210516136
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.589681+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Rate-Sheet.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Rate-Sheet.pdf?rnd=1728930720321
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Receptionist_-Secretary-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Receptionist_-Secretary-.pdf?rnd=1728931418815
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Regional%20Literacy%20Coach%20Project%20Coordinator%20.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Regional%20Literacy%20Coach%20Project%20Coordinator%20.pdf?rnd=1728931638972
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### SEL%20Library.pdf
 
@@ -60776,90 +59970,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/17/68156560/SWAP%20TA%20-%202024-25%20Spanish.508.pdf?rnd=1729203734091
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.615230+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### SWAP-School-to-Work-Alliance-Program-Coordinator-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/SWAP-School-to-Work-Alliance-Program-Coordinator-.pdf?rnd=1728931499601
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### SWAP-School-to-Work-Alliance-Program-Specialist-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/SWAP-School-to-Work-Alliance-Program-Specialist-.pdf?rnd=1728931504392
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### School%20Aged%20Child%20Find%20Referral%20Form%20K-12%20%281%29.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2026/2/24/62932589/School%20Aged%20Child%20Find%20Referral%20Form%20K-12%20%281%29.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### School-Psychologist_-Behavioral-Health-Provider-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/School-Psychologist_-Behavioral-Health-Provider-.pdf?rnd=1728931564296
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### School-Social-worker-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/School-Social-worker-.pdf?rnd=1728931559268
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Secretary-1.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Secretary-1.pdf?rnd=1728931442761
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Significant%20Support%20Needs%20Teacher%20.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Significant%20Support%20Needs%20Teacher%20.pdf?rnd=1728931589284
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Special-Education-Coordinator-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Special-Education-Coordinator-.pdf?rnd=1728931468978
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Special-Education-Director.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Special-Education-Director.pdf?rnd=1728931464926
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Special-Education-Facilitator-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Special-Education-Facilitator-.pdf?rnd=1728931474336
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Speech-Language-Pathologist-Assistant-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Speech-Language-Pathologist-Assistant-.pdf?rnd=1728931578851
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Speech_-Language-Pathologist-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Speech_-Language-Pathologist-.pdf?rnd=1728931573360
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Teacher-of-the-Visually-Impaired-%281%29.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Teacher-of-the-Visually-Impaired-%281%29.pdf?rnd=1728931538420
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Teacher-of-the-Visually-Impaired-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Teacher-of-the-Visually-Impaired-.pdf?rnd=1728931509728
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### The-IEP-Process-or-Development-of-the-IEP-includes-5.pdf
 
@@ -60897,30 +60007,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.657247+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### Transition-Specialist-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Transition-Specialist-.pdf?rnd=1728931547929
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Translator-_-Interpreter-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Translator-_-Interpreter-.pdf?rnd=1728931479305
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Unauthorized-Leave-of-Absence-and-Attendance-Procedures.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Unauthorized-Leave-of-Absence-and-Attendance-Procedures.pdf?rnd=1728930700581
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Website-Return-to-HR.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Website-Return-to-HR.pdf?rnd=1728930680417
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### Weighted-Vests.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/16/57458301/Weighted-Vests.pdf?rnd=1729051839419
@@ -60939,35 +60025,17 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.670022+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### Worker_s_Comp_First_Report_of_Injury.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/15/54360075/Worker_s_Comp_First_Report_of_Injury.pdf?rnd=1729050959973
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### Worker_s_Comp_Instructions_Medical_Providers_Letterhead-0.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/48977507/Worker_s_Comp_Instructions_Medical_Providers_Letterhead.pdf?rnd=1728931218680
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.672723+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### Worker_s_Comp_Instructions_Medical_Providers_Letterhead.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/15/54360075/Worker_s_Comp_Instructions_Medical_Providers_Letterhead.pdf?rnd=1729050955146
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### Worker_s_Comp_Letter_Declining_Medical_Care-1.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/48977507/Worker_s_Comp_Letter_Declining_Medical_Care-1.pdf?rnd=1774276771523
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.675488+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### asu_flyer%20copy.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2026/1/21/50012136/asu_flyer%20copy.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### guidance_disciplineofchildren.pdf
 
@@ -61065,12 +60133,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, lang, no bookmarks and more than 20 pages, 
 
-### records-management.pdf
-
-- **URL**: https://www.nsf.gov/oirm/das/records-management
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### 2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team.pdf
 
 - **URL**: https://www.energy.gov/cmei/fuels/articles/2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team
@@ -61147,7 +60209,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.energy.gov/sites/default/files/2023-03/Infographic%20SPR%2002_2023.pdf
 - **Status**: analysed
-- title, tagged, lang, fonts:/CYVQOK+CenturyGothic, /ZVNKZV+CourierNewPSMT, /PCHDSJ+CourierNewPSMT, /SPPJVN+CourierNewPS-ItalicMT, /FGHIXJ+CourierNewPS-BoldMT, /XPAAAZ+CenturyGothic, /YQTYBB+CourierNewPSMT, /CCHNIO+CourierNewPSMT, /MBNZPZ+Arial-BoldMT, /SKLPKT+CourierNewPSMT, /UFQAXJ+CourierNewPSMT, /HJCVXJ+CourierNewPS-BoldMT, /YYRTBB+CenturyGothic, /AVWRQN+FranklinGothic-Medium, /DDIWVN+CourierNewPSMT, /LUJSDX+CourierNewPSMT, /VYDANI+CourierNewPS-BoldMT, /ACRDJT+CourierNewPS-BoldMT, /HWAVXJ+FranklinGothic-Medium, /ZVNKZV+CourierNewPS-BoldMT, /XPAAAZ+FranklinGothic-Medium, /LHCYBB+CenturyGothic-Bold, /RSFCJQ+CourierNewPS-BoldMTuntagged-images, annotations-untagged, 
+- title, tagged, lang, 
 
 ### Listening%20Session%2001%20General%20Deck_08.18.2022_508.pdf
 
@@ -61183,13 +60245,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.energy.gov/sites/default/files/2026-03/OEA_WashingtonDC.pdf
 - **Status**: analysed
-- title, tagged, lang, fonts:/KGPFPH+TimesNewRomanPSMT, /KGPFCJ+TimesNewRomanPSMT, /BNCLDQ+TimesNewRoman, /YGWDXW+TimesNewRoman, /KGPFMH+TimesNewRomanPS-BoldMTuntagged-images, forms-fail, forms-untagged, 
-
-### OMEI_WashingtonDC.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2026-03/OMEI_WashingtonDC.pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/KPGJDN+TimesNewRomanPSMT, /FCWAWD+MyriadPro-Regular, /KPGIKM+TimesNewRomanPSMT, /KPGIOO+TimesNewRomanPS-BoldMT, /KPGJJL+MyriadPro-Regular, /KPGIIM+TimesNewRoman, /DZXOUH+TimesNewRomanuntagged-images, 
+- title, tagged, lang, 
 
 ### RescindProbationaryTermLetter%20%20%203.13.25%20%28003%29.pdf
 
@@ -61237,7 +60293,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.energy.gov/sites/default/files/2026-03/WAPA_Posting_Notice.pdf
 - **Status**: analysed
-- title, tagged, lang, fonts:/BLCIBP+TimesNewRomanPSMT, /BLCIHO+MyriadPro-Regular, /IADAAD+TimesNewRoman, /BLCHMP+TimesNewRomanPSMT, /BLCICP+TimesNewRomanPS-ItalicMT, /BLCHFN+TimesNewRoman, /BLCHNP+TimesNewRomanPS-BoldMT
+- title, tagged, lang, 
 
 ### aham-cce-overview-and-update-dated-06072011.pdf
 
@@ -61699,7 +60755,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-10/DOE%20Efficient%20New%20Homes%20MH%20Certification%20Reporting%20and%20Enforcement%20Guide%20V1%20Rev%201%20Clean.pdf
 - **Status**: analysed
-- title, fonts:/GYOSBH+ArialMT, /PWCPXP+Arial-ItalicMT, /DJCALN+Arial-BoldMT, /OKPOJR+Calibri, /FHCHNJ+CourierNewPSMT, /IJLZDD+SymbolMTheadings-none, 
+- title, 
 
 ### DOE%20ZERH%20MH%20V1%20National%20Program%20Requirements.pdf
 
@@ -61833,12 +60889,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, tagged, lang, 
 
-### VTO_FOA_Info_Session_Part_2_Budget.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2023-06/VTO_FOA_Info_Session_Part_2_Budget.pdf
-- **Status**: analysed
-- fonts:/PMXXVO+CenturyGothic-Bold, /TPBAZG+CenturyGothic-BoldItalic, /URKBNE+ArialMT, /EQOOXK+Calibri-Bold, /OSMWHQ+Calibri-Bold, /ANKGTS+Wingdings-Regular, /FSXPLI+SymbolMT, /ANKGTS+CourierNewPSMT, /DPTYJM+Calibri-Italic, /YPKZRW+Calibrifigures-alt, tables-warn, 
-
 ### advancing-and-commercializing-hybrid-laser-arc-welding-hlaw-nuclear-vessel-fabrication.pdf
 
 - **URL**: https://www.energy.gov/ne/articles/advancing-and-commercializing-hybrid-laser-arc-welding-hlaw-nuclear-vessel-fabrication
@@ -61861,7 +60911,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.energy.gov/documents/attachment-bpa-master-performance-work-statementpdf
 - **Status**: analysed
-- title, tagged, lang, fonts:/CIDFont+F2, /CIDFont+F5, /CIDFont+F6, /CIDFont+F4, /CIDFont+F1, /CIDFont+F3
+- title, tagged, lang, 
 
 ### busch-weldon-greenspace-map.pdf
 
@@ -62010,14 +61060,14 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### ne-dpa-consortium-faqs-091525.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-09/ne-dpa-consortium-faqs-091525.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-29T23:23:16.609269+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, 
 
 ### nepa-support-services-bpa-ordering-guide-2023-09-12pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/nepa-support-services-bpa-ordering-guide-2023-09-12pdf
 - **Status**: analysed
-- title, fonts:/DHPZDN+TimesNewRomanPS-BoldMT, /BAIYAW+TimesNewRomanPS-BoldMT, /LCGBKC+TimesNewRomanPS-ItalicMT, /BAIYAW+Arial-BoldMT, /LCGBKC+TimesNewRomanPS-BoldItalicMT, /XMHAWE+TimesNewRomanPSMT, /INUOUI+Calibri, /LCGBKC+ArialMT, /VVTDVD+TimesNewRomanPSMT, /LCGBKC+SymbolMTheadings-none, 
+- title, 
 
 ### noa-eis-0552-lanl-site-wide-2026-03.pdf
 
@@ -62047,7 +61097,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.energy.gov/nnsa/articles/radiological-assistance-program-60th-anniversary-brochure
 - **Status**: analysed
-- title, tagged, no bookmarks and more than 20 pages, fonts:/QDJLFA+HelveticaNeueLTStd-Cn, /QDJLFA+Champion-HTF-Lightweightuntagged-images, 
+- title, tagged, no bookmarks and more than 20 pages, 
 
 ### regulatory-support-advanced-light-water-reactor-deployment-advanced-boiling-water.pdf
 
@@ -62071,7 +61121,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.energy.gov/sites/default/files/2022-09/strategic%20petroleum%20reserve%20factsheet.2_1.pdf
 - **Status**: analysed
-- title, fonts:/MIVTXP+FranklinGothic-MediumCond, /MIVTXP+CambriaMath, /SJZIDD+FranklinGothic-Book, /SJZIDD+CenturyGothic-Bold, /AGHCQN+FranklinGothic-Book, /CGXQNJ+FranklinGothic-Demifigures-alt, 
+- title, 
 
 ### 21-26%20ERP-Accounting%20RFP%20Narrative.pdf
 
@@ -63873,12 +62923,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, 
 
-### RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf
-
-- **URL**: https://careerforce.mn.gov/sites/default/files/2026-03/RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### 2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf
 
 - **URL**: https://careerforce.mn.gov/sites/default/files/2025-06/2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf
@@ -64983,23 +64027,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.979284+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### 02154-medicare-hospice-benefits.pdf
-
-- **URL**: https://www.medicare.gov/publications/02154-medicare-hospice-benefits.pdf
-- **Status**: analysed
-- fonts:/RMCORP+Gotham-Book, /RMCORP+Gotham-Bold, /RMCORP+Montserrat-Bold, /RMCORP+Gotham-Medium, /RMCORP+MyriadPro-BoldCond
-
 ### 02173-getting-a-second-opinion-before-surgery.pdf
 
 - **URL**: https://www.medicare.gov/publications/02173-getting-a-second-opinion-before-surgery.pdf
 - **Status**: analysed
 - annotations-tagging-fail, 
-
-### 10050-le-medicare-and-you.pdf
-
-- **URL**: https://www.medicare.gov/publications/10050-le-medicare-and-you.pdf
-- **Status**: error
-- Analysis exceeded 120s per-file limit
 
 ### 10108_c.pdf
 
@@ -65065,7 +64097,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.medicare.gov/publications/10969-medicare-and-home-health-care.pdf
 - **Status**: analysed
-- fonts:/AFOMOX+Montserrat-Bold, /AFOMOX+Gotham-Bold, /CVIYQT+Gotham-Medium, /AFOMOX+Gotham-Bookannotations-tagging-fail, 
+- annotations-tagging-fail, 
 
 ### 10969-s-medicare-and-home-health-care.pdf
 
@@ -65125,7 +64157,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.medicare.gov/publications/11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf
 - **Status**: analysed
-- fonts:/GBTJTL+Montserrat-SemiBold, /GBTJTL+Gotham-Bold, /GBTJTL+Montserrat-Regular, /GBTJTL+Gotham-Book, /GBTJTL+Montserrat-Bold, /GBTJTL+Montserrat-Medium, /GBTJTL+Gotham-Mediumannotations-tagging-fail, 
+- annotations-tagging-fail, 
 
 ### 11220-your-yearly-medicare-review.pdf
 
@@ -65204,12 +64236,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.medicare.gov/publications/11360-medicare-dialysis-kidney-transplant.pdf
 - **Status**: analysed
 - annotations-tagging-fail, 
-
-### 11376-your-discharge-planning-checklist.pdf
-
-- **URL**: https://www.medicare.gov/publications/11376-your-discharge-planning-checklist.pdf
-- **Status**: analysed
-- fonts:/DVVYRR+Montserrat-Regular, /DVVYRR+Montserrat-Bold, /DVVYRR+Gotham-Book, /DVVYRR+Wingdings-Regular, /DVVYRR+Gotham-Medium, /DVVYRR+Gotham-Bold
 
 ### 11389-s-medicare-getting-started.pdf
 
@@ -65318,12 +64344,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.medicare.gov/publications/11575-ARB-medicare-supplement-insurance.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.318392+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### 11579-medicare-costs.pdf
-
-- **URL**: https://www.medicare.gov/publications/11579-medicare-costs.pdf
-- **Status**: analysed
-- fonts:/JGOHNF+Gotham-Bold, /JGOHNF+MinionPro-Regular, /JGOHNF+Montserrat-Regular, /JGOHNF+Gotham-Medium, /JGOHNF+Gotham-Book, /JGOHNF+Montserrat-Bold
 
 ### 11579-s-medicare-costs.pdf
 
@@ -65547,12 +64567,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.391361+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### summarynoticeenvelope.pdf
-
-- **URL**: https://www.medicare.gov/publications/summarynoticeenvelope.pdf
-- **Status**: analysed
-- fonts:/BVEFMV+MyriadPro-Bold, /BVEFMV+MinionPro-Regular, /MNUTTE+MyriadPro-Bold, /SBHDZS+MyriadPro-Regular, /BVEFMV+MyriadPro-Regular, /MNUTTE+MyriadPro-Regular
-
 ### KfW-Finanzbericht-2024-2.pdf
 
 - **URL**: https://www.kfw.de/PDF/Download-Center/Finanzpublikationen/PDF-Dokumente-Berichte-etc/3_Finanzberichte/KfW-Finanzbericht-2024-2.pdf
@@ -65772,608 +64786,62 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf
 
 - **URL**: https://www.usds.gov/assets/files/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf
-- **Status**: error
-- File not found: crawled_files/usds.gov/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.944732+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, figures missing alt text (count=19), headings-none, 
 
 ### IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
 
 - **URL**: https://www.usds.gov/resources/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
-- **Status**: error
-- File not found: crawled_files/usds.gov/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.948626+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, annotations-untagged, 
 
 ### USDS-2024-Impact-Report.pdf
 
 - **URL**: https://www.usds.gov/resources/USDS-2024-Impact-Report.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, headings-none, annotations-tagging-fail, 
 
 ### USDS-Impact-Report-2020.pdf
 
 - **URL**: https://www.usds.gov/resources/USDS-Impact-Report-2020.pdf
-- **Status**: error
-- File not found: crawled_files/usds.gov/USDS-Impact-Report-2020.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.961569+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, figures missing alt text (count=147), headings-none, 
 
 ### USDS-Overview.pdf
 
 - **URL**: https://www.usds.gov/assets/files/USDS-Overview.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, figures missing alt text (count=2), headings-none, annotations-tagging-fail, 
 
 ### USDS-Press-Sheet.pdf
 
 - **URL**: https://www.usds.gov/assets/files/USDS-Press-Sheet.pdf
-- **Status**: error
-- File not found: crawled_files/usds.gov/USDS-Press-Sheet.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.966116+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, figures missing alt text (count=69), headings-none, 
 
 ### USDS-SBA8a_Brief.pdf
 
 - **URL**: https://techfarhub.usds.gov/assets/8(a)/USDS-SBA8a_Brief.pdf
-- **Status**: error
-- File not found: crawled_files/usds.gov/USDS-SBA8a_Brief.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.968859+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### USDS-SBA8a_Detailed.pdf
 
 - **URL**: https://techfarhub.usds.gov/assets/files/USDS-SBA8a_Detailed.pdf
-- **Status**: error
-- File not found: crawled_files/usds.gov/USDS-SBA8a_Detailed.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.971648+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### usds-di.pdf
 
 - **URL**: https://www.usds.gov/assets/files/usds-di.pdf
-- **Status**: error
-- File not found: crawled_files/usds.gov/usds-di.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.973626+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, figures missing alt text (count=55), headings-none, annotations-tagging-fail, 
 
 ### DOE_Fact_Sheet_Grid_Report_July_2025.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-07/DOE_Fact_Sheet_Grid_Report_July_2025.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T14:29:49.870731+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### fac_c_digital_services_05_12_18.pdf
-
-- **URL**: https://bidenwhitehouse.archives.gov/wp-content/uploads/2018/05/fac_c_digital_services_05_12_18.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### i1040gi.pdf
-
-- **URL**: https://www.irs.gov/pub/irs-pdf/i1040gi.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 10-cfr-1021-nofr-fed-reg-2020-12-04pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/10-cfr-1021-nofr-fed-reg-2020-12-04pdf
 - **Status**: analysed
-- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bold, /ZapfDingbatsforms-fail, forms-untagged, annotations-untagged, 
-
-### 10-cfr-1021-notice-extension-2023-12-26pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/10-cfr-1021-notice-extension-2023-12-26pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Melior, /Helvetica-Bold, /Melior-Italic, /Helvetica, /Melior-Bold
-
-### 10-cfr-part-1021-proposed-changes-tracked-changes-2010-12-20pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/10-cfr-part-1021-proposed-changes-tracked-changes-2010-12-20pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, fonts:/TimesNewRomanPS-BoldItalicMT, /TimesNewRomanPSMT, /ArialMT, /TimesNewRomanPS-BoldMT
-
-### 10-cfr-part-1021-version-effect-time-2011-rulemaking.pdf
-
-- **URL**: https://www.energy.gov/nepa/articles/10-cfr-part-1021-version-effect-time-2011-rulemaking
-- **Status**: analysed
-- title, tagged, lang, fonts:/EODKFD+TimesNewRoman,Italic, /EODKAL+TimesNewRoman,Bold, /IXLXZY+TimesNewRomanPSMT, /EODJHB+Arial,Bold, /EODJKP+TimesNewRoman, /EODNKJ+TimesNewRoman,BoldItalic
-
-### 1978-02-21-proposed-1021pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1978-02-21-proposed-1021pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliquefigures-alt, headings-none, lists-fail, annotations-tagging-fail, 
-
-### 1978-07-19-proposed-1022pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1978-07-19-proposed-1022pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Times-Italic, /Times-BoldItalic, /Times-Bolduntagged-images, 
-
-### 1979-03-07-final-1022pdf-0.pdf
-
-- **URL**: https://www.energy.gov/documents/1979-03-07-final-1022pdf-0
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Times-Bold, /Times-Italic, /Helvetica-Bold, /Helveticauntagged-images, 
-
-### 1979-07-18-proposed-guidelinespdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1979-07-18-proposed-guidelinespdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Courier, /Times-Bold, /Times-BoldItalic, /Times-Italic, /Courier-Bold, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliqueuntagged-images, 
-
-### 1979-08-06-final-1021pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1979-08-06-final-1021pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Times-Bold, /Times-BoldItalic, /Helvetica-Bold, /Courier-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliqueheadings-none, lists-fail, 
-
-### 1980-03-28-final-guidelines-completepdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1980-03-28-final-guidelines-completepdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliquefigures-actualtext-warn, headings-none, lists-fail, annotations-tagging-fail, 
-
-### 1980-08-11-proposed-guidelinespdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1980-08-11-proposed-guidelinespdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Bold, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliquefigures-alt, headings-none, lists-fail, 
-
-### 1980-10-20-order-54401apdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1980-10-20-order-54401apdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Times-Bold, /Times-Italic, /Helvetica-Bold, /HiddenHorzOCR, /Helveticauntagged-images, 
-
-### 1980-11-26-final-guidelinespdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1980-11-26-final-guidelinespdf
-- **Status**: analysed
-- title, tagged, tagged-content-fail, lang, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliquefigures-alt, headings-none, 
-
-### 1980-12-17-proposed-guidelinespdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1980-12-17-proposed-guidelinespdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliquefigures-alt, headings-none, 
-
-### 1981-07-16-proposed-guidelinespdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1981-07-16-proposed-guidelinespdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliquefigures-actualtext-warn, headings-none, lists-fail, 
-
-### 1982-02-23-final-guidelines-section-d-completepdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1982-02-23-final-guidelines-section-d-completepdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliqueuntagged-images, 
-
-### 1982-05-14-order-54401bpdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1982-05-14-order-54401bpdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Times-Bold, /Times-Italic, /HiddenHorzOCR, /Helvetica-Bold, /Helveticauntagged-images, 
-
-### 1982-11-22-proposed-guidelinespdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1982-11-22-proposed-guidelinespdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliquefigures-alt, headings-none, lists-fail, annotations-tagging-fail, 
-
-### 1983-01-06-final-guidelinespdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1983-01-06-final-guidelinespdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Times-Bold, /Times-BoldItalic, /Times-Italic, /Courier-Bold, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliquefigures-actualtext-warn, headings-none, lists-fail, 
-
-### 1985-02-25-proposed-guidelinespdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1985-02-25-proposed-guidelinespdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliqueuntagged-images, 
-
-### 1985-04-09-order-54401cpdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1985-04-09-order-54401cpdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Times-Italic, /Helvetica-Bold, /HiddenHorzOCR, /Helvetica-Oblique, /Helveticauntagged-images, 
-
-### 1986-05-22-proposed-guidelinespdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1986-05-22-proposed-guidelinespdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Times-Bold, /Times-BoldItalic, /Helvetica-Bold, /Courier-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliqueheadings-none, lists-fail, 
-
-### 1987-01-07-final-guidelinespdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1987-01-07-final-guidelinespdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Courier-Oblique, /Helvetica-Oblique, /Courier, /Times-Bold, /Times-BoldItalic, /Times-Italic, /Helvetica-Bold, /Courier-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliqueuntagged-images, 
-
-### 1987-12-15-final-guidelines-completepdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1987-12-15-final-guidelines-completepdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliqueuntagged-images, 
-
-### 1988-08-09-proposed-guidelinespdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1988-08-09-proposed-guidelinespdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Courier-Oblique, /Helvetica-Oblique, /Times-Bold, /Times-BoldItalic, /Helvetica-Bold, /Courier-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliqueheadings-none, lists-fail, 
-
-### 1989-03-27-final-guidelinespdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1989-03-27-final-guidelinespdf
-- **Status**: analysed
-- title, tagged, tagged-content-fail, lang, fonts:/Times-Roman, /Courier-Oblique, /Times-Bold, /Times-BoldItalic, /Times-Italic, /Helvetica-Bold, /Courier-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliquefigures-alt, headings-none, 
-
-### 1990-02-02-policy-sen-15-90pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1990-02-02-policy-sen-15-90pdf
-- **Status**: analysed
-- tagged, lang, fonts:/Helvetica-Bold, /Courier-Bold, /Helvetica, /Times-Bold, /Courier-BoldObliqueuntagged-images, 
-
-### 1990-04-06-proposed-guidelinespdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1990-04-06-proposed-guidelinespdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Times-Bold, /Times-BoldItalic, /Times-Italic, /Courier-Bold, /Helvetica-Bold, /Helvetica, /Helvetica-BoldObliquefigures-alt, headings-none, lists-fail, 
-
-### 1990-09-07-final-guidelinespdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1990-09-07-final-guidelinespdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Times-Bold, /Times-BoldItalic, /Helvetica-Bold, /Courier-Bold, /Helveticaheadings-none, lists-fail, annotations-tagging-fail, 
-
-### 1990-11-02-proposed-1021pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1990-11-02-proposed-1021pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliqueuntagged-images, 
-
-### 1990-11-15-proposed-revocation-guidelinespdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1990-11-15-proposed-revocation-guidelinespdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/BookAntiqua, /TimesNewRomanPS-ItalicMT, /BookAntiqua-BoldItalic, /FranklinGothic-Heavy, /BookAntiqua-Bolduntagged-images, 
-
-### 1991-02-22-order-54401dpdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1991-02-22-order-54401dpdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Times-Italic, /HiddenHorzOCR, /Helvetica-Oblique, /Helveticauntagged-images, 
-
-### 1992-04-24-final-1021pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1992-04-24-final-1021pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliqueuntagged-images, 
-
-### 1992-11-10-order-54401epdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1992-11-10-order-54401epdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Helvetica-Narrow-Bold, /LetterGothic-Bolduntagged-images, 
-
-### 1994-06-13-policy-secretarial-policy-nepapdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1994-06-13-policy-secretarial-policy-nepapdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Times-Bold, /Times-BoldItalic, /Helvetica-Bold, /HiddenHorzOCR, /Helvetica, /Helvetica-BoldObliqueuntagged-images, 
-
-### 1995-09-11-order-4511pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1995-09-11-order-4511pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/LetterGothic, /LetterGothic-Bold
-
-### 1996-02-20-proposed-1021pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1996-02-20-proposed-1021pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, 
-
-### 1996-07-09-final-1021-limited-reopening-comment-periodpdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1996-07-09-final-1021-limited-reopening-comment-periodpdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Melior, /Helvetica-Bold, /Symbol, /Melior-Italic, /Melior-Boldforms-fail, forms-untagged, 
-
-### 1996-07-09-final-1021pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1996-07-09-final-1021pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Times-Roman, /Courier-Oblique, /Helvetica-Oblique, /Courier, /Times-Bold, /Times-BoldItalic, /Times-Italic, /Courier-Bold, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliquefigures-alt, headings-none, lists-fail, annotations-tagging-fail, 
-
-### 1996-12-06-final-1021pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1996-12-06-final-1021pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Times-Bold, /Times-BoldItalic, /Times-Italic, /Courier-Bold, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliquefigures-alt, headings-none, lists-fail, annotations-tagging-fail, 
-
-### 1997-06-05-order-4511apdf.pdf
-
-- **URL**: https://www.energy.gov/documents/1997-06-05-order-4511apdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/TimesNewRoman, /TimesNewRoman-Bold, /Arial-Bolduntagged-images, 
-
-### 2000-10-26-order-4511bpdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2000-10-26-order-4511bpdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/TimesNewRoman, /Arial,Bold, /TimesNewRoman,Bolduntagged-images, 
-
-### 2001-09-28-order-4511b-change-1pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2001-09-28-order-4511b-change-1pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/TimesNewRomanPS-ItalicMT, /ArialNarrow-Bold, /Arial-BoldMT, /Arial,Bold, /TimesNewRomanPSMT, /TimesNewRoman,Bold, /TimesNewRoman, /TimesNewRomanPS-BoldMTuntagged-images, 
-
-### 2002-11-18-proposed-1021-and-1022pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2002-11-18-proposed-1021-and-1022pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/OMHGHK+Melior-Bold, /Symbol, /OMHGJA+Melior, /Helvetica-Bold, /Helvetica, /OMHGLK+Melior-Italicforms-fail, forms-untagged, 
-
-### 2003-08-27-final-1021-and-1022pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2003-08-27-final-1021-and-1022pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Courier, /Times-Bold, /Times-BoldItalic, /Times-Italic, /Courier-Bold, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliquefigures-alt, headings-none, lists-fail, annotations-tagging-fail, 
-
-### 2006-10-06-notice-4511pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2006-10-06-notice-4511pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/ArialNarrow-Bold, /TimesNewRomanPS-ItalicMT, /Arial-BoldMT, /TimesNewRomanPSMT, /ArialMT, /TimesNewRomanPS-BoldMTuntagged-images, 
-
-### 2006-11-28-final-1021-and-other-partspdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2006-11-28-final-1021-and-other-partspdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Times-Bold, /Times-BoldItalic, /Times-Italic, /Helvetica-Bold, /Courier-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliquefigures-alt, headings-none, lists-fail, annotations-tagging-fail, 
-
-### 2009-03-ceq-doe-categorical-exclusionspdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2009-03-ceq-doe-categorical-exclusionspdf
-- **Status**: analysed
-- fonts:/Times-Roman, /Times-Italic, /Helvetica-Bold, /Helvetica, /Times-Boldheadings-warn, 
-
-### 2009-10-02-policy-nepa-transparency-and-opennesspdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2009-10-02-policy-nepa-transparency-and-opennesspdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Courier-Bold, /Helvetica-Bold, /Courier-BoldObliqueuntagged-images, 
-
-### 2010-06-25-order-4511b-change-2pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2010-06-25-order-4511b-change-2pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/ArialNarrow-Bold, /TimesNewRomanPS-ItalicMT, /Arial-BoldMT, /TimesNewRomanPSMT, /ArialMT, /FPEOML+Calibri, /TimesNewRomanPS-BoldMTuntagged-images, 
-
-### 2010-07-16-policy-public-involvement-ea-processpdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2010-07-16-policy-public-involvement-ea-processpdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Times-BoldItalic, /Helvetica-Bold, /Helvetica, /Times-Bolduntagged-images, 
-
-### 20100218-nepa-consideration-effects-ghg-draft-guidance.pdf
-
-- **URL**: https://ceq.doe.gov/docs/ceq-regulations-and-guidance/20100218-nepa-consideration-effects-ghg-draft-guidance.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.199712+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### 2011-01-03-proposed-1021pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2011-01-03-proposed-1021pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/DICOEH+Melior, /DIDCCE+Melior-Italic, /DIDFBE+Symbol, /DIDCFE+NewCenturySchlbk-Roman, /DIDCAD+Melior-Bold, /DICOIH+Helvetica, /DIDCBE+Helvetica-Boldforms-fail, forms-untagged, 
-
-### 2011-10-13-final-1021pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2011-10-13-final-1021pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/LGPPJD+ZapfDingbats, /LGPNLN+Melior-Italic, /LGPNKL+Melior-Bold, /LGPNFL+Melior, /LGPOGK+Symbol, /LGPNFM+Helvetica, /LGPNLM+Helvetica-Bolduntagged-images, 
-
-### 2012-01-19-order-4511b-change-3pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2012-01-19-order-4511b-change-3pdf
-- **Status**: analysed
-- title, fonts:/Arial,Bold, /Times New Roman, /ABCDEE+Calibri, /Times New Roman,Bold, /Arial, /Times New Roman,Italic, /ABCDEE+Arial Narrow,Bold
-
-### 2012-06-12-policy-integrating-nepa-program-project-managementpdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2012-06-12-policy-integrating-nepa-program-project-managementpdf
-- **Status**: analysed
-- title, tagged, lang, untagged-images, 
-
-### 2016-10-06-order-4511b-change-3-variances-annotatedpdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2016-10-06-order-4511b-change-3-variances-annotatedpdf
-- **Status**: analysed
-- title, fonts:/Arial,Bold, /Times New Roman, /ABCDEE+Calibri, /Times New Roman,Bold, /Arial, /Times New Roman,Italic, /ABCDEE+Arial Narrow,Bold
-
-### 2016-18620.pdf
-
-- **URL**: https://www.govinfo.gov/content/pkg/FR-2016-08-05/pdf/2016-18620.pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
-
-### 2017-06576.pdf
-
-- **URL**: https://www.govinfo.gov/content/pkg/FR-2017-03-31/pdf/2017-06576.pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bolduntagged-images, forms-fail, forms-untagged, 
-
-### 2017-06770.pdf
-
-- **URL**: https://www.govinfo.gov/content/pkg/FR-2017-04-05/pdf/2017-06770.pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
-
-### 2017-12-21-policy-4511-cancelling-nepa-orderpdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2017-12-21-policy-4511-cancelling-nepa-orderpdf
-- **Status**: analysed
-- fonts:/ArialNarrow-Bold, /TimesNewRomanPS-ItalicMT, /Arial-BoldMT, /TimesNewRomanPSMT, /ArialMT, /TimesNewRomanPS-BoldMTfigures-alt, annotations-tagging-fail, 
-
-### 2018_CESD_Strategic_Plan.pdf
-
-- **URL**: https://science.osti.gov/~/media/ber/pdf/workshop%20reports/2018_CESD_Strategic_Plan.pdf
-- **Status**: analysed
-- fonts:/TRUBUK+ArnoPro-Regular, /MSCLAY+OpenSans-Semibold, /TRUBUK+OpenSans-SemiboldItalic, /TRUBUK+Helvetica, /TRUBUK+OpenSans, /Times-Roman, /TRUBUK+OpenSans-Bold, /TRUBUK+OpenSans-Light, /TRUBUK+ArnoPro-Italic, /TRUBUK+ArnoPro-Bold, /LKSFMA+OpenSans-Semibold, /TRUBUK+OpenSans-Italic, /TRUBUK+OpenSans-Semiboldfigures-alt, headings-skip, annotations-tagging-fail, 
-
-### 2019-13576.pdf
-
-- **URL**: https://www.govinfo.gov/content/pkg/FR-2019-06-26/pdf/2019-13576.pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
-
-### 2020-19217_FE_NOA_Rio%20Grande%20LNG%20LLC.pdf
-
-- **URL**: https://www.energy.gov/sites/prod/files/2020/09/f78/2020-19217_FE_NOA_Rio%20Grande%20LNG%20LLC.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.263322+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### 2023-01-12-cx-rfi-re-openpdf-0.pdf
-
-- **URL**: https://www.energy.gov/documents/2023-01-12-cx-rfi-re-openpdf-0
-- **Status**: analysed
-- title, tagged, lang, fonts:/Melior, /Helvetica-Bold, /Symbol, /Melior-Italic, /Helvetica, /Melior-Bold
-
-### 2023-01-ceq-interim-guidance-ghg-emissions-climate-change.pdf
-
-- **URL**: https://www.energy.gov/documents/2023-01-ceq-interim-guidance-ghg-emissions-climate-change
-- **Status**: analysed
-- title, tagged, lang, fonts:/Times-Roman, /Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
-
-### 2023-02-ceq-interim-guidance-ghg-emissions-climate-change-cmnt-ext.pdf
-
-- **URL**: https://www.energy.gov/documents/2023-02-ceq-interim-guidance-ghg-emissions-climate-change-cmnt-ext
-- **Status**: analysed
-- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Helvetica-Oblique, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bold
-
-### 2023-09-20-dot-adoption-doe-cx-b5-23-classespdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2023-09-20-dot-adoption-doe-cx-b5-23-classespdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bold
-
-### 2023-09-20-nist-adoption-doe-multi-cx-classespdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2023-09-20-nist-adoption-doe-multi-cx-classespdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bold
-
-### 2023-10-20-cx-dhs-ev-charging-station-adopted-cx-b523pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2023-10-20-cx-dhs-ev-charging-station-adopted-cx-b523pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bold
-
-### 2023-11-09-cx-exim-install-machine-equip-adopted-cx-b131pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2023-11-09-cx-exim-install-machine-equip-adopted-cx-b131pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bold
-
-### 2024-01-17-cx-epa-electric-vehicle-charging-stations-adopted-cx-b523pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2024-01-17-cx-epa-electric-vehicle-charging-stations-adopted-cx-b523pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
-### 2024-02-21-cx-epa-methane-gas-recovery-utilization-systems-adopted-cx-b521pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2024-02-21-cx-epa-methane-gas-recovery-utilization-systems-adopted-cx-b521pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bold
-
-### 2024-03-22-cx-epa-recyclable-materials-facilities-install-relocate-machinery-equipment.pdf
-
-- **URL**: https://www.energy.gov/documents/2024-03-22-cx-epa-recyclable-materials-facilities-install-relocate-machinery-equipment
-- **Status**: analysed
-- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
-
-### 2024-07-01-cx-usfs-elect-veh-charge-station-adopted-cx-b523pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2024-07-01-cx-usfs-elect-veh-charge-station-adopted-cx-b523pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
-
-### 2024-07-02-cx-dhs-multiple-cxs-adoptedpdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2024-07-02-cx-dhs-multiple-cxs-adoptedpdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
-
-### 2024-07-03-cx-phmsa-repair-replacement-pipelines-adopted-b54pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2024-07-03-cx-phmsa-repair-replacement-pipelines-adopted-b54pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
-
-### 2024-07-08-cx-dtra-b523-ev-charging-stations-adoptedpdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2024-07-08-cx-dtra-b523-ev-charging-stations-adoptedpdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
-
-### 2024-07-23-doe-adoption-multi-fs-cxspdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2024-07-23-doe-adoption-multi-fs-cxspdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
-
-### 2024-08-06-cx-usda-b54-b55-b523-pipelines-ev-charging-stations-adoptedpdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2024-08-06-cx-usda-b54-b55-b523-pipelines-ev-charging-stations-adoptedpdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
-
-### 2024-11-08-cx-usfs-elec-trans-solar-adopt-mult-cxpdf.pdf
-
-- **URL**: https://www.energy.gov/documents/2024-11-08-cx-usfs-elec-trans-solar-adopt-mult-cxpdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
-
-### 2024-12-17-cx-exim-a9-b1.15-b1.23-b2.1-b2.2-b3.1.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2024-12/2024-12-17-cx-exim-a9-b1.15-b1.23-b2.1-b2.2-b3.1.pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
-
-### 2025-01-16-cx-doi-multiple-cxs-adopted.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2025-01/2025-01-16-cx-doi-multiple-cxs-adopted.pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
-
-### 2025-05-16-nopr-10-cfr-part-1022_0.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2025-05/2025-05-16-nopr-10-cfr-part-1022_0.pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bold, /ZapfDingbatsforms-fail, forms-untagged, annotations-untagged, 
-
-### 2025-06-30-DOE-NEPA-Procedures.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2025-06/2025-06-30-DOE-NEPA-Procedures.pdf
-- **Status**: analysed
-- fonts:/BCDHEE+Aptos, /BCDGEE+Aptos,Italic, /ArialMT, /BCDJEE+Aptos,Bold, /BCDEEE+Aptos, /BCDFEE+Aptos,Bold, /BCDIEE+Aptos,Italic
-
-### 2025-07-03-IFR-1021-205-federal-register.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2025-07/2025-07-03-IFR-1021-205-federal-register.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bold, /ZapfDingbatsforms-fail, forms-untagged, annotations-untagged, 
-
-### 2025-09-02-blm-multiple-cxs-adopted.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2026-04/2025-09-02-blm-multiple-cxs-adopted.pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /DFGBHR+Arial, /Melior-Bold, /QEZICR+Arial,Bold, /NCJERX+Arialforms-fail, forms-untagged, annotations-untagged, 
-
-### 2025-09569.pdf
-
-- **URL**: https://www.govinfo.gov/content/pkg/FR-2025-05-28/pdf/2025-09569.pdf
-- **Status**: analysed
-- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
-
-### 2025-16235.pdf
-
-- **URL**: https://public-inspection.federalregister.gov/2025-16235.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.318188+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- title, headings-warn, 
 
 ### 2025.03.05%20-%20Washington%20v.%20Trump%20-%20Notice%20of%20Court%20Order.pdf
 
@@ -69493,1423 +67961,1099 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/11/08_impots_gouv_fr_prendre_rdv.pdf
 - **Status**: analysed
-- lang, fonts:/BAAAAA+Arial-BoldMT, /EAAAAA+Arial-ItalicMT, /FAAAAA+SegoeUI-Bold, /CAAAAA+Aharoni-Bold, /DAAAAA+ArialMTfigures-alt, headings-none, annotations-tagging-fail, 
+- lang, figures missing alt text (count=38), headings-none, annotations-tagging-fail, 
 
 ### 1-BP-2024-BUDGET-PRINCIPAL.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/1-BP-2024-BUDGET-PRINCIPAL.pdf
 - **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helvetica-Oblique, /Times-Bold, /Times-Roman, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 1-CA-2023-Budget-pricipal.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/1-CA-2023-Budget-pricipal.pdf
 - **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helvetica-Oblique, /Courier, /Times-Bold, /Times-Roman, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 1-DOB-2023.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/03/1-DOB-2023.pdf
 - **Status**: analysed
-- no bookmarks and more than 20 pages, fonts:/BCDPEE+Calibri-LightItalic, /BCDKEE+Calibri-BoldItalic, /ArialMT, /TimesNewRomanPSMT, /SymbolMT, /Arial-BoldItalicMT, /BCDEEE+Calibri-Bold, /BCDMEE+Calibri-Italic, /BCDFEE+Calibri-Bold, /Arial-BoldMT, /BCDNEE+TrebuchetMS, /BCDGEE+Calibri, /BCEBEE+Wingdings-Regular, /BCDIEE+Calibri-BoldItalic, /BCDLEE+Calibri, /TimesNewRomanPS-ItalicMT, /Arial-ItalicMT, /TimesNewRomanPS-BoldMT, /BCEAEE+Calibri-LightItalic, /BCDOEE+Arial Nova, /BCDHEE+Calibri-Light, /BCDJEE+Calibri-Italicfigures-alt, headings-skip, tables-warn, 
+- no bookmarks and more than 20 pages, figures missing alt text (count=7), headings-skip, tables-warn, 
 
 ### 1-NOTE-DE-PRESENTATION-NON-TECHNIQUE_MENTION-DES-TEXTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/1-NOTE-DE-PRESENTATION-NON-TECHNIQUE_MENTION-DES-TEXTE.pdf
 - **Status**: analysed
-- title, tagged-content-fail, fonts:/Arial-BoldMT, /ArialGras, /ArialBlackNormal, /BCDGEE+Wingdings3, /BCDFEE+ArialNarrow-Bold, /ArialMT, /Arial-BoldItalicMT, /TimesNewRomanPSMT, /ArialNormal, /BCDHEE+CambriaMath, /BCDEEE+ArialNarrow-Bold, /Arial-ItalicMT, /TimesNewRomanPS-BoldItalicMTfigures-alt, headings-warn, tables-warn, 
+- title, tagged-content-fail, figures missing alt text (count=5), headings-warn, tables-warn, 
 
 ### 1-NOTICE-DE-PRESENTATION-DE-LENQUETE-PUBLIQUE-UNIQUE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/04/1-NOTICE-DE-PRESENTATION-DE-LENQUETE-PUBLIQUE-UNIQUE.pdf
 - **Status**: analysed
-- title, no bookmarks and more than 20 pages, fonts:/BCDNEE+SegoeUISymbol, /BCDIEE+CenturyGothic-Bold, /ArialMT, /SymbolMT, /BCDJEE+CenturyGothic, /BCDKEE+Calibri, /BCDEEE+Calibri, /Arial-BoldMT, /BCDPEE+CenturyGothic-Italic, /BCDFEE+CenturyGothic, /BCDLEE+Wingdings-Regular, /BCDHEE+CenturyGothic-Bold, /BCDGEE+Bauhaus93, /BCDMEE+SegoeUISymbol, /Arial-ItalicMT, /BCDOEE+CenturyGothic-Italic, /BCEAEE+Calibri-Italicfigures-alt, tables-warn, 
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=4), tables-warn, 
 
 ### 1-Note-DOB-2024.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/1-Note-DOB-2024.pdf
 - **Status**: analysed
-- no bookmarks and more than 20 pages, fonts:/BCDKEE+Calibri-BoldItalic, /ArialMT, /TimesNewRomanPSMT, /Arial-BoldItalicMT, /SymbolMT, /BCDEEE+Calibri-Bold, /BCDFEE+Calibri-Bold, /BCDNEE+Calibri-LightItalic, /Arial-BoldMT, /BCDGEE+Calibri, /BCDPEE+Wingdings-Regular, /BCDIEE+Calibri-BoldItalic, /BCDLEE+Calibri, /BCDOEE+Calibri-Italic, /TimesNewRomanPS-ItalicMT, /BCDMEE+Calibri-LightItalic, /Arial-ItalicMT, /TimesNewRomanPS-BoldMT, /BCDHEE+Calibri-Light, /BCDJEE+Calibri-Italicfigures-alt, headings-skip, lists-warn, tables-fail, 
+- no bookmarks and more than 20 pages, figures missing alt text (count=7), headings-skip, lists-warn, tables-fail, 
 
 ### 1-Note-synthetique-Compte-Administratif-2025.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/1-Note-synthetique-Compte-Administratif-2025.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+Calibri-Italic, /Arial-BoldMT, /BCDFEE+SimSun, /BCDGEE+Calibri, /BCDLEE+Calibri-BoldItalic, /ArialMT, /TimesNewRomanPSMT, /BCDHEE+Calibri-Bold, /BCDIEE+Calibri-Bold, /BCDEEE+Calibri, /BCDJEE+Wingdings-Regularfigures-alt, headings-none, tables-warn, 
+- title, figures missing alt text (count=2), headings-none, tables-warn, 
 
 ### 1-Rapport-Egalite-Femmes-Hommes-2025-et-plan-daction.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/01/1-Rapport-Egalite-Femmes-Hommes-2025-et-plan-daction.pdf
 - **Status**: analysed
-- title, no bookmarks and more than 20 pages, fonts:/BCDHEE+Calibri, /BCDLEE+Calibri-LightItalic, /ArialMT, /SymbolMT, /TimesNewRomanPSMT, /Arial-BoldItalicMT, /BCDEEE+Calibri-Bold, /BCDGEE+Calibri-BoldItalic, /BCDFEE+Calibri-Bold, /BCDJEE+Calibri-BoldItalic, /BCDOEE+CambriaMath, /BCDEEE+Calibri, /Arial-BoldMT, /BCDKEE+Wingdings-Regular, /BCDGEE+Calibri-Bold, /BCDNEE+Calibri-Italic, /BCDIEE+Calibri-BoldItalic, /BCDFEE+Calibri, /BCDMEE+Calibri-LightItalic, /BCDIEE+Calibri-Boldfigures-alt, headings-skip, tables-fail, annotations-tagging-fail, 
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=92), headings-skip, tables-fail, annotations-tagging-fail, 
 
 ### 1-Zonage_20181130.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/04/1-Zonage_20181130.pdf
 - **Status**: analysed
-- title, tagged, lang, fonts:/ArialMT, /BZNJPT+SegoeUI-Bold, /AQQMKI+ArialNarrow, /TimesNewRomanPS-BoldMTuntagged-images, 
+- title, tagged, lang, 
 
 ### 1-voirie.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/1-voirie.pdf
 - **Status**: analysed
-- fonts:/BCDGEE+Calibri, /BCDKEE+Calibri-BoldItalic, /BCDHEE+Calibri-Italic, /BCDMEE+Calibri, /BCDLEE+CambriaMath, /BCDIEE+Calibri-Italic, /BCDEEE+Calibri-Bold, /BCDFEE+Calibri-Bold, /BCDJEE+Calibri-BoldItalic, /BCDNEE+Wingdings-Regularfigures-alt, 
+- figures missing alt text (count=199), 
 
 ### 1.-RAPPORT-DE-PRESENTATION_PLU-ARRETE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/1.-RAPPORT-DE-PRESENTATION_PLU-ARRETE.pdf
 - **Status**: analysed
-- title, no bookmarks and more than 20 pages, fonts:/BCDEEE+CenturyGothic, /BCDHEE+CenturyGothic, /BCDKEE+CenturyGothic-Italic, /BCDPEE+CenturyGothic-BoldItalic, /BCDGEE+CenturyGothic-Bold, /ArialMT, /TimesNewRomanPSMT, /SymbolMT, /BCECEE+SegoeUI, /BCDFEE+Bauhaus93, /BCDNEE+Wingdings-Regular, /Arial-BoldMT, /BCDIEE+Calibri, /BCDMEE+CenturyGothic-BoldItalic, /BCEBEE+Calibri-Italic, /BCDJEE+CenturyGothic-Italic, /BCDLEE+CenturyGothic-Bold, /BCEDEE+Calibri, /Arial-ItalicMT, /BCDOEE+CourierNewPSMT, /BCEAEE+Calibri-Italicfigures-alt, headings-skip, tables-warn, 
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=180), headings-skip, tables-warn, 
 
 ### 1.Les-zones-dactivit%C3%A9-du-territoire-Coeur-de-Garonne.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.Les-zones-dactivit%C3%A9-du-territoire-Coeur-de-Garonne.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+CambriaMath, /BCDFEE+Calibri-Bold, /BCDIEE+Calibri, /ArialMT, /BCDJEE+Calibri, /BCDGEE+Calibri-Boldfigures-alt, headings-none, 
+- title, figures missing alt text (count=6), headings-none, 
 
 ### 1.ZAE-B%C3%A9rat-Bourgail.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-B%C3%A9rat-Bourgail.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+CambriaMath, /BCDFEE+Calibri-Bold, /BCDIEE+Calibri, /ArialMT, /BCDJEE+Calibri, /BCDGEE+Calibri-Boldfigures-alt, headings-none, 
+- title, figures missing alt text (count=8), headings-none, 
 
 ### 1.ZAE-Boussens-Estarac-Le-Bousquet-Sansonnet.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Boussens-Estarac-Le-Bousquet-Sansonnet.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+CambriaMath, /BCDFEE+Calibri-Bold, /BCDIEE+Calibri, /ArialMT, /BCDJEE+Calibri, /BCDGEE+Calibri-Boldfigures-alt, headings-none, 
+- title, figures missing alt text (count=10), headings-none, 
 
 ### 1.ZAE-Caz%C3%A8res-Mailhol.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Caz%C3%A8res-Mailhol.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+CambriaMath, /BCDFEE+Calibri-Bold, /BCDIEE+Calibri, /ArialMT, /BCDJEE+Calibri, /BCDGEE+Calibri-Boldfigures-alt, headings-none, 
+- title, figures missing alt text (count=10), headings-none, 
 
 ### 1.ZAE-Caz%C3%A8res-Masqu%C3%A8re.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Caz%C3%A8res-Masqu%C3%A8re.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+CambriaMath, /BCDFEE+Calibri-Bold, /BCDIEE+Calibri, /ArialMT, /BCDJEE+Calibri, /BCDGEE+Calibri-Boldfigures-alt, headings-none, 
+- title, figures missing alt text (count=8), headings-none, 
 
 ### 1.ZAE-Le-Fousseret-Bordebasse.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Le-Fousseret-Bordebasse.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+CambriaMath, /BCDFEE+Calibri-Bold, /BCDIEE+Calibri, /ArialMT, /BCDJEE+Calibri, /BCDGEE+Calibri-Boldfigures-alt, headings-none, 
+- title, figures missing alt text (count=8), headings-none, 
 
 ### 1.ZAE-Lherm-A%C3%A9rodrome.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Lherm-A%C3%A9rodrome.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+CambriaMath, /BCDFEE+Calibri-Bold, /BCDIEE+Calibri, /ArialMT, /BCDJEE+Calibri, /BCDGEE+Calibri-Boldfigures-alt, headings-none, 
+- title, figures missing alt text (count=8), headings-none, 
 
 ### 1.ZAE-Lherm-Coucoures.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Lherm-Coucoures.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+CambriaMath, /BCDFEE+Calibri-Bold, /BCDIEE+Calibri, /ArialMT, /BCDJEE+Calibri, /BCDGEE+Calibri-Boldfigures-alt, headings-none, 
+- title, figures missing alt text (count=8), headings-none, 
 
 ### 1.ZAE-Martres-Tolosane-Bordie.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Martres-Tolosane-Bordie.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+CambriaMath, /BCDFEE+Calibri-Bold, /BCDIEE+Calibri, /ArialMT, /BCDJEE+Calibri, /BCDGEE+Calibri-Boldfigures-alt, headings-none, 
+- title, figures missing alt text (count=8), headings-none, 
 
 ### 1.ZAE-Martres-Tolosane-Cantalauze-Berre-Nord-Carnaval.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Martres-Tolosane-Cantalauze-Berre-Nord-Carnaval.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+CambriaMath, /BCDFEE+Calibri-Bold, /BCDIEE+Calibri, /ArialMT, /BCDJEE+Calibri, /BCDGEE+Calibri-Boldfigures-alt, headings-none, 
+- title, figures missing alt text (count=10), headings-none, 
 
 ### 1.ZAE-Martres-Tolosane-Epinette.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Martres-Tolosane-Epinette.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+CambriaMath, /BCDFEE+Calibri-Bold, /BCDIEE+Calibri, /ArialMT, /BCDJEE+Calibri, /BCDGEE+Calibri-Boldfigures-alt, headings-none, 
+- title, figures missing alt text (count=8), headings-none, 
 
 ### 1.ZAE-Mondavezan-Bordegrosse.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Mondavezan-Bordegrosse.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+CambriaMath, /BCDFEE+Calibri-Bold, /BCDIEE+Calibri, /ArialMT, /BCDJEE+Calibri, /BCDGEE+Calibri-Boldfigures-alt, headings-none, 
+- title, figures missing alt text (count=8), headings-none, 
 
 ### 1.ZAE-Palaminy-Saint-Blancat.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Palaminy-Saint-Blancat.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+CambriaMath, /BCDFEE+Calibri-Bold, /BCDIEE+Calibri, /ArialMT, /BCDJEE+Calibri, /BCDGEE+Calibri-Boldfigures-alt, headings-none, 
+- title, figures missing alt text (count=8), headings-none, 
 
 ### 1.ZAE-Poucharramet-Broucassa.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Poucharramet-Broucassa.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+CambriaMath, /BCDFEE+Calibri-Bold, /BCDIEE+Calibri, /ArialMT, /BCDGEE+Calibri-Boldfigures-alt, headings-none, 
+- title, figures missing alt text (count=8), headings-none, 
 
 ### 1.ZAE-Rieumes-Houns-de-la-Costo.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Rieumes-Houns-de-la-Costo.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+CambriaMath, /BCDFEE+Calibri-Bold, /BCDIEE+Calibri, /ArialMT, /BCDJEE+Calibri, /BCDGEE+Calibri-Boldfigures-alt, headings-none, 
+- title, figures missing alt text (count=8), headings-none, 
 
 ### 1.ZAE-Saint-Elix-le-Ch%C3%A2teau-Descaillaux.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Saint-Elix-le-Ch%C3%A2teau-Descaillaux.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+CambriaMath, /BCDFEE+Calibri-Bold, /BCDIEE+Calibri, /ArialMT, /BCDJEE+Calibri, /BCDGEE+Calibri-Boldfigures-alt, headings-none, 
+- title, figures missing alt text (count=8), headings-none, 
 
 ### 1.ZAE-Sainte-Foy-de-Peyroli%C3%A8res-Couloum%C3%A9.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Sainte-Foy-de-Peyroli%C3%A8res-Couloum%C3%A9.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+CambriaMath, /BCDFEE+Calibri-Bold, /BCDIEE+Calibri, /ArialMT, /BCDJEE+Calibri, /BCDGEE+Calibri-Boldfigures-alt, headings-none, 
+- title, figures missing alt text (count=8), headings-none, 
 
 ### 1.ZAE-Sainte-Foy-de-Peyroli%C3%A8res-La-Saudrune.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/07/1.ZAE-Sainte-Foy-de-Peyroli%C3%A8res-La-Saudrune.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+CambriaMath, /BCDFEE+Calibri-Bold, /BCDIEE+Calibri, /ArialMT, /BCDJEE+Calibri, /BCDGEE+Calibri-Boldfigures-alt, headings-none, 
+- title, figures missing alt text (count=8), headings-none, 
 
 ### 10-BP-2024-ZA-BERAT.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/10-BP-2024-ZA-BERAT.pdf
 - **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helvetica-Oblique, /Times-Bold, /Times-Roman, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 10-CA-2023-ZA-BOURGAIL-BERAT.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/10-CA-2023-ZA-BOURGAIL-BERAT.pdf
 - **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helvetica-Oblique, /Times-Bold, /Times-Roman, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 10-TRANSPORT-A-LA-DEMANDE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/10-TRANSPORT-A-LA-DEMANDE.pdf
 - **Status**: analysed
-- fonts:/BCDKEE+Calibri-Italic, /BCDGEE+Calibri, /BCDIEE+Calibri, /BCDHEE+Wingdings-Regular, /BCDJEE+CambriaMath, /BCDEEE+Calibri-Bold, /BCDFEE+Calibri-Boldfigures-alt, headings-none, tables-fail, 
+- figures missing alt text (count=56), headings-none, tables-fail, 
 
 ### 11-BP-2024-PHOTOVOLTAIQUE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/11-BP-2024-PHOTOVOLTAIQUE.pdf
 - **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helvetica-Oblique, /Times-Bold, /Times-Roman, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 11-CA-2023-PHOTOVOLTAIQUE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/11-CA-2023-PHOTOVOLTAIQUE.pdf
 - **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helvetica-Oblique, /Times-Bold, /Times-Roman, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 11-PROJETS-TRANSVERSES.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/11-PROJETS-TRANSVERSES.pdf
 - **Status**: analysed
-- fonts:/BCDHEE+Calibri, /BCDGEE+Calibri, /BCDIEE+Calibri-Italic, /BCDEEE+Calibri-Bold, /BCDFEE+Calibri-Bold, /BCDJEE+Calibri-Italicfigures-alt, headings-none, 
+- figures missing alt text (count=111), headings-none, 
 
 ### 12-BP-2024-SPED.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/12-BP-2024-SPED.pdf
 - **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helvetica-Oblique, /Times-Bold, /Times-Roman, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 12-CA-2023-SPED.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/12-CA-2023-SPED.pdf
 - **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helvetica-Oblique, /Times-Bold, /Times-Roman, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 12-PETITE-ENFANCE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/12-PETITE-ENFANCE.pdf
 - **Status**: analysed
-- no bookmarks and more than 20 pages, fonts:/BCDKEE+TrebuchetMS, /BCDMEE+Calibri, /ArialMT, /BCDIEE+Calibri-Italic, /BCDEEE+Calibri-Bold, /BCDGEE+Calibri-BoldItalic, /BCDOEE+Calibri-Bold, /BCDHEE+Calibri-Italic, /BCDLEE+TrebuchetMS-Bold, /BCDNEE+Calibri, /BCDPEE+Wingdings-Regular, /BCDJEE+TrebuchetMS-Bold, /BCDFEE+Calibri-BoldItalicfigures-alt, headings-none, tables-warn, 
+- no bookmarks and more than 20 pages, figures missing alt text (count=773), headings-none, tables-warn, 
 
 ### 13-ENFANCE-JEUNESSE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/13-ENFANCE-JEUNESSE.pdf
 - **Status**: analysed
-- no bookmarks and more than 20 pages, fonts:/BCDMEE+Tahoma, /ArialMT, /TimesNewRomanPSMT, /BCDHEE+Wingdings-Regular, /BCDEEE+Calibri-Bold, /BCDIEE+Roboto,Bold, /BCDFEE+Calibri-Bold, /BCDPEE+Arial-Black, /BCDKEE+Calibri-Light, /BCDLEE+Calibri-BoldItalic, /BCDGEE+Calibri, /BCDJEE+Calibri, /BCDNEE+Calibri-Italic, /BCDOEE+Calibri-Italic, /BCEAEE+CambriaMathfigures-alt, headings-none, tables-fail, 
+- no bookmarks and more than 20 pages, figures missing alt text (count=427), headings-none, tables-fail, 
 
 ### 14-ACCOMPAGNEMENT-SOCIAL.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/14-ACCOMPAGNEMENT-SOCIAL.pdf
 - **Status**: analysed
-- fonts:/BCDEEE+Calibri-Bold, /BCDGEE+Calibri, /BCDFEE+Calibri-Boldfigures-alt, headings-none, 
+- figures missing alt text (count=179), headings-none, 
 
 ### 15-PORTAGE-DE-REPAS.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/15-PORTAGE-DE-REPAS.pdf
 - **Status**: analysed
-- fonts:/BCDGEE+Calibri, /BCDIEE+Calibri, /BCDHEE+CambriaMath, /BCDEEE+Calibri-Bold, /BCDFEE+Calibri-Boldfigures-alt, headings-none, 
+- figures missing alt text (count=101), headings-none, 
 
 ### 16-PREVENTION-SENIORS.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/16-PREVENTION-SENIORS.pdf
 - **Status**: analysed
-- fonts:/BCDLEE+Calibri-Italic, /BCDKEE+Calibri-Italic, /BCDGEE+Calibri, /BCDJEE+Calibri, /BCDMEE+Calibri-BoldItalic, /BCDEEE+Calibri-Bold, /BCDFEE+Calibri-Bold, /BCDNEE+CambriaMath, /BCDHEE+Calibri-Light, /BCDIEE+Wingdings-Regularfigures-alt, headings-none, 
+- figures missing alt text (count=402), headings-none, 
 
 ### 17-HEBERGEMENT-DE-TRANSITION.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/17-HEBERGEMENT-DE-TRANSITION.pdf
 - **Status**: analysed
-- fonts:/BCDHEE+Calibri, /BCDGEE+Calibri, /BCDIEE+CambriaMath, /BCDEEE+Calibri-Bold, /BCDFEE+Calibri-Boldfigures-alt, headings-none, 
+- figures missing alt text (count=42), headings-none, 
 
 ### 18-AUTONOMIE-A-DOMICILE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/18-AUTONOMIE-A-DOMICILE.pdf
 - **Status**: analysed
-- fonts:/BCDHEE+Calibri, /BCDGEE+Calibri, /BCDIEE+CambriaMath, /BCDEEE+Calibri-Bold, /BCDFEE+Calibri-Boldfigures-alt, headings-none, 
+- figures missing alt text (count=480), headings-none, 
 
 ### 19-ANIMATION-VIE-SOCIALE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/19-ANIMATION-VIE-SOCIALE.pdf
 - **Status**: analysed
-- fonts:/BCDGEE+Calibri, /BCDIEE+Calibri, /BCDJEE+Calibri-Light, /BCDEEE+Calibri-Bold, /BCDFEE+Calibri-Bold, /BCDHEE+Calibri-Lightfigures-alt, headings-none, 
+- figures missing alt text (count=42), headings-none, 
 
 ### 2-AVIS-NOTE-DINTENTION.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/2-AVIS-NOTE-DINTENTION.pdf
 - **Status**: analysed
-- title, no bookmarks and more than 20 pages, fonts:/BCEBEE+CenturyGothic-BoldItalic, /BCDKEE+Calibri-Italic, /BCDIEE+CenturyGothic-Bold, /ArialMT, /TimesNewRomanPSMT, /SymbolMT, /BCDJEE+CenturyGothic, /Arial-BoldItalicMT, /BCECEE+ArialNarrow, /BCEEEE+Wingdings-Regular, /BCDEEE+Calibri, /BCDLEE+Calibri-Italic, /BCDMEE+MVBoli, /Arial-BoldMT, /BCDNEE+Calibri-BoldItalic, /BCEAEE+CenturyGothic-BoldItalic, /BCEDEE+CourierNewPSMT, /BCDPEE+CenturyGothic-Italic, /BCDFEE+CenturyGothic, /BCDHEE+CenturyGothic-Bold, /BCDGEE+Bauhaus93, /BCDOEE+CenturyGothic-Italicfigures-alt, tables-warn, 
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=8), tables-warn, 
 
 ### 2-BP-2024-SAAD.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/2-BP-2024-SAAD.pdf
 - **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/AAAAAF+Arial,BoldItalic, /AAAAAD+Arial, /AAAAAD+Arial,Italic, /AAAAAD+Arial,Bold, /AAAAAH+Arial,Italic, /AAAAAB+Arial,Bold, /AAAAAB+Arial, /AAAAAH+Arial, /AAAAAF+Arial,Italic, /AAAAAH+Arial,BoldItalic, /AAAAAF+Arial
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 2-CA-2023-SAAD.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/2-CA-2023-SAAD.pdf
 - **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/AAAAAD+Arial, /AAAAAD+Arial,Italic, /AAAAAB+Arial,Bold, /AAAAAB+Arial, /AAAAAF+Arial,Italic, /AAAAAH+Arial,BoldItalic, /AAAAAF+Arial
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 2-DECHETS.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/2-DECHETS.pdf
 - **Status**: analysed
-- no bookmarks and more than 20 pages, fonts:/ArialMT, /TimesNewRomanPSMT, /BCDMEE+CambriaMath, /BCDEEE+Calibri-Bold, /BCDHEE+Calibri-BoldItalic, /BCDFEE+Calibri-Bold, /Arial-BoldMT, /BCDGEE+Calibri, /BCDKEE+Wingdings-Regular, /BCDIEE+Calibri-BoldItalic, /BCDLEE+Calibri, /BCDJEE+Calibri-Italicfigures-alt, headings-none, tables-fail, 
+- no bookmarks and more than 20 pages, figures missing alt text (count=790), headings-none, tables-fail, 
 
 ### 2-DOB-2020.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/2-DOB-2020.pdf
 - **Status**: analysed
-- no bookmarks and more than 20 pages, fonts:/BCDHEE+Calibri, /ArialMT, /TimesNewRomanPSMT, /SymbolMT, /BCDIEE+Calibri-Italic, /BCDMEE+Calibri-BoldItalic, /BCDEEE+Calibri-Bold, /BCDFEE+Calibri-Bold, /Arial-BoldMT, /BCDGEE+Calibri, /BCDNEE+Calibri-BoldItalic, /BCDKEE+Segoe UI Emoji, /BCDLEE+Wingdings-Regular, /TimesNewRomanPS-BoldMT, /BCDJEE+Calibri-Italicfigures-alt, headings-none, tables-fail, 
+- no bookmarks and more than 20 pages, figures missing alt text (count=8), headings-none, tables-fail, 
 
 ### 2-NOTE-DE-PRESENTATION-DU-COMPTE-ADMINISTRATIF-2024.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/2-NOTE-DE-PRESENTATION-DU-COMPTE-ADMINISTRATIF-2024.pdf
 - **Status**: analysed
-- title, fonts:/Arial-BoldMT, /BCDKEE+Calibri-BoldItalic, /ArialMT, /BCDGEE+Calibri-Bold, /BCDFEE+Calibri, /BCDHEE+Calibri-Bold, /BCDEEE+Calibri, /BCDJEE+Calibri-Italic, /BCDIEE+Wingdings-Regularfigures-alt, headings-none, tables-warn, 
+- title, figures missing alt text (count=2), headings-none, tables-warn, 
 
 ### 2-Note-Synthetique-Budget-Primitif-2026.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/2-Note-Synthetique-Budget-Primitif-2026.pdf
 - **Status**: analysed
-- fonts:/BCDLEE+Calibri-Italic, /Arial-BoldMT, /BCDHEE+Calibri, /BCDKEE+Calibri-Bold, /ArialMT, /BCDEEE+Verdana, /BCDIEE+Impact, /BCDGEE+Calibri-Bold, /BCDJEE+TrebuchetMS, /TimesNewRomanPSMT, /BCDFEE+Calibrifigures-alt, tables-warn, 
+- figures missing alt text (count=1), tables-warn, 
 
 ### 2-Note-introductive-Debat-dorientations-budgetaires-2026-2.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/01/2-Note-introductive-Debat-dorientations-budgetaires-2026-2.pdf
 - **Status**: analysed
-- no bookmarks and more than 20 pages, fonts:/BCDPEE+Calibri-LightItalic, /BCDKEE+Calibri-BoldItalic, /ArialMT, /TimesNewRomanPSMT, /Arial-BoldItalicMT, /SymbolMT, /BCDEEE+Calibri-Bold, /BCDFEE+Calibri-Bold, /Arial-BoldMT, /BCDGEE+Calibri, /BCDOEE+Calibri-LightItalic, /BCEBEE+Wingdings-Regular, /BCDIEE+Calibri-BoldItalic, /BCDMEE+Tahoma-Bold, /BCDLEE+Calibri, /TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldMT, /BCDNEE+Tahoma, /BCDHEE+Calibri-Light, /BCDJEE+Calibri-Italic, /BCEAEE+Calibri-Italicfigures-alt, tables-fail, 
+- no bookmarks and more than 20 pages, figures missing alt text (count=5), tables-fail, 
 
 ### 2-RAPPORT-TECHNIQUE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/2-RAPPORT-TECHNIQUE.pdf
 - **Status**: analysed
-- tagged-content-fail, no bookmarks and more than 20 pages, fonts:/ArialBlackNormal, /BCDGEE+Wingdings3, /ArialMT, /Arial-BoldItalicMT, /SymbolMT, /TimesNewRomanPSMT, /ArialNormal, /BCDIEE+CourierNewPSMT, /Arial-BoldMT, /ArialGras, /BCDFEE+ArialNarrow-Bold, /ArialItalique, /BCDHEE+Corbel, /BCDEEE+ArialNarrow-Bold, /Arial-ItalicMT, /BCDJEE+Wingdings-Regularfigures-alt, headings-warn, tables-fail, 
+- tagged-content-fail, no bookmarks and more than 20 pages, figures missing alt text (count=14), headings-warn, tables-fail, 
 
 ### 2-Reglement-ecrit_20181130.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/04/2-Reglement-ecrit_20181130.pdf
 - **Status**: analysed
-- title, tagged-content-fail, no bookmarks and more than 20 pages, fonts:/Arial,Bold, /Arial, /ABCDEE+Arial Black, /Symbol, /Times New Roman, /Arial,Italic, /ABCDEE+Arial Gras,Bold, /ABCDEE+Calibri, /Arial,BoldItalicfigures-alt, tables-fail, 
+- title, tagged-content-fail, no bookmarks and more than 20 pages, figures missing alt text (count=5), tables-fail, 
 
 ### 2.-PADD_PLU-ARRETE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/2.-PADD_PLU-ARRETE.pdf
 - **Status**: analysed
-- title, fonts:/BCDJEE+Calibri-Bold, /BCDIEE+CenturyGothic-Bold, /BCEBEE+Wingdings3, /ArialMT, /BCDMEE+Calibri-Italic, /BCDPEE+Calibri-BoldItalic, /TimesNewRomanPS-BoldItalicMT, /BCDEEE+Calibri-Italic, /Arial-BoldMT, /BCDOEE+Calibri, /BCDLEE+CenturyGothic, /BCDKEE+CenturyGothic, /BCDFEE+Calibri, /BCEDEE+Wingdings-Regular, /BCDHEE+CenturyGothic-Bold, /BCDGEE+Bauhaus93, /BCECEE+ArialNarrow, /BCDNEE+Calibri-Bold, /BCEAEE+Calibri-BoldItalicfigures-alt, 
+- title, figures missing alt text (count=24), 
 
 ### 20-SERVICES-SUPPORT.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/20-SERVICES-SUPPORT.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.006527+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- no bookmarks and more than 20 pages, figures missing alt text (count=1564), headings-none, tables-warn, 
 
 ### 2022-10-21-fiche-maternite-version-definitive-ml-version2.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/2022-10-21-fiche-maternite-version-definitive-ml-version2.pdf
 - **Status**: analysed
-- title, tagged, fonts:/Times New Roman,Bold, /Arial, /Times New Roman,BoldItalic, /Times New Roman, /Times New Roman,Italicuntagged-images, annotations-untagged, 
+- title, tagged, annotations-untagged, 
 
 ### 21562_Flyer-lutte-frelon_A5.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/21562_Flyer-lutte-frelon_A5.pdf
 - **Status**: analysed
-- title, fonts:/GFBJJQ+Bree-Extrabold, /GFBJJQ+Bree-Light, /GFBJJQ+Bree-LightOblique, /GFBJJQ+DINPro, /GFBJJQ+HelveticaLTStd-Cond, /GFBJJQ+Bree-Bold, /GFBJJQ+Bree-Semiboldfigures-alt, headings-none, 
+- title, figures missing alt text (count=12), headings-none, 
 
 ### 22-070-Publication-des-actes-Berat.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/07/22-070-Publication-des-actes-Berat.pdf
 - **Status**: analysed
-- title, tagged, lang, untagged-images, 
+- title, tagged, lang, 
 
 ### 3-BP-2024-PDR.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/3-BP-2024-PDR.pdf
 - **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helvetica-Oblique, /Times-Bold, /Times-Roman, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 3-CA-2023-PDR.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/3-CA-2023-PDR.pdf
 - **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helvetica-Oblique, /Times-Bold, /Times-Roman, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 3-EQUIPEMENTS-SPORTIFS.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/3-EQUIPEMENTS-SPORTIFS.pdf
 - **Status**: analysed
-- fonts:/BCDKEE+Calibri-Italic, /BCDHEE+Calibri, /BCDGEE+Calibri, /BCDIEE+Calibri-Italic, /BCDJEE+CambriaMath, /BCDEEE+Calibri-Bold, /BCDFEE+Calibri-Boldfigures-alt, headings-none, 
+- figures missing alt text (count=393), headings-none, 
 
 ### 3-NOTE-DE-PRESENTATION-BUDGET-PRIMITIF-2025.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/3-NOTE-DE-PRESENTATION-BUDGET-PRIMITIF-2025.pdf
 - **Status**: analysed
-- fonts:/BCDLEE+Calibri-Italic, /Arial-BoldMT, /BCDHEE+Calibri, /BCDKEE+Calibri-Bold, /ArialMT, /BCDEEE+Verdana, /BCDIEE+Impact, /BCDGEE+Calibri-Bold, /BCDJEE+TrebuchetMS, /TimesNewRomanPSMT, /BCDFEE+Calibrifigures-alt, tables-warn, 
+- figures missing alt text (count=1), tables-warn, 
 
 ### 3-Orientations-dAmenagement-et-de-Programmation_20181130.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/04/3-Orientations-dAmenagement-et-de-Programmation_20181130.pdf
 - **Status**: analysed
-- title, tagged, lang, fonts:/Arial-BoldMT, /ArialMT, /ZLJFRQ+SymbolMT, /VBXUPT+Arial-Black, /YCOYOY+ArialMTuntagged-images, 
+- title, tagged, lang, 
 
 ### 3-PLU-AVIS-MRAE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/3-PLU-AVIS-MRAE.pdf
 - **Status**: analysed
-- title, tagged, fonts:/BAAAAA+LiberationSans-Bold, /FAAAAA+LiberationSans, /EAAAAA+OpenSymbol, /HAAAAA+Arial-ItalicMT, /CAAAAA+Arial-BoldMT, /GAAAAA+Arial-BoldItalicMT, /DAAAAA+ArialMTuntagged-images, annotations-untagged, 
+- title, tagged, annotations-untagged, 
 
 ### 3-PROJET-DE-ZONAGE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/3-PROJET-DE-ZONAGE.pdf
 - **Status**: analysed
-- title, tagged-content-fail, fonts:/Arial-BoldMT, /ArialGras, /ArialBlackNormal, /ArialMT, /ArialNormalfigures-alt, headings-none, tables-warn, 
+- title, tagged-content-fail, figures missing alt text (count=1), headings-none, tables-warn, 
 
 ### 3-Rapport-Annuel-2024-sur-le-service-public-de-prevention-et-dechets-menag.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/09/3-Rapport-Annuel-2024-sur-le-service-public-de-prevention-et-dechets-menag.pdf
 - **Status**: analysed
-- no bookmarks and more than 20 pages, fonts:/BCDKEE+Calibri-Italic, /BCEBEE+Corbel, /BCEDEE+Corbel-Bold, /ArialMT, /TimesNewRomanPSMT, /SymbolMT, /BCDHEE+Calibri-Bold, /BCDNEE+TwCenMT-Bold, /BCDJEE+Calibri-BoldItalic, /BCDEEE+Calibri, /BCDPEE+Calibri-BoldItalic, /BCDLEE+Calibri-Italic, /Arial-BoldMT, /BCEAEE+Corbel-Bold, /BCDFEE+Calibri, /BCDOEE+TwCenMT-Regular, /BCDIEE+Calibri-Bold, /BCECEE+Corbel, /TimesNewRomanPS-BoldMT, /BCDMEE+Wingdings-Regular, /BCDGEE+Cambriafigures-alt, headings-skip, tables-warn, 
+- no bookmarks and more than 20 pages, figures missing alt text (count=80), headings-skip, tables-warn, 
 
 ### 3-Rapport-annuel-SPED-2023.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/06/3-Rapport-annuel-SPED-2023.pdf
 - **Status**: analysed
-- no bookmarks and more than 20 pages, fonts:/ArialMT, /TimesNewRomanPSMT, /SymbolMT, /Arial-BoldItalicMT, /BCDIEE+Calibri-Italic, /BCDMEE+Calibri-Italic, /TimesNewRomanPS-BoldMT, /BCDHEE+Calibri-BoldItalic, /BCDJEE+Calibri-BoldItalic, /BCDEEE+Calibri, /BCDNEE+Corbel-Bold, /Arial-BoldMT, /BCEAEE+Corbel-Bold, /BCDKEE+Calibri-Bold, /BCDGEE+Calibri-Bold, /BCDLEE+Wingdings-Regular, /BCDFEE+Calibri, /BCDOEE+Corbel, /BCDPEE+Corbel, /Arial-ItalicMTfigures-alt, headings-skip, tables-warn, annotations-tagging-fail, 
+- no bookmarks and more than 20 pages, figures missing alt text (count=65), headings-skip, tables-warn, annotations-tagging-fail, 
 
 ### 3-Reglement-de-voirie-et-ses-annexes-v1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/3-Reglement-de-voirie-et-ses-annexes-v1.pdf
 - **Status**: analysed
-- title, tagged, no bookmarks and more than 20 pages, fonts:/ADDAWA+CIDFont+F1, /AAEFBT+CIDFont+F6, /APQCSA+CIDFont+F5, /ArialMT, /Arial-BoldItalicMT, /ASJHEV+CIDFont+F8, /APQCSA+Calibri-BoldItalic, /TimesNewRomanPS-BoldMT, /ASJHHJ+Wingdings-Regular, /BIWJOG+CIDFont+F4, /ADDAWA+Calibri, /AQUETE+CIDFont+F2, /AAAAAJ+CIDFont+F3, /AHAUIO+TimesNewRomanPS-BoldMT, /BIWJOG+Calibri-Italic, /Arial-BoldMT, /AAAAAJ+CIDFont+F9, /DYWLHC+Calibri-Bold, /ALQJTQ+Calibri, /AZAPEO+Calibri-BoldItalic, /AQUETE+Calibri-Bold, /ATNCTS+Roboto,Bold, /BHOHCK+Calibri-Bold, /BHDIHM+Calibri-Italic, /ASJHHJ+CIDFont+F7, /AVAHZT+Calibri-LightItalic, /AHAUIO+CIDFont+F10untagged-images, annotations-untagged, 
+- title, tagged, no bookmarks and more than 20 pages, annotations-untagged, 
 
 ### 3.-Reglement.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/3.-Reglement.pdf
 - **Status**: analysed
-- title, fonts:/BCDGEE+CenturyGothic-Bold, /BCDEEE+CenturyGothic, /BCDHEE+CenturyGothic, /BCDFEE+Bauhaus93, /ArialMTfigures-alt, headings-none, 
+- title, figures missing alt text (count=4), headings-none, 
 
 ### 3.1-REGLEMENT.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/3.1-REGLEMENT.pdf
 - **Status**: analysed
-- no bookmarks and more than 20 pages, fonts:/BCDEEE+CenturyGothic, /BCDLEE+CenturyGothic-Italic, /BCDHEE+CenturyGothic, /BCEDEE+CambriaMath, /BCDPEE+CenturyGothic-BoldItalic, /BCEGEE+CenturyGothic-Italic, /BCDGEE+CenturyGothic-Bold, /ArialMT, /BCEEEE+Calibri-Italic, /BCDKEE+CenturyGothic-Bold, /BCDFEE+Bauhaus93, /BCECEE+CourierNewPSMT, /BCEBEE+Calibri-Bold, /Arial-BoldMT, /BCEHEE+Calibri-BoldItalic, /BCDIEE+Calibri, /BCDOEE+Wingdings-Regular, /BCDMEE+CenturyGothic-BoldItalic, /BCEFEE+ArialNarrow, /BCDNEE+Calibri, /BCEIEE+Calibri-BoldItalic, /BCEAEE+Calibri-Bold, /BCDJEE+Calibri-Italicfigures-alt, headings-skip, tables-fail, 
+- no bookmarks and more than 20 pages, figures missing alt text (count=14), headings-skip, tables-fail, 
 
 ### 3.2.1-ZONAGE-COMMUNE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/3.2.1-ZONAGE-COMMUNE.pdf
 - **Status**: analysed
-- title, tagged, lang, fonts:/ArialGras, /TahomaNormal, /ArialNormal, /TahomaGrasuntagged-images, 
+- title, tagged, lang, 
 
 ### 3.2.2-ZONAGE-VILLAGE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/3.2.2-ZONAGE-VILLAGE.pdf
 - **Status**: analysed
-- title, tagged, lang, fonts:/ArialGras, /TahomaNormal, /ArialNormal, /TahomaGrasuntagged-images, 
-
-### 3CG-Dossier-Unique-dInscription-2025-2026-web3.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/06/3CG-Dossier-Unique-dInscription-2025-2026-web3.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.172054+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- title, tagged, lang, 
 
 ### 4-ANNEXES-ADMINISTRATIVES.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4-ANNEXES-ADMINISTRATIVES.pdf
 - **Status**: analysed
-- tagged-content-fail, fonts:/BAAAAA+LiberationSans-Bold, /Arial-BoldMT, /BCDFEE+ArialNarrow-Bold, /ArialMT, /EAAAAA+OpenSymbol, /FAAAAA+Arial-BoldItalicMT, /CAAAAA+Arial-BoldMT, /BCDEEE+ArialNarrow-Bold, /GAAAAA+Arial-ItalicMT, /DAAAAA+ArialMTfigures-alt, headings-none, tables-warn, annotations-tagging-fail, 
+- tagged-content-fail, figures missing alt text (count=1), headings-none, tables-warn, annotations-tagging-fail, 
 
 ### 4-BP-2024-OTI.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/4-BP-2024-OTI.pdf
 - **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helvetica-Oblique, /Times-Bold, /Times-Roman, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 4-CA-2023-OTI.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/4-CA-2023-OTI.pdf
 - **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helvetica-Oblique, /Times-Bold, /Times-Roman, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 4-PLU_NOTE-DE-PRESENTATION.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4-PLU_NOTE-DE-PRESENTATION.pdf
 - **Status**: analysed
-- title, fonts:/BCDKEE+Calibri-Italic, /BCDEEE+CenturyGothic, /BCDHEE+CenturyGothic, /BCDPEE+CenturyGothic-BoldItalic, /BCECEE+CenturyGothic-Italic, /BCDGEE+CenturyGothic-Bold, /ArialMT, /BCDNEE+CenturyGothic-Bold, /BCDLEE+MVBoli, /BCDMEE+Calibri-BoldItalic, /BCDFEE+Bauhaus93, /BCEBEE+CenturyGothic-Italic, /Arial-BoldMT, /BCEAEE+CenturyGothic-BoldItalic, /BCDIEE+Calibri, /BCDOEE+Wingdings-Regular, /BCEEEE+Verdana-Italic, /BCEDEE+Verdana-Italic, /BCDJEE+Calibri-Italicfigures-alt, 
+- title, figures missing alt text (count=33), 
 
 ### 4-SERVICES-TECHNIQUES.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/4-SERVICES-TECHNIQUES.pdf
 - **Status**: analysed
-- fonts:/BCDKEE+Calibri-Italic, /BCDHEE+Calibri, /BCDGEE+Calibri, /BCDLEE+CambriaMath, /BCDIEE+Calibri-BoldItalic, /BCDEEE+Calibri-Bold, /BCDFEE+Calibri-Bold, /BCDJEE+Calibri-Italicfigures-alt, headings-none, 
+- figures missing alt text (count=170), headings-none, 
 
 ### 4.1.1-RESEAU-AEP.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4.1.1-RESEAU-AEP.pdf
 - **Status**: analysed
-- title, tagged-content-fail, fonts:/BCDGEE+CenturyGothic-Bold, /BCDEEE+CenturyGothic, /BCDHEE+CenturyGothic, /BCDFEE+Bauhaus93, /ArialMTfigures-alt, headings-none, 
+- title, tagged-content-fail, figures missing alt text (count=4), headings-none, 
 
 ### 4.1.2-RESEAU-EU.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4.1.2-RESEAU-EU.pdf
 - **Status**: analysed
-- title, tagged-content-fail, fonts:/BCDEEE+CenturyGothic, /ArialGras, /ArialBlackNormal, /BCDIEE+CenturyGothic, /BCDGEE+CenturyGothic-Bold, /ArialMT, /ArialNormal, /BCDHEE+CenturyGothic-Bold, /BCDFEE+Bauhaus93figures-alt, headings-none, 
+- title, tagged-content-fail, figures missing alt text (count=4), headings-none, 
 
 ### 4.2.1-LISTE-SUP.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4.2.1-LISTE-SUP.pdf
 - **Status**: analysed
-- title, fonts:/BCDMEE+MVBoli, /BCDEEE+CenturyGothic, /BCDKEE+Calibri-Italic, /BCDNEE+Calibri-BoldItalic, /BCDLEE+Calibri-Italic, /BCDIEE+CenturyGothic, /BCDGEE+CenturyGothic-Bold, /ArialMT, /BCDJEE+Calibri, /BCDHEE+CenturyGothic-Bold, /BCDFEE+Bauhaus93figures-alt, headings-none, 
+- title, figures missing alt text (count=4), headings-none, 
 
 ### 4.2.2-PLAN-SUP.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4.2.2-PLAN-SUP.pdf
 - **Status**: analysed
-- title, tagged, lang, fonts:/ArialGras, /TahomaNormal, /ArialNormal, /TahomaGrasuntagged-images, 
+- title, tagged, lang, 
 
 ### 4.2.3-PPR-SECHERESSE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4.2.3-PPR-SECHERESSE.pdf
 - **Status**: analysed
-- title, tagged-content-fail, fonts:/BCDEEE+CenturyGothic, /BCDHEE+CenturyGothic, /BAAAAA+Arial-BoldMT, /BCDGEE+CenturyGothic-Bold, /ArialMT, /CAAAAA+TimesNewRomanPS-BoldMT, /EAAAAA+Arial-ItalicMT, /CAAAAA+Arial-BoldMT, /FAAAAA+TimesNewRomanPS-BoldMT, /BCDFEE+Bauhaus93, /CAAAAA+ArialMT, /EAAAAA+Arial-BoldMT, /BAAAAA+ArialMT, /DAAAAA+Garamond, /EAAAAA+TimesNewRomanPSMT, /DAAAAA+ArialNarrow-Bold, /DAAAAA+TimesNewRomanPSMTfigures-alt, headings-none, annotations-tagging-fail, 
+- title, tagged-content-fail, figures missing alt text (count=4), headings-none, annotations-tagging-fail, 
 
 ### 4.3.1-CIZI.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/4.3.1-CIZI.pdf
 - **Status**: analysed
-- title, tagged-content-fail, fonts:/BCDEEE+CenturyGothic, /BCDHEE+CenturyGothic, /BCDGEE+CenturyGothic-Bold, /ArialMT, /MSFUJQ+Arial,Italic, /XFFGPD+CaslonThree-Roman, /EHONUS+GillSans, /SRKWRF+ArialMT, /ORRRGX+ArialBlack, /UYDJNQ+CaslonThree-Roman, /BCDFEE+Bauhaus93, /KAVNMF+OfficinaSans-Bold, /JHCWIE+OfficinaSans-Bold, /BCDEEE+Calibri, /BUSXLX+GillSans-Bold, /OXRWYY+GillSans-Bold, /RMBTRG+GillSans-Italic, /HKXKKO+Arial, /TJFFVB+GillSans, /VGOAGE+GillSans-BoldItalic, /ESLNYC+Bodoni, /IMKZLJ+Arial,Bold, /IRGRYZ+Helvetica-Bold, /IAQKNB+OfficinaSans-BoldItalic, /WDXPNQ+OfficinaSans-BoldItalic, /IVMWJX+Arial,BoldItalic, /BSQCRR+OfficinaSans-Bookfigures-alt, headings-none, 
+- title, tagged-content-fail, figures missing alt text (count=5), headings-none, 
 
 ### 5-BP-2024-ZA-LHERM.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/5-BP-2024-ZA-LHERM.pdf
 - **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helvetica-Oblique, /Times-Bold, /Times-Roman, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 5-CA-2023-ZA-LHERM.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/5-CA-2023-ZA-LHERM.pdf
 - **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helvetica-Oblique, /Times-Bold, /Times-Roman, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 5-CULTURE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/5-CULTURE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.304444+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- no bookmarks and more than 20 pages, figures missing alt text (count=1914), headings-none, tables-fail, 
 
 ### 5-PLU_MENTION-DES-TEXTES.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/5-PLU_MENTION-DES-TEXTES.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.308624+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=2), 
 
 ### 5.-OAP_PLU-ARRETE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/5.-OAP_PLU-ARRETE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.317567+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- no bookmarks and more than 20 pages, figures missing alt text (count=143), headings-skip, tables-warn, 
 
 ### 6-BP-2024-ZA-STE-FOY.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/6-BP-2024-ZA-STE-FOY.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.321074+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 6-CA-2023-ZA-STE-FOY.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/6-CA-2023-ZA-STE-FOY.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.325862+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 6-TOURISME.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/6-TOURISME.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.336444+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- figures missing alt text (count=555), headings-none, 
 
 ### 6414-Depliant-promo-Appli-Pajemploi-Urssaf.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/09/6414-Depliant-promo-Appli-Pajemploi-Urssaf.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.350387+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, 
 
 ### 7-BP-2024-ZA-DESCAILLAUX.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/7-BP-2024-ZA-DESCAILLAUX.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.353973+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 7-CA-2023-ZA-DESCAILLAUX.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/7-CA-2023-ZA-DESCAILLAUX.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.358497+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 7-DEVELOPPEMENT-ECONOMIQUE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/7-DEVELOPPEMENT-ECONOMIQUE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.365065+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- figures missing alt text (count=706), headings-none, 
 
 ### 8-BP-2024-ZA-BOUSSENS.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/8-BP-2024-ZA-BOUSSENS.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.368453+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 8-CA-2023-ZA-BOUSSENS.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/8-CA-2023-ZA-BOUSSENS.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.372887+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 8-FRANCE-SERVICES.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/8-FRANCE-SERVICES.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.376885+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- figures missing alt text (count=215), headings-none, 
 
 ### 9-BP-2024-ZA-MARTRES.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/9-BP-2024-ZA-MARTRES.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.380278+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 9-CA-2023-ZA-MARTRES.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/9-CA-2023-ZA-MARTRES.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.384732+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 9-NUMERIQUE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/9-NUMERIQUE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.387528+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- figures missing alt text (count=68), headings-none, 
 
 ### 99_DE-031-200068815-20210303-D_2021_34_7_10-DE-1-1_2.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/99_DE-031-200068815-20210303-D_2021_34_7_10-DE-1-1_2.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.392458+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- no bookmarks and more than 20 pages, figures missing alt text (count=3), tables-fail, 
 
 ### 99_DE-031-200068815-20220721-D_2022_17_7_5-DE-1-1_1-1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220721-D_2022_17_7_5-DE-1-1_1-1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.394531+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20220728-DEC_2022_16_8_4-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/07/99_DE-031-200068815-20220728-DEC_2022_16_8_4-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.396626+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20220830-DEC_2022_18_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220830-DEC_2022_18_1_1-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.398644+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20220908-DEC_2022_19_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220908-DEC_2022_19_1_1-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.400679+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20220908-D_2022_20_7_3-DE-1-1_1-2.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220908-D_2022_20_7_3-DE-1-1_1-2.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.402747+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20220920-DEC_2022_21_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220920-DEC_2022_21_1_1-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.404772+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20220920-DE_2022_22_7_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220920-DE_2022_22_7_1-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.406845+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20220922-D_2022_159_7_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220922-D_2022_159_7_1-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.409121+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20220927-DEC_2022_23_1_1-DE-1-1_1-1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220927-DEC_2022_23_1_1-DE-1-1_1-1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.411539+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-none, tables-fail, 
 
 ### 99_DE-031-200068815-20221011-DEC_2022_24_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/10/99_DE-031-200068815-20221011-DEC_2022_24_1_1-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.413573+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20221018-DEC_2022_25_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221018-DEC_2022_25_1_1-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.415593+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20221020-D_2022_194_7_2-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/10/99_DE-031-200068815-20221020-D_2022_194_7_2-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.418373+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged-content-fail, figures missing alt text (count=1), headings-none, tables-fail, 
 
 ### 99_DE-031-200068815-20221031-DEC_2022_26_7_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221031-DEC_2022_26_7_1-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.420438+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20221107-DEC_2022_27_71-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221107-DEC_2022_27_71-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.423033+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20221108-DEC_2022_28_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221108-DEC_2022_28_1_1-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.425115+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20221129-DEC_2022_30_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221129-DEC_2022_30_1_1-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.427133+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20221208-DEC_2022_31_71B-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221208-DEC_2022_31_71B-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.429151+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20221212-DEC_2022_32_7_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221212-DEC_2022_32_7_1-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.431168+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20221213-DEC_2022_33_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221213-DEC_2022_33_1_1-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.433252+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20221215-D_2022_246_7_8-DE-1-1_1-combine_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221215-D_2022_246_7_8-DE-1-1_1-combine_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.446573+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, annotations-untagged, 
 
 ### 99_DE-031-200068815-20221219-DEC_2022_34_8_2-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221219-DEC_2022_34_8_2-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.449158+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, figures missing alt text (count=2), headings-none, tables-fail, 
 
 ### 99_DE-031-200068815-20221220-DEC_2022_35_710-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221220-DEC_2022_35_710-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.451653+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, figures missing alt text (count=2), headings-none, tables-fail, 
 
 ### 99_DE-031-200068815-20230103-DEC_2023_01_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/01/99_DE-031-200068815-20230103-DEC_2023_01_1_1-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.453904+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20230117-DEC_2023_2_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/01/99_DE-031-200068815-20230117-DEC_2023_2_1_1-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.456086+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20230117-DEC_2023_3_8_2B-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/01/99_DE-031-200068815-20230117-DEC_2023_3_8_2B-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.458348+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20230124-DEC_2023_4_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/99_DE-031-200068815-20230124-DEC_2023_4_1_1-DE-1-1_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.460399+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20230213-DEC_2023_5_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/99_DE-031-200068815-20230213-DEC_2023_5_1_1-DE-1-1_1.pdf
 - **Status**: analysed
-- title, tagged, lang, untagged-images, 
+- title, tagged, lang, 
 
 ### 99_DE-031-200068815-20230216-D_2023_18_7_8-DE-1-1_1-combin%C3%A9.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/99_DE-031-200068815-20230216-D_2023_18_7_8-DE-1-1_1-combin%C3%A9.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.471419+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, annotations-untagged, 
 
 ### A-Rapport-denquete-unique-evolution-PLU-Savere.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/A-Rapport-denquete-unique-evolution-PLU-Savere.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.476314+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=44), 
 
 ### A2-Annexes-rapport-Saveres.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/A2-Annexes-rapport-Saveres.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.491021+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, annotations-untagged, 
 
 ### ARRETE-2.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/ARRETE-2.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.493707+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### AVIS-DE-PUBLICATION.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/AVIS-DE-PUBLICATION.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.495932+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### Affiche-2024.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/Affiche-2024.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.499276+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, 
 
 ### Affiche-Contactez-nous-27.07.2023.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/10/Affiche-Contactez-nous-27.07.2023.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.501598+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-none, 
 
 ### Aides-employeur-Septembre-2025.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/09/Aides-employeur-Septembre-2025.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.504268+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- headings-warn, 
 
 ### Annexe-1_PADD-debattu.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-1_PADD-debattu.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.509213+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, figures missing alt text (count=25), 
 
 ### Annexe-2_Zonage-de-la-carte-communale.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-2_Zonage-de-la-carte-communale.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.513886+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### Annexe-3_Zonage-PLU_En-cours.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-3_Zonage-PLU_En-cours.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.523488+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### Annexe-4_Cartographie-de-superposition.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-4_Cartographie-de-superposition.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.526736+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, figures missing alt text (count=4), 
 
 ### Annuaire-Coeur-de-Garonne-Mfhg-v5.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/09/Annuaire-Coeur-de-Garonne-Mfhg-v5.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.529421+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, headings-none, 
 
 ### Arrete-du-23-septembre-2021-portant-creation-dune-charte-nationale-pour-laccueil-du-jeune-enfant.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/03/Arrete-du-23-septembre-2021-portant-creation-dune-charte-nationale-pour-laccueil-du-jeune-enfant.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.531849+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- headings-none, 
 
 ### Articulation-des-diff%C3%A9rentes-%C3%A9tudes-GEMAPI-en-cours-sur-le-bassin-versant-du-Touch-PAPI-janvier-2023.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/Articulation-des-diff%C3%A9rentes-%C3%A9tudes-GEMAPI-en-cours-sur-le-bassin-versant-du-Touch-PAPI-janvier-2023.pdf
 - **Status**: analysed
-- title, tagged, lang, fonts:/*Calibri-16180-Identity-H, /*Times New Roman-16179-Identity-H, /*Arial-Bold-16183-Identity-H, /*Verdana-Italic-16188-Identity-H, /*Arial-BoldItalic-16185-Identity-H, /*Arial-Bold-16186-Identity-H, /*Tahoma-Bold-16191-Identity-H, /*Calibri-Bold-16181-Identity-H, /*Arial-16182-Identity-H, /*Arial-Bold-16184-Identity-H, /*Arial-Bold-16187-Identity-H, /*Microsoft Sans Serif-16189-Identity-H, /*Microsoft Sans Serif-Bold-16190-Identity-Huntagged-images, 
+- title, tagged, lang, 
 
 ### Avis-dappel-a-candidature-aux-assos-Nomination-des-administrateurs-CIAS-3CG.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/Avis-dappel-a-candidature-aux-assos-Nomination-des-administrateurs-CIAS-3CG.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.539608+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged-content-fail, figures missing alt text (count=1), headings-none, 
 
 ### Avis_enquete_PNRCBP.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/02/Avis_enquete_PNRCBP.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.543303+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### B-Conclusions-et-avis-Modification-n%C2%B02-PLU-Saveres-31.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/B-Conclusions-et-avis-Modification-n%C2%B02-PLU-Saveres-31.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.546519+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, figures missing alt text (count=1), 
 
 ### BP-2020-PDR.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-PDR.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.552442+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2020-PHOTOVOLTAIQUE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-PHOTOVOLTAIQUE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.559208+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2020-ZA-BOURGAIL-BERAT.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-BOURGAIL-BERAT.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.566478+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2020-ZA-BOUSSENS.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-BOUSSENS.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.573818+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2020-ZA-DESCAILLAUX.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-DESCAILLAUX.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.581382+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2020-ZA-MARTRES-TOLOSANE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-MARTRES-TOLOSANE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.588711+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2020-ZA-STE-FOY-DE-PEYROLIERES.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-STE-FOY-DE-PEYROLIERES.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.596127+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2022-OTI-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-OTI-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.600642+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2022-PDR-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-PDR-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.605050+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2022-PHOTOVOLTAIQUE-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-PHOTOVOLTAIQUE-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.607641+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2022-PRINCIPAL-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-PRINCIPAL-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.612822+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2022-ZA-BOURGAIL-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-BOURGAIL-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.617210+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2022-ZA-BOUSSENS-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-BOUSSENS-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.621551+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2022-ZA-DESCAILLAUX-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-DESCAILLAUX-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.625917+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2022-ZA-LHERM-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-LHERM-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.630257+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2022-ZA-MARTRES-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-MARTRES-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.634608+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2022-ZA-STE-FOY-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-STE-FOY-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.639009+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2023-BP-PRINCIPAL-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-BP-PRINCIPAL-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.644226+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2023-OTI-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-OTI-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.648564+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2023-PDR-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-PDR-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.652877+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2023-PHOTOVOLTAIQUE-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-PHOTOVOLTAIQUE-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.655443+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2023-ZA-BERAT-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-BERAT-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.659721+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2023-ZA-BOUSSENS-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-BOUSSENS-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.664045+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2023-ZA-DESCAILLAUX.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-DESCAILLAUX.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.668241+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2023-ZA-LHERM-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-LHERM-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.672554+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2023-ZA-MARTRES-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-MARTRES-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.676853+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-2023-ZA-STE-FOY-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-STE-FOY-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.681141+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-BUDGET-PRINCIPAL-18-VERSION-4.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/BP-BUDGET-PRINCIPAL-18-VERSION-4.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.688975+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-CIAS-2026-SAAD-A-imprimer.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-CIAS-2026-SAAD-A-imprimer.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.704088+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### BP-CIAS-2026-SCELLE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-CIAS-2026-SCELLE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.707992+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### BP-CIAS-PDR-2026-SCELLE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-CIAS-PDR-2026-SCELLE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.711604+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### BP-OTI-2025.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-OTI-2025.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.715020+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### BP-OTI.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-OTI.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.718599+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-PDR-2025.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-PDR-2025.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.721961+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-PHOTOVOLTAIQUE-2025.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-PHOTOVOLTAIQUE-2025.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.724221+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-PHOTOVOLTAIQUE.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-PHOTOVOLTAIQUE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.726856+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-PRINCIPAL-2025.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-PRINCIPAL-2025.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.731189+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-PRINCIPAL-2026.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-PRINCIPAL-2026.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.735609+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-SAAD-2025-fusionne.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-SAAD-2025-fusionne.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.751490+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-SPED-2023-VOTE.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-SPED-2023-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.754236+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-SPED-2025.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-SPED-2025.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.756608+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-SPED.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-SPED.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.759241+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-ZA-BOURGAIL-2025.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-ZA-BOURGAIL-2025.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.762600+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-ZA-BOURGAIL-2026.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-ZA-BOURGAIL-2026.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.766136+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-ZA-BOUSSENS-2025.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-ZA-BOUSSENS-2025.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.769450+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-ZA-BOUSSENS-2026.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-ZA-BOUSSENS-2026.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.772957+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-ZA-DESCAILLAUX-2025.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-ZA-DESCAILLAUX-2025.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.776275+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-ZA-DESCAILLAUX-2026.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-ZA-DESCAILLAUX-2026.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.779827+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-ZA-LHERM-2025-0.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-ZA-LHERM-2025.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.783334+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-ZA-LHERM-2025.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-ZA-LHERM-2025.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.786657+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-ZA-MARTRES-2025.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-ZA-MARTRES-2025.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.790007+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-ZA-MARTRES-2026.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-ZA-MARTRES-2026.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.793533+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-ZA-STE-FOY-2025.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-ZA-STE-FOY-2025.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.796901+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### BP-ZA-STE-FOY-2026.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-ZA-STE-FOY-2026.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.800408+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Berat-2026.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/12/Berat-2026.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.807813+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Boussens-2026.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/12/Boussens-2026.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.815206+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M14-BUDGET-PRINCIPAL-4.04.19.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-BUDGET-PRINCIPAL-4.04.19.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.823098+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M14-PDR-1.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-PDR-1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.830528+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M14-PDR.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-PDR.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.837438+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M14-ZA-BOURGAIL.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-BOURGAIL.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.844422+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M14-ZA-BOUSSENS-1.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-BOUSSENS-1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.851804+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M14-ZA-BOUSSENS.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-BOUSSENS.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.858907+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M14-ZA-DESCAILLAUX-2.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-DESCAILLAUX-2.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.866051+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M14-ZA-DESCAILLAUX.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-DESCAILLAUX.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.873201+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M14-ZA-LHERM-1.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-LHERM-1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.880767+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M14-ZA-LHERM.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-LHERM.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.887905+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M14-ZA-MARTRES-TOLOSANE-1.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-MARTRES-TOLOSANE-1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.895275+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M14-ZA-MARTRES-TOLOSANE.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-MARTRES-TOLOSANE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.902363+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M14-ZA-STE-FOY-1.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-STE-FOY-1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.909853+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M14-ZA-STE-FOY.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-STE-FOY.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.916957+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M22-2020.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/Budget-M22-2020.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.920770+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M22-2021.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-M22-2021.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.924459+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M22-2022-VOTE.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/Budget-M22-2022-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.928323+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M22-2023-VOTE.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/Budget-M22-2023-VOTE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.932194+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M22-SAD-1.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M22-SAD-1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.936044+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M22-SAD.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M22-SAD.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.939742+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M4-PHOTOVOLTAIQUE.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M4-PHOTOVOLTAIQUE.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.946537+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M4-Photovoltaique.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M4-Photovoltaique.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.952996+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-M49-EAU.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M49-EAU.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.959864+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-OTI-2021.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-OTI-2021.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.965086+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-PDR-2021.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-PDR-2021.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.970323+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-Photovoltaique-2021.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-Photovoltaique-2021.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.973090+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-Principal-3CG-2021.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-Principal-3CG-2021.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.979345+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-ZA-Bourgail-a-Berat-2021.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-ZA-Bourgail-a-Berat-2021.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.984527+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-ZA-Boussens-2021.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-ZA-Boussens-2021.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.989706+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-ZA-DESCAILLAUX-2021.pdf
-
-- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-ZA-DESCAILLAUX-2021.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.994858+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 7577Birth-certificates-and-source-documents-FAQ.pdf
 
@@ -72716,96 +70860,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/conversations%20with%20scott%20boyles%20part%20iii.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.331354+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### 590921.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/590921.pdf
-- **Status**: analysed
-- fonts:/KAZIPZ+ArialMT, /QJBSVN+Arial-BoldMTforms-fail, forms-tagging-fail, 
-
-### 593931.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/593931.pdf
-- **Status**: analysed
-- fonts:/UNWILP+Arial-ItalicMT, /TXSSWH+Arial, /XCIVBJ+Arial-BoldItalicMT, /YROWPH+Arial-BoldMT, /EJBAVV+ArialMT, /YOYQIX+Arial-ItalicMTlists-warn, 
-
-### 595906.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/595906.pdf
-- **Status**: analysed
-- fonts:/ZXENJV+Arial-BoldMT, /KYRBHZ+ArialMT, /EXNMBL+Georgia
-
-### ADD-CA-EN.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/small-business/ADD-CA-EN.pdf
-- **Status**: analysed
-- fonts:/RSVTAQ+WellsFargoSans-Bold, /IUMWEI+WellsFargoSans-Display, /CGUSFT+TimesNewRoman, /YXJOUC+WellsFargoSans-Light, /IUMWEI+WellsFargoSans-Regular, /BUYBKW+WellsFargoSans-SemiBold
-
-### DMCA-notice.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/privacy-security/DMCA-notice.pdf
-- **Status**: analysed
-- fonts:/ADRKKN+Arial, /EZATGQ+ArialMT, /XATOEO+Arial
-
-### california.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/es/small-business/deposits/online-disclosures/addenda/california.pdf
-- **Status**: analysed
-- fonts:/QPMLII+WellsFargoSans-Regular, /IQNPAY+WellsFargoSans-Light, /DERIGC+TimesNewRoman, /XPAGCU+WellsFargoSans-Light, /ZNVNEQ+WellsFargoSans-SemiBold, /QPMLII+WellsFargoSans-Display, /QPMLII+WellsFargoSans-Bold
-
-### fetch-pdf-0.pdf
-
-- **URL**: https://www.wellsfargo.com/fetch-pdf?formNumber=CNS2013&subProductCode=ANY
-- **Status**: analysed
-- fonts:/LVCTKS+WellsFargoSans-Regular, /KRNNWU+WellsFargoSans-Regular, /JSDHIW+WellsFargoSans-Display, /EIQDQG+WellsFargoSans-Light, /FMAJEE+WellsFargoSans-Bold, /HPZVGA+WellsFargoSans-Bold, /CFMROK+WellsFargoSans-Light, /ACNFMO+WellsFargoSans-BoldItalic, /BAKYDQ+TimesNewRoman
-
-### fetch-pdf-1.pdf
-
-- **URL**: https://www.wellsfargo.com/fetch-pdf?formNumber=CCB2018C&subProductCode=ANY
-- **Status**: analysed
-- fonts:/SOBPUY+WellsFargoSans-Light, /MFZFOK+WellsFargoSans-Bold, /LBPZAM+Wingdings-Regular, /PYGQJE+WellsFargoSans-Regular, /RPMJGA+WellsFargoSans-Regular, /OIDRQG+WellsFargoSans-Bold, /BBVRHB+TimesNewRoman, /TSQVIW+WellsFargoSans-Light, /PMNXEE+WellsFargoSans-Display
-
-### fetch-pdf-2.pdf
-
-- **URL**: https://www.wellsfargo.com/fetch-pdf?formNumber=CNS2013SP&subProductCode=ANY
-- **Status**: analysed
-- fonts:/EQAPZK+WellsFargoSans-Regular, /ZTLGHU+WellsFargoSans-Bold, /OSYXJQ+WellsFargoSans-Bold, /OSYXJQ+WellsFargoSans-Regular, /ZTLGHU+WellsFargoSans-Light, /OSYXJQ+WellsFargoSans-Display
-
-### fetch-pdf.pdf
-
-- **URL**: https://www.wellsfargo.com/fetch-pdf?documentName=Account%20Addenda&subProductCode=ANY
-- **Status**: analysed
-- fonts:/OOFGNL+WellsFargoSans-Display, /AGEAZN+WellsFargoSans-SemiBold, /IFDRHX+WellsFargoSans-Bold, /TPEDCH+TimesNewRoman, /FQRERD+Calibri, /SCBZRD+WellsFargoSans-Regular, /CBFMBJ+WellsFargoSans-Light, /MBCPLP+Calibri-Bold, /ZZRULP+WellsFargoSans-Light
-
-### fw8ben.pdf
-
-- **URL**: https://www.irs.gov/pub/irs-pdf/fw8ben.pdf
-- **Status**: analysed
-- fonts:/CFUVYJ+HelveticaNeueLTStd-Roman, /CNSQYJ+UniversalStd-NewswithCommPi, /DWGBMH+HelveticaNeueLTStd-BlkCn, /AKTEWN+UniversalStd-NewswithCommPi, /ZQIDIP+HelveticaNeueLTStd-BdIt, /EAVHAF+AdobePiStd, /THGTCB+HelveticaNeueLTStd-Bd, /MCSDIP+ITCFranklinGothicStd-Demiforms-fail, forms-tagging-fail, 
-
-### fw9.pdf
-
-- **URL**: https://www.irs.gov/pub/irs-pdf/fw9.pdf
-- **Status**: analysed
-- fonts:/ZKUMQA+HelveticaNeueLTStd-BlkCn, /OKAJSW+HelveticaNeueLTStd-Roman, /MBEHQA+HelveticaNeueLTStd-Bd, /MCXSQA+ITCFranklinGothicStd-Demi, /FEOMWO+HelveticaNeueLTStd-It, /PVUZGU+HelveticaNeueLTStd-BdItheadings-skip, forms-fail, forms-tagging-fail, 
-
-### identity-theft-kit.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf
-- **Status**: error
-- File not found: crawled_files/wellsfargo.com/identity-theft-kit.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:33:37.002412+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### set-up-direct-deposit-CNS3519.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/personal/checking/set-up-direct-deposit-CNS3519.pdf
-- **Status**: analysed
-- fonts:/NWWZYI+Arial-BoldMT, /PMXQAE+WellsFargoSans-Regular, /GJFJEW+ArialMT, /ANKZYI+WellsFargoSans-Italic, /BZSFMG+MICR12byBT-Regular, /IMJVGS+Arial-BoldMT, /KPENVD+TimesNewRoman, /KHKMIO+WellsFargoSans-SemiBold, /SBJDQY+WellsFargoSans-Bold, /YKGNWM+Webdings, /FXXDQY+WellsFargoSans-Italic
-
-### us_consumer_privacy_notice_english-0.pdf
-
-- **URL**: https://www08.wellsfargomedia.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf
-- **Status**: analysed
-- fonts:/BCDFEE+WellsFargoSans-Bold, /BCDGEE+WellsFargoSans-Regular, /BCDEEE+WellsFargoSans-Regular, /UYQNJJ+MinionPro-Regular, /FBEDKT+Arial, /BCDJEE+WellsFargoSans-Italic, /BCDHEE+WellsFargoSans-SemiBold, /BCDKEE+Calibri, /BCDLEE+WellsFargoSans-BoldItalic, /BCDIEE+WellsFargoSans-SemiBold
 
 ### New-Zealand-Traveller-Declaration-Easy-Read-22-07-2024.pdf
 
