@@ -1,18 +1,17 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-15T16:10:58.474410+00:00
+Generated: 2026-07-15T16:54:58.464870+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 617 |
 | Total files tracked | 29630 |
-| Analysed | 6326 |
-| Pending analysis | 16742 |
-| Errors during analysis | 6562 |
+| Analysed | 6327 |
+| Pending analysis | 16697 |
+| Errors during analysis | 6606 |
 | Accessible | 2007 |
-| Issues found | 4319 |
+| Issues found | 4320 |
 | Totally inaccessible subset | 263 |
 | Broken / unreadable | 32 |
 | Exempt (pre-2018) | 1502 |
@@ -3368,6 +3367,7 @@ Generated: 2026-07-15T16:10:58.474410+00:00
 | [flag%20program%20flying%20request%20form.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/about/documents/flag%20program%20flying%20request%20form.pdf) | pa.gov | 2024-09-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 131 | 0 |
 | [hanover%20nhios%20town%20hall%20flyer-%20new%20date.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2025/hanover%20nhios%20town%20hall%20flyer-%20new%20date.pdf) | pa.gov | 2025-10-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 142 | 11 |
 | [immigration%20nhios%20town%20hall%20flyer%20(3).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2026/immigration%20nhios%20town%20hall%20flyer%20(3).pdf) | pa.gov | 2026-02-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 148 | 14 |
+| [it-policy-crosswalk.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/programs/information-technology/documents/it-policy-crosswalk.pdf) | pa.gov | 2026-07-15 | — | Grim, Christopher | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | ✅ Pass | ❌ Fail | 15 | 301.7 KB | 2534 | 1 |
 | [lce_pe_readiness_tests.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/lce_pe_readiness_tests.pdf) | pa.gov | 2025-11-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 128.3 KB | 577 | 1 |
 | [legislative_inquiries_submission_update.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/legislative_inquiries_submission_update.pdf) | pa.gov | 2025-02-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 709 | 27 |
 | [library%20collection.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/odhh/odhh-resources/documents/library%20collection.pdf) | pa.gov | 2015-04-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 49.0 KB | 200 | 0 |
@@ -48813,6 +48813,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, 
 
+### it-policy-crosswalk.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/programs/information-technology/documents/it-policy-crosswalk.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-none, 
+
 ### library%20collection.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/odhh/odhh-resources/documents/library%20collection.pdf
@@ -53894,12 +53900,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.energy.gov/sites/default/files/2025-11/Organization-Chart-11.20.2025-2.pdf
 - **Status**: analysed
 - title, tagged, lang, fonts:/CLPMNF+Calibri,Bold, /CLPMNH+Calibriuntagged-images, 
-
-### PIA%20Guide%20Aug%202023_0.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2023-08/PIA%20Guide%20Aug%202023_0.pdf
-- **Status**: analysed
-- fonts:/CWYWFU+Roboto-Regular, /XENXNE+ArialMT, /NUMPDY+Calibri-Bold, /ZHMJPA+SymbolMT, /SUATVO+TimesNewRomanPSMT, /ZESOPA+Calibri, /CJABFU+Calibri-BoldItalic, /SUATVO+MS-Gothic, /UHDKXK+Calibri-Light, /MDAJPA+Calibri-Italictables-warn, 
 
 ### PIA%20Guide%20Aug%202023_0.pdf
 
@@ -70562,6 +70562,270 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-SPED.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.759241+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-BOURGAIL-2025.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-ZA-BOURGAIL-2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.762600+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-BOURGAIL-2026.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-ZA-BOURGAIL-2026.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.766136+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-BOUSSENS-2025.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-ZA-BOUSSENS-2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.769450+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-BOUSSENS-2026.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-ZA-BOUSSENS-2026.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.772957+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-DESCAILLAUX-2025.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-ZA-DESCAILLAUX-2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.776275+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-DESCAILLAUX-2026.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-ZA-DESCAILLAUX-2026.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.779827+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-LHERM-2025-0.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-ZA-LHERM-2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.783334+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-LHERM-2025.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-ZA-LHERM-2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.786657+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-MARTRES-2025.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-ZA-MARTRES-2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.790007+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-MARTRES-2026.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-ZA-MARTRES-2026.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.793533+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-STE-FOY-2025.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-ZA-STE-FOY-2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.796901+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BP-ZA-STE-FOY-2026.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-ZA-STE-FOY-2026.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.800408+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Berat-2026.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/12/Berat-2026.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.807813+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Boussens-2026.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/12/Boussens-2026.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.815206+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-BUDGET-PRINCIPAL-4.04.19.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-BUDGET-PRINCIPAL-4.04.19.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.823098+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-PDR-1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-PDR-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.830528+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-PDR.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-PDR.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.837438+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-BOURGAIL.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-BOURGAIL.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.844422+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-BOUSSENS-1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-BOUSSENS-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.851804+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-BOUSSENS.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-BOUSSENS.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.858907+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-DESCAILLAUX-2.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-DESCAILLAUX-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.866051+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-DESCAILLAUX.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-DESCAILLAUX.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.873201+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-LHERM-1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-LHERM-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.880767+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-LHERM.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-LHERM.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.887905+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-MARTRES-TOLOSANE-1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-MARTRES-TOLOSANE-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.895275+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-MARTRES-TOLOSANE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-MARTRES-TOLOSANE.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.902363+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-STE-FOY-1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-STE-FOY-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.909853+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M14-ZA-STE-FOY.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M14-ZA-STE-FOY.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.916957+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M22-2020.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/Budget-M22-2020.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.920770+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M22-2021.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-M22-2021.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.924459+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M22-2022-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/Budget-M22-2022-VOTE.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.928323+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M22-2023-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/Budget-M22-2023-VOTE.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.932194+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M22-SAD-1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M22-SAD-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.936044+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M22-SAD.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M22-SAD.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.939742+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M4-PHOTOVOLTAIQUE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M4-PHOTOVOLTAIQUE.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.946537+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M4-Photovoltaique.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M4-Photovoltaique.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.952996+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-M49-EAU.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/Budget-M49-EAU.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.959864+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-OTI-2021.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-OTI-2021.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.965086+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-PDR-2021.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-PDR-2021.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.970323+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-Photovoltaique-2021.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-Photovoltaique-2021.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.973090+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-Principal-3CG-2021.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-Principal-3CG-2021.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.979345+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-ZA-Bourgail-a-Berat-2021.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-ZA-Bourgail-a-Berat-2021.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.984527+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-ZA-Boussens-2021.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-ZA-Boussens-2021.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.989706+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Budget-ZA-DESCAILLAUX-2021.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/Budget-ZA-DESCAILLAUX-2021.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.994858+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 7577Birth-certificates-and-source-documents-FAQ.pdf
 
