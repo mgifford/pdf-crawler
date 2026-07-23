@@ -1,15 +1,14 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-23T13:23:58.823526+00:00
+Generated: 2026-07-23T14:07:38.465656+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 117 |
-| Total files tracked | 29631 |
+| Total files tracked | 29643 |
 | Analysed | 6327 |
-| Pending analysis | 16683 |
+| Pending analysis | 16695 |
 | Errors during analysis | 6621 |
 | Accessible | 2007 |
 | Issues found | 4320 |
@@ -46,7 +45,7 @@ Generated: 2026-07-23T13:23:58.823526+00:00
 | ecboces.org | 75 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
-| energy.gov | 4643 |
+| energy.gov | 4655 |
 | erappa.org | 17 |
 | euclinicaltrials.eu | 78 |
 | gci-ga.com | 61 |
@@ -5075,8 +5074,8 @@ Generated: 2026-07-23T13:23:58.823526+00:00
 | [Maryland-NASPO-Wireless-ATT-PA-Final_signed_legal_sufficiency.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Wireless-Voice-Data-and-Accessories/Documents/Maryland-NASPO-Wireless-ATT-PA-Final_signed_legal_sufficiency.pdf) | doit.maryland.gov | 2025-12-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 116 | 1 |
 | [2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team.pdf](https://www.energy.gov/cmei/fuels/articles/2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team) | energy.gov | 2023-04-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 212 | 10 |
 | [Infographic%20SPR%2002_2023.pdf](https://www.energy.gov/sites/default/files/2023-03/Infographic%20SPR%2002_2023.pdf) | energy.gov | 2023-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — | — |
-| [OEA_WashingtonDC.pdf](https://www.energy.gov/sites/default/files/2026-03/OEA_WashingtonDC.pdf) | energy.gov | 2026-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — | — |
-| [OMEI_WashingtonDC.pdf](https://www.energy.gov/sites/default/files/2026-03/OMEI_WashingtonDC.pdf) | energy.gov | 2026-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — | — |
+| [OEA_WashingtonDC.pdf](https://www.energy.gov/sites/default/files/2026-03/OEA_WashingtonDC.pdf) | energy.gov | 2026-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 252.2 KB | — | — |
+| [OMEI_WashingtonDC.pdf](https://www.energy.gov/sites/default/files/2026-03/OMEI_WashingtonDC.pdf) | energy.gov | 2026-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 203.1 KB | — | — |
 | [WAPA_Posting_Notice.pdf](https://www.energy.gov/sites/default/files/2026-03/WAPA_Posting_Notice.pdf) | energy.gov | 2026-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 192.2 KB | — | — |
 | [bto-peer-2023-25204-seed-nrel-longpdf.pdf](https://www.energy.gov/documents/bto-peer-2023-25204-seed-nrel-longpdf) | energy.gov | 2023-05-30 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 22 | 8.2 MB | — | — |
 | [doe-national-labs-report-finalpdf.pdf](https://www.energy.gov/documents/doe-national-labs-report-finalpdf) | energy.gov | 2021-01-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 96 | — | 38681 | 144 |
