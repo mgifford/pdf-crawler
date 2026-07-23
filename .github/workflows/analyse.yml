@@ -760,7 +760,9 @@ jobs:
                   `⚠️ **Partial scan paused after ${attempt} automatic continuation attempts.**`,
                   '',
                   `There are still **${pendingCount} pending PDFs** for this site.`,
-                  `A fresh crawl may be needed to complete the remainder.`,
+                  `A fresh crawl is needed to complete the remainder.`,
+                  `To continue: close and reopen this issue to trigger a fresh crawl.`,
+                  `The fresh crawl will clear stale entries and reset the continuation counter.`,
                   '',
                   `[View latest analysis run](${process.env.RUN_URL})`
                 ].join('\n'),

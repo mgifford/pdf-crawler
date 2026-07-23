@@ -134,6 +134,17 @@ patterns in `tests/`.
   it cannot interrupt C-extension calls in pdfminer/pikepdf.
 - **Deduplication:** `manifest.py` computes an MD5 hash for each discovered
   file.  Unchanged files are skipped on subsequent runs, keeping CI compute low.
+- **Auto-continue (`scan-partial`):** After each analysis pass, if pending PDFs
+  remain the workflow automatically dispatches another `analyse.yml` run
+  (`continue_attempt` incremented by 1, max 5).  Once `continue_attempt`
+  reaches 5 the workflow stops and posts a "paused" comment on the issue.  The
+  fix is always a fresh crawl (reopen the issue), not a manual re-dispatch of
+  `analyse.yml`, because manual re-dispatch does not clear stale manifest
+  entries.
+- **Debugging a stuck scan:** Check (a) `SITE_PENDING` in the
+  "Auto-continue partial scan" step logs, (b) `STALE_COUNT` in the
+  "Check stale entries" step, and (c) `CONTINUE_ATTEMPT` in the env block.
+  If attempt ≥ 5 and stale count > 0, a fresh crawl is required.
 
 ---
 
