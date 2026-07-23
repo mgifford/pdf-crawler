@@ -177,12 +177,29 @@ automatically:
 * Issues that carry *both* `scan-in-progress` and `scan-complete` (a stale
   label left over from an earlier run) are silently tidied up.
 
+#### Partial scans (`scan-partial`)
+
+After an initial crawl, the analyser processes up to 200 PDFs per run and will
+automatically re-queue itself up to **5 times**.  If the site has more than
+~1 000 pending PDFs, or if many entries are *stale* (their downloaded files
+expired before they could be analysed), the scan will pause with a `scan-partial`
+label and a comment that reads "Partial scan paused after 5 automatic
+continuation attempts."
+
+To continue: **close and reopen the issue** to trigger a fresh crawl.  The
+fresh crawl re-downloads all PDFs, clears stale entries, and resets the
+continuation counter to 0.
+
+> **Note:** Increasing the `Number:` limit in the issue body is not enough on
+> its own — stale entries must be cleared by re-crawling.
+
 #### Issue lifecycle
 
 | Label | Meaning |
 |-------|---------|
 | `scan-in-progress` | Crawl or analysis is currently running |
 | `scan-failed` | The crawl workflow failed; reopen the issue to retry |
+| `scan-partial` | Analysis ran but PDFs remain pending; close and reopen to re-crawl |
 | `scan-complete` | Analysis finished and reports have been generated |
 
 Issues are **automatically closed** once the accessibility report is posted.
@@ -260,6 +277,12 @@ Repeat this process until the crawl completes within the time limit.
 * **Large PDFs slow analysis** – even a crawl of 50 pages can time out during
   the *Analyse PDFs* step if the individual files are very large.  The
   `scan-failed` label signals an analysis failure; reopen the issue to retry.
+* **Stale entries** – If analysis pauses and the workflow logs show a non-zero
+  `STALE_COUNT`, those are manifest entries from a previous crawl whose PDF
+  files are no longer available (artifact retention is 90 days).  Stale entries
+  count against the 200-PDF-per-pass limit but can never be resolved without a
+  fresh crawl.  If `NEEDS_RECRAWL: true` appears in the logs, close and reopen
+  the issue to trigger a fresh crawl.
 * **Sequential queue** – if multiple scans are queued, use
   **Actions → 3 – Process Scan Queue** to run them one-at-a-time instead of
   triggering them all simultaneously.

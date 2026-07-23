@@ -19,6 +19,17 @@ This directory stores the outputs produced by the crawl and analysis workflows.
   site: example.com
   crawled_at: "2024-01-15T10:30:00+00:00"
   status: analysed          # pending | analysed | error
+```
+
+**Status values:**
+
+| Value | Meaning |
+|-------|---------|
+| `pending` | Discovered but not yet analysed.  If the downloaded PDF file is no longer available (e.g. the GitHub Actions artifact expired after 90 days or the crawl was interrupted), the entry is counted as *stale* and skipped for that analysis pass.  Stale entries are cleared on the next successful crawl. |
+| `analysed` | Successfully analysed; results are stored in `report`. |
+| `error` | Analysis was attempted but failed; details are in `errors`. |
+
+```yaml
   link_text: "Annual Report 2023"   # optional – anchor text of the link that pointed to this PDF
   report:
     Accessible: false
