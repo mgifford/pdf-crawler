@@ -25,10 +25,10 @@
     "crawl_url": "https://www.energy.gov",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/30014413812",
     "issue_url": "",
-    "archive_file": "2026-07-23_14-51-42-568_energy.gov.html",
-    "total": 4655,
-    "analysed": 729,
-    "accessible": 197,
+    "archive_file": "2026-07-23_15-06-03-712_cc-coeurdegaronne.fr.html",
+    "total": 562,
+    "analysed": 89,
+    "accessible": 0,
     "analysis_engines": [
       "bloom",
       "original"
@@ -40,10 +40,10 @@
     "vp_error_files": 0
   },
   {
-    "date": "2026-07-23T14:07:38.465656+00:00",
-    "site": "energy.gov",
-    "crawl_url": "https://www.energy.gov",
-    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/30011070787",
+    "date": "2026-07-23T14:22:01.618623+00:00",
+    "site": "cc-coeurdegaronne.fr",
+    "crawl_url": "https://www.cc-coeurdegaronne.fr",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/30012140758",
     "issue_url": "",
     "archive_file": "2026-07-23_14-22-01-618_cc-coeurdegaronne.fr.html",
     "total": 562,
