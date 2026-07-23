@@ -4,7 +4,7 @@
     "site": "energy.gov",
     "crawl_url": "https://www.energy.gov",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/30007950034",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/261#issuecomment-5058925797",
     "archive_file": "2026-07-23_13-23-58-823_energy.gov.html",
     "total": 4643,
     "analysed": 729,
