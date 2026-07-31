@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-07-31T20:26:51.905447+00:00",
+    "site": "nsf.gov",
+    "crawl_url": "https://nsf.gov",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/30660170610",
+    "issue_url": "",
+    "archive_file": "2026-07-31_20-26-51-905_nsf.gov.html",
+    "total": 1972,
+    "analysed": 266,
+    "accessible": 220,
+    "analysis_engines": [
+      "bloom",
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
     "date": "2026-07-31T19:42:47.847444+00:00",
     "site": "nsf.gov",
     "crawl_url": "https://nsf.gov",

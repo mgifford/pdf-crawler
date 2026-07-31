@@ -1,16 +1,15 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-31T19:42:47.847444+00:00
+Generated: 2026-07-31T20:26:51.905447+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 500 |
 | Total files tracked | 29764 |
 | Analysed | 6512 |
-| Pending analysis | 17505 |
-| Errors during analysis | 5747 |
+| Pending analysis | 17489 |
+| Errors during analysis | 5763 |
 | Accessible | 2027 |
 | Issues found | 4485 |
 | Totally inaccessible subset | 289 |
@@ -65228,6 +65227,102 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-Access-Memo.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.423907+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 112269.pdf
+
+- **URL**: https://www.nsf.gov/funding/opportunities/prfb-postdoctoral-research-fellowships-biology/503622/updates/112269
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.427899+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 112277.pdf
+
+- **URL**: https://www.nsf.gov/funding/opportunities/prfb-postdoctoral-research-fellowships-biology/503622/updates/112277
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.431825+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 115700.pdf
+
+- **URL**: https://www.nsf.gov/funding/opportunities/agep-alliances-graduate-education-professoriate/5474/updates/115700
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.435564+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2.19.2025_NSF-Engines_FactSheet.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2.19.2025_NSF-Engines_FactSheet.pdf?VersionId=laBQi8W.Yjvt4HGTGMdRaIGQZWPq6JyI
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.448525+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2013-NSF-Cyberinfrastructure-Report-Final.pdf
+
+- **URL**: https://www.pgc.umn.edu/files/2018/05/2013-NSF-Cyberinfrastructure-Report-Final.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.492341+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2013_arctic_research_plan_0.pdf
+
+- **URL**: https://obamawhitehouse.archives.gov/sites/default/files/microsites/ostp/2013_arctic_research_plan_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.500763+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2021SFSBiennialReport-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2021SFSBiennialReport-r.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.540638+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2022-2024%20BIP%20FINAL%20High%20Res%2020221109.pdf
+
+- **URL**: https://www.iarpccollaborations.org/uploads/cms/documents/2022-2024%20BIP%20FINAL%20High%20Res%2020221109.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.605673+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2022-2024%20bip%20final%20high%20res%2020221109.pdf
+
+- **URL**: https://www.iarpccollaborations.org/uploads/cms/documents/2022-2024%20bip%20final%20high%20res%2020221109.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.669983+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2022-biennial-report.pdf
+
+- **URL**: https://www.iarpccollaborations.org/uploads/cms/documents/2022-biennial-report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.711564+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2023SFSBiennialReport-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2023SFSBiennialReport-r.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.746317+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2024-29244.pdf
+
+- **URL**: https://www.govinfo.gov/content/pkg/FR-2024-12-12/pdf/2024-29244.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.751113+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2024-CyberTraining-Webinar-v2.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/308354/public/2024-CyberTraining-Webinar-v2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.758122+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2024-Jan-18%20INTERN%20slides%20Prakash%20Balan.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2024-Jan-18%20INTERN%20slides%20Prakash%20Balan.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.766701+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2024-report-to-congress_iarpc.pdf
+
+- **URL**: https://www.iarpccollaborations.org/uploads/cms/documents/2024-report-to-congress_iarpc.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.772742+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2024SFSAIReport-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2024SFSAIReport-r.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.790862+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 191001-ministerrat.pdf
 
