@@ -1,6 +1,6 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-31T20:26:51.905447+00:00
+Generated: 2026-07-31T21:10:31.033803+00:00
 
 ## Summary
 
@@ -25110,7 +25110,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.nsf.gov/awards/indirect-cost-proposals
 - **Status**: error
-- File not found: crawled_files/nsf.gov/indirect-cost-proposals (crawled 0.0 day(s) ago at 2026-07-31T18:57:06.801463+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/nsf.gov/indirect-cost-proposals (crawled 0.1 day(s) ago at 2026-07-31T18:57:06.801463+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### indirect-cost-rate-adjustments.pdf
 
