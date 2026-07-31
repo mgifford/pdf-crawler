@@ -1,0 +1,26 @@
+{
+  "summary": {
+    "generated_at": "2026-07-31T14:15:55.718337+00:00",
+    "total_files": 0,
+    "analysed": 0,
+    "pending": 0,
+    "errored": 0,
+    "accessible": 0,
+    "issues_found": 0,
+    "totally_inaccessible": 0,
+    "broken": 0,
+    "exempt": 0,
+    "sites": {},
+    "engines": {},
+    "pages_crawled": 0
+  },
+  "comparison": {
+    "comparable_files": 0,
+    "accessible_disagreements": 0,
+    "tagged_disagreements": 0,
+    "title_disagreements": 0,
+    "language_disagreements": 0,
+    "bookmarks_disagreements": 0
+  },
+  "files": []
+}

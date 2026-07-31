@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Results</title>
+  <meta name="description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
+  <meta property="og:title" content="PDF Accessibility Scan Results" />
+  <meta property="og:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="PDF Accessibility Crawler" />
+  <!-- Twitter Card (also used by many other platforms) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PDF Accessibility Scan Results" />
+  <meta name="twitter:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Prevent flash of unstyled content when a saved theme preference is present -->
+  <script>
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <style>
+    /* ---- colour tokens ---- */
+    :root {
+      color-scheme: light dark;
+      --color-bg:           #f8f9fa;
+      --color-fg:           #1a1a2e;
+      --color-link:         #0d6efd;
+      --color-card-bg:      #fff;
+      --color-border:       #dee2e6;
+      --color-th-bg:        #e9ecef;
+      --color-row-stripe:   #f8f9fa;
+      --color-muted:        #6c757d;
+      --color-pass:         #198754;
+      --color-fail:         #dc3545;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --color-bg:           #0d1117;
+        --color-fg:           #e6edf3;
+        --color-link:         #4493f8;
+        --color-card-bg:      #161b22;
+        --color-border:       #30363d;
+        --color-th-bg:        #21262d;
+        --color-row-stripe:   #161b22;
+        --color-muted:        #8b949e;
+        --color-pass:         #3fb950;
+        --color-fail:         #f85149;
+      }
+    }
+
+    [data-theme="dark"] {
+      --color-bg:           #0d1117;
+      --color-fg:           #e6edf3;
+      --color-link:         #4493f8;
+      --color-card-bg:      #161b22;
+      --color-border:       #30363d;
+      --color-th-bg:        #21262d;
+      --color-row-stripe:   #161b22;
+      --color-muted:        #8b949e;
+      --color-pass:         #3fb950;
+      --color-fail:         #f85149;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: var(--color-fg);
+      background: var(--color-bg);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    nav a { color: var(--color-link); text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    .lang-switch {
+      font-size: 0.9rem;
+      color: var(--color-muted);
+      display: inline-flex;
+      gap: 0.35rem;
+      align-items: center;
+    }
+
+    .lang-switch a[aria-current="page"] {
+      font-weight: 700;
+      text-decoration: underline;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 0.25rem 0.5rem;
+      line-height: 1;
+      color: var(--color-fg);
+      margin-left: auto;
+    }
+    .theme-toggle:hover { background: var(--color-th-bg); }
+
+    h1 { color: var(--color-link); }
+    h2 { margin-top: 2rem; }
+
+    #generated-at { font-size: 0.85rem; color: var(--color-muted); margin-top: -0.5rem; }
+
+    .downloads {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      margin: 1rem 0 1.25rem;
+    }
+    .downloads a,
+    .downloads button {
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 0.35rem 0.65rem;
+      text-decoration: none;
+      color: var(--color-link);
+      background: var(--color-card-bg);
+      font: inherit;
+      cursor: pointer;
+    }
+    .downloads a:hover,
+    .downloads button:hover {
+      background: var(--color-th-bg);
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .stat-card {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat-card .value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--color-link);
+      line-height: 1.1;
+    }
+    .stat-card .label { font-size: 0.8rem; color: var(--color-muted); margin-top: 0.25rem; }
+
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th {
+      background: var(--color-th-bg);
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid var(--color-border);
+    }
+    th.sortable {
+      cursor: pointer;
+      user-select: none;
+    }
+    th.sortable:hover { background: var(--color-border); }
+    td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: var(--color-row-stripe); }
+
+    .pass { color: var(--color-pass); }
+    .fail { color: var(--color-fail); }
+    .na   { color: var(--color-muted); }
+
+    a { color: var(--color-link); }
+
+    .empty-state {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: var(--color-muted);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: var(--color-muted);
+      border-top: 1px solid var(--color-border);
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a id="back-link" href="../reports.html">&#8592; Back to reports index</a>
+    <span class="lang-switch" aria-label="Language switch">
+      <span id="lang-switch-label">Language: English</span>
+      <a id="lang-en-report" data-lang="en" href="?lang=en" hreflang="en" lang="en">English</a>
+      <span aria-hidden="true">|</span>
+      <a id="lang-fr-report" data-lang="fr" href="?lang=fr" hreflang="fr" lang="fr">Français</a>
+    </span>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
+  </nav>
+
+  <h1 id="page-title">&#128202; PDF Accessibility Scan Results</h1>
+  <p id="generated-at"></p>
+
+  <div class="downloads">
+    <a id="download-csv-link" href="./2026-07-31_14-15-55-702_iom.int/20260731-141555-iom.int_report.csv" download="20260731-141555-iom.int_report.csv">Download CSV</a>
+    <a id="download-json-link" href="./2026-07-31_14-15-55-702_iom.int/20260731-141555-iom.int_report.json" download="20260731-141555-iom.int_report.json">Download JSON</a>
+    <a id="download-manifest-link" href="./2026-07-31_14-15-55-702_iom.int/20260731-141555-iom.int_manifest.yaml" download="20260731-141555-iom.int_manifest.yaml">Download Manifest</a>
+    <a id="download-zip-link" href="./2026-07-31_14-15-55-702_iom.int/20260731-141555-iom.int_bundle.zip" download="20260731-141555-iom.int_bundle.zip">Download ZIP Bundle</a>
+    <button id="download-current-csv" type="button">Download Current View CSV</button>
+    <button id="download-current-json" type="button">Download Current View JSON</button>
+  </div>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="report-data">
+{
+  "summary": {
+    "generated_at": "2026-07-31T14:15:55.718337+00:00",
+    "total_files": 0,
+    "analysed": 0,
+    "pending": 0,
+    "errored": 0,
+    "accessible": 0,
+    "issues_found": 0,
+    "totally_inaccessible": 0,
+    "broken": 0,
+    "exempt": 0,
+    "sites": {},
+    "engines": {},
+    "pages_crawled": 0
+  },
+  "files": []
+}
+  </script>
+
+  <script>
+    (function () {
+      // i18n scaffold: add new locales by extending I18N with the same keys.
+      var I18N = {
+        en: {
+          langSwitchLabel: 'Language:',
+          langEnglish: 'English',
+          langFrench: 'Français',
+          backLabel: 'Back to submission form',
+          pageTitle: '📊 PDF Accessibility Scan Results',
+          generatedAt: 'Last updated: ',
+          summary: 'Summary',
+          totalPdfs: 'Total PDFs',
+          analysed: 'Analysed',
+          accessible: '✅ Accessible',
+          issuesFound: '❌ Issues Found',
+          pending: '⏳ Pending',
+          errors: '⚠️ Errors',
+          sitesScanned: 'Sites Scanned',
+          site: 'Site',
+          pdfs: 'PDFs',
+          pdfDetails: 'PDF Details',
+          legend: '✅ = Pass/Accessible   ❌ = Fail/Inaccessible   — = Not applicable',
+          noData: 'No scan data available yet.',
+          submitPrompt: 'Submit a crawl request',
+          submitSuffix: ' to get started.',
+          downloadCsv: 'Download CSV',
+          downloadJson: 'Download JSON',
+          downloadManifest: 'Download Manifest',
+          downloadZip: 'Download ZIP Bundle',
+          downloadCurrentCsv: 'Download Current View CSV',
+          downloadCurrentJson: 'Download Current View JSON',
+          colFile: 'File',
+          colSite: 'Site',
+          colPublishedDate: 'Published Date',
+          colDocTitle: 'Doc Title',
+          colAuthor: 'Author',
+          colSubject: 'Subject',
+          colKeywords: 'Keywords',
+          colDescription: 'Description',
+          colAccessible: 'Accessible',
+          colTagged: 'Tagged',
+          colTitle: 'Title',
+          colLanguage: 'Language',
+          colBookmarks: 'Bookmarks',
+          colTaggedContent: 'TaggedContent',
+          colForms: 'Forms',
+          colTaggedForms: 'TaggedForms',
+          colTaggedAnnots: 'TaggedAnnots',
+          colFiguresAlt: 'FiguresAlt',
+          colHeadings: 'Headings',
+          colLists: 'Lists',
+          colTables: 'Tables',
+          colPages: 'Pages',
+          colSize: 'Size',
+          colWords: 'Words',
+          colImages: 'Images',
+        },
+        fr: {
+          langSwitchLabel: 'Langue :',
+          langEnglish: 'English',
+          langFrench: 'Français',
+          backLabel: 'Retour au formulaire de soumission',
+          pageTitle: '📊 Résultats du scan d\'accessibilité PDF',
+          generatedAt: 'Dernière mise à jour : ',
+          summary: 'Résumé',
+          totalPdfs: 'Total des PDF',
+          analysed: 'Analysés',
+          accessible: '✅ Accessibles',
+          issuesFound: '❌ Problèmes détectés',
+          pending: '⏳ En attente',
+          errors: '⚠️ Erreurs',
+          sitesScanned: 'Sites analysés',
+          site: 'Site',
+          pdfs: 'PDF',
+          pdfDetails: 'Détails des PDF',
+          legend: '✅ = Réussite/Accessible   ❌ = Échec/Inaccessible   — = Non applicable',
+          noData: 'Aucune donnée de scan disponible pour le moment.',
+          submitPrompt: 'Soumettre une demande de scan',
+          submitSuffix: ' pour commencer.',
+          downloadCsv: 'Télécharger le CSV',
+          downloadJson: 'Télécharger le JSON',
+          downloadManifest: 'Télécharger le manifeste',
+          downloadZip: 'Télécharger l'archive ZIP',
+          downloadCurrentCsv: 'Télécharger le CSV de la vue actuelle',
+          downloadCurrentJson: 'Télécharger le JSON de la vue actuelle',
+          colFile: 'Fichier',
+          colSite: 'Site',
+          colPublishedDate: 'Date de publication',
+          colDocTitle: 'Titre du doc',
+          colAuthor: 'Auteur',
+          colSubject: 'Sujet',
+          colKeywords: 'Mots-clés',
+          colDescription: 'Description',
+          colAccessible: 'Accessible',
+          colTagged: 'Balisé',
+          colTitle: 'Titre',
+          colLanguage: 'Langue',
+          colBookmarks: 'Signets',
+          colTaggedContent: 'ContenuBalisé',
+          colForms: 'Formulaires',
+          colTaggedForms: 'FormulairesBalisés',
+          colTaggedAnnots: 'AnnotationsBalisées',
+          colFiguresAlt: 'TexteAltFigures',
+          colHeadings: 'Titres',
+          colLists: 'Listes',
+          colTables: 'Tableaux',
+          colPages: 'Pages',
+          colSize: 'Taille',
+          colWords: 'Mots',
+          colImages: 'Images',
+        },
+      };
+
+      function detectLang() {
+        var params = new URLSearchParams(window.location.search);
+        var fromQuery = params.get('lang');
+        if (fromQuery && I18N[fromQuery]) return fromQuery;
+        var stored = localStorage.getItem('lang');
+        if (stored && I18N[stored]) return stored;
+        var navLang = (navigator.language || 'en').toLowerCase();
+        return navLang.indexOf('fr') === 0 ? 'fr' : 'en';
+      }
+
+      var currentLang = detectLang();
+      var M = I18N[currentLang] || I18N.en;
+      document.documentElement.setAttribute('lang', currentLang);
+      localStorage.setItem('lang', currentLang);
+
+      function t(key) {
+        return M[key] || I18N.en[key] || key;
+      }
+
+      function withLang(url, langCode) {
+        try {
+          var parsed = new URL(url, window.location.href);
+          parsed.searchParams.set('lang', langCode || currentLang);
+          return parsed.toString();
+        } catch (e) {
+          return url;
+        }
+      }
+
+      function applyLanguageStatic() {
+        var backLink = document.getElementById('back-link');
+        if (backLink) backLink.textContent = '← ' + t('backLabel');
+        var pageTitle = document.getElementById('page-title');
+        if (pageTitle) pageTitle.textContent = t('pageTitle');
+        var csvLink = document.getElementById('download-csv-link');
+        if (csvLink) csvLink.textContent = t('downloadCsv');
+        var jsonLink = document.getElementById('download-json-link');
+        if (jsonLink) jsonLink.textContent = t('downloadJson');
+        var manifestLink = document.getElementById('download-manifest-link');
+        if (manifestLink) manifestLink.textContent = t('downloadManifest');
+        var zipLink = document.getElementById('download-zip-link');
+        if (zipLink) zipLink.textContent = t('downloadZip');
+        var curCsv = document.getElementById('download-current-csv');
+        if (curCsv) curCsv.textContent = t('downloadCurrentCsv');
+        var curJson = document.getElementById('download-current-json');
+        if (curJson) curJson.textContent = t('downloadCurrentJson');
+
+        var langLabelNode = document.getElementById('lang-switch-label');
+        var currentLangName = currentLang === 'fr' ? t('langFrench') : t('langEnglish');
+        if (langLabelNode) langLabelNode.textContent = t('langSwitchLabel') + ' ' + currentLangName;
+
+        var langLinks = document.querySelectorAll('.lang-switch a[data-lang]');
+        langLinks.forEach(function (link) {
+          var code = (link.getAttribute('data-lang') || '').toLowerCase();
+          if (!code) return;
+          link.href = withLang(window.location.href, code);
+          if (code === 'en') link.textContent = t('langEnglish');
+          else if (code === 'fr') link.textContent = t('langFrench');
+          else link.textContent = code.toUpperCase();
+          if (code === currentLang) link.setAttribute('aria-current', 'page');
+          else link.removeAttribute('aria-current');
+        });
+      }
+
+      applyLanguageStatic();
+
+      var raw  = document.getElementById('report-data').textContent;
+      var data = JSON.parse(raw);
+      var summary = data.summary || {};
+      var files   = data.files   || [];
+      var root    = document.getElementById('root');
+
+      if (!summary.total_files) {
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>' + esc(t('noData')) + '</p>' +
+          '<p><a href="./">' + esc(t('submitPrompt')) + '</a>' + esc(t('submitSuffix')) + '</p>' +
+          '</div>';
+        return;
+      }
+
+      // Generated-at timestamp
+      if (summary.generated_at) {
+        document.getElementById('generated-at').textContent =
+          t('generatedAt') + new Date(summary.generated_at).toLocaleString(currentLang);
+      }
+
+      var html = '';
+
+      // --- Summary cards ---
+      var cards = [
+        { value: summary.total_files,         label: t('totalPdfs') },
+        { value: summary.analysed,            label: t('analysed') },
+        { value: summary.accessible,          label: t('accessible') },
+        { value: summary.issues_found,        label: t('issuesFound') },
+        { value: summary.pending,             label: t('pending') },
+        { value: summary.errored,             label: t('errors') },
+      ];
+      html += '<h2>' + esc(t('summary')) + '</h2><div class="stats-grid">';
+      cards.forEach(function (c) {
+        html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
+                '</div><div class="label">' + c.label + '</div></div>';
+      });
+      html += '</div>';
+
+      // --- Sites table ---
+      var sites = summary.sites || {};
+      var siteNames = Object.keys(sites).sort();
+      if (siteNames.length) {
+        html += '<h2>' + esc(t('sitesScanned')) + '</h2>';
+        html += '<table><thead><tr><th>' + esc(t('site')) + '</th><th>' + esc(t('pdfs')) + '</th></tr></thead><tbody>';
+        siteNames.forEach(function (s) {
+          html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      // --- File details table ---
+      var analysed = files.filter(function (f) { return f.status === 'analysed'; });
+
+      // Determine which optional columns have data
+      var hasWords       = analysed.some(function (f) { return f.report && f.report.Words       != null; });
+      var hasImages      = analysed.some(function (f) { return f.report && f.report.Images      != null; });
+      var hasFileSize    = analysed.some(function (f) { return f.file_size_bytes != null; });
+      var hasTaggedContent = analysed.some(function (f) { return f.report && f.report.TaggedContentTest != null; });
+      var hasForms         = analysed.some(function (f) { return f.report && f.report.FormsTest != null; });
+      var hasTaggedForms   = analysed.some(function (f) { return f.report && f.report.TaggedFormFieldsTest != null; });
+      var hasTaggedAnnots  = analysed.some(function (f) { return f.report && f.report.TaggedAnnotationsTest != null; });
+      var hasFiguresAlt    = analysed.some(function (f) { return f.report && f.report.FiguresAltTextTest != null; });
+      var hasHeadings      = analysed.some(function (f) { return f.report && f.report.HeadingsTest != null; });
+      var hasLists         = analysed.some(function (f) { return f.report && f.report.ListsTest != null; });
+      var hasTables        = analysed.some(function (f) { return f.report && f.report.TablesTest != null; });
+      var hasVeraPDF       = analysed.some(function (f) { return f.report && f.report.veraPDF && typeof f.report.veraPDF === 'object'; });
+      var hasVPFailed      = analysed.some(function (f) { return f.report && f.report.veraPDF && f.report.veraPDF.failed_checks != null; });
+      var hasVPPassed      = analysed.some(function (f) { return f.report && f.report.veraPDF && f.report.veraPDF.passed_checks != null; });
+      var hasVPRules       = analysed.some(function (f) { return f.report && f.report.veraPDF && Array.isArray(f.report.veraPDF.failed_rules); });
+      var hasVPError       = analysed.some(function (f) { return f.report && f.report.veraPDF && f.report.veraPDF.error; });
+      var hasDocTitle    = analysed.some(function (f) { return f.report && f.report.Title       != null; });
+      var hasAuthor      = analysed.some(function (f) { return f.report && f.report.Author      != null; });
+      var hasSubject     = analysed.some(function (f) { return f.report && f.report.Subject     != null; });
+      var hasKeywords    = analysed.some(function (f) { return f.report && f.report.Keywords    != null; });
+      var hasDescription = analysed.some(function (f) { return f.report && f.report.Description != null; });
+
+      // Sort state
+      var sortCol = null;
+      var sortAsc = true;
+
+      function formatSize(sizeBytes) {
+        if (sizeBytes == null) return '&#x2014;';
+        var num = Number(sizeBytes);
+        if (!isFinite(num) || num < 0) return '&#x2014;';
+        var units = ['B', 'KB', 'MB', 'GB', 'TB'];
+        var value = num;
+        var unit = 0;
+        while (value >= 1024 && unit < units.length - 1) {
+          value /= 1024;
+          unit += 1;
+        }
+        if (unit === 0) return String(Math.round(value)) + ' ' + units[unit];
+        return value.toFixed(1) + ' ' + units[unit];
+      }
+
+      function readSortFromQuery() {
+        var params = new URLSearchParams(window.location.search);
+        var col = params.get('sort');
+        var dir = params.get('dir');
+        if (col) sortCol = col;
+        if (dir === 'asc' || dir === 'desc') sortAsc = dir === 'asc';
+      }
+
+      function writeSortToQuery() {
+        var params = new URLSearchParams(window.location.search);
+        if (sortCol) {
+          params.set('sort', sortCol);
+          params.set('dir', sortAsc ? 'asc' : 'desc');
+        } else {
+          params.delete('sort');
+          params.delete('dir');
+        }
+        var qs = params.toString();
+        var nextUrl = window.location.pathname + (qs ? '?' + qs : '') + window.location.hash;
+        window.history.replaceState(null, '', nextUrl);
+      }
+
+      function colVal(f, col) {
+        var r = f.report || {};
+        switch (col) {
+          case 'file':        return (f.filename || f.url || '').toLowerCase();
+          case 'site':        return (f.site || '').toLowerCase();
+          case 'date':        return r.Date ? String(r.Date) : '';
+          case 'doc_title':   return (r.Title       || '').toLowerCase();
+          case 'author':      return (r.Author      || '').toLowerCase();
+          case 'subject':     return (r.Subject     || '').toLowerCase();
+          case 'keywords':    return (r.Keywords    || '').toLowerCase();
+          case 'description': return (r.Description || '').toLowerCase();
+          case 'accessible':  return r.Accessible === true ? 1 : r.Accessible === false ? 0 : -1;
+          case 'tagged':      return r.TaggedTest    === 'Pass' ? 1 : r.TaggedTest    === 'Fail' ? 0 : -1;
+          case 'title':       return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
+          case 'language':    return r.LanguageTest  === 'Pass' ? 1 : r.LanguageTest  === 'Fail' ? 0 : -1;
+          case 'bookmarks':   return r.BookmarksTest === 'Pass' ? 1 : r.BookmarksTest === 'Fail' ? 0 : -1;
+          case 'tagged_content': return r.TaggedContentTest === 'Pass' ? 1 : r.TaggedContentTest === 'Fail' ? 0 : -1;
+          case 'forms':          return r.FormsTest === 'Pass' ? 1 : r.FormsTest === 'Fail' ? 0 : -1;
+          case 'tagged_forms':   return r.TaggedFormFieldsTest === 'Pass' ? 1 : r.TaggedFormFieldsTest === 'Fail' ? 0 : -1;
+          case 'tagged_annots':  return r.TaggedAnnotationsTest === 'Pass' ? 1 : r.TaggedAnnotationsTest === 'Fail' ? 0 : -1;
+          case 'figures_alt':    return r.FiguresAltTextTest === 'Pass' ? 1 : r.FiguresAltTextTest === 'Fail' ? 0 : -1;
+          case 'headings':       return r.HeadingsTest === 'Pass' ? 1 : r.HeadingsTest === 'Fail' ? 0 : -1;
+          case 'lists':          return r.ListsTest === 'Pass' ? 1 : r.ListsTest === 'Fail' ? 0 : -1;
+          case 'tables':         return r.TablesTest === 'Pass' ? 1 : r.TablesTest === 'Fail' ? 0 : -1;
+          case 'verapdf_status':
+            if (!r.veraPDF || typeof r.veraPDF !== 'object') return -1;
+            if (r.veraPDF.error) return 0;
+            if (r.veraPDF.compliant === false) return 1;
+            if (r.veraPDF.compliant === true) return 2;
+            return -1;
+          case 'verapdf_failed': return (r.veraPDF && r.veraPDF.failed_checks != null) ? r.veraPDF.failed_checks : -1;
+          case 'verapdf_passed': return (r.veraPDF && r.veraPDF.passed_checks != null) ? r.veraPDF.passed_checks : -1;
+          case 'verapdf_rules': return (r.veraPDF && Array.isArray(r.veraPDF.failed_rules)) ? r.veraPDF.failed_rules.length : -1;
+          case 'verapdf_error': return (r.veraPDF && r.veraPDF.error) ? String(r.veraPDF.error).toLowerCase() : '';
+          case 'pages':       return r.Pages  != null ? r.Pages  : -1;
+          case 'size':        return f.file_size_bytes != null ? Number(f.file_size_bytes) : -1;
+          case 'words':       return r.Words  != null ? r.Words  : -1;
+          case 'images':      return r.Images != null ? r.Images : -1;
+          default: return '';
+        }
+      }
+
+      function buildRow(f) {
+        var r = f.report || {};
+        var dateStr = '';
+        if (r.Date) {
+          var dm = String(r.Date).match(/^(\d{4}-\d{2}-\d{2})/);
+          dateStr = dm ? dm[1] : String(r.Date);
+        }
+        var extDomain = '';
+        try {
+          var pdfHost = new URL(f.url).hostname.replace(/^www\./, '');
+          var seed = (f.site || '').replace(/^www\./, '');
+          if (pdfHost && seed && pdfHost !== seed && !pdfHost.endsWith('.' + seed)) {
+            extDomain = pdfHost;
+          }
+        } catch (e) {}
+        var siteCell = esc(f.site || '');
+        if (extDomain) {
+          siteCell += ' <em>(ext: ' + esc(extDomain) + ')</em>';
+        }
+        var vp = r.veraPDF;
+        var vpStatus = '&#x2014;';
+        if (vp && typeof vp === 'object') {
+          if (vp.error) vpStatus = '<span class="fail">Error</span>';
+          else if (vp.compliant === true) vpStatus = '<span class="pass">Pass</span>';
+          else if (vp.compliant === false) vpStatus = '<span class="fail">Fail</span>';
+        }
+        var vpRules = (vp && Array.isArray(vp.failed_rules)) ? vp.failed_rules.length : null;
+        var vpError = (vp && vp.error) ? String(vp.error) : null;
+        var docTitleCell = '&#x2014;';
+        if (r.Title) docTitleCell = esc(r.Title);
+        else if (r.TitleTest === 'Fail') docTitleCell = icon('Fail');
+        return '<tr>' +
+          '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.filename || f.url) + '</a></td>' +
+          '<td>' + siteCell + '</td>' +
+          '<td>' + (dateStr ? esc(dateStr) : '&#x2014;') + '</td>' +
+          (hasDocTitle    ? '<td>' + docTitleCell + '</td>' : '') +
+          (hasAuthor      ? '<td>' + (r.Author      ? esc(r.Author)      : '&#x2014;') + '</td>' : '') +
+          (hasSubject     ? '<td>' + (r.Subject     ? esc(r.Subject)     : '&#x2014;') + '</td>' : '') +
+          (hasKeywords    ? '<td>' + (r.Keywords    ? esc(r.Keywords)    : '&#x2014;') + '</td>' : '') +
+          (hasDescription ? '<td>' + (r.Description ? esc(r.Description) : '&#x2014;') + '</td>' : '') +
+          '<td>' + icon(r.Accessible)    + '</td>' +
+          '<td>' + icon(r.TaggedTest)    + '</td>' +
+          '<td>' + icon(r.TitleTest)     + '</td>' +
+          '<td>' + icon(r.LanguageTest)  + '</td>' +
+          '<td>' + icon(r.BookmarksTest) + '</td>' +
+          (hasTaggedContent ? '<td>' + icon(r.TaggedContentTest) + '</td>' : '') +
+          (hasForms         ? '<td>' + icon(r.FormsTest) + '</td>' : '') +
+          (hasTaggedForms   ? '<td>' + icon(r.TaggedFormFieldsTest) + '</td>' : '') +
+          (hasTaggedAnnots  ? '<td>' + icon(r.TaggedAnnotationsTest) + '</td>' : '') +
+          (hasFiguresAlt    ? '<td>' + icon(r.FiguresAltTextTest) + '</td>' : '') +
+          (hasHeadings      ? '<td>' + icon(r.HeadingsTest) + '</td>' : '') +
+          (hasLists         ? '<td>' + icon(r.ListsTest) + '</td>' : '') +
+          (hasTables        ? '<td>' + icon(r.TablesTest) + '</td>' : '') +
+          (hasVeraPDF       ? '<td>' + vpStatus + '</td>' : '') +
+          (hasVPFailed      ? '<td>' + ((vp && vp.failed_checks != null) ? vp.failed_checks : '&#x2014;') + '</td>' : '') +
+          (hasVPPassed      ? '<td>' + ((vp && vp.passed_checks != null) ? vp.passed_checks : '&#x2014;') + '</td>' : '') +
+          (hasVPRules       ? '<td>' + (vpRules != null ? vpRules : '&#x2014;') + '</td>' : '') +
+          (hasVPError       ? '<td>' + (vpError ? esc(vpError) : '&#x2014;') + '</td>' : '') +
+          '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+          (hasFileSize ? '<td>' + formatSize(f.file_size_bytes) + '</td>' : '') +
+          (hasWords  ? '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' : '') +
+          (hasImages ? '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' : '') +
+          '</tr>';
+      }
+
+      function renderBody(tbl) {
+        var rows = analysed.slice();
+        if (sortCol !== null) {
+          rows.sort(function (a, b) {
+            var va = colVal(a, sortCol);
+            var vb = colVal(b, sortCol);
+            if (va < vb) return sortAsc ? -1 : 1;
+            if (va > vb) return sortAsc ?  1 : -1;
+            return 0;
+          });
+        }
+        tbl.tBodies[0].innerHTML = rows.map(buildRow).join('');
+        writeSortToQuery();
+      }
+
+      function updateHeaders(tbl) {
+        tbl.querySelectorAll('th[data-col]').forEach(function (th) {
+          var col = th.getAttribute('data-col');
+          var lbl = th.getAttribute('data-label');
+          if (col === sortCol) {
+            th.setAttribute('aria-sort', sortAsc ? 'ascending' : 'descending');
+            th.querySelector('.sort-label').textContent = lbl + (sortAsc ? ' ▴' : ' ▾');
+          } else {
+            th.setAttribute('aria-sort', 'none');
+            th.querySelector('.sort-label').textContent = lbl;
+          }
+        });
+      }
+
+      if (analysed.length) {
+        // Column order: identity columns, then optional metadata (shown only when
+        // at least one file has that field), then accessibility checks, then
+        // optional numeric columns (words/images shown only when data is present).
+        var colDefs = [
+          { key: 'file',       label: t('colFile') },
+          { key: 'site',       label: t('colSite') },
+          { key: 'date',       label: t('colPublishedDate') },
+        ];
+        if (hasDocTitle)    colDefs.push({ key: 'doc_title',   label: t('colDocTitle') });
+        if (hasAuthor)      colDefs.push({ key: 'author',      label: t('colAuthor') });
+        if (hasSubject)     colDefs.push({ key: 'subject',     label: t('colSubject') });
+        if (hasKeywords)    colDefs.push({ key: 'keywords',    label: t('colKeywords') });
+        if (hasDescription) colDefs.push({ key: 'description', label: t('colDescription') });
+        colDefs.push(
+          { key: 'accessible', label: t('colAccessible') },
+          { key: 'tagged',     label: t('colTagged') },
+          { key: 'title',      label: t('colTitle') },
+          { key: 'language',   label: t('colLanguage') },
+          { key: 'bookmarks',  label: t('colBookmarks') },
+        );
+        if (hasTaggedContent) colDefs.push({ key: 'tagged_content', label: t('colTaggedContent') });
+        if (hasForms)         colDefs.push({ key: 'forms',          label: t('colForms') });
+        if (hasTaggedForms)   colDefs.push({ key: 'tagged_forms',   label: t('colTaggedForms') });
+        if (hasTaggedAnnots)  colDefs.push({ key: 'tagged_annots',  label: t('colTaggedAnnots') });
+        if (hasFiguresAlt)    colDefs.push({ key: 'figures_alt',    label: t('colFiguresAlt') });
+        if (hasHeadings)      colDefs.push({ key: 'headings',       label: t('colHeadings') });
+        if (hasLists)         colDefs.push({ key: 'lists',          label: t('colLists') });
+        if (hasTables)        colDefs.push({ key: 'tables',         label: t('colTables') });
+        if (hasVeraPDF)       colDefs.push({ key: 'verapdf_status', label: 'veraPDF' });
+        if (hasVPFailed)      colDefs.push({ key: 'verapdf_failed', label: 'vPDF Fail' });
+        if (hasVPPassed)      colDefs.push({ key: 'verapdf_passed', label: 'vPDF Pass' });
+        if (hasVPRules)       colDefs.push({ key: 'verapdf_rules',  label: 'vPDF Rules' });
+        if (hasVPError)       colDefs.push({ key: 'verapdf_error',  label: 'vPDF Error' });
+        colDefs.push(
+          { key: 'pages',      label: t('colPages') }
+        );
+        if (hasFileSize) colDefs.push({ key: 'size', label: t('colSize') });
+        if (hasWords)  colDefs.push({ key: 'words',  label: t('colWords') });
+        if (hasImages) colDefs.push({ key: 'images', label: t('colImages') });
+
+        html += '<h2>' + esc(t('pdfDetails')) + '</h2>';
+        html += '<p>' + esc(t('legend')) + '</p>';
+        html += '<table id="pdf-table"><thead><tr>';
+        colDefs.forEach(function (c) {
+          html += '<th class="sortable" data-col="' + c.key + '" data-label="' + c.label +
+                  '" aria-sort="none" tabindex="0" role="columnheader">' +
+                  '<span class="sort-label">' + c.label + '</span></th>';
+        });
+        html += '</tr></thead><tbody>';
+        analysed.forEach(function (f) {
+          html += buildRow(f);
+        });
+        html += '</tbody></table>';
+      }
+
+      root.innerHTML = html;
+
+      // Wire up column sorting on the PDF details table
+      var pdfTable = document.getElementById('pdf-table');
+      if (pdfTable) {
+        readSortFromQuery();
+        var validCols = Array.prototype.map.call(
+          pdfTable.querySelectorAll('th[data-col]'),
+          function (th) { return th.getAttribute('data-col'); }
+        );
+        if (sortCol && validCols.indexOf(sortCol) === -1) sortCol = null;
+        renderBody(pdfTable);
+        updateHeaders(pdfTable);
+        pdfTable.querySelectorAll('th[data-col]').forEach(function (th) {
+          th.addEventListener('click', function () {
+            var col = this.getAttribute('data-col');
+            if (sortCol === col) {
+              sortAsc = !sortAsc;
+            } else {
+              sortCol = col;
+              sortAsc = true;
+            }
+            renderBody(pdfTable);
+            updateHeaders(pdfTable);
+          });
+          th.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              this.click();
+            }
+          });
+        });
+      }
+
+      function makeCsvValue(value) {
+        var s = value == null ? '' : String(value);
+        if (s.indexOf('"') !== -1 || s.indexOf(',') !== -1 || s.indexOf('\n') !== -1) {
+          return '"' + s.replace(/"/g, '""') + '"';
+        }
+        return s;
+      }
+
+      function rowFromFile(file) {
+        var r = file.report || {};
+        return {
+          url: file.url || '',
+          filename: file.filename || '',
+          site: file.site || '',
+          status: file.status || '',
+          file_size_bytes: file.file_size_bytes == null ? '' : file.file_size_bytes,
+          file_size_human: formatSize(file.file_size_bytes).replace(/&[^;]+;/g, '-'),
+          published_date: r.Date || '',
+          doc_title: r.Title || '',
+          author: r.Author || '',
+          subject: r.Subject || '',
+          keywords: r.Keywords || '',
+          accessible: r.Accessible == null ? '' : r.Accessible,
+          totally_inaccessible: r.TotallyInaccessible == null ? '' : r.TotallyInaccessible,
+          broken: r.BrokenFile == null ? '' : r.BrokenFile,
+          title: r.TitleTest || '',
+          language: r.LanguageTest || '',
+          bookmarks: r.BookmarksTest || '',
+          pages: r.Pages == null ? '' : r.Pages,
+          words: r.Words == null ? '' : r.Words,
+          images: r.Images == null ? '' : r.Images,
+        };
+      }
+
+      function buildCsvText() {
+        var columns = [
+          'url','filename','site','status','file_size_bytes','file_size_human',
+          'published_date','doc_title','author','subject','keywords','accessible',
+          'totally_inaccessible','broken','title','language','bookmarks','pages',
+          'words','images'
+        ];
+        var lines = [columns.join(',')];
+        files.forEach(function (file) {
+          var row = rowFromFile(file);
+          lines.push(columns.map(function (col) { return makeCsvValue(row[col]); }).join(','));
+        });
+        return lines.join('\n');
+      }
+
+      function downloadBlob(filename, text, mime) {
+        var blob = new Blob([text], { type: mime });
+        var a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        setTimeout(function () { URL.revokeObjectURL(a.href); }, 0);
+      }
+
+      var currentViewBase = '20260731-141555-iom.int_current_view';
+
+      var downloadCsvBtn = document.getElementById('download-current-csv');
+      if (downloadCsvBtn) {
+        downloadCsvBtn.addEventListener('click', function () {
+          downloadBlob(currentViewBase + '.csv', buildCsvText(), 'text/csv;charset=utf-8');
+        });
+      }
+
+      var downloadJsonBtn = document.getElementById('download-current-json');
+      if (downloadJsonBtn) {
+        downloadJsonBtn.addEventListener('click', function () {
+          downloadBlob(currentViewBase + '.json', JSON.stringify({ summary: summary, files: files }, null, 2), 'application/json;charset=utf-8');
+        });
+      }
+
+      function icon(v) {
+        if (v === true  || v === 'Pass') return '<span class="pass">&#x2705;</span>';
+        if (v === false || v === 'Fail') return '<span class="fail">&#x274C;</span>';
+        return '<span class="na">&#x2014;</span>';
+      }
+
+      function esc(s) {
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }
+    })();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      var btn  = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+
+      function applyTheme(theme) {
+        root.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        if (theme === 'dark') {
+          btn.textContent = '☀️';
+          btn.setAttribute('aria-label', 'Switch to light mode');
+          btn.setAttribute('title', 'Switch to light mode');
+        } else {
+          btn.textContent = '🌙';
+          btn.setAttribute('aria-label', 'Switch to dark mode');
+          btn.setAttribute('title', 'Switch to dark mode');
+        }
+      }
+
+      var stored      = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(stored === 'dark' || stored === 'light' ? stored : (prefersDark ? 'dark' : 'light'));
+
+      btn.addEventListener('click', function () {
+        applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      });
+    })();
+  </script>
+
+</body>
+</html>
