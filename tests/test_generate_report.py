@@ -1085,6 +1085,31 @@ def test_spot_check_none_does_not_crash():
     assert "No PDFs were found" in comment
     assert "Automated diagnostics" not in comment
 
+
+def test_spot_check_search_pdf_blocked_shown_in_comment():
+    """When search_pdf_count > 0, discovered-but-blocked URLs appear in the comment."""
+    sc = {
+        "seed_status": 403,
+        "robots_blocked": False,
+        "robots_disallows": [],
+        "sitemap_pdf_count": 0,
+        "sitemap_pdf_samples": [],
+        "search_pdf_count": 5,
+        "search_pdf_samples": ["https://example.com/a.pdf", "https://example.com/b.pdf"],
+        "error": "",
+    }
+    comment = generate_issue_comment(
+        [],
+        crawl_url="https://example.com",
+        pages_base="",
+        run_url="",
+        pages_crawled=0,
+        spot_check=sc,
+    )
+    assert "Search engine results" in comment
+    assert "5" in comment
+    assert "https://example.com/a.pdf" in comment
+
 def _make_manifest(tmp_path, entries=None):
     """Write a minimal YAML manifest and return its path."""
     if entries is None:

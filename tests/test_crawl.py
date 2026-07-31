@@ -1410,6 +1410,62 @@ def test_spot_check_all_probes_fail_gracefully():
     assert result["error"]  # non-empty error summary
 
 
+def test_spot_check_seed_http_403():
+    """When the seed URL returns HTTP 403, seed_status should be 403, not None.
+
+    Previously HTTPError (a URLError subclass) was caught without extracting
+    the status code, leaving seed_status=None and producing the misleading
+    'could not connect' message instead of 'HTTP 403 – actively blocking'.
+    """
+    from urllib.error import HTTPError, URLError
+
+    def side_effect(req, timeout=15):
+        call = side_effect.count
+        side_effect.count += 1
+        if call == 0:
+            # Seed URL raises 403.
+            raise HTTPError(
+                str(req.full_url), 403, "Forbidden", {}, None
+            )
+        # robots.txt and sitemaps all fail too.
+        raise URLError("unreachable")
+
+    side_effect.count = 0
+
+    with patch("crawl.urlopen", side_effect=side_effect):
+        result = spot_check_zero_results("https://example.com")
+
+    assert result["seed_status"] == 403
+    assert "Seed URL probe failed" in result["error"]
+    assert "403" in result["error"]
+
+
+def test_spot_check_robots_http_403_does_not_crash():
+    """When robots.txt returns HTTP 403, the probe should fail gracefully."""
+    from urllib.error import HTTPError, URLError
+
+    call_count = [0]
+
+    def side_effect(req, timeout=15):
+        i = call_count[0]
+        call_count[0] += 1
+        if i == 0:
+            # Seed OK.
+            resp = _make_http_response(200)
+            return resp
+        if i == 1:
+            # robots.txt returns 403.
+            raise HTTPError(str(req.full_url), 403, "Forbidden", {}, None)
+        raise URLError("no sitemap")
+
+    with patch("crawl.urlopen", side_effect=side_effect):
+        result = spot_check_zero_results("https://example.com")
+
+    assert result["seed_status"] == 200
+    assert result["robots_blocked"] is False
+    assert "robots.txt probe failed" in result["error"]
+
+
 # ---------------------------------------------------------------------------
 # _extract_pdf_urls_from_sitemap
 # ---------------------------------------------------------------------------
@@ -1934,3 +1990,63 @@ def test_fetch_google_pdfs_downloads_pdfs(tmp_path):
 
     assert count == 1
     assert (tmp_path / "example.com" / "guide.pdf").exists()
+
+
+def test_fetch_duckduckgo_pdfs_discovered_urls_out_populated(tmp_path):
+    """discovered_urls_out should be populated with discovered URLs even when download fails."""
+    from urllib.error import HTTPError
+
+    html = """
+<html><body>
+  <a href="https://duckduckgo.com/l/?uddg=https%3A%2F%2Fexample.com%2Fdocs%2Fa.pdf">a</a>
+  <a href="https://duckduckgo.com/l/?uddg=https%3A%2F%2Fexample.com%2Fdocs%2Fb.pdf">b</a>
+</body></html>
+"""
+    call_count = [0]
+
+    def side_effect(req, timeout=60):
+        i = call_count[0]
+        call_count[0] += 1
+        if i == 0:
+            return _make_http_response_plain(200, html.encode("utf-8"))
+        raise HTTPError(str(req.full_url), 403, "Forbidden", {}, None)
+
+    discovered: list[str] = []
+    with patch("crawl.urlopen", side_effect=side_effect):
+        count = fetch_duckduckgo_pdfs(
+            "https://example.com", str(tmp_path), max_pdfs=10, timeout=60,
+            discovered_urls_out=discovered,
+        )
+
+    assert count == 0
+    assert "https://example.com/docs/a.pdf" in discovered
+    assert "https://example.com/docs/b.pdf" in discovered
+
+
+def test_fetch_google_pdfs_discovered_urls_out_populated(tmp_path):
+    """discovered_urls_out should be populated with discovered URLs even when download fails."""
+    from urllib.error import HTTPError
+
+    html = """
+<html><body>
+  <a href="/url?q=https%3A%2F%2Fexample.com%2Fdocs%2Fc.pdf&amp;sa=U">c</a>
+</body></html>
+"""
+    call_count = [0]
+
+    def side_effect(req, timeout=60):
+        i = call_count[0]
+        call_count[0] += 1
+        if i == 0:
+            return _make_http_response_plain(200, html.encode("utf-8"))
+        raise HTTPError(str(req.full_url), 403, "Forbidden", {}, None)
+
+    discovered: list[str] = []
+    with patch("crawl.urlopen", side_effect=side_effect):
+        count = fetch_google_pdfs(
+            "https://example.com", str(tmp_path), max_pdfs=10, timeout=60,
+            discovered_urls_out=discovered,
+        )
+
+    assert count == 0
+    assert "https://example.com/docs/c.pdf" in discovered
