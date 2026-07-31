@@ -1,17 +1,18 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-31T18:53:39.629019+00:00
+Generated: 2026-07-31T19:42:47.847444+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 29643 |
-| Analysed | 6496 |
-| Pending analysis | 17466 |
-| Errors during analysis | 5681 |
-| Accessible | 2016 |
-| Issues found | 4480 |
+| URLs crawled | 500 |
+| Total files tracked | 29764 |
+| Analysed | 6512 |
+| Pending analysis | 17505 |
+| Errors during analysis | 5747 |
+| Accessible | 2027 |
+| Issues found | 4485 |
 | Totally inaccessible subset | 289 |
 | Broken / unreadable | 29 |
 | Exempt (pre-2018) | 1529 |
@@ -68,7 +69,7 @@ Generated: 2026-07-31T18:53:39.629019+00:00
 | ncert.nic.in | 329 |
 | nj.gov | 375 |
 | njfamilycare.dhs.state.nj.us | 180 |
-| nsf.gov | 1851 |
+| nsf.gov | 1972 |
 | nwboces.org | 21 |
 | ontario.ca | 51 |
 | oregon.gov | 2178 |
@@ -1048,15 +1049,17 @@ Generated: 2026-07-31T18:53:39.629019+00:00
 | [which_is_greener.pdf](https://afdc.energy.gov/files/u/publication/which_is_greener.pdf) | energy.gov | 2013-04-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — | — |
 | [wpc_charging_university_campuses.pdf](https://afdc.energy.gov/files/u/publication/wpc_charging_university_campuses.pdf) | energy.gov | 2016-03-04 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 7 | — | — | — |
 | [51-fy2026.pdf](https://nsf-gov-resources.nsf.gov/files/51-fy2026.pdf) | nsf.gov | 2025-07-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | — | — |
-| [BABA_Implementation_2022_508_1.pdf](https://nsf-gov-resources.nsf.gov/2022-06/BABA_Implementation_2022_508_1.pdf) | nsf.gov | 2022-05-11 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | — | — |
-| [BABA_PublicCommentSubmission_508.pdf](https://nsf-gov-resources.nsf.gov/2022-05/BABA_PublicCommentSubmission_508.pdf) | nsf.gov | 2022-05-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
-| [BABA_WaiverRequestSubmission_2022_508.pdf](https://nsf-gov-resources.nsf.gov/2022-05/BABA_WaiverRequestSubmission_2022_508.pdf) | nsf.gov | 2022-05-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
-| [Build%20America%20Buy%20America%20Factsheet%20and%20FAQs%20for%20Award%20Recipients.pdf](https://nsf-gov-resources.nsf.gov/2022-08/Build%20America%20Buy%20America%20Factsheet%20and%20FAQs%20for%20Award%20Recipients.pdf) | nsf.gov | 2022-08-05 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | — | — |
-| [BuildAmericaBuyAmericaPL117-58IIJASec70911_0.pdf](https://nsf-gov-resources.nsf.gov/2022-05/BuildAmericaBuyAmericaPL117-58IIJASec70911_0.pdf) | nsf.gov | 2022-04-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | — | — |
+| [BABA_Implementation_2022_508_1.pdf](https://nsf-gov-resources.nsf.gov/2022-06/BABA_Implementation_2022_508_1.pdf) | nsf.gov | 2022-05-11 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 836.5 KB | — | — |
+| [BABA_PublicCommentSubmission_508.pdf](https://nsf-gov-resources.nsf.gov/2022-05/BABA_PublicCommentSubmission_508.pdf) | nsf.gov | 2022-05-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 601.0 KB | — | — |
+| [BABA_WaiverRequestSubmission_2022_508.pdf](https://nsf-gov-resources.nsf.gov/2022-05/BABA_WaiverRequestSubmission_2022_508.pdf) | nsf.gov | 2022-05-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 806.0 KB | — | — |
+| [Build%20America%20Buy%20America%20Factsheet%20and%20FAQs%20for%20Award%20Recipients.pdf](https://nsf-gov-resources.nsf.gov/2022-08/Build%20America%20Buy%20America%20Factsheet%20and%20FAQs%20for%20Award%20Recipients.pdf) | nsf.gov | 2022-08-05 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 181.7 KB | — | — |
+| [BuildAmericaBuyAmericaPL117-58IIJASec70911_0.pdf](https://nsf-gov-resources.nsf.gov/2022-05/BuildAmericaBuyAmericaPL117-58IIJASec70911_0.pdf) | nsf.gov | 2022-04-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | 209.3 KB | — | — |
+| [COI-Confidentiality-Panelists-NSF_Form_1230P.pdf](https://nsf-gov-resources.nsf.gov/files/COI-Confidentiality-Panelists-NSF_Form_1230P.pdf) | nsf.gov | 2026-01-13 | NSF Form 1230P, Conflict of Interests and Confidentiality Statement for NSF Panelists | OD/OGC | Conflict of Interest and Confidentiality Statement | COI; Conflict of Interest; Confidentiality Statement; OGC; Office of General Council | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 5 | 227.3 KB | 2114 | 5 |
 | [Dr.SchragTestimony508_0.pdf](https://nsf-gov-resources.nsf.gov/2022-04/Dr.SchragTestimony508_0.pdf) | nsf.gov | 2022-04-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | — | — |
-| [How%20do%20I%20know%20if%20the%20Act%20applies%20to%20my%20award_1.pdf](https://nsf-gov-resources.nsf.gov/2022-06/How%20do%20I%20know%20if%20the%20Act%20applies%20to%20my%20award_1.pdf) | nsf.gov | 2022-06-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
+| [Envisioning-The-Future-of-EPSCoR-Report.pdf](https://nsf-gov-resources.nsf.gov/2022-08/Envisioning-The-Future-of-EPSCoR-Report.pdf) | nsf.gov | 2022-08-02 | Envisioning the Future of NSF EPSCoR Report | National Science Foundation | {'NSF', 'Report', 'EPSCoR'} | EPSCoR, Report, NSF | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 103 | 2.0 MB | 26522 | 222 |
+| [How%20do%20I%20know%20if%20the%20Act%20applies%20to%20my%20award_1.pdf](https://nsf-gov-resources.nsf.gov/2022-06/How%20do%20I%20know%20if%20the%20Act%20applies%20to%20my%20award_1.pdf) | nsf.gov | 2022-06-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 590.1 KB | — | — |
 | [NSF%20HSST%20NWIRP%20Testimony%20Final-CLEARED_0.pdf](https://nsf-gov-resources.nsf.gov/2021-11/NSF%20HSST%20NWIRP%20Testimony%20Final-CLEARED_0.pdf) | nsf.gov | 2021-11-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | — | — |
-| [NSF-scientific-integrity-policy.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-scientific-integrity-policy.pdf) | nsf.gov | 2025-05-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
+| [NSF-scientific-integrity-policy.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-scientific-integrity-policy.pdf) | nsf.gov | 2025-05-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 102.9 KB | — | — |
 | [NSF_Response_supported_Glaciers_and_Glaciology_Award.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_supported_Glaciers_and_Glaciology_Award.pdf) | nsf.gov | 2016-03-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — | — |
 | [NSF_Response_to_Festivus_Report_2020.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Festivus_Report_2020.pdf) | nsf.gov | 2021-02-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | — | — |
 | [NSF_Response_to_Festivus_Report_2021.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Festivus_Report_2021.pdf) | nsf.gov | 2022-01-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
@@ -1081,9 +1084,12 @@ Generated: 2026-07-31T18:53:39.629019+00:00
 | [NSF_Response_to_Senator_Pauls_September_2017_Waste_Report.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Pauls_September_2017_Waste_Report.pdf) | nsf.gov | 2021-05-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
 | [NSF_Response_to_Senator_Pauls_Spring_2019_Waste_in_Full_Bloom.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Pauls_Spring_2019_Waste_in_Full_Bloom.pdf) | nsf.gov | 2021-05-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | — | — |
 | [NSF_Response_to_Senator_Pauls_Summer_2019_Waste_Report.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Pauls_Summer_2019_Waste_Report.pdf) | nsf.gov | 2021-05-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
+| [National-AI-Research-Resource-Task-Force-Charter-2021.pdf](https://nsf-gov-resources.nsf.gov/files/National-AI-Research-Resource-Task-Force-Charter-2021.pdf) | nsf.gov | 2024-01-22 | National AI Research Resource Task Force Charter 2021 | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 3 | 146.6 KB | 315 | 0 |
 | [SciENcvFAQs.pdf](https://nsf-gov-resources.nsf.gov/files/SciENcvFAQs.pdf) | nsf.gov | 2024-08-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 19 | — | — | — |
 | [TIP%20Impact%20Infographic%20508%20v2.pdf](https://nsf-gov-resources.nsf.gov/files/TIP%20Impact%20Infographic%20508%20v2.pdf) | nsf.gov | 2025-03-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
 | [appendix-a-r.pdf](https://nsf-gov-resources.nsf.gov/files/appendix-a-r.pdf) | nsf.gov | 2025-02-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | — | — |
+| [cost-sharing-statement.pdf](https://nsf-gov-resources.nsf.gov/files/cost-sharing-statement.pdf) | nsf.gov | 2025-02-18 | Implementation of the 2nd NSB Cost Sharing Report | Hodges, Samantha B. | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 257.9 KB | 464 | 2 |
+| [environmental-impacts-checklist.pdf](https://nsf-gov-resources.nsf.gov/files/environmental-impacts-checklist.pdf) | nsf.gov | 2016-12-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 9 | 365.0 KB | 3598 | 0 |
 | [nsb20198-fig03-021.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/figures/nsb20198-fig03-021.pdf) | nsf.gov | 2019-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
 | [nsb20198-fig03-022.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/figures/nsb20198-fig03-022.pdf) | nsf.gov | 2019-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
 | [nsb20198-fig03-023.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/figures/nsb20198-fig03-023.pdf) | nsf.gov | 2019-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
@@ -1099,13 +1105,13 @@ Generated: 2026-07-31T18:53:39.629019+00:00
 | [nsb20198-tab03-021.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/tables/nsb20198-tab03-021.pdf) | nsf.gov | 2019-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
 | [nsb20198-tab03-022.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/tables/nsb20198-tab03-022.pdf) | nsf.gov | 2019-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
 | [nsb20198-tab03-023.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/tables/nsb20198-tab03-023.pdf) | nsf.gov | 2019-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
-| [nsf23104.pdf](https://nsf-gov-resources.nsf.gov/pubs/2023/nsf23104/nsf23104.pdf) | nsf.gov | 2023-07-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 28 | — | — | — |
-| [nsf23_1.pdf](https://nsf-gov-resources.nsf.gov/2022-10/nsf23_1.pdf) | nsf.gov | 2024-02-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 203 | — | — | — |
-| [nsf24_1.pdf](https://nsf-gov-resources.nsf.gov/files/nsf24_1.pdf) | nsf.gov | 2025-12-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 216 | — | — | — |
+| [nsf23104.pdf](https://nsf-gov-resources.nsf.gov/pubs/2023/nsf23104/nsf23104.pdf) | nsf.gov | 2023-07-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 28 | 2.1 MB | — | — |
+| [nsf23_1.pdf](https://nsf-gov-resources.nsf.gov/2022-10/nsf23_1.pdf) | nsf.gov | 2024-02-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 203 | 3.2 MB | — | — |
+| [nsf24_1.pdf](https://nsf-gov-resources.nsf.gov/files/nsf24_1.pdf) | nsf.gov | 2025-12-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 216 | 4.4 MB | — | — |
 | [nsf25003.pdf](https://nsf-gov-resources.nsf.gov/files/nsf25003.pdf) | nsf.gov | 2025-01-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 34 | — | — | — |
 | [nsf26313-tab009.pdf](https://ncses.nsf.gov/pubs/nsf26313/assets/data-tables/tables/nsf26313-tab009.pdf) | nsf.gov | 2026-02-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — | — |
 | [nsf26313-tab010.pdf](https://ncses.nsf.gov/pubs/nsf26313/assets/data-tables/tables/nsf26313-tab010.pdf) | nsf.gov | 2026-02-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
-| [overview.pdf](https://seedfund.nsf.gov/assets/files/press/overview.pdf) | nsf.gov | 2025-03-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
+| [overview.pdf](https://seedfund.nsf.gov/assets/files/press/overview.pdf) | nsf.gov | 2025-03-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 2.6 MB | — | — |
 | [wmpd19-sr-tab09-003.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-003.pdf) | nsf.gov | 2019-04-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
 | [wmpd19-sr-tab09-004.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-004.pdf) | nsf.gov | 2019-04-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
 | [wmpd19-sr-tab09-005.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-005.pdf) | nsf.gov | 2019-04-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
@@ -1873,8 +1879,8 @@ Generated: 2026-07-31T18:53:39.629019+00:00
 | [Expanding_the_Frontiers_of_Quantum_Science_508.pdf](https://nsf-gov-resources.nsf.gov/files/Expanding_the_Frontiers_of_Quantum_Science_508.pdf?VersionId=bciPDJcA3cqmH2m_l2mQkOF7fBEbQW4e) | nsf.gov | 2025-12-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
 | [Factsheet_BioTech_v04.pdf](https://nsf-gov-resources.nsf.gov/files/Factsheet_BioTech_v04.pdf?VersionId=uvZervSl6Gt2lYcdGUza1i7YQxCIj61K) | nsf.gov | 2025-01-13 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
 | [JSR-19-2IFundamentalResearchSecurity-12062019FINAL.pdf](https://nsf-gov-resources.nsf.gov/files/JSR-19-2IFundamentalResearchSecurity-12062019FINAL.pdf) | nsf.gov | 2019-12-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 59 | — | — | — |
-| [JSR-23-12-Safeguarding-the-Research-Enterprise-Final.pdf](https://nsf-gov-resources.nsf.gov/files/JSR-23-12-Safeguarding-the-Research-Enterprise-Final.pdf?VersionId=ZVhvRaTIrxMsdZql6E_yz5pN6Ssw0fSl) | nsf.gov | 2024-03-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 92 | — | — | — |
-| [Join_Zoom_Meeting_Panelist.pdf](https://nsf-gov-resources.nsf.gov/files/Join_Zoom_Meeting_Panelist.pdf) | nsf.gov | 2024-08-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
+| [JSR-23-12-Safeguarding-the-Research-Enterprise-Final.pdf](https://nsf-gov-resources.nsf.gov/files/JSR-23-12-Safeguarding-the-Research-Enterprise-Final.pdf?VersionId=ZVhvRaTIrxMsdZql6E_yz5pN6Ssw0fSl) | nsf.gov | 2024-03-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 92 | 1.4 MB | — | — |
+| [Join_Zoom_Meeting_Panelist.pdf](https://nsf-gov-resources.nsf.gov/files/Join_Zoom_Meeting_Panelist.pdf) | nsf.gov | 2024-08-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 293.1 KB | — | — |
 | [Medical-Review-Panel-Charter-2023-r.pdf](https://nsf-gov-resources.nsf.gov/files/Medical-Review-Panel-Charter-2023-r.pdf?VersionId=do5yYWAm2EQQQhEIs27aJ4nWI1n7Nwy6) | nsf.gov | 2025-03-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | — | — |
 | [NIH-research-terms-conditions-2020-r.pdf](https://nsf-gov-resources.nsf.gov/files/NIH-research-terms-conditions-2020-r.pdf?VersionId=n9sFgwQZqHSHSdweAtYwbvlXHY8r3m80) | nsf.gov | 2025-01-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — | — |
 | [NIH-research-terms-conditions-20210408-r.pdf](https://nsf-gov-resources.nsf.gov/files/NIH-research-terms-conditions-20210408-r.pdf?VersionId=mU6QrWZhasHMz7_PXyHHoXLr9OsVbfuX) | nsf.gov | 2025-01-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | — | — |
@@ -1902,10 +1908,10 @@ Generated: 2026-07-31T18:53:39.629019+00:00
 | [SOH_POL_2000.10_VOL1_Mar_2025-0.pdf](https://nsf-gov-resources.nsf.gov/files/SOH_POL_2000.10_VOL1_Mar_2025.pdf) | nsf.gov | 2025-06-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 114 | — | — | — |
 | [SOH_POL_2000.10_VOL1_Mar_2025.pdf](https://nsf-gov-resources.nsf.gov/files/SOH_POL_2000.10_VOL1_Mar_2025.pdf?VersionId=g9q07U8qCjaATlNsnWP9RBZcLdrYQzox) | nsf.gov | 2025-06-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 114 | — | — | — |
 | [SOH_POL_2000.10_VOL2.pdf](https://nsf-gov-resources.nsf.gov/files/SOH_POL_2000.10_VOL2.pdf) | nsf.gov | 2024-06-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 27 | — | — | — |
-| [System_Requirements.pdf](https://nsf-gov-resources.nsf.gov/files/System_Requirements.pdf) | nsf.gov | 2023-10-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
+| [System_Requirements.pdf](https://nsf-gov-resources.nsf.gov/files/System_Requirements.pdf) | nsf.gov | 2023-10-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 90.2 KB | — | — |
 | [TIPRoadmap_WEB.pdf](https://nsf-gov-resources.nsf.gov/files/TIPRoadmap_WEB.pdf) | nsf.gov | 2024-08-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 40 | — | — | — |
 | [TIP_I-CorpsReport_2023_Final_6.21.2023.508.pdf](https://nsf-gov-resources.nsf.gov/2023-06/TIP_I-CorpsReport_2023_Final_6.21.2023.508.pdf?VersionId=7hktpt_12oxeM2sHpOrTR6uG3mm6_DMk) | nsf.gov | 2023-06-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 51 | — | — | — |
-| [Zoom_Test_Meeting.pdf](https://nsf-gov-resources.nsf.gov/files/Zoom_Test_Meeting.pdf) | nsf.gov | 2024-08-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
+| [Zoom_Test_Meeting.pdf](https://nsf-gov-resources.nsf.gov/files/Zoom_Test_Meeting.pdf) | nsf.gov | 2024-08-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 407.3 KB | — | — |
 | [agencyimpstatements-20201112-r.pdf](https://nsf-gov-resources.nsf.gov/files/agencyimpstatements-20201112-r.pdf?VersionId=VByFXrlRqf4TsZmBOX9UyBKj5oGmQIJf) | nsf.gov | 2025-01-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — | — |
 | [alabama_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/alabama_factsheet.pdf) | nsf.gov | 2026-01-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
 | [alaska_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/alaska_factsheet.pdf) | nsf.gov | 2026-01-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
@@ -3683,6 +3689,16 @@ Generated: 2026-07-31T18:53:39.629019+00:00
 | [uc-employer-quick-guide.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-employer-quick-guide.pdf) | pa.gov | 2024-06-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 607 | 16 |
 | [ucms%20-%20how%20to%20register%20online%20tpa.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucms%20-%20how%20to%20register%20online%20tpa.pdf) | pa.gov | 2025-03-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | — | 651 | 23 |
 | [wawa%2060th%20anniversary%20pdf.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/governor/documents/wawa%2060th%20anniversary%20pdf.pdf) | pa.gov | 2024-04-15 | — | mrdowning | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 299.8 KB | 0 | 114 |
+| [FOIA-2025-Q3.pdf](https://nsf-gov-resources.nsf.gov/files/FOIA-2025-Q3.pdf) | nsf.gov | 2025-11-25 | Freedom of Information Act (FOIA) FY2024 Q3 Report | Christian, Spencer D. | {'Freedom of Information Act (FOIA) FY2024 Q3 Report'} | Freedom of Information Act (FOIA) FY2024 Q3 Report | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ❌ Fail | 1 | 133.0 KB | 134 | 2 |
+| [FOIA-2025-Q4.pdf](https://nsf-gov-resources.nsf.gov/files/FOIA-2025-Q4.pdf) | nsf.gov | 2025-11-25 | Freedom of Information Act (FOIA) FY2024 Q4 Report | Christian, Spencer D. | {'Freedom of Information Act (FOIA) FY2024 Q4 Report'} | Freedom of Information Act (FOIA) FY2024 Q4 Report | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ❌ Fail | 1 | 133.2 KB | 134 | 2 |
+| [FOIA-NSF-2025-Q2.pdf](https://nsf-gov-resources.nsf.gov/files/FOIA-NSF-2025-Q2.pdf) | nsf.gov | 2025-12-10 | Freedom of Information Act (FOIA) FY2024 Q3 Report | NSF - U.S. National Science Foundation - Quarterly-Report-FY25-First-Quarter.pdf | Christian, Spencer D. | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ❌ Fail | 1 | 133.8 KB | 134 | 2 |
+| [Meeting_Sign_In_508.pdf](https://nsf-gov-resources.nsf.gov/files/Meeting_Sign_In_508.pdf) | nsf.gov | 2025-01-27 | Instructions For Meeting Sign-In | National Science Foundation (NSF) | {'Sign-In', 'Instructions', 'Meeting'} | Instructions; Meeting; Sign-In | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 3 | 488.4 KB | 485 | 13 |
+| [NSF-FOIA-Raw-Data-FY2021-r.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-FOIA-Raw-Data-FY2021-r.pdf?VersionId=L_SFeppi9o1YWWbSqhLhnbYVC5T8RBLi) | nsf.gov | 2025-02-04 | NSF FOIA RAW DATA FY 2021 | Evans, Sandra | {'FOIA', 'Freedome of Information Act'} | FOIA; Freedome of Information Act | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | ❌ Fail | ❌ Fail | 13 | 534.8 KB | 5620 | 1 |
+| [NSF_Chief_FOIA_Officers_Report_2026.pdf](https://nsf-gov-resources.nsf.gov/files/NSF_Chief_FOIA_Officers_Report_2026.pdf) | nsf.gov | 2026-02-13 | The National Science Foundation 2026 Chief FOIA Officer Report | Westmoreland, Megan A. | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 13 | 241.5 KB | 4366 | 0 |
+| [PES_Quickstart_Guide_External.pdf](https://nsf-gov-resources.nsf.gov/files/PES_Quickstart_Guide_External.pdf) | nsf.gov | 2026-04-29 | Research.gov Proposal Submission System | Iqab, Rahma (Contractor) | Research.gov Proposal Submission System | Research.gov Proposal Submission System | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 10 | 2.4 MB | 3104 | 44 |
+| [Test_Your_Connection.pdf](https://nsf-gov-resources.nsf.gov/files/Test_Your_Connection.pdf) | nsf.gov | 2019-04-25 | Instructions For How To Test Your Internet Connection | {'NSF'} | {'Internet Connection', 'testing'} | Internet Connection; testing | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | 143.7 KB | 379 | 2 |
+| [Travel_and_Reimbursement_508.pdf](https://nsf-gov-resources.nsf.gov/files/Travel_and_Reimbursement_508.pdf) | nsf.gov | 2025-12-23 | Travel and Reimbursement System | National Science Foundation (NSF) | {'Travel; Reimbursement; System'} | "Travel; Reimbursement; System" | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 1.1 MB | 818 | 37 |
+| [Which_Platform_Is_My_Meeting_On.pdf](https://nsf-gov-resources.nsf.gov/files/Which_Platform_Is_My_Meeting_On.pdf) | nsf.gov | 2024-08-06 | How to Determine Your Video Conferencing Platform | Otts, Katherine; PDF prepared by LH in OLPA | {'NSF video conferencing', 'how to'} | NSF video conferencing, how to | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | 222.6 KB | 237 | 21 |
 | [Bixal_Transforming_Govt_CX.pdf](https://www.bixal.com/sites/default/files/2024-06/Bixal_Transforming_Govt_CX.pdf) | bixal.com | 2024-03-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 17 | — | 5028 | 1 |
 | [data-maturity-checklist.pdf](https://www.bixal.com/sites/default/files/2024-06/data-maturity-checklist.pdf) | bixal.com | 2024-06-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 425 | 0 |
 | [03092020-covid-19-faqs-508.pdf](https://www.cms.gov/files/document/03092020-covid-19-faqs-508.pdf) | cms.gov | 2024-03-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 181 | — | 72020 | 197 |
@@ -6192,6 +6208,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [M-19-15.pdf](https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-15.pdf) | energy.gov *(ext: whitehouse.gov)* | 2019-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 11 | 991.1 KB | — | — |
 | [Washington%20v.%20Trump%20-%20notice%20of%20court%20order%20-%20PI%20clarification%20-%2003-20-25.pdf](https://www.energy.gov/sites/default/files/2025-03/Washington%20v.%20Trump%20-%20notice%20of%20court%20order%20-%20PI%20clarification%20-%2003-20-25.pdf) | energy.gov | 2025-03-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 3 | 187.8 KB | — | — |
 | [amendment-s2488.pdf](https://www.justice.gov/sites/default/files/oip/legacy/2014/07/23/amendment-s2488.pdf) | energy.gov *(ext: justice.gov)* | 2008-02-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | ✅ Pass | 19 | 387.9 KB | — | — |
+| [010422-NSPM-33-Implementation-Guidance.pdf](https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/01/010422-NSPM-33-Implementation-Guidance.pdf) | nsf.gov *(ext: bidenwhitehouse.archives.gov)* | 2022-01-03 | GUIDANCE FOR IMPLEMENTING NATIONAL SECURITY PRESIDENTIAL MEMORANDUM 33 (NSPM-33) ON NATIONAL SECURITY STRATEGY FOR UNITED STATES GOVERNMENT-SUPPORTED RESEARCH AND DEVELOPMENT | Whitman, Lloyd J. EOP/OSTP | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 34 | 788.7 KB | 11738 | 1 |
 | [191001-ministerrat.pdf](https://www.stmd.bayern.de/wp-content/uploads/2019/10/191001-ministerrat.pdf) | stmd.bayern.de | 2019-10-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 7 | — | — | — |
 | [20200924-Cert4Trust_Presseblatt.pdf](https://www.stmd.bayern.de/wp-content/uploads/2020/09/20200924-Cert4Trust_Presseblatt.pdf) | stmd.bayern.de | 2020-09-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — | — |
 | [21_04_2021_Abschlussbericht_DISKURS.pdf](https://www.stmd.bayern.de/wp-content/uploads/2021/05/21_04_2021_Abschlussbericht_DISKURS.pdf) | stmd.bayern.de | 2021-03-30 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | — | — | — |
@@ -22342,6 +22359,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/19_fy2022.pdf?VersionId=Pvr2IemSyQKv3ytydFeKBG_ugunZWHkM (crawled 1 day(s) ago at 2026-03-10T01:18:24.369355+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
+### 2015-2016-ceose-biennial-report-508_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2015-2016-ceose-biennial-report-508_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.379467+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
 ### 2021-Merit-Review-Survey-Report-Final_508.pdf?VersionId=pJIAJXpdy5tnFX1ONfQHhcKobGM3UYQn
 
 - **URL**: https://nsf-gov-resources.nsf.gov/2023-10/2021-Merit-Review-Survey-Report-Final_508.pdf?VersionId=pJIAJXpdy5tnFX1ONfQHhcKobGM3UYQn
@@ -22492,12 +22515,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/CIRC_Webinar.pptx?VersionId=dOhMfSuBJ6XP2hnJZHSytI4oJVSCFC8Q (crawled 1 day(s) ago at 2026-03-10T01:18:24.444386+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### COI-Confidentiality-Panelists-NSF_Form_1230P.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/COI-Confidentiality-Panelists-NSF_Form_1230P.pdf
-- **Status**: error
-- File not found: crawled_files/nsf.gov/COI-Confidentiality-Panelists-NSF_Form_1230P.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.444990+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
 ### CUE-Transcript.pdf?VersionId=qnMzcJFysWBo3raLsji1EoE_SXrC9AyY
 
 - **URL**: https://nsf-gov-resources.nsf.gov/attachments/305552/public/CUE-Transcript.pdf?VersionId=qnMzcJFysWBo3raLsji1EoE_SXrC9AyY
@@ -22576,6 +22593,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/ED-Supp-Template.docx (crawled 1 day(s) ago at 2026-03-10T01:18:24.455496+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
+### EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-06/EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.489677+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
 ### EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29_1.pdf?VersionId=IKsxGiL7ThivnhGSx1toUnIeB7ajtPCX
 
 - **URL**: https://nsf-gov-resources.nsf.gov/2023-04/EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29_1.pdf?VersionId=IKsxGiL7ThivnhGSx1toUnIeB7ajtPCX
@@ -22605,6 +22628,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/Ellen-Ochoa-April-2021-NSB-testimony.pdf
 - **Status**: error
 - File not found: crawled_files/nsf.gov/Ellen-Ochoa-April-2021-NSB-testimony.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.527868+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Envisioning-The-Future-of-EPSCoR-Report.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-08/Envisioning-The-Future-of-EPSCoR-Report.pdf
+- **Status**: analysed
+- tables-warn, 
 
 ### Evaluation%20of%20the%20National%20Sciece%20Foundation%27s%20International%20Research%20Experiences%20for%20Students%20%28IRES%29%20Program.pdf?VersionId=vuL.tNYzsDFY9SfTn9vSrW_GkIZ9CkUS
 
@@ -22743,6 +22772,18 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/Grant%20General%20Conditions%20%28GC-1%29%20-%20Oct%205%202020-r.pdf?VersionId=MyQb_wJrHvbkS5yJCotXjlO7z2WmmOBi
 - **Status**: error
 - File not found: crawled_files/nsf.gov/Grant%20General%20Conditions%20%28GC-1%29%20-%20Oct%205%202020-r.pdf?VersionId=MyQb_wJrHvbkS5yJCotXjlO7z2WmmOBi (crawled 1 day(s) ago at 2026-03-10T01:18:24.587007+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### HAC-CJS-Panchanathan-FY23testimony_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-06/HAC-CJS-Panchanathan-FY23testimony_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.587572+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### HSSTNSFDOEfinaltestimony.pdf?VersionId=IXsTXFR153FXx5Wolotmu1uO5g0PGDEY
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/HSSTNSFDOEfinaltestimony.pdf?VersionId=IXsTXFR153FXx5Wolotmu1uO5g0PGDEY
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.588116+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### IISOfficehours-for-phds-postdocs_Complaint.pptx?VersionId=18cBBnY_z9wHGwULoNFPnzD7d2lfFyTL
 
@@ -23091,6 +23132,210 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-2-Year-Progress-Update.pdf?VersionId=rPBRmrQGywlcbucdkNLSHgOWcYlUV1ZT
 - **Status**: error
 - File not found: crawled_files/nsf.gov/NAIRR-2-Year-Progress-Update.pdf?VersionId=rPBRmrQGywlcbucdkNLSHgOWcYlUV1ZT (crawled 1 day(s) ago at 2026-03-10T01:18:24.685437+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Agenda-01132023.pdf?VersionId=QRs2PXwxSsD6ETYGRc6A9Sj7IC04lEse
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-01132023.pdf?VersionId=QRs2PXwxSsD6ETYGRc6A9Sj7IC04lEse
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.685902+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Agenda-02162022.pdf?VersionId=Hl00a.7psq5ac4p_ZqCOTMvsujQk3ToS
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-02162022.pdf?VersionId=Hl00a.7psq5ac4p_ZqCOTMvsujQk3ToS
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.686447+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Agenda-04082021.pdf?VersionId=IstCcDCkmF6ynpOCbsnhcZ3TMQfFle0b
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-04082021.pdf?VersionId=IstCcDCkmF6ynpOCbsnhcZ3TMQfFle0b
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.686973+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Agenda-05202022.pdf?VersionId=BKcoxtfjQHwZ3UkfxmiNwQlDOEMFfvGa
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-05202022.pdf?VersionId=BKcoxtfjQHwZ3UkfxmiNwQlDOEMFfvGa
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.687427+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Agenda-07252022.pdf?VersionId=NRuKbZC4em_DoE7zi9tSxA_R_rh3WeHo
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-07252022.pdf?VersionId=NRuKbZC4em_DoE7zi9tSxA_R_rh3WeHo
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.687906+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Agenda-07282021.pdf?VersionId=Wa1i7NGNwuSBwctDgCLvnATPUgDGxK3I
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-07282021.pdf?VersionId=Wa1i7NGNwuSBwctDgCLvnATPUgDGxK3I
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.688520+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Agenda-08302021.pdf?VersionId=ehkbPIZB6Uac.K0JCODfuzLB.4FOWnOw
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-08302021.pdf?VersionId=ehkbPIZB6Uac.K0JCODfuzLB.4FOWnOw
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.689060+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Agenda-09122022.pdf?VersionId=TLxrwxABnvO12Eh6KgpfkD02.gUNZzzP
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-09122022.pdf?VersionId=TLxrwxABnvO12Eh6KgpfkD02.gUNZzzP
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.689547+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Agenda-10212022.pdf?VersionId=GuQRYKe5VSHTrOYbh.uCoxxt6wLNVKpF
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-10212022.pdf?VersionId=GuQRYKe5VSHTrOYbh.uCoxxt6wLNVKpF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.689998+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Agenda-10252021.pdf?VersionId=8q0UPs4QgcqfXLvfaWCKZ8EaUOR0IGiw
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-10252021.pdf?VersionId=8q0UPs4QgcqfXLvfaWCKZ8EaUOR0IGiw
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.690550+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Agenda-12132021.pdf?VersionId=7jSHuY6tft1hv1yC0qR6PJcIHMjbZ8Sv
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-12132021.pdf?VersionId=7jSHuY6tft1hv1yC0qR6PJcIHMjbZ8Sv
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.691078+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Interim-Report-2022.pdf?VersionId=.yhXZ_u9o_213S2qQHLt6BMTtmhQWoJe
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Interim-Report-2022.pdf?VersionId=.yhXZ_u9o_213S2qQHLt6BMTtmhQWoJe
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.694506+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Meeting-Minutes-01132023.pdf?VersionId=Qnt71pnkKDC21R0.RKgEHOe4jXOUGQFJ
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-01132023.pdf?VersionId=Qnt71pnkKDC21R0.RKgEHOe4jXOUGQFJ
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.695022+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Meeting-Minutes-02162022.pdf?VersionId=AUZPhcSfklfqn84b4UNWg6t67OfU9kPD
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-02162022.pdf?VersionId=AUZPhcSfklfqn84b4UNWg6t67OfU9kPD
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.695571+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Meeting-Minutes-04082022.pdf?VersionId=ODjOGcm99EE6rlcUNZlYw1wveWtdBd89
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-04082022.pdf?VersionId=ODjOGcm99EE6rlcUNZlYw1wveWtdBd89
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.696111+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Meeting-Minutes-05202022.pdf?VersionId=EmB3i4KtNMWw7lC9fqrMhGb_l42QsyKh
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-05202022.pdf?VersionId=EmB3i4KtNMWw7lC9fqrMhGb_l42QsyKh
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.696616+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Meeting-Minutes-07252022.pdf?VersionId=l09_CKba6WQDYs48AszVuByN1iuDj9LI
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-07252022.pdf?VersionId=l09_CKba6WQDYs48AszVuByN1iuDj9LI
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.697144+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Meeting-Minutes-07282021.pdf?VersionId=lAyw.PkRiEV_CVsaObfnibEN5_FOdcVx
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-07282021.pdf?VersionId=lAyw.PkRiEV_CVsaObfnibEN5_FOdcVx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.697636+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Meeting-Minutes-08302021.pdf?VersionId=D47RXei6ZIMK21NWv717PBV3sSdX6qCS
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-08302021.pdf?VersionId=D47RXei6ZIMK21NWv717PBV3sSdX6qCS
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.698146+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Meeting-Minutes-09122022.pdf?VersionId=wLRTZS5KIKQYm9NkJQtfpQwrgkH6Qj0q
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-09122022.pdf?VersionId=wLRTZS5KIKQYm9NkJQtfpQwrgkH6Qj0q
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.698685+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Meeting-Minutes-10212022.pdf?VersionId=0glvbx4zIY4nHIQEip3MQtcor33q729O
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-10212022.pdf?VersionId=0glvbx4zIY4nHIQEip3MQtcor33q729O
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.699178+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Meeting-Minutes-10252021.pdf?VersionId=VP.RyaOT3G8ZNPOw8RxM94wmbu0Ou8_s
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-10252021.pdf?VersionId=VP.RyaOT3G8ZNPOw8RxM94wmbu0Ou8_s
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.699675+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Meeting-Minutes-12132021.pdf?VersionId=m55H9iR0ci0J67jz6pYzOgSYG5kWIZcQ
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-12132021.pdf?VersionId=m55H9iR0ci0J67jz6pYzOgSYG5kWIZcQ
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.700253+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Presentations-01132023.pdf?VersionId=uxuCEielRZm5BVGMnb3uJ0x8XQQZ4iOl
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-01132023.pdf?VersionId=uxuCEielRZm5BVGMnb3uJ0x8XQQZ4iOl
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.701672+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Presentations-02162022.pdf?VersionId=9jZHOC6wBLQWdYjy19iKwVwuhGSYwOgY
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-02162022.pdf?VersionId=9jZHOC6wBLQWdYjy19iKwVwuhGSYwOgY
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.704256+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Presentations-04082022.pdf?VersionId=sRX7kwH5x2FKQIvVAUAP5DPcXkl4b9wu
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-04082022.pdf?VersionId=sRX7kwH5x2FKQIvVAUAP5DPcXkl4b9wu
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.706506+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Presentations-05202022.pdf?VersionId=jKV9UNLLBw6XmKD0YPdTMpqKks21VitK
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-05202022.pdf?VersionId=jKV9UNLLBw6XmKD0YPdTMpqKks21VitK
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.708253+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Presentations-07252022.pdf?VersionId=fVrTn30CwdAKgVx2n3vypOfYF5kDXsXx
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-07252022.pdf?VersionId=fVrTn30CwdAKgVx2n3vypOfYF5kDXsXx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.714772+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Presentations-07282021.pdf?VersionId=oe76jymBnRU4.h6gu3mAkfgQ3OXfhsAZ
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-07282021.pdf?VersionId=oe76jymBnRU4.h6gu3mAkfgQ3OXfhsAZ
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.736040+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Presentations-08302021.pdf?VersionId=Bgfg.J4.5UvFm1xQ0x4Ls6jng.Id9PGe
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-08302021.pdf?VersionId=Bgfg.J4.5UvFm1xQ0x4Ls6jng.Id9PGe
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.737963+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Presentations-09122022.pdf?VersionId=gqmPfBP9xbfUQEw0m5H7M5GIyVmotBfL
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-09122022.pdf?VersionId=gqmPfBP9xbfUQEw0m5H7M5GIyVmotBfL
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.743927+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Presentations-10212022.pdf?VersionId=1rLJCtjsm3IPli.O6cSYI2QhIGIrWK35
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-10212022.pdf?VersionId=1rLJCtjsm3IPli.O6cSYI2QhIGIrWK35
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.747102+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Presentations-10252021.pdf?VersionId=pO2JQc1Ze.AyJT.J7Nx3kINcCh_1P.Fs
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-10252021.pdf?VersionId=pO2JQc1Ze.AyJT.J7Nx3kINcCh_1P.Fs
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.789592+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR-TF-Presentations-12132021.pdf?VersionId=LI.TE9oXWVyVoCCGBmS6N84vUOkgi9HO
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-12132021.pdf?VersionId=LI.TE9oXWVyVoCCGBmS6N84vUOkgi9HO
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.793431+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### NASEM-Report.pdf?VersionId=rzLokBbl9Yw2vscRhztc6ezG94SgWI5c
 
@@ -23469,6 +23714,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/attachments/304910/public/Rough-Transcript-CICI.pdf?VersionId=pYmFvazQsyajPitFMB.gkJZCHZ_FZ4lj
 - **Status**: error
 - File not found: crawled_files/nsf.gov/Rough-Transcript-CICI.pdf?VersionId=pYmFvazQsyajPitFMB.gkJZCHZ_FZ4lj (crawled 1 day(s) ago at 2026-03-10T01:18:24.973630+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SAC%20CJS%20NSF%20FY23%20Testimony%20FINAL.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-06/SAC%20CJS%20NSF%20FY23%20Testimony%20FINAL.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.974288+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### SBIR-STTR_Revised_Report_Cover.pdf
 
@@ -24613,8 +24864,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### cost-sharing-statement.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/cost-sharing-statement.pdf
-- **Status**: error
-- File not found: crawled_files/nsf.gov/cost-sharing-statement.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.226034+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- tagged-content-fail, headings-none, 
 
 ### definitions
 
@@ -24643,8 +24894,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### environmental-impacts-checklist.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/environmental-impacts-checklist.pdf
-- **Status**: error
-- File not found: crawled_files/nsf.gov/environmental-impacts-checklist.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.228627+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, forms-fail, forms-untagged, 
 
 ### errata.pdf
 
@@ -24860,7 +25111,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.nsf.gov/awards/indirect-cost-proposals
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.263464+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- File not found: crawled_files/nsf.gov/indirect-cost-proposals (crawled 0.0 day(s) ago at 2026-07-31T18:57:06.801463+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### indirect-cost-rate-adjustments.pdf
 
@@ -25328,7 +25579,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://nsf-gov-resources.nsf.gov/nsb/publications/2020/nsb202015.pdf?VersionId=TySo_d0KJ7zHCGTsauweSjp9b_Ngel6.
 - **Status**: error
-- File not found: crawled_files/nsf.gov/nsb202015.pdf?VersionId=TySo_d0KJ7zHCGTsauweSjp9b_Ngel6. (crawled 1 day(s) ago at 2026-03-10T01:18:25.416067+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:25.416067+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### nsb202038.pdf
 
@@ -25504,6 +25755,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/nsf15089.pdf?VersionId=G4eS8JPUx1gf.Q8jytI16KO5juyTIv7i (crawled 1 day(s) ago at 2026-03-10T01:18:25.471785+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
+### nsf16_1.pdf?VersionId=RglAArfAx.LGcOalSpQqs_L5frdg0qre
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pappguide/nsf16001/nsf16_1.pdf?VersionId=RglAArfAx.LGcOalSpQqs_L5frdg0qre
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:25.483548+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
 ### nsf17066.pdf?VersionId=o9536BDMp0zSGUv7RJjt1461GCNXMfGo
 
 - **URL**: https://nsf-gov-resources.nsf.gov/pubs/2017/nsf17066/nsf17066.pdf?VersionId=o9536BDMp0zSGUv7RJjt1461GCNXMfGo
@@ -25575,6 +25832,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2021/nsf21555/nsf21555.pdf?VersionId=wxUtybPFk8fe1q769DOBj5ULnm0eF6Kn
 - **Status**: error
 - File not found: crawled_files/nsf.gov/nsf21555.pdf?VersionId=wxUtybPFk8fe1q769DOBj5ULnm0eF6Kn (crawled 1 day(s) ago at 2026-03-10T01:18:25.542508+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf22068.pdf?VersionId=QeimX_s5IrCTtRsHVInSet1iQjahFwNG
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2022/nsf22068/nsf22068.pdf?VersionId=QeimX_s5IrCTtRsHVInSet1iQjahFwNG
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:25.572460+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### nsf22528.pdf?VersionId=TlMYEXeRibcdxKcml92eKMIJ_0JHvJhn
 
@@ -26049,6 +26312,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pnag/pnag171.pdf?VersionId=fKt7WYIWedO5SffTDuhcCYNh0TpmX4t_
 - **Status**: error
 - File not found: crawled_files/nsf.gov/pnag171.pdf?VersionId=fKt7WYIWedO5SffTDuhcCYNh0TpmX4t_ (crawled 1 day(s) ago at 2026-03-10T01:18:25.660999+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### polar-coc-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/polar-coc-r.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:25.661920+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### reportingrequirements.pdf
 
@@ -48994,6 +49263,96 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/pa.gov/york%20nhios%20town%20hall%20flyer.pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.978353+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
+### 1995-1996-ceose-biennial-report-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/1995-1996-ceose-biennial-report-508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.679600+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 1997-1998-ceose-biennial-report-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/1997-1998-ceose-biennial-report-508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.682443+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 1999-2000-ceose-biennial-report-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/1999-2000-ceose-biennial-report-508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.686674+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2001-2002-ceose-biennial-report-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2001-2002-ceose-biennial-report-508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.695709+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2003-2004-ceose-biennial-report-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2003-2004-ceose-biennial-report-508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.699081+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2005-2006-ceose-biennial-report-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2005-2006-ceose-biennial-report-508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.703796+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2007-2008-ceose-biennial-report-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2007-2008-ceose-biennial-report-508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.705505+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2009-2010-ceose-biennial-report-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2009-2010-ceose-biennial-report-508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.709637+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2011-2012-ceose-biennial-report-508_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2011-2012-ceose-biennial-report-508_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.714167+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2013-2014-ceose-biennial-report-508_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2013-2014-ceose-biennial-report-508_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.718035+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2017-2018-ceose-biennial-report-508_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2017-2018-ceose-biennial-report-508_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.733489+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2019-2020-ceose-biennial-report-508_1.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2019-2020-ceose-biennial-report-508_1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.745202+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2023.04.18-Panchanathan.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/2023.04.18-Panchanathan.pdf?VersionId=bqXPI_W_7KKX_BA719VbZqMsQJudWoqZ
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.746684+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2023.04.19-Panchanathan.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/2023.04.19-Panchanathan.pdf?VersionId=tJDqtAg7mbtbVNSIM1H8RHM4hRFEH7Sc
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.748145+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2023.04.26-Panchanathan.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/2023.04.26-Panchanathan.pdf?VersionId=eBnztrtMSd9TTsdAR2tNR6kiJpL2GE1j
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.749609+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
 ### 2024-indicators-rollout-slides.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/2024-indicators-rollout-slides.pdf
@@ -49054,6 +49413,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.837569+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
+### DFM-PABGrantFAQ-r_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/DFM-PABGrantFAQ-r_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.842358+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
 ### DFM-PABGrantFAQ.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/DFM-PABGrantFAQ.pdf?VersionId=zLyGdO2m4vigGuM4vn0GOvih5TY_N3fm
@@ -49066,17 +49431,65 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.847403+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
+### DRL_FY26_Funding_%20Opps_Webinar_Sep_4_2025.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/DRL_FY26_Funding_%20Opps_Webinar_Sep_4_2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.849276+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Dr-Jennifer-Mercer-Testimony.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Dr-Jennifer-Mercer-Testimony.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.852848+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Dr-Saul-Gonzalez-Testimony.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Dr-Saul-Gonzalez-Testimony.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.854273+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Factsheet_MajorMultiuserFacilities.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Factsheet_MajorMultiuserFacilities.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.876072+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Factsheet_NSFAtAGlance.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Factsheet_NSFAtAGlance.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.880292+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Future-of-NSF-EPSCoR-Report-Handout-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-08/Future-of-NSF-EPSCoR-Report-Handout-508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.889380+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### HSST%20NSF%20Research%20Security.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/HSST%20NSF%20Research%20Security.pdf?VersionId=24Tt_EGAGCWnTKBS4M3B5WAP4dn4fgpM
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.891424+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### HSST-NSF-AI.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/HSST-NSF-AI.pdf?VersionId=gFmwAXBtlyi2h6ZBEEDCOsVodVDheSB2
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.892800+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### House-Oversight-Telework-Hearing-Testimony-NSF.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/House-Oversight-Telework-Hearing-Testimony-NSF.pdf?VersionId=L_RzMRWzqB_SyxHnoSS9iEhQxDwtFZ40
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.894623+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
 ### Indicators-ALABAMA.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-ALABAMA.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.898009+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Meeting_Sign_In_508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/Meeting_Sign_In_508.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.939315+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### NAIRR_Pilot%28508%29.pdf
 
@@ -49084,11 +49497,35 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.974452+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
+### NSF%20FY25%20Written%20Testimony-CLEARED.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF%20FY25%20Written%20Testimony-CLEARED.pdf?VersionId=WVkvVmvimYP8r80b4cfoXtua57DIi6LC
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.988801+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NSF%20FY25%20Written%20Testimony-SenateCJS-CLEARED.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF%20FY25%20Written%20Testimony-SenateCJS-CLEARED.pdf?VersionId=IOXy7dVBqD_IE8SIX_JXyRZUvoZZ99TC
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.990164+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NSF%20HSST%20NWIRP-NEHRP%20testimony-CLEARED.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF%20HSST%20NWIRP-NEHRP%20testimony-CLEARED.pdf?VersionId=WeGurDj3zPXT_MXAinMIMaJGyt1SWx3X
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.992212+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
 ### NSF-22-586-CAREER-Program-2025-Webinars.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-22-586-CAREER-Program-2025-Webinars.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.997045+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NSF-FOIA-Raw-Data-FY2021-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-FOIA-Raw-Data-FY2021-r.pdf?VersionId=L_SFeppi9o1YWWbSqhLhnbYVC5T8RBLi
+- **Status**: analysed
+- headings-none, tables-fail, 
 
 ### NSF_New%20Proposer_Proposal%20Submission%20Supplementary%20Guidance_NOTOC_20240320.pdf
 
@@ -49099,8 +49536,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### PES_Quickstart_Guide_External.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/PES_Quickstart_Guide_External.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.060767+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- figures missing alt text (count=1), headings-none, 
 
 ### PIA-eJacket.pdf
 
@@ -49138,29 +49575,17 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.082886+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### Test_Your_Connection.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/Test_Your_Connection.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.158187+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Travel_and_Reimbursement_508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/Travel_and_Reimbursement_508.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.161101+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
 ### Webinar_FAQ.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/Webinar_FAQ.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.167306+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### Which_Platform_Is_My_Meeting_On.pdf
+### dr-rebecca-keiser-testimony.pdf
 
-- **URL**: https://nsf-gov-resources.nsf.gov/files/Which_Platform_Is_My_Meeting_On.pdf
+- **URL**: https://nsf-gov-resources.nsf.gov/files/dr-rebecca-keiser-testimony.pdf
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.168760+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.238788+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### foia-log-2009.pdf
 
@@ -49227,6 +49652,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/foia-log-2019-r_0.pdf?VersionId=wZtMKRHXNdYAX15QlbhHU6a4GcsyYYq.
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.260963+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### hon-panchanathan-10-2023.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-11/hon-panchanathan-10-2023.pdf?VersionId=ptY9eFD4CMGWZktorTwJfGYweiqXf3S7
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.262860+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### jan2024-r.pdf
 
@@ -59968,6 +60399,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, lang, no bookmarks and more than 20 pages, 
 
+### records-management.pdf
+
+- **URL**: https://www.nsf.gov/oirm/das/records-management
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:48.830781+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
 ### 2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team.pdf
 
 - **URL**: https://www.energy.gov/cmei/fuels/articles/2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team
@@ -64779,6 +65216,18 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.justice.gov/sites/default/files/oip/legacy/2014/07/23/amendment-s2488.pdf
 - **Status**: analysed
 - title, fonts:/Helvetica, /Times-Bold, /Times-Italic, /Helvetica-Bold, /Times-Romanlists-warn, 
+
+### 010422-NSPM-33-Implementation-Guidance.pdf
+
+- **URL**: https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/01/010422-NSPM-33-Implementation-Guidance.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=3), tables-warn, 
+
+### 08-2022-OSTP-Public-Access-Memo.pdf
+
+- **URL**: https://bidenwhitehouse.archives.gov/wp-content/uploads/2022/08/08-2022-OSTP-Public-Access-Memo.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.423907+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 191001-ministerrat.pdf
 
