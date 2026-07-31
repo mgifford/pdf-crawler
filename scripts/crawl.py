@@ -26,7 +26,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.parse import parse_qs, unquote, urlencode, urlparse, urlunparse, urljoin
 from urllib.request import urlopen, Request
-from urllib.error import URLError
+from urllib.error import HTTPError, URLError
 
 # Ensure sibling scripts are importable
 sys.path.insert(0, str(Path(__file__).parent))
@@ -300,6 +300,12 @@ def spot_check_zero_results(url: str, timeout: int = 15) -> dict:
         req = Request(url, headers=_SPOT_CHECK_HEADERS)
         with urlopen(req, timeout=timeout) as resp:  # noqa: S310
             result["seed_status"] = resp.status
+    except HTTPError as exc:
+        # HTTP errors (e.g. 403 Forbidden) carry an explicit status code.
+        # Record it so callers can distinguish blocking (4xx/5xx) from a
+        # connection failure (URLError without a code).
+        result["seed_status"] = exc.code
+        errors.append(f"Seed URL probe failed: HTTP {exc.code} {exc.reason}")
     except URLError as exc:
         errors.append(f"Seed URL probe failed: {exc}")
     except Exception as exc:  # noqa: BLE001
@@ -326,6 +332,8 @@ def spot_check_zero_results(url: str, timeout: int = 15) -> dict:
         if blocked_by:
             result["robots_blocked"] = True
             result["robots_disallows"] = blocked_by
+    except HTTPError as exc:
+        errors.append(f"robots.txt probe failed: HTTP {exc.code} {exc.reason}")
     except URLError as exc:
         errors.append(f"robots.txt probe failed: {exc}")
     except Exception as exc:  # noqa: BLE001
@@ -764,8 +772,20 @@ def fetch_duckduckgo_pdfs(
     output_dir: str,
     max_pdfs: int,
     timeout: int = 3600,
+    discovered_urls_out: list | None = None,
 ) -> int:
-    """Download PDFs discovered via DuckDuckGo site-scoped search results."""
+    """Download PDFs discovered via DuckDuckGo site-scoped search results.
+
+    Args:
+        url: Seed URL of the site to search for PDFs.
+        output_dir: Directory where downloaded files are saved.
+        max_pdfs: Maximum number of PDFs to download.
+        timeout: Upper bound (in seconds) on individual HTTP request time.
+        discovered_urls_out: Optional list to extend with every PDF URL
+            discovered in search results, regardless of whether the download
+            succeeds.  Useful for diagnosing sites that block downloads from
+            CI IP ranges despite returning search results.
+    """
     parsed = urlparse(url)
     per_request_timeout = min(timeout, 60)
     try:
@@ -780,6 +800,9 @@ def fetch_duckduckgo_pdfs(
     if not pdf_urls:
         print("  No PDFs found in DuckDuckGo search results.")
         return 0
+
+    if discovered_urls_out is not None:
+        discovered_urls_out.extend(pdf_urls)
 
     total = len(pdf_urls)
     limited = pdf_urls[:max_pdfs]
@@ -863,8 +886,20 @@ def fetch_google_pdfs(
     output_dir: str,
     max_pdfs: int,
     timeout: int = 3600,
+    discovered_urls_out: list | None = None,
 ) -> int:
-    """Download PDFs discovered via Google site-scoped search results."""
+    """Download PDFs discovered via Google site-scoped search results.
+
+    Args:
+        url: Seed URL of the site to search for PDFs.
+        output_dir: Directory where downloaded files are saved.
+        max_pdfs: Maximum number of PDFs to download.
+        timeout: Upper bound (in seconds) on individual HTTP request time.
+        discovered_urls_out: Optional list to extend with every PDF URL
+            discovered in search results, regardless of whether the download
+            succeeds.  Useful for diagnosing sites that block downloads from
+            CI IP ranges despite returning search results.
+    """
     parsed = urlparse(url)
     per_request_timeout = min(timeout, 60)
     try:
@@ -879,6 +914,9 @@ def fetch_google_pdfs(
     if not pdf_urls:
         print("  No PDFs found in Google search results.")
         return 0
+
+    if discovered_urls_out is not None:
+        discovered_urls_out.extend(pdf_urls)
 
     total = len(pdf_urls)
     limited = pdf_urls[:max_pdfs]
@@ -1286,6 +1324,10 @@ def main() -> None:
         site_dir = Path(args.output_dir) / site_folder
         pdf_count = _count_downloaded_pdfs(site_dir)
 
+        # Accumulate PDF URLs discovered via search engines (DuckDuckGo/Google)
+        # so they can be surfaced in the spot-check even when downloads fail.
+        _search_discovered: list[str] = []
+
         if pdf_count == 0:
             # The spider found no PDFs – either it could not crawl any pages
             # (blocked by WAF/robots.txt) or the site serves PDFs only via
@@ -1324,7 +1366,8 @@ def main() -> None:
                     "Searching DuckDuckGo for site-scoped PDF links…"
                 )
                 duckduckgo_fetched = fetch_duckduckgo_pdfs(
-                    url, args.output_dir, args.max_pdfs, args.timeout
+                    url, args.output_dir, args.max_pdfs, args.timeout,
+                    discovered_urls_out=_search_discovered,
                 )
                 if duckduckgo_fetched > 0:
                     print(
@@ -1345,7 +1388,8 @@ def main() -> None:
                         "Searching Google for site-scoped PDF links…"
                     )
                     google_fetched = fetch_google_pdfs(
-                        url, args.output_dir, args.max_pdfs, args.timeout
+                        url, args.output_dir, args.max_pdfs, args.timeout,
+                        discovered_urls_out=_search_discovered,
                     )
                     if google_fetched > 0:
                         print(
@@ -1403,6 +1447,15 @@ def main() -> None:
             # surface them in the issue comment.
             print("Running spot-check diagnostics…")
             spot = spot_check_zero_results(url)
+            # Augment the spot-check with any PDF URLs discovered via search
+            # engines that could not be downloaded (e.g. site blocks CI IPs).
+            if _search_discovered:
+                unique_discovered = list(dict.fromkeys(_search_discovered))
+                spot["search_pdf_count"] = len(unique_discovered)
+                spot["search_pdf_samples"] = unique_discovered[:5]
+                print(
+                    f"  Search-discovered PDFs (blocked): {len(unique_discovered)} URL(s)"
+                )
             spot_check_path = Path("scan-meta") / "spot_check.json"
             spot_check_path.parent.mkdir(parents=True, exist_ok=True)
             spot_check_path.write_text(

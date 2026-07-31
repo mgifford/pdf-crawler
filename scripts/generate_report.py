@@ -687,6 +687,8 @@ def generate_issue_comment(
                 robots_disallows = spot_check.get("robots_disallows", [])
                 sitemap_pdf_count = spot_check.get("sitemap_pdf_count", 0)
                 sitemap_pdf_samples = spot_check.get("sitemap_pdf_samples", [])
+                search_pdf_count = spot_check.get("search_pdf_count", 0)
+                search_pdf_samples = spot_check.get("search_pdf_samples", [])
 
                 lines += [">", "> **Automated diagnostics:**"]
 
@@ -710,6 +712,15 @@ def generate_issue_comment(
                     lines.append(">   Consider submitting one of these PDF URLs' parent directory as the crawl starting point.")
                 else:
                     lines.append("> - **sitemap.xml**: no PDF URLs listed.")
+
+                if search_pdf_count:
+                    lines.append(
+                        f"> - 🔍 **Search engine results**: {search_pdf_count} PDF URL(s) "
+                        "discovered but blocked — the site's WAF/CDN is preventing "
+                        "downloads from CI IP ranges."
+                    )
+                    for sample in search_pdf_samples:
+                        lines.append(f">   - `{sample}`")
 
             lines += [
                 ">",
