@@ -1,6 +1,6 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-31T22:38:38.402828+00:00
+Generated: 2026-07-31T23:22:16.060567+00:00
 
 ## Summary
 
@@ -8,8 +8,8 @@ Generated: 2026-07-31T22:38:38.402828+00:00
 |--------|-------|
 | Total files tracked | 29764 |
 | Analysed | 6512 |
-| Pending analysis | 17489 |
-| Errors during analysis | 5763 |
+| Pending analysis | 17487 |
+| Errors during analysis | 5765 |
 | Accessible | 2027 |
 | Issues found | 4485 |
 | Totally inaccessible subset | 289 |
@@ -25110,7 +25110,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.nsf.gov/awards/indirect-cost-proposals
 - **Status**: error
-- File not found: crawled_files/nsf.gov/indirect-cost-proposals (crawled 0.1 day(s) ago at 2026-07-31T18:57:06.801463+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/nsf.gov/indirect-cost-proposals (crawled 0.2 day(s) ago at 2026-07-31T18:57:06.801463+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### indirect-cost-rate-adjustments.pdf
 
@@ -65323,6 +65323,18 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/2024SFSAIReport-r.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.790862+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2024_01_30_IUCRC%20Webinar_Prakash%20Balan.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2024_01_30_IUCRC%20Webinar_Prakash%20Balan.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.803714+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2025%20EPSCoR%20PI%20Meeting%20Agenda%20Final.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2025%20EPSCoR%20PI%20Meeting%20Agenda%20Final.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-07T12:02:45.808559+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 191001-ministerrat.pdf
 
