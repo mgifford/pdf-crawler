@@ -28,7 +28,7 @@ colorama==0.4.6 ; sys_platform == 'win32'
     #   pytest
 constantly==23.10.4
     # via twisted
-cryptography==48.0.1
+cryptography==50.0.0
     # via
     #   pdfminer-six
     #   pyopenssl
