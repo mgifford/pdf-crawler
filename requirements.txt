@@ -101,7 +101,7 @@ pluggy==1.6.0
     # via pytest
 protego==0.6.0
     # via scrapy
-pyasn1==0.6.3
+pyasn1==0.6.4
     # via
     #   pyasn1-modules
     #   service-identity
