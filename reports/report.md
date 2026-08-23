@@ -1,6 +1,6 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-31T23:22:16.060567+00:00
+Generated: 2026-08-23T17:05:52.740652+00:00
 
 ## Summary
 
@@ -8,8 +8,8 @@ Generated: 2026-07-31T23:22:16.060567+00:00
 |--------|-------|
 | Total files tracked | 29764 |
 | Analysed | 6512 |
-| Pending analysis | 17487 |
-| Errors during analysis | 5765 |
+| Pending analysis | 17473 |
+| Errors during analysis | 5779 |
 | Accessible | 2027 |
 | Issues found | 4485 |
 | Totally inaccessible subset | 289 |
@@ -22333,6 +22333,90 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget21/justifications/u-chafl.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:10.773045+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### u-fcc.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget25/justifications/u-fcc.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:10.773510+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### u-hbcu-0.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget20/justifications/u-hbcu.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:10.774228+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### u-hbcu.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget23/justifications/u-hbcu.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:10.774797+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### u-highered.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget24/justifications/u-highered.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:10.777373+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### u-howard.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget22/justifications/u-howard.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:10.778038+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### univ-of-louisiana-monroe-107749.pdf
+
+- **URL**: https://www.ed.gov/media/document/univ-of-louisiana-monroe-107749.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:10.778419+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ut-2022b-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/fund/data/award/idea/2022partb/ut-2022b-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:10.780158+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ut-2022c-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/fund/data/award/idea/2022partc/ut-2022c-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:10.783701+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ut-2023b-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/fund/data/award/idea/2023partb/ut-2023b-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:10.785044+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ut-2023c-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/fund/data/award/idea/2023partc/ut-2023c-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:10.786606+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ut-2024b-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/2024-11/ut-2024b-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:10.787952+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ut-2024c-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/2024-11/ut-2024c-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:10.789276+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ut-poa-waiver-part-b-2020.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/speced/guid/idea/monitor/poa-waivers/2020/ut-poa-waiver-part-b-2020.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:10.789731+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ut-sigdispro-2020.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/speced/guid/idea/monitor/sig-dispro-reports/part-b/2020/ut-sigdispro-2020.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:10.794542+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 15_fy2023_0.pdf?VersionId=LV1fEl0ZGY1fu6I4LU2fFmTv1WMLTVex
 
