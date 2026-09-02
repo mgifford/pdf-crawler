@@ -4,7 +4,7 @@
     "site": "irishimmigration.ie",
     "crawl_url": "https://www.irishimmigration.ie/",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/33628625851",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/278#issuecomment-5509685107",
     "archive_file": "2026-09-02_12-41-02-161_irishimmigration.ie.html",
     "total": 72,
     "analysed": 72,
