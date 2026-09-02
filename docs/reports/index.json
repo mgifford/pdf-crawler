@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-09-02T12:41:02.161281+00:00",
+    "site": "irishimmigration.ie",
+    "crawl_url": "https://www.irishimmigration.ie/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/33628625851",
+    "issue_url": "",
+    "archive_file": "2026-09-02_12-41-02-161_irishimmigration.ie.html",
+    "total": 72,
+    "analysed": 72,
+    "accessible": 0,
+    "analysis_engines": [
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
     "date": "2026-08-23T17:05:52.740652+00:00",
     "site": "all",
     "crawl_url": "",

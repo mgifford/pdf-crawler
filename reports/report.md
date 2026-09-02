@@ -1,18 +1,18 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-08-23T17:05:52.740652+00:00
+Generated: 2026-09-02T12:41:02.161281+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 29764 |
-| Analysed | 6512 |
+| Total files tracked | 29836 |
+| Analysed | 6584 |
 | Pending analysis | 17473 |
 | Errors during analysis | 5779 |
 | Accessible | 2027 |
-| Issues found | 4485 |
-| Totally inaccessible subset | 289 |
+| Issues found | 4557 |
+| Totally inaccessible subset | 291 |
 | Broken / unreadable | 29 |
 | Exempt (pre-2018) | 1529 |
 
@@ -54,6 +54,7 @@ Generated: 2026-08-23T17:05:52.740652+00:00
 | hamilton.ca | 477 |
 | hud.gov | 4230 |
 | ijcaonline.org | 1 |
+| irishimmigration.ie | 72 |
 | kfw.de | 8 |
 | kjk.umn.edu | 1 |
 | lasv.brandenburg.de | 260 |
@@ -6617,6 +6618,78 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 | [building-code-handbook-3rd-edition-amendment-13.pdf](https://www.building.govt.nz/assets/Uploads/building-code-compliance/handbooks/building-code-handbook/building-code-handbook-3rd-edition-amendment-13.pdf) | govt.nz | 2014-03-05 | Building Code Handbook | Third edition | Amendment 13 | {'Ministry of Business, Innovation and Employment'} | New Zealand Building Code | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 226 | 1.6 MB | 89904 | 0 |
 | [Noel-Ebook-Colmar-by-French-Moments.pdf](https://mon-grand-est.fr/wp-content/uploads/2020/12/Noel-Ebook-Colmar-by-French-Moments.pdf) | mon-grand-est.fr | 2020-12-18 | Noël Ebook Colmar | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 32 | 9.7 MB | 2207 | 53 |
 | [doc-73423665.pdf](https://www.visitmonaco.com) | mon-grand-est.fr *(ext: visitmonaco.com)* | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | 199.3 KB | — | — |
+| [40d69f4ec2f9651beb365b14040b4955.pdf](https://irishimmigration.ie/40d69f4ec2f9651beb365b14040b4955.pdf) | irishimmigration.ie | 2020-12-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 71 | 642.4 KB | 15412 | 2 |
+| [AAP-FAQs.pdf](https://irishimmigration.ie/AAP-FAQs.pdf) | irishimmigration.ie | 2022-02-22 | — | Sean S. Thompson | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 10 | 547.4 KB | 2630 | 10 |
+| [AWS-Entertainment-Training-Material.pdf](https://irishimmigration.ie/AWS-Entertainment-Training-Material.pdf) | irishimmigration.ie | 2023-10-23 | Department of Business Enterprise & Innovation | Deirdre Langton | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 51 | 1.5 MB | 2995 | 94 |
+| [AWS-General-Training-Material.pdf](https://irishimmigration.ie/AWS-General-Training-Material.pdf) | irishimmigration.ie | 2023-10-23 | Department of Business Enterprise & Innovation | Deirdre Langton | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 52 | 1.8 MB | 2910 | 96 |
+| [AWS-IMGTI-Training-Material.pdf](https://irishimmigration.ie/AWS-IMGTI-Training-Material.pdf) | irishimmigration.ie | 2023-10-23 | Department of Business Enterprise & Innovation | Deirdre Langton | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 53 | 1.7 MB | 2924 | 97 |
+| [AWS-Locum-GP-Training-Material.pdf](https://irishimmigration.ie/AWS-Locum-GP-Training-Material.pdf) | irishimmigration.ie | 2023-10-23 | Department of Business Enterprise & Innovation | Deirdre Langton | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 52 | 1.5 MB | 2980 | 96 |
+| [AWS-Nurse-Training-Material.pdf](https://irishimmigration.ie/AWS-Nurse-Training-Material.pdf) | irishimmigration.ie | 2023-10-23 | Department of Business Enterprise & Innovation | Deirdre Langton | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 57 | 1.7 MB | 3728 | 105 |
+| [Checklist-for-Directive-2004-38-EC.pdf](https://irishimmigration.ie/Checklist-for-Directive-2004-38-EC.pdf) | irishimmigration.ie | 2025-11-11 | — | butlerpm | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 114.1 KB | 512 | 0 |
+| [Critical-Skills-De-Facto-Partners-Immigration-Permission-June2023.pdf](https://irishimmigration.ie/Critical-Skills-De-Facto-Partners-Immigration-Permission-June2023.pdf) | irishimmigration.ie | 2023-06-28 | — | crossanb | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 8 | 617.5 KB | 2404 | 0 |
+| [DOJ-AAP-Appeal-June-2023.pdf](https://irishimmigration.ie/DOJ-AAP-Appeal-June-2023.pdf) | irishimmigration.ie | 2023-06-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 11 | 619.4 KB | 1765 | 0 |
+| [Declaration-Regardin-Confidentiality-Open-Call.pdf](https://irishimmigration.ie/Declaration-Regardin-Confidentiality-Open-Call.pdf) | irishimmigration.ie | 2025-09-24 | — | Charlene X. Sadik | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | ❌ Fail | 2 | 599.4 KB | 642 | 2 |
+| [Dependent-Adult-Relative-Stamp-0-Application-Form.pdf](https://irishimmigration.ie/Dependent-Adult-Relative-Stamp-0-Application-Form.pdf) | irishimmigration.ie | 2026-06-16 | TPER-Application-Form Elderly Dependant.pdf | Sarah A. Kennelly | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | Warn | ✅ Pass | Warn | ❌ Fail | 10 | 539.3 KB | 1770 | 16 |
+| [Directive-2004-38-EC.pdf](https://irishimmigration.ie/Directive-2004-38-EC.pdf) | irishimmigration.ie | 2021-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 47 | 178.8 KB | 10109 | 0 |
+| [Downloadable-Letter-For-Persons-Who-Intend-to-Travel-To-be-printed-by-customers-0.pdf](https://irishimmigration.ie/Downloadable-Letter-For-Persons-Who-Intend-to-Travel-To-be-printed-by-customers-0.pdf) | irishimmigration.ie | 2026-01-30 | — | William J. Sweeney | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | 186.2 KB | 294 | 1 |
+| [Downloadable-Letter-For-Persons-Who-Intend-to-Travel-To-be-printed-by-customers.pdf](https://irishimmigration.ie/Downloadable-Letter-For-Persons-Who-Intend-to-Travel-To-be-printed-by-customers.pdf) | irishimmigration.ie | 2026-07-10 | — | William J. Sweeney | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | 170.8 KB | 289 | 1 |
+| [Downloadable-Letter-For-Persons-Who-Intend-to-Travel.pdf](https://irishimmigration.ie/Downloadable-Letter-For-Persons-Who-Intend-to-Travel.pdf) | irishimmigration.ie | 2024-11-28 | — | Laura Glass | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 232.2 KB | 276 | 1 |
+| [EVIC-Application-Form-Editable-2024-24-01-25.pdf](https://irishimmigration.ie/EVIC-Application-Form-Editable-2024-24-01-25.pdf) | irishimmigration.ie | 2025-02-13 | Microsoft Word - 2022 - EVIC application form (Online version) 13th Feb 2023 | RabbittNC | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 301.5 KB | 1849 | 1 |
+| [FAQs-Travel-Arrangement-Form-09-December-2022-to-31-January-2023.pdf](https://irishimmigration.ie/FAQs-Travel-Arrangement-Form-09-December-2022-to-31-January-2023.pdf) | irishimmigration.ie | 2022-12-09 | — | mcknighm | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 113.4 KB | 960 | 0 |
+| [FAQs-closure-of-IIP-Feb-2023.pdf](https://irishimmigration.ie/FAQs-closure-of-IIP-Feb-2023.pdf) | irishimmigration.ie | 2023-02-14 | — | William J. O'Dwyer | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 154.4 KB | 791 | 0 |
+| [FAQs-for-Website-Travel-Confirmation-Notice-2024.pdf](https://irishimmigration.ie/FAQs-for-Website-Travel-Confirmation-Notice-2024.pdf) | irishimmigration.ie | 2024-11-28 | — | mcknighm | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 366.4 KB | 908 | 0 |
+| [Family-Dependent-Digital-Form-12-Feb-2025.pdf](https://irishimmigration.ie/Family-Dependent-Digital-Form-12-Feb-2025.pdf) | irishimmigration.ie | 2025-02-13 | Microsoft Word - 2022 - EVIC application form (Online version) 13th Feb 2023 | KellyMM | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 17 | 500.0 KB | 3117 | 5 |
+| [Family-Reunification-Policy-12-June-2026.pdf](https://irishimmigration.ie/Family-Reunification-Policy-12-June-2026.pdf) | irishimmigration.ie | 2026-06-11 | — | Alexander X. Bourke | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | Warn | ❌ Fail | 34 | 914.2 KB | 10279 | 2 |
+| [Guide-on-engaging-with-ISD-Registration-Office-services-2025.pdf](https://irishimmigration.ie/Guide-on-engaging-with-ISD-Registration-Office-services-2025.pdf) | irishimmigration.ie | 2025-01-14 | — | Valerie X. Lynam | — | POP | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 6 | 1.0 MB | 842 | 5 |
+| [Guidelines-Temporary-Protection-Assistance-with-making-applications-August-2023.pdf](https://irishimmigration.ie/Guidelines-Temporary-Protection-Assistance-with-making-applications-August-2023.pdf) | irishimmigration.ie | 2023-08-28 | — | Catherine X. Linehan | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 239.8 KB | 1473 | 1 |
+| [Guidelines-Temporary-protection-Assistance-with-making-applications.pdf](https://irishimmigration.ie/Guidelines-Temporary-protection-Assistance-with-making-applications.pdf) | irishimmigration.ie | 2023-02-07 | Report Template A4 | Patrick B. Cluskey | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 8 | 849.3 KB | 1492 | 2 |
+| [How-to-submit-Spouse-Of-Irish-National-Application-2026-01-08.pdf](https://irishimmigration.ie/How-to-submit-Spouse-Of-Irish-National-Application-2026-01-08.pdf) | irishimmigration.ie | 2026-01-08 | How to submit a  Spouse of Irish National Application on the ISD Customer Service Portal | (anonymous) | (unspecified) | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 12 | 2.1 MB | 332 | 18 |
+| [IIP-Phase-1-Review.pdf](https://irishimmigration.ie/IIP-Phase-1-Review.pdf) | irishimmigration.ie | 2023-06-28 | 1.pdf | keanelt | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 32 | 19.0 MB | 0 | 1040 |
+| [IIP-Phase-2-Review.pdf](https://irishimmigration.ie/IIP-Phase-2-Review.pdf) | irishimmigration.ie | 2023-06-28 | Final_ISD IIP Phase 2 report 131120   aoc obs 270623_Redacted.pdf | keanelt | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 34 | 17.1 MB | 2830 | 802 |
+| [IIP-UpdatedFAQ-Final.pdf](https://irishimmigration.ie/IIP-UpdatedFAQ-Final.pdf) | irishimmigration.ie | 2024-01-18 | — | mcknighm | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 17 | 217.3 KB | 2142 | 0 |
+| [IPO-Unaccompnaied-Minor-Grant-Application-Guidelines.pdf](https://irishimmigration.ie/IPO-Unaccompnaied-Minor-Grant-Application-Guidelines.pdf) | irishimmigration.ie | 2026-05-07 | — | John McGee;Niamh Goodwin | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 372.5 KB | 984 | 3 |
+| [ISD-Website-Travel-Notice-FAQs-2023.pdf](https://irishimmigration.ie/ISD-Website-Travel-Notice-FAQs-2023.pdf) | irishimmigration.ie | 2023-12-08 | — | mcknighm | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 134.6 KB | 912 | 0 |
+| [Immigration-Policy-for-volunteering-June2023.pdf](https://irishimmigration.ie/Immigration-Policy-for-volunteering-June2023.pdf) | irishimmigration.ie | 2023-06-28 | — | Breffni X Sexton | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 7 | 679.9 KB | 2378 | 0 |
+| [Irish-Short-Stay-Visa-Waiver-Programme-February-2023.pdf](https://irishimmigration.ie/Irish-Short-Stay-Visa-Waiver-Programme-February-2023.pdf) | irishimmigration.ie | 2023-02-08 | — | sextonbx | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 8 | 624.0 KB | 3234 | 8 |
+| [Likely-FAQs-for-Irish-visa-requirement-for-South-African-and-Botswana-nationals-July-2024-Updated.pdf](https://irishimmigration.ie/Likely-FAQs-for-Irish-visa-requirement-for-South-African-and-Botswana-nationals-July-2024-Updated.pdf) | irishimmigration.ie | 2024-07-08 | — | Gerard P. Madden | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | ✅ Pass | ❌ Fail | 4 | 154.9 KB | 1435 | 0 |
+| [Long-Term-Residency-Application-Form.pdf](https://irishimmigration.ie/Long-Term-Residency-Application-Form.pdf) | irishimmigration.ie | 2023-06-30 | — | Sarah A. Kennelly | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 12 | 324.9 KB | 1813 | 15 |
+| [Long-Term-Residency-application-form.pdf](https://irishimmigration.ie/Long-Term-Residency-application-form.pdf) | irishimmigration.ie | 2021-05-28 | — | Sarah A. Kennelly | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 13 | 732.1 KB | 2350 | 1 |
+| [Minister-of-Religion-Policy-Document-June-2023.pdf](https://irishimmigration.ie/Minister-of-Religion-Policy-Document-June-2023.pdf) | irishimmigration.ie | 2023-06-28 | — | Sinead X. Duggan | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 8 | 401.2 KB | 2522 | 0 |
+| [Non-EEA-De-Facto-Partners-of-Irish-Nationals-June2023.pdf](https://irishimmigration.ie/Non-EEA-De-Facto-Partners-of-Irish-Nationals-June2023.pdf) | irishimmigration.ie | 2023-06-28 | — | Breffni X Sexton | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 8 | 671.5 KB | 2664 | 0 |
+| [Non-EEA-De-Facto-Partners-of-Irish-Nationals.pdf](https://irishimmigration.ie/Non-EEA-De-Facto-Partners-of-Irish-Nationals.pdf) | irishimmigration.ie | 2021-04-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 9 | 421.8 KB | 3065 | 0 |
+| [Notice-to-Employers-Right-to-Work-for-Dependent-Minor-Children-of-Employment-Permit-Holders.pdf](https://irishimmigration.ie/Notice-to-Employers-Right-to-Work-for-Dependent-Minor-Children-of-Employment-Permit-Holders.pdf) | irishimmigration.ie | 2025-11-26 | — | Alexander X. Bourke | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 200.6 KB | 334 | 2 |
+| [Notice-to-Employers-Stamp-3.pdf](https://irishimmigration.ie/Notice-to-Employers-Stamp-3.pdf) | irishimmigration.ie | 2024-05-15 | Microsoft Word - FINAL_Stamp 3 to Stamp 1G employment notice | Louise M. Clarke | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 471.9 KB | 309 | 4 |
+| [Parent-of-ICC-application-form-Aug-2025.pdf](https://irishimmigration.ie/Parent-of-ICC-application-form-Aug-2025.pdf) | irishimmigration.ie | 2025-08-22 | — | Mary M. Kelly | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 16 | 532.0 KB | 2572 | 5 |
+| [Policy-document-on-Non-EEA-family-reunification-GA.pdf](https://irishimmigration.ie/Policy-document-on-Non-EEA-family-reunification-GA.pdf) | irishimmigration.ie | 2026-03-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 71 | 460.7 KB | 17991 | 1 |
+| [Reintegration-Application-Guidelines-Open-Call-2025-CS-RW-005.pdf](https://irishimmigration.ie/Reintegration-Application-Guidelines-Open-Call-2025-CS-RW-005.pdf) | irishimmigration.ie | 2025-09-22 | — | Jackie M. Hannon | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 15 | 1.4 MB | 4018 | 2 |
+| [Renewal-TPER-DAR-form.pdf](https://irishimmigration.ie/Renewal-TPER-DAR-form.pdf) | irishimmigration.ie | 2026-06-22 | — | Sarah A. Kennelly | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 434.5 KB | 1356 | 2 |
+| [Renewal-application-payment-instruction-Volunteers.pdf](https://irishimmigration.ie/Renewal-application-payment-instruction-Volunteers.pdf) | irishimmigration.ie | 2022-04-29 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 316.1 KB | 225 | 0 |
+| [SHOs-and-registrars-with-5-years-work.pdf](https://irishimmigration.ie/SHOs-and-registrars-with-5-years-work.pdf) | irishimmigration.ie | 2021-05-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 66.4 KB | 317 | 0 |
+| [SPC-Amended-Terms-of-Reference-18-03-2026.pdf](https://irishimmigration.ie/SPC-Amended-Terms-of-Reference-18-03-2026.pdf) | irishimmigration.ie | 2026-03-19 | — | Sinead X. Duke | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 214.5 KB | 950 | 0 |
+| [STEP-Application-Form-Mar-2023.pdf](https://irishimmigration.ie/STEP-Application-Form-Mar-2023.pdf) | irishimmigration.ie | 2023-03-15 | — | Sarah A. Kennelly | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 19 | 503.1 KB | 2923 | 3 |
+| [STEP-Guidelines-Sep-2023.pdf](https://irishimmigration.ie/STEP-Guidelines-Sep-2023.pdf) | irishimmigration.ie | 2023-09-21 | Start-up Entrepreneur  Programme | mj | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ❌ Fail | NotApplicable | ❌ Fail | 13 | 521.3 KB | 3490 | 14 |
+| [Spouse-of-Irish-Application-Form-18-Jun-2025.pdf](https://irishimmigration.ie/Spouse-of-Irish-Application-Form-18-Jun-2025.pdf) | irishimmigration.ie | 2025-06-25 | Application for permission to remain in the State on the basis of marriage/civil partnership to an Irish national | Sarah A. Kennelly | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 16 | 509.1 KB | 2872 | 18 |
+| [TCO-Booklet-2023-Final.pdf](https://irishimmigration.ie/TCO-Booklet-2023-Final.pdf) | irishimmigration.ie | 2023-06-22 | Flood Risk Management (FRM) discharges OPW's responsibility as the Government’s lead agency in co-ordinating flood risk manage | bolgert | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 254.6 KB | 6245 | 1 |
+| [TPER-IM-Application-form-editable-PDF.pdf](https://irishimmigration.ie/TPER-IM-Application-form-editable-PDF.pdf) | irishimmigration.ie | 2026-06-19 | Microsoft Word - Independent Means Draft 17.06.26 updated.docx | Paraic J. O'Carroll | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 12 | 841.7 KB | 1740 | 37 |
+| [TPER-Renewal-Form-06-05-2025-fillable-form.pdf](https://irishimmigration.ie/TPER-Renewal-Form-06-05-2025-fillable-form.pdf) | irishimmigration.ie | 2025-05-08 | — | Sarah A. Kennelly | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | Warn | ✅ Pass | Warn | ❌ Fail | 7 | 412.8 KB | 1473 | 2 |
+| [TPER-VA-Application-form-editable-PDF.pdf](https://irishimmigration.ie/TPER-VA-Application-form-editable-PDF.pdf) | irishimmigration.ie | 2026-06-19 | Microsoft Word - VA Draft 17.06.26 updated.docx | Paraic J. O'Carroll | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 12 | 1.0 MB | 1780 | 37 |
+| [Travel-Confirmation-Notice-Attachment.pdf](https://irishimmigration.ie/Travel-Confirmation-Notice-Attachment.pdf) | irishimmigration.ie | 2022-12-09 | — | Laura Glass | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 158.9 KB | 289 | 1 |
+| [Travel-Confirmation-Notice-Immigration-Service-Delivery.pdf](https://irishimmigration.ie/Travel-Confirmation-Notice-Immigration-Service-Delivery.pdf) | irishimmigration.ie | 2024-07-10 | Travel Confirmation Notice - Immigration Service Delivery | sharpsonek | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 742.5 KB | 0 | 6 |
+| [UK-withdrawal-from-EU.pdf](https://irishimmigration.ie/UK-withdrawal-from-EU.pdf) | irishimmigration.ie | 2021-05-26 | UK WITHDRAWAL FROM THE EU.pdf | Anna X. Winkelhoefer | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 92.8 KB | 543 | 0 |
+| [Visa-Waiver-for-non-EEA-and-EU-School-Students-v2.pdf](https://irishimmigration.ie/Visa-Waiver-for-non-EEA-and-EU-School-Students-v2.pdf) | irishimmigration.ie | 2023-06-13 | — | mcguirep | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | ✅ Pass | Warn | NotApplicable | ❌ Fail | ❌ Fail | 1 | 137.6 KB | 176 | 1 |
+| [WCATT-User-Guide-Final-February-2026.pdf](https://irishimmigration.ie/WCATT-User-Guide-Final-February-2026.pdf) | irishimmigration.ie | 2026-02-25 | — | Paraic J. O'Carroll | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 14 | 782.6 KB | 329 | 26 |
+| [WHA-2026-Application-Form-2.pdf](https://irishimmigration.ie/WHA-2026-Application-Form-2.pdf) | irishimmigration.ie | 2025-10-31 | WHA-application-form-2025 | Sarah A. Kennelly | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 10 | 340.1 KB | 1947 | 1 |
+| [WHP-Taiwan-How-to-make-an-application-Chinese-2026.pdf](https://irishimmigration.ie/WHP-Taiwan-How-to-make-an-application-Chinese-2026.pdf) | irishimmigration.ie | 2025-10-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 3 | 236.0 KB | 215 | 0 |
+| [WHP-Taiwan-How-to-make-an-application-English-2026.pdf](https://irishimmigration.ie/WHP-Taiwan-How-to-make-an-application-English-2026.pdf) | irishimmigration.ie | 2025-10-31 | — | sextonbx | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 3 | 79.0 KB | 999 | 0 |
+| [Without-Conditions-as-to-Time-Stamp-5-editable-23-02-2026.pdf](https://irishimmigration.ie/Without-Conditions-as-to-Time-Stamp-5-editable-23-02-2026.pdf) | irishimmigration.ie | 2026-02-25 | — | Paraic J. O'Carroll | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 12 | 1005.3 KB | 2123 | 4 |
+| [aa0f059f16814282915b065bb64dfe38.pdf](https://irishimmigration.ie/aa0f059f16814282915b065bb64dfe38.pdf) | irishimmigration.ie | 2021-10-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 275.3 KB | 1569 | 0 |
+| [department-of-justice-data-protection-policy.pdf](https://irishimmigration.ie/department-of-justice-data-protection-policy.pdf) | irishimmigration.ie | 2022-11-25 | — | fordep | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 16 | 354.6 KB | 4184 | 1 |
+| [how-to-guide-for-Stamp-0-renewals.pdf](https://irishimmigration.ie/how-to-guide-for-Stamp-0-renewals.pdf) | irishimmigration.ie | 2026-01-23 | — | Barbara X. McKelvey | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 6 | 295.5 KB | 124 | 7 |
+| [immigrant-investor-programme-application-form-oct-2022.pdf](https://irishimmigration.ie/immigrant-investor-programme-application-form-oct-2022.pdf) | irishimmigration.ie | 2022-10-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 22 | 740.9 KB | 3413 | 1 |
+| [immigrant-investor-programme-enterprise-investment-funds.pdf](https://irishimmigration.ie/immigrant-investor-programme-enterprise-investment-funds.pdf) | irishimmigration.ie | 2021-02-24 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 8 | 269.3 KB | 2478 | 0 |
+| [immigration-investor-programme-guidelines-for-applicants-oct-2022.pdf](https://irishimmigration.ie/immigration-investor-programme-guidelines-for-applicants-oct-2022.pdf) | irishimmigration.ie | 2022-10-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 19 | 611.7 KB | 7674 | 2 |
+| [pdf.pdf](https://irishimmigration.ie/pdf.pdf) | irishimmigration.ie | 2021-01-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | Warn | ❌ Fail | 38 | 321.2 KB | 10477 | 3 |
+| [third-level-graduate-programme.pdf](https://irishimmigration.ie/third-level-graduate-programme.pdf) | irishimmigration.ie | 2024-03-28 | — | Wendy X. Mathews | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | ❌ Fail | 5 | 538.7 KB | 1435 | 0 |
 
 ## Files with Errors or Notes
 
@@ -68605,3 +68678,435 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.visitmonaco.com
 - **Status**: analysed
 - PdfError: crawled_files/mon-grand-est.fr/doc-73423665.pdf: unable to find trailer dictionary while recovering damaged file
+
+### 40d69f4ec2f9651beb365b14040b4955.pdf
+
+- **URL**: https://irishimmigration.ie/40d69f4ec2f9651beb365b14040b4955.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### AAP-FAQs.pdf
+
+- **URL**: https://irishimmigration.ie/AAP-FAQs.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=10), headings-none, tables-fail, 
+
+### AWS-Entertainment-Training-Material.pdf
+
+- **URL**: https://irishimmigration.ie/AWS-Entertainment-Training-Material.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=71), headings-none, 
+
+### AWS-General-Training-Material.pdf
+
+- **URL**: https://irishimmigration.ie/AWS-General-Training-Material.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=72), headings-none, 
+
+### AWS-IMGTI-Training-Material.pdf
+
+- **URL**: https://irishimmigration.ie/AWS-IMGTI-Training-Material.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=75), headings-none, 
+
+### AWS-Locum-GP-Training-Material.pdf
+
+- **URL**: https://irishimmigration.ie/AWS-Locum-GP-Training-Material.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=74), headings-none, 
+
+### AWS-Nurse-Training-Material.pdf
+
+- **URL**: https://irishimmigration.ie/AWS-Nurse-Training-Material.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=76), headings-none, 
+
+### Checklist-for-Directive-2004-38-EC.pdf
+
+- **URL**: https://irishimmigration.ie/Checklist-for-Directive-2004-38-EC.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### Critical-Skills-De-Facto-Partners-Immigration-Permission-June2023.pdf
+
+- **URL**: https://irishimmigration.ie/Critical-Skills-De-Facto-Partners-Immigration-Permission-June2023.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), 
+
+### DOJ-AAP-Appeal-June-2023.pdf
+
+- **URL**: https://irishimmigration.ie/DOJ-AAP-Appeal-June-2023.pdf
+- **Status**: analysed
+- title, forms-fail, forms-tagging-fail, figures missing alt text (count=6), headings-none, tables-fail, 
+
+### Declaration-Regardin-Confidentiality-Open-Call.pdf
+
+- **URL**: https://irishimmigration.ie/Declaration-Regardin-Confidentiality-Open-Call.pdf
+- **Status**: analysed
+- title, tables-fail, 
+
+### Dependent-Adult-Relative-Stamp-0-Application-Form.pdf
+
+- **URL**: https://irishimmigration.ie/Dependent-Adult-Relative-Stamp-0-Application-Form.pdf
+- **Status**: analysed
+- tagged-content-fail, forms-fail, forms-tagging-fail, figures missing alt text (count=65), headings-none, tables-warn, 
+
+### Directive-2004-38-EC.pdf
+
+- **URL**: https://irishimmigration.ie/Directive-2004-38-EC.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Downloadable-Letter-For-Persons-Who-Intend-to-Travel-To-be-printed-by-customers-0.pdf
+
+- **URL**: https://irishimmigration.ie/Downloadable-Letter-For-Persons-Who-Intend-to-Travel-To-be-printed-by-customers-0.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), annotations-tagging-fail, 
+
+### Downloadable-Letter-For-Persons-Who-Intend-to-Travel-To-be-printed-by-customers.pdf
+
+- **URL**: https://irishimmigration.ie/Downloadable-Letter-For-Persons-Who-Intend-to-Travel-To-be-printed-by-customers.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), annotations-tagging-fail, 
+
+### Downloadable-Letter-For-Persons-Who-Intend-to-Travel.pdf
+
+- **URL**: https://irishimmigration.ie/Downloadable-Letter-For-Persons-Who-Intend-to-Travel.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-none, 
+
+### EVIC-Application-Form-Editable-2024-24-01-25.pdf
+
+- **URL**: https://irishimmigration.ie/EVIC-Application-Form-Editable-2024-24-01-25.pdf
+- **Status**: analysed
+- title, tagged, lang, forms-fail, forms-untagged, annotations-untagged, 
+
+### FAQs-Travel-Arrangement-Form-09-December-2022-to-31-January-2023.pdf
+
+- **URL**: https://irishimmigration.ie/FAQs-Travel-Arrangement-Form-09-December-2022-to-31-January-2023.pdf
+- **Status**: analysed
+- title, headings-none, annotations-tagging-fail, 
+
+### FAQs-closure-of-IIP-Feb-2023.pdf
+
+- **URL**: https://irishimmigration.ie/FAQs-closure-of-IIP-Feb-2023.pdf
+- **Status**: analysed
+- title, lang, headings-none, 
+
+### FAQs-for-Website-Travel-Confirmation-Notice-2024.pdf
+
+- **URL**: https://irishimmigration.ie/FAQs-for-Website-Travel-Confirmation-Notice-2024.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### Family-Dependent-Digital-Form-12-Feb-2025.pdf
+
+- **URL**: https://irishimmigration.ie/Family-Dependent-Digital-Form-12-Feb-2025.pdf
+- **Status**: analysed
+- title, tagged-content-fail, lang, forms-fail, forms-tagging-fail, figures missing alt text (count=105), tables-fail, 
+
+### Family-Reunification-Policy-12-June-2026.pdf
+
+- **URL**: https://irishimmigration.ie/Family-Reunification-Policy-12-June-2026.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, lists-fail, tables-warn, 
+
+### Guide-on-engaging-with-ISD-Registration-Office-services-2025.pdf
+
+- **URL**: https://irishimmigration.ie/Guide-on-engaging-with-ISD-Registration-Office-services-2025.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=8), 
+
+### Guidelines-Temporary-Protection-Assistance-with-making-applications-August-2023.pdf
+
+- **URL**: https://irishimmigration.ie/Guidelines-Temporary-Protection-Assistance-with-making-applications-August-2023.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### Guidelines-Temporary-protection-Assistance-with-making-applications.pdf
+
+- **URL**: https://irishimmigration.ie/Guidelines-Temporary-protection-Assistance-with-making-applications.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=4), tables-fail, 
+
+### How-to-submit-Spouse-Of-Irish-National-Application-2026-01-08.pdf
+
+- **URL**: https://irishimmigration.ie/How-to-submit-Spouse-Of-Irish-National-Application-2026-01-08.pdf
+- **Status**: analysed
+- title, tagged, lang, annotations-untagged, 
+
+### IIP-Phase-1-Review.pdf
+
+- **URL**: https://irishimmigration.ie/IIP-Phase-1-Review.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### IIP-Phase-2-Review.pdf
+
+- **URL**: https://irishimmigration.ie/IIP-Phase-2-Review.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### IIP-UpdatedFAQ-Final.pdf
+
+- **URL**: https://irishimmigration.ie/IIP-UpdatedFAQ-Final.pdf
+- **Status**: analysed
+- title, 
+
+### IPO-Unaccompnaied-Minor-Grant-Application-Guidelines.pdf
+
+- **URL**: https://irishimmigration.ie/IPO-Unaccompnaied-Minor-Grant-Application-Guidelines.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=2), 
+
+### ISD-Website-Travel-Notice-FAQs-2023.pdf
+
+- **URL**: https://irishimmigration.ie/ISD-Website-Travel-Notice-FAQs-2023.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### Immigration-Policy-for-volunteering-June2023.pdf
+
+- **URL**: https://irishimmigration.ie/Immigration-Policy-for-volunteering-June2023.pdf
+- **Status**: analysed
+- title, 
+
+### Irish-Short-Stay-Visa-Waiver-Programme-February-2023.pdf
+
+- **URL**: https://irishimmigration.ie/Irish-Short-Stay-Visa-Waiver-Programme-February-2023.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=9), headings-none, 
+
+### Likely-FAQs-for-Irish-visa-requirement-for-South-African-and-Botswana-nationals-July-2024-Updated.pdf
+
+- **URL**: https://irishimmigration.ie/Likely-FAQs-for-Irish-visa-requirement-for-South-African-and-Botswana-nationals-July-2024-Updated.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### Long-Term-Residency-Application-Form.pdf
+
+- **URL**: https://irishimmigration.ie/Long-Term-Residency-Application-Form.pdf
+- **Status**: analysed
+- title, tagged-content-fail, figures missing alt text (count=76), tables-fail, 
+
+### Long-Term-Residency-application-form.pdf
+
+- **URL**: https://irishimmigration.ie/Long-Term-Residency-application-form.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=44), tables-fail, 
+
+### Minister-of-Religion-Policy-Document-June-2023.pdf
+
+- **URL**: https://irishimmigration.ie/Minister-of-Religion-Policy-Document-June-2023.pdf
+- **Status**: analysed
+- title, 
+
+### Non-EEA-De-Facto-Partners-of-Irish-Nationals-June2023.pdf
+
+- **URL**: https://irishimmigration.ie/Non-EEA-De-Facto-Partners-of-Irish-Nationals-June2023.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), 
+
+### Non-EEA-De-Facto-Partners-of-Irish-Nationals.pdf
+
+- **URL**: https://irishimmigration.ie/Non-EEA-De-Facto-Partners-of-Irish-Nationals.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Notice-to-Employers-Right-to-Work-for-Dependent-Minor-Children-of-Employment-Permit-Holders.pdf
+
+- **URL**: https://irishimmigration.ie/Notice-to-Employers-Right-to-Work-for-Dependent-Minor-Children-of-Employment-Permit-Holders.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### Notice-to-Employers-Stamp-3.pdf
+
+- **URL**: https://irishimmigration.ie/Notice-to-Employers-Stamp-3.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Parent-of-ICC-application-form-Aug-2025.pdf
+
+- **URL**: https://irishimmigration.ie/Parent-of-ICC-application-form-Aug-2025.pdf
+- **Status**: analysed
+- title, tagged-content-fail, forms-fail, forms-tagging-fail, figures missing alt text (count=49), tables-fail, 
+
+### Policy-document-on-Non-EEA-family-reunification-GA.pdf
+
+- **URL**: https://irishimmigration.ie/Policy-document-on-Non-EEA-family-reunification-GA.pdf
+- **Status**: analysed
+- title, lang, figures missing alt text (count=19), 
+
+### Reintegration-Application-Guidelines-Open-Call-2025-CS-RW-005.pdf
+
+- **URL**: https://irishimmigration.ie/Reintegration-Application-Guidelines-Open-Call-2025-CS-RW-005.pdf
+- **Status**: analysed
+- title, forms-fail, forms-tagging-fail, figures missing alt text (count=5), tables-fail, 
+
+### Renewal-TPER-DAR-form.pdf
+
+- **URL**: https://irishimmigration.ie/Renewal-TPER-DAR-form.pdf
+- **Status**: analysed
+- title, tagged-content-fail, forms-fail, forms-tagging-fail, figures missing alt text (count=8), headings-none, 
+
+### Renewal-application-payment-instruction-Volunteers.pdf
+
+- **URL**: https://irishimmigration.ie/Renewal-application-payment-instruction-Volunteers.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### SHOs-and-registrars-with-5-years-work.pdf
+
+- **URL**: https://irishimmigration.ie/SHOs-and-registrars-with-5-years-work.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### SPC-Amended-Terms-of-Reference-18-03-2026.pdf
+
+- **URL**: https://irishimmigration.ie/SPC-Amended-Terms-of-Reference-18-03-2026.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### STEP-Application-Form-Mar-2023.pdf
+
+- **URL**: https://irishimmigration.ie/STEP-Application-Form-Mar-2023.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=104), tables-warn, annotations-tagging-fail, 
+
+### STEP-Guidelines-Sep-2023.pdf
+
+- **URL**: https://irishimmigration.ie/STEP-Guidelines-Sep-2023.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-none, lists-fail, 
+
+### Spouse-of-Irish-Application-Form-18-Jun-2025.pdf
+
+- **URL**: https://irishimmigration.ie/Spouse-of-Irish-Application-Form-18-Jun-2025.pdf
+- **Status**: analysed
+- title, tagged-content-fail, forms-fail, forms-tagging-fail, figures missing alt text (count=55), tables-fail, annotations-tagging-fail, 
+
+### TCO-Booklet-2023-Final.pdf
+
+- **URL**: https://irishimmigration.ie/TCO-Booklet-2023-Final.pdf
+- **Status**: analysed
+- title, lang, figures missing alt text (count=3), annotations-tagging-fail, 
+
+### TPER-IM-Application-form-editable-PDF.pdf
+
+- **URL**: https://irishimmigration.ie/TPER-IM-Application-form-editable-PDF.pdf
+- **Status**: analysed
+- title, tagged, lang, forms-fail, forms-untagged, 
+
+### TPER-Renewal-Form-06-05-2025-fillable-form.pdf
+
+- **URL**: https://irishimmigration.ie/TPER-Renewal-Form-06-05-2025-fillable-form.pdf
+- **Status**: analysed
+- title, tagged-content-fail, forms-fail, forms-tagging-fail, figures missing alt text (count=4), headings-none, tables-warn, 
+
+### TPER-VA-Application-form-editable-PDF.pdf
+
+- **URL**: https://irishimmigration.ie/TPER-VA-Application-form-editable-PDF.pdf
+- **Status**: analysed
+- title, tagged, lang, forms-fail, forms-untagged, 
+
+### Travel-Confirmation-Notice-Attachment.pdf
+
+- **URL**: https://irishimmigration.ie/Travel-Confirmation-Notice-Attachment.pdf
+- **Status**: analysed
+- title, headings-none, annotations-tagging-fail, 
+
+### Travel-Confirmation-Notice-Immigration-Service-Delivery.pdf
+
+- **URL**: https://irishimmigration.ie/Travel-Confirmation-Notice-Immigration-Service-Delivery.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### UK-withdrawal-from-EU.pdf
+
+- **URL**: https://irishimmigration.ie/UK-withdrawal-from-EU.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Visa-Waiver-for-non-EEA-and-EU-School-Students-v2.pdf
+
+- **URL**: https://irishimmigration.ie/Visa-Waiver-for-non-EEA-and-EU-School-Students-v2.pdf
+- **Status**: analysed
+- title, forms-fail, forms-tagging-fail, headings-none, tables-fail, 
+
+### WCATT-User-Guide-Final-February-2026.pdf
+
+- **URL**: https://irishimmigration.ie/WCATT-User-Guide-Final-February-2026.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=26), headings-none, 
+
+### WHA-2026-Application-Form-2.pdf
+
+- **URL**: https://irishimmigration.ie/WHA-2026-Application-Form-2.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### WHP-Taiwan-How-to-make-an-application-Chinese-2026.pdf
+
+- **URL**: https://irishimmigration.ie/WHP-Taiwan-How-to-make-an-application-Chinese-2026.pdf
+- **Status**: analysed
+- title, 
+
+### WHP-Taiwan-How-to-make-an-application-English-2026.pdf
+
+- **URL**: https://irishimmigration.ie/WHP-Taiwan-How-to-make-an-application-English-2026.pdf
+- **Status**: analysed
+- title, 
+
+### Without-Conditions-as-to-Time-Stamp-5-editable-23-02-2026.pdf
+
+- **URL**: https://irishimmigration.ie/Without-Conditions-as-to-Time-Stamp-5-editable-23-02-2026.pdf
+- **Status**: analysed
+- title, tagged-content-fail, lang, forms-fail, forms-tagging-fail, figures missing alt text (count=99), tables-fail, 
+
+### aa0f059f16814282915b065bb64dfe38.pdf
+
+- **URL**: https://irishimmigration.ie/aa0f059f16814282915b065bb64dfe38.pdf
+- **Status**: analysed
+- title, tagged, annotations-untagged, 
+
+### department-of-justice-data-protection-policy.pdf
+
+- **URL**: https://irishimmigration.ie/department-of-justice-data-protection-policy.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-none, tables-fail, 
+
+### how-to-guide-for-Stamp-0-renewals.pdf
+
+- **URL**: https://irishimmigration.ie/how-to-guide-for-Stamp-0-renewals.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=7), headings-none, 
+
+### immigrant-investor-programme-application-form-oct-2022.pdf
+
+- **URL**: https://irishimmigration.ie/immigrant-investor-programme-application-form-oct-2022.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### immigrant-investor-programme-enterprise-investment-funds.pdf
+
+- **URL**: https://irishimmigration.ie/immigrant-investor-programme-enterprise-investment-funds.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### immigration-investor-programme-guidelines-for-applicants-oct-2022.pdf
+
+- **URL**: https://irishimmigration.ie/immigration-investor-programme-guidelines-for-applicants-oct-2022.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### pdf.pdf
+
+- **URL**: https://irishimmigration.ie/pdf.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=1), headings-none, tables-warn, 
+
+### third-level-graduate-programme.pdf
+
+- **URL**: https://irishimmigration.ie/third-level-graduate-programme.pdf
+- **Status**: analysed
+- title, lists-fail, 
