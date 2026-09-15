@@ -28,7 +28,7 @@ colorama==0.4.6 ; sys_platform == 'win32'
     #   pytest
 constantly==23.10.4
     # via twisted
-cryptography==50.0.0
+cryptography==50.0.1
     # via
     #   pdfminer-six
     #   pyopenssl
@@ -140,7 +140,7 @@ requests-file==3.0.1
     # via tldextract
 rich==15.0.0
     # via typer
-scrapy==2.16.0
+scrapy==2.17.0
     # via pdf-crawler
 service-identity==24.2.0
     # via scrapy

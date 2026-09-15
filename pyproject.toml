@@ -5,7 +5,7 @@ description = "Serverless PDF accessibility auditor using GitHub Actions and Git
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "scrapy>=2.11.0",
+    "scrapy>=2.17.0",
     "pikepdf~=10.5",
     "langcodes",
     "pdfminer.six",
