@@ -1,20 +1,21 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-09-02T12:41:02.161281+00:00
+Generated: 2026-09-24T21:40:11.853725+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 29836 |
-| Analysed | 6584 |
+| URLs crawled | 31 |
+| Total files tracked | 29885 |
+| Analysed | 6633 |
 | Pending analysis | 17473 |
 | Errors during analysis | 5779 |
-| Accessible | 2027 |
-| Issues found | 4557 |
+| Accessible | 2039 |
+| Issues found | 4594 |
 | Totally inaccessible subset | 291 |
 | Broken / unreadable | 29 |
-| Exempt (pre-2018) | 1529 |
+| Exempt (pre-2018) | 1531 |
 
 ## Files per Site
 
@@ -33,6 +34,7 @@ Generated: 2026-09-02T12:41:02.161281+00:00
 | careerforce.mn.gov | 43 |
 | cc-coeurdegaronne.fr | 562 |
 | circuit19.org | 39 |
+| civilrights.vt.edu | 49 |
 | cms.gov | 1633 |
 | coloradoboces.org | 48 |
 | coloradomesa.edu | 88 |
@@ -6690,6 +6692,56 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 | [immigration-investor-programme-guidelines-for-applicants-oct-2022.pdf](https://irishimmigration.ie/immigration-investor-programme-guidelines-for-applicants-oct-2022.pdf) | irishimmigration.ie | 2022-10-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 19 | 611.7 KB | 7674 | 2 |
 | [pdf.pdf](https://irishimmigration.ie/pdf.pdf) | irishimmigration.ie | 2021-01-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | Warn | ❌ Fail | 38 | 321.2 KB | 10477 | 3 |
 | [third-level-graduate-programme.pdf](https://irishimmigration.ie/third-level-graduate-programme.pdf) | irishimmigration.ie | 2024-03-28 | — | Wendy X. Mathews | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | ❌ Fail | 5 | 538.7 KB | 1435 | 0 |
+| [1025-0.pdf](https://policies.vt.edu/1025.pdf) | civilrights.vt.edu *(ext: policies.vt.edu)* | 2025-11-03 | Policy on Harassment, Discrimination, and Sexual Assault | Simpkins, Sara | No. 1020 | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 8 | 339.8 KB | 3546 | 9 |
+| [1025-1.pdf](https://www.policies.vt.edu/1025.pdf) | civilrights.vt.edu *(ext: policies.vt.edu)* | 2025-11-03 | Policy on Harassment, Discrimination, and Sexual Assault | Simpkins, Sara | No. 1020 | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 8 | 339.8 KB | 3546 | 9 |
+| [1025.pdf](https://policies.vt.edu/assets/1025.pdf) | civilrights.vt.edu *(ext: policies.vt.edu)* | 2025-11-03 | Policy on Harassment, Discrimination, and Sexual Assault | Simpkins, Sara | No. 1020 | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 8 | 339.8 KB | 3546 | 9 |
+| [1026.pdf](https://policies.vt.edu/1026.pdf) | civilrights.vt.edu *(ext: policies.vt.edu)* | 2025-11-03 | Policy on Title IX Sexual Harassment and Responsible Employee Reporting | Massanopoli, Jacob | No. 1020 | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 16 | 472.5 KB | 7909 | 31 |
+| [2017-18_TitleIX_Annual_Report.pdf](https://civilrights.vt.edu/content/dam/safe_vt_edu/2017-18_TitleIX_Annual_Report.pdf) | civilrights.vt.edu | 2019-02-06 | Title IX Annual Report | Katie Polidoro | — | DADFgNjkfm0,BADFf8i0GeY | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 705.5 KB | 1407 | 2 |
+| [2019-20_Titlenineannualreport.pdf](https://civilrights.vt.edu/content/dam/safe_vt_edu/2019-20_Titlenineannualreport.pdf) | civilrights.vt.edu | 2021-04-12 | Title IX Annual Report | Polidoro, Kathryn | 2019-20 Annual Report and Campus Climate Survey | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 12 | 789.1 KB | 2635 | 48 |
+| [2020-21_TitleIXAnnualReport.pdf](https://civilrights.vt.edu/content/dam/safe_vt_edu/2020-21_TitleIXAnnualReport.pdf) | civilrights.vt.edu | 2022-03-21 | Annual Report on Sexual Harassment and Violence at Virginia Tech | Polidoro, Kathryn | 2020-21 Annual Report | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 10 | 502.5 KB | 2565 | 33 |
+| [2020_2021_OEA_Annual_Report.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/annualreports/2020_2021_OEA_Annual_Report.pdf) | civilrights.vt.edu | 2022-11-15 | PDF Title | — | {None} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | Warn | NotApplicable | ❌ Fail | 16 | 711.7 KB | 1994 | 37 |
+| [2021-22-TitleIX-Annual-Report.pdf](https://civilrights.vt.edu/content/dam/safe_vt_edu/2021-22-TitleIX-Annual-Report.pdf) | civilrights.vt.edu | 2023-04-30 | Office for Equity & Accessibility Title IX Annual Report 2023 | VT Office for Equity & Accessibility | {'Office for Equity & Accessibility', 'Title IX Annual Report 2023'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | Warn | NotApplicable | ❌ Fail | 12 | 749.2 KB | 2447 | 8 |
+| [2021_2022_OEA_Annual_Report.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/annualreports/2021_2022_OEA_Annual_Report.pdf) | civilrights.vt.edu | 2023-05-23 | Office for Equity & Accessibility 2021-2022 
+Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Accessibility', '2021-2022', 'Annual Report'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 23 | 816.1 KB | 5048 | 5 |
+| [2025%20Title%20IX%20Decision%20Making%20ATIXA.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/2025%20Title%20IX%20Decision%20Making%20ATIXA.pdf) | civilrights.vt.edu | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 90 | 776.2 KB | 6158 | 140 |
+| [2025%20Title%20IX%20Investigator%20ATIXA.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/2025%20Title%20IX%20Investigator%20ATIXA.pdf) | civilrights.vt.edu | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 106 | 1016.0 KB | 7328 | 155 |
+| [4075-0.pdf](https://www.policies.vt.edu/4075.pdf) | civilrights.vt.edu *(ext: policies.vt.edu)* | 2025-08-07 | University Accommodations of Persons with Disabilities | Massanopoli, Jacob | No. 1020 | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 314.8 KB | 1444 | 4 |
+| [4075.pdf](https://policies.vt.edu/assets/4075.pdf) | civilrights.vt.edu *(ext: policies.vt.edu)* | 2025-08-07 | University Accommodations of Persons with Disabilities | Massanopoli, Jacob | No. 1020 | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 314.8 KB | 1444 | 4 |
+| [4815.pdf](https://www.policies.vt.edu/4815.pdf) | civilrights.vt.edu *(ext: policies.vt.edu)* | 2025-09-03 | Minors at Virginia Tech | Massanopoli, Jacob | No. 1020 | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | ❌ Fail | 8 | 310.0 KB | 3486 | 8 |
+| [ATIXA%20TIX%20Coord.%20Level%20Three.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/ATIXA%20TIX%20Coord.%20Level%20Three.pdf) | civilrights.vt.edu | 2021-06-28 | Coordinator 3_Master Slides_FINAL_6.28.2021 | Michelle Larkin | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 69 | 2.6 MB | 18898 | 188 |
+| [CRCPE%202023-2024%20Annual%20Report.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/annualreports/CRCPE%202023-2024%20Annual%20Report.pdf) | civilrights.vt.edu | 2025-10-13 | Office for Equity & Accessibility 2022-2023 Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Accessibility 2022-2023', 'Annual Report'} | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 21 | 1.7 MB | 6015 | 6 |
+| [CRCPE%20Annual%20Report%202025.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/annualreports/CRCPE%20Annual%20Report%202025.pdf) | civilrights.vt.edu | 2026-02-13 | Office for Equity & Accessibility 2022-2023 Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Accessibility 2022-2023', 'Annual Report'} | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 22 | 2.0 MB | 5742 | 9 |
+| [CRCPE%20Title%20IX%20Annual%20Report%202025.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/CRCPE%20Title%20IX%20Annual%20Report%202025.pdf) | civilrights.vt.edu | 2026-02-13 | CRCPE Title IX Annual Report 2025 | VT CRCPE | {'CRCPE Title IX Annual Report 2025'} | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 12 | 1.2 MB | 1747 | 12 |
+| [CRCPE%20Title%20IX%20Annual%20Report%20FINAL%202024.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/CRCPE%20Title%20IX%20Annual%20Report%20FINAL%202024.pdf) | civilrights.vt.edu | 2025-04-18 | CRCPE Title IX Annual Report 2024 | VT CRCPE | {'CRCPE Title IX Annual Report 2024'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 13 | 3.0 MB | 2141 | 30 |
+| [CRCPEorgchart-0.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/CRCPEorgchart.pdf) | civilrights.vt.edu | 2026-07-06 | PowerPoint Presentation | Teglas, Jon Clark | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 27.4 KB | 108 | 1 |
+| [CRCPEorgchart.pdf](http://civilrights.vt.edu/content/dam/civilrights_vt_edu/CRCPEorgchart.pdf) | civilrights.vt.edu | 2026-07-06 | PowerPoint Presentation | Teglas, Jon Clark | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 27.4 KB | 108 | 1 |
+| [Civil%20Rights%20Compliance_Employee%20Resources.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/Civil%20Rights%20Compliance_Employee%20Resources.pdf) | civilrights.vt.edu | 2026-06-16 | Compliance_EmployeeResources_2024 | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 637.4 KB | 418 | 8 |
+| [Combined%20SA-DVDVS%20Book%202021.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/Combined%20SA-DVDVS%20Book%202021.pdf) | civilrights.vt.edu | 2021-01-05 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 140 | 6.9 MB | 15460 | 775 |
+| [FINAL%20SVPE%20Annual%20Report%2025-26.pdf](https://news.vt.edu/content/dam/svpe_vt_edu/FINAL%20SVPE%20Annual%20Report%2025-26.pdf) | civilrights.vt.edu *(ext: news.vt.edu)* | 2026-08-27 | Office for Equity & Accessibility SVPE Annual Report 2025-26 | VT Office for Equity & Accessibility | {'Office for Equity & Accessibility SVPE Annual Report 2025-26'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 15 | 1.3 MB | 2928 | 14 |
+| [LevelITitleIXDecisionMakerTrainingFinalCombinedTrainingMaterials-230228-092514.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/LevelITitleIXDecisionMakerTrainingFinalCombinedTrainingMaterials-230228-092514.pdf) | civilrights.vt.edu | 2023-02-28 | Level I- Title IX Decision-Maker Training- Final Combined Training Materials | Title IX Solutions, LLC | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 396 | 57.9 MB | 20286 | 485 |
+| [NASPA%20Investigators.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/NASPA%20Investigators.pdf) | civilrights.vt.edu | 2020-09-09 | Using Evidence-Based Programs Online | David Arnold | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 72 | 1.4 MB | 40696 | 132 |
+| [NASPA%20TRACK%201_Title%20IX%20Coordinators_Training%20Materials_Cohort%202_Virginia%20Polytechnic%20Institute%20and%20State%20University.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/NASPA%20TRACK%201_Title%20IX%20Coordinators_Training%20Materials_Cohort%202_Virginia%20Polytechnic%20Institute%20and%20State%20University.pdf) | civilrights.vt.edu | 2020-09-08 | Using Evidence-Based Programs Online | David Arnold | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 231 | 6.5 MB | 125706 | 472 |
+| [NASPA%20TRACK%202_Title%20IX%20Decisionmakers%20and%20Student%20Conduct_Training%20Materials_Cohort%202_Virginia%20Polytechnic%20Institute%20and%20State%20U.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/NASPA%20TRACK%202_Title%20IX%20Decisionmakers%20and%20Student%20Conduct_Training%20Materials_Cohort%202_Virginia%20Polytechnic%20Institute%20and%20State%20U.pdf) | civilrights.vt.edu | 2020-09-08 | Using Evidence-Based Programs Online | David Arnold | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 140 | 4.3 MB | 80054 | 295 |
+| [OEA%20Annual%20Report%2023.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/annualreports/OEA%20Annual%20Report%2023.pdf) | civilrights.vt.edu | 2024-02-27 | Office for Equity & Accessibility 2022-2023 Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Accessibility 2022-2023', 'Annual Report'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 22 | 645.3 KB | 5266 | 5 |
+| [PWFA%20Guide.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/harassment-discrimination/pwfa/PWFA%20Guide.pdf) | civilrights.vt.edu | 2025-02-28 | Virginia Tech Pregnant Workers Fairness Act Guide | Office for Equity and Accessibility | Virginia Tech Pregnant Workers Fairness Act Guide | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 245.7 KB | 1244 | 1 |
+| [PWFA-Process-Flowchart.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/harassment-discrimination/pwfa/PWFA-Process-Flowchart.pdf) | civilrights.vt.edu | 2025-03-04 | Process for Providing PWFA Accommodations | {'Office for Equity and Accessibility'} | {'PWFA Flowchart'} | PWFA Flowchart | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | 155.9 KB | 117 | 1 |
+| [Policy%201025%20Grievance%20Procedures%20(Student%20Respondents).pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/harassment-discrimination/procedures/Policy%201025%20Grievance%20Procedures%20(Student%20Respondents).pdf) | civilrights.vt.edu | 2025-02-28 | — | Torie Anderson | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 5 | 119.1 KB | 1376 | 1 |
+| [Policy_1025_Procedures_Employee_Respondents.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/harassment-discrimination/procedures/Policy_1025_Procedures_Employee_Respondents.pdf) | civilrights.vt.edu | 2025-06-18 | NonDiscrimination Complaint Procedures | Blythe, Harrison | Addressing Prohibited Discriminatory Conduct by University Employees | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 10 | 351.2 KB | 3595 | 8 |
+| [SVPE_Print%202.pdf](https://svpe.vt.edu/content/dam/svpe_vt_edu/SVPE_Print%202.pdf) | civilrights.vt.edu *(ext: svpe.vt.edu)* | 2026-06-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 390.5 KB | 376 | 1 |
+| [SVPI-Strategic-Plan-2024.pdf](https://civilrights.vt.edu/content/dam/oea_vt_edu/svpe/SVPI-Strategic-Plan-2024.pdf) | civilrights.vt.edu | 2024-09-10 | Sexual Violence Prevention Initiative Strategic Plan Outline 2024 | — | The steering committee of the Sexual Violence Prevention Initiative (SVPI) was tasked in fall 2023 by President Tim Sands to develop a plan for establishing sexual violence prevention as a shared responsibility of the Virginia Tech community. This strategic plan is the culmination of a year of conversation and analysis to inform sexual violence prevention work moving forward. | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 26 | 2.9 MB | 7531 | 31 |
+| [The%20Four%20Corners%20of%20Title%20IX%20Regulatory%20Compliance,%202025.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/The%20Four%20Corners%20of%20Title%20IX%20Regulatory%20Compliance,%202025.pdf) | civilrights.vt.edu | 2026-01-27 | The Four Corners of Title IX Regulatory Compliance  Virginia Dept. of Criminal Justice Services July 14 – 16, 2020 | Jennifer Lake | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 66 | 1.4 MB | 39196 | 72 |
+| [Title%20IX%20Annual%20Report%2023.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/Title%20IX%20Annual%20Report%2023.pdf) | civilrights.vt.edu | 2024-02-26 | Office for Equity & Accessibility Title IX Annual Report 2023 | VT Office for Equity & Accessibility | {'Office for Equity & Accessibility', 'Title IX Annual Report 2023'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 596.0 KB | 2338 | 5 |
+| [Title%20IX%20Grievance%20Procedures%20(Students).pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/Title%20IX%20Grievance%20Procedures%20(Students).pdf) | civilrights.vt.edu | 2025-02-20 | — | Polidoro, Kathryn | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | ❌ Fail | 15 | 356.4 KB | 5964 | 1 |
+| [Title%20IX%20Sexual%20Harassment%20Procedures%20(Employee%20Respondents).pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/Title%20IX%20Sexual%20Harassment%20Procedures%20(Employee%20Respondents).pdf) | civilrights.vt.edu | 2026-06-16 | Sexual Harassment Complaint Procedures | Blythe, Harrison | Addressing Prohibited Title IX Sexual Harassment by University Employees | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 13 | 332.2 KB | 4467 | 1 |
+| [TitleIX-ATIXA-Training-Part1-2024.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/TitleIX-ATIXA-Training-Part1-2024.pdf) | civilrights.vt.edu | 2024-04-30 | Microsoft PowerPoint - VTech Deck | polidoro | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 35 | 947.8 KB | 7327 | 150 |
+| [TitleIX-ATIXA-Training-Part2-2024.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/TitleIX-ATIXA-Training-Part2-2024.pdf) | civilrights.vt.edu | 2024-04-30 | Microsoft PowerPoint - VTech_Decision-Maker for HE | polidoro | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 38 | 1.1 MB | 7128 | 150 |
+| [TitleIX_StudentResources_August2024.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/TitleIX_StudentResources_August2024.pdf) | civilrights.vt.edu | 2026-05-21 | — | Office for Equity and Accessibility | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | ❌ Fail | ❌ Fail | 1 | 109.4 KB | 315 | 2 |
+| [Training%20Slide%20for%20ATIXIA%20Training-%20Live%20Hearings%20for%20Higher%20Education%202024-07-05.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/Training%20Slide%20for%20ATIXIA%20Training-%20Live%20Hearings%20for%20Higher%20Education%202024-07-05.pdf) | civilrights.vt.edu | 2024-07-12 | Microsoft PowerPoint - HE Live Hearings_v2_FINAL_2024-07-05 | Catherine Kayser | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 89 | 3.5 MB | 6349 | 197 |
+| [Training%20Slides%20for%20ATIXA%20Training%20-%20Writing%20Outcome%20Rationales%20Workshop%202024-05-06.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/Training%20Slides%20for%20ATIXA%20Training%20-%20Writing%20Outcome%20Rationales%20Workshop%202024-05-06.pdf) | civilrights.vt.edu | 2024-05-06 | Microsoft PowerPoint - Rationale Writing Workshop_v2_FINAL_2024-05-06 | Catherine Kayser | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 30 | 2.3 MB | 2461 | 78 |
+| [Trainings%20Slides%20for%20ATIXA%20Training-%20Understanding%20Consent%20Workshop%202024-02-01.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/Trainings%20Slides%20for%20ATIXA%20Training-%20Understanding%20Consent%20Workshop%202024-02-01.pdf) | civilrights.vt.edu | 2024-02-04 | Microsoft PowerPoint - Understanding Consent Workshop_v1_FINAL_2024-02-01 | Catherine Kayser | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 53 | 3.8 MB | 4206 | 108 |
+| [medical_request_form_052026.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/ada/medical_request_form_052026.pdf) | civilrights.vt.edu | 2026-05-26 | ADA Medical Request form | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 6 | 417.8 KB | 1397 | 6 |
+| [questions_to_ask_and_not_to_ask.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/equal-opportunity/questions_to_ask_and_not_to_ask.pdf) | civilrights.vt.edu | 2011-06-02 | QUESTIONS TO ASK AND NOT TO ASK DURING THE INTERVIEW | Equal Opportunity Office | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 6 | 116.5 KB | 1702 | 0 |
+| [vawa.pdf](https://larsen.house.gov/sites/larsen.house.gov/files/vawa.pdf) | civilrights.vt.edu *(ext: larsen.house.gov)* | 2013-02-12 | — | Ed Chung | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ✅ Pass | 3 | 52.1 KB | 1041 | 0 |
 
 ## Files with Errors or Notes
 
@@ -69110,3 +69162,243 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://irishimmigration.ie/third-level-graduate-programme.pdf
 - **Status**: analysed
 - title, lists-fail, 
+
+### 1026.pdf
+
+- **URL**: https://policies.vt.edu/1026.pdf
+- **Status**: analysed
+- figures missing alt text (count=1), 
+
+### 2017-18_TitleIX_Annual_Report.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/safe_vt_edu/2017-18_TitleIX_Annual_Report.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2019-20_Titlenineannualreport.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/safe_vt_edu/2019-20_Titlenineannualreport.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=25), alt-nested-fail, 
+
+### 2020-21_TitleIXAnnualReport.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/safe_vt_edu/2020-21_TitleIXAnnualReport.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=10), alt-nested-fail, 
+
+### 2020_2021_OEA_Annual_Report.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/annualreports/2020_2021_OEA_Annual_Report.pdf
+- **Status**: analysed
+- lists-warn, 
+
+### 2021-22-TitleIX-Annual-Report.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/safe_vt_edu/2021-22-TitleIX-Annual-Report.pdf
+- **Status**: analysed
+- lists-warn, 
+
+### 2025%20Title%20IX%20Decision%20Making%20ATIXA.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/2025%20Title%20IX%20Decision%20Making%20ATIXA.pdf
+- **Status**: analysed
+- no date found, title, tagged, no bookmarks and more than 20 pages, 
+
+### 2025%20Title%20IX%20Investigator%20ATIXA.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/2025%20Title%20IX%20Investigator%20ATIXA.pdf
+- **Status**: analysed
+- no date found, title, tagged, no bookmarks and more than 20 pages, 
+
+### 4075-0.pdf
+
+- **URL**: https://www.policies.vt.edu/4075.pdf
+- **Status**: analysed
+- title, 
+
+### 4075.pdf
+
+- **URL**: https://policies.vt.edu/assets/4075.pdf
+- **Status**: analysed
+- title, 
+
+### 4815.pdf
+
+- **URL**: https://www.policies.vt.edu/4815.pdf
+- **Status**: analysed
+- title, headings-skip, 
+
+### ATIXA%20TIX%20Coord.%20Level%20Three.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/ATIXA%20TIX%20Coord.%20Level%20Three.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, annotations-untagged, 
+
+### CRCPE%202023-2024%20Annual%20Report.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/annualreports/CRCPE%202023-2024%20Annual%20Report.pdf
+- **Status**: analysed
+- title, 
+
+### CRCPE%20Annual%20Report%202025.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/annualreports/CRCPE%20Annual%20Report%202025.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), 
+
+### CRCPE%20Title%20IX%20Annual%20Report%202025.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/CRCPE%20Title%20IX%20Annual%20Report%202025.pdf
+- **Status**: analysed
+- title, tagged-content-whitespace-warn, figures missing alt text (count=1), tables-fail, 
+
+### CRCPEorgchart-0.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/CRCPEorgchart.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=27), headings-none, 
+
+### CRCPEorgchart.pdf
+
+- **URL**: http://civilrights.vt.edu/content/dam/civilrights_vt_edu/CRCPEorgchart.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=27), headings-none, 
+
+### Civil%20Rights%20Compliance_Employee%20Resources.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/Civil%20Rights%20Compliance_Employee%20Resources.pdf
+- **Status**: analysed
+- title, tagged, lang, annotations-untagged, 
+
+### Combined%20SA-DVDVS%20Book%202021.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/Combined%20SA-DVDVS%20Book%202021.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, annotations-untagged, 
+
+### LevelITitleIXDecisionMakerTrainingFinalCombinedTrainingMaterials-230228-092514.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/LevelITitleIXDecisionMakerTrainingFinalCombinedTrainingMaterials-230228-092514.pdf
+- **Status**: analysed
+- title, tagged, lang, annotations-untagged, 
+
+### NASPA%20Investigators.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/NASPA%20Investigators.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, figures missing alt text (count=18), headings-none, 
+
+### NASPA%20TRACK%201_Title%20IX%20Coordinators_Training%20Materials_Cohort%202_Virginia%20Polytechnic%20Institute%20and%20State%20University.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/NASPA%20TRACK%201_Title%20IX%20Coordinators_Training%20Materials_Cohort%202_Virginia%20Polytechnic%20Institute%20and%20State%20University.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, figures missing alt text (count=436), 
+
+### NASPA%20TRACK%202_Title%20IX%20Decisionmakers%20and%20Student%20Conduct_Training%20Materials_Cohort%202_Virginia%20Polytechnic%20Institute%20and%20State%20U.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/NASPA%20TRACK%202_Title%20IX%20Decisionmakers%20and%20Student%20Conduct_Training%20Materials_Cohort%202_Virginia%20Polytechnic%20Institute%20and%20State%20U.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, figures missing alt text (count=128), headings-none, 
+
+### PWFA%20Guide.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/harassment-discrimination/pwfa/PWFA%20Guide.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### PWFA-Process-Flowchart.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/harassment-discrimination/pwfa/PWFA-Process-Flowchart.pdf
+- **Status**: analysed
+- tagged-content-fail, annotations-tagging-fail, 
+
+### Policy%201025%20Grievance%20Procedures%20(Student%20Respondents).pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/harassment-discrimination/procedures/Policy%201025%20Grievance%20Procedures%20(Student%20Respondents).pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-none, annotations-tagging-fail, 
+
+### Policy_1025_Procedures_Employee_Respondents.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/harassment-discrimination/procedures/Policy_1025_Procedures_Employee_Respondents.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=4), 
+
+### SVPE_Print%202.pdf
+
+- **URL**: https://svpe.vt.edu/content/dam/svpe_vt_edu/SVPE_Print%202.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### SVPI-Strategic-Plan-2024.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/oea_vt_edu/svpe/SVPI-Strategic-Plan-2024.pdf
+- **Status**: analysed
+- headings-none, 
+
+### The%20Four%20Corners%20of%20Title%20IX%20Regulatory%20Compliance,%202025.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/The%20Four%20Corners%20of%20Title%20IX%20Regulatory%20Compliance,%202025.pdf
+- **Status**: analysed
+- figures missing alt text (count=7), 
+
+### Title%20IX%20Grievance%20Procedures%20(Students).pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/Title%20IX%20Grievance%20Procedures%20(Students).pdf
+- **Status**: analysed
+- title, headings-skip, 
+
+### Title%20IX%20Sexual%20Harassment%20Procedures%20(Employee%20Respondents).pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/Title%20IX%20Sexual%20Harassment%20Procedures%20(Employee%20Respondents).pdf
+- **Status**: analysed
+- title, figures missing alt text (count=3), 
+
+### TitleIX-ATIXA-Training-Part1-2024.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/TitleIX-ATIXA-Training-Part1-2024.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### TitleIX-ATIXA-Training-Part2-2024.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/TitleIX-ATIXA-Training-Part2-2024.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### TitleIX_StudentResources_August2024.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/TitleIX_StudentResources_August2024.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-none, tables-fail, 
+
+### Training%20Slide%20for%20ATIXIA%20Training-%20Live%20Hearings%20for%20Higher%20Education%202024-07-05.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/Training%20Slide%20for%20ATIXIA%20Training-%20Live%20Hearings%20for%20Higher%20Education%202024-07-05.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Training%20Slides%20for%20ATIXA%20Training%20-%20Writing%20Outcome%20Rationales%20Workshop%202024-05-06.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/Training%20Slides%20for%20ATIXA%20Training%20-%20Writing%20Outcome%20Rationales%20Workshop%202024-05-06.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Trainings%20Slides%20for%20ATIXA%20Training-%20Understanding%20Consent%20Workshop%202024-02-01.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/title-ix/Trainings%20Slides%20for%20ATIXA%20Training-%20Understanding%20Consent%20Workshop%202024-02-01.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### questions_to_ask_and_not_to_ask.pdf
+
+- **URL**: https://civilrights.vt.edu/content/dam/civilrights_vt_edu/equal-opportunity/questions_to_ask_and_not_to_ask.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), 
+
+### vawa.pdf
+
+- **URL**: https://larsen.house.gov/sites/larsen.house.gov/files/vawa.pdf
+- **Status**: analysed
+- title, headings-none, 

@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-09-24T21:40:11.853725+00:00",
+    "site": "civilrights.vt.edu",
+    "crawl_url": "http://civilrights.vt.edu",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/36060004585",
+    "issue_url": "",
+    "archive_file": "2026-09-24_21-40-11-853_civilrights.vt.edu.html",
+    "total": 49,
+    "analysed": 49,
+    "accessible": 12,
+    "analysis_engines": [
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
     "date": "2026-09-02T12:41:02.161281+00:00",
     "site": "irishimmigration.ie",
     "crawl_url": "https://www.irishimmigration.ie/",
