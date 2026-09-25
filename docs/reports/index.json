@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-09-25T21:09:26.655109+00:00",
+    "site": "rotterdam.nl",
+    "crawl_url": "https://www.rotterdam.nl/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/36185724353",
+    "issue_url": "",
+    "archive_file": "2026-09-25_21-09-26-655_rotterdam.nl.html",
+    "total": 115,
+    "analysed": 75,
+    "accessible": 38,
+    "analysis_engines": [
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
     "date": "2026-09-24T21:40:11.853725+00:00",
     "site": "civilrights.vt.edu",
     "crawl_url": "http://civilrights.vt.edu",
