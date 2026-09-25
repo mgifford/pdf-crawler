@@ -4,7 +4,7 @@
     "site": "rijksoverheid.nl",
     "crawl_url": "https://www.rijksoverheid.nl",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/36186839746",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/282#issuecomment-5839798275",
     "archive_file": "2026-09-25_21-20-32-057_rijksoverheid.nl.html",
     "total": 301,
     "analysed": 91,
