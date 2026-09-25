@@ -4,7 +4,7 @@
     "site": "rotterdam.nl",
     "crawl_url": "https://www.rotterdam.nl/",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/36185724353",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/281#issuecomment-5839664952",
     "archive_file": "2026-09-25_21-09-26-655_rotterdam.nl.html",
     "total": 115,
     "analysed": 75,
