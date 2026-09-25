@@ -70186,171 +70186,171 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 
 - **URL**: https://open.overheid.nl/documenten/cfc932e6-c6b3-4d5e-93ed-8f91bdae010d/file
 - **Status**: analysed
-- title, headings-none, 
+- forms-tagging-fail, 
 
-### file-18.pdf
+### 7576.pdf
 
-- **URL**: https://open.overheid.nl/documenten/e414dfae-96e7-4a9d-9918-8e5d6eb9eae0/file
-- **Status**: analysed
-- title, tagged, lang, 
+- **URL**: https://www.rotterdam.nl/media/7576
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/7576.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.719150+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-19.pdf
+### 7657.pdf
 
-- **URL**: https://open.overheid.nl/documenten/294c20b6-c3c4-44a0-88e7-e36d7871aba8/file
-- **Status**: analysed
-- figures missing alt text (count=1), headings-none, 
+- **URL**: https://www.rotterdam.nl/media/7657
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/7657.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.729970+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-2.pdf
+### 7738.pdf
 
-- **URL**: https://open.overheid.nl/documenten/d1bada25-50c4-4280-a268-040d0685aeaa/file
-- **Status**: analysed
-- title, figures missing alt text (count=4), headings-none, 
+- **URL**: https://www.rotterdam.nl/media/7738
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/7738.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.733681+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-20.pdf
+### 7861.pdf
 
-- **URL**: https://open.overheid.nl/documenten/316bd798-9bdc-4e2e-a9ee-2e34119af608/file
-- **Status**: analysed
-- no date found, title, tagged, lang, 
+- **URL**: https://www.rotterdam.nl/media/7861
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/7861.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.737059+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-21.pdf
+### 7940.pdf
 
-- **URL**: https://open.overheid.nl/documenten/3be3c98b-bb74-4c19-82b7-bb994af6aad5/file
-- **Status**: analysed
-- title, headings-none, 
+- **URL**: https://www.rotterdam.nl/media/7940
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/7940.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.740279+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-22.pdf
+### 7959.pdf
 
-- **URL**: https://open.overheid.nl/documenten/57e0e136-6d2f-4edf-9b9e-71325303b36e/file
-- **Status**: analysed
-- headings-none, 
+- **URL**: https://www.rotterdam.nl/media/7959
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/7959.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.743444+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-23.pdf
+### 7968.pdf
 
-- **URL**: https://open.overheid.nl/documenten/acd0e91e-0a05-4f1b-966d-2f54ea7048bf/file
-- **Status**: analysed
-- figures missing alt text (count=1), headings-none, 
+- **URL**: https://www.rotterdam.nl/media/7968
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/7968.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.746122+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-24.pdf
+### 800.pdf
 
-- **URL**: https://open.overheid.nl/documenten/6eaa5a86-af0c-469f-8543-383da0418dc0/file
-- **Status**: analysed
-- no date found, title, tagged, 
+- **URL**: https://www.rotterdam.nl/media/800
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/800.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.748929+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-25.pdf
+### 980cef9e-1dec-4ef2-8244-54016f583767.pdf
 
-- **URL**: https://open.overheid.nl/documenten/6ef370cb-8b8f-45e7-b925-d33e4dc1bcbd/file
-- **Status**: analysed
-- title, headings-none, 
+- **URL**: https://gemeenteraad.rotterdam.nl/Document/View/980cef9e-1dec-4ef2-8244-54016f583767
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/980cef9e-1dec-4ef2-8244-54016f583767.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.789104+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-26.pdf
+### Bijlage%201%20Beleidskader%20armoede%20en%20schulden%202023-2026.pdf
 
-- **URL**: https://open.overheid.nl/documenten/ab95ad73-ff3c-491d-a6bd-1f53a303fff4/file
-- **Status**: analysed
-- title, tagged, lang, 
+- **URL**: https://wow-rotterdam.nl/files/wow-rotterdam.nl/uploads/files/736350/Bijlage%201%20Beleidskader%20armoede%20en%20schulden%202023-2026.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Bijlage%201%20Beleidskader%20armoede%20en%20schulden%202023-2026.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.834983+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-27.pdf
+### Bijlage-I-Standaard-wegindelingen-KL.pdf
 
-- **URL**: https://open.overheid.nl/documenten/5bb7fb68-971a-47ef-a9b7-4bc907870a11/file
-- **Status**: analysed
-- headings-none, 
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20220908150428/http://www.rotterdam.nl/apps/rotterdam.nl/wonen-leven/leidingenbureau/Bijlage-I-Standaard-wegindelingen-KL.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Bijlage-I-Standaard-wegindelingen-KL.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.847465+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-28.pdf
+### Bijlage-IV-Eisen-en-voorwaarden-2022.pdf
 
-- **URL**: https://open.overheid.nl/documenten/4f451d7b-fb84-45dd-99e0-6f2c2965387c/file
-- **Status**: analysed
-- figures missing alt text (count=2), headings-warn, 
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20220908150428/http://www.rotterdam.nl/apps/rotterdam.nl/wonen-leven/leidingenbureau/Bijlage-IV-Eisen-en-voorwaarden-2022.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Bijlage-IV-Eisen-en-voorwaarden-2022.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.855924+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-29.pdf
+### Certificaat-CERT-002428-TN-CO2-Prestatieladder-NL-NL1.pdf
 
-- **URL**: https://open.overheid.nl/documenten/5661d83c-171a-4413-8318-1ef05796c6dc/file
-- **Status**: analysed
-- title, tagged, lang, 
+- **URL**: https://mijn.co2-prestatieladder.nl/filestore/si/23181116/23159/23181122/Certificaat-CERT-002428-TN-CO2-Prestatieladder-NL-NL1.pdf?etag=19c1f64f77797779c660cbdd1a61993d
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Certificaat-CERT-002428-TN-CO2-Prestatieladder-NL-NL1.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.861092+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-3.pdf
+### Convenant_ZES.pdf
 
-- **URL**: https://open.overheid.nl/documenten/2898753e-e87d-4ac4-ba99-21ee9644aea6/file
-- **Status**: analysed
-- figures missing alt text (count=2), headings-none, 
+- **URL**: https://logistiek010.nl/app/uploads/2021/03/Convenant_ZES.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Convenant_ZES.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.875081+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-30.pdf
+### DCMR_CO2_Monitor_Rotterdam_2023.pdf
 
-- **URL**: https://open.overheid.nl/documenten/4b82bddf-2e4c-48cd-b82e-98d803ee07f4/file
-- **Status**: analysed
-- title, tagged, lang, 
+- **URL**: https://www.dcmr.nl/sites/default/files/2024-09/DCMR_CO2_Monitor_Rotterdam_2023.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/DCMR_CO2_Monitor_Rotterdam_2023.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.892225+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-31.pdf
+### DCMR_CO2_monitor_Rotterdam_2024.pdf
 
-- **URL**: https://open.overheid.nl/documenten/ronl-389a7259177aeecd7cb0997be13b693312337b63/file
-- **Status**: analysed
-- title, tagged, 
+- **URL**: https://www.dcmr.nl/sites/default/files/2025-09/DCMR_CO2_monitor_Rotterdam_2024.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/DCMR_CO2_monitor_Rotterdam_2024.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.968989+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-32.pdf
+### FC-210122-verslag.pdf
 
-- **URL**: https://open.overheid.nl/documenten/9e539b4a-2f21-496e-96fb-2e1288070a05/file
-- **Status**: analysed
-- title, tagged, 
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20220611005347/http://www.rotterdam.nl/wonen-leven/welstand-feyenoord-city/FC-210122-verslag.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/FC-210122-verslag.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.974321+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-33.pdf
+### FC-210219-verslag.pdf
 
-- **URL**: https://open.overheid.nl/documenten/22bb4450-5af5-4f52-a27d-b94312f7f9fa/file
-- **Status**: analysed
-- title, headings-none, 
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20210424205936/http://www.rotterdam.nl/wonen-leven/welstand-feyenoord-city/FC-210219-verslag.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/FC-210219-verslag.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.977990+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-34.pdf
+### FC-210423-verslag.pdf
 
-- **URL**: https://open.overheid.nl/documenten/2b22265a-79c7-4329-83bf-9b72880d491f/file
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20220108115604/http://www.rotterdam.nl/wonen-leven/welstand-feyenoord-city/FC-210423-verslag.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/FC-210423-verslag.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.980820+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-35.pdf
+### Folder_duurzaam-rotterdams-erfgoed.pdf
 
-- **URL**: https://open.overheid.nl/documenten/5d681589-a5b6-42a8-97c2-472a45cdec48/file
-- **Status**: analysed
-- title, figures missing alt text (count=2), headings-none, tables-warn, 
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20200802112320/http://www.rotterdam.nl/wonen-leven/restauratie-herbestemming/Folder_duurzaam-rotterdams-erfgoed.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Folder_duurzaam-rotterdams-erfgoed.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.008499+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-36.pdf
+### Handboek-ondergrond-2022.pdf
 
-- **URL**: https://open.overheid.nl/documenten/b2c55fc3-9cb6-4de1-9440-f078d817c074/file
-- **Status**: analysed
-- title, figures missing alt text (count=2), headings-none, tables-warn, 
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20220908150428/http://www.rotterdam.nl/wonen-leven/leidingenbureau/Handboek-ondergrond-2022.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Handboek-ondergrond-2022.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.018062+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-37.pdf
+### Leidraad-Windenergie.pdf
 
-- **URL**: https://open.overheid.nl/documenten/d946a6a1-69e9-49e6-b971-9abd51da87bb/file
-- **Status**: analysed
-- figures missing alt text (count=1), headings-none, 
+- **URL**: https://persberichtenrotterdam.nl/wp-content/uploads/sites/8/2023/01/Leidraad-Windenergie.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Leidraad-Windenergie.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.033413+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-39.pdf
+### Muzus-Langer-thuis-small.pdf
 
-- **URL**: https://open.overheid.nl/documenten/3dfb6d47-ff6b-4a57-afec-6b7bfb76ae14/file
-- **Status**: analysed
-- title, 
+- **URL**: https://muzus.nl/wp-content/uploads/2024/09/Muzus-Langer-thuis-small.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Muzus-Langer-thuis-small.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.053640+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-40.pdf
+### Plan-van-Aanpak-Duurzaam-Doorbouwenaan-Rotterdam.pdf
 
-- **URL**: https://open.overheid.nl/documenten/ea5382f0-2796-4874-8f0f-1fbb085bbd27/file
-- **Status**: analysed
-- title, headings-none, 
+- **URL**: https://www.woneninrotterdam.nl/wp-content/uploads/2024/05/Plan-van-Aanpak-Duurzaam-Doorbouwenaan-Rotterdam.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Plan-van-Aanpak-Duurzaam-Doorbouwenaan-Rotterdam.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.062550+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-42.pdf
+### Rb-Den-Haag-13-07-2026-2.pdf
 
-- **URL**: https://open.overheid.nl/documenten/6e28f5c5-7c94-4312-b74a-f3be1bc20d2a/file
-- **Status**: analysed
-- title, tagged, annotations-untagged, 
+- **URL**: https://stab.nl/wp-content/uploads/2026/07/Rb-Den-Haag-13-07-2026-2.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Rb-Den-Haag-13-07-2026-2.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.074174+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-43.pdf
+### Rotterdamse-Leidraad-Zonne-energie.pdf
 
-- **URL**: https://open.overheid.nl/documenten/7ffb5246-54f6-49b3-8ded-076e05f07f55/file
-- **Status**: analysed
-- title, tagged, lang, 
+- **URL**: https://persberichtenrotterdam.nl/wp-content/uploads/sites/8/2023/01/Rotterdamse-Leidraad-Zonne-energie.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Rotterdamse-Leidraad-Zonne-energie.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.085324+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-44.pdf
+### STOWA%202018-XX%20Factsheet%20Groenblauwe%20Daken.pdf
 
-- **URL**: https://open.overheid.nl/documenten/c535acf4-0664-4301-a192-ad5c6a977c41/file
-- **Status**: analysed
-- title, tagged, lang, 
+- **URL**: https://www.stowa.nl/sites/default/files/assets/PUBLICATIES/Publicaties%202018/STOWA%202018-XX%20Factsheet%20Groenblauwe%20Daken.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/STOWA%202018-XX%20Factsheet%20Groenblauwe%20Daken.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.090231+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### file-45.pdf
+### Stappenplan-ZES.pdf
 
 - **URL**: https://open.overheid.nl/documenten/c22fbe00-1363-47e9-8ef9-0f66d18446de/file
 - **Status**: analysed
