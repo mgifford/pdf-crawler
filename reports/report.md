@@ -1,6 +1,6 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-09-25T22:04:01.664153+00:00
+Generated: 2026-09-25T22:48:45.236848+00:00
 
 ## Summary
 
@@ -8,8 +8,8 @@ Generated: 2026-09-25T22:04:01.664153+00:00
 |--------|-------|
 | Total files tracked | 30301 |
 | Analysed | 6799 |
-| Pending analysis | 17607 |
-| Errors during analysis | 5895 |
+| Pending analysis | 17568 |
+| Errors during analysis | 5934 |
 | Accessible | 2091 |
 | Issues found | 4708 |
 | Totally inaccessible subset | 293 |
@@ -69736,7 +69736,7 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 
 - **URL**: https://www.rotterdam.nl/media/519
 - **Status**: error
-- Analysis exceeded 120s per-file limit
+- File not found: crawled_files/rotterdam.nl/519.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.513894+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 535.pdf
 
@@ -69840,6 +69840,240 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 - **Status**: analysed
 - forms-tagging-fail, 
 
+### 7576.pdf
+
+- **URL**: https://www.rotterdam.nl/media/7576
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/7576.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.719150+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 7657.pdf
+
+- **URL**: https://www.rotterdam.nl/media/7657
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/7657.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.729970+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 7738.pdf
+
+- **URL**: https://www.rotterdam.nl/media/7738
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/7738.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.733681+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 7861.pdf
+
+- **URL**: https://www.rotterdam.nl/media/7861
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/7861.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.737059+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 7940.pdf
+
+- **URL**: https://www.rotterdam.nl/media/7940
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/7940.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.740279+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 7959.pdf
+
+- **URL**: https://www.rotterdam.nl/media/7959
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/7959.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.743444+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 7968.pdf
+
+- **URL**: https://www.rotterdam.nl/media/7968
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/7968.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.746122+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 800.pdf
+
+- **URL**: https://www.rotterdam.nl/media/800
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/800.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.748929+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 980cef9e-1dec-4ef2-8244-54016f583767.pdf
+
+- **URL**: https://gemeenteraad.rotterdam.nl/Document/View/980cef9e-1dec-4ef2-8244-54016f583767
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/980cef9e-1dec-4ef2-8244-54016f583767.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.789104+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Bijlage%201%20Beleidskader%20armoede%20en%20schulden%202023-2026.pdf
+
+- **URL**: https://wow-rotterdam.nl/files/wow-rotterdam.nl/uploads/files/736350/Bijlage%201%20Beleidskader%20armoede%20en%20schulden%202023-2026.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Bijlage%201%20Beleidskader%20armoede%20en%20schulden%202023-2026.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.834983+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Bijlage-I-Standaard-wegindelingen-KL.pdf
+
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20220908150428/http://www.rotterdam.nl/apps/rotterdam.nl/wonen-leven/leidingenbureau/Bijlage-I-Standaard-wegindelingen-KL.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Bijlage-I-Standaard-wegindelingen-KL.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.847465+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Bijlage-IV-Eisen-en-voorwaarden-2022.pdf
+
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20220908150428/http://www.rotterdam.nl/apps/rotterdam.nl/wonen-leven/leidingenbureau/Bijlage-IV-Eisen-en-voorwaarden-2022.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Bijlage-IV-Eisen-en-voorwaarden-2022.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.855924+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Certificaat-CERT-002428-TN-CO2-Prestatieladder-NL-NL1.pdf
+
+- **URL**: https://mijn.co2-prestatieladder.nl/filestore/si/23181116/23159/23181122/Certificaat-CERT-002428-TN-CO2-Prestatieladder-NL-NL1.pdf?etag=19c1f64f77797779c660cbdd1a61993d
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Certificaat-CERT-002428-TN-CO2-Prestatieladder-NL-NL1.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.861092+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Convenant_ZES.pdf
+
+- **URL**: https://logistiek010.nl/app/uploads/2021/03/Convenant_ZES.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Convenant_ZES.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.875081+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### DCMR_CO2_Monitor_Rotterdam_2023.pdf
+
+- **URL**: https://www.dcmr.nl/sites/default/files/2024-09/DCMR_CO2_Monitor_Rotterdam_2023.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/DCMR_CO2_Monitor_Rotterdam_2023.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.892225+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### DCMR_CO2_monitor_Rotterdam_2024.pdf
+
+- **URL**: https://www.dcmr.nl/sites/default/files/2025-09/DCMR_CO2_monitor_Rotterdam_2024.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/DCMR_CO2_monitor_Rotterdam_2024.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.968989+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### FC-210122-verslag.pdf
+
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20220611005347/http://www.rotterdam.nl/wonen-leven/welstand-feyenoord-city/FC-210122-verslag.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/FC-210122-verslag.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.974321+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### FC-210219-verslag.pdf
+
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20210424205936/http://www.rotterdam.nl/wonen-leven/welstand-feyenoord-city/FC-210219-verslag.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/FC-210219-verslag.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.977990+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### FC-210423-verslag.pdf
+
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20220108115604/http://www.rotterdam.nl/wonen-leven/welstand-feyenoord-city/FC-210423-verslag.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/FC-210423-verslag.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.980820+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Folder_duurzaam-rotterdams-erfgoed.pdf
+
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20200802112320/http://www.rotterdam.nl/wonen-leven/restauratie-herbestemming/Folder_duurzaam-rotterdams-erfgoed.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Folder_duurzaam-rotterdams-erfgoed.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.008499+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Handboek-ondergrond-2022.pdf
+
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20220908150428/http://www.rotterdam.nl/wonen-leven/leidingenbureau/Handboek-ondergrond-2022.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Handboek-ondergrond-2022.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.018062+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Leidraad-Windenergie.pdf
+
+- **URL**: https://persberichtenrotterdam.nl/wp-content/uploads/sites/8/2023/01/Leidraad-Windenergie.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Leidraad-Windenergie.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.033413+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Muzus-Langer-thuis-small.pdf
+
+- **URL**: https://muzus.nl/wp-content/uploads/2024/09/Muzus-Langer-thuis-small.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Muzus-Langer-thuis-small.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.053640+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Plan-van-Aanpak-Duurzaam-Doorbouwenaan-Rotterdam.pdf
+
+- **URL**: https://www.woneninrotterdam.nl/wp-content/uploads/2024/05/Plan-van-Aanpak-Duurzaam-Doorbouwenaan-Rotterdam.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Plan-van-Aanpak-Duurzaam-Doorbouwenaan-Rotterdam.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.062550+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Rb-Den-Haag-13-07-2026-2.pdf
+
+- **URL**: https://stab.nl/wp-content/uploads/2026/07/Rb-Den-Haag-13-07-2026-2.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Rb-Den-Haag-13-07-2026-2.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.074174+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Rotterdamse-Leidraad-Zonne-energie.pdf
+
+- **URL**: https://persberichtenrotterdam.nl/wp-content/uploads/sites/8/2023/01/Rotterdamse-Leidraad-Zonne-energie.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Rotterdamse-Leidraad-Zonne-energie.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.085324+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### STOWA%202018-XX%20Factsheet%20Groenblauwe%20Daken.pdf
+
+- **URL**: https://www.stowa.nl/sites/default/files/assets/PUBLICATIES/Publicaties%202018/STOWA%202018-XX%20Factsheet%20Groenblauwe%20Daken.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/STOWA%202018-XX%20Factsheet%20Groenblauwe%20Daken.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.090231+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Stappenplan-ZES.pdf
+
+- **URL**: https://logistiek010.nl/app/uploads/2020/11/Stappenplan-ZES.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Stappenplan-ZES.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.101196+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Telecommunicatieverordening_Rotterdam_2015.pdf
+
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20221109151134/http://www.rotterdam.nl/wonen-leven/leidingenbureau/Telecommunicatieverordening_Rotterdam_2015.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Telecommunicatieverordening_Rotterdam_2015.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.104984+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Verslag-11-november-2022.pdf
+
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20221202205240/http://www.rotterdam.nl/wonen-leven/welstand-feyenoord-city/Verslag-11-november-2022.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Verslag-11-november-2022.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.109554+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Verslag-7-oktober-2022.pdf
+
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20221111234830/http://www.rotterdam.nl/wonen-leven/welstand-feyenoord-city/Verslag-7-oktober-2022.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Verslag-7-oktober-2022.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.112957+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Verslag-Q-team-Feyenoord-City-210603.pdf
+
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20220924004640/http://www.rotterdam.nl/wonen-leven/welstand-feyenoord-city/Verslag-Q-team-Feyenoord-City-210603.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Verslag-Q-team-Feyenoord-City-210603.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.117239+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Visisedocument-ondergrondse-infrastructuur.pdf
+
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/0/http://www.rotterdam.nl/wonen-leven/leidingenbureau/Visisedocument-ondergrondse-infrastructuur.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Visisedocument-ondergrondse-infrastructuur.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.122059+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Wijziging-1-op-de-Telecommunicatieverordening-Rotterdam.pdf
+
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20221109151134/http://www.rotterdam.nl/apps/rotterdam.nl/wonen-leven/leidingenbureau/Wijziging-1-op-de-Telecommunicatieverordening-Rotterdam.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/Wijziging-1-op-de-Telecommunicatieverordening-Rotterdam.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.125099+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file.pdf
+
+- **URL**: https://open.overheid.nl/documenten/7ff0af67-219e-4e0e-9c58-a3994608ea4d/file
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/file.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.128825+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### rbams-form-klachtenformulier-kamer-voor-gerechtsdeurwaarders.pdf
+
+- **URL**: https://www.rechtspraak.nl/binaries/_rts_1768836465250/content/assets/rbams/form/rbams-form-klachtenformulier-kamer-voor-gerechtsdeurwaarders.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/rbams-form-klachtenformulier-kamer-voor-gerechtsdeurwaarders.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.133512+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### rf_bc_evenementenoverzicht_def_versie-10-7.pdf
+
+- **URL**: https://www.rotterdamfestivals.nl/media/0g1ielhy/rf_bc_evenementenoverzicht_def_versie-10-7.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/rf_bc_evenementenoverzicht_def_versie-10-7.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.143884+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### signalenkaart_landelijk_digitale-leesversie.pdf
+
+- **URL**: https://www.hogeschoolrotterdam.nl/contentassets/e7005ef70e2e446a989eb09622f981bf/signalenkaart_landelijk_digitale-leesversie.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/signalenkaart_landelijk_digitale-leesversie.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.148751+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### signalenkaart_rotterdam_digitale-leesversie.pdf
+
+- **URL**: https://www.hogeschoolrotterdam.nl/contentassets/e7005ef70e2e446a989eb09622f981bf/signalenkaart_rotterdam_digitale-leesversie.pdf
+- **Status**: error
+- File not found: crawled_files/rotterdam.nl/signalenkaart_rotterdam_digitale-leesversie.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.153592+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
 ### 08ddc0dd-4f65-479f-aa37-aa636c62dcc8.pdf
 
 - **URL**: https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/08ddc0dd-4f65-479f-aa37-aa636c62dcc8
@@ -69856,7 +70090,7 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 
 - **URL**: https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/1047eb14-8e96-4ac8-abcf-a561dbf598a8
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/1047eb14-8e96-4ac8-abcf-a561dbf598a8.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.111762+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/1047eb14-8e96-4ac8-abcf-a561dbf598a8.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.111762+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 21d84295-8d25-4029-b30e-779095421b13.pdf
 
@@ -70186,171 +70420,171 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 
 - **URL**: https://open.overheid.nl/documenten/cfc932e6-c6b3-4d5e-93ed-8f91bdae010d/file
 - **Status**: analysed
-- forms-tagging-fail, 
+- title, headings-none, 
 
-### 7576.pdf
+### file-18.pdf
 
-- **URL**: https://www.rotterdam.nl/media/7576
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/7576.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.719150+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/e414dfae-96e7-4a9d-9918-8e5d6eb9eae0/file
+- **Status**: analysed
+- title, tagged, lang, 
 
-### 7657.pdf
+### file-19.pdf
 
-- **URL**: https://www.rotterdam.nl/media/7657
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/7657.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.729970+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/294c20b6-c3c4-44a0-88e7-e36d7871aba8/file
+- **Status**: analysed
+- figures missing alt text (count=1), headings-none, 
 
-### 7738.pdf
+### file-2.pdf
 
-- **URL**: https://www.rotterdam.nl/media/7738
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/7738.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.733681+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/d1bada25-50c4-4280-a268-040d0685aeaa/file
+- **Status**: analysed
+- title, figures missing alt text (count=4), headings-none, 
 
-### 7861.pdf
+### file-20.pdf
 
-- **URL**: https://www.rotterdam.nl/media/7861
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/7861.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.737059+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/316bd798-9bdc-4e2e-a9ee-2e34119af608/file
+- **Status**: analysed
+- no date found, title, tagged, lang, 
 
-### 7940.pdf
+### file-21.pdf
 
-- **URL**: https://www.rotterdam.nl/media/7940
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/7940.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.740279+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/3be3c98b-bb74-4c19-82b7-bb994af6aad5/file
+- **Status**: analysed
+- title, headings-none, 
 
-### 7959.pdf
+### file-22.pdf
 
-- **URL**: https://www.rotterdam.nl/media/7959
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/7959.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.743444+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/57e0e136-6d2f-4edf-9b9e-71325303b36e/file
+- **Status**: analysed
+- headings-none, 
 
-### 7968.pdf
+### file-23.pdf
 
-- **URL**: https://www.rotterdam.nl/media/7968
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/7968.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.746122+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/acd0e91e-0a05-4f1b-966d-2f54ea7048bf/file
+- **Status**: analysed
+- figures missing alt text (count=1), headings-none, 
 
-### 800.pdf
+### file-24.pdf
 
-- **URL**: https://www.rotterdam.nl/media/800
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/800.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.748929+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/6eaa5a86-af0c-469f-8543-383da0418dc0/file
+- **Status**: analysed
+- no date found, title, tagged, 
 
-### 980cef9e-1dec-4ef2-8244-54016f583767.pdf
+### file-25.pdf
 
-- **URL**: https://gemeenteraad.rotterdam.nl/Document/View/980cef9e-1dec-4ef2-8244-54016f583767
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/980cef9e-1dec-4ef2-8244-54016f583767.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.789104+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/6ef370cb-8b8f-45e7-b925-d33e4dc1bcbd/file
+- **Status**: analysed
+- title, headings-none, 
 
-### Bijlage%201%20Beleidskader%20armoede%20en%20schulden%202023-2026.pdf
+### file-26.pdf
 
-- **URL**: https://wow-rotterdam.nl/files/wow-rotterdam.nl/uploads/files/736350/Bijlage%201%20Beleidskader%20armoede%20en%20schulden%202023-2026.pdf
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/Bijlage%201%20Beleidskader%20armoede%20en%20schulden%202023-2026.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.834983+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/ab95ad73-ff3c-491d-a6bd-1f53a303fff4/file
+- **Status**: analysed
+- title, tagged, lang, 
 
-### Bijlage-I-Standaard-wegindelingen-KL.pdf
+### file-27.pdf
 
-- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20220908150428/http://www.rotterdam.nl/apps/rotterdam.nl/wonen-leven/leidingenbureau/Bijlage-I-Standaard-wegindelingen-KL.pdf
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/Bijlage-I-Standaard-wegindelingen-KL.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.847465+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/5bb7fb68-971a-47ef-a9b7-4bc907870a11/file
+- **Status**: analysed
+- headings-none, 
 
-### Bijlage-IV-Eisen-en-voorwaarden-2022.pdf
+### file-28.pdf
 
-- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20220908150428/http://www.rotterdam.nl/apps/rotterdam.nl/wonen-leven/leidingenbureau/Bijlage-IV-Eisen-en-voorwaarden-2022.pdf
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/Bijlage-IV-Eisen-en-voorwaarden-2022.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.855924+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/4f451d7b-fb84-45dd-99e0-6f2c2965387c/file
+- **Status**: analysed
+- figures missing alt text (count=2), headings-warn, 
 
-### Certificaat-CERT-002428-TN-CO2-Prestatieladder-NL-NL1.pdf
+### file-29.pdf
 
-- **URL**: https://mijn.co2-prestatieladder.nl/filestore/si/23181116/23159/23181122/Certificaat-CERT-002428-TN-CO2-Prestatieladder-NL-NL1.pdf?etag=19c1f64f77797779c660cbdd1a61993d
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/Certificaat-CERT-002428-TN-CO2-Prestatieladder-NL-NL1.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.861092+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/5661d83c-171a-4413-8318-1ef05796c6dc/file
+- **Status**: analysed
+- title, tagged, lang, 
 
-### Convenant_ZES.pdf
+### file-3.pdf
 
-- **URL**: https://logistiek010.nl/app/uploads/2021/03/Convenant_ZES.pdf
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/Convenant_ZES.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.875081+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/2898753e-e87d-4ac4-ba99-21ee9644aea6/file
+- **Status**: analysed
+- figures missing alt text (count=2), headings-none, 
 
-### DCMR_CO2_Monitor_Rotterdam_2023.pdf
+### file-30.pdf
 
-- **URL**: https://www.dcmr.nl/sites/default/files/2024-09/DCMR_CO2_Monitor_Rotterdam_2023.pdf
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/DCMR_CO2_Monitor_Rotterdam_2023.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.892225+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/4b82bddf-2e4c-48cd-b82e-98d803ee07f4/file
+- **Status**: analysed
+- title, tagged, lang, 
 
-### DCMR_CO2_monitor_Rotterdam_2024.pdf
+### file-31.pdf
 
-- **URL**: https://www.dcmr.nl/sites/default/files/2025-09/DCMR_CO2_monitor_Rotterdam_2024.pdf
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/DCMR_CO2_monitor_Rotterdam_2024.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.968989+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/ronl-389a7259177aeecd7cb0997be13b693312337b63/file
+- **Status**: analysed
+- title, tagged, 
 
-### FC-210122-verslag.pdf
+### file-32.pdf
 
-- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20220611005347/http://www.rotterdam.nl/wonen-leven/welstand-feyenoord-city/FC-210122-verslag.pdf
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/FC-210122-verslag.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.974321+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/9e539b4a-2f21-496e-96fb-2e1288070a05/file
+- **Status**: analysed
+- title, tagged, 
 
-### FC-210219-verslag.pdf
+### file-33.pdf
 
-- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20210424205936/http://www.rotterdam.nl/wonen-leven/welstand-feyenoord-city/FC-210219-verslag.pdf
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/FC-210219-verslag.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.977990+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/22bb4450-5af5-4f52-a27d-b94312f7f9fa/file
+- **Status**: analysed
+- title, headings-none, 
 
-### FC-210423-verslag.pdf
+### file-34.pdf
 
-- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20220108115604/http://www.rotterdam.nl/wonen-leven/welstand-feyenoord-city/FC-210423-verslag.pdf
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/FC-210423-verslag.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:07.980820+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/2b22265a-79c7-4329-83bf-9b72880d491f/file
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
-### Folder_duurzaam-rotterdams-erfgoed.pdf
+### file-35.pdf
 
-- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20200802112320/http://www.rotterdam.nl/wonen-leven/restauratie-herbestemming/Folder_duurzaam-rotterdams-erfgoed.pdf
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/Folder_duurzaam-rotterdams-erfgoed.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.008499+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/5d681589-a5b6-42a8-97c2-472a45cdec48/file
+- **Status**: analysed
+- title, figures missing alt text (count=2), headings-none, tables-warn, 
 
-### Handboek-ondergrond-2022.pdf
+### file-36.pdf
 
-- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20220908150428/http://www.rotterdam.nl/wonen-leven/leidingenbureau/Handboek-ondergrond-2022.pdf
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/Handboek-ondergrond-2022.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.018062+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/b2c55fc3-9cb6-4de1-9440-f078d817c074/file
+- **Status**: analysed
+- title, figures missing alt text (count=2), headings-none, tables-warn, 
 
-### Leidraad-Windenergie.pdf
+### file-37.pdf
 
-- **URL**: https://persberichtenrotterdam.nl/wp-content/uploads/sites/8/2023/01/Leidraad-Windenergie.pdf
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/Leidraad-Windenergie.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.033413+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/d946a6a1-69e9-49e6-b971-9abd51da87bb/file
+- **Status**: analysed
+- figures missing alt text (count=1), headings-none, 
 
-### Muzus-Langer-thuis-small.pdf
+### file-39.pdf
 
-- **URL**: https://muzus.nl/wp-content/uploads/2024/09/Muzus-Langer-thuis-small.pdf
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/Muzus-Langer-thuis-small.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.053640+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/3dfb6d47-ff6b-4a57-afec-6b7bfb76ae14/file
+- **Status**: analysed
+- title, 
 
-### Plan-van-Aanpak-Duurzaam-Doorbouwenaan-Rotterdam.pdf
+### file-40.pdf
 
-- **URL**: https://www.woneninrotterdam.nl/wp-content/uploads/2024/05/Plan-van-Aanpak-Duurzaam-Doorbouwenaan-Rotterdam.pdf
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/Plan-van-Aanpak-Duurzaam-Doorbouwenaan-Rotterdam.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.062550+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/ea5382f0-2796-4874-8f0f-1fbb085bbd27/file
+- **Status**: analysed
+- title, headings-none, 
 
-### Rb-Den-Haag-13-07-2026-2.pdf
+### file-42.pdf
 
-- **URL**: https://stab.nl/wp-content/uploads/2026/07/Rb-Den-Haag-13-07-2026-2.pdf
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/Rb-Den-Haag-13-07-2026-2.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.074174+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/6e28f5c5-7c94-4312-b74a-f3be1bc20d2a/file
+- **Status**: analysed
+- title, tagged, annotations-untagged, 
 
-### Rotterdamse-Leidraad-Zonne-energie.pdf
+### file-43.pdf
 
-- **URL**: https://persberichtenrotterdam.nl/wp-content/uploads/sites/8/2023/01/Rotterdamse-Leidraad-Zonne-energie.pdf
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/Rotterdamse-Leidraad-Zonne-energie.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.085324+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/7ffb5246-54f6-49b3-8ded-076e05f07f55/file
+- **Status**: analysed
+- title, tagged, lang, 
 
-### STOWA%202018-XX%20Factsheet%20Groenblauwe%20Daken.pdf
+### file-44.pdf
 
-- **URL**: https://www.stowa.nl/sites/default/files/assets/PUBLICATIES/Publicaties%202018/STOWA%202018-XX%20Factsheet%20Groenblauwe%20Daken.pdf
-- **Status**: error
-- File not found: crawled_files/rotterdam.nl/STOWA%202018-XX%20Factsheet%20Groenblauwe%20Daken.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:24:08.090231+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **URL**: https://open.overheid.nl/documenten/c535acf4-0664-4301-a192-ad5c6a977c41/file
+- **Status**: analysed
+- title, tagged, lang, 
 
-### Stappenplan-ZES.pdf
+### file-45.pdf
 
 - **URL**: https://open.overheid.nl/documenten/c22fbe00-1363-47e9-8ef9-0f66d18446de/file
 - **Status**: analysed
@@ -70360,427 +70594,427 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 
 - **URL**: https://open.overheid.nl/documenten/10d41924-7e4c-49d5-a3b8-9215a76464f4/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-46.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.541465+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-46.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.541465+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-47.pdf
 
 - **URL**: https://open.overheid.nl/documenten/fc2fd89d-6049-4f01-a558-e5acda2ffa0b/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-47.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.545024+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-47.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.545024+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-48.pdf
 
 - **URL**: https://open.overheid.nl/documenten/8e60163d-a665-4e44-9c5a-9684f0305a2f/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-48.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.548468+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-48.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.548468+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-49.pdf
 
 - **URL**: https://open.overheid.nl/documenten/4ea9c6e9-bc7a-4f21-8407-b2cbaa5291cf/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-49.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.555924+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-49.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.555924+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-5.pdf
 
 - **URL**: https://open.overheid.nl/documenten/818598ca-8911-4558-835a-a17b315364d4/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-5.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.560171+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-5.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.560171+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-50.pdf
 
 - **URL**: https://open.overheid.nl/documenten/b293d67e-9e75-4cc8-b5d5-44ebea81df80/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-50.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.564232+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-50.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.564232+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-51.pdf
 
 - **URL**: https://open.overheid.nl/documenten/ab0c73f6-19db-432b-8e3c-eb775bc27512/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-51.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.567889+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-51.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.567889+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-52.pdf
 
 - **URL**: https://open.overheid.nl/documenten/aee6a36b-2cbb-427a-81ed-52a3470d1b1c/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-52.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.572952+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-52.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.572952+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-53.pdf
 
 - **URL**: https://open.overheid.nl/documenten/f9ad8b8e-6e1c-48a7-90ff-f3390daac5c6/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-53.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.576647+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-53.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.576647+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-54.pdf
 
 - **URL**: https://open.overheid.nl/documenten/7201b297-2112-4c34-9ef3-54bfdd070419/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-54.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.581026+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-54.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.581026+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-55.pdf
 
 - **URL**: https://open.overheid.nl/documenten/a34145ff-1945-4253-9276-8e80d098e42d/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-55.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.590800+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-55.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.590800+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-56.pdf
 
 - **URL**: https://open.overheid.nl/documenten/3ad0580e-1a70-418d-855d-8eb0c23c5f54/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-56.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.594964+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-56.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.594964+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-57.pdf
 
 - **URL**: https://open.overheid.nl/documenten/26648662-347d-4bf8-b67e-9bb064b501cf/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-57.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.598917+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-57.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.598917+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-58.pdf
 
 - **URL**: https://open.overheid.nl/documenten/5df45d9b-b52b-4cdc-8e9f-3705e48305cf/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-58.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.602882+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-58.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.602882+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-59.pdf
 
 - **URL**: https://open.overheid.nl/documenten/c367d9e6-9b1e-4471-ab01-26b47bf4b34f/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-59.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.606845+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-59.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.606845+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-6.pdf
 
 - **URL**: https://open.overheid.nl/documenten/d42a5d7b-2c16-4a67-a7d1-a80cd89f16f7/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-6.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.609670+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-6.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.609670+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-60.pdf
 
 - **URL**: https://open.overheid.nl/documenten/eb647abe-5099-4a6c-8613-04874cc1258b/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-60.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.612355+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-60.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.612355+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-61.pdf
 
 - **URL**: https://open.overheid.nl/documenten/557fe929-d642-42da-9fc5-168faac9ed34/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-61.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.616335+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-61.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.616335+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-62.pdf
 
 - **URL**: https://open.overheid.nl/documenten/e484c940-07da-449f-8f75-363a854cefc0/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-62.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.618910+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-62.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.618910+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-63.pdf
 
 - **URL**: https://open.overheid.nl/documenten/b9ca7154-bb24-48cb-b909-84042020f6d2/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-63.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.622295+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-63.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.622295+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-64.pdf
 
 - **URL**: https://open.overheid.nl/documenten/d74fe187-5798-4911-9313-dc871455587f/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-64.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.626302+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-64.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.626302+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-65.pdf
 
 - **URL**: https://open.overheid.nl/documenten/78d7d00d-96ad-465d-866a-978737be1443/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-65.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.630081+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-65.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.630081+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-66.pdf
 
 - **URL**: https://open.overheid.nl/documenten/bf4a5fac-8944-47cb-8657-cef53a5f2f43/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-66.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.633678+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-66.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.633678+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-67.pdf
 
 - **URL**: https://open.overheid.nl/documenten/36f487b7-e565-4eaf-9543-657418229989/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-67.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.636948+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-67.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.636948+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-68.pdf
 
 - **URL**: https://open.overheid.nl/documenten/b66fce52-ec43-45a4-84a8-b7db984c1230/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-68.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.652827+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-68.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.652827+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-69.pdf
 
 - **URL**: https://open.overheid.nl/documenten/82a3da6d-fe3c-486d-9172-f2cca03d1047/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-69.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.657982+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-69.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.657982+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-7.pdf
 
 - **URL**: https://open.overheid.nl/documenten/aa4e5e04-b2b2-4300-b7d9-51182e8adc12/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-7.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.663169+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-7.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.663169+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-70.pdf
 
 - **URL**: https://open.overheid.nl/documenten/0a2b6c4a-b51d-4ef5-9740-c927250e5903/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-70.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.670672+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-70.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.670672+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-71.pdf
 
 - **URL**: https://open.overheid.nl/documenten/72397c1a-4ede-4435-96bf-bdc4f5ea0472/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-71.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.675245+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-71.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.675245+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-72.pdf
 
 - **URL**: https://open.overheid.nl/documenten/f854748d-f0b1-41dc-a72a-106e74b257cb/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-72.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.678750+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-72.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.678750+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-73.pdf
 
 - **URL**: https://open.overheid.nl/documenten/8a884af8-0bde-4fa8-ac6d-389d767aa4c5/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-73.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.681501+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-73.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.681501+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-74.pdf
 
 - **URL**: https://open.overheid.nl/documenten/34695ecd-0530-49ed-9596-0b60da4e1dde/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-74.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.683838+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-74.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.683838+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-75.pdf
 
 - **URL**: https://open.overheid.nl/documenten/e001b152-43a5-4fac-a81e-65ae6dc29a42/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-75.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.686210+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-75.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.686210+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-76.pdf
 
 - **URL**: https://open.overheid.nl/documenten/cf471c78-f5ab-48d4-b317-7d19899b4bbc/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-76.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.688778+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-76.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.688778+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-77.pdf
 
 - **URL**: https://open.overheid.nl/documenten/e4d33d74-20ac-433d-a85c-3b02e709a649/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-77.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.691437+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-77.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.691437+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-78.pdf
 
 - **URL**: https://open.overheid.nl/documenten/ronl-b89c316cc6e511b074de6c53bb8a6bd0b5e1fd9d/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-78.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.694163+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-78.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.694163+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-79.pdf
 
 - **URL**: https://open.overheid.nl/documenten/b9356441-3f18-4610-af96-180d2d35985d/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-79.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.696416+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-79.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.696416+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-8.pdf
 
 - **URL**: https://open.overheid.nl/documenten/0fa6f8a4-e5fe-476b-bf58-d5405ff30948/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-8.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.699169+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-8.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.699169+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-80.pdf
 
 - **URL**: https://open.overheid.nl/documenten/c1068319-6c5f-4e27-9196-b1216334cb9c/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-80.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.701742+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-80.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.701742+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-81.pdf
 
 - **URL**: https://open.overheid.nl/documenten/3540d000-bce2-4e30-aeca-2c7b58b56fc4/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-81.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.705526+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-81.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.705526+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-82.pdf
 
 - **URL**: https://open.overheid.nl/documenten/c9066be7-3ee1-4a7e-a93d-e74cf80b280e/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-82.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.707836+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-82.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.707836+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-83.pdf
 
 - **URL**: https://open.overheid.nl/documenten/8c2898b5-3097-46fc-ae4b-03ed14030597/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-83.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.715284+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-83.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.715284+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-84.pdf
 
 - **URL**: https://open.overheid.nl/documenten/00d59307-b024-43a8-9810-4cc20d541cdf/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-84.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.717496+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-84.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.717496+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-85.pdf
 
 - **URL**: https://open.overheid.nl/documenten/38d17713-f9c9-46b5-891f-a2b005258c2a/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-85.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.721591+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-85.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.721591+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-86.pdf
 
 - **URL**: https://open.overheid.nl/documenten/92348e83-becb-4988-bdfc-4312f5a288c0/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-86.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.728014+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-86.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.728014+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-87.pdf
 
 - **URL**: https://open.overheid.nl/documenten/3796cee8-342a-4e73-a277-8bd2b5016c97/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-87.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.731885+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-87.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.731885+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-88.pdf
 
 - **URL**: https://open.overheid.nl/documenten/8bccaf10-c1d0-446d-8353-234c5de5d599/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-88.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.735561+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-88.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.735561+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-89.pdf
 
 - **URL**: https://open.overheid.nl/documenten/db013345-870a-4ed5-b77b-c72df8c77d50/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-89.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.739210+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-89.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.739210+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-9.pdf
 
 - **URL**: https://open.overheid.nl/documenten/bf3fb938-14fa-40bb-aa51-6f2d7af2e218/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-9.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.743264+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-9.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.743264+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-90.pdf
 
 - **URL**: https://open.overheid.nl/documenten/ronl-fef9bd72a5a87d6ebde2df9e9d0c32fe3cbf38d4/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-90.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.747213+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-90.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.747213+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-91.pdf
 
 - **URL**: https://open.overheid.nl/documenten/c27e889f-fd3c-481f-8598-3b51a72f1d0c/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-91.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.751301+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-91.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.751301+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-92.pdf
 
 - **URL**: https://open.overheid.nl/documenten/36f4c6f2-f4b6-4102-8397-a2abfa7a982e/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-92.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.755597+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-92.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.755597+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-93.pdf
 
 - **URL**: https://open.overheid.nl/documenten/ad59de2d-d83d-4842-9aa9-e2f0cc728766/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-93.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.759067+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-93.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.759067+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-94.pdf
 
 - **URL**: https://open.overheid.nl/documenten/ab591c36-d1fb-4f56-ba1d-017db7ba2a41/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-94.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.774613+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-94.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.774613+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-95.pdf
 
 - **URL**: https://open.overheid.nl/documenten/53d4564b-543c-4eb2-bc5a-243d96272351/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-95.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.778322+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-95.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.778322+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-96.pdf
 
 - **URL**: https://open.overheid.nl/documenten/242830ad-f049-4df3-a699-ad0fd84b2c4f/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-96.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.782290+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-96.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.782290+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-97.pdf
 
 - **URL**: https://open.overheid.nl/documenten/d444c0d8-2310-403e-bda0-99bf60ef2dc6/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-97.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.786068+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-97.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.786068+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-98.pdf
 
 - **URL**: https://open.overheid.nl/documenten/0b7469ab-b9cf-4380-9fea-60f55efe4de1/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-98.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.790032+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-98.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.790032+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file-99.pdf
 
 - **URL**: https://open.overheid.nl/documenten/9fe94c86-87c0-4ae7-b975-5b06a05d1358/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file-99.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.793283+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file-99.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.793283+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### file.pdf
 
 - **URL**: https://open.overheid.nl/documenten/6e4cf342-12e1-4fb6-8194-4686294068d0/file
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/file.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.796742+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/file.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.796742+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### gemeentefonds-toelichting-slotwet-2025.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-gemeentefonds-2025/gemeentefonds-toelichting-slotwet-2025.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/gemeentefonds-toelichting-slotwet-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.802512+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/gemeentefonds-toelichting-slotwet-2025.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.802512+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### handreiking-de-wet-open-overheid-in-de-gemeentelijke-praktijk.pdf
 
 - **URL**: https://vng.nl/sites/default/files/2025-10/handreiking-de-wet-open-overheid-in-de-gemeentelijke-praktijk.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/handreiking-de-wet-open-overheid-in-de-gemeentelijke-praktijk.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.808299+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/handreiking-de-wet-open-overheid-in-de-gemeentelijke-praktijk.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.808299+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### jaarverslag-buitenlandse-handel-en-ontwikkelingssamenwerking-2024.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2025/05/21/buitenlandse-handel-en-ontwikkelingssamenwerking-2024/jaarverslag-buitenlandse-handel-en-ontwikkelingssamenwerking-2024.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/jaarverslag-buitenlandse-handel-en-ontwikkelingssamenwerking-2024.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.824260+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/jaarverslag-buitenlandse-handel-en-ontwikkelingssamenwerking-2024.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.824260+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### jaarverslag-buitenlandse-zaken-2024.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2025/05/21/buitenlandse-zaken-2024/jaarverslag-buitenlandse-zaken-2024.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/jaarverslag-buitenlandse-zaken-2024.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.841999+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/jaarverslag-buitenlandse-zaken-2024.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.841999+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### jaarverslag-ministerie-van-buitenlandse-handel-en-ontwikkelingshulp-2025.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/buitenlandse-handel-en-ontwikkelingshulp-2025/jaarverslag-ministerie-van-buitenlandse-handel-en-ontwikkelingshulp-2025.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/jaarverslag-ministerie-van-buitenlandse-handel-en-ontwikkelingshulp-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.858238+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/jaarverslag-ministerie-van-buitenlandse-handel-en-ontwikkelingshulp-2025.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.858238+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### jaarverslag-ministerie-van-volksgezondheid-welzijn-en-sport-2025.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/volksgezondheid-welzijn-en-sport-2025/jaarverslag-ministerie-van-volksgezondheid-welzijn-en-sport-2025.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/jaarverslag-ministerie-van-volksgezondheid-welzijn-en-sport-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.891640+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/jaarverslag-ministerie-van-volksgezondheid-welzijn-en-sport-2025.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.891640+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### klimaat-en-groene-groei-jaarverslag-2025.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/klimaat-en-groene-groei-2025/klimaat-en-groene-groei-jaarverslag-2025.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/klimaat-en-groene-groei-jaarverslag-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.910393+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/klimaat-en-groene-groei-jaarverslag-2025.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.910393+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### klimaat-en-groene-groei-slotwet-2025.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/slotwet-ministerie-van-klimaat-en-groene-groei-2025/klimaat-en-groene-groei-slotwet-2025.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/klimaat-en-groene-groei-slotwet-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.917112+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/klimaat-en-groene-groei-slotwet-2025.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.917112+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### klimaat-en-groene-groei-toelichting-slotwet-2025.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-ministerie-van-klimaat-en-groene-groei-2025/klimaat-en-groene-groei-toelichting-slotwet-2025.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/klimaat-en-groene-groei-toelichting-slotwet-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.923230+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/klimaat-en-groene-groei-toelichting-slotwet-2025.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.923230+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### klimaatfonds-jaarverslag-2025.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/klimaatfonds-2025/klimaatfonds-jaarverslag-2025.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/klimaatfonds-jaarverslag-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.937427+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/klimaatfonds-jaarverslag-2025.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.937427+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### klimaatfonds-slotwet-2025.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/slotwet-klimaatfonds-2025/klimaatfonds-slotwet-2025.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/klimaatfonds-slotwet-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.943824+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/klimaatfonds-slotwet-2025.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.943824+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### klimaatfonds-toelichting-slotwet-2025.pdf
 
