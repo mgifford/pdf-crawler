@@ -1,21 +1,21 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-09-24T21:40:11.853725+00:00
+Generated: 2026-09-25T21:20:32.057278+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 31 |
-| Total files tracked | 29885 |
-| Analysed | 6633 |
-| Pending analysis | 17473 |
-| Errors during analysis | 5779 |
-| Accessible | 2039 |
-| Issues found | 4594 |
-| Totally inaccessible subset | 291 |
+| URLs crawled | 1029 |
+| Total files tracked | 30301 |
+| Analysed | 6724 |
+| Pending analysis | 17797 |
+| Errors during analysis | 5780 |
+| Accessible | 2053 |
+| Issues found | 4671 |
+| Totally inaccessible subset | 293 |
 | Broken / unreadable | 29 |
-| Exempt (pre-2018) | 1531 |
+| Exempt (pre-2018) | 1533 |
 
 ## Files per Site
 
@@ -81,6 +81,8 @@ Generated: 2026-09-24T21:40:11.853725+00:00
 | products.gci-ga.com | 137 |
 | projects.accesscomputing.uw.edu | 3 |
 | pstcc.edu | 11 |
+| rijksoverheid.nl | 301 |
+| rotterdam.nl | 115 |
 | slvboces.org | 743 |
 | smallpdf.com | 2 |
 | stjohns.k12.fl.us | 126 |
@@ -6742,6 +6744,97 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 | [medical_request_form_052026.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/ada/medical_request_form_052026.pdf) | civilrights.vt.edu | 2026-05-26 | ADA Medical Request form | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 6 | 417.8 KB | 1397 | 6 |
 | [questions_to_ask_and_not_to_ask.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/equal-opportunity/questions_to_ask_and_not_to_ask.pdf) | civilrights.vt.edu | 2011-06-02 | QUESTIONS TO ASK AND NOT TO ASK DURING THE INTERVIEW | Equal Opportunity Office | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 6 | 116.5 KB | 1702 | 0 |
 | [vawa.pdf](https://larsen.house.gov/sites/larsen.house.gov/files/vawa.pdf) | civilrights.vt.edu *(ext: larsen.house.gov)* | 2013-02-12 | — | Ed Chung | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ✅ Pass | 3 | 52.1 KB | 1041 | 0 |
+| [08ddc0dd-4f65-479f-aa37-aa636c62dcc8.pdf](https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/08ddc0dd-4f65-479f-aa37-aa636c62dcc8) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-07-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 8 | 177.2 KB | 3126 | 2 |
+| [0a81ea62-08d0-42ba-b11c-e4bfa629c9c2.pdf](https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/0a81ea62-08d0-42ba-b11c-e4bfa629c9c2) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-07-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 12 | 161.7 KB | 4792 | 2 |
+| [21d84295-8d25-4029-b30e-779095421b13.pdf](https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/21d84295-8d25-4029-b30e-779095421b13) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-07-10 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 8 | 1.9 MB | 0 | 8 |
+| [23086e5f-c390-4412-9372-6ca082afd694_en.pdf](https://finance.ec.europa.eu/document/download/23086e5f-c390-4412-9372-6ca082afd694_en?filename=faqs-sanctions-russia-central-bank_en.pdf) | rijksoverheid.nl *(ext: finance.ec.europa.eu)* | 2023-10-31 | Frequently asked questions on the Central Bank of Russia concerning sanctions adopted following Russia’s military aggression against Ukraine | European Commission | Frequently asked questions on the Central Bank of Russia concerning sanctions adopted following Russia’s military aggression against Ukraine | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 220.2 KB | 1311 | 0 |
+| [23_0147+Plan+van+aanpak+Statushouders+aan+het+werk.pdf](https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2023/03/09/plan-van-aanpak-statushouders-aan-het-werk/23_0147+Plan+van+aanpak+Statushouders+aan+het+werk.pdf) | rijksoverheid.nl | 2023-04-14 | Plan van aanpak Statushouders aan het werk | Ministerie van Sociale Zaken en Werkgelegenheid | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | Warn | NotApplicable | ❌ Fail | 20 | 279.9 KB | 7345 | 0 |
+| [2ed31314-9505-429d-a717-6d601a649e87.pdf](https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/2ed31314-9505-429d-a717-6d601a649e87) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-07-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 13 | 185.3 KB | 4981 | 2 |
+| [3da032ae-bebf-45ee-bdaa-9089328a82ba.pdf](https://open.overheid.nl/documenten/3da032ae-bebf-45ee-bdaa-9089328a82ba) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-06-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 9 | 167.4 KB | 2460 | 2 |
+| [4520eb28-ebc2-4bc2-b0fc-6308fefa06b0.pdf](https://open.overheid.nl/documenten/4520eb28-ebc2-4bc2-b0fc-6308fefa06b0) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-05-22 | — | Mingelen, drs. D. (David) | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 14 | 228.1 KB | 5188 | 2 |
+| [645c9ca2-91f2-4cb3-aaf7-540bcc4836c6.pdf](https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/645c9ca2-91f2-4cb3-aaf7-540bcc4836c6) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-08-19 | Berichten minister-president Jetten op Instagram, juli 2026 | Ministerie van Algemene Zaken | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 89.6 KB | 716 | 2 |
+| [6c0c3794-67f2-488e-af3c-5005783b29d0.pdf](https://open.overheid.nl/documenten/6c0c3794-67f2-488e-af3c-5005783b29d0) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-05-22 | — | Mingelen, drs. D. (David) | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 9 | 190.0 KB | 2492 | 2 |
+| [70b2b5b2-c34f-4851-b60f-fb79e0bb1de8.pdf](https://open.overheid.nl/documenten/70b2b5b2-c34f-4851-b60f-fb79e0bb1de8) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-06-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 14 | 129.8 KB | 4624 | 2 |
+| [7d3dd4ce-93ee-4c12-a75e-7e1668391062.pdf](https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/7d3dd4ce-93ee-4c12-a75e-7e1668391062) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-09-07 | Berichten minister-president Jetten op X, Bluesky en Threads, augustus 2026 | Ministerie van Algemene Zaken | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 6 | 178.6 KB | 2677 | 2 |
+| [850f9f17-dd44-49ff-ad8c-d583febbaba4.pdf](https://open.overheid.nl/documenten/850f9f17-dd44-49ff-ad8c-d583febbaba4) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-05-22 | — | Mingelen, drs. D. (David) | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 3 | 154.4 KB | 629 | 2 |
+| [9f8e9d17-a3af-4655-b4e1-10946c460afb.pdf](https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/9f8e9d17-a3af-4655-b4e1-10946c460afb) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-08-19 | Berichten minister-president Jetten op X, Bluesky en Threads, juli 2026 | Ministerie van Algemene Zaken | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 6 | 113.2 KB | 2026 | 2 |
+| [English7.pdf](https://unoda-web.s3-accelerate.amazonaws.com/wp-content/uploads/2013/06/English7.pdf) | rijksoverheid.nl *(ext: unoda-web.s3-accelerate.amazonaws.com)* | 2014-06-06 | Etpu | English_Text_Proc | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | 12 | 217.0 KB | 4659 | 0 |
+| [Increasing-the-Attractiveness-and-Competitiveness-of-the-European-Capital-Market.pdf](https://www.mef.gov.it/export/sites/MEF/inevidenza/2026/article_00377/Increasing-the-Attractiveness-and-Competitiveness-of-the-European-Capital-Market.pdf) | rijksoverheid.nl *(ext: mef.gov.it)* | 2026-05-29 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 276.0 KB | 1899 | 11 |
+| [KAART_2025_+GASSELTERNIJVEENSCHEMOND_01_10KM.pdf](https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2025/10/kaart-3-km/kaart-van-vervoersbeperkingsgebied-10-km-door-besmetting-vogelgriep-op-locatie-gasselternijveenschemond/KAART_2025_+GASSELTERNIJVEENSCHEMOND_01_10KM.pdf) | rijksoverheid.nl | 2025-10-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 830.0 KB | 11 | 2 |
+| [KAART_2025_+GASSELTERNIJVEENSCHEMOND_01_3KM.pdf](https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2025/10/kaart-3-km/kaart-van-vervoersbeperkingsgebied-3-km-door-besmetting-vogelgriep-op-locatie-gasselternijveenschemond/KAART_2025_+GASSELTERNIJVEENSCHEMOND_01_3KM.pdf) | rijksoverheid.nl | 2025-10-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 765.5 KB | 11 | 2 |
+| [KAART_2025_AI_Kleve_III_10KM.pdf](https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2025/12/01/kaart-kleve-iii/KAART_2025_AI_Kleve_III_10KM.pdf) | rijksoverheid.nl | 2025-11-27 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 806.6 KB | 10 | 4 |
+| [Kindgesprek.pdf](https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2011/09/09/kinderverhoor/Kindgesprek.pdf) | rijksoverheid.nl | 2025-06-27 | Kindgesprek | de rechtspraak | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 5 | 828.0 KB | 964 | 3 |
+| [OCW+-+Samenvatting+Werkagenda+MBO.pdf](https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2023/02/14/werkagenda-mbo/OCW+-+Samenvatting+Werkagenda+MBO.pdf) | rijksoverheid.nl | 2023-05-15 | Samenvatting werkagenda mbo 2023 - 2027 | Ministerie van Onderwijs Cultuur en Wetenschap | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 3 | 328.5 KB | 824 | 9 |
+| [Onderzoeksagenda_SP_2021_def.pdf](https://www.zonmw.nl/sites/zonmw/files/typo3-migrated-files/Onderzoeksagenda_SP_2021_def.pdf) | rijksoverheid.nl *(ext: zonmw.nl)* | 2021-09-06 | Tweede onderzoeksagenda suïcidepreventie | Agaath Sluijter | 2021-2026 | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | Warn | ❌ Fail | 64 | 1.1 MB | 28266 | 23 |
+| [Raw+materials+strategy+for+large+transitions.pdf](https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2022/12/09/raw-materials-strategy-for-large-transitions/Raw+materials+strategy+for+large+transitions.pdf) | rijksoverheid.nl | 2023-05-03 | Microsoft Word - Engelstalige versie Nationale Grondstoffenstrategie | haasj | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 31 | 932.4 KB | 14915 | 7 |
+| [Regeling+maatregelen+beschermings-+en+bewakingszone+hoogpathogene+vogelgriep+Gasselternijveenschemond+2025.pdf](https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2025/10/07/regeling-maatregelen-beschermings--en-bewakingszone-hoogpathogene-vogelgriep-gasselternijveenschemond-2025/Regeling+maatregelen+beschermings-+en+bewakingszone+hoogpathogene+vogelgriep+Gasselternijveenschemond+2025.pdf) | rijksoverheid.nl | 2025-10-06 | - | Dhr. mr. Jacobs | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 12 | 387.4 KB | 3538 | 2 |
+| [Regeling+maatregelen+bewakingszone+hoogpathogene+vogelgriep+Kleve%2C+Duitsland+III+2025.pdf](https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2025/12/01/regeling-maatregelen-bewakingszone-hoogpathogene-vogelgriep-kleve-iii-duitsland-2025/Regeling+maatregelen+bewakingszone+hoogpathogene+vogelgriep+Kleve%2C+Duitsland+III+2025.pdf) | rijksoverheid.nl | 2025-12-01 | — | X | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 9 | 202.0 KB | 3377 | 1 |
+| [Sociale-Agenda-Nij-Begun-digitaal.pdf](https://www.nijbegun.nl/wp-content/uploads/2025/01/Sociale-Agenda-Nij-Begun-digitaal.pdf) | rijksoverheid.nl *(ext: nijbegun.nl)* | 2025-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 66 | 9.5 MB | 17831 | 28 |
+| [Vijftig-maatregelen-Nij-Begun.pdf](https://www.nijbegun.nl/wp-content/uploads/2024/04/Vijftig-maatregelen-Nij-Begun.pdf) | rijksoverheid.nl *(ext: nijbegun.nl)* | 2023-04-25 | Bijlage 7 - Visueel overzicht van alle maatregelen | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 628.7 KB | 632 | 0 |
+| [aanvraag-legitimatiebewijs-gerechtsdeurwaarders.pdf](https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2018/11/05/aanvraag-legitimatiebewijs-gerechtsdeurwaarders/aanvraag-legitimatiebewijs-gerechtsdeurwaarders.pdf) | rijksoverheid.nl | 2025-04-24 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 155.2 KB | 122 | 1 |
+| [asiel-en-migratie-jaarverslag-2025.pdf](https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/asiel-en-migratie-2025/asiel-en-migratie-jaarverslag-2025.pdf) | rijksoverheid.nl | 2026-04-20 | Jaarverslag en slotwet van het Ministerie van Asiel en Migratie 2025 | Tweede Kamer der Staten-Generaal | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 79 | 4.9 MB | 27771 | 3 |
+| [asiel-en-migratie-slotwet-2025.pdf](https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/slotwet-ministerie-van-asiel-en-migratie-2025/asiel-en-migratie-slotwet-2025.pdf) | rijksoverheid.nl | 2026-04-20 | Voorstel van wet | Tweede Kamer der Staten-Generaal | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | ❌ Fail | ❌ Fail | 3 | 768.0 KB | 707 | 0 |
+| [asiel-en-migratie-toelichting-slotwet-2025.pdf](https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-ministerie-van-asiel-en-migratie-2025/asiel-en-migratie-toelichting-slotwet-2025.pdf) | rijksoverheid.nl | 2026-04-20 | Memorie van toelichting | Tweede Kamer der Staten-Generaal | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 5 | 532.9 KB | 721 | 0 |
+| [de61b6b9-16d9-4bcb-9d5d-b2bbe04bcb7b.pdf](https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/de61b6b9-16d9-4bcb-9d5d-b2bbe04bcb7b) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-07-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 7 | 109.1 KB | 2891 | 2 |
+| [defensiematerieelbegrotingsfonds-toelichting-slotwet-2025.pdf](https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-defensiematerieelbegrotingsfonds-2025/defensiematerieelbegrotingsfonds-toelichting-slotwet-2025.pdf) | rijksoverheid.nl | 2026-05-06 | Memorie van toelichting | Tweede Kamer der Staten-Generaal | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 5 | 541.1 KB | 938 | 0 |
+| [deltafonds-toelichting-slotwet-2025.pdf](https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-deltafonds-2025/deltafonds-toelichting-slotwet-2025.pdf) | rijksoverheid.nl | 2026-05-11 | Memorie van toelichting | Tweede Kamer der Staten-Generaal | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 29 | 5.5 MB | 32106 | 0 |
+| [document.pdf](https://www.tweedekamer.nl/downloads/document?id=2024D23522) | rijksoverheid.nl *(ext: tweedekamer.nl)* | 2024-08-07 | — | — | {'------------------------'} | ------------------------ | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | Warn | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 3 | 30.4 KB | 963 | 0 |
+| [fac72c18-d5b7-4211-b984-0891c23dac39.pdf](https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/fac72c18-d5b7-4211-b984-0891c23dac39) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-09-07 | Berichten minister-president Jetten op Instagram, augustus 2026 | Ministerie van Algemene Zaken | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 5 | 104.1 KB | 1816 | 2 |
+| [factsheet_ec_format_migration_partnership_framework_update_2.pdf](https://www.eeas.europa.eu/sites/default/files/factsheet_ec_format_migration_partnership_framework_update_2.pdf) | rijksoverheid.nl *(ext: eeas.europa.eu)* | 2016-10-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ✅ Pass | 3 | 1.5 MB | 1184 | 1 |
+| [fcafaebc-7de6-4977-82c8-c51f1fdd0080.pdf](https://open.overheid.nl/documenten/fcafaebc-7de6-4977-82c8-c51f1fdd0080) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-05-22 | — | Mingelen, drs. D. (David) | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 3 | 111.9 KB | 739 | 2 |
+| [file-0.pdf](https://open.overheid.nl/documenten/70a1f74e-b1a3-4ea2-a487-65f1decfc065/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 58 | 2.5 MB | 23938 | 39 |
+| [file-1.pdf](https://open.overheid.nl/documenten/0cd83d75-6b18-42f9-8e2b-091066b01f97/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-07-01 | {'Brief - Kabinetsreactie ROB advies Naar een uitvoerende macht'} | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 12 | 190.0 KB | 5512 | 2 |
+| [file-10.pdf](https://open.overheid.nl/documenten/65c4cadd-c652-436d-9993-7f3d191a3ec4/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 58 | 2.5 MB | 23938 | 39 |
+| [file-100.pdf](https://open.overheid.nl/documenten/162c0421-39b1-4e68-ada7-cb46d4e29ddb/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-23 | {'2024 06 12 Aanbiedingsbrief TK Kabinetsreactie AIV advies Hybride dreigingen en maatschappelijke weerbaarheid'} | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 77.3 KB | 140 | 6 |
+| [file-101.pdf](https://open.overheid.nl/documenten/3cbc2dcf-8a2c-4f07-8146-312253b05acd/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-17 | {'Toelichting invullen fiche mededeling'} | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 16 | 335.1 KB | 7048 | 0 |
+| [file-102.pdf](https://open.overheid.nl/documenten/b32e3a26-3bc5-4c7a-b079-9bb409060135/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-17 | {'Blanco'} | — | Ministerie van Economische Zaken | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 8 | 228.9 KB | 3355 | 0 |
+| [file-103.pdf](https://open.overheid.nl/documenten/e3f92a76-e089-4045-9c29-caa6be4f90de/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 9 | 254.1 KB | 3889 | 0 |
+| [file-104.pdf](https://open.overheid.nl/documenten/615a0fd5-3385-4e3c-87e7-f0282a175ecf/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | 2.1 MB | 974 | 48 |
+| [file-105.pdf](https://open.overheid.nl/documenten/ccbe15dd-5c60-46bb-8f8a-dafa73bab8f2/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 6 | 131.7 KB | 3107 | 0 |
+| [file-106.pdf](https://open.overheid.nl/documenten/ba9f555a-7f7e-4b4b-9105-b7ae9a2a8345/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | ✅ Pass | ❌ Fail | 1 | 56.0 KB | 244 | 1 |
+| [file-107.pdf](https://open.overheid.nl/documenten/7e22c957-09e1-4091-9c32-9c6468117760/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | 1.8 MB | 1136 | 36 |
+| [file-108.pdf](https://open.overheid.nl/documenten/c2e0f657-465c-43eb-a75e-8b7d5a8f9223/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | 1.0 MB | 0 | 3 |
+| [file-109.pdf](https://open.overheid.nl/documenten/bd027009-e50e-46cf-be8a-65dab26dfc81/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 62.0 KB | 697 | 6 |
+| [file-11.pdf](https://open.overheid.nl/documenten/ronl-95e3ab86c1a7b039c9a287b392673edf758a67c8/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 78.0 KB | 1311 | 5 |
+| [file-110.pdf](https://open.overheid.nl/documenten/81429e1c-29c0-45b7-a783-f56cf71aedc8/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 5 | 3.0 MB | 1587 | 60 |
+| [file-111.pdf](https://open.overheid.nl/documenten/112c92eb-aac9-4ae6-ba64-54e39b28af75/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-16 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 6 | 4.2 MB | 0 | 6 |
+| [file-12.pdf](https://open.overheid.nl/documenten/6d4edd34-981b-4375-a647-73b7b87656b9/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-01-26 | {'Regeldruk bij woningcorporaties'} | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ❌ Fail | 33 | 1.4 MB | 11645 | 12 |
+| [file-13.pdf](https://open.overheid.nl/documenten/781e0615-5dde-40c8-bd13-5dc21e55fc0f/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 8 | 140.4 KB | 3726 | 1 |
+| [file-14.pdf](https://open.overheid.nl/documenten/0fd2a96c-bebe-49b2-a9cf-8725994990e1/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 6 | 475.3 KB | 10 | 4 |
+| [file-15.pdf](https://open.overheid.nl/documenten/62c22197-fc20-4d7a-95f3-601bab23a11e/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 374.1 KB | 3375 | 8 |
+| [file-16.pdf](https://open.overheid.nl/documenten/e7ca5333-c8d0-4a8d-a06e-47aa27806f52/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 881.0 KB | 423 | 24 |
+| [file-17.pdf](https://open.overheid.nl/documenten/cfc932e6-c6b3-4d5e-93ed-8f91bdae010d/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 4 | 107.6 KB | 1801 | 2 |
+| [file-18.pdf](https://open.overheid.nl/documenten/e414dfae-96e7-4a9d-9918-8e5d6eb9eae0/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 5 | 1.7 MB | 0 | 5 |
+| [file-19.pdf](https://open.overheid.nl/documenten/294c20b6-c3c4-44a0-88e7-e36d7871aba8/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-12-17 | Hoe ontwikkelingshulp meer gebonden wordt aan Nederlandse strategische belangen | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | ✅ Pass | ❌ Fail | 3 | 102.4 KB | 752 | 1 |
+| [file-2.pdf](https://open.overheid.nl/documenten/d1bada25-50c4-4280-a268-040d0685aeaa/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 19 | 276.9 KB | 7919 | 1 |
+| [file-20.pdf](https://open.overheid.nl/documenten/316bd798-9bdc-4e2e-a9ee-2e34119af608/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 660.1 KB | 401 | 16 |
+| [file-21.pdf](https://open.overheid.nl/documenten/3be3c98b-bb74-4c19-82b7-bb994af6aad5/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-10-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 3 | 124.7 KB | 1205 | 1 |
+| [file-22.pdf](https://open.overheid.nl/documenten/57e0e136-6d2f-4edf-9b9e-71325303b36e/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-10-16 | - | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 104.6 KB | 541 | 0 |
+| [file-23.pdf](https://open.overheid.nl/documenten/acd0e91e-0a05-4f1b-966d-2f54ea7048bf/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-08-29 | Inzet Koninkrijk der Nederlanden voor de 80e zitting van de AVVN | Hinse, Fennigje | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 6 | 122.7 KB | 2153 | 1 |
+| [file-24.pdf](https://open.overheid.nl/documenten/6eaa5a86-af0c-469f-8543-383da0418dc0/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 102.7 KB | 470 | 2 |
+| [file-25.pdf](https://open.overheid.nl/documenten/6ef370cb-8b8f-45e7-b925-d33e4dc1bcbd/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-10-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 212.9 KB | 743 | 1 |
+| [file-26.pdf](https://open.overheid.nl/documenten/ab95ad73-ff3c-491d-a6bd-1f53a303fff4/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-08-29 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 606.8 KB | 377 | 16 |
+| [file-27.pdf](https://open.overheid.nl/documenten/5bb7fb68-971a-47ef-a9b7-4bc907870a11/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-22 | {'-'} | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 3 | 94.6 KB | 1180 | 1 |
+| [file-28.pdf](https://open.overheid.nl/documenten/4f451d7b-fb84-45dd-99e0-6f2c2965387c/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-08-26 | Kamerbrief EU-VS handelsdeal | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | ✅ Pass | ❌ Fail | 5 | 167.1 KB | 1989 | 2 |
+| [file-29.pdf](https://open.overheid.nl/documenten/5661d83c-171a-4413-8318-1ef05796c6dc/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-17 | {'2025 03 24 Kamerbrief Onze mensen onze toekomst; meer beter en sneller'} | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 10 | 169.3 KB | 5200 | 7 |
+| [file-3.pdf](https://open.overheid.nl/documenten/2898753e-e87d-4ac4-ba99-21ee9644aea6/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-22 | {'Brief - Rapport Mozaïek van Belangen - Naar een beter inzicht in de betrokkenheid van externen bij publieke besluitvorming'} | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 70.9 KB | 363 | 2 |
+| [file-30.pdf](https://open.overheid.nl/documenten/4b82bddf-2e4c-48cd-b82e-98d803ee07f4/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-08-26 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | 1.4 MB | 873 | 24 |
+| [file-31.pdf](https://open.overheid.nl/documenten/ronl-389a7259177aeecd7cb0997be13b693312337b63/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 122.8 KB | 642 | 2 |
+| [file-32.pdf](https://open.overheid.nl/documenten/9e539b4a-2f21-496e-96fb-2e1288070a05/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 167.9 KB | 660 | 2 |
+| [file-33.pdf](https://open.overheid.nl/documenten/22bb4450-5af5-4f52-a27d-b94312f7f9fa/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 12 | 219.2 KB | 6066 | 1 |
+| [file-34.pdf](https://open.overheid.nl/documenten/2b22265a-79c7-4329-83bf-9b72880d491f/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 44 | 5.5 MB | 45 | 35 |
+| [file-35.pdf](https://open.overheid.nl/documenten/5d681589-a5b6-42a8-97c2-472a45cdec48/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | Warn | ❌ Fail | 14 | 329.3 KB | 5816 | 3 |
+| [file-36.pdf](https://open.overheid.nl/documenten/b2c55fc3-9cb6-4de1-9440-f078d817c074/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-09-15 | — | Ministerie van Sociale Zaken en Werkgelegenheid | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | Warn | ❌ Fail | 17 | 224.3 KB | 7395 | 1 |
+| [file-37.pdf](https://open.overheid.nl/documenten/d946a6a1-69e9-49e6-b971-9abd51da87bb/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-11-27 | Brief Kamer - Nieuw financieringsstelsel kinderopvang | Ministerie van Sociale Zaken en Werkgelegenheid | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 157.6 KB | 2009 | 1 |
+| [file-38.pdf](https://open.overheid.nl/documenten/4bb8cddd-fb20-4624-ba14-8d003633bd0f/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-01-27 | Wetsvoorstel financiering kinderopvang: vragen en antwoorden over de DAEB | Ministerie van Sociale Zaken en Werkgelegenheid | 85249 | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 301.0 KB | 1858 | 0 |
+| [file-39.pdf](https://open.overheid.nl/documenten/3dfb6d47-ff6b-4a57-afec-6b7bfb76ae14/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-02-10 | — | Ministerie van Sociale Zaken en Werkgelegenheid | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 128.0 KB | 1923 | 0 |
+| [file-4.pdf](https://open.overheid.nl/documenten/7128d2ad-38de-4d9b-bd5f-b881e10e956c/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-07-01 | {'Beslisnota - Brief aanbieding Kabinetsreactie ROB-advies aan TK'} | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 99.0 KB | 431 | 3 |
+| [file-40.pdf](https://open.overheid.nl/documenten/ea5382f0-2796-4874-8f0f-1fbb085bbd27/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-05-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 11 | 137.5 KB | 4843 | 2 |
+| [file-41.pdf](https://open.overheid.nl/documenten/bcc20c7a-cdab-4547-90d3-4329d620de2f/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-06-30 | Verboden lijst NPS per 1 juli 2025 | Ministerie van Volksgezondheid Welzijn en Sport | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 1 | 101.9 KB | 498 | 0 |
+| [file-42.pdf](https://open.overheid.nl/documenten/6e28f5c5-7c94-4312-b74a-f3be1bc20d2a/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-09-15 | — | Ministerie van Sociale Zaken en Werkgelegenheid | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 137 | 3.1 MB | 48796 | 5 |
+| [file-43.pdf](https://open.overheid.nl/documenten/7ffb5246-54f6-49b3-8ded-076e05f07f55/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-11-27 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | 749.8 KB | 5 | 3 |
+| [file-44.pdf](https://open.overheid.nl/documenten/c535acf4-0664-4301-a192-ad5c6a977c41/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-09-15 | — | Ministerie van Sociale Zaken en Werkgelegenheid | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 18 | 3.1 MB | 1351 | 15 |
+| [file-45.pdf](https://open.overheid.nl/documenten/c22fbe00-1363-47e9-8ef9-0f66d18446de/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-09-15 | — | Ministerie van Sociale Zaken en Werkgelegenheid | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 5 | 269.9 KB | 971 | 0 |
 
 ## Files with Errors or Notes
 
@@ -69400,5 +69493,521 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 ### vawa.pdf
 
 - **URL**: https://larsen.house.gov/sites/larsen.house.gov/files/vawa.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### 08ddc0dd-4f65-479f-aa37-aa636c62dcc8.pdf
+
+- **URL**: https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/08ddc0dd-4f65-479f-aa37-aa636c62dcc8
+- **Status**: analysed
+- title, headings-none, 
+
+### 0a81ea62-08d0-42ba-b11c-e4bfa629c9c2.pdf
+
+- **URL**: https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/0a81ea62-08d0-42ba-b11c-e4bfa629c9c2
+- **Status**: analysed
+- title, headings-none, 
+
+### 1047eb14-8e96-4ac8-abcf-a561dbf598a8.pdf
+
+- **URL**: https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/1047eb14-8e96-4ac8-abcf-a561dbf598a8
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### 21d84295-8d25-4029-b30e-779095421b13.pdf
+
+- **URL**: https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/21d84295-8d25-4029-b30e-779095421b13
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 23086e5f-c390-4412-9372-6ca082afd694_en.pdf
+
+- **URL**: https://finance.ec.europa.eu/document/download/23086e5f-c390-4412-9372-6ca082afd694_en?filename=faqs-sanctions-russia-central-bank_en.pdf
+- **Status**: analysed
+- tagged-content-fail, 
+
+### 23_0147+Plan+van+aanpak+Statushouders+aan+het+werk.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2023/03/09/plan-van-aanpak-statushouders-aan-het-werk/23_0147+Plan+van+aanpak+Statushouders+aan+het+werk.pdf
+- **Status**: analysed
+- lists-warn, 
+
+### 2ed31314-9505-429d-a717-6d601a649e87.pdf
+
+- **URL**: https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/2ed31314-9505-429d-a717-6d601a649e87
+- **Status**: analysed
+- title, headings-none, 
+
+### 3da032ae-bebf-45ee-bdaa-9089328a82ba.pdf
+
+- **URL**: https://open.overheid.nl/documenten/3da032ae-bebf-45ee-bdaa-9089328a82ba
+- **Status**: analysed
+- title, headings-none, 
+
+### 4520eb28-ebc2-4bc2-b0fc-6308fefa06b0.pdf
+
+- **URL**: https://open.overheid.nl/documenten/4520eb28-ebc2-4bc2-b0fc-6308fefa06b0
+- **Status**: analysed
+- title, headings-none, 
+
+### 645c9ca2-91f2-4cb3-aaf7-540bcc4836c6.pdf
+
+- **URL**: https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/645c9ca2-91f2-4cb3-aaf7-540bcc4836c6
+- **Status**: analysed
+- headings-none, 
+
+### 6c0c3794-67f2-488e-af3c-5005783b29d0.pdf
+
+- **URL**: https://open.overheid.nl/documenten/6c0c3794-67f2-488e-af3c-5005783b29d0
+- **Status**: analysed
+- title, headings-none, 
+
+### 70b2b5b2-c34f-4851-b60f-fb79e0bb1de8.pdf
+
+- **URL**: https://open.overheid.nl/documenten/70b2b5b2-c34f-4851-b60f-fb79e0bb1de8
+- **Status**: analysed
+- title, headings-none, 
+
+### 7d3dd4ce-93ee-4c12-a75e-7e1668391062.pdf
+
+- **URL**: https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/7d3dd4ce-93ee-4c12-a75e-7e1668391062
+- **Status**: analysed
+- headings-none, annotations-tagging-fail, 
+
+### 850f9f17-dd44-49ff-ad8c-d583febbaba4.pdf
+
+- **URL**: https://open.overheid.nl/documenten/850f9f17-dd44-49ff-ad8c-d583febbaba4
+- **Status**: analysed
+- title, headings-none, annotations-tagging-fail, 
+
+### 9f8e9d17-a3af-4655-b4e1-10946c460afb.pdf
+
+- **URL**: https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/9f8e9d17-a3af-4655-b4e1-10946c460afb
+- **Status**: analysed
+- headings-none, 
+
+### English7.pdf
+
+- **URL**: https://unoda-web.s3-accelerate.amazonaws.com/wp-content/uploads/2013/06/English7.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), 
+
+### Increasing-the-Attractiveness-and-Competitiveness-of-the-European-Capital-Market.pdf
+
+- **URL**: https://www.mef.gov.it/export/sites/MEF/inevidenza/2026/article_00377/Increasing-the-Attractiveness-and-Competitiveness-of-the-European-Capital-Market.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### KAART_2025_+GASSELTERNIJVEENSCHEMOND_01_10KM.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2025/10/kaart-3-km/kaart-van-vervoersbeperkingsgebied-10-km-door-besmetting-vogelgriep-op-locatie-gasselternijveenschemond/KAART_2025_+GASSELTERNIJVEENSCHEMOND_01_10KM.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### KAART_2025_+GASSELTERNIJVEENSCHEMOND_01_3KM.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2025/10/kaart-3-km/kaart-van-vervoersbeperkingsgebied-3-km-door-besmetting-vogelgriep-op-locatie-gasselternijveenschemond/KAART_2025_+GASSELTERNIJVEENSCHEMOND_01_3KM.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### KAART_2025_AI_Kleve_III_10KM.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2025/12/01/kaart-kleve-iii/KAART_2025_AI_Kleve_III_10KM.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Kindgesprek.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2011/09/09/kinderverhoor/Kindgesprek.pdf
+- **Status**: analysed
+- figures missing alt text (count=7), 
+
+### Onderzoeksagenda_SP_2021_def.pdf
+
+- **URL**: https://www.zonmw.nl/sites/zonmw/files/typo3-migrated-files/Onderzoeksagenda_SP_2021_def.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, figures missing alt text (count=24), headings-skip, tables-warn, 
+
+### Raw+materials+strategy+for+large+transitions.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2022/12/09/raw-materials-strategy-for-large-transitions/Raw+materials+strategy+for+large+transitions.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Regeling+maatregelen+beschermings-+en+bewakingszone+hoogpathogene+vogelgriep+Gasselternijveenschemond+2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2025/10/07/regeling-maatregelen-beschermings--en-bewakingszone-hoogpathogene-vogelgriep-gasselternijveenschemond-2025/Regeling+maatregelen+beschermings-+en+bewakingszone+hoogpathogene+vogelgriep+Gasselternijveenschemond+2025.pdf
+- **Status**: analysed
+- headings-none, 
+
+### Regeling+maatregelen+bewakingszone+hoogpathogene+vogelgriep+Kleve%2C+Duitsland+III+2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2025/12/01/regeling-maatregelen-bewakingszone-hoogpathogene-vogelgriep-kleve-iii-duitsland-2025/Regeling+maatregelen+bewakingszone+hoogpathogene+vogelgriep+Kleve%2C+Duitsland+III+2025.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### Sociale-Agenda-Nij-Begun-digitaal.pdf
+
+- **URL**: https://www.nijbegun.nl/wp-content/uploads/2025/01/Sociale-Agenda-Nij-Begun-digitaal.pdf
+- **Status**: analysed
+- title, tagged, forms-fail, forms-untagged, annotations-untagged, 
+
+### Vijftig-maatregelen-Nij-Begun.pdf
+
+- **URL**: https://www.nijbegun.nl/wp-content/uploads/2024/04/Vijftig-maatregelen-Nij-Begun.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### aanvraag-legitimatiebewijs-gerechtsdeurwaarders.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2018/11/05/aanvraag-legitimatiebewijs-gerechtsdeurwaarders/aanvraag-legitimatiebewijs-gerechtsdeurwaarders.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### asiel-en-migratie-jaarverslag-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/asiel-en-migratie-2025/asiel-en-migratie-jaarverslag-2025.pdf
+- **Status**: analysed
+- title, alt-nested-fail, headings-none, tables-fail, 
+
+### asiel-en-migratie-slotwet-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/slotwet-ministerie-van-asiel-en-migratie-2025/asiel-en-migratie-slotwet-2025.pdf
+- **Status**: analysed
+- title, headings-none, tables-fail, 
+
+### asiel-en-migratie-toelichting-slotwet-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-ministerie-van-asiel-en-migratie-2025/asiel-en-migratie-toelichting-slotwet-2025.pdf
+- **Status**: analysed
+- title, headings-none, tables-fail, 
+
+### de61b6b9-16d9-4bcb-9d5d-b2bbe04bcb7b.pdf
+
+- **URL**: https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/de61b6b9-16d9-4bcb-9d5d-b2bbe04bcb7b
+- **Status**: analysed
+- title, headings-none, 
+
+### defensiematerieelbegrotingsfonds-toelichting-slotwet-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-defensiematerieelbegrotingsfonds-2025/defensiematerieelbegrotingsfonds-toelichting-slotwet-2025.pdf
+- **Status**: analysed
+- title, headings-none, tables-fail, 
+
+### deltafonds-toelichting-slotwet-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-deltafonds-2025/deltafonds-toelichting-slotwet-2025.pdf
+- **Status**: analysed
+- title, headings-none, tables-fail, 
+
+### document.pdf
+
+- **URL**: https://www.tweedekamer.nl/downloads/document?id=2024D23522
+- **Status**: analysed
+- title, tagged-content-whitespace-warn, lang, headings-warn, 
+
+### fac72c18-d5b7-4211-b984-0891c23dac39.pdf
+
+- **URL**: https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/fac72c18-d5b7-4211-b984-0891c23dac39
+- **Status**: analysed
+- headings-none, 
+
+### factsheet_ec_format_migration_partnership_framework_update_2.pdf
+
+- **URL**: https://www.eeas.europa.eu/sites/default/files/factsheet_ec_format_migration_partnership_framework_update_2.pdf
+- **Status**: analysed
+- title, lang, figures missing alt text (count=14), headings-none, 
+
+### fcafaebc-7de6-4977-82c8-c51f1fdd0080.pdf
+
+- **URL**: https://open.overheid.nl/documenten/fcafaebc-7de6-4977-82c8-c51f1fdd0080
+- **Status**: analysed
+- title, headings-none, 
+
+### file-0.pdf
+
+- **URL**: https://open.overheid.nl/documenten/70a1f74e-b1a3-4ea2-a487-65f1decfc065/file
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=15), headings-none, 
+
+### file-1.pdf
+
+- **URL**: https://open.overheid.nl/documenten/0cd83d75-6b18-42f9-8e2b-091066b01f97/file
+- **Status**: analysed
+- headings-none, 
+
+### file-10.pdf
+
+- **URL**: https://open.overheid.nl/documenten/65c4cadd-c652-436d-9993-7f3d191a3ec4/file
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=15), headings-none, 
+
+### file-100.pdf
+
+- **URL**: https://open.overheid.nl/documenten/162c0421-39b1-4e68-ada7-cb46d4e29ddb/file
+- **Status**: analysed
+- title, tagged, lang, 
+
+### file-103.pdf
+
+- **URL**: https://open.overheid.nl/documenten/e3f92a76-e089-4045-9c29-caa6be4f90de/file
+- **Status**: analysed
+- title, 
+
+### file-104.pdf
+
+- **URL**: https://open.overheid.nl/documenten/615a0fd5-3385-4e3c-87e7-f0282a175ecf/file
+- **Status**: analysed
+- title, tagged, lang, 
+
+### file-105.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ccbe15dd-5c60-46bb-8f8a-dafa73bab8f2/file
+- **Status**: analysed
+- title, 
+
+### file-106.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ba9f555a-7f7e-4b4b-9105-b7ae9a2a8345/file
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-none, 
+
+### file-107.pdf
+
+- **URL**: https://open.overheid.nl/documenten/7e22c957-09e1-4091-9c32-9c6468117760/file
+- **Status**: analysed
+- title, tagged, lang, 
+
+### file-108.pdf
+
+- **URL**: https://open.overheid.nl/documenten/c2e0f657-465c-43eb-a75e-8b7d5a8f9223/file
+- **Status**: analysed
+- title, tagged, 
+
+### file-109.pdf
+
+- **URL**: https://open.overheid.nl/documenten/bd027009-e50e-46cf-be8a-65dab26dfc81/file
+- **Status**: analysed
+- title, tagged, lang, 
+
+### file-11.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-95e3ab86c1a7b039c9a287b392673edf758a67c8/file
+- **Status**: analysed
+- title, tagged, lang, 
+
+### file-110.pdf
+
+- **URL**: https://open.overheid.nl/documenten/81429e1c-29c0-45b7-a783-f56cf71aedc8/file
+- **Status**: analysed
+- title, tagged, lang, 
+
+### file-111.pdf
+
+- **URL**: https://open.overheid.nl/documenten/112c92eb-aac9-4ae6-ba64-54e39b28af75/file
+- **Status**: analysed
+- title, tagged, lang, 
+
+### file-12.pdf
+
+- **URL**: https://open.overheid.nl/documenten/6d4edd34-981b-4375-a647-73b7b87656b9/file
+- **Status**: analysed
+- no bookmarks and more than 20 pages, headings-skip, lists-warn, 
+
+### file-13.pdf
+
+- **URL**: https://open.overheid.nl/documenten/781e0615-5dde-40c8-bd13-5dc21e55fc0f/file
+- **Status**: analysed
+- title, headings-none, 
+
+### file-14.pdf
+
+- **URL**: https://open.overheid.nl/documenten/0fd2a96c-bebe-49b2-a9cf-8725994990e1/file
+- **Status**: analysed
+- title, tagged, lang, 
+
+### file-15.pdf
+
+- **URL**: https://open.overheid.nl/documenten/62c22197-fc20-4d7a-95f3-601bab23a11e/file
+- **Status**: analysed
+- title, figures missing alt text (count=5), headings-none, 
+
+### file-16.pdf
+
+- **URL**: https://open.overheid.nl/documenten/e7ca5333-c8d0-4a8d-a06e-47aa27806f52/file
+- **Status**: analysed
+- title, tagged, lang, 
+
+### file-17.pdf
+
+- **URL**: https://open.overheid.nl/documenten/cfc932e6-c6b3-4d5e-93ed-8f91bdae010d/file
+- **Status**: analysed
+- title, headings-none, 
+
+### file-18.pdf
+
+- **URL**: https://open.overheid.nl/documenten/e414dfae-96e7-4a9d-9918-8e5d6eb9eae0/file
+- **Status**: analysed
+- title, tagged, lang, 
+
+### file-19.pdf
+
+- **URL**: https://open.overheid.nl/documenten/294c20b6-c3c4-44a0-88e7-e36d7871aba8/file
+- **Status**: analysed
+- figures missing alt text (count=1), headings-none, 
+
+### file-2.pdf
+
+- **URL**: https://open.overheid.nl/documenten/d1bada25-50c4-4280-a268-040d0685aeaa/file
+- **Status**: analysed
+- title, figures missing alt text (count=4), headings-none, 
+
+### file-20.pdf
+
+- **URL**: https://open.overheid.nl/documenten/316bd798-9bdc-4e2e-a9ee-2e34119af608/file
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### file-21.pdf
+
+- **URL**: https://open.overheid.nl/documenten/3be3c98b-bb74-4c19-82b7-bb994af6aad5/file
+- **Status**: analysed
+- title, headings-none, 
+
+### file-22.pdf
+
+- **URL**: https://open.overheid.nl/documenten/57e0e136-6d2f-4edf-9b9e-71325303b36e/file
+- **Status**: analysed
+- headings-none, 
+
+### file-23.pdf
+
+- **URL**: https://open.overheid.nl/documenten/acd0e91e-0a05-4f1b-966d-2f54ea7048bf/file
+- **Status**: analysed
+- figures missing alt text (count=1), headings-none, 
+
+### file-24.pdf
+
+- **URL**: https://open.overheid.nl/documenten/6eaa5a86-af0c-469f-8543-383da0418dc0/file
+- **Status**: analysed
+- no date found, title, tagged, 
+
+### file-25.pdf
+
+- **URL**: https://open.overheid.nl/documenten/6ef370cb-8b8f-45e7-b925-d33e4dc1bcbd/file
+- **Status**: analysed
+- title, headings-none, 
+
+### file-26.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ab95ad73-ff3c-491d-a6bd-1f53a303fff4/file
+- **Status**: analysed
+- title, tagged, lang, 
+
+### file-27.pdf
+
+- **URL**: https://open.overheid.nl/documenten/5bb7fb68-971a-47ef-a9b7-4bc907870a11/file
+- **Status**: analysed
+- headings-none, 
+
+### file-28.pdf
+
+- **URL**: https://open.overheid.nl/documenten/4f451d7b-fb84-45dd-99e0-6f2c2965387c/file
+- **Status**: analysed
+- figures missing alt text (count=2), headings-warn, 
+
+### file-29.pdf
+
+- **URL**: https://open.overheid.nl/documenten/5661d83c-171a-4413-8318-1ef05796c6dc/file
+- **Status**: analysed
+- title, tagged, lang, 
+
+### file-3.pdf
+
+- **URL**: https://open.overheid.nl/documenten/2898753e-e87d-4ac4-ba99-21ee9644aea6/file
+- **Status**: analysed
+- figures missing alt text (count=2), headings-none, 
+
+### file-30.pdf
+
+- **URL**: https://open.overheid.nl/documenten/4b82bddf-2e4c-48cd-b82e-98d803ee07f4/file
+- **Status**: analysed
+- title, tagged, lang, 
+
+### file-31.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-389a7259177aeecd7cb0997be13b693312337b63/file
+- **Status**: analysed
+- title, tagged, 
+
+### file-32.pdf
+
+- **URL**: https://open.overheid.nl/documenten/9e539b4a-2f21-496e-96fb-2e1288070a05/file
+- **Status**: analysed
+- title, tagged, 
+
+### file-33.pdf
+
+- **URL**: https://open.overheid.nl/documenten/22bb4450-5af5-4f52-a27d-b94312f7f9fa/file
+- **Status**: analysed
+- title, headings-none, 
+
+### file-34.pdf
+
+- **URL**: https://open.overheid.nl/documenten/2b22265a-79c7-4329-83bf-9b72880d491f/file
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### file-35.pdf
+
+- **URL**: https://open.overheid.nl/documenten/5d681589-a5b6-42a8-97c2-472a45cdec48/file
+- **Status**: analysed
+- title, figures missing alt text (count=2), headings-none, tables-warn, 
+
+### file-36.pdf
+
+- **URL**: https://open.overheid.nl/documenten/b2c55fc3-9cb6-4de1-9440-f078d817c074/file
+- **Status**: analysed
+- title, figures missing alt text (count=2), headings-none, tables-warn, 
+
+### file-37.pdf
+
+- **URL**: https://open.overheid.nl/documenten/d946a6a1-69e9-49e6-b971-9abd51da87bb/file
+- **Status**: analysed
+- figures missing alt text (count=1), headings-none, 
+
+### file-39.pdf
+
+- **URL**: https://open.overheid.nl/documenten/3dfb6d47-ff6b-4a57-afec-6b7bfb76ae14/file
+- **Status**: analysed
+- title, 
+
+### file-40.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ea5382f0-2796-4874-8f0f-1fbb085bbd27/file
+- **Status**: analysed
+- title, headings-none, 
+
+### file-42.pdf
+
+- **URL**: https://open.overheid.nl/documenten/6e28f5c5-7c94-4312-b74a-f3be1bc20d2a/file
+- **Status**: analysed
+- title, tagged, annotations-untagged, 
+
+### file-43.pdf
+
+- **URL**: https://open.overheid.nl/documenten/7ffb5246-54f6-49b3-8ded-076e05f07f55/file
+- **Status**: analysed
+- title, tagged, lang, 
+
+### file-44.pdf
+
+- **URL**: https://open.overheid.nl/documenten/c535acf4-0664-4301-a192-ad5c6a977c41/file
+- **Status**: analysed
+- title, tagged, lang, 
+
+### file-45.pdf
+
+- **URL**: https://open.overheid.nl/documenten/c22fbe00-1363-47e9-8ef9-0f66d18446de/file
 - **Status**: analysed
 - title, headings-none, 
