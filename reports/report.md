@@ -1,20 +1,19 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-09-25T21:20:32.057278+00:00
+Generated: 2026-09-25T22:04:01.664153+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 1029 |
 | Total files tracked | 30301 |
-| Analysed | 6724 |
-| Pending analysis | 17797 |
-| Errors during analysis | 5780 |
-| Accessible | 2053 |
-| Issues found | 4671 |
+| Analysed | 6799 |
+| Pending analysis | 17607 |
+| Errors during analysis | 5895 |
+| Accessible | 2091 |
+| Issues found | 4708 |
 | Totally inaccessible subset | 293 |
-| Broken / unreadable | 29 |
+| Broken / unreadable | 30 |
 | Exempt (pre-2018) | 1533 |
 
 ## Files per Site
@@ -6744,6 +6743,81 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 | [medical_request_form_052026.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/ada/medical_request_form_052026.pdf) | civilrights.vt.edu | 2026-05-26 | ADA Medical Request form | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 6 | 417.8 KB | 1397 | 6 |
 | [questions_to_ask_and_not_to_ask.pdf](https://civilrights.vt.edu/content/dam/civilrights_vt_edu/equal-opportunity/questions_to_ask_and_not_to_ask.pdf) | civilrights.vt.edu | 2011-06-02 | QUESTIONS TO ASK AND NOT TO ASK DURING THE INTERVIEW | Equal Opportunity Office | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 6 | 116.5 KB | 1702 | 0 |
 | [vawa.pdf](https://larsen.house.gov/sites/larsen.house.gov/files/vawa.pdf) | civilrights.vt.edu *(ext: larsen.house.gov)* | 2013-02-12 | — | Ed Chung | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ✅ Pass | 3 | 52.1 KB | 1041 | 0 |
+| [119250_Omvang-karakter-maatschappelijke-karakter_WEB.pdf](https://www.verwey-jonker.nl/wp-content/uploads/2020/11/119250_Omvang-karakter-maatschappelijke-karakter_WEB.pdf) | rotterdam.nl *(ext: verwey-jonker.nl)* | 2020-09-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 91 | 2.3 MB | 41616 | 9 |
+| [1239.pdf](https://www.rotterdam.nl/media/1239) | rotterdam.nl | 2022-01-04 | Rapport rechtmatigheidsonderzoek  Thuiszorg Your Care BV | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 13 | 214.7 KB | 4544 | 0 |
+| [1240.pdf](https://www.rotterdam.nl/media/1240) | rotterdam.nl | 2021-06-29 | Bevindingen en conclusies van het rechtmatigheidsonderzoek naar pgb-zorgaanbieder Flexzorg 82 | gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | Warn | ❌ Fail | 13 | 272.7 KB | 4315 | 2 |
+| [1241.pdf](https://www.rotterdam.nl/media/1241) | rotterdam.nl | 2021-04-30 | Rechtmatigheidsonderzoek naar pgb-aanbieder Dagelijkse Ondersteuning & Zorg Rotterdam B.V. | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | Warn | ❌ Fail | 14 | 231.9 KB | 3621 | 0 |
+| [1310.pdf](https://ind.nl/nl/formulieren/1310.pdf) | rotterdam.nl *(ext: ind.nl)* | 2026-05-20 | Bewijs van garantstelling en/of particuliere logiesverstrekking | IND | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | Warn | ❌ Fail | 9 | 246.2 KB | 3122 | 1 |
+| [1462.pdf](https://www.rotterdam.nl/media/1462) | rotterdam.nl | 2025-04-02 | Verklaring de-minimissteun | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 4 | 120.9 KB | 1836 | 0 |
+| [1720_2006-A5-bijlage-II-TG-2021-gecom.pdf](https://depot03.archiefweb.eu/archives/archiefweb/20220908150428/http://www.rotterdam.nl/apps/rotterdam.nl/wonen-leven/leidingenbureau/1720_2006-A5-bijlage-II-TG-2021-gecom.pdf) | rotterdam.nl *(ext: depot03.archiefweb.eu)* | 2021-12-06 | Toolkit kabels & leidingen en bomen | gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | ✅ Pass | ❌ Fail | 30 | 1.1 MB | 3498 | 25 |
+| [2153.pdf](https://www.rotterdam.nl/media/2153) | rotterdam.nl | 2023-04-06 | Verklaring van inwoning | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | 86.9 KB | 213 | 0 |
+| [2242.pdf](https://www.rotterdam.nl/media/2242) | rotterdam.nl | 2024-07-17 | Studietoeslag | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 4 | 104.4 KB | 506 | 0 |
+| [23034_Raadsinformatiebrief-Isolatieaanpak_TOEG5968.pdf](https://www.duurzaam010.nl/content/uploads/2023/05/23034_Raadsinformatiebrief-Isolatieaanpak_TOEG5968.pdf) | rotterdam.nl *(ext: duurzaam010.nl)* | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | 293 B | — | — |
+| [2485.pdf](https://www.rotterdam.nl/media/2485) | rotterdam.nl | 2023-02-21 | Departure from the Netherlands | Municipality of Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 3 | 106.2 KB | 341 | 0 |
+| [250526%20KAR%202025%20V7A.pdf](https://www.dcmr.nl/sites/default/files/2025-05/250526%20KAR%202025%20V7A.pdf) | rotterdam.nl *(ext: dcmr.nl)* | 2025-05-26 | Rapport | Koldo Verheij | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 28 | 575.5 KB | 9325 | 6 |
+| [2817.pdf](https://www.rotterdam.nl/media/2817) | rotterdam.nl | 2024-01-30 | huisregels en toegankelijkheidsposter | — | {'Toegankelijkheid'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 182.0 KB | 165 | 0 |
+| [3054.pdf](https://www.rotterdam.nl/media/3054) | rotterdam.nl | 2023-07-26 | Schriftelijke toestemming moeder tot erkenning | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | 96.0 KB | 167 | 0 |
+| [3148.pdf](https://www.rotterdam.nl/media/3148) | rotterdam.nl | 2023-06-30 | Specificatieformulier Subsidieregeling Klimaatadaptatie | Gemeente Rotterdam | {'klimaatadaptatie', 'aanvraag', 'formulier', 'Gemeente Rotterdam', 'subsidieregeling', 'duurzaam'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 173.8 KB | 1213 | 0 |
+| [3150.pdf](https://www.rotterdam.nl/media/3150) | rotterdam.nl | 2023-07-03 | Mother's written consent to acknowledgement | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | 95.9 KB | 211 | 0 |
+| [3351eb_0019cc2efc2f45eca86fcda658c07c75.pdf](https://docs.wixstatic.com/ugd/3351eb_0019cc2efc2f45eca86fcda658c07c75.pdf) | rotterdam.nl *(ext: docs.wixstatic.com)* | 2019-05-24 | — | i.stojic | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 48 | 1.5 MB | 17170 | 117 |
+| [3351eb_0a6846e021f84a838edfa2639897db51.pdf](https://docs.wixstatic.com/ugd/3351eb_0a6846e021f84a838edfa2639897db51.pdf) | rotterdam.nl *(ext: docs.wixstatic.com)* | 2018-12-19 | Review adjusted new.pdf | Harre Kathleen | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 42 | 946.2 KB | 14679 | 70 |
+| [3351eb_127e94b73455463488fcbf19f61fac40.pdf](https://8f84bf4e-f1d2-46b9-9145-fd4054660f41.filesusr.com/ugd/3351eb_127e94b73455463488fcbf19f61fac40.pdf) | rotterdam.nl *(ext: 8f84bf4e-f1d2-46b9-9145-fd4054660f41.filesusr.com)* | 2021-06-29 | Resultatenbrochure van het het project Skills Navigator | Van den Broeck Elena | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 12 | 1.1 MB | 3492 | 20 |
+| [3351eb_223d511288ef44129ec754730b4e59ba.pdf](https://docs.wixstatic.com/ugd/3351eb_223d511288ef44129ec754730b4e59ba.pdf) | rotterdam.nl *(ext: docs.wixstatic.com)* | 2019-04-30 | — | i.stojic | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 18 | 1001.5 KB | 5484 | 40 |
+| [3351eb_382e765e56d34a6399338e3203f74778.pdf](https://docs.wixstatic.com/ugd/3351eb_382e765e56d34a6399338e3203f74778.pdf) | rotterdam.nl *(ext: docs.wixstatic.com)* | 2019-05-24 | — | i.stojic | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 31 | 1.2 MB | 11037 | 70 |
+| [3351eb_3e5d3eb169e1420f9da746d01a7cb2d3.pdf](https://8f84bf4e-f1d2-46b9-9145-fd4054660f41.filesusr.com/ugd/3351eb_3e5d3eb169e1420f9da746d01a7cb2d3.pdf) | rotterdam.nl *(ext: 8f84bf4e-f1d2-46b9-9145-fd4054660f41.filesusr.com)* | 2021-06-15 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 60 | 395.1 KB | 18989 | 65 |
+| [3351eb_4d20ab1ad95443aea98bcd1cbd41e208.pdf](https://8f84bf4e-f1d2-46b9-9145-fd4054660f41.filesusr.com/ugd/3351eb_4d20ab1ad95443aea98bcd1cbd41e208.pdf) | rotterdam.nl *(ext: 8f84bf4e-f1d2-46b9-9145-fd4054660f41.filesusr.com)* | 2021-06-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 19 | 1.3 MB | 5378 | 104 |
+| [3351eb_5269dba3ed7642dda76a39b5e215f834.pdf](https://docs.wixstatic.com/ugd/3351eb_5269dba3ed7642dda76a39b5e215f834.pdf) | rotterdam.nl *(ext: docs.wixstatic.com)* | 2019-04-23 | — | i.stojic | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 35 | 2.2 MB | 12447 | 94 |
+| [3351eb_88b568d468dd4e45b975b5150f2cee06.pdf](https://docs.wixstatic.com/ugd/3351eb_88b568d468dd4e45b975b5150f2cee06.pdf) | rotterdam.nl *(ext: docs.wixstatic.com)* | 2019-04-24 | — | i.stojic | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 26 | 1.0 MB | 8908 | 57 |
+| [3351eb_def143b861de4cafbe2bbbe5f8d3db5a.pdf](https://8f84bf4e-f1d2-46b9-9145-fd4054660f41.filesusr.com/ugd/3351eb_def143b861de4cafbe2bbbe5f8d3db5a.pdf) | rotterdam.nl *(ext: 8f84bf4e-f1d2-46b9-9145-fd4054660f41.filesusr.com)* | 2021-06-15 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 14 | 272.2 KB | 4030 | 19 |
+| [3351eb_f15d9d2ba93647589a10da655fcc60b6.pdf](https://8f84bf4e-f1d2-46b9-9145-fd4054660f41.filesusr.com/ugd/3351eb_f15d9d2ba93647589a10da655fcc60b6.pdf) | rotterdam.nl *(ext: 8f84bf4e-f1d2-46b9-9145-fd4054660f41.filesusr.com)* | 2021-06-15 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 39 | 2.0 MB | 10638 | 121 |
+| [3391.pdf](https://www.rotterdam.nl/media/3391) | rotterdam.nl | 2026-03-30 | Aanvraag Vrijstelling inschrijving school | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | 98.7 KB | 217 | 0 |
+| [3454.pdf](https://archief12.archiefweb.eu/archives/archiefweb/20240211123435/http://www.rotterdam.nl/media/3454) | rotterdam.nl *(ext: archief12.archiefweb.eu)* | 2023-09-15 | Verslag Q-Team Feyenoord City | Gemeente Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 4 | 623.8 KB | 1463 | 1 |
+| [3517.pdf](https://archief12.archiefweb.eu/archives/archiefweb/20240211123435/http://www.rotterdam.nl/media/3517) | rotterdam.nl *(ext: archief12.archiefweb.eu)* | 2023-10-10 | Verslag vergadering Q-Team Feyenoord City 29 september 2023 | Gemeente Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 4 | 179.0 KB | 1476 | 1 |
+| [3656.pdf](https://www.rotterdam.nl/media/3656) | rotterdam.nl | 2023-11-03 | Postal address application | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 9 | 208.2 KB | 1324 | 0 |
+| [3850.pdf](https://depot03.archiefweb.eu/archives/archiefweb/20240211123435/http://www.rotterdam.nl/media/3850) | rotterdam.nl *(ext: depot03.archiefweb.eu)* | 2024-01-02 | Verslag vergadering Q-Team Feyenoord City 15 december 2023 | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 6 | 143.3 KB | 3044 | 0 |
+| [4002.pdf](https://depot03.archiefweb.eu/archives/archiefweb/20240211123435/http://www.rotterdam.nl/media/4002) | rotterdam.nl *(ext: depot03.archiefweb.eu)* | 2024-02-22 | Verslag Q-Team Feyenoord City | Gemeente Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ✅ Pass | NotApplicable | ❌ Fail | 5 | 211.2 KB | 2186 | 1 |
+| [417.pdf](https://www.rotterdam.nl/media/417) | rotterdam.nl | 2020-07-10 | Verhuurdersverklaring | Gemeente Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | 2 | 179.0 KB | 184 | 0 |
+| [4227.pdf](https://www.rotterdam.nl/media/4227) | rotterdam.nl | 2024-04-08 | Machtiging bezwaar | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | 74.2 KB | 116 | 0 |
+| [426.pdf](https://www.rotterdam.nl/media/426) | rotterdam.nl | 2020-10-30 | Aangifte van hervestiging | Gemeente Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | 3 | 166.6 KB | 463 | 0 |
+| [427.pdf](https://www.rotterdam.nl/media/427) | rotterdam.nl | 2020-07-10 | Re-registration in the Municipal Personal Records Database (BRP) | Gemeente Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | 3 | 185.5 KB | 788 | 0 |
+| [4637.pdf](https://www.rotterdam.nl/media/4637) | rotterdam.nl | 2024-06-18 | Rapport Bevindingen en conclusies van het rechtmatigheidsonderzoek | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 5 | 95.5 KB | 1048 | 0 |
+| [4752.pdf](https://www.rotterdam.nl/media/4752) | rotterdam.nl | 2024-07-09 | Toestemming voor het inzien van bouwdossiers kwetsbare gebouwen | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | 80.3 KB | 110 | 0 |
+| [505.pdf](https://www.rotterdam.nl/media/505) | rotterdam.nl | 2019-09-26 | Technische eisen vrijverval riolering - onderdeel van kaderstellend PvE Stedelijk Water | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 67 | 3.2 MB | 9233 | 56 |
+| [509.pdf](https://www.rotterdam.nl/media/509) | rotterdam.nl | 2020-09-17 | Kwaliteitseisen voor standplaatsen | {'gemeente Rotterdam'} | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | ✅ Pass | ❌ Fail | 19 | 467.1 KB | 5056 | 11 |
+| [535.pdf](https://www.rotterdam.nl/media/535) | rotterdam.nl | 2021-03-24 | Inlichtingenformulier Tijdelijk vertrek naar het buitenland | Gemeente Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | 2 | 149.7 KB | 242 | 0 |
+| [536.pdf](https://www.rotterdam.nl/media/536) | rotterdam.nl | 2021-08-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | 172.1 KB | 260 | 0 |
+| [549.pdf](https://www.rotterdam.nl/media/549) | rotterdam.nl | 2025-11-27 | Bereidverklaring en verhuurdersverklaring | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | 139.3 KB | 302 | 0 |
+| [5521.pdf](https://www.rotterdam.nl/media/5521) | rotterdam.nl | 2025-01-23 | Aanvraagformulier NME-subsidieregeling Categorie C (vogelopvang) | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | 79.8 KB | 171 | 0 |
+| [555.pdf](https://www.rotterdam.nl/media/555) | rotterdam.nl | 2022-03-22 | Aangifte verhuizing | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 4 | 125.5 KB | 598 | 0 |
+| [556.pdf](https://www.rotterdam.nl/media/556) | rotterdam.nl | 2023-03-27 | Vertrek naar het buitenland | Gemeente Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 3 | 93.0 KB | 308 | 0 |
+| [5859-Handboek-Rotterdamse-Stijl_V04_A_compressed-1.pdf](https://www.bouwenaanrotterdam.nl/wp-content/uploads/2024/11/5859-Handboek-Rotterdamse-Stijl_V04_A_compressed-1.pdf) | rotterdam.nl *(ext: bouwenaanrotterdam.nl)* | 2024-11-14 | Handboek de Rotterdamse Stijl | Gemeente Rotterdam | Handboek voor ontwerp en inrichting van de openbare ruimte. | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 216 | 35.8 MB | 46387 | 6164 |
+| [5955.pdf](https://www.rotterdam.nl/media/5955) | rotterdam.nl | 2025-04-09 | Begroting & financieringsplan stimulering solar carports Rotterdam | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 4 | 173.5 KB | 387 | 0 |
+| [5956.pdf](https://www.rotterdam.nl/media/5956) | rotterdam.nl | 2025-04-09 | Aanvraagformulier subsidie 'stimulering solar carports Rotterdam' | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 3 | 106.7 KB | 429 | 0 |
+| [5958.pdf](https://www.rotterdam.nl/media/5958) | rotterdam.nl | 2025-04-08 | Toestemming locatie-eigenaar | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | 102.1 KB | 129 | 0 |
+| [610.pdf](https://www.rotterdam.nl/media/610) | rotterdam.nl | 2023-10-19 | Aanvragen briefadres | Gemeente Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 9 | 223.5 KB | 1185 | 0 |
+| [6237.pdf](https://www.rotterdam.nl/media/6237) | rotterdam.nl | 2026-03-05 | Aanvraag Jeugdtegoed - Schuldregeling NVVK | Gemeente Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 117.3 KB | 719 | 0 |
+| [6363.pdf](https://www.rotterdam.nl/media/6363) | rotterdam.nl | 2025-07-02 | Bevindingen en conclusies van het rechtmatigheidsonderzoek naar Zorgbureau Andes 12-12-2024 | Gemeente Rotterdam | {'07125_Ontwerpwerk'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 88.9 KB | 984 | 0 |
+| [6462.pdf](https://www.rotterdam.nl/media/6462) | rotterdam.nl | 2025-07-31 | 174 Declaration by main occupant (Verklaring van inwoning) | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 106.2 KB | 472 | 0 |
+| [647.pdf](https://www.rotterdam.nl/media/647) | rotterdam.nl | 2020-11-17 | Verzoek wijziging buitenlands adres in de Registratie Niet-Ingezetenen (RNI) | Gemeente Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | 2 | 131.3 KB | 114 | 0 |
+| [6548.pdf](https://www.rotterdam.nl/media/6548) | rotterdam.nl | 2025-09-02 | Bevindingen en conclusies van het rechtmatigheidsonderzoek naar zorgaanbieder V.O.F. Mozaik Zorg & Advies Centrum | Gemeente Rotterdam | {'07367_Ontwerpwerk'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 80.5 KB | 866 | 0 |
+| [661.pdf](https://www.rotterdam.nl/media/661) | rotterdam.nl | 2021-03-29 | Maatregelen energietransitieleningen | Gemeente Rotterdam | Overzicht van subsidiabele maatregelen vanuit het Energietransitiefonds Rotterdam voor particuliere woningeigenaren met een woning in de gemeente Rotterdam | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 3 | 62.6 KB | 704 | 0 |
+| [662.pdf](https://www.rotterdam.nl/media/662) | rotterdam.nl | 2021-07-28 | Eisen energietransitieleningen MKB | Gemeente Rotterdam | Overzicht van subsidiabele maatregelen vanuit het Energietransitiefonds Rotterdam voor particuliere woningeigenaren met een woning in de gemeente Rotterdam | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 3 | 80.7 KB | 640 | 0 |
+| [664.pdf](https://www.rotterdam.nl/media/664) | rotterdam.nl | 2024-02-15 | Eisen energietransitieleningen VVE's | Gemeente Rotterdam | Overzicht van subsidiabele maatregelen vanuit het Energietransitiefonds Rotterdam voor particuliere woningeigenaren met een woning in de gemeente Rotterdam | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 4 | 80.0 KB | 957 | 0 |
+| [6698.pdf](https://archief12.archiefweb.eu/archives/archiefweb/20240211123435/http://www.rotterdam.nl/media/6698) | rotterdam.nl *(ext: archief12.archiefweb.eu)* | 2025-09-23 | Verslag Q-Team Feyenoord City | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 107.4 KB | 1941 | 0 |
+| [670.pdf](https://www.rotterdam.nl/media/670) | rotterdam.nl | 2019-09-05 | Déclaration de première immatriculation au registre de base des personnes | Gemeente Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | 7 | 262.7 KB | 837 | 0 |
+| [672.pdf](https://www.rotterdam.nl/media/672) | rotterdam.nl | 2024-08-29 | First registration in the Municipal Personal Records Database (BRP) from abroad | Gemeente Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | 6 | 245.7 KB | 875 | 0 |
+| [675.pdf](https://www.rotterdam.nl/media/675) | rotterdam.nl | 2019-09-11 | Declaración de primer registro en el Registro de Población (BRP) desde el extranjero | Gemeente Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | 6 | 217.7 KB | 851 | 0 |
+| [676.pdf](https://www.rotterdam.nl/media/676) | rotterdam.nl | 2019-09-11 | Anmeldung für erste Eintragung in das Basisregister für personenbezogene Daten (BRP) vom Ausland aus | Gemeente Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | 6 | 244.5 KB | 762 | 0 |
+| [677.pdf](https://www.rotterdam.nl/media/677) | rotterdam.nl | 2019-09-05 | Pierwsza rejestracja w Systemie Ewidencji Ludności | Gemeente Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | 6 | 285.8 KB | 786 | 0 |
+| [683.pdf](https://www.rotterdam.nl/media/683) | rotterdam.nl | 2019-09-11 | Aangifte eerste inschrijving in de Basisregistratie Personen (BRP) vanuit het buitenland | Gemeente Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | 6 | 204.7 KB | 382 | 0 |
+| [68b79027-3580-4f22-b9b5-a4b4cf511dbc.pdf](https://rotterdamraad.bestuurlijkeinformatie.nl/Document/View/68b79027-3580-4f22-b9b5-a4b4cf511dbc) | rotterdam.nl *(ext: rotterdamraad.bestuurlijkeinformatie.nl)* | 2024-01-24 | IHP onderwijs 2024-2027 | Vrijhof, Tirza | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 8 | 141.9 KB | 2947 | 10 |
+| [6932.pdf](https://www.rotterdam.nl/media/6932) | rotterdam.nl | 2025-12-03 | Bevindingen en conclusies van het rechtmatigheidsonderzoek naar zorgaanbieder Carehill B.V. | Gemeente Rotterdam | {'07727_Ontwerpwerk'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 107.9 KB | 899 | 0 |
+| [7045.pdf](https://www.rotterdam.nl/media/7045) | rotterdam.nl | 2026-01-08 | Bevindingen en conclusies van het rechtmatigheidsonderzoek naar zorgaanbieder De Zeeuwse Thuiszorg Groep B.V. | Gemeente Rotterdam | {'07846_Ontwerpwerk'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 92.0 KB | 889 | 0 |
+| [7321.pdf](https://www.rotterdam.nl/media/7321) | rotterdam.nl | 2026-03-02 | Aanvraag Jeugdtegoed | Gemeente Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 139.7 KB | 856 | 0 |
+| [7335.pdf](https://www.rotterdam.nl/media/7335) | rotterdam.nl | 2026-03-05 | Aanvraag Jeugdtegoed - Toelating Wettelijke Schuldsanering Natuurlijke Personen | Gemeente Rotterdam | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 117.8 KB | 696 | 0 |
+| [7342.pdf](https://www.rotterdam.nl/media/7342) | rotterdam.nl | 2026-03-09 | Aanvraag Jeugdtegoed - Instellingen | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 129.6 KB | 533 | 0 |
+| [7446.pdf](https://www.rotterdam.nl/media/7446) | rotterdam.nl | 2026-03-20 | Bevindingen en conclusies van het rechtmatigheidsonderzoek naar zorgaanbieder AMZO B.V. | Gemeente Rotterdam | {'08133_Ontwerpwerk'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 85.8 KB | 1223 | 0 |
+| [750.pdf](https://www.rotterdam.nl/media/750) | rotterdam.nl | 2022-03-22 | Verhuurderverklaring | Gemeente Rotterdam | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | 98.0 KB | 175 | 0 |
 | [08ddc0dd-4f65-479f-aa37-aa636c62dcc8.pdf](https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/08ddc0dd-4f65-479f-aa37-aa636c62dcc8) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-07-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 8 | 177.2 KB | 3126 | 2 |
 | [0a81ea62-08d0-42ba-b11c-e4bfa629c9c2.pdf](https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/0a81ea62-08d0-42ba-b11c-e4bfa629c9c2) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-07-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 12 | 161.7 KB | 4792 | 2 |
 | [21d84295-8d25-4029-b30e-779095421b13.pdf](https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/21d84295-8d25-4029-b30e-779095421b13) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2026-07-10 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 8 | 1.9 MB | 0 | 8 |
@@ -69496,6 +69570,276 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 - **Status**: analysed
 - title, headings-none, 
 
+### 119250_Omvang-karakter-maatschappelijke-karakter_WEB.pdf
+
+- **URL**: https://www.verwey-jonker.nl/wp-content/uploads/2020/11/119250_Omvang-karakter-maatschappelijke-karakter_WEB.pdf
+- **Status**: analysed
+- title, tagged, annotations-untagged, 
+
+### 1240.pdf
+
+- **URL**: https://www.rotterdam.nl/media/1240
+- **Status**: analysed
+- headings-warn, tables-warn, 
+
+### 1241.pdf
+
+- **URL**: https://www.rotterdam.nl/media/1241
+- **Status**: analysed
+- headings-warn, tables-warn, 
+
+### 1310.pdf
+
+- **URL**: https://ind.nl/nl/formulieren/1310.pdf
+- **Status**: analysed
+- headings-warn, tables-warn, 
+
+### 1720_2006-A5-bijlage-II-TG-2021-gecom.pdf
+
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20220908150428/http://www.rotterdam.nl/apps/rotterdam.nl/wonen-leven/leidingenbureau/1720_2006-A5-bijlage-II-TG-2021-gecom.pdf
+- **Status**: analysed
+- headings-warn, 
+
+### 23034_Raadsinformatiebrief-Isolatieaanpak_TOEG5968.pdf
+
+- **URL**: https://www.duurzaam010.nl/content/uploads/2023/05/23034_Raadsinformatiebrief-Isolatieaanpak_TOEG5968.pdf
+- **Status**: analysed
+- PdfError: crawled_files/rotterdam.nl/23034_Raadsinformatiebrief-Isolatieaanpak_TOEG5968.pdf: unable to find trailer dictionary while recovering damaged file
+
+### 2485.pdf
+
+- **URL**: https://www.rotterdam.nl/media/2485
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### 250526%20KAR%202025%20V7A.pdf
+
+- **URL**: https://www.dcmr.nl/sites/default/files/2025-05/250526%20KAR%202025%20V7A.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, figures missing alt text (count=3), tables-warn, 
+
+### 2817.pdf
+
+- **URL**: https://www.rotterdam.nl/media/2817
+- **Status**: analysed
+- headings-none, 
+
+### 3351eb_0019cc2efc2f45eca86fcda658c07c75.pdf
+
+- **URL**: https://docs.wixstatic.com/ugd/3351eb_0019cc2efc2f45eca86fcda658c07c75.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=106), tables-fail, 
+
+### 3351eb_0a6846e021f84a838edfa2639897db51.pdf
+
+- **URL**: https://docs.wixstatic.com/ugd/3351eb_0a6846e021f84a838edfa2639897db51.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 3351eb_223d511288ef44129ec754730b4e59ba.pdf
+
+- **URL**: https://docs.wixstatic.com/ugd/3351eb_223d511288ef44129ec754730b4e59ba.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=40), headings-none, tables-fail, 
+
+### 3351eb_382e765e56d34a6399338e3203f74778.pdf
+
+- **URL**: https://docs.wixstatic.com/ugd/3351eb_382e765e56d34a6399338e3203f74778.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=69), headings-none, tables-fail, 
+
+### 3351eb_3e5d3eb169e1420f9da746d01a7cb2d3.pdf
+
+- **URL**: https://8f84bf4e-f1d2-46b9-9145-fd4054660f41.filesusr.com/ugd/3351eb_3e5d3eb169e1420f9da746d01a7cb2d3.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 3351eb_4d20ab1ad95443aea98bcd1cbd41e208.pdf
+
+- **URL**: https://8f84bf4e-f1d2-46b9-9145-fd4054660f41.filesusr.com/ugd/3351eb_4d20ab1ad95443aea98bcd1cbd41e208.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 3351eb_5269dba3ed7642dda76a39b5e215f834.pdf
+
+- **URL**: https://docs.wixstatic.com/ugd/3351eb_5269dba3ed7642dda76a39b5e215f834.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=81), headings-none, tables-fail, 
+
+### 3351eb_88b568d468dd4e45b975b5150f2cee06.pdf
+
+- **URL**: https://docs.wixstatic.com/ugd/3351eb_88b568d468dd4e45b975b5150f2cee06.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=58), tables-fail, 
+
+### 3351eb_def143b861de4cafbe2bbbe5f8d3db5a.pdf
+
+- **URL**: https://8f84bf4e-f1d2-46b9-9145-fd4054660f41.filesusr.com/ugd/3351eb_def143b861de4cafbe2bbbe5f8d3db5a.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 3351eb_f15d9d2ba93647589a10da655fcc60b6.pdf
+
+- **URL**: https://8f84bf4e-f1d2-46b9-9145-fd4054660f41.filesusr.com/ugd/3351eb_f15d9d2ba93647589a10da655fcc60b6.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 3454.pdf
+
+- **URL**: https://archief12.archiefweb.eu/archives/archiefweb/20240211123435/http://www.rotterdam.nl/media/3454
+- **Status**: analysed
+- figures missing alt text (count=1), headings-none, 
+
+### 3517.pdf
+
+- **URL**: https://archief12.archiefweb.eu/archives/archiefweb/20240211123435/http://www.rotterdam.nl/media/3517
+- **Status**: analysed
+- figures missing alt text (count=1), headings-none, 
+
+### 3850.pdf
+
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20240211123435/http://www.rotterdam.nl/media/3850
+- **Status**: analysed
+- headings-none, 
+
+### 4002.pdf
+
+- **URL**: https://depot03.archiefweb.eu/archives/archiefweb/20240211123435/http://www.rotterdam.nl/media/4002
+- **Status**: analysed
+- figures missing alt text (count=1), headings-skip, 
+
+### 417.pdf
+
+- **URL**: https://www.rotterdam.nl/media/417
+- **Status**: analysed
+- headings-skip, 
+
+### 426.pdf
+
+- **URL**: https://www.rotterdam.nl/media/426
+- **Status**: analysed
+- headings-skip, 
+
+### 427.pdf
+
+- **URL**: https://www.rotterdam.nl/media/427
+- **Status**: analysed
+- headings-skip, 
+
+### 509.pdf
+
+- **URL**: https://www.rotterdam.nl/media/509
+- **Status**: analysed
+- headings-none, 
+
+### 519.pdf
+
+- **URL**: https://www.rotterdam.nl/media/519
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### 535.pdf
+
+- **URL**: https://www.rotterdam.nl/media/535
+- **Status**: analysed
+- headings-skip, 
+
+### 536.pdf
+
+- **URL**: https://www.rotterdam.nl/media/536
+- **Status**: analysed
+- title, 
+
+### 556.pdf
+
+- **URL**: https://www.rotterdam.nl/media/556
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### 5859-Handboek-Rotterdamse-Stijl_V04_A_compressed-1.pdf
+
+- **URL**: https://www.bouwenaanrotterdam.nl/wp-content/uploads/2024/11/5859-Handboek-Rotterdamse-Stijl_V04_A_compressed-1.pdf
+- **Status**: analysed
+- tagged, annotations-untagged, 
+
+### 610.pdf
+
+- **URL**: https://www.rotterdam.nl/media/610
+- **Status**: analysed
+- forms-tagging-fail, 
+
+### 6237.pdf
+
+- **URL**: https://www.rotterdam.nl/media/6237
+- **Status**: analysed
+- forms-tagging-fail, 
+
+### 647.pdf
+
+- **URL**: https://www.rotterdam.nl/media/647
+- **Status**: analysed
+- headings-skip, 
+
+### 661.pdf
+
+- **URL**: https://www.rotterdam.nl/media/661
+- **Status**: analysed
+- figures missing alt text (count=54), headings-warn, 
+
+### 670.pdf
+
+- **URL**: https://www.rotterdam.nl/media/670
+- **Status**: analysed
+- forms-fail, headings-skip, 
+
+### 672.pdf
+
+- **URL**: https://www.rotterdam.nl/media/672
+- **Status**: analysed
+- headings-skip, 
+
+### 675.pdf
+
+- **URL**: https://www.rotterdam.nl/media/675
+- **Status**: analysed
+- forms-fail, headings-skip, 
+
+### 676.pdf
+
+- **URL**: https://www.rotterdam.nl/media/676
+- **Status**: analysed
+- forms-fail, headings-skip, 
+
+### 677.pdf
+
+- **URL**: https://www.rotterdam.nl/media/677
+- **Status**: analysed
+- forms-fail, headings-skip, 
+
+### 683.pdf
+
+- **URL**: https://www.rotterdam.nl/media/683
+- **Status**: analysed
+- forms-fail, headings-skip, 
+
+### 68b79027-3580-4f22-b9b5-a4b4cf511dbc.pdf
+
+- **URL**: https://rotterdamraad.bestuurlijkeinformatie.nl/Document/View/68b79027-3580-4f22-b9b5-a4b4cf511dbc
+- **Status**: analysed
+- headings-none, tables-fail, 
+
+### 7321.pdf
+
+- **URL**: https://www.rotterdam.nl/media/7321
+- **Status**: analysed
+- forms-tagging-fail, 
+
+### 7335.pdf
+
+- **URL**: https://www.rotterdam.nl/media/7335
+- **Status**: analysed
+- forms-tagging-fail, 
+
 ### 08ddc0dd-4f65-479f-aa37-aa636c62dcc8.pdf
 
 - **URL**: https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/08ddc0dd-4f65-479f-aa37-aa636c62dcc8
@@ -69512,7 +69856,7 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 
 - **URL**: https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/1047eb14-8e96-4ac8-abcf-a561dbf598a8
 - **Status**: error
-- Analysis exceeded 120s per-file limit
+- File not found: crawled_files/rijksoverheid.nl/1047eb14-8e96-4ac8-abcf-a561dbf598a8.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.111762+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 21d84295-8d25-4029-b30e-779095421b13.pdf
 
@@ -70011,3 +70355,687 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 - **URL**: https://open.overheid.nl/documenten/c22fbe00-1363-47e9-8ef9-0f66d18446de/file
 - **Status**: analysed
 - title, headings-none, 
+
+### file-46.pdf
+
+- **URL**: https://open.overheid.nl/documenten/10d41924-7e4c-49d5-a3b8-9215a76464f4/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-46.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.541465+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-47.pdf
+
+- **URL**: https://open.overheid.nl/documenten/fc2fd89d-6049-4f01-a558-e5acda2ffa0b/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-47.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.545024+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-48.pdf
+
+- **URL**: https://open.overheid.nl/documenten/8e60163d-a665-4e44-9c5a-9684f0305a2f/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-48.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.548468+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-49.pdf
+
+- **URL**: https://open.overheid.nl/documenten/4ea9c6e9-bc7a-4f21-8407-b2cbaa5291cf/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-49.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.555924+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-5.pdf
+
+- **URL**: https://open.overheid.nl/documenten/818598ca-8911-4558-835a-a17b315364d4/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-5.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.560171+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-50.pdf
+
+- **URL**: https://open.overheid.nl/documenten/b293d67e-9e75-4cc8-b5d5-44ebea81df80/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-50.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.564232+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-51.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ab0c73f6-19db-432b-8e3c-eb775bc27512/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-51.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.567889+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-52.pdf
+
+- **URL**: https://open.overheid.nl/documenten/aee6a36b-2cbb-427a-81ed-52a3470d1b1c/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-52.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.572952+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-53.pdf
+
+- **URL**: https://open.overheid.nl/documenten/f9ad8b8e-6e1c-48a7-90ff-f3390daac5c6/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-53.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.576647+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-54.pdf
+
+- **URL**: https://open.overheid.nl/documenten/7201b297-2112-4c34-9ef3-54bfdd070419/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-54.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.581026+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-55.pdf
+
+- **URL**: https://open.overheid.nl/documenten/a34145ff-1945-4253-9276-8e80d098e42d/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-55.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.590800+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-56.pdf
+
+- **URL**: https://open.overheid.nl/documenten/3ad0580e-1a70-418d-855d-8eb0c23c5f54/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-56.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.594964+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-57.pdf
+
+- **URL**: https://open.overheid.nl/documenten/26648662-347d-4bf8-b67e-9bb064b501cf/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-57.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.598917+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-58.pdf
+
+- **URL**: https://open.overheid.nl/documenten/5df45d9b-b52b-4cdc-8e9f-3705e48305cf/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-58.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.602882+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-59.pdf
+
+- **URL**: https://open.overheid.nl/documenten/c367d9e6-9b1e-4471-ab01-26b47bf4b34f/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-59.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.606845+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-6.pdf
+
+- **URL**: https://open.overheid.nl/documenten/d42a5d7b-2c16-4a67-a7d1-a80cd89f16f7/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-6.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.609670+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-60.pdf
+
+- **URL**: https://open.overheid.nl/documenten/eb647abe-5099-4a6c-8613-04874cc1258b/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-60.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.612355+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-61.pdf
+
+- **URL**: https://open.overheid.nl/documenten/557fe929-d642-42da-9fc5-168faac9ed34/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-61.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.616335+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-62.pdf
+
+- **URL**: https://open.overheid.nl/documenten/e484c940-07da-449f-8f75-363a854cefc0/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-62.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.618910+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-63.pdf
+
+- **URL**: https://open.overheid.nl/documenten/b9ca7154-bb24-48cb-b909-84042020f6d2/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-63.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.622295+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-64.pdf
+
+- **URL**: https://open.overheid.nl/documenten/d74fe187-5798-4911-9313-dc871455587f/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-64.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.626302+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-65.pdf
+
+- **URL**: https://open.overheid.nl/documenten/78d7d00d-96ad-465d-866a-978737be1443/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-65.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.630081+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-66.pdf
+
+- **URL**: https://open.overheid.nl/documenten/bf4a5fac-8944-47cb-8657-cef53a5f2f43/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-66.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.633678+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-67.pdf
+
+- **URL**: https://open.overheid.nl/documenten/36f487b7-e565-4eaf-9543-657418229989/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-67.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.636948+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-68.pdf
+
+- **URL**: https://open.overheid.nl/documenten/b66fce52-ec43-45a4-84a8-b7db984c1230/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-68.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.652827+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-69.pdf
+
+- **URL**: https://open.overheid.nl/documenten/82a3da6d-fe3c-486d-9172-f2cca03d1047/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-69.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.657982+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-7.pdf
+
+- **URL**: https://open.overheid.nl/documenten/aa4e5e04-b2b2-4300-b7d9-51182e8adc12/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-7.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.663169+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-70.pdf
+
+- **URL**: https://open.overheid.nl/documenten/0a2b6c4a-b51d-4ef5-9740-c927250e5903/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-70.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.670672+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-71.pdf
+
+- **URL**: https://open.overheid.nl/documenten/72397c1a-4ede-4435-96bf-bdc4f5ea0472/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-71.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.675245+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-72.pdf
+
+- **URL**: https://open.overheid.nl/documenten/f854748d-f0b1-41dc-a72a-106e74b257cb/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-72.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.678750+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-73.pdf
+
+- **URL**: https://open.overheid.nl/documenten/8a884af8-0bde-4fa8-ac6d-389d767aa4c5/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-73.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.681501+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-74.pdf
+
+- **URL**: https://open.overheid.nl/documenten/34695ecd-0530-49ed-9596-0b60da4e1dde/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-74.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.683838+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-75.pdf
+
+- **URL**: https://open.overheid.nl/documenten/e001b152-43a5-4fac-a81e-65ae6dc29a42/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-75.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.686210+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-76.pdf
+
+- **URL**: https://open.overheid.nl/documenten/cf471c78-f5ab-48d4-b317-7d19899b4bbc/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-76.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.688778+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-77.pdf
+
+- **URL**: https://open.overheid.nl/documenten/e4d33d74-20ac-433d-a85c-3b02e709a649/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-77.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.691437+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-78.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-b89c316cc6e511b074de6c53bb8a6bd0b5e1fd9d/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-78.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.694163+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-79.pdf
+
+- **URL**: https://open.overheid.nl/documenten/b9356441-3f18-4610-af96-180d2d35985d/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-79.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.696416+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-8.pdf
+
+- **URL**: https://open.overheid.nl/documenten/0fa6f8a4-e5fe-476b-bf58-d5405ff30948/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-8.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.699169+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-80.pdf
+
+- **URL**: https://open.overheid.nl/documenten/c1068319-6c5f-4e27-9196-b1216334cb9c/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-80.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.701742+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-81.pdf
+
+- **URL**: https://open.overheid.nl/documenten/3540d000-bce2-4e30-aeca-2c7b58b56fc4/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-81.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.705526+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-82.pdf
+
+- **URL**: https://open.overheid.nl/documenten/c9066be7-3ee1-4a7e-a93d-e74cf80b280e/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-82.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.707836+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-83.pdf
+
+- **URL**: https://open.overheid.nl/documenten/8c2898b5-3097-46fc-ae4b-03ed14030597/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-83.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.715284+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-84.pdf
+
+- **URL**: https://open.overheid.nl/documenten/00d59307-b024-43a8-9810-4cc20d541cdf/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-84.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.717496+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-85.pdf
+
+- **URL**: https://open.overheid.nl/documenten/38d17713-f9c9-46b5-891f-a2b005258c2a/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-85.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.721591+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-86.pdf
+
+- **URL**: https://open.overheid.nl/documenten/92348e83-becb-4988-bdfc-4312f5a288c0/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-86.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.728014+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-87.pdf
+
+- **URL**: https://open.overheid.nl/documenten/3796cee8-342a-4e73-a277-8bd2b5016c97/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-87.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.731885+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-88.pdf
+
+- **URL**: https://open.overheid.nl/documenten/8bccaf10-c1d0-446d-8353-234c5de5d599/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-88.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.735561+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-89.pdf
+
+- **URL**: https://open.overheid.nl/documenten/db013345-870a-4ed5-b77b-c72df8c77d50/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-89.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.739210+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-9.pdf
+
+- **URL**: https://open.overheid.nl/documenten/bf3fb938-14fa-40bb-aa51-6f2d7af2e218/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-9.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.743264+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-90.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-fef9bd72a5a87d6ebde2df9e9d0c32fe3cbf38d4/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-90.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.747213+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-91.pdf
+
+- **URL**: https://open.overheid.nl/documenten/c27e889f-fd3c-481f-8598-3b51a72f1d0c/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-91.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.751301+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-92.pdf
+
+- **URL**: https://open.overheid.nl/documenten/36f4c6f2-f4b6-4102-8397-a2abfa7a982e/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-92.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.755597+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-93.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ad59de2d-d83d-4842-9aa9-e2f0cc728766/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-93.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.759067+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-94.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ab591c36-d1fb-4f56-ba1d-017db7ba2a41/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-94.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.774613+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-95.pdf
+
+- **URL**: https://open.overheid.nl/documenten/53d4564b-543c-4eb2-bc5a-243d96272351/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-95.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.778322+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-96.pdf
+
+- **URL**: https://open.overheid.nl/documenten/242830ad-f049-4df3-a699-ad0fd84b2c4f/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-96.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.782290+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-97.pdf
+
+- **URL**: https://open.overheid.nl/documenten/d444c0d8-2310-403e-bda0-99bf60ef2dc6/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-97.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.786068+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-98.pdf
+
+- **URL**: https://open.overheid.nl/documenten/0b7469ab-b9cf-4380-9fea-60f55efe4de1/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-98.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.790032+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file-99.pdf
+
+- **URL**: https://open.overheid.nl/documenten/9fe94c86-87c0-4ae7-b975-5b06a05d1358/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file-99.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.793283+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### file.pdf
+
+- **URL**: https://open.overheid.nl/documenten/6e4cf342-12e1-4fb6-8194-4686294068d0/file
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/file.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.796742+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### gemeentefonds-toelichting-slotwet-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-gemeentefonds-2025/gemeentefonds-toelichting-slotwet-2025.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/gemeentefonds-toelichting-slotwet-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.802512+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### handreiking-de-wet-open-overheid-in-de-gemeentelijke-praktijk.pdf
+
+- **URL**: https://vng.nl/sites/default/files/2025-10/handreiking-de-wet-open-overheid-in-de-gemeentelijke-praktijk.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/handreiking-de-wet-open-overheid-in-de-gemeentelijke-praktijk.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.808299+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### jaarverslag-buitenlandse-handel-en-ontwikkelingssamenwerking-2024.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2025/05/21/buitenlandse-handel-en-ontwikkelingssamenwerking-2024/jaarverslag-buitenlandse-handel-en-ontwikkelingssamenwerking-2024.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/jaarverslag-buitenlandse-handel-en-ontwikkelingssamenwerking-2024.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.824260+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### jaarverslag-buitenlandse-zaken-2024.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2025/05/21/buitenlandse-zaken-2024/jaarverslag-buitenlandse-zaken-2024.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/jaarverslag-buitenlandse-zaken-2024.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.841999+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### jaarverslag-ministerie-van-buitenlandse-handel-en-ontwikkelingshulp-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/buitenlandse-handel-en-ontwikkelingshulp-2025/jaarverslag-ministerie-van-buitenlandse-handel-en-ontwikkelingshulp-2025.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/jaarverslag-ministerie-van-buitenlandse-handel-en-ontwikkelingshulp-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.858238+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### jaarverslag-ministerie-van-volksgezondheid-welzijn-en-sport-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/volksgezondheid-welzijn-en-sport-2025/jaarverslag-ministerie-van-volksgezondheid-welzijn-en-sport-2025.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/jaarverslag-ministerie-van-volksgezondheid-welzijn-en-sport-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.891640+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### klimaat-en-groene-groei-jaarverslag-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/klimaat-en-groene-groei-2025/klimaat-en-groene-groei-jaarverslag-2025.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/klimaat-en-groene-groei-jaarverslag-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.910393+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### klimaat-en-groene-groei-slotwet-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/slotwet-ministerie-van-klimaat-en-groene-groei-2025/klimaat-en-groene-groei-slotwet-2025.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/klimaat-en-groene-groei-slotwet-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.917112+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### klimaat-en-groene-groei-toelichting-slotwet-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-ministerie-van-klimaat-en-groene-groei-2025/klimaat-en-groene-groei-toelichting-slotwet-2025.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/klimaat-en-groene-groei-toelichting-slotwet-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.923230+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### klimaatfonds-jaarverslag-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/klimaatfonds-2025/klimaatfonds-jaarverslag-2025.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/klimaatfonds-jaarverslag-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.937427+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### klimaatfonds-slotwet-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/slotwet-klimaatfonds-2025/klimaatfonds-slotwet-2025.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/klimaatfonds-slotwet-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.943824+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### klimaatfonds-toelichting-slotwet-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-klimaatfonds-2025/klimaatfonds-toelichting-slotwet-2025.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/klimaatfonds-toelichting-slotwet-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.949380+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### kst-1263980.pdf
+
+- **URL**: https://zoek.officielebekendmakingen.nl/kst-1263980.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/kst-1263980.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.954014+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### kst-22112-4293.pdf
+
+- **URL**: https://zoek.officielebekendmakingen.nl/kst-22112-4293.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/kst-22112-4293.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.958150+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### landelijk-crisisplan-olie.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2023/02/03/bijlage-landelijk-crisisplan-olie/landelijk-crisisplan-olie.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/landelijk-crisisplan-olie.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.964688+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### memorie-van-toelichting-slotwet-buitenlandse-handel-en-ontwikkelingshulp-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-buitenlandse-handel-en-ontwikkelingshulp-2025/memorie-van-toelichting-slotwet-buitenlandse-handel-en-ontwikkelingshulp-2025.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/memorie-van-toelichting-slotwet-buitenlandse-handel-en-ontwikkelingshulp-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.969807+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### memorie-van-toelichting-slotwet-buitenlandse-handel-en-ontwikkelingssamenwerking-2024.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2025/05/21/memorie-van-toelichting-slotwet-buitenlandse-handel-en-ontwikkelingssamenwerking-2024/memorie-van-toelichting-slotwet-buitenlandse-handel-en-ontwikkelingssamenwerking-2024.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/memorie-van-toelichting-slotwet-buitenlandse-handel-en-ontwikkelingssamenwerking-2024.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.974796+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### memorie-van-toelichting-slotwet-buitenlandse-zaken-2024.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2025/05/21/memorie-van-toelichting-slotwet-buitenlandse-zaken-2024/memorie-van-toelichting-slotwet-buitenlandse-zaken-2024.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/memorie-van-toelichting-slotwet-buitenlandse-zaken-2024.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.979325+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### memorie-van-toelichting-slotwet-ministerie-van-volksgezondheid-welzijn-en-sport-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-ministerie-van-volksgezondheid-welzijn-en-sport-2025/memorie-van-toelichting-slotwet-ministerie-van-volksgezondheid-welzijn-en-sport-2025.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/memorie-van-toelichting-slotwet-ministerie-van-volksgezondheid-welzijn-en-sport-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.983801+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### mobiliteitsfonds-jaarverslag-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/mobiliteitsfonds-2025/mobiliteitsfonds-jaarverslag-2025.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/mobiliteitsfonds-jaarverslag-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.004147+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### mobiliteitsfonds-slotwet-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/slotwet-mobiliteitsfonds-2025/mobiliteitsfonds-slotwet-2025.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/mobiliteitsfonds-slotwet-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.010604+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### mobiliteitsfonds-toelichting-slotwet-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-mobiliteitsfonds-2025/mobiliteitsfonds-toelichting-slotwet-2025.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/mobiliteitsfonds-toelichting-slotwet-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.039454+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nationaal-groeifonds-slotwet-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/slotwet-nationaal-groeifonds-2025/nationaal-groeifonds-slotwet-2025.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/nationaal-groeifonds-slotwet-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.045756+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nationaal-groeifonds-toelichting-slotwet-2025.pdf
+
+- **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-nationaal-groeifonds-2025/nationaal-groeifonds-toelichting-slotwet-2025.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/nationaal-groeifonds-toelichting-slotwet-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.052087+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nij-begun-op-weg-naar-erkenning-herstel-en-perspectief-2.pdf
+
+- **URL**: https://www.nijbegun.nl/wp-content/uploads/2025/05/nij-begun-op-weg-naar-erkenning-herstel-en-perspectief-2.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/nij-begun-op-weg-naar-erkenning-herstel-en-perspectief-2.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.065681+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### overgangsrecht-wi2013-wi2021-hoofdregel-en-uitzonderingen-szw.pdf
+
+- **URL**: https://www.divosa.nl/sites/default/files/2023-05/overgangsrecht-wi2013-wi2021-hoofdregel-en-uitzonderingen-szw.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/overgangsrecht-wi2013-wi2021-hoofdregel-en-uitzonderingen-szw.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.070731+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### passende-stagevergoeding.pdf
+
+- **URL**: https://www.stvda.nl/-/media/stvda/downloads/publicaties/2023/passende-stagevergoeding.pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/passende-stagevergoeding.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.075896+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-0.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-archief-b42146b9-9123-4e85-bcdc-c78650ec857d/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-0.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.081102+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-1.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-2cb745b6-191b-4796-8976-07122c945008/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-1.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.086412+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-10.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-6611b5058e04fb2974150934fe407d6fc31df47c/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-10.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.130558+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-100.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-183ae947-06a8-4fc4-af8e-83dbbad6d232/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-100.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.135819+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-101.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-cd6e7417-13c3-42ea-9922-aca6c8a79412/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-101.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.139897+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-102.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-51631d1f-b085-44a8-b04e-df5013a3b7e3/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-102.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.152720+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-103.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-928e17508b5d95ff17443f61821cc8362238fae6/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-103.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.158178+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-104.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-26780b5abe8f28418cb196aa5239b01289807f57/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-104.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.162795+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-105.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-ace0f5bcc422e0475134416802ccb96ef842a4dc/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-105.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.173632+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-106.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-421e4935984822008b7a7bc798d6bc1bbf27f7e7/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-106.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.178546+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-107.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-aca57b1302dec75c28bb1b57969d97979103befa/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-107.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.183306+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-108.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-9124d05f5a99e69034c7ad2fb1e46aa6f8e9a900/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-108.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.187064+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-11.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-7ff25f92b2ee199b8df8f0e0fa4247b8a60ab3e3/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-11.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.236254+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-12.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-a354c75e9bdceb057e00b2c39772220ad76b587f/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-12.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.279291+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-13.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-4b45648fd98c5118e0a4a72671eaa91ba2e94fc6/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-13.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.340481+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-14.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-49c846ea3c6a2dc0e5db2676b7e263b969930608/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-14.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.347909+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-15.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-207c34db2672536cd275fb41e0aeeea9978892d1/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-15.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.365554+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-16.pdf
+
+- **URL**: https://open.overheid.nl/documenten/dpc-22fcde0167572a2f8794938f3cade359779923b7/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-16.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.372121+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-17.pdf
+
+- **URL**: https://open.overheid.nl/documenten/dpc-b57ffb73021da13471bf6f01dccb233935d13377/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-17.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.377531+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-18.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-d5fd68fd-dd8e-4de3-9570-27a7cfb21871/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-18.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.382982+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-19.pdf
+
+- **URL**: https://open.overheid.nl/documenten/dpc-5f02e2ca5387092cb32ea2eef15d583fb3f9360b/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-19.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.388760+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-2.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-archief-07582729-44c3-40f7-8e08-65641324eee7/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-2.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.393903+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-20.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-274460f28f3ac852c957212a344728279206ecdf/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-20.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.398915+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-21.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-c97cca89a0c360bc012f5d6da3d54dd1844a6d33/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-21.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.405092+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-22.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-7204a71a-a3ca-449b-bbde-5aa502c1d19e/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-22.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.423371+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-23.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-71e3b88faa6f65de1f3e1f584f5a213027f1232e/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-23.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.431491+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pdf-24.pdf
+
+- **URL**: https://open.overheid.nl/documenten/ronl-d70d3a0c-e27c-4a2b-9639-c15d25ee9a44/pdf
+- **Status**: error
+- File not found: crawled_files/rijksoverheid.nl/pdf-24.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.449711+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
