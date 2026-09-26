@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-09-26T00:17:20.537595+00:00",
+    "site": "rijksoverheid.nl",
+    "crawl_url": "https://www.rijksoverheid.nl",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/36201467152",
+    "issue_url": "",
+    "archive_file": "2026-09-26_00-17-20-537_rijksoverheid.nl.html",
+    "total": 301,
+    "analysed": 91,
+    "accessible": 14,
+    "analysis_engines": [
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
     "date": "2026-09-25T23:32:50.523216+00:00",
     "site": "rijksoverheid.nl",
     "crawl_url": "https://www.rijksoverheid.nl",

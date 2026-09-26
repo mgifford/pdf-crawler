@@ -1,6 +1,6 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-09-25T23:32:50.523216+00:00
+Generated: 2026-09-26T00:17:20.537595+00:00
 
 ## Summary
 
@@ -71020,85 +71020,85 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-klimaatfonds-2025/klimaatfonds-toelichting-slotwet-2025.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/klimaatfonds-toelichting-slotwet-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.949380+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/klimaatfonds-toelichting-slotwet-2025.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.949380+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### kst-1263980.pdf
 
 - **URL**: https://zoek.officielebekendmakingen.nl/kst-1263980.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/kst-1263980.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.954014+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/kst-1263980.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.954014+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### kst-22112-4293.pdf
 
 - **URL**: https://zoek.officielebekendmakingen.nl/kst-22112-4293.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/kst-22112-4293.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.958150+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/kst-22112-4293.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.958150+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### landelijk-crisisplan-olie.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2023/02/03/bijlage-landelijk-crisisplan-olie/landelijk-crisisplan-olie.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/landelijk-crisisplan-olie.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.964688+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/landelijk-crisisplan-olie.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.964688+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### memorie-van-toelichting-slotwet-buitenlandse-handel-en-ontwikkelingshulp-2025.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-buitenlandse-handel-en-ontwikkelingshulp-2025/memorie-van-toelichting-slotwet-buitenlandse-handel-en-ontwikkelingshulp-2025.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/memorie-van-toelichting-slotwet-buitenlandse-handel-en-ontwikkelingshulp-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.969807+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/memorie-van-toelichting-slotwet-buitenlandse-handel-en-ontwikkelingshulp-2025.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.969807+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### memorie-van-toelichting-slotwet-buitenlandse-handel-en-ontwikkelingssamenwerking-2024.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2025/05/21/memorie-van-toelichting-slotwet-buitenlandse-handel-en-ontwikkelingssamenwerking-2024/memorie-van-toelichting-slotwet-buitenlandse-handel-en-ontwikkelingssamenwerking-2024.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/memorie-van-toelichting-slotwet-buitenlandse-handel-en-ontwikkelingssamenwerking-2024.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.974796+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/memorie-van-toelichting-slotwet-buitenlandse-handel-en-ontwikkelingssamenwerking-2024.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.974796+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### memorie-van-toelichting-slotwet-buitenlandse-zaken-2024.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2025/05/21/memorie-van-toelichting-slotwet-buitenlandse-zaken-2024/memorie-van-toelichting-slotwet-buitenlandse-zaken-2024.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/memorie-van-toelichting-slotwet-buitenlandse-zaken-2024.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.979325+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/memorie-van-toelichting-slotwet-buitenlandse-zaken-2024.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.979325+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### memorie-van-toelichting-slotwet-ministerie-van-volksgezondheid-welzijn-en-sport-2025.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-ministerie-van-volksgezondheid-welzijn-en-sport-2025/memorie-van-toelichting-slotwet-ministerie-van-volksgezondheid-welzijn-en-sport-2025.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/memorie-van-toelichting-slotwet-ministerie-van-volksgezondheid-welzijn-en-sport-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:03.983801+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/memorie-van-toelichting-slotwet-ministerie-van-volksgezondheid-welzijn-en-sport-2025.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:03.983801+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### mobiliteitsfonds-jaarverslag-2025.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/mobiliteitsfonds-2025/mobiliteitsfonds-jaarverslag-2025.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/mobiliteitsfonds-jaarverslag-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.004147+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/mobiliteitsfonds-jaarverslag-2025.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:04.004147+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### mobiliteitsfonds-slotwet-2025.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/slotwet-mobiliteitsfonds-2025/mobiliteitsfonds-slotwet-2025.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/mobiliteitsfonds-slotwet-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.010604+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/mobiliteitsfonds-slotwet-2025.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:04.010604+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### mobiliteitsfonds-toelichting-slotwet-2025.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-mobiliteitsfonds-2025/mobiliteitsfonds-toelichting-slotwet-2025.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/mobiliteitsfonds-toelichting-slotwet-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.039454+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/mobiliteitsfonds-toelichting-slotwet-2025.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:04.039454+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### nationaal-groeifonds-slotwet-2025.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/slotwet-nationaal-groeifonds-2025/nationaal-groeifonds-slotwet-2025.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/nationaal-groeifonds-slotwet-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.045756+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/nationaal-groeifonds-slotwet-2025.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:04.045756+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### nationaal-groeifonds-toelichting-slotwet-2025.pdf
 
 - **URL**: https://www.rijksoverheid.nl/site/binaries/site-content/collections/documents/2026/05/20/memorie-van-toelichting-slotwet-nationaal-groeifonds-2025/nationaal-groeifonds-toelichting-slotwet-2025.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/nationaal-groeifonds-toelichting-slotwet-2025.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.052087+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/nationaal-groeifonds-toelichting-slotwet-2025.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:04.052087+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### nij-begun-op-weg-naar-erkenning-herstel-en-perspectief-2.pdf
 
 - **URL**: https://www.nijbegun.nl/wp-content/uploads/2025/05/nij-begun-op-weg-naar-erkenning-herstel-en-perspectief-2.pdf
 - **Status**: error
-- File not found: crawled_files/rijksoverheid.nl/nij-begun-op-weg-naar-erkenning-herstel-en-perspectief-2.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.065681+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/rijksoverheid.nl/nij-begun-op-weg-naar-erkenning-herstel-en-perspectief-2.pdf (crawled 0.1 day(s) ago at 2026-09-25T20:35:04.065681+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### overgangsrecht-wi2013-wi2021-hoofdregel-en-uitzonderingen-szw.pdf
 
