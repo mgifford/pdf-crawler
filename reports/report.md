@@ -1,6 +1,6 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-09-28T10:12:33.573357+00:00
+Generated: 2026-09-28T10:27:49.410670+00:00
 
 ## Summary
 

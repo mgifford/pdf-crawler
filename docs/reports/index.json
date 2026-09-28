@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-09-28T10:27:49.410670+00:00",
+    "site": "shopriteholdings.co.za",
+    "crawl_url": "https://www.shopriteholdings.co.za/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/36409499259",
+    "issue_url": "",
+    "archive_file": "2026-09-28_10-27-49-410_shopriteholdings.co.za.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0,
+    "analysis_engines": [
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
     "date": "2026-09-28T10:12:33.573357+00:00",
     "site": "shopriteholdings.co.za",
     "crawl_url": "https://www.shopriteholdings.co.za/",
