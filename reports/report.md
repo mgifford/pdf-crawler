@@ -1,20 +1,21 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-09-28T10:27:49.410670+00:00
+Generated: 2026-09-29T20:33:28.897940+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 30301 |
-| Analysed | 6799 |
+| URLs crawled | 1 |
+| Total files tracked | 30311 |
+| Analysed | 6808 |
 | Pending analysis | 17568 |
-| Errors during analysis | 5934 |
+| Errors during analysis | 5935 |
 | Accessible | 2091 |
-| Issues found | 4708 |
+| Issues found | 4717 |
 | Totally inaccessible subset | 293 |
 | Broken / unreadable | 30 |
-| Exempt (pre-2018) | 1533 |
+| Exempt (pre-2018) | 1535 |
 
 ## Files per Site
 
@@ -82,6 +83,7 @@ Generated: 2026-09-28T10:27:49.410670+00:00
 | pstcc.edu | 11 |
 | rijksoverheid.nl | 301 |
 | rotterdam.nl | 115 |
+| semanticscholar.org | 10 |
 | slvboces.org | 743 |
 | smallpdf.com | 2 |
 | stjohns.k12.fl.us | 126 |
@@ -6909,6 +6911,15 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 | [file-43.pdf](https://open.overheid.nl/documenten/7ffb5246-54f6-49b3-8ded-076e05f07f55/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-11-27 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | 749.8 KB | 5 | 3 |
 | [file-44.pdf](https://open.overheid.nl/documenten/c535acf4-0664-4301-a192-ad5c6a977c41/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-09-15 | — | Ministerie van Sociale Zaken en Werkgelegenheid | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 18 | 3.1 MB | 1351 | 15 |
 | [file-45.pdf](https://open.overheid.nl/documenten/c22fbe00-1363-47e9-8ef9-0f66d18446de/file) | rijksoverheid.nl *(ext: open.overheid.nl)* | 2025-09-15 | — | Ministerie van Sociale Zaken en Werkgelegenheid | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 5 | 269.9 KB | 971 | 0 |
+| [0fe7d4a254d2864f9643e80aeea188a28e81.pdf](https://pdfs.semanticscholar.org/3b6a/0fe7d4a254d2864f9643e80aeea188a28e81.pdf) | semanticscholar.org | 2018-01-25 | Distributional Models of Word Meaning | — | Annu. Rev. Linguist. 2018.4:151-171 | distributional semantics,vector space models,linguistic contexts,lexicon,semantic similarity,compositionality | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 23 | 421.2 KB | 13772 | 4 |
+| [2677b884e152cd772216d0bf70d00370248d.pdf](https://pdfs.semanticscholar.org/510a/2677b884e152cd772216d0bf70d00370248d.pdf) | semanticscholar.org | 2022-06-01 | Saussure’s dichotomies and the shapes of structuralist semiotics | John E. Joseph | {'enunciation', 'Charles Bally', 'Marxism', 'langue and parole', 'structuralism', 'semiotics', 'arbitrariness', 'stylistics', 'phenomenology', 'Louis Hjelmslev', 'Ferdinand de Saussure'} | semiotics; structuralism; Ferdinand de Saussure; langue and parole; arbitrariness; enunciation; stylistics; Marxism; phenomenology; Louis Hjelmslev; Charles Bally | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 27 | 301.3 KB | 11843 | 6 |
+| [317b39fa0a2cd632e14cb2032d1e9bdf716b.pdf](https://pdfs.semanticscholar.org/4f7c/317b39fa0a2cd632e14cb2032d1e9bdf716b.pdf) | semanticscholar.org | 2024-08-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | Warn | ❌ Fail | ❌ Fail | 18 | 1.6 MB | 7843 | 91 |
+| [5d78aefb398015a95f7941d895cb4726eb7e.pdf](https://pdfs.semanticscholar.org/b619/5d78aefb398015a95f7941d895cb4726eb7e.pdf) | semanticscholar.org | 2024-03-20 | — | Otaq208 | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 15 | 727.9 KB | 5204 | 8 |
+| [7fb58cb7f8e2a66a7dd0a5903ee280422ff9.pdf](https://pdfs.semanticscholar.org/8c52/7fb58cb7f8e2a66a7dd0a5903ee280422ff9.pdf) | semanticscholar.org | 2024-10-19 | — | Dell | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 6 | 176.8 KB | 3078 | 6 |
+| [82d48b6e416858fda1a80da958fbe8bb893a.pdf](https://pdfs.semanticscholar.org/e37e/82d48b6e416858fda1a80da958fbe8bb893a.pdf) | semanticscholar.org | 2007-07-27 | Freakonomics | Steven D. Levitt and Stephen J. Dubner | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 256 | 5.7 MB | 76452 | 1 |
+| [901d7b6a987dc06497bea64f3b506eb0d4ea.pdf](https://pdfs.semanticscholar.org/01fd/901d7b6a987dc06497bea64f3b506eb0d4ea.pdf) | semanticscholar.org | 2024-04-11 | The Value of Emotional Intelligence: Self-Awareness, Self-Regulation, Motivation, and Empathy as Key Components | Hera Antonopoulou | The Value of Emotional Intelligence: Self-Awareness, Self-Regulation, Motivation, and Empathy as Key Components | The Value of Emotional Intelligence: Self-Awareness, Self-Regulation, Motivation, and Empathy as Key Components | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 15 | 298.5 KB | 7942 | 15 |
+| [9bc60c5815e7efa561f262253657a59f9eae.pdf](https://pdfs.semanticscholar.org/a2ce/9bc60c5815e7efa561f262253657a59f9eae.pdf) | semanticscholar.org | 2026-02-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 9 | 467.4 KB | 5779 | 10 |
+| [aa2a18e0552a812fff5e24f9052abb7f302b.pdf](https://pdfs.semanticscholar.org/e3b3/aa2a18e0552a812fff5e24f9052abb7f302b.pdf) | semanticscholar.org | 2022-07-12 | — | Asus | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 14 | 541.6 KB | 4814 | 5 |
 
 ## Files with Errors or Notes
 
@@ -71273,3 +71284,63 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 - **URL**: https://open.overheid.nl/documenten/ronl-d70d3a0c-e27c-4a2b-9639-c15d25ee9a44/pdf
 - **Status**: error
 - File not found: crawled_files/rijksoverheid.nl/pdf-24.pdf (crawled 0.0 day(s) ago at 2026-09-25T20:35:04.449711+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 0fe7d4a254d2864f9643e80aeea188a28e81.pdf
+
+- **URL**: https://pdfs.semanticscholar.org/3b6a/0fe7d4a254d2864f9643e80aeea188a28e81.pdf
+- **Status**: analysed
+- title, tagged, lang, annotations-untagged, 
+
+### 2677b884e152cd772216d0bf70d00370248d.pdf
+
+- **URL**: https://pdfs.semanticscholar.org/510a/2677b884e152cd772216d0bf70d00370248d.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, annotations-untagged, 
+
+### 317b39fa0a2cd632e14cb2032d1e9bdf716b.pdf
+
+- **URL**: https://pdfs.semanticscholar.org/4f7c/317b39fa0a2cd632e14cb2032d1e9bdf716b.pdf
+- **Status**: analysed
+- title, tagged-content-fail, figures missing alt text (count=1), headings-none, lists-warn, tables-fail, 
+
+### 5d78aefb398015a95f7941d895cb4726eb7e.pdf
+
+- **URL**: https://pdfs.semanticscholar.org/b619/5d78aefb398015a95f7941d895cb4726eb7e.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=7), headings-skip, 
+
+### 7fb58cb7f8e2a66a7dd0a5903ee280422ff9.pdf
+
+- **URL**: https://pdfs.semanticscholar.org/8c52/7fb58cb7f8e2a66a7dd0a5903ee280422ff9.pdf
+- **Status**: analysed
+- title, headings-warn, annotations-tagging-fail, 
+
+### 82d48b6e416858fda1a80da958fbe8bb893a.pdf
+
+- **URL**: https://pdfs.semanticscholar.org/e37e/82d48b6e416858fda1a80da958fbe8bb893a.pdf
+- **Status**: analysed
+- title, tagged, lang, annotations-untagged, 
+
+### 901d7b6a987dc06497bea64f3b506eb0d4ea.pdf
+
+- **URL**: https://pdfs.semanticscholar.org/01fd/901d7b6a987dc06497bea64f3b506eb0d4ea.pdf
+- **Status**: analysed
+- headings-none, annotations-tagging-fail, 
+
+### 9bc60c5815e7efa561f262253657a59f9eae.pdf
+
+- **URL**: https://pdfs.semanticscholar.org/a2ce/9bc60c5815e7efa561f262253657a59f9eae.pdf
+- **Status**: analysed
+- title, tagged, lang, annotations-untagged, 
+
+### aa2a18e0552a812fff5e24f9052abb7f302b.pdf
+
+- **URL**: https://pdfs.semanticscholar.org/e3b3/aa2a18e0552a812fff5e24f9052abb7f302b.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### e3d2083fd46305cebb144593615ba86ea5e3.pdf
+
+- **URL**: https://pdfs.semanticscholar.org/3af9/e3d2083fd46305cebb144593615ba86ea5e3.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
