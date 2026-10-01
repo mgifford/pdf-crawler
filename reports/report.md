@@ -1,21 +1,21 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-09-29T20:33:28.897940+00:00
+Generated: 2026-10-01T11:30:57.766233+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 1 |
-| Total files tracked | 30311 |
-| Analysed | 6808 |
-| Pending analysis | 17568 |
-| Errors during analysis | 5935 |
-| Accessible | 2091 |
-| Issues found | 4717 |
-| Totally inaccessible subset | 293 |
+| URLs crawled | 1073 |
+| Total files tracked | 30879 |
+| Analysed | 6875 |
+| Pending analysis | 18067 |
+| Errors during analysis | 5937 |
+| Accessible | 2141 |
+| Issues found | 4734 |
+| Totally inaccessible subset | 296 |
 | Broken / unreadable | 30 |
-| Exempt (pre-2018) | 1535 |
+| Exempt (pre-2018) | 1539 |
 
 ## Files per Site
 
@@ -61,6 +61,7 @@ Generated: 2026-09-29T20:33:28.897940+00:00
 | kjk.umn.edu | 1 |
 | lasv.brandenburg.de | 260 |
 | lib.pstcc.edu | 16 |
+| luton.gov.uk | 568 |
 | marburg.de | 71 |
 | medicare.gov | 313 |
 | middletowncityschools.com | 170 |
@@ -6920,6 +6921,74 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 | [901d7b6a987dc06497bea64f3b506eb0d4ea.pdf](https://pdfs.semanticscholar.org/01fd/901d7b6a987dc06497bea64f3b506eb0d4ea.pdf) | semanticscholar.org | 2024-04-11 | The Value of Emotional Intelligence: Self-Awareness, Self-Regulation, Motivation, and Empathy as Key Components | Hera Antonopoulou | The Value of Emotional Intelligence: Self-Awareness, Self-Regulation, Motivation, and Empathy as Key Components | The Value of Emotional Intelligence: Self-Awareness, Self-Regulation, Motivation, and Empathy as Key Components | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 15 | 298.5 KB | 7942 | 15 |
 | [9bc60c5815e7efa561f262253657a59f9eae.pdf](https://pdfs.semanticscholar.org/a2ce/9bc60c5815e7efa561f262253657a59f9eae.pdf) | semanticscholar.org | 2026-02-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 9 | 467.4 KB | 5779 | 10 |
 | [aa2a18e0552a812fff5e24f9052abb7f302b.pdf](https://pdfs.semanticscholar.org/e3b3/aa2a18e0552a812fff5e24f9052abb7f302b.pdf) | semanticscholar.org | 2022-07-12 | — | Asus | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 14 | 541.6 KB | 4814 | 5 |
+| [0-agenda.pdf](https://www.luton.gov.uk/sites/default/files/2025-12/0-agenda.pdf) | luton.gov.uk | 2024-09-27 | LLAF meeting 1 agenda | Nova.Constable@luton.gov.uk | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 153.9 KB | 224 | 1 |
+| [2127793.pdf](https://assets.publishing.service.gov.uk/media/5a756b9ee5274a3edd9a4c79/2127793.pdf) | luton.gov.uk *(ext: assets.publishing.service.gov.uk)* | 2013-09-23 | Protected trees: A guide to tree preservation procedures | DCLG | {'TPOs', 'tree preservation order', 'tree preservation orders', 'trees', 'TPO'} | trees, tree preservation order, tree preservation orders, TPO, TPOs, | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | Warn | Warn | NotApplicable | ✅ Pass | 9 | 91.4 KB | 2249 | 3 |
+| [3-tor.pdf](https://www.luton.gov.uk/sites/default/files/2025-12/3-tor.pdf) | luton.gov.uk | 2024-09-13 | LLAF Terms of Reference | Nova.Constable@luton.gov.uk | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 167.6 KB | 1331 | 1 |
+| [4-rowip-paper.pdf](https://www.luton.gov.uk/sites/default/files/2025-12/4-rowip-paper.pdf) | luton.gov.uk | 2024-09-13 | LAFF rights of way improvement plan | Nova.Constable@luton.gov.uk | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 3 | 163.0 KB | 560 | 1 |
+| [5-1-public-path-diversion-order-north-newlands-road.pdf](https://www.luton.gov.uk/sites/default/files/2025-12/5-1-public-path-diversion-order-north-newlands-road.pdf) | luton.gov.uk | 2024-09-13 | Public path diversion order number 1/2024 | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 3 | 2.3 MB | 537 | 3 |
+| [5-public-path-diversion-order-paper.pdf](https://www.luton.gov.uk/sites/default/files/2025-12/5-public-path-diversion-order-paper.pdf) | luton.gov.uk | 2024-09-13 | LLAF: Public path diversion order | Nova.Constable@luton.gov.uk | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | 120.9 KB | 430 | 1 |
+| [6-definitive-map-modification-order-paper.pdf](https://www.luton.gov.uk/sites/default/files/2025-12/6-definitive-map-modification-order-paper.pdf) | luton.gov.uk | 2024-09-13 | LLAF definitive map modification orders | Sarah Smart | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 126.6 KB | 536 | 1 |
+| [7-landowner-register-paper.pdf](https://www.luton.gov.uk/sites/default/files/2025-12/7-landowner-register-paper.pdf) | luton.gov.uk | 2024-09-13 | LLAF landowner register | Sarah Smart | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 4 | 947.7 KB | 719 | 4 |
+| [8-forward-work-programme-draft.pdf](https://www.luton.gov.uk/sites/default/files/2025-12/8-forward-work-programme-draft.pdf) | luton.gov.uk | 2024-09-13 | LLAF forward work programme | Sarah Smart | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 3 | 137.6 KB | 444 | 1 |
+| [Abigail%20Close%20path%20%28L180%29.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Abigail%20Close%20path%20%28L180%29.pdf) | luton.gov.uk | 2025-07-02 | A3 - DC111 | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ❌ Fail | 1 | 665.4 KB | 145 | 2 |
+| [Adopt-east-peer-support-line.pdf](https://www.luton.gov.uk/system/files/file-visibility/migrated/Health_and_social_care/Lists/LutonDocuments/PDF/Adopt-east-peer-support-line.pdf) | luton.gov.uk | 2025-10-08 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 197.3 KB | 0 | 1 |
+| [Advice-on-planning-bute-street.pdf](https://www.luton.gov.uk/sites/default/files/2025-12/Advice-on-planning-bute-street.pdf) | luton.gov.uk | 2025-07-30 | Luton Local Access Forum letter of advice re 24/01415/AMEND - The Stage NMA Planning Changes | Mamnunur Khan (XCF8 R) | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 123.7 KB | 489 | 0 |
+| [Advice-on-planning-power-court.pdf](https://www.luton.gov.uk/sites/default/files/2025-12/Advice-on-planning-power-court.pdf) | luton.gov.uk | 2025-07-30 | Luton Local Access Forum letter of advice re Power Court Stadium Ddevelopment Proposal - Application 24/0105/HYBEIA | Mamnunur Khan (XCF8 R) | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 125.3 KB | 776 | 0 |
+| [Agreed%20Academic%20Calendar%202026-27.pdf](https://www.luton.gov.uk/sites/default/files/2026-03/Agreed%20Academic%20Calendar%202026-27.pdf) | luton.gov.uk | 2025-06-18 | EDUCATION ACADEMIC CALENDAR | SmithDe | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | ❌ Fail | ❌ Fail | 1 | 136.9 KB | 507 | 1 |
+| [Allotment-tenancy-agreement_0_0.pdf](https://www.luton.gov.uk/sites/default/files/2026-02/Allotment-tenancy-agreement_0_0.pdf) | luton.gov.uk | 2024-10-04 | Accessing planning information online | Nova.Constable@luton.gov.uk | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 9 | 159.7 KB | 2631 | 3 |
+| [Application-for-Hedgerow-Removal-Notice-guidance_0.pdf](https://www.luton.gov.uk/sites/default/files/2026-02/Application-for-Hedgerow-Removal-Notice-guidance_0.pdf) | luton.gov.uk | 2011-02-18 | Application for Hedgerow Removal Notice | Content Team | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | Warn | NotApplicable | ✅ Pass | 2 | 26.9 KB | 956 | 0 |
+| [Barnfield-count.pdf](https://www.luton.gov.uk/sites/default/files/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Barnfield-count.pdf) | luton.gov.uk | 2023-05-05 | Barnfield Ward count | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | Warn | ❌ Fail | 1 | 84.3 KB | 218 | 0 |
+| [Bath%20Road%20%28L181%29.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Bath%20Road%20%28L181%29.pdf) | luton.gov.uk | 2025-07-02 | A3 - DC112 | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ❌ Fail | 1 | 793.5 KB | 151 | 5 |
+| [Beech%20Hill%20ward%20-%20proposed%20routes%20%28L103%29.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Beech%20Hill%20ward%20-%20proposed%20routes%20%28L103%29.pdf) | luton.gov.uk | 2025-07-08 | L103 Beech Hill path | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | ✅ Pass | ❌ Fail | 1 | 749.2 KB | 102 | 2 |
+| [Beech-hill-count.pdf](https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Beech-hill-count.pdf) | luton.gov.uk | 2023-05-05 | Beech Hill ward | Littler | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | Warn | ❌ Fail | 1 | 81.7 KB | 198 | 0 |
+| [Biscot%20ward%20proposed%20routes.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Biscot%20ward%20proposed%20routes.pdf) | luton.gov.uk | 2025-07-08 | Biscot ward proposed routes | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | 2.5 MB | 192 | 2 |
+| [Biscot-count.pdf](https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Biscot-count.pdf) | luton.gov.uk | 2023-05-05 | Biscot ward | Littler | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | Warn | ❌ Fail | 1 | 80.1 KB | 185 | 0 |
+| [Bramingham-count.pdf](https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Bramingham-count.pdf) | luton.gov.uk | 2023-05-05 | Bramingham ward | Littler | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | Warn | ❌ Fail | 1 | 81.2 KB | 203 | 0 |
+| [Central-count.pdf](https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Central-count.pdf) | luton.gov.uk | 2023-05-05 | Central ward | Littler | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | Warn | ❌ Fail | 1 | 80.0 KB | 187 | 0 |
+| [Challney-count.pdf](https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Challney-count.pdf) | luton.gov.uk | 2023-05-05 | Challney ward | Littler | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | Warn | ❌ Fail | 1 | 81.7 KB | 193 | 0 |
+| [Charging%20policy%20for%20non%20residential%20services%202026-27_0.pdf](https://www.luton.gov.uk/sites/default/files/2026-04/Charging%20policy%20for%20non%20residential%20services%202026-27_0.pdf) | luton.gov.uk | 2026-04-29 | Charging policy for non-residential services | Constable, Nova | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 15 | 203.8 KB | 4680 | 1 |
+| [Chiltern%20Green%20CA16%20application%20form-%20redacted.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Chiltern%20Green%20CA16%20application%20form-%20redacted.pdf) | luton.gov.uk | 2018-05-09 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 8 | 7.6 MB | 0 | 8 |
+| [Conservation-areas-planning-advice-and-guidance-leaflet.pdf](https://www.luton.gov.uk/sites/default/files/migrated/Environment/Lists/LutonDocuments/PDF/Planning/Development%20Control/Conservation-areas-planning-advice-and-guidance-leaflet.pdf) | luton.gov.uk | 2020-09-03 | conservation areas - planning advice and guidance | Emma Raindle | planning; conservation areas | conservation area;conservation areas;planning | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 5 | 1005.5 KB | 1362 | 3 |
+| [Copt%20Hall%20and%20Someries%20Farm%20%28TL122203%29.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Copt%20Hall%20and%20Someries%20Farm%20%28TL122203%29.pdf) | luton.gov.uk | 2024-08-01 | 7. CA16 Statement.pdf | Sarah Smart | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 302.5 KB | 0 | 23 |
+| [Council%20Tax%20Exceptional%20Hardship%20scheme%202026%20to%202027.pdf](https://www.luton.gov.uk/sites/default/files/2026-06/Council%20Tax%20Exceptional%20Hardship%20scheme%202026%20to%202027.pdf) | luton.gov.uk | 2026-06-03 | Council Tax Exceptional Hardship Scheme 2026 2027   April 2026 | Emma Raindle | — | council-tax | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 | 398.9 KB | 4452 | 1 |
+| [CycleMap.pdf](https://www.luton.gov.uk/sites/default/files/2025-12/CycleMap.pdf) | luton.gov.uk | 2020-09-21 | Hounslow_Civic_Centre_Leaflet | MAC029 | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | 3.6 MB | 1184 | 0 |
+| [Dallow-count.pdf](https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Dallow-count.pdf) | luton.gov.uk | 2023-05-05 | Dallow ward | Littler | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | Warn | ❌ Fail | 1 | 79.1 KB | 177 | 0 |
+| [Deferred-payment-policy-2025-26.pdf](https://www.luton.gov.uk/sites/default/files/migrated/Health_and_social_care/Lists/LutonDocuments/PDF/Deferred-payment-policy-2025-26.pdf) | luton.gov.uk | 2025-10-31 | Defred Payment Policy 2025-2026 | Nova.Constable@luton.gov.uk | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 5 | 125.8 KB | 2215 | 2 |
+| [Disciplinary-procedure.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Disciplinary-procedure.pdf) | luton.gov.uk | 2022-11-17 | Disciplinary procedure | Emma Raindle | {'Accessibility'} | Accessibility | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 11 | 263.6 KB | 4463 | 1 |
+| [Dorrington%20Close%20Area%20%28L274%20to%20L279%29.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Dorrington%20Close%20Area%20%28L274%20to%20L279%29.pdf) | luton.gov.uk | 2025-07-02 | Biscot ward proposed routes A2 - DC109 | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | 1004.1 KB | 162 | 2 |
+| [Dunstable%20Close%20path%20%E2%80%93%20proposed%20routes%20%28DC107%29.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Dunstable%20Close%20path%20%E2%80%93%20proposed%20routes%20%28DC107%29.pdf) | luton.gov.uk | 2025-07-02 | A4 - DC107 DWG | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ❌ Fail | 1 | 752.4 KB | 128 | 0 |
+| [Effective%20Relationship%20and%20Health%20Education%20%28RHE%29%20Consultation.pdf](https://www.luton.gov.uk/system/files/file-visibility/2026-03/Effective%20Relationship%20and%20Health%20Education%20%28RHE%29%20Consultation.pdf) | luton.gov.uk | 2021-10-14 | Effective Relationship and Health Education Consultation | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 6 | 491.7 KB | 1228 | 2 |
+| [FIS-provider-agreement-appendix-2.pdf](https://www.luton.gov.uk/sites/default/files/2026-03/FIS-provider-agreement-appendix-2.pdf) | luton.gov.uk | 2026-01-29 | Luton Council Provider Agreement January 2026 | Ralevic, Beverley | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 153.9 KB | 980 | 2 |
+| [Fostering%20training%20brochure%202026-2027.pdf](https://www.luton.gov.uk/sites/default/files/2026-06/Fostering%20training%20brochure%202026-2027.pdf) | luton.gov.uk | 2026-06-25 | Fostering training brochure 2036 to 2027 | Nova.Constable@luton.gov.uk | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 31 | 349.6 KB | 7604 | 5 |
+| [Funded%20childcare%20providers%20Offering%202%20year%20funding%2C%203%20and%204%20year%20funding%2C%2030%20hours%20or%20Tax%20Free%20Childcare.pdf](https://www.luton.gov.uk/system/files/file-visibility/2026-03/Funded%20childcare%20providers%20Offering%202%20year%20funding%2C%203%20and%204%20year%20funding%2C%2030%20hours%20or%20Tax%20Free%20Childcare.pdf) | luton.gov.uk | 2022-01-27 | Funded Providers | Nova.Constable@luton.gov.uk | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 24 | 541.2 KB | 2496 | 2 |
+| [Grievance-resolution-procedure.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Grievance-resolution-procedure.pdf) | luton.gov.uk | 2022-11-17 | Grievance resolution procedure | Nova.Constable@luton.gov.uk | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 5 | 209.3 KB | 1267 | 1 |
+| [High-town-conservation-area.pdf](https://www.luton.gov.uk/sites/default/files/migrated/Environment/Lists/LutonDocuments/PDF/Planning/Development%20Control/High-town-conservation-area.pdf) | luton.gov.uk | 2021-11-23 | High Town | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 937.3 KB | 330 | 1 |
+| [High-town-count.pdf](https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/High-town-count.pdf) | luton.gov.uk | 2023-05-05 | Hightown ward | Littler | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | Warn | ❌ Fail | 1 | 79.5 KB | 182 | 0 |
+| [Housing%20Benefit%20War%20Pension%20Disregard%20Policy%20%28Modified%20Scheme%29.pdf](https://www.luton.gov.uk/sites/default/files/2025-11/Housing%20Benefit%20War%20Pension%20Disregard%20Policy%20%28Modified%20Scheme%29.pdf) | luton.gov.uk | 2023-02-09 | Accessing planning information online | Nova.Constable@luton.gov.uk | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 517.7 KB | 1235 | 1 |
+| [In%20App%20Advice%20Fees%20%20-%20New%202025.pdf](https://www.luton.gov.uk/sites/default/files/2026-03/In%20App%20Advice%20Fees%20%20-%20New%202025.pdf) | luton.gov.uk | 2026-03-27 | Pre-application fees | Emma Raindle | — | Pre-application fees, Planning | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | Warn | ❌ Fail | 3 | 141.3 KB | 304 | 1 |
+| [Independent-visitors.pdf](https://www.luton.gov.uk/system/files/file-visibility/migrated/Health_and_social_care/Lists/LutonDocuments/PDF/Children%20and%20Families/Independent-visitors.pdf) | luton.gov.uk | 2021-08-20 | Volunteer Independent Visitors | Rebecca Garner | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 60.8 KB | 271 | 1 |
+| [Joint%20Special%20Educational%20Needs%20and%20Disabilities%20Strategy%202022%20to%202025.pdf](https://www.luton.gov.uk/sites/default/files/2026-02/Joint%20Special%20Educational%20Needs%20and%20Disabilities%20Strategy%202022%20to%202025.pdf) | luton.gov.uk | 2023-05-18 | Joint Special Educational Needs and Disabilities Strategy
+ Joint Special Educational Needs and Disabilities Strategy | {'Luton Council'} | {'Joint Special Educational Needs and Disabilities Strategy'} | Joint Special Educational Needs and Disabilities Strategy | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 36 | 1.4 MB | 11409 | 30 |
+| [Kingsway%20Park%20area%20%28L167%20to%20L271%29.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Kingsway%20Park%20area%20%28L167%20to%20L271%29.pdf) | luton.gov.uk | 2025-07-02 | A2 - DC105 DWG | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 944.3 KB | 157 | 0 |
+| [Kinship-carer-leaflet.pdf](https://www.luton.gov.uk/sites/default/files/migrated/Health_and_social_care/Lists/LutonDocuments/PDF/Fostering/Kinship-carer-leaflet.pdf) | luton.gov.uk | 2025-09-19 | — | Sarah Maffre | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 347.1 KB | 0 | 1 |
+| [Land%20North%20of%20Chiltern%20Green%20Map%20accompanying%20a%20notice%20of%20landowner%20deposit%20%28TL%20133208%29.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Land%20North%20of%20Chiltern%20Green%20Map%20accompanying%20a%20notice%20of%20landowner%20deposit%20%28TL%20133208%29.pdf) | luton.gov.uk | 2018-05-09 | Print Template Wizard | katechiam | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 1 | 121.8 KB | 61 | 1 |
+| [Land%20off%20Weybourne%20Drive%20CA16%20application.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Land%20off%20Weybourne%20Drive%20CA16%20application.pdf) | luton.gov.uk | 2024-08-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | 301.9 KB | 1427 | 1 |
+| [Land%20off%20Weybourne%20Drive%20CA17%20notice%20-%20redacted.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Land%20off%20Weybourne%20Drive%20CA17%20notice%20-%20redacted.pdf) | luton.gov.uk | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 379.9 KB | 6 | 5 |
+| [Land%20off%20Weybourne%20Drive%20declaration%20of%20footpath%20%28TL086025511%29.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Land%20off%20Weybourne%20Drive%20declaration%20of%20footpath%20%28TL086025511%29.pdf) | luton.gov.uk | 2023-03-14 | Land off Weybourne Drive declaration of footpath | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 454.2 KB | 138 | 1 |
+| [Land%20off%20Weybourne%20Drive%20land%20not%20dedicated%20as%20common%20land%20%28TL08602551%29.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Land%20off%20Weybourne%20Drive%20land%20not%20dedicated%20as%20common%20land%20%28TL08602551%29.pdf) | luton.gov.uk | 2023-03-14 | Land off Weybourne Drive land not dedicated as common land | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 338.4 KB | 151 | 1 |
+| [Langley%20Place%20explanatory%20statement.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Langley%20Place%20explanatory%20statement.pdf) | luton.gov.uk | 2022-03-14 | Langley Place explanatory statement | Dove, Keith | — | Langley Place explanatory statement | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 268.6 KB | 909 | 1 |
+| [Langley%20Place%20footpath%20certified%20confirmed%20order.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Langley%20Place%20footpath%20certified%20confirmed%20order.pdf) | luton.gov.uk | 2021-11-16 | certified confirmed Order.pdf | ConstableN | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 125.6 KB | 309 | 2 |
+| [Langley%20Place%20footpath%20notice%20of%20order.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Langley%20Place%20footpath%20notice%20of%20order.pdf) | luton.gov.uk | 2021-03-02 | The Planning Inspectorate | test | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 563.9 KB | 789 | 0 |
+| [Langley%20Place%20order%20signed%20and%20sealed.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Langley%20Place%20order%20signed%20and%20sealed.pdf) | luton.gov.uk | 2022-03-14 | Order footpath no 159 | Brocklehurst, Shane | — | Order footpath no 159 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 3 | 863.9 KB | 547 | 4 |
+| [Langley%20Place%20site%20notice.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Langley%20Place%20site%20notice.pdf) | luton.gov.uk | 2022-03-14 | Langley Place sign notice | Dove, Keith | — | Langley Place sign notice | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 202.7 KB | 546 | 0 |
+| [Leagrave-count.pdf](https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Leagrave-count.pdf) | luton.gov.uk | 2023-05-05 | Leagrave ward | Littler | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | Warn | ❌ Fail | 1 | 80.3 KB | 183 | 0 |
+| [Leaving-care-financial-policy-and-guidance.pdf](https://www.luton.gov.uk/system/files/file-visibility/migrated/Health_and_social_care/Lists/LutonDocuments/PDF/Leaving-care-financial-policy-and-guidance.pdf) | luton.gov.uk | 2022-07-12 | Leaving Care Financial Policy and Guidance 2022 | O'Sullivan, Sheila | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 41 | 712.1 KB | 11431 | 3 |
+| [Lewsey-count.pdf](https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Lewsey-count.pdf) | luton.gov.uk | 2023-05-05 | Lewsey ward | Littler | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | Warn | ❌ Fail | 1 | 79.4 KB | 174 | 0 |
+| [Local%20Plan%20Notice%20of%20Commencement%20with%20map.pdf](https://www.luton.gov.uk/sites/default/files/2026-05/Local%20Plan%20Notice%20of%20Commencement%20with%20map.pdf) | luton.gov.uk | 2026-05-27 | Luton Local Plan Review Notice of Intention to Commence Local Plan preparation May 2026 | Thom, Chris | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 341.9 KB | 100 | 1 |
+| [Local%20Welfare%20Assistance%20Scheme.pdf](https://www.luton.gov.uk/sites/default/files/2025-11/Local%20Welfare%20Assistance%20Scheme.pdf) | luton.gov.uk | 2023-08-16 | Local Welfare Assistance Scheme | lcss@luton.gov.uk | {'Local Welfare Assistance Scheme policy'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 9 | 184.2 KB | 3320 | 1 |
+| [Local%20plan%20timetable_0.pdf](https://www.luton.gov.uk/sites/default/files/2026-05/Local%20plan%20timetable_0.pdf) | luton.gov.uk | 2026-05-28 | Local Plan Timetable - May 2026 | Thom, Chris | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 5 | 131.1 KB | 1133 | 0 |
+| [Looked-after-children-pledge-11-to-14-years.PDF](https://www.luton.gov.uk/system/files/file-visibility/2026-03/Looked-after-children-pledge-11-to-14-years.PDF) | luton.gov.uk | 2021-12-30 | 11-14 year olds | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 333.8 KB | 273 | 2 |
+| [Looked-after-children-pledge-15-to-18-years.PDF](https://www.luton.gov.uk/system/files/file-visibility/2026-03/Looked-after-children-pledge-15-to-18-years.PDF) | luton.gov.uk | 2021-12-30 | 15 18 year olds | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | 301.2 KB | 292 | 2 |
 
 ## Files with Errors or Notes
 
@@ -71344,3 +71413,273 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 - **URL**: https://pdfs.semanticscholar.org/3af9/e3d2083fd46305cebb144593615ba86ea5e3.pdf
 - **Status**: error
 - Analysis exceeded 120s per-file limit
+
+### 2127793.pdf
+
+- **URL**: https://assets.publishing.service.gov.uk/media/5a756b9ee5274a3edd9a4c79/2127793.pdf
+- **Status**: analysed
+- title, headings-none, lists-warn, annotations-tagging-fail, 
+
+### Adopt-east-peer-support-line.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Health_and_social_care/Lists/LutonDocuments/PDF/Adopt-east-peer-support-line.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Advice-on-planning-bute-street.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2025-12/Advice-on-planning-bute-street.pdf
+- **Status**: analysed
+- headings-none, 
+
+### Advice-on-planning-power-court.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2025-12/Advice-on-planning-power-court.pdf
+- **Status**: analysed
+- headings-none, 
+
+### Agreed%20Academic%20Calendar%202026-27.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-03/Agreed%20Academic%20Calendar%202026-27.pdf
+- **Status**: analysed
+- headings-none, tables-fail, 
+
+### Application-for-Hedgerow-Removal-Notice-guidance_0.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-02/Application-for-Hedgerow-Removal-Notice-guidance_0.pdf
+- **Status**: analysed
+- title, lang, headings-none, lists-warn, 
+
+### Barnfield-count.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Barnfield-count.pdf
+- **Status**: analysed
+- headings-none, tables-warn, 
+
+### Beech%20Hill%20ward%20-%20proposed%20routes%20%28L103%29.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Beech%20Hill%20ward%20-%20proposed%20routes%20%28L103%29.pdf
+- **Status**: analysed
+- headings-none, 
+
+### Beech%20Hill%20ward%20-%20proposed%20routes.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Beech%20Hill%20ward%20-%20proposed%20routes.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### Beech-hill-count.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Beech-hill-count.pdf
+- **Status**: analysed
+- headings-none, tables-warn, 
+
+### Biscot-count.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Biscot-count.pdf
+- **Status**: analysed
+- headings-none, tables-warn, 
+
+### Bramingham-count.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Bramingham-count.pdf
+- **Status**: analysed
+- headings-none, tables-warn, 
+
+### Central-count.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Central-count.pdf
+- **Status**: analysed
+- headings-none, tables-warn, 
+
+### Challney-count.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Challney-count.pdf
+- **Status**: analysed
+- headings-none, tables-warn, 
+
+### Charging%20policy%20for%20non%20residential%20services%202026-27_0.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-04/Charging%20policy%20for%20non%20residential%20services%202026-27_0.pdf
+- **Status**: analysed
+- headings-skip, 
+
+### Chiltern%20Green%20CA16%20application%20form-%20redacted.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Chiltern%20Green%20CA16%20application%20form-%20redacted.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Conservation-areas-planning-advice-and-guidance-leaflet.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/migrated/Environment/Lists/LutonDocuments/PDF/Planning/Development%20Control/Conservation-areas-planning-advice-and-guidance-leaflet.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### Copt%20Hall%20and%20Someries%20Farm%20%28TL122203%29.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Copt%20Hall%20and%20Someries%20Farm%20%28TL122203%29.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Dallow-count.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Dallow-count.pdf
+- **Status**: analysed
+- headings-none, tables-warn, 
+
+### Disciplinary-procedure.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Disciplinary-procedure.pdf
+- **Status**: analysed
+- tables-warn, 
+
+### Effective%20Relationship%20and%20Health%20Education%20%28RHE%29%20Consultation.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/2026-03/Effective%20Relationship%20and%20Health%20Education%20%28RHE%29%20Consultation.pdf
+- **Status**: analysed
+- tables-warn, 
+
+### Grievance-resolution-procedure.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Grievance-resolution-procedure.pdf
+- **Status**: analysed
+- tables-warn, 
+
+### High-town-conservation-area.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/migrated/Environment/Lists/LutonDocuments/PDF/Planning/Development%20Control/High-town-conservation-area.pdf
+- **Status**: analysed
+- figures missing alt text (count=1), headings-none, 
+
+### High-town-count.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/High-town-count.pdf
+- **Status**: analysed
+- headings-none, tables-warn, 
+
+### In%20App%20Advice%20Fees%20%20-%20New%202025.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-03/In%20App%20Advice%20Fees%20%20-%20New%202025.pdf
+- **Status**: analysed
+- tables-warn, 
+
+### Independent-visitors.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Health_and_social_care/Lists/LutonDocuments/PDF/Children%20and%20Families/Independent-visitors.pdf
+- **Status**: analysed
+- headings-none, 
+
+### JSNA%20overview%20health%20social%20care%20needs%202024_1.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-05/JSNA%20overview%20health%20social%20care%20needs%202024_1.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### Joint%20Special%20Educational%20Needs%20and%20Disabilities%20Strategy%202022%20to%202025.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-02/Joint%20Special%20Educational%20Needs%20and%20Disabilities%20Strategy%202022%20to%202025.pdf
+- **Status**: analysed
+- headings-none, 
+
+### Kingsway%20Park%20area%20%28L167%20to%20L271%29.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Kingsway%20Park%20area%20%28L167%20to%20L271%29.pdf
+- **Status**: analysed
+- headings-none, 
+
+### Kinship-carer-leaflet.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/migrated/Health_and_social_care/Lists/LutonDocuments/PDF/Fostering/Kinship-carer-leaflet.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### Land%20North%20of%20Chiltern%20Green%20Map%20accompanying%20a%20notice%20of%20landowner%20deposit%20%28TL%20133208%29.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Land%20North%20of%20Chiltern%20Green%20Map%20accompanying%20a%20notice%20of%20landowner%20deposit%20%28TL%20133208%29.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Land%20off%20Weybourne%20Drive%20CA16%20application.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Land%20off%20Weybourne%20Drive%20CA16%20application.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Land%20off%20Weybourne%20Drive%20CA17%20notice%20-%20redacted.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Land%20off%20Weybourne%20Drive%20CA17%20notice%20-%20redacted.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Land%20off%20Weybourne%20Drive%20declaration%20of%20footpath%20%28TL086025511%29.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Land%20off%20Weybourne%20Drive%20declaration%20of%20footpath%20%28TL086025511%29.pdf
+- **Status**: analysed
+- figures missing alt text (count=1), headings-none, 
+
+### Land%20off%20Weybourne%20Drive%20land%20not%20dedicated%20as%20common%20land%20%28TL08602551%29.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Land%20off%20Weybourne%20Drive%20land%20not%20dedicated%20as%20common%20land%20%28TL08602551%29.pdf
+- **Status**: analysed
+- headings-none, 
+
+### Langley%20Place%20explanatory%20statement.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Langley%20Place%20explanatory%20statement.pdf
+- **Status**: analysed
+- headings-none, 
+
+### Langley%20Place%20footpath%20certified%20confirmed%20order.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Langley%20Place%20footpath%20certified%20confirmed%20order.pdf
+- **Status**: analysed
+- headings-none, 
+
+### Langley%20Place%20footpath%20notice%20of%20order.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Langley%20Place%20footpath%20notice%20of%20order.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### Langley%20Place%20site%20notice.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Langley%20Place%20site%20notice.pdf
+- **Status**: analysed
+- headings-none, 
+
+### Leagrave-count.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Leagrave-count.pdf
+- **Status**: analysed
+- headings-none, tables-warn, 
+
+### Leaving-care-financial-policy-and-guidance.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Health_and_social_care/Lists/LutonDocuments/PDF/Leaving-care-financial-policy-and-guidance.pdf
+- **Status**: analysed
+- tables-fail, 
+
+### Lewsey-count.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Lewsey-count.pdf
+- **Status**: analysed
+- headings-none, tables-warn, 
+
+### Local%20Plan%20Notice%20of%20Commencement%20with%20map.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-05/Local%20Plan%20Notice%20of%20Commencement%20with%20map.pdf
+- **Status**: analysed
+- figures missing alt text (count=1), headings-none, 
+
+### Local%20plan%20timetable_0.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-05/Local%20plan%20timetable_0.pdf
+- **Status**: analysed
+- tables-warn, 
+
+### Looked-after-children-pledge-11-to-14-years.PDF
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/2026-03/Looked-after-children-pledge-11-to-14-years.PDF
+- **Status**: analysed
+- headings-none, 
