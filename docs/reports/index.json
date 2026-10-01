@@ -4,7 +4,7 @@
     "site": "luton.gov.uk",
     "crawl_url": "https://www.luton.gov.uk/",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/36851283785",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/286#issuecomment-5930426098",
     "archive_file": "2026-10-01_11-30-57-766_luton.gov.uk.html",
     "total": 568,
     "analysed": 67,
