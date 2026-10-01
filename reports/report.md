@@ -1,16 +1,15 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-10-01T11:30:57.766233+00:00
+Generated: 2026-10-01T12:14:52.041124+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 1073 |
 | Total files tracked | 30879 |
 | Analysed | 6875 |
-| Pending analysis | 18067 |
-| Errors during analysis | 5937 |
+| Pending analysis | 17973 |
+| Errors during analysis | 6031 |
 | Accessible | 2141 |
 | Issues found | 4734 |
 | Totally inaccessible subset | 296 |
@@ -71466,7 +71465,7 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 
 - **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Beech%20Hill%20ward%20-%20proposed%20routes.pdf
 - **Status**: error
-- Analysis exceeded 120s per-file limit
+- File not found: crawled_files/luton.gov.uk/Beech%20Hill%20ward%20-%20proposed%20routes.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.138174+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### Beech-hill-count.pdf
 
@@ -71574,7 +71573,7 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 
 - **URL**: https://www.luton.gov.uk/sites/default/files/2026-05/JSNA%20overview%20health%20social%20care%20needs%202024_1.pdf
 - **Status**: error
-- Analysis exceeded 120s per-file limit
+- File not found: crawled_files/luton.gov.uk/JSNA%20overview%20health%20social%20care%20needs%202024_1.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.317181+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### Joint%20Special%20Educational%20Needs%20and%20Disabilities%20Strategy%202022%20to%202025.pdf
 
@@ -71683,3 +71682,567 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 - **URL**: https://www.luton.gov.uk/system/files/file-visibility/2026-03/Looked-after-children-pledge-11-to-14-years.PDF
 - **Status**: analysed
 - headings-none, 
+
+### Looked-after-children-pledge-disabilities.PDF
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/2026-03/Looked-after-children-pledge-disabilities.PDF
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Looked-after-children-pledge-disabilities.PDF (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.412717+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Looked-after-children-pledge-under-10s.PDF
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/2026-03/Looked-after-children-pledge-under-10s.PDF
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Looked-after-children-pledge-under-10s.PDF (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.415539+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Luton%20LAF%20Advice%20-%20SUO9407152%20-%20Wandon%20Park%20Paths%20-%2020%20January%202026.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-03/Luton%20LAF%20Advice%20-%20SUO9407152%20-%20Wandon%20Park%20Paths%20-%2020%20January%202026.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Luton%20LAF%20Advice%20-%20SUO9407152%20-%20Wandon%20Park%20Paths%20-%2020%20January%202026.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.418549+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Luton%20LAF%20Comments%20on%20Open%20Space%20Strategy%20and%20Green%20Blue%20Infrastructure%20Studies%20-%2010%20February%202026.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-03/Luton%20LAF%20Comments%20on%20Open%20Space%20Strategy%20and%20Green%20Blue%20Infrastructure%20Studies%20-%2010%20February%202026.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Luton%20LAF%20Comments%20on%20Open%20Space%20Strategy%20and%20Green%20Blue%20Infrastructure%20Studies%20-%2010%20February%202026.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.421731+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Luton%20LAF%20Feedback%20on%20Draft%20LTP5%20-%203%20March%202026.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-03/Luton%20LAF%20Feedback%20on%20Draft%20LTP5%20-%203%20March%202026.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Luton%20LAF%20Feedback%20on%20Draft%20LTP5%20-%203%20March%202026.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.424856+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Luton%20LAF%20Feedback%20on%20Local%20Transport%20Plan%20%28LTP5%29%20-%2012%20March%202025.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-03/Luton%20LAF%20Feedback%20on%20Local%20Transport%20Plan%20%28LTP5%29%20-%2012%20March%202025.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Luton%20LAF%20Feedback%20on%20Local%20Transport%20Plan%20%28LTP5%29%20-%2012%20March%202025.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.427438+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Luton%20LAF%20Feedback%20on%20Luton%20Local%20Plan%20%28LLP%29%20-%2012%20March%202025.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-03/Luton%20LAF%20Feedback%20on%20Luton%20Local%20Plan%20%28LLP%29%20-%2012%20March%202025.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Luton%20LAF%20Feedback%20on%20Luton%20Local%20Plan%20%28LLP%29%20-%2012%20March%202025.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.430265+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Luton%20Local%20Access%20Forum%20Agenda%20meeting%207.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-03/Luton%20Local%20Access%20Forum%20Agenda%20meeting%207.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Luton%20Local%20Access%20Forum%20Agenda%20meeting%207.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.433302+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Luton%20Local%20Access%20Forum%20Meeting%206%2C%20minutes.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-03/Luton%20Local%20Access%20Forum%20Meeting%206%2C%20minutes.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Luton%20Local%20Access%20Forum%20Meeting%206%2C%20minutes.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.436300+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Luton%20primary%20RHE%20resources%20quality%20assurance.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/2026-03/Luton%20primary%20RHE%20resources%20quality%20assurance.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Luton%20primary%20RHE%20resources%20quality%20assurance.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.439560+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Luton-Bus-Map.PDF
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2025-12/Luton-Bus-Map.PDF
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Luton-Bus-Map.PDF (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.449413+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Luton-Enhanced-Partnership-Scheme.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Luton-Enhanced-Partnership-Scheme.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Luton-Enhanced-Partnership-Scheme.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.459830+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Luton-south-conservation-area.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/migrated/Environment/Lists/LutonDocuments/PDF/Planning/Development%20Control/Luton-south-conservation-area.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Luton-south-conservation-area.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.467827+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Luton-transition-to-adulthood-for-independence.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Health_and_social_care/Lists/LutonDocuments/PDF/Luton-transition-to-adulthood-for-independence.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Luton-transition-to-adulthood-for-independence.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.474661+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Lynwood%20Avenue%20CA16%20application%20form.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Lynwood%20Avenue%20CA16%20application%20form.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Lynwood%20Avenue%20CA16%20application%20form.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.498604+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Lynwood%20Avenue%20Plan%20%28TL0923%20and%20TL1023%29.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Lynwood%20Avenue%20Plan%20%28TL0923%20and%20TL1023%29.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Lynwood%20Avenue%20Plan%20%28TL0923%20and%20TL1023%29.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.506295+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Marlborough%20Path%20%28L112%29.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Marlborough%20Path%20%28L112%29.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Marlborough%20Path%20%28L112%29.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.512540+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Members%20Allowances%202024-2025_2.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-05/Members%20Allowances%202024-2025_2.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Members%20Allowances%202024-2025_2.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.516273+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Members%20Allowances%20Statement%2025-26_0.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-05/Members%20Allowances%20Statement%2025-26_0.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Members%20Allowances%20Statement%2025-26_0.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.519329+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Members_expenses_2023_2024.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Members_expenses_2023_2024.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Members_expenses_2023_2024.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.522133+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Montrose%20Path%20%28L182%29.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Montrose%20Path%20%28L182%29.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Montrose%20Path%20%28L182%29.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.526192+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Newark%20road%20path%20%28L111%29.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Newark%20road%20path%20%28L111%29.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Newark%20road%20path%20%28L111%29.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.531137+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Noise-control-at-outdoor-events-with-music.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-02/Noise-control-at-outdoor-events-with-music.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Noise-control-at-outdoor-events-with-music.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.533999+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Noise-control-at-outdoor-events_0.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-02/Noise-control-at-outdoor-events_0.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Noise-control-at-outdoor-events_0.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.536632+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Northwell-count.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Northwell-count.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Northwell-count.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.539003+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### PARO-Bedfordshire-result.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/PCC-2024/PARO-Bedfordshire-result.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/PARO-Bedfordshire-result.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.541441+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Parent-governor-representatives-election-notification.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-02/Parent-governor-representatives-election-notification.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Parent-governor-representatives-election-notification.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.543883+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Part%204A%20-%20Code%20of%20Conduct%20for%20Members.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-06/Part%204A%20-%20Code%20of%20Conduct%20for%20Members.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Part%204A%20-%20Code%20of%20Conduct%20for%20Members.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.547371+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Part%204B%20-%20Scheme%20of%20Members%20Allowances.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-06/Part%204B%20-%20Scheme%20of%20Members%20Allowances.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Part%204B%20-%20Scheme%20of%20Members%20Allowances.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.550515+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Part-1-introduction.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Part-1-introduction.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Part-1-introduction.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.553347+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Part-2-A-articles-of-the-constitution.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Part-2-A-articles-of-the-constitution.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Part-2-A-articles-of-the-constitution.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.556414+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Part-2-B-responsibility-for-functions.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Part-2-B-responsibility-for-functions.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Part-2-B-responsibility-for-functions.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.559631+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Part-3-B-banking-and-cash-handling-procedures.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Part-3-B-banking-and-cash-handling-procedures.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Part-3-B-banking-and-cash-handling-procedures.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.562551+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Part-3-B-financial-management-and-planning.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Part-3-B-financial-management-and-planning.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Part-3-B-financial-management-and-planning.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.565274+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Part-3-B-financial-regulations.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Part-3-B-financial-regulations.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Part-3-B-financial-regulations.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.570401+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Part-3-B-financial-systems-and-procedures.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Part-3-B-financial-systems-and-procedures.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Part-3-B-financial-systems-and-procedures.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.574985+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Part-3-B-partnerships-and-external-arrangements.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Part-3-B-partnerships-and-external-arrangements.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Part-3-B-partnerships-and-external-arrangements.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.578216+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Part-3-B-risk-management-and-controls.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Part-3-B-risk-management-and-controls.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Part-3-B-risk-management-and-controls.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.581203+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Part-3a-standing-orders.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Part-3a-standing-orders.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Part-3a-standing-orders.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.585240+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Part-4-C-protocol-for-member-and-officer-relations.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Part-4-C-protocol-for-member-and-officer-relations.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Part-4-C-protocol-for-member-and-officer-relations.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.588337+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Part-5-A-statutory-and-proper-officers.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Part-5-A-statutory-and-proper-officers.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Part-5-A-statutory-and-proper-officers.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.591503+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Part-5-B-scheme-of-delegation-to-officers.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Part-5-B-scheme-of-delegation-to-officers.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Part-5-B-scheme-of-delegation-to-officers.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.595683+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Part-6-A-protocols-and-conventions.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Part-6-A-protocols-and-conventions.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Part-6-A-protocols-and-conventions.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.599014+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Part-6-B-code-of-conduct-for-employees.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Part-6-B-code-of-conduct-for-employees.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Part-6-B-code-of-conduct-for-employees.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.602033+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Part-6-C-whistle-blowing-policy.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Part-6-C-whistle-blowing-policy.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Part-6-C-whistle-blowing-policy.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.604957+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Plaiters-Lea-The-Hat-District-boundary.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/migrated/Environment/Lists/LutonDocuments/PDF/Planning/Development%20Control/Plaiters-Lea-The-Hat-District-boundary.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Plaiters-Lea-The-Hat-District-boundary.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.608281+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Plaiters-lea-conservation-area.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/migrated/Environment/Lists/LutonDocuments/PDF/Planning/Development%20Control/Plaiters-lea-conservation-area.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Plaiters-lea-conservation-area.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.612988+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Planning%20and%20noise%20guide_0_0.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-02/Planning%20and%20noise%20guide_0_0.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Planning%20and%20noise%20guide_0_0.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.616143+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Poets-count.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Poets-count.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Poets-count.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.618814+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Possible-vacancies-year-10_2.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-09/Possible-vacancies-year-10_2.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Possible-vacancies-year-10_2.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.621539+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Possible-vacancies-year-11_2.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-09/Possible-vacancies-year-11_2.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Possible-vacancies-year-11_2.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.624199+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Possible-vacancies-year-1_2.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-09/Possible-vacancies-year-1_2.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Possible-vacancies-year-1_2.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.626778+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Possible-vacancies-year-2_3.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-09/Possible-vacancies-year-2_3.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Possible-vacancies-year-2_3.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.629340+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Possible-vacancies-year-3_2.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-09/Possible-vacancies-year-3_2.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Possible-vacancies-year-3_2.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.633029+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Possible-vacancies-year-4_2.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-09/Possible-vacancies-year-4_2.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Possible-vacancies-year-4_2.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.636163+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Possible-vacancies-year-5_2.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-09/Possible-vacancies-year-5_2.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Possible-vacancies-year-5_2.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.639183+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Possible-vacancies-year-6_2.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-09/Possible-vacancies-year-6_2.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Possible-vacancies-year-6_2.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.642086+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Possible-vacancies-year-7_2.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-09/Possible-vacancies-year-7_2.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Possible-vacancies-year-7_2.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.644862+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Possible-vacancies-year-8_2.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-09/Possible-vacancies-year-8_2.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Possible-vacancies-year-8_2.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.647576+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Possible-vacancies-year-9_2.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-09/Possible-vacancies-year-9_2.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Possible-vacancies-year-9_2.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.650232+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Possible-vacancies-year-R_2.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-09/Possible-vacancies-year-R_2.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Possible-vacancies-year-R_2.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.652791+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Proposed%20resourced%20provision%20at%20Wigmore%20Primary%20School.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-03/Proposed%20resourced%20provision%20at%20Wigmore%20Primary%20School.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Proposed%20resourced%20provision%20at%20Wigmore%20Primary%20School.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.656151+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Public-notice-Luton-indoor-bowls-club.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/migrated/Environment/Lists/LutonDocuments/PDF/Public-notice-Luton-indoor-bowls-club.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Public-notice-Luton-indoor-bowls-club.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.658756+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### RHE%20primary%20schools%20guide%20for%20parents.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/2026-03/RHE%20primary%20schools%20guide%20for%20parents.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/RHE%20primary%20schools%20guide%20for%20parents.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.662193+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### RSHE%20secondary%20schools%20guide%20for%20parents.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/2026-03/RSHE%20secondary%20schools%20guide%20for%20parents.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/RSHE%20secondary%20schools%20guide%20for%20parents.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.665400+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Relationships%20and%20health%20education%20query%20flowchart%20.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-03/Relationships%20and%20health%20education%20query%20flowchart%20.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Relationships%20and%20health%20education%20query%20flowchart%20.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.669252+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Relationships%2C%20Sex%20and%20Health%20Education%20%28RSHE%29%20Luton%20Primary%20Schools.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/2026-03/Relationships%2C%20Sex%20and%20Health%20Education%20%28RSHE%29%20Luton%20Primary%20Schools.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Relationships%2C%20Sex%20and%20Health%20Education%20%28RSHE%29%20Luton%20Primary%20Schools.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.673062+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Rothesay-road-conservation-area.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/migrated/Environment/Lists/LutonDocuments/PDF/Planning/Development%20Control/Rothesay-road-conservation-area.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Rothesay-road-conservation-area.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.676425+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Round-green-count.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Round-green-count.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Round-green-count.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.680460+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SCA-Dunstable-Road-Beresford-Road-safety-camera-accident-data-form-2018.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2025-12/SCA-Dunstable-Road-Beresford-Road-safety-camera-accident-data-form-2018.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/SCA-Dunstable-Road-Beresford-Road-safety-camera-accident-data-form-2018.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.685726+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SCA-Farley-Hill-safety-camera-accident-data-form-2018.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2025-12/SCA-Farley-Hill-safety-camera-accident-data-form-2018.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/SCA-Farley-Hill-safety-camera-accident-data-form-2018.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.690747+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SCA-Hitchin-Road-safety-camera-accident-data-form-2018.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2025-12/SCA-Hitchin-Road-safety-camera-accident-data-form-2018.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/SCA-Hitchin-Road-safety-camera-accident-data-form-2018.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.694946+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SCA-Stuart-Street-15-safety-camera-accident-data-form-2018.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2025-12/SCA-Stuart-Street-15-safety-camera-accident-data-form-2018.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/SCA-Stuart-Street-15-safety-camera-accident-data-form-2018.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.698419+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SCA-Sundon-Park-Road-safety-camera-accident-data-form-2018.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2025-12/SCA-Sundon-Park-Road-safety-camera-accident-data-form-2018.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/SCA-Sundon-Park-Road-safety-camera-accident-data-form-2018.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.701542+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SCA-Toddington-Road-safety-camera-accident-data-form-2018.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2025-12/SCA-Toddington-Road-safety-camera-accident-data-form-2018.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/SCA-Toddington-Road-safety-camera-accident-data-form-2018.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.704444+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Safety-Certificate.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-03/Safety-Certificate.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Safety-Certificate.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.708790+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Saints-count.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Saints-count.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Saints-count.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.711397+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Salt%20Bin%20Schedule.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-03/Salt%20Bin%20Schedule.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Salt%20Bin%20Schedule.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.713819+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Self-employed%20earnings%20for%20Council%20Tax%20Reduction.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2025-11/Self-employed%20earnings%20for%20Council%20Tax%20Reduction.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Self-employed%20earnings%20for%20Council%20Tax%20Reduction.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.716227+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Sessional-advocate.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Health_and_social_care/Lists/LutonDocuments/PDF/Children%20and%20Families/Sessional-advocate.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Sessional-advocate.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.718816+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Social%20care%20services%20DD%20form.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Corporate%20Finance/Payments/Social%20care%20services%20DD%20form.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Social%20care%20services%20DD%20form.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.721175+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### South-count.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/South-count.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/South-count.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.723564+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Stanmore%20Crescen%20and%20Icknield%20Road%20Section%2053.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Stanmore%20Crescen%20and%20Icknield%20Road%20Section%2053.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Stanmore%20Crescen%20and%20Icknield%20Road%20Section%2053.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.726271+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Stanmore%20Crescent%20ad%20Icknield%20Road%20statement%20of%20reasons.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Stanmore%20Crescent%20ad%20Icknield%20Road%20statement%20of%20reasons.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Stanmore%20Crescent%20ad%20Icknield%20Road%20statement%20of%20reasons.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.729143+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Stanmore%20Crescent%20and%20Icknield%20Road%20certified%20confirmed%20order.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Stanmore%20Crescent%20and%20Icknield%20Road%20certified%20confirmed%20order.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Stanmore%20Crescent%20and%20Icknield%20Road%20certified%20confirmed%20order.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.733376+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Stanmore%20Crescent%20and%20Icknield%20Road%20map.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Stanmore%20Crescent%20and%20Icknield%20Road%20map.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Stanmore%20Crescent%20and%20Icknield%20Road%20map.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.738807+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Stanmore%20Crescent%20and%20Icknield%20Road%20planning%20inspectorate%20order%20decision.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Stanmore%20Crescent%20and%20Icknield%20Road%20planning%20inspectorate%20order%20decision.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Stanmore%20Crescent%20and%20Icknield%20Road%20planning%20inspectorate%20order%20decision.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.743207+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Statutory_guidance_on_children_who_run_away_or_go_missing_from_home_or_care_consultation_-_final.pdf
+
+- **URL**: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/208528/Statutory_guidance_on_children_who_run_away_or_go_missing_from_home_or_care_consultation_-_final.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Statutory_guidance_on_children_who_run_away_or_go_missing_from_home_or_care_consultation_-_final.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.746917+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Stopsley-count.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Stopsley-count.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Stopsley-count.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.749740+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Streatley%20and%20Luton%20definitive%20map%20modification%20order.pdf
+
+- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Streatley%20and%20Luton%20definitive%20map%20modification%20order.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Streatley%20and%20Luton%20definitive%20map%20modification%20order.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.753083+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Sundon-park-count.pdf
+
+- **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Sundon-park-count.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/Sundon-park-count.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.755667+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### TPO_E107001%20Lime%20Avenue%201960_Order.pdf
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107001%20Lime%20Avenue%201960_Order.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/TPO_E107001%20Lime%20Avenue%201960_Order.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.759396+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### TPO_E107001%20Lime%20Avenue%201960_Plan.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107001%20Lime%20Avenue%201960_Plan.PDF
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/TPO_E107001%20Lime%20Avenue%201960_Plan.PDF (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.762426+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### TPO_E107002%20Dunstable%20Road%201960_Order.pdf
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107002%20Dunstable%20Road%201960_Order.pdf
+- **Status**: error
+- File not found: crawled_files/luton.gov.uk/TPO_E107002%20Dunstable%20Road%201960_Order.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.768665+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
