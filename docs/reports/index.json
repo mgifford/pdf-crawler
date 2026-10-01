@@ -22,12 +22,12 @@
     "date": "2026-10-01T12:14:52.041124+00:00",
     "site": "luton.gov.uk",
     "crawl_url": "https://www.luton.gov.uk/",
-    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/36855903388",
-    "issue_url": "",
-    "archive_file": "2026-10-01_12-14-52-041_luton.gov.uk.html",
-    "total": 568,
-    "analysed": 67,
-    "accessible": 50,
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/36858820266",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/287#issuecomment-5931709842",
+    "archive_file": "2026-10-01_12-42-39-885_luton.gov.uk.html",
+    "total": 976,
+    "analysed": 113,
+    "accessible": 83,
     "analysis_engines": [
       "original"
     ],

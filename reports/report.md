@@ -14,7 +14,7 @@ Generated: 2026-10-01T12:59:24.961059+00:00
 | Issues found | 4734 |
 | Totally inaccessible subset | 296 |
 | Broken / unreadable | 30 |
-| Exempt (pre-2018) | 1539 |
+| Exempt (pre-2018) | 1541 |
 
 ## Files per Site
 
@@ -6988,6 +6988,52 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 | [Local%20plan%20timetable_0.pdf](https://www.luton.gov.uk/sites/default/files/2026-05/Local%20plan%20timetable_0.pdf) | luton.gov.uk | 2026-05-28 | Local Plan Timetable - May 2026 | Thom, Chris | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 5 | 131.1 KB | 1133 | 0 |
 | [Looked-after-children-pledge-11-to-14-years.PDF](https://www.luton.gov.uk/system/files/file-visibility/2026-03/Looked-after-children-pledge-11-to-14-years.PDF) | luton.gov.uk | 2021-12-30 | 11-14 year olds | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 333.8 KB | 273 | 2 |
 | [Looked-after-children-pledge-15-to-18-years.PDF](https://www.luton.gov.uk/system/files/file-visibility/2026-03/Looked-after-children-pledge-15-to-18-years.PDF) | luton.gov.uk | 2021-12-30 | 15 18 year olds | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | 301.2 KB | 292 | 2 |
+| [Luton%20LAF%20Advice%20-%20SUO9407152%20-%20Wandon%20Park%20Paths%20-%2020%20January%202026.pdf](https://www.luton.gov.uk/sites/default/files/2026-03/Luton%20LAF%20Advice%20-%20SUO9407152%20-%20Wandon%20Park%20Paths%20-%2020%20January%202026.pdf) | luton.gov.uk | 2026-03-30 | Luton local access forum advice on Wandon Park | Luton local access forum | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 234.4 KB | 668 | 2 |
+| [Luton%20LAF%20Comments%20on%20Open%20Space%20Strategy%20and%20Green%20Blue%20Infrastructure%20Studies%20-%2010%20February%202026.pdf](https://www.luton.gov.uk/sites/default/files/2026-03/Luton%20LAF%20Comments%20on%20Open%20Space%20Strategy%20and%20Green%20Blue%20Infrastructure%20Studies%20-%2010%20February%202026.pdf) | luton.gov.uk | 2026-03-30 | Luton LAF Comments on Open Space Strategy and Green  Blue Infrastructure Studies  - 10 February 2026 | Louis Upton | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 5 | 320.5 KB | 1838 | 5 |
+| [Luton%20LAF%20Feedback%20on%20Draft%20LTP5%20-%203%20March%202026.pdf](https://www.luton.gov.uk/sites/default/files/2026-03/Luton%20LAF%20Feedback%20on%20Draft%20LTP5%20-%203%20March%202026.pdf) | luton.gov.uk | 2026-03-24 | Luton local access forum feedback on the draft local transport plan (LTP5) | Louis Upton | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 313.9 KB | 1659 | 4 |
+| [Luton%20LAF%20Feedback%20on%20Local%20Transport%20Plan%20%28LTP5%29%20-%2012%20March%202025.pdf](https://www.luton.gov.uk/sites/default/files/2026-03/Luton%20LAF%20Feedback%20on%20Local%20Transport%20Plan%20%28LTP5%29%20-%2012%20March%202025.pdf) | luton.gov.uk | 2026-03-30 | Luton LAF Feedback on Local Transport Plan (LTP5) | Louis | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 78.6 KB | 950 | 0 |
+| [Luton%20LAF%20Feedback%20on%20Luton%20Local%20Plan%20%28LLP%29%20-%2012%20March%202025.pdf](https://www.luton.gov.uk/sites/default/files/2026-03/Luton%20LAF%20Feedback%20on%20Luton%20Local%20Plan%20%28LLP%29%20-%2012%20March%202025.pdf) | luton.gov.uk | 2026-03-30 | TCB Integration – Working Notes | Louis | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 7 | 181.6 KB | 2718 | 0 |
+| [Luton%20Local%20Access%20Forum%20Agenda%20meeting%207.pdf](https://www.luton.gov.uk/sites/default/files/2026-03/Luton%20Local%20Access%20Forum%20Agenda%20meeting%207.pdf) | luton.gov.uk | 2026-03-24 | Luton local access forum agenda meeting 7 | Sarah Smart | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 234.9 KB | 415 | 2 |
+| [Luton%20Local%20Access%20Forum%20Meeting%206%2C%20minutes.pdf](https://www.luton.gov.uk/sites/default/files/2026-03/Luton%20Local%20Access%20Forum%20Meeting%206%2C%20minutes.pdf) | luton.gov.uk | 2026-03-30 | Luton local access forum minutes, meeting 6 | Sarah Smart | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 6 | 183.1 KB | 1734 | 0 |
+| [Luton-Bus-Map.PDF](https://www.luton.gov.uk/sites/default/files/2025-12/Luton-Bus-Map.PDF) | luton.gov.uk | 2020-07-20 | Luton_Bus_Map_COMPLETE.ai | MAC029 | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 2.7 MB | 6066 | 0 |
+| [Luton-Enhanced-Partnership-Scheme.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Luton-Enhanced-Partnership-Scheme.pdf) | luton.gov.uk | 2023-01-13 | Luton Borough Council Enhanced Partnership Scheme | Nova.Constable@luton.gov.uk;Avinov Karmacharya;Steven Lain | — | Bus Service Improvement Plan, Luton, Enhanced Partnership Plan and Schemes;EP;Department for Transport;DfT;National Bus Strategy;BSIP | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 53 | 2.5 MB | 23376 | 16 |
+| [Luton-south-conservation-area.pdf](https://www.luton.gov.uk/sites/default/files/migrated/Environment/Lists/LutonDocuments/PDF/Planning/Development%20Control/Luton-south-conservation-area.pdf) | luton.gov.uk | 2021-11-24 | Luton South conservation area | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 732.8 KB | 129 | 1 |
+| [Lynwood%20Avenue%20Plan%20%28TL0923%20and%20TL1023%29.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Lynwood%20Avenue%20Plan%20%28TL0923%20and%20TL1023%29.pdf) | luton.gov.uk | — | Lynwood Avenue Plan | katechiam | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 899.1 KB | 29 | 8 |
+| [Marlborough%20Path%20%28L112%29.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Marlborough%20Path%20%28L112%29.pdf) | luton.gov.uk | 2025-07-02 | A3 - DC113 | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ❌ Fail | 1 | 722.6 KB | 126 | 0 |
+| [Montrose%20Path%20%28L182%29.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Montrose%20Path%20%28L182%29.pdf) | luton.gov.uk | 2025-07-02 | A3 - DC110 | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ❌ Fail | 1 | 680.3 KB | 133 | 2 |
+| [Newark%20road%20path%20%28L111%29.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Newark%20road%20path%20%28L111%29.pdf) | luton.gov.uk | 2025-07-02 | A2 - DC106 DWG | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | 968.4 KB | 130 | 0 |
+| [Noise-control-at-outdoor-events-with-music.pdf](https://www.luton.gov.uk/sites/default/files/2026-02/Noise-control-at-outdoor-events-with-music.pdf) | luton.gov.uk | 2022-09-29 | _J Churchill | Support | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 119.2 KB | 1332 | 2 |
+| [Noise-control-at-outdoor-events_0.pdf](https://www.luton.gov.uk/sites/default/files/2026-02/Noise-control-at-outdoor-events_0.pdf) | luton.gov.uk | 2022-09-29 | _J Churchill | Support | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 101.7 KB | 512 | 1 |
+| [Plaiters-Lea-The-Hat-District-boundary.pdf](https://www.luton.gov.uk/sites/default/files/migrated/Environment/Lists/LutonDocuments/PDF/Planning/Development%20Control/Plaiters-Lea-The-Hat-District-boundary.pdf) | luton.gov.uk | 2020-09-03 | Plaiters Lea - The hat district boundary | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 328.5 KB | 50 | 1 |
+| [Plaiters-lea-conservation-area.pdf](https://www.luton.gov.uk/sites/default/files/migrated/Environment/Lists/LutonDocuments/PDF/Planning/Development%20Control/Plaiters-lea-conservation-area.pdf) | luton.gov.uk | 2021-11-24 | Plaiters Lea conservation area | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | 851.0 KB | 84 | 1 |
+| [Planning%20and%20noise%20guide_0_0.pdf](https://www.luton.gov.uk/sites/default/files/2026-02/Planning%20and%20noise%20guide_0_0.pdf) | luton.gov.uk | 2025-10-16 | Planning and noise guidance | Nova.Constable@luton.gov.uk | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 5 | 180.3 KB | 1499 | 2 |
+| [Possible-vacancies-year-10_2.pdf](https://www.luton.gov.uk/sites/default/files/2026-09/Possible-vacancies-year-10_2.pdf) | luton.gov.uk | 2026-09-29 | Possible-vacancies-year-10 | Nova.Constable@luton.gov.uk | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 164.7 KB | 261 | 2 |
+| [Possible-vacancies-year-11_2.pdf](https://www.luton.gov.uk/sites/default/files/2026-09/Possible-vacancies-year-11_2.pdf) | luton.gov.uk | 2026-09-29 | Possible-vacancies-year-11 | Nova.Constable@luton.gov.uk | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 160.9 KB | 237 | 2 |
+| [Possible-vacancies-year-7_2.pdf](https://www.luton.gov.uk/sites/default/files/2026-09/Possible-vacancies-year-7_2.pdf) | luton.gov.uk | 2026-09-29 | Possible-vacancies-year-7 | Nova.Constable@luton.gov.uk | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 154.3 KB | 208 | 2 |
+| [Possible-vacancies-year-8_2.pdf](https://www.luton.gov.uk/sites/default/files/2026-09/Possible-vacancies-year-8_2.pdf) | luton.gov.uk | 2026-09-29 | Possible-vacancies-year-8 | Nova.Constable@luton.gov.uk | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 160.7 KB | 235 | 2 |
+| [Possible-vacancies-year-9_2.pdf](https://www.luton.gov.uk/sites/default/files/2026-09/Possible-vacancies-year-9_2.pdf) | luton.gov.uk | 2026-09-29 | Possible-vacancies-year-9 | Nova.Constable@luton.gov.uk | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 160.8 KB | 232 | 2 |
+| [Proposed%20resourced%20provision%20at%20Wigmore%20Primary%20School.pdf](https://www.luton.gov.uk/sites/default/files/2026-03/Proposed%20resourced%20provision%20at%20Wigmore%20Primary%20School.pdf) | luton.gov.uk | 2025-06-16 | Accessing planning information online | Nova.Constable@luton.gov.uk | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 14 | 443.6 KB | 4322 | 24 |
+| [Public-notice-Luton-indoor-bowls-club.pdf](https://www.luton.gov.uk/sites/default/files/migrated/Environment/Lists/LutonDocuments/PDF/Public-notice-Luton-indoor-bowls-club.pdf) | luton.gov.uk | 2023-11-01 | Notice of intention to dispose of a community asset section 95 | Davie, Mark | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 107.5 KB | 449 | 0 |
+| [Relationships%20and%20health%20education%20query%20flowchart%20.pdf](https://www.luton.gov.uk/sites/default/files/2026-03/Relationships%20and%20health%20education%20query%20flowchart%20.pdf) | luton.gov.uk | 2021-11-23 | RHE query flowchart | Forsythe, Christina | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 583.0 KB | 166 | 1 |
+| [Rothesay-road-conservation-area.pdf](https://www.luton.gov.uk/sites/default/files/migrated/Environment/Lists/LutonDocuments/PDF/Planning/Development%20Control/Rothesay-road-conservation-area.pdf) | luton.gov.uk | 2021-11-24 | Rothesay Road conservation area | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 308.3 KB | 114 | 1 |
+| [SCA-Dunstable-Road-Beresford-Road-safety-camera-accident-data-form-2018.pdf](https://www.luton.gov.uk/sites/default/files/2025-12/SCA-Dunstable-Road-Beresford-Road-safety-camera-accident-data-form-2018.pdf) | luton.gov.uk | 2021-06-28 | Safety Camera Location: | Administrator | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | ❌ Fail | 3 | 445.6 KB | 358 | 3 |
+| [SCA-Farley-Hill-safety-camera-accident-data-form-2018.pdf](https://www.luton.gov.uk/sites/default/files/2025-12/SCA-Farley-Hill-safety-camera-accident-data-form-2018.pdf) | luton.gov.uk | 2020-11-18 | Safety Camera Location: | Administrator | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | ❌ Fail | 3 | 698.6 KB | 391 | 3 |
+| [SCA-Hitchin-Road-safety-camera-accident-data-form-2018.pdf](https://www.luton.gov.uk/sites/default/files/2025-12/SCA-Hitchin-Road-safety-camera-accident-data-form-2018.pdf) | luton.gov.uk | 2020-11-18 | Safety Camera Location: | Administrator | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | ❌ Fail | 3 | 505.8 KB | 355 | 3 |
+| [SCA-Stuart-Street-15-safety-camera-accident-data-form-2018.pdf](https://www.luton.gov.uk/sites/default/files/2025-12/SCA-Stuart-Street-15-safety-camera-accident-data-form-2018.pdf) | luton.gov.uk | 2021-08-05 | Safety Camera Location: | Administrator | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | ✅ Pass | ❌ Fail | 3 | 365.1 KB | 501 | 2 |
+| [SCA-Sundon-Park-Road-safety-camera-accident-data-form-2018.pdf](https://www.luton.gov.uk/sites/default/files/2025-12/SCA-Sundon-Park-Road-safety-camera-accident-data-form-2018.pdf) | luton.gov.uk | 2021-08-19 | Safety Camera Location: | Administrator | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | ✅ Pass | ❌ Fail | 3 | 294.2 KB | 606 | 2 |
+| [SCA-Toddington-Road-safety-camera-accident-data-form-2018.pdf](https://www.luton.gov.uk/sites/default/files/2025-12/SCA-Toddington-Road-safety-camera-accident-data-form-2018.pdf) | luton.gov.uk | 2021-10-12 | Safety Camera Location: | Administrator | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | ✅ Pass | ❌ Fail | 3 | 239.0 KB | 602 | 2 |
+| [Salt%20Bin%20Schedule.pdf](https://www.luton.gov.uk/sites/default/files/2026-03/Salt%20Bin%20Schedule.pdf) | luton.gov.uk | 2021-08-19 | Salt Bin Schedule | Aaronson, Mark | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | ❌ Fail | ❌ Fail | 6 | 79.8 KB | 1537 | 0 |
+| [Self-employed%20earnings%20for%20Council%20Tax%20Reduction.pdf](https://www.luton.gov.uk/sites/default/files/2025-11/Self-employed%20earnings%20for%20Council%20Tax%20Reduction.pdf) | luton.gov.uk | 2025-11-26 | Self-employed earnings for Council Tax Reduction | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | ❌ Fail | ❌ Fail | 5 | 110.0 KB | 552 | 0 |
+| [Social%20care%20services%20DD%20form.pdf](https://www.luton.gov.uk/sites/default/files/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Corporate%20Finance/Payments/Social%20care%20services%20DD%20form.pdf) | luton.gov.uk | 2009-04-06 | — | Siobhan | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | ✅ Pass | 1 | 38.1 KB | 314 | 2 |
+| [Stanmore%20Crescen%20and%20Icknield%20Road%20Section%2053.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Stanmore%20Crescen%20and%20Icknield%20Road%20Section%2053.pdf) | luton.gov.uk | 2023-02-28 | Section 53 L075 Stanmore Crescent/Icknield Road | Dove, Keith | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 200.0 KB | 467 | 1 |
+| [Stanmore%20Crescent%20ad%20Icknield%20Road%20statement%20of%20reasons.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Stanmore%20Crescent%20ad%20Icknield%20Road%20statement%20of%20reasons.pdf) | luton.gov.uk | 2023-02-28 | L075 Stanmore Crescent/Icknield Road statement of reasons | Dove, Keith | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 238.1 KB | 710 | 1 |
+| [Stanmore%20Crescent%20and%20Icknield%20Road%20certified%20confirmed%20order.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Stanmore%20Crescent%20and%20Icknield%20Road%20certified%20confirmed%20order.pdf) | luton.gov.uk | 2025-01-30 | Confirmed order | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 718.4 KB | 577 | 9 |
+| [Stanmore%20Crescent%20and%20Icknield%20Road%20map.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Stanmore%20Crescent%20and%20Icknield%20Road%20map.pdf) | luton.gov.uk | 2023-02-28 | Stanmore Crescent/Icknield Road map | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ❌ Fail | 1 | 1.0 MB | 1017 | 0 |
+| [Stanmore%20Crescent%20and%20Icknield%20Road%20planning%20inspectorate%20order%20decision.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Stanmore%20Crescent%20and%20Icknield%20Road%20planning%20inspectorate%20order%20decision.pdf) | luton.gov.uk | 2025-01-30 | Heading 9 | Behn, Annmarie | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 9 | 508.1 KB | 3634 | 2 |
+| [Statutory_guidance_on_children_who_run_away_or_go_missing_from_home_or_care_consultation_-_final.pdf](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/208528/Statutory_guidance_on_children_who_run_away_or_go_missing_from_home_or_care_consultation_-_final.pdf) | luton.gov.uk *(ext: assets.publishing.service.gov.uk)* | 2013-06-24 | Statutory guidance on children who runaway or go missing from home or care | ICHANDA | Statutory guidance on children who runaway or go missing from home or care | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ❌ Fail | ✅ Pass | 26 | 297.1 KB | 7429 | 2 |
+| [Streatley%20and%20Luton%20definitive%20map%20modification%20order.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Streatley%20and%20Luton%20definitive%20map%20modification%20order.pdf) | luton.gov.uk | 2021-04-20 | BHS DMMO Map | Will Steel | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | 331.7 KB | 92 | 1 |
+| [TPO_E107001%20Lime%20Avenue%201960_Order.pdf](https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107001%20Lime%20Avenue%201960_Order.pdf) | luton.gov.uk | — | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 524.3 KB | 0 | 7 |
+| [TPO_E107001%20Lime%20Avenue%201960_Plan.PDF](https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107001%20Lime%20Avenue%201960_Plan.PDF) | luton.gov.uk | — | DC TPO Orders Data Tree Preservation Order 1960 | DC | — | HUGH SYMONS Hardcopy Tree Preservation Order 1960 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 232.6 KB | 0 | 2 |
 
 ## Files with Errors or Notes
 
@@ -72161,88 +72207,70 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 
 - **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Health_and_social_care/Lists/LutonDocuments/PDF/Children%20and%20Families/Sessional-advocate.pdf
 - **Status**: error
-- File not found: crawled_files/luton.gov.uk/Sessional-advocate.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.718816+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/luton.gov.uk/Sessional-advocate.pdf (crawled 0.1 day(s) ago at 2026-10-01T10:45:06.718816+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### Social%20care%20services%20DD%20form.pdf
 
 - **URL**: https://www.luton.gov.uk/sites/default/files/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Corporate%20Finance/Payments/Social%20care%20services%20DD%20form.pdf
-- **Status**: error
-- File not found: crawled_files/luton.gov.uk/Social%20care%20services%20DD%20form.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.721175+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, headings-skip, 
 
 ### South-count.pdf
 
 - **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/South-count.pdf
 - **Status**: error
-- File not found: crawled_files/luton.gov.uk/South-count.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.723564+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/luton.gov.uk/South-count.pdf (crawled 0.1 day(s) ago at 2026-10-01T10:45:06.723564+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### Stanmore%20Crescen%20and%20Icknield%20Road%20Section%2053.pdf
 
 - **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Stanmore%20Crescen%20and%20Icknield%20Road%20Section%2053.pdf
-- **Status**: error
-- File not found: crawled_files/luton.gov.uk/Stanmore%20Crescen%20and%20Icknield%20Road%20Section%2053.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.726271+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- headings-none, 
 
 ### Stanmore%20Crescent%20ad%20Icknield%20Road%20statement%20of%20reasons.pdf
 
 - **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Stanmore%20Crescent%20ad%20Icknield%20Road%20statement%20of%20reasons.pdf
-- **Status**: error
-- File not found: crawled_files/luton.gov.uk/Stanmore%20Crescent%20ad%20Icknield%20Road%20statement%20of%20reasons.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.729143+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- headings-none, 
 
 ### Stanmore%20Crescent%20and%20Icknield%20Road%20certified%20confirmed%20order.pdf
 
 - **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Stanmore%20Crescent%20and%20Icknield%20Road%20certified%20confirmed%20order.pdf
-- **Status**: error
-- File not found: crawled_files/luton.gov.uk/Stanmore%20Crescent%20and%20Icknield%20Road%20certified%20confirmed%20order.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.733376+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- headings-none, 
 
 ### Stanmore%20Crescent%20and%20Icknield%20Road%20map.pdf
 
 - **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Stanmore%20Crescent%20and%20Icknield%20Road%20map.pdf
-- **Status**: error
-- File not found: crawled_files/luton.gov.uk/Stanmore%20Crescent%20and%20Icknield%20Road%20map.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.738807+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### Stanmore%20Crescent%20and%20Icknield%20Road%20planning%20inspectorate%20order%20decision.pdf
-
-- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Stanmore%20Crescent%20and%20Icknield%20Road%20planning%20inspectorate%20order%20decision.pdf
-- **Status**: error
-- File not found: crawled_files/luton.gov.uk/Stanmore%20Crescent%20and%20Icknield%20Road%20planning%20inspectorate%20order%20decision.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.743207+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- lists-warn, 
 
 ### Statutory_guidance_on_children_who_run_away_or_go_missing_from_home_or_care_consultation_-_final.pdf
 
 - **URL**: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/208528/Statutory_guidance_on_children_who_run_away_or_go_missing_from_home_or_care_consultation_-_final.pdf
-- **Status**: error
-- File not found: crawled_files/luton.gov.uk/Statutory_guidance_on_children_who_run_away_or_go_missing_from_home_or_care_consultation_-_final.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.746917+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, headings-warn, tables-fail, 
 
 ### Stopsley-count.pdf
 
 - **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Stopsley-count.pdf
 - **Status**: error
-- File not found: crawled_files/luton.gov.uk/Stopsley-count.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.749740+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### Streatley%20and%20Luton%20definitive%20map%20modification%20order.pdf
-
-- **URL**: https://www.luton.gov.uk/sites/default/files/2026-01/Streatley%20and%20Luton%20definitive%20map%20modification%20order.pdf
-- **Status**: error
-- File not found: crawled_files/luton.gov.uk/Streatley%20and%20Luton%20definitive%20map%20modification%20order.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.753083+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/luton.gov.uk/Stopsley-count.pdf (crawled 0.1 day(s) ago at 2026-10-01T10:45:06.749740+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### Sundon-park-count.pdf
 
 - **URL**: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Sundon-park-count.pdf
 - **Status**: error
-- File not found: crawled_files/luton.gov.uk/Sundon-park-count.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.755667+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/luton.gov.uk/Sundon-park-count.pdf (crawled 0.1 day(s) ago at 2026-10-01T10:45:06.755667+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### TPO_E107001%20Lime%20Avenue%201960_Order.pdf
 
 - **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107001%20Lime%20Avenue%201960_Order.pdf
-- **Status**: error
-- File not found: crawled_files/luton.gov.uk/TPO_E107001%20Lime%20Avenue%201960_Order.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.759396+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- no date found, title, tagged, lang, 
 
 ### TPO_E107001%20Lime%20Avenue%201960_Plan.PDF
 
 - **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107001%20Lime%20Avenue%201960_Plan.PDF
-- **Status**: error
-- File not found: crawled_files/luton.gov.uk/TPO_E107001%20Lime%20Avenue%201960_Plan.PDF (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.762426+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### TPO_E107002%20Dunstable%20Road%201960_Order.pdf
-
-- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107002%20Dunstable%20Road%201960_Order.pdf
-- **Status**: error
-- File not found: crawled_files/luton.gov.uk/TPO_E107002%20Dunstable%20Road%201960_Order.pdf (crawled 0.0 day(s) ago at 2026-10-01T10:45:06.768665+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- no date found, title, tagged, lang, 
