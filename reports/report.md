@@ -1,20 +1,21 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-10-01T15:11:44.898131+00:00
+Generated: 2026-10-09T11:48:54.845130+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 31287 |
-| Analysed | 6905 |
+| URLs crawled | 162 |
+| Total files tracked | 31316 |
+| Analysed | 6934 |
 | Pending analysis | 18337 |
 | Errors during analysis | 6045 |
 | Accessible | 2158 |
-| Issues found | 4747 |
-| Totally inaccessible subset | 298 |
-| Broken / unreadable | 30 |
-| Exempt (pre-2018) | 1541 |
+| Issues found | 4776 |
+| Totally inaccessible subset | 299 |
+| Broken / unreadable | 31 |
+| Exempt (pre-2018) | 1544 |
 
 ## Files per Site
 
@@ -60,6 +61,7 @@ Generated: 2026-10-01T15:11:44.898131+00:00
 | kjk.umn.edu | 1 |
 | lasv.brandenburg.de | 260 |
 | lib.pstcc.edu | 16 |
+| librariesireland.ie | 29 |
 | luton.gov.uk | 976 |
 | marburg.de | 71 |
 | medicare.gov | 313 |
@@ -7018,6 +7020,35 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 | [Streatley%20and%20Luton%20definitive%20map%20modification%20order.pdf](https://www.luton.gov.uk/sites/default/files/2026-01/Streatley%20and%20Luton%20definitive%20map%20modification%20order.pdf) | luton.gov.uk | 2021-04-20 | BHS DMMO Map | Will Steel | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | 331.7 KB | 92 | 1 |
 | [TPO_E107001%20Lime%20Avenue%201960_Order.pdf](https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107001%20Lime%20Avenue%201960_Order.pdf) | luton.gov.uk | — | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 524.3 KB | 0 | 7 |
 | [TPO_E107001%20Lime%20Avenue%201960_Plan.PDF](https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107001%20Lime%20Avenue%201960_Plan.PDF) | luton.gov.uk | — | DC TPO Orders Data Tree Preservation Order 1960 | DC | — | HUGH SYMONS Hardcopy Tree Preservation Order 1960 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 232.6 KB | 0 | 2 |
+| [Ar-Leabharlanna-Poibli-2022.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2018-12/Ar-Leabharlanna-Poibli-2022.pdf) | librariesireland.ie | 2018-06-14 | Ár Leabharlanna Poiblí 2022 - Pobail a Spreagadh, a Cheangal agus a Chumasú | — | 03897 | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | ❌ Fail | ✅ Pass | 58 | 5.9 MB | 12104 | 24 |
+| [Ceisteanna-Coitianta__Baill-Leabharlann.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2019-01/Ceisteanna-Coitianta__Baill-Leabharlann.pdf) | librariesireland.ie | 2018-12-20 | — | amodwyer | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 427.8 KB | 1005 | 9 |
+| [Lifesteps%20Guide%20to%20Preparing%20a%20Job%20Application.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2018-12/Lifesteps%20Guide%20to%20Preparing%20a%20Job%20Application.pdf) | librariesireland.ie | 2014-05-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 16 | 695.1 KB | 2039 | 20 |
+| [Most%20Borrowed%20Books%20and%20Authors%202019.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2020-02/Most%20Borrowed%20Books%20and%20Authors%202019.pdf) | librariesireland.ie | 2020-02-24 | — | Brigid Fitzgerald | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | Warn | ❌ Fail | 6 | 230.8 KB | 770 | 1 |
+| [Past%20years%20Glossaries%20leaflet%201%20-%20V2%20%281%29.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-08/Past%20years%20Glossaries%20leaflet%201%20-%20V2%20%281%29.pdf) | librariesireland.ie | 2023-05-19 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 877.8 KB | 560 | 8 |
+| [Past%20years%20Glossaries%20leaflet%202%20-%20V2%20%281%29.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-08/Past%20years%20Glossaries%20leaflet%202%20-%20V2%20%281%29.pdf) | librariesireland.ie | 2023-05-19 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 912.4 KB | 608 | 8 |
+| [Single%20Page%20Glossary%20Design%20GAEILGE%20-%20FRAINCIS_1.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE%20-%20FRAINCIS_1.pdf) | librariesireland.ie | 2025-04-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 2.0 MB | 928 | 17 |
+| [Single%20Page%20Glossary%20Design%20GAEILGE%20-%20FRAINCIS_1_0.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE%20-%20FRAINCIS_1_0.pdf) | librariesireland.ie | 2025-04-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 2.0 MB | 928 | 17 |
+| [Single%20Page%20Glossary%20Design%20GAEILGE-%20POLAINNIS_0.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-%20POLAINNIS_0.pdf) | librariesireland.ie | 2025-04-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 2.0 MB | 830 | 17 |
+| [Single%20Page%20Glossary%20Design%20GAEILGE-%20POLAINNIS_0_0.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-%20POLAINNIS_0_0.pdf) | librariesireland.ie | 2025-04-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 2.0 MB | 830 | 17 |
+| [Single%20Page%20Glossary%20Design%20GAEILGE-PORTAINGE%E2%95%A0%C3%BCILIS_0.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-PORTAINGE%E2%95%A0%C3%BCILIS_0.pdf) | librariesireland.ie | 2025-04-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 2.0 MB | 869 | 17 |
+| [Single%20Page%20Glossary%20Design%20GAEILGE-PORTAINGE%E2%95%A0%C3%BCILIS_0_0.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-PORTAINGE%E2%95%A0%C3%BCILIS_0_0.pdf) | librariesireland.ie | 2025-04-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 2.0 MB | 869 | 17 |
+| [Single%20Page%20Glossary%20Design%20GAEILGE-RU%E2%95%A0%C3%BCISIS_0.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-RU%E2%95%A0%C3%BCISIS_0.pdf) | librariesireland.ie | 2025-04-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 2.0 MB | 853 | 17 |
+| [Single%20Page%20Glossary%20Design%20GAEILGE-RU%E2%95%A0%C3%BCISIS_0_0.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-RU%E2%95%A0%C3%BCISIS_0_0.pdf) | librariesireland.ie | 2025-04-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 2.0 MB | 853 | 17 |
+| [Single%20Page%20Glossary%20Design%20GAEILGE-SPA%E2%95%A0%C3%BCINNIS_0.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-SPA%E2%95%A0%C3%BCINNIS_0.pdf) | librariesireland.ie | 2025-04-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 2.0 MB | 908 | 17 |
+| [Single%20Page%20Glossary%20Design%20GAEILGE-SPA%E2%95%A0%C3%BCINNIS_0_0.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-SPA%E2%95%A0%C3%BCINNIS_0_0.pdf) | librariesireland.ie | 2025-04-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 2.0 MB | 908 | 17 |
+| [Single%20Page%20Glossary%20Design%20GAEILGE-U%E2%95%A0%C3%BCCRA%E2%95%A0%C3%BCINIS_0.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-U%E2%95%A0%C3%BCCRA%E2%95%A0%C3%BCINIS_0.pdf) | librariesireland.ie | 2025-04-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 2.0 MB | 834 | 17 |
+| [Single%20Page%20Glossary%20Design%20GAEILGE-U%E2%95%A0%C3%BCCRA%E2%95%A0%C3%BCINIS_0_0.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-U%E2%95%A0%C3%BCCRA%E2%95%A0%C3%BCINIS_0_0.pdf) | librariesireland.ie | 2025-04-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 2.0 MB | 834 | 17 |
+| [Single%20Page%20Glossary%20Design%20Irish%20English%20.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20Irish%20English%20.pdf) | librariesireland.ie | 2025-04-01 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 1.2 MB | 903 | 17 |
+| [Single%20Page%20Glossary%20Design%20Irish%20English%20_0.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20Irish%20English%20_0.pdf) | librariesireland.ie | 2025-04-01 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 1.2 MB | 903 | 17 |
+| [bbx_digital_user_guide_1.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2020-04/bbx_digital_user_guide_1.pdf) | librariesireland.ie | 2020-04-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 11 | 5.6 MB | 792 | 42 |
+| [effective_interview_skills.pdf](https://careersportal.ie/pdfs/effective_interview_skills.pdf) | librariesireland.ie *(ext: careersportal.ie)* | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | 32.6 KB | — | — |
+| [fai-wwc-school-activity-book.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2023-06/fai-wwc-school-activity-book.pdf) | librariesireland.ie | 2023-05-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 15 | 7.9 MB | 4005 | 109 |
+| [leo-response-supports-pdf.pdf](https://www.localenterprise.ie/portal/response/other-leo-supports/leo-response-supports-pdf.pdf) | librariesireland.ie *(ext: localenterprise.ie)* | 2020-05-12 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 545.0 KB | 693 | 1 |
+| [lgma-little-library-childminders-leaflet-a5-irish-v1.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2023-11/lgma-little-library-childminders-leaflet-a5-irish-v1.pdf) | librariesireland.ie | 2023-09-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 1.2 MB | 456 | 2 |
+| [most-borrowed-books-2020.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2021-02/most-borrowed-books-2020.pdf) | librariesireland.ie | 2021-02-22 | — | Ms Brigid Fitzgerald | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | Warn | ❌ Fail | 6 | 181.5 KB | 733 | 1 |
+| [organic_dairying-frequently_asked_questions_december_2018.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2020-11/organic_dairying-frequently_asked_questions_december_2018.pdf) | librariesireland.ie | 2018-10-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 6 | 1.9 MB | 2212 | 6 |
+| [press-reader-online-how-to-guide-for-libraries.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2020-03/press-reader-online-how-to-guide-for-libraries.pdf) | librariesireland.ie | 2020-03-31 | PowerPoint Presentation | Becky Stabik | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 186.0 KB | 144 | 8 |
+| [transparent-language-online-how-to-guide-for-libraries.pdf](https://www.librariesireland.ie/sites/default/files/media/file-uploads/2020-03/transparent-language-online-how-to-guide-for-libraries.pdf) | librariesireland.ie | 2016-06-15 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 11 | 3.5 MB | 0 | 11 |
 
 ## Files with Errors or Notes
 
@@ -72528,3 +72559,177 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 - **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107043%20Hitchin%20Road%201981_Order.PDF
 - **Status**: error
 - File not found: crawled_files/luton.gov.uk/TPO_E107043%20Hitchin%20Road%201981_Order.PDF (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.932202+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Ar-Leabharlanna-Poibli-2022.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2018-12/Ar-Leabharlanna-Poibli-2022.pdf
+- **Status**: analysed
+- lang, figures missing alt text (count=29), headings-warn, tables-fail, 
+
+### Ceisteanna-Coitianta__Baill-Leabharlann.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2019-01/Ceisteanna-Coitianta__Baill-Leabharlann.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=10), headings-none, 
+
+### Lifesteps%20Guide%20to%20Preparing%20a%20Job%20Application.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2018-12/Lifesteps%20Guide%20to%20Preparing%20a%20Job%20Application.pdf
+- **Status**: analysed
+- title, tagged, lang, annotations-untagged, 
+
+### Most%20Borrowed%20Books%20and%20Authors%202019.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2020-02/Most%20Borrowed%20Books%20and%20Authors%202019.pdf
+- **Status**: analysed
+- title, headings-none, tables-warn, 
+
+### Past%20years%20Glossaries%20leaflet%201%20-%20V2%20%281%29.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-08/Past%20years%20Glossaries%20leaflet%201%20-%20V2%20%281%29.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Past%20years%20Glossaries%20leaflet%202%20-%20V2%20%281%29.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-08/Past%20years%20Glossaries%20leaflet%202%20-%20V2%20%281%29.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Single%20Page%20Glossary%20Design%20GAEILGE%20-%20FRAINCIS_1.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE%20-%20FRAINCIS_1.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Single%20Page%20Glossary%20Design%20GAEILGE%20-%20FRAINCIS_1_0.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE%20-%20FRAINCIS_1_0.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Single%20Page%20Glossary%20Design%20GAEILGE-%20POLAINNIS_0.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-%20POLAINNIS_0.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Single%20Page%20Glossary%20Design%20GAEILGE-%20POLAINNIS_0_0.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-%20POLAINNIS_0_0.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Single%20Page%20Glossary%20Design%20GAEILGE-PORTAINGE%E2%95%A0%C3%BCILIS_0.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-PORTAINGE%E2%95%A0%C3%BCILIS_0.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Single%20Page%20Glossary%20Design%20GAEILGE-PORTAINGE%E2%95%A0%C3%BCILIS_0_0.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-PORTAINGE%E2%95%A0%C3%BCILIS_0_0.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Single%20Page%20Glossary%20Design%20GAEILGE-RU%E2%95%A0%C3%BCISIS_0.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-RU%E2%95%A0%C3%BCISIS_0.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Single%20Page%20Glossary%20Design%20GAEILGE-RU%E2%95%A0%C3%BCISIS_0_0.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-RU%E2%95%A0%C3%BCISIS_0_0.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Single%20Page%20Glossary%20Design%20GAEILGE-SPA%E2%95%A0%C3%BCINNIS_0.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-SPA%E2%95%A0%C3%BCINNIS_0.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Single%20Page%20Glossary%20Design%20GAEILGE-SPA%E2%95%A0%C3%BCINNIS_0_0.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-SPA%E2%95%A0%C3%BCINNIS_0_0.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Single%20Page%20Glossary%20Design%20GAEILGE-U%E2%95%A0%C3%BCCRA%E2%95%A0%C3%BCINIS_0.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-U%E2%95%A0%C3%BCCRA%E2%95%A0%C3%BCINIS_0.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Single%20Page%20Glossary%20Design%20GAEILGE-U%E2%95%A0%C3%BCCRA%E2%95%A0%C3%BCINIS_0_0.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20GAEILGE-U%E2%95%A0%C3%BCCRA%E2%95%A0%C3%BCINIS_0_0.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Single%20Page%20Glossary%20Design%20Irish%20English%20.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20Irish%20English%20.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Single%20Page%20Glossary%20Design%20Irish%20English%20_0.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2025-05/Single%20Page%20Glossary%20Design%20Irish%20English%20_0.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### bbx_digital_user_guide_1.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2020-04/bbx_digital_user_guide_1.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=69), headings-none, 
+
+### effective_interview_skills.pdf
+
+- **URL**: https://careersportal.ie/pdfs/effective_interview_skills.pdf
+- **Status**: analysed
+- PdfError: crawled_files/librariesireland.ie/effective_interview_skills.pdf: unable to find trailer dictionary while recovering damaged file
+
+### fai-wwc-school-activity-book.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2023-06/fai-wwc-school-activity-book.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### leo-response-supports-pdf.pdf
+
+- **URL**: https://www.localenterprise.ie/portal/response/other-leo-supports/leo-response-supports-pdf.pdf
+- **Status**: analysed
+- title, tagged, lang, annotations-untagged, 
+
+### lgma-little-library-childminders-leaflet-a5-irish-v1.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2023-11/lgma-little-library-childminders-leaflet-a5-irish-v1.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### most-borrowed-books-2020.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2021-02/most-borrowed-books-2020.pdf
+- **Status**: analysed
+- title, headings-none, tables-warn, 
+
+### organic_dairying-frequently_asked_questions_december_2018.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2020-11/organic_dairying-frequently_asked_questions_december_2018.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=6), headings-none, 
+
+### press-reader-online-how-to-guide-for-libraries.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2020-03/press-reader-online-how-to-guide-for-libraries.pdf
+- **Status**: analysed
+- figures missing alt text (count=12), headings-none, 
+
+### transparent-language-online-how-to-guide-for-libraries.pdf
+
+- **URL**: https://www.librariesireland.ie/sites/default/files/media/file-uploads/2020-03/transparent-language-online-how-to-guide-for-libraries.pdf
+- **Status**: analysed
+- title, tagged, lang, 
