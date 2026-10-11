@@ -28,7 +28,7 @@ colorama==0.4.6 ; sys_platform == 'win32'
     #   pytest
 constantly==23.10.4
     # via twisted
-cryptography==50.0.1
+cryptography==50.0.2
     # via
     #   pdfminer-six
     #   pyopenssl
@@ -99,7 +99,7 @@ pillow==12.3.0
     #   pikepdf
 pluggy==1.6.0
     # via pytest
-protego==0.6.0
+protego==0.6.2
     # via scrapy
 pyasn1==0.6.4
     # via
@@ -170,7 +170,7 @@ tzdata==2026.2 ; sys_platform == 'win32'
     # via tzlocal
 tzlocal==5.3.1
     # via dateparser
-urllib3==2.7.0
+urllib3==2.8.0
     # via requests
 w3lib==2.4.1
     # via
