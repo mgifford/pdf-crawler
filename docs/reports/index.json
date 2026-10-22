@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-10-22T14:17:25.738406+00:00",
+    "site": "walthamforest.gov.uk",
+    "crawl_url": "https://www.walthamforest.gov.uk",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/39793821222",
+    "issue_url": "",
+    "archive_file": "2026-10-22_14-17-25-738_walthamforest.gov.uk.html",
+    "total": 3,
+    "analysed": 3,
+    "accessible": 0,
+    "analysis_engines": [
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
     "date": "2026-10-09T13:36:53.417783+00:00",
     "site": "librariesireland.ie",
     "crawl_url": "https://www.librariesireland.ie/",

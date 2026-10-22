@@ -1,0 +1,1082 @@
+{
+  "generated_at": "2026-10-22T14:17:25.760215+00:00",
+  "summary": {
+    "total_files": 3,
+    "analysed": 3,
+    "files_with_structured_report": 3
+  },
+  "files": [
+    {
+      "url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/2026-27_CWF_applicant_guidance.pdf",
+      "filename": "2026-27_CWF_applicant_guidance.pdf",
+      "site": "walthamforest.gov.uk",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 12,
+          "Passed": 8,
+          "Warning": 0,
+          "Failed": 1
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Open PDF",
+              "Status": "Failed",
+              "Description": "Document can be opened and read"
+            },
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Skipped",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Skipped",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Skipped",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Skipped",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Skipped",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Skipped",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Skipped",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Skipped",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Skipped",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Skipped",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Skipped",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Skipped",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "2026-27_CWF_applicant_guidance.pdf",
+          "Site": "walthamforest.gov.uk",
+          "Accessible": null,
+          "TotallyInaccessible": false,
+          "BrokenFile": true,
+          "Exempt": false,
+          "Date": null,
+          "Pages": null,
+          "PDFVersion": null,
+          "Creator": null,
+          "Producer": null,
+          "hasXmp": null,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 22,
+          "Passed": 8,
+          "Warning": 0,
+          "Failed": 1
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Open PDF",
+              "Status": "Failed",
+              "Description": "Document can be opened and read"
+            },
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Skipped",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Skipped",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Skipped",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Skipped",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Skipped",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Skipped",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Skipped",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Skipped",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Skipped",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Skipped",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Skipped",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Skipped",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Skipped",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Skipped",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Skipped",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "2026-27_CWF_applicant_guidance.pdf",
+          "Site": "walthamforest.gov.uk",
+          "Accessible": null,
+          "TotallyInaccessible": false,
+          "BrokenFile": true,
+          "Exempt": false,
+          "Date": null,
+          "Pages": null,
+          "PDFVersion": null,
+          "Creator": null,
+          "Producer": null,
+          "hasXmp": null,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    },
+    {
+      "url": "https://thehub-beta.walthamforest.gov.uk/sites/default/files/2019-03/HealthandSafetyPolicy.pdf",
+      "filename": "HealthandSafetyPolicy.pdf",
+      "site": "walthamforest.gov.uk",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 0,
+          "Passed": 5,
+          "Warning": 0,
+          "Failed": 15
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Failed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Failed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Failed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Failed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Failed",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Failed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Failed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Failed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Failed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Failed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Failed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Failed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "HealthandSafetyPolicy.pdf",
+          "Site": "walthamforest.gov.uk",
+          "Accessible": false,
+          "TotallyInaccessible": true,
+          "BrokenFile": false,
+          "Exempt": false,
+          "Date": "2019-02-11 15:13:12+00:00",
+          "Pages": 18,
+          "PDFVersion": "1.4",
+          "Creator": "KM_C308",
+          "Producer": "KONICA MINOLTA bizhub C308",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 7,
+          "Passed": 5,
+          "Warning": 0,
+          "Failed": 18
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Failed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Failed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Failed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Failed",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Failed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Failed",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Failed",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Failed",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Failed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Failed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Failed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Failed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Failed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Failed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Failed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "HealthandSafetyPolicy.pdf",
+          "Site": "walthamforest.gov.uk",
+          "Accessible": false,
+          "TotallyInaccessible": true,
+          "BrokenFile": false,
+          "Exempt": false,
+          "Date": "2019-02-11 15:13:12+00:00",
+          "Pages": 18,
+          "PDFVersion": "1.4",
+          "Creator": "KM_C308",
+          "Producer": "KONICA MINOLTA bizhub C308",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    },
+    {
+      "url": "https://thehub-beta.walthamforest.gov.uk/sites/default/files/2024-04/Summer_2023_Childcare_Sufficiency_Assessment_(CSA).pdf",
+      "filename": "Summer_2023_Childcare_Sufficiency_Assessment_(CSA).pdf",
+      "site": "walthamforest.gov.uk",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 0,
+          "Passed": 17,
+          "Warning": 0,
+          "Failed": 3
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Passed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Failed",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "Summer_2023_Childcare_Sufficiency_Assessment_(CSA).pdf",
+          "Site": "walthamforest.gov.uk",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": false,
+          "Date": "2024-04-12 09:48:01+00:00",
+          "Pages": 49,
+          "PDFVersion": "1.7",
+          "Creator": "Microsoft\u00ae Word for Microsoft 365",
+          "Producer": "Microsoft\u00ae Word for Microsoft 365",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 10,
+          "Passed": 17,
+          "Warning": 0,
+          "Failed": 3
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Passed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Failed",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Skipped",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Skipped",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Skipped",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "Summer_2023_Childcare_Sufficiency_Assessment_(CSA).pdf",
+          "Site": "walthamforest.gov.uk",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": false,
+          "Date": "2024-04-12 09:48:01+00:00",
+          "Pages": 49,
+          "PDFVersion": "1.7",
+          "Creator": "Microsoft\u00ae Word for Microsoft 365",
+          "Producer": "Microsoft\u00ae Word for Microsoft 365",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    }
+  ]
+}
