@@ -927457,3 +927457,51 @@
   notes: Libraries Ireland
   link_text: Cad is féidir le do Leabharlann Áitiúil a thairiscint d’Oideoirí Luathbhlianta
     pdf
+- url: https://www.walthamforest.gov.uk/sites/default/files/2026-08/2026-27_CWF_applicant_guidance.pdf
+  md5: f377c819b51ed15fd6df3896c3d38d93
+  file_hash: 2c317fbc7e8a2ba75d2117ce1d38f28bb58d7e3bbe8dadbb650f788ac02c64af
+  file_size_bytes: 1983
+  filename: 2026-27_CWF_applicant_guidance.pdf
+  site: walthamforest.gov.uk
+  crawled_at: '2026-10-22T14:05:14.532283+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+- url: https://thehub-beta.walthamforest.gov.uk/sites/default/files/2019-03/HealthandSafetyPolicy.pdf
+  md5: 1308063d65879e6bb39272b641a6e8c2
+  file_hash: 76cb7fe4d82ced5e30f92fbba780c092677f0787a5fb6c5ffefc1bf2836c707e
+  file_size_bytes: 6354490
+  filename: HealthandSafetyPolicy.pdf
+  site: walthamforest.gov.uk
+  crawled_at: '2026-10-22T14:05:14.552127+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+- url: https://thehub-beta.walthamforest.gov.uk/sites/default/files/2024-04/Summer_2023_Childcare_Sufficiency_Assessment_(CSA).pdf
+  md5: 07be3d46e7e1e3e4ace142029aac65a5
+  file_hash: c212c71cfc79d0c68274942def99c806e81b2dd2f32dc6774617b327557f2ffd
+  file_size_bytes: 1746280
+  filename: Summer_2023_Childcare_Sufficiency_Assessment_(CSA).pdf
+  site: walthamforest.gov.uk
+  crawled_at: '2026-10-22T14:05:14.561683+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
