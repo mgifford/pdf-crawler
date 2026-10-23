@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-23T00:21:11.604086+00:00",
+    "site": "walthamforest.gov.uk",
+    "crawl_url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/supplementary-planning-documents-and-planning-guidance",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/39876634023",
+    "issue_url": "",
+    "archive_file": "2026-10-23_00-21-11-604_walthamforest.gov.uk.html",
+    "total": 6,
+    "analysed": 2,
+    "accessible": 0,
+    "analysis_engines": [
+      "bloom",
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
     "date": "2026-10-22T14:17:25.738406+00:00",
     "site": "walthamforest.gov.uk",
     "crawl_url": "https://www.walthamforest.gov.uk",

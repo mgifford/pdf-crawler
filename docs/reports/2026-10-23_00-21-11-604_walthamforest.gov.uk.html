@@ -1,0 +1,1679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Results</title>
+  <meta name="description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
+  <meta property="og:title" content="PDF Accessibility Scan Results" />
+  <meta property="og:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="PDF Accessibility Crawler" />
+  <!-- Twitter Card (also used by many other platforms) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PDF Accessibility Scan Results" />
+  <meta name="twitter:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Prevent flash of unstyled content when a saved theme preference is present -->
+  <script>
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <style>
+    /* ---- colour tokens ---- */
+    :root {
+      color-scheme: light dark;
+      --color-bg:           #f8f9fa;
+      --color-fg:           #1a1a2e;
+      --color-link:         #0d6efd;
+      --color-card-bg:      #fff;
+      --color-border:       #dee2e6;
+      --color-th-bg:        #e9ecef;
+      --color-row-stripe:   #f8f9fa;
+      --color-muted:        #6c757d;
+      --color-pass:         #198754;
+      --color-fail:         #dc3545;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --color-bg:           #0d1117;
+        --color-fg:           #e6edf3;
+        --color-link:         #4493f8;
+        --color-card-bg:      #161b22;
+        --color-border:       #30363d;
+        --color-th-bg:        #21262d;
+        --color-row-stripe:   #161b22;
+        --color-muted:        #8b949e;
+        --color-pass:         #3fb950;
+        --color-fail:         #f85149;
+      }
+    }
+
+    [data-theme="dark"] {
+      --color-bg:           #0d1117;
+      --color-fg:           #e6edf3;
+      --color-link:         #4493f8;
+      --color-card-bg:      #161b22;
+      --color-border:       #30363d;
+      --color-th-bg:        #21262d;
+      --color-row-stripe:   #161b22;
+      --color-muted:        #8b949e;
+      --color-pass:         #3fb950;
+      --color-fail:         #f85149;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: var(--color-fg);
+      background: var(--color-bg);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    nav a { color: var(--color-link); text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    .lang-switch {
+      font-size: 0.9rem;
+      color: var(--color-muted);
+      display: inline-flex;
+      gap: 0.35rem;
+      align-items: center;
+    }
+
+    .lang-switch a[aria-current="page"] {
+      font-weight: 700;
+      text-decoration: underline;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 0.25rem 0.5rem;
+      line-height: 1;
+      color: var(--color-fg);
+      margin-left: auto;
+    }
+    .theme-toggle:hover { background: var(--color-th-bg); }
+
+    h1 { color: var(--color-link); }
+    h2 { margin-top: 2rem; }
+
+    #generated-at { font-size: 0.85rem; color: var(--color-muted); margin-top: -0.5rem; }
+
+    .downloads {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      margin: 1rem 0 1.25rem;
+    }
+    .downloads a,
+    .downloads button {
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 0.35rem 0.65rem;
+      text-decoration: none;
+      color: var(--color-link);
+      background: var(--color-card-bg);
+      font: inherit;
+      cursor: pointer;
+    }
+    .downloads a:hover,
+    .downloads button:hover {
+      background: var(--color-th-bg);
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .stat-card {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat-card .value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--color-link);
+      line-height: 1.1;
+    }
+    .stat-card .label { font-size: 0.8rem; color: var(--color-muted); margin-top: 0.25rem; }
+
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th {
+      background: var(--color-th-bg);
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid var(--color-border);
+    }
+    th.sortable {
+      cursor: pointer;
+      user-select: none;
+    }
+    th.sortable:hover { background: var(--color-border); }
+    td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: var(--color-row-stripe); }
+
+    .pass { color: var(--color-pass); }
+    .fail { color: var(--color-fail); }
+    .na   { color: var(--color-muted); }
+
+    a { color: var(--color-link); }
+
+    .empty-state {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: var(--color-muted);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: var(--color-muted);
+      border-top: 1px solid var(--color-border);
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a id="back-link" href="../reports.html">&#8592; Back to reports index</a>
+    <span class="lang-switch" aria-label="Language switch">
+      <span id="lang-switch-label">Language: English</span>
+      <a id="lang-en-report" data-lang="en" href="?lang=en" hreflang="en" lang="en">English</a>
+      <span aria-hidden="true">|</span>
+      <a id="lang-fr-report" data-lang="fr" href="?lang=fr" hreflang="fr" lang="fr">Français</a>
+    </span>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
+  </nav>
+
+  <h1 id="page-title">&#128202; PDF Accessibility Scan Results</h1>
+  <p id="generated-at"></p>
+
+  <div class="downloads">
+    <a id="download-csv-link" href="./2026-10-23_00-21-11-604_walthamforest.gov.uk/20261023-002111-walthamforest.gov.uk_report.csv" download="20261023-002111-walthamforest.gov.uk_report.csv">Download CSV</a>
+    <a id="download-json-link" href="./2026-10-23_00-21-11-604_walthamforest.gov.uk/20261023-002111-walthamforest.gov.uk_report.json" download="20261023-002111-walthamforest.gov.uk_report.json">Download JSON</a>
+    <a id="download-manifest-link" href="./2026-10-23_00-21-11-604_walthamforest.gov.uk/20261023-002111-walthamforest.gov.uk_manifest.yaml" download="20261023-002111-walthamforest.gov.uk_manifest.yaml">Download Manifest</a>
+    <a id="download-zip-link" href="./2026-10-23_00-21-11-604_walthamforest.gov.uk/20261023-002111-walthamforest.gov.uk_bundle.zip" download="20261023-002111-walthamforest.gov.uk_bundle.zip">Download ZIP Bundle</a>
+    <button id="download-current-csv" type="button">Download Current View CSV</button>
+    <button id="download-current-json" type="button">Download Current View JSON</button>
+  </div>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="report-data">
+{
+  "summary": {
+    "generated_at": "2026-10-23T00:21:11.626731+00:00",
+    "total_files": 6,
+    "analysed": 2,
+    "pending": 0,
+    "errored": 4,
+    "accessible": 0,
+    "issues_found": 2,
+    "totally_inaccessible": 0,
+    "broken": 0,
+    "exempt": 0,
+    "sites": {
+      "walthamforest.gov.uk": 6
+    },
+    "engines": {
+      "bloom": 6
+    },
+    "pages_crawled": 0
+  },
+  "files": [
+    {
+      "url": "https://www.walthamforest.gov.uk/sites/default/files/2026-08/2026-27_CWF_applicant_guidance.pdf",
+      "md5": "f377c819b51ed15fd6df3896c3d38d93",
+      "file_hash": "2c317fbc7e8a2ba75d2117ce1d38f28bb58d7e3bbe8dadbb650f788ac02c64af",
+      "file_size_bytes": 1983,
+      "filename": "2026-27_CWF_applicant_guidance.pdf",
+      "site": "walthamforest.gov.uk",
+      "crawled_at": "2026-10-22T14:05:14.532283+00:00",
+      "status": "error",
+      "report": null,
+      "errors": [
+        "File not found: crawled_files/walthamforest.gov.uk/2026-27_CWF_applicant_guidance.pdf (crawled 0.4 day(s) ago at 2026-10-22T14:05:14.532283+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "walthamforest.gov.uk",
+            "File": "2026-27_CWF_applicant_guidance.pdf",
+            "Accessible": null,
+            "TotallyInaccessible": false,
+            "BrokenFile": true,
+            "TaggedTest": null,
+            "EmptyTextTest": null,
+            "ProtectedTest": null,
+            "TitleTest": null,
+            "LanguageTest": null,
+            "BookmarksTest": null,
+            "ImageAltTextTest": null,
+            "TaggedContentTest": null,
+            "UntaggedContentCount": null,
+            "UntaggedContentSummary": null,
+            "UntaggedWhitespaceContentCount": null,
+            "UntaggedWhitespaceContentSummary": null,
+            "FormsTest": null,
+            "FormFieldCount": null,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": null,
+            "TaggedFormFieldsTest": null,
+            "TaggedFormFieldIssues": null,
+            "AnnotationsFound": null,
+            "AnnotationCount": null,
+            "AnnotationSubtypeCounts": null,
+            "LinkAnnotationCount": null,
+            "WidgetAnnotationCount": null,
+            "TaggedAnnotationsTest": null,
+            "TaggedAnnotationIssues": null,
+            "AnnotationSummary": null,
+            "LinkStructureCount": null,
+            "ExternalLinkAnnotationCount": null,
+            "InternalLinkAnnotationCount": null,
+            "AnnotationPagesWithLinks": null,
+            "HidesAnnotationTest": null,
+            "HidesAnnotationIssues": null,
+            "NestedAltTextTest": null,
+            "NestedAltTextIssues": null,
+            "HeadingsTest": null,
+            "HeadingCount": null,
+            "HeadingSequence": null,
+            "HeadingIssues": null,
+            "ListsTest": null,
+            "ListCount": null,
+            "InvalidListItemParents": null,
+            "InvalidListChildren": null,
+            "MalformedListNodes": null,
+            "TablesTest": null,
+            "TableCount": null,
+            "InvalidTRParents": null,
+            "InvalidCellParents": null,
+            "TablesWithoutHeaders": null,
+            "IrregularTables": null,
+            "FiguresAltTextTest": null,
+            "FiguresAltTextIssues": null,
+            "Exempt": false,
+            "Date": null,
+            "hasTitle": null,
+            "hasDisplayDocTitle": null,
+            "hasLang": null,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": null,
+            "hasXmp": null,
+            "PDFVersion": null,
+            "Creator": null,
+            "Producer": null,
+            "Title": null,
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": null,
+            "Words": null,
+            "Images": null,
+            "fonts": null,
+            "numTxtObjects": null
+          },
+          "errors": [
+            "PdfError: crawled_files/walthamforest.gov.uk/2026-27_CWF_applicant_guidance.pdf: unable to find trailer dictionary while recovering damaged file"
+          ],
+          "analysed_at": "2026-10-22T14:15:24.569474+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/walthamforest.gov.uk/2026-27_CWF_applicant_guidance.pdf (crawled 0.4 day(s) ago at 2026-10-22T14:05:14.532283+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-10-23T00:14:32.164741+00:00"
+        }
+      },
+      "engine": "bloom",
+      "engine_status": "error"
+    },
+    {
+      "url": "https://thehub-beta.walthamforest.gov.uk/sites/default/files/2019-03/HealthandSafetyPolicy.pdf",
+      "md5": "1308063d65879e6bb39272b641a6e8c2",
+      "file_hash": "76cb7fe4d82ced5e30f92fbba780c092677f0787a5fb6c5ffefc1bf2836c707e",
+      "file_size_bytes": 6354490,
+      "filename": "HealthandSafetyPolicy.pdf",
+      "site": "walthamforest.gov.uk",
+      "crawled_at": "2026-10-22T14:05:14.552127+00:00",
+      "status": "error",
+      "report": null,
+      "errors": [
+        "File not found: crawled_files/walthamforest.gov.uk/HealthandSafetyPolicy.pdf (crawled 0.4 day(s) ago at 2026-10-22T14:05:14.552127+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "walthamforest.gov.uk",
+            "File": "HealthandSafetyPolicy.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": true,
+            "BrokenFile": false,
+            "TaggedTest": "Fail",
+            "EmptyTextTest": "Fail",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Fail",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": null,
+            "TaggedContentTest": "Fail",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": false,
+            "AnnotationCount": 0,
+            "AnnotationSubtypeCounts": "",
+            "LinkAnnotationCount": 0,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "NotApplicable",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "",
+            "LinkStructureCount": 0,
+            "ExternalLinkAnnotationCount": 0,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 0,
+            "HidesAnnotationTest": "NotApplicable",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "NotApplicable",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "",
+            "ListsTest": "NotApplicable",
+            "ListCount": 0,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "NotApplicable",
+            "FiguresAltTextIssues": "",
+            "Exempt": false,
+            "Date": "2019-02-11 15:13:12+00:00",
+            "hasTitle": true,
+            "hasDisplayDocTitle": false,
+            "hasLang": false,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.4",
+            "Creator": "KM_C308",
+            "Producer": "KONICA MINOLTA bizhub C308",
+            "Title": "00206B403183190211151225",
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 18,
+            "Words": 0,
+            "Images": 18,
+            "fonts": 0,
+            "numTxtObjects": 0
+          },
+          "errors": [
+            "title, tagged, lang, "
+          ],
+          "analysed_at": "2026-10-22T14:15:51.049068+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/walthamforest.gov.uk/HealthandSafetyPolicy.pdf (crawled 0.4 day(s) ago at 2026-10-22T14:05:14.552127+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-10-23T00:15:09.092798+00:00"
+        }
+      },
+      "engine": "bloom",
+      "engine_status": "error"
+    },
+    {
+      "url": "https://thehub-beta.walthamforest.gov.uk/sites/default/files/2024-04/Summer_2023_Childcare_Sufficiency_Assessment_(CSA).pdf",
+      "md5": "07be3d46e7e1e3e4ace142029aac65a5",
+      "file_hash": "c212c71cfc79d0c68274942def99c806e81b2dd2f32dc6774617b327557f2ffd",
+      "file_size_bytes": 1746280,
+      "filename": "Summer_2023_Childcare_Sufficiency_Assessment_(CSA).pdf",
+      "site": "walthamforest.gov.uk",
+      "crawled_at": "2026-10-22T14:05:14.561683+00:00",
+      "status": "error",
+      "report": null,
+      "errors": [
+        "File not found: crawled_files/walthamforest.gov.uk/Summer_2023_Childcare_Sufficiency_Assessment_(CSA).pdf (crawled 0.4 day(s) ago at 2026-10-22T14:05:14.561683+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "walthamforest.gov.uk",
+            "File": "Summer_2023_Childcare_Sufficiency_Assessment_(CSA).pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Pass",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Pass",
+            "BookmarksTest": "Fail",
+            "ImageAltTextTest": "Fail",
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": true,
+            "AnnotationCount": 106,
+            "AnnotationSubtypeCounts": "Link=106",
+            "LinkAnnotationCount": 106,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "Pass",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "(20, 0): page=2 subtype=Link flags=4 rect=[100.5, 747.49, 520.35, 761.29] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(21,0)>, \"/XYZ\", 65, 782, 0 ])' widget=False field=None struct_parent=2 | (22, 0): page=2 subtype=Link flags=4 rect=[72.55, 733.69, 523.35, 747.49] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(21,0)>, \"/XYZ\", 64, 749, 0 ])' widget=False field=None struct_parent=3 | (23, 0): page=2 subtype=Link flags=4 rect=[72.55, 719.9, 523.35, 733.69] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(26,0)>, \"/XYZ\", 61, 589, 0 ])' widget=False field=None struct_parent=4 | (27, 0): page=2 subtype=Link flags=4 rect=[72.55, 706.1, 523.35, 719.9] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(29,0)>, \"/XYZ\", 61, 492, 0 ])' widget=False field=None struct_parent=5 | (30, 0): page=2 subtype=Link flags=4 rect=[100.5, 692.3, 520.35, 706.1] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(32,0)>, \"/XYZ\", 167, 344, 0 ])' widget=False field=None struct_parent=6 | (33, 0): page=2 subtype=Link flags=4 rect=[72.55, 678.5, 523.85, 692.3] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(32,0)>, \"/XYZ\", 61, 283, 0 ])' widget=False field=None struct_parent=7 | (34, 0): page=2 subtype=Link flags=4 rect=[61.55, 664.7, 523.35, 678.5] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(32,0)>, \"/XYZ\", 61, 283, 0 ])' widget=False field=None struct_parent=8 | (35, 0): page=2 subtype=Link flags=4 rect=[72.55, 650.9, 523.35, 664.7] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(36,0)>, \"/XYZ\", 64, 782, 0 ])' widget=False field=None struct_parent=9 | (37, 0): page=2 subtype=Link flags=4 rect=[100.5, 637.1, 520.35, 650.9] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(38,0)>, \"/XYZ\", 61, 589, 0 ])' widget=False field=None struct_parent=10 | (39, 0): page=2 subtype=Link flags=4 rect=[72.55, 623.3, 523.85, 637.1] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(38,0)>, \"/XYZ\", 61, 555, 0 ])' widget=False field=None struct_parent=11 | (40, 0): page=2 subtype=Link flags=4 rect=[61.55, 609.51, 523.35, 623.3] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(38,0)>, \"/XYZ\", 61, 555, 0 ])' widget=False field=None struct_parent=12 | (46, 0): page=2 subtype=Link flags=4 rect=[100.5, 595.71, 520.35, 609.51] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(48,0)>, \"/XYZ\", 61, 782, 0 ])' widget=False field=None struct_parent=13 | (49, 0): page=2 subtype=Link flags=4 rect=[72.55, 581.91, 523.35, 595.71] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(48,0)>, \"/XYZ\", 61, 749, 0 ])' widget=False field=None struct_parent=14 | (50, 0): page=2 subtype=Link flags=4 rect=[72.55, 568.11, 523.35, 581.91] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(52,0)>, \"/XYZ\", 61, 331, 0 ])' widget=False field=None struct_parent=15 | (53, 0): page=2 subtype=Link flags=4 rect=[72.55, 554.31, 523.35, 568.11] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(52,0)>, \"/XYZ\", 61, 304, 0 ])' widget=False field=None struct_parent=16 | (54, 0): page=2 subtype=Link flags=4 rect=[72.55, 540.51, 523.35, 554.31] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(55,0)>, \"/XYZ\", 61, 286, 0 ])' widget=False field=None struct_parent=17 | (56, 0): page=2 subtype=Link flags=4 rect=[72.55, 526.71, 523.35, 540.51] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(59,0)>, \"/XYZ\", 61, 313, 0 ])' widget=False field=None struct_parent=18 | (60, 0): page=2 subtype=Link flags=4 rect=[72.55, 512.91, 523.35, 526.71] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(61,0)>, \"/XYZ\", 61, 285, 0 ])' widget=False field=None struct_parent=19 | (62, 0): page=2 subtype=Link flags=4 rect=[72.55, 499.11, 523.35, 512.91] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(61,0)>, \"/XYZ\", 61, 257, 0 ])' widget=False field=None struct_parent=20 | (63, 0): page=2 subtype=Link flags=4 rect=[72.55, 485.32, 523.35, 499.11] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(64,0)>, \"/XYZ\", 71, 711, 0 ])' widget=False field=None struct_parent=21 | (65, 0): page=2 subtype=Link flags=4 rect=[72.55, 471.52, 523.35, 485.32] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(64,0)>, \"/XYZ\", 61, 683, 0 ])' widget=False field=None struct_parent=22 | (66, 0): page=2 subtype=Link flags=4 rect=[72.55, 457.72, 523.35, 471.52] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(67,0)>, \"/XYZ\", 61, 727, 0 ])' widget=False field=None struct_parent=23 | (68, 0): page=2 subtype=Link flags=4 rect=[72.55, 443.92, 523.35, 457.72] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(69,0)>, \"/XYZ\", 61, 713, 0 ])' widget=False field=None struct_parent=24 | (70, 0): page=2 subtype=Link flags=4 rect=[72.55, 430.12, 523.35, 443.92] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(71,0)>, \"/XYZ\", 61, 475, 0 ])' widget=False field=None struct_parent=25 | (72, 0): page=2 subtype=Link flags=4 rect=[102.74, 416.32, 523.85, 430.12] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(73,0)>, \"/XYZ\", 61, 727, 0 ])' widget=False field=None struct_parent=26 | (74, 0): page=2 subtype=Link flags=4 rect=[61.55, 402.52, 520.35, 416.32] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(73,0)>, \"/XYZ\", 61, 727, 0 ])' widget=False field=None struct_parent=27 | (75, 0): page=2 subtype=Link flags=4 rect=[72.55, 388.72, 523.35, 402.52] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(73,0)>, \"/XYZ\", 61, 674, 0 ])' widget=False field=None struct_parent=28 | (76, 0): page=2 subtype=Link flags=4 rect=[72.55, 374.93, 523.35, 388.72] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(78,0)>, \"/XYZ\", 61, 644, 0 ])' widget=False field=None struct_parent=29 | (79, 0): page=2 subtype=Link flags=4 rect=[100.5, 361.13, 520.35, 374.93] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(81,0)>, \"/XYZ\", 61, 782, 0 ])' widget=False field=None struct_parent=30 | (82, 0): page=2 subtype=Link flags=4 rect=[72.55, 347.33, 523.85, 361.13] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(81,0)>, \"/XYZ\", 61, 390, 0 ])' widget=False field=None struct_parent=31 | (83, 0): page=2 subtype=Link flags=4 rect=[61.55, 333.53, 523.35, 347.33] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(81,0)>, \"/XYZ\", 61, 390, 0 ])' widget=False field=None struct_parent=32 | (84, 0): page=2 subtype=Link flags=4 rect=[100.5, 319.73, 520.35, 333.53] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(89,0)>, \"/XYZ\", 61, 782, 0 ])' widget=False field=None struct_parent=33 | (90, 0): page=2 subtype=Link flags=4 rect=[100.5, 305.93, 520.35, 319.73] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(97,0)>, \"/XYZ\", 61, 782, 0 ])' widget=False field=None struct_parent=34 | (98, 0): page=2 subtype=Link flags=4 rect=[100.5, 292.13, 520.35, 305.93] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(101,0)>, \"/XYZ\", 61, 762, 0 ])' widget=False field=None struct_parent=35 | (102, 0): page=2 subtype=Link flags=4 rect=[100.5, 278.33, 520.35, 292.13] action='Dest' dest='pikepdf.Array([ <Pdf.pages.from_objgen(103,0)>, \"/XYZ\", 61, 782, 0 ])' widget=False field=None struct_parent=36 | (107, 0): page=3 subtype=Link flags=4 rect=[69.8, 117.06, 523.85, 128.56] action='/URI' dest='https://www.walthamforest.gov.uk/families-young-people-and-children/childcare-and-early-years/free-early-education-two-year-olds' widget=False field=None struct_parent=38 | (108, 0): page=3 subtype=Link flags=4 rect=[61.55, 105.57, 163.79, 117.06] action='/URI' dest='https://www.walthamforest.gov.uk/families-young-people-and-children/childcare-and-early-years/free-early-education-two-year-olds' widget=False field=None struct_parent=39 | (109, 0): page=3 subtype=Link flags=4 rect=[67.3, 82.568, 523.85, 94.067] action='/URI' dest='https://www.walthamforest.gov.uk/families-young-people-and-children/childcare-and-early-years/free-early-education-three-and-four-year-olds' widget=False field=None struct_parent=40 | (110, 0): page=3 subtype=Link flags=4 rect=[61.55, 71.069, 206.53, 82.568] action='/URI' dest='https://www.walthamforest.gov.uk/families-young-people-and-children/childcare-and-early-years/free-early-education-three-and-four-year-olds' widget=False field=None struct_parent=41 | (118, 0): page=5 subtype=Link flags=4 rect=[69.888, 71.069, 434.58, 90.237] action='/URI' dest='https://data.london.gov.uk/dataset/early-years-foundation-stage-profile-assessment-results' widget=False field=None struct_parent=44 | (126, 0): page=10 subtype=Link flags=4 rect=[317.21, 132.14, 523.85, 145.93] action='/URI' dest='https://www.gov.uk/find-free-early-education' widget=False field=None struct_parent=50 | (127, 0): page=10 subtype=Link flags=4 rect=[61.55, 118.34, 155.62, 132.14] action='/URI' dest='https://www.gov.uk/find-free-early-education' widget=False field=None struct_parent=51 | (128, 0): page=10 subtype=Link flags=4 rect=[289.21, 90.739, 523.85, 104.54] action='/URI' dest='https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/718179/Early_education_and_childcare-statutory_guidance.pdf' widget=False field=None struct_parent=52 | (129, 0): page=10 subtype=Link flags=4 rect=[61.55, 76.94, 236.34, 90.739] action='/URI' dest='https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/718179/Early_education_and_childcare-statutory_guidance.pdf' widget=False field=None struct_parent=53 | (139, 0): page=14 subtype=Link flags=4 rect=[67.3, 117.06, 523.85, 128.56] action='/URI' dest='https://www.walthamforest.gov.uk/families-young-people-and-children/childcare-and-early-years/free-early-education-two-year-olds' widget=False field=None struct_parent=58 | (140, 0): page=14 subtype=Link flags=4 rect=[61.55, 105.57, 163.79, 117.06] action='/URI' dest='https://www.walthamforest.gov.uk/families-young-people-and-children/childcare-and-early-years/free-early-education-two-year-olds' widget=False field=None struct_parent=59 | (141, 0): page=14 subtype=Link flags=4 rect=[67.3, 82.568, 523.85, 94.067] action='/URI' dest='https://www.walthamforest.gov.uk/families-young-people-and-children/childcare-and-early-years/free-early-education-three-and-four-year-olds' widget=False field=None struct_parent=60 | (142, 0): page=14 subtype=Link flags=4 rect=[61.55, 71.069, 206.53, 82.568] action='/URI' dest='https://www.walthamforest.gov.uk/families-young-people-and-children/childcare-and-early-years/free-early-education-three-and-four-year-olds' widget=False field=None struct_parent=61 | (144, 0): page=15 subtype=Link flags=4 rect=[79.224, 496.99, 509.38, 643.18] action='/URI' dest='https://app.powerbi.com/MobileRedirect.html?action=OpenReport&reportObjectId=5a674205-b2d0-4a98-8b65-0fe059f0961b&ctid=d8a82170-b655-46b0-87a1-042e6581813f&reportPage=ReportSection65becf362142e047a1dc&pbi_source=copyvisualimage' widget=False field=None struct_parent=64 | (146, 0): page=15 subtype=Link flags=4 rect=[79.224, 231.86, 514.18, 398.09] action='/URI' dest='https://app.powerbi.com/MobileRedirect.html?action=OpenReport&reportObjectId=5a674205-b2d0-4a98-8b65-0fe059f0961b&ctid=d8a82170-b655-46b0-87a1-042e6581813f&reportPage=ReportSection92c78b4cde98c488bb1c&pbi_source=copyvisualimage' widget=False field=None struct_parent=65 | (149, 0): page=16 subtype=Link flags=4 rect=[78.984, 653.38, 523.18, 781.44] action='/URI' dest='https://app.powerbi.com/MobileRedirect.html?action=OpenReport&reportObjectId=5a674205-b2d0-4a98-8b65-0fe059f0961b&ctid=d8a82170-b655-46b0-87a1-042e6581813f&reportPage=ReportSection&pbi_source=copyvisualimage' widget=False field=None struct_parent=66 | (151, 0): page=16 subtype=Link flags=4 rect=[78.984, 415.37, 515.98, 568.15] action='/URI' dest='https://app.powerbi.com/MobileRedirect.html?action=OpenReport&reportObjectId=5a674205-b2d0-4a98-8b65-0fe059f0961b&ctid=d8a82170-b655-46b0-87a1-042e6581813f&reportPage=ReportSection31ae3e821c40806c81b1&pbi_source=copyvisualimage' widget=False field=None struct_parent=67 | (161, 0): page=22 subtype=Link flags=4 rect=[71.558, 91.478, 478.2, 111.89] action='/URI' dest='https://public.tableau.com/views/Dataview/Comparelocalauthorityareas?:showVizHome=no' widget=False field=None struct_parent=74 | (163, 0): page=23 subtype=Link flags=4 rect=[199.82, 754.77, 368.4, 768.57] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/weekly-activity-cards' widget=False field=None struct_parent=76 | (164, 0): page=23 subtype=Link flags=4 rect=[490.63, 754.77, 523.85, 768.57] action='/URI' dest='https://www.facebook.com/chitchatpitterpatLBWF' widget=False field=None struct_parent=77 | (165, 0): page=23 subtype=Link flags=4 rect=[61.55, 740.97, 220.99, 754.77] action='/URI' dest='https://www.facebook.com/chitchatpitterpatLBWF' widget=False field=None struct_parent=78 | (166, 0): page=23 subtype=Link flags=4 rect=[61.55, 113.24, 523.85, 124.73] action='/URI' dest='https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1024319/Early_years_foundation_stage_profile_handbook_2022.pdf' widget=False field=None struct_parent=79 | (167, 0): page=23 subtype=Link flags=4 rect=[61.55, 101.74, 277.94, 113.24] action='/URI' dest='https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1024319/Early_years_foundation_stage_profile_handbook_2022.pdf' widget=False field=None struct_parent=80 | (168, 0): page=23 subtype=Link flags=4 rect=[73.225, 71.069, 437.91, 90.237] action='/URI' dest='https://data.london.gov.uk/dataset/early-years-foundation-stage-profile-assessment-results' widget=False field=None struct_parent=81 | (170, 0): page=24 subtype=Link flags=4 rect=[97.0, 378.16, 523.85, 391.96] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/inclusion-for-all' widget=False field=None struct_parent=83 | (171, 0): page=24 subtype=Link flags=4 rect=[61.55, 364.36, 194.86, 378.16] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/inclusion-for-all' widget=False field=None struct_parent=84 | (172, 0): page=24 subtype=Link flags=4 rect=[97.0, 336.76, 265.58, 350.56] action='/URI' dest='https://www.walthamforest.gov.uk/schools-education-and-learning/local-offer-special-educational-needs-and-disability-send/early-years-send-support/early-years-inclusion-pathway' widget=False field=None struct_parent=85 | (173, 0): page=24 subtype=Link flags=4 rect=[97.0, 281.57, 200.88, 295.37] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/transition-to-school' widget=False field=None struct_parent=86 | (174, 0): page=24 subtype=Link flags=4 rect=[97.55, 211.6, 202.76, 226.37] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/working_with_2_year_olds' widget=False field=None struct_parent=87 | (175, 0): page=24 subtype=Link flags=4 rect=[97.55, 154.45, 310.13, 169.22] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/support-empower-enrich' widget=False field=None struct_parent=88 | (176, 0): page=24 subtype=Link flags=4 rect=[97.0, 97.466, 187.53, 113.05] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/send-passport' widget=False field=None struct_parent=89 | (178, 0): page=25 subtype=Link flags=4 rect=[97.55, 767.59, 282.14, 782.37] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/all-talk-project' widget=False field=None struct_parent=90 | (219, 0): page=46 subtype=Link flags=4 rect=[202.9, 637.65, 485.54, 651.45] action='/URI' dest='https://www.gov.uk/government/organisations/ofsted' widget=False field=None struct_parent=113 | (220, 0): page=46 subtype=Link flags=4 rect=[242.25, 623.35, 447.53, 637.15] action='/URI' dest='https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/1024319/Early_years_foundation_stage_profile_handbook_2022.pdf' widget=False field=None struct_parent=114 | (221, 0): page=46 subtype=Link flags=4 rect=[202.9, 456.26, 518.2, 470.06] action='/URI' dest='https://www.gov.uk/government/organisations/department-for-education' widget=False field=None struct_parent=115 | (222, 0): page=46 subtype=Link flags=4 rect=[202.9, 442.47, 277.44, 456.26] action='/URI' dest='https://www.gov.uk/government/organisations/department-for-education' widget=False field=None struct_parent=116 | (223, 0): page=46 subtype=Link flags=4 rect=[202.9, 372.97, 518.2, 386.77] action='/URI' dest='https://www.gov.uk/government/publications/send-code-of-practice-0-to-25' widget=False field=None struct_parent=117 | (224, 0): page=46 subtype=Link flags=4 rect=[202.9, 359.17, 305.44, 372.97] action='/URI' dest='https://www.gov.uk/government/publications/send-code-of-practice-0-to-25' widget=False field=None struct_parent=118 | (227, 0): page=47 subtype=Link flags=4 rect=[202.9, 762.67, 518.2, 781.87] action='/URI' dest='https://www.gov.uk/children-with-special-educational-needs/extra-SEN-help' widget=False field=None struct_parent=120 | (228, 0): page=47 subtype=Link flags=4 rect=[202.9, 743.47, 325.46, 762.67] action='/URI' dest='https://www.gov.uk/children-with-special-educational-needs/extra-SEN-help' widget=False field=None struct_parent=121 | (229, 0): page=47 subtype=Link flags=4 rect=[202.9, 687.77, 441.51, 701.57] action='/URI' dest='https://www.gov.uk/find-free-early-education' widget=False field=None struct_parent=122 | (230, 0): page=47 subtype=Link flags=4 rect=[202.9, 645.88, 518.2, 659.68] action='/URI' dest='https://www.gov.uk/government/publications/early-years-foundation-stage-framework--2' widget=False field=None struct_parent=123 | (231, 0): page=47 subtype=Link flags=4 rect=[202.9, 632.08, 371.47, 645.88] action='/URI' dest='https://www.gov.uk/government/publications/early-years-foundation-stage-framework--2' widget=False field=None struct_parent=124 | (232, 0): page=47 subtype=Link flags=4 rect=[222.92, 396.0, 505.18, 409.8] action='/URI' dest='https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/718179/Early_education_and_childcare-statutory_guidance.pdf' widget=False field=None struct_parent=125 | (233, 0): page=47 subtype=Link flags=4 rect=[314.27, 298.41, 518.2, 312.21] action='/URI' dest='https://www.nelft.nhs.uk/services-waltham-forest/' widget=False field=None struct_parent=126 | (234, 0): page=47 subtype=Link flags=4 rect=[202.9, 284.61, 289.43, 298.41] action='/URI' dest='https://www.nelft.nhs.uk/services-waltham-forest/' widget=False field=None struct_parent=127 | (235, 0): page=47 subtype=Link flags=4 rect=[202.9, 228.91, 518.2, 242.71] action='/URI' dest='https://www.walthamforest.gov.uk/council-and-elections/about-us/waltham-forest-public-service-strategy/priority-3-our-15-minute' widget=False field=None struct_parent=128 | (236, 0): page=47 subtype=Link flags=4 rect=[202.9, 215.11, 518.2, 228.91] action='/URI' dest='https://www.walthamforest.gov.uk/council-and-elections/about-us/waltham-forest-public-service-strategy/priority-3-our-15-minute' widget=False field=None struct_parent=129 | (237, 0): page=47 subtype=Link flags=4 rect=[202.9, 201.32, 378.79, 215.11] action='/URI' dest='https://www.walthamforest.gov.uk/council-and-elections/about-us/waltham-forest-public-service-strategy/priority-3-our-15-minute' widget=False field=None struct_parent=130 | (240, 0): page=48 subtype=Link flags=4 rect=[206.23, 768.07, 518.2, 781.87] action='/URI' dest='https://www.gov.uk/government/publications/early-years-inspection-handbook-eif/early-years-inspection-handbook-for-ofsted-registered-provision-for-september-2021' widget=False field=None struct_parent=132 | (241, 0): page=48 subtype=Link flags=4 rect=[202.9, 754.27, 518.2, 768.07] action='/URI' dest='https://www.gov.uk/government/publications/early-years-inspection-handbook-eif/early-years-inspection-handbook-for-ofsted-registered-provision-for-september-2021' widget=False field=None struct_parent=133 | (242, 0): page=48 subtype=Link flags=4 rect=[202.9, 740.47, 476.85, 754.27] action='/URI' dest='https://www.gov.uk/government/publications/early-years-inspection-handbook-eif/early-years-inspection-handbook-for-ofsted-registered-provision-for-september-2021' widget=False field=None struct_parent=134 | (243, 0): page=48 subtype=Link flags=4 rect=[346.31, 712.38, 518.2, 726.17] action='/URI' dest='https://www.get-information-schools.service.gov.uk/' widget=False field=None struct_parent=135 | (244, 0): page=48 subtype=Link flags=4 rect=[202.9, 698.58, 331.45, 712.38] action='/URI' dest='https://www.get-information-schools.service.gov.uk/' widget=False field=None struct_parent=136 | (245, 0): page=48 subtype=Link flags=4 rect=[202.9, 656.68, 485.54, 670.48] action='/URI' dest='https://www.gov.uk/government/organisations/ofsted' widget=False field=None struct_parent=137 | (246, 0): page=48 subtype=Link flags=4 rect=[202.9, 628.58, 518.2, 642.38] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/runningyourbusiness#tas' widget=False field=None struct_parent=138 | (247, 0): page=48 subtype=Link flags=4 rect=[202.9, 614.78, 484.23, 628.58] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/runningyourbusiness#tas' widget=False field=None struct_parent=139 | (248, 0): page=48 subtype=Link flags=4 rect=[202.9, 559.09, 518.2, 572.89] action='/URI' dest='https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/local-plan' widget=False field=None struct_parent=140 | (249, 0): page=48 subtype=Link flags=4 rect=[202.9, 545.29, 381.5, 559.09] action='/URI' dest='https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/local-plan' widget=False field=None struct_parent=141 | (250, 0): page=48 subtype=Link flags=4 rect=[202.9, 475.8, 518.2, 489.59] action='/URI' dest='https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/infrastructure-delivery-plan' widget=False field=None struct_parent=142 | (251, 0): page=48 subtype=Link flags=4 rect=[202.9, 462.0, 472.19, 475.8] action='/URI' dest='https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/infrastructure-delivery-plan' widget=False field=None struct_parent=143 | (252, 0): page=48 subtype=Link flags=4 rect=[202.9, 392.5, 518.2, 406.3] action='/URI' dest='https://www.walthamforest.gov.uk/businesses/commercial-property/estates-management' widget=False field=None struct_parent=144 | (253, 0): page=48 subtype=Link flags=4 rect=[202.9, 378.7, 367.48, 392.5] action='/URI' dest='https://www.walthamforest.gov.uk/businesses/commercial-property/estates-management' widget=False field=None struct_parent=145 | (254, 0): page=48 subtype=Link flags=4 rect=[202.9, 281.61, 518.2, 295.41] action='/URI' dest='https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/supplementary-planning-documents' widget=False field=None struct_parent=146 | (255, 0): page=48 subtype=Link flags=4 rect=[202.9, 267.81, 518.2, 281.61] action='/URI' dest='https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/supplementary-planning-documents' widget=False field=None struct_parent=147 | (256, 0): page=48 subtype=Link flags=4 rect=[202.9, 254.01, 266.1, 267.81] action='/URI' dest='https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/supplementary-planning-documents' widget=False field=None struct_parent=148 | (257, 0): page=48 subtype=Link flags=4 rect=[251.6, 129.33, 518.2, 143.12] action='/URI' dest='https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/planning-obligations' widget=False field=None struct_parent=149 | (258, 0): page=48 subtype=Link flags=4 rect=[202.9, 115.53, 482.25, 129.33] action='/URI' dest='https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/planning-obligations' widget=False field=None struct_parent=150 | (261, 0): page=49 subtype=Link flags=4 rect=[271.28, 712.88, 518.2, 726.67] action='/URI' dest='https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/community-infrastructure-levy' widget=False field=None struct_parent=152 | (262, 0): page=49 subtype=Link flags=4 rect=[202.9, 699.08, 518.2, 712.88] action='/URI' dest='https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/community-infrastructure-levy' widget=False field=None struct_parent=153 | (263, 0): page=49 subtype=Link flags=4 rect=[202.9, 685.28, 302.76, 699.08] action='/URI' dest='https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/community-infrastructure-levy' widget=False field=None struct_parent=154",
+            "LinkStructureCount": 74,
+            "ExternalLinkAnnotationCount": 71,
+            "InternalLinkAnnotationCount": 35,
+            "AnnotationPagesWithLinks": 15,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "Pass",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Pass",
+            "HeadingCount": 33,
+            "HeadingSequence": "H1 > H2 > H2 > H2 > H1 > H2 > H2 > H1 > H2 > H1 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H1 > H2 > H2 > H1 > H2 > H1 > H1 > H1 > H1 > H1 > H1",
+            "HeadingIssues": "",
+            "ListsTest": "Pass",
+            "ListCount": 49,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "Warn",
+            "TableCount": 20,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "Fail",
+            "FiguresAltTextIssues": "Figures missing alt text (count=5)",
+            "Exempt": false,
+            "Date": "2024-04-12 09:48:01+00:00",
+            "hasTitle": false,
+            "hasDisplayDocTitle": null,
+            "hasLang": true,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.7",
+            "Creator": "Microsoft\u00ae Word for Microsoft 365",
+            "Producer": "Microsoft\u00ae Word for Microsoft 365",
+            "Title": null,
+            "Author": "Eve McLoughlin",
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 49,
+            "Words": 14896,
+            "Images": 17,
+            "fonts": 11,
+            "numTxtObjects": 7746,
+            "DocCategory": "Report"
+          },
+          "errors": [
+            "title, no bookmarks and more than 20 pages, figures missing alt text (count=5), tables-warn, "
+          ],
+          "analysed_at": "2026-10-22T14:16:19.920966+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/walthamforest.gov.uk/Summer_2023_Childcare_Sufficiency_Assessment_(CSA).pdf (crawled 0.4 day(s) ago at 2026-10-22T14:05:14.561683+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-10-23T00:15:45.470416+00:00"
+        }
+      },
+      "engine": "bloom",
+      "engine_status": "error"
+    },
+    {
+      "url": "https://democracy.walthamforest.gov.uk/documents/s99303/Appendix+1+-+Cultural+Action+Plan.pdf",
+      "md5": "5d718759c1e89e7ddaa244c8480a7552",
+      "file_hash": "dcb86349b3f087775f13e427a4800e88556f9d89a6dcb07ccb13a8d423bd2388",
+      "file_size_bytes": 17802603,
+      "filename": "Appendix+1+-+Cultural+Action+Plan.pdf",
+      "site": "walthamforest.gov.uk",
+      "crawled_at": "2026-10-23T00:09:51.055049+00:00",
+      "status": "error",
+      "report": null,
+      "errors": [
+        "Analysis exceeded 120s per-file limit"
+      ],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "Analysis exceeded 120s per-file limit"
+          ],
+          "analysed_at": "2026-10-23T00:18:22.171057+00:00"
+        }
+      },
+      "engine": "bloom",
+      "engine_status": "error"
+    },
+    {
+      "url": "https://thehub-beta.walthamforest.gov.uk/sites/default/files/2024-10/Pupil_Place_Plan_2024-2030.pdf",
+      "md5": "ab9f30f4718545898d64e674a18483cd",
+      "file_hash": "0416f0bec0b24f00bcd39b6beef1d4b7179dd96f1ccfe8830c01f7a676e5f109",
+      "file_size_bytes": 2718302,
+      "filename": "Pupil_Place_Plan_2024-2030.pdf",
+      "site": "walthamforest.gov.uk",
+      "crawled_at": "2026-10-23T00:09:51.066196+00:00",
+      "status": "analysed",
+      "report": {
+        "Site": "walthamforest.gov.uk",
+        "File": "Pupil_Place_Plan_2024-2030.pdf",
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": null,
+        "TaggedTest": "Pass",
+        "StructTreeRootPresent": true,
+        "MarkedAsTagged": true,
+        "TaggedContentTest": "Pass",
+        "UntaggedContentCount": 0,
+        "UntaggedContentSummary": "",
+        "UntaggedWhitespaceContentCount": 0,
+        "UntaggedWhitespaceContentSummary": "",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2024-10-24 13:57:59+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 60,
+        "Form": null,
+        "xfa": null,
+        "FormFieldCount": 0,
+        "FormFieldSummary": null,
+        "FormsTest": "NotApplicable",
+        "FieldsWithoutDescription": "",
+        "TaggedFormFieldsTest": "NotApplicable",
+        "TaggedFormFieldIssues": "",
+        "AnnotationsFound": true,
+        "AnnotationCount": 9,
+        "AnnotationSubtypeCounts": "Link=9",
+        "LinkAnnotationCount": 9,
+        "WidgetAnnotationCount": 0,
+        "TaggedAnnotationsTest": "Pass",
+        "TaggedAnnotationIssues": "",
+        "AnnotationSummary": "(45, 0): page=7 subtype=Link flags=4 rect=[111.2, 192.12, 519.65, 205.91] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/admissionshttps:/www.walthamforest.gov.uk/stories/mission-waltham-forest-resets-our-support-residents' widget=False field=None struct_parent=9 | (46, 0): page=7 subtype=Link flags=4 rect=[68.65, 178.32, 519.65, 192.12] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/admissionshttps:/www.walthamforest.gov.uk/stories/mission-waltham-forest-resets-our-support-residents' widget=False field=None struct_parent=10 | (47, 0): page=7 subtype=Link flags=4 rect=[68.65, 164.52, 416.46, 178.32] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/admissionshttps:/www.walthamforest.gov.uk/stories/mission-waltham-forest-resets-our-support-residents' widget=False field=None struct_parent=11 | (55, 0): page=10 subtype=Link flags=4 rect=[469.12, 160.16, 522.98, 176.03] action='/URI' dest='https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics/2022-23' widget=False field=None struct_parent=13 | (56, 0): page=10 subtype=Link flags=4 rect=[68.65, 144.29, 522.98, 160.16] action='/URI' dest='https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics/2022-23' widget=False field=None struct_parent=14 | (57, 0): page=10 subtype=Link flags=4 rect=[68.65, 128.42, 453.53, 144.29] action='/URI' dest='https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics/2022-23' widget=False field=None struct_parent=15 | (86, 0): page=19 subtype=Link flags=4 rect=[72.646, 693.7, 443.3, 709.57] action='/URI' dest='https://www.gov.uk/government/collections/school-places-scorecards' widget=False field=None struct_parent=25 | (91, 0): page=21 subtype=Link flags=4 rect=[269.43, 88.305, 519.65, 104.17] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/admissions' widget=False field=None struct_parent=28 | (92, 0): page=21 subtype=Link flags=4 rect=[68.65, 62.436, 276.58, 88.305] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/admissions' widget=False field=None struct_parent=29",
+        "LinkStructureCount": 4,
+        "ExternalLinkAnnotationCount": 9,
+        "InternalLinkAnnotationCount": 0,
+        "AnnotationPagesWithLinks": 4,
+        "HidesAnnotationTest": "Pass",
+        "HidesAnnotationIssues": "",
+        "ImageObjectsFound": 18,
+        "PagesWithImages": 16,
+        "FiguresFound": 64,
+        "FiguresWithAlt": 2,
+        "FiguresWithEmptyAlt": 0,
+        "FiguresWithActualTextOnly": 0,
+        "FiguresWithoutAlt": 62,
+        "FiguresAltTextTest": "Fail",
+        "FiguresAltTextIssues": "(385, 0): Figure has no /Alt or /ActualText | (496, 0): Figure has no /Alt or /ActualText | (585, 0): Figure has no /Alt or /ActualText | (1262, 0): Figure has no /Alt or /ActualText | (1270, 0): Figure has no /Alt or /ActualText | (1618, 0): Figure has no /Alt or /ActualText | (1623, 0): Figure has no /Alt or /ActualText | (1624, 0): Figure has no /Alt or /ActualText | (1649, 0): Figure has no /Alt or /ActualText | (1989, 0): Figure has no /Alt or /ActualText | (1994, 0): Figure has no /Alt or /ActualText | (1995, 0): Figure has no /Alt or /ActualText | (2005, 0): Figure has no /Alt or /ActualText | (2349, 0): Figure has no /Alt or /ActualText | (2354, 0): Figure has no /Alt or /ActualText | (2355, 0): Figure has no /Alt or /ActualText | (2362, 0): Figure has no /Alt or /ActualText | (2716, 0): Figure has no /Alt or /ActualText | (2721, 0): Figure has no /Alt or /ActualText | (2722, 0): Figure has no /Alt or /ActualText | (2731, 0): Figure has no /Alt or /ActualText | (3127, 0): Figure has no /Alt or /ActualText | (3132, 0): Figure has no /Alt or /ActualText | (3133, 0): Figure has no /Alt or /ActualText | (3140, 0): Figure has no /Alt or /ActualText | (3503, 0): Figure has no /Alt or /ActualText | (3508, 0): Figure has no /Alt or /ActualText | (3509, 0): Figure has no /Alt or /ActualText | (3515, 0): Figure has no /Alt or /ActualText | (3880, 0): Figure has no /Alt or /ActualText | (3885, 0): Figure has no /Alt or /ActualText | (3886, 0): Figure has no /Alt or /ActualText | (3893, 0): Figure has no /Alt or /ActualText | (4228, 0): Figure has no /Alt or /ActualText | (4233, 0): Figure has no /Alt or /ActualText | (4234, 0): Figure has no /Alt or /ActualText | (4242, 0): Figure has no /Alt or /ActualText | (4583, 0): Figure has no /Alt or /ActualText | (4588, 0): Figure has no /Alt or /ActualText | (4589, 0): Figure has no /Alt or /ActualText | (4597, 0): Figure has no /Alt or /ActualText | (4983, 0): Figure has no /Alt or /ActualText | (4988, 0): Figure has no /Alt or /ActualText | (4989, 0): Figure has no /Alt or /ActualText | (4996, 0): Figure has no /Alt or /ActualText | (5334, 0): Figure has no /Alt or /ActualText | (5339, 0): Figure has no /Alt or /ActualText | (5340, 0): Figure has no /Alt or /ActualText | (5626, 0): Figure has no /Alt or /ActualText | (5627, 0): Figure has no /Alt or /ActualText | (5628, 0): Figure has no /Alt or /ActualText | (5945, 0): Figure has no /Alt or /ActualText | (5947, 0): Figure has no /Alt or /ActualText | (5952, 0): Figure has no /Alt or /ActualText | (6293, 0): Figure has no /Alt or /ActualText | (6298, 0): Figure has no /Alt or /ActualText | (6299, 0): Figure has no /Alt or /ActualText | (6648, 0): Figure has no /Alt or /ActualText | (6653, 0): Figure has no /Alt or /ActualText | (6654, 0): Figure has no /Alt or /ActualText | (6664, 0): Figure has no /Alt or /ActualText | (7340, 0): Figure has no /Alt or /ActualText",
+        "NestedAltTextTest": "Pass",
+        "NestedAltTextIssues": "",
+        "HeadingsTest": "Warn",
+        "HeadingCount": 0,
+        "HeadingSequence": "",
+        "HeadingIssues": "No headings found in tagged document",
+        "ListsTest": "Pass",
+        "ListCount": 78,
+        "InvalidListItemParents": "",
+        "InvalidListChildren": "",
+        "MalformedListNodes": "",
+        "TablesTest": "Warn",
+        "TableCount": 42,
+        "InvalidTRParents": "",
+        "InvalidCellParents": "",
+        "TablesWithoutHeaders": "",
+        "IrregularTables": "(1541, 0): Uneven row lengths detected ([3, 9, 9]) | (1732, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (2092, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (2461, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (2872, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (3247, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (3623, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (3973, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (4328, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (4727, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (5075, 0): Uneven row lengths detected ([3, 9, 9, 9]) | (5141, 0): Uneven row lengths detected ([9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (5547, 0): Uneven row lengths detected ([3, 9, 9]) | (5694, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (6043, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (6397, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6])",
+        "fonts": 9,
+        "numTxtObjects": 10990
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, fonts:/SymbolMT, /BCDGEE+Calibri-Bold, /BCDFEE+Arial-Black, /BCDJEE+Calibri-Italic, /BCDHEE+Calibri-Italic, /Arial-BoldMT, /BCDEEE+Calibri, /ArialMT, /BCDIEE+Calibri-BoldItalicfigures-alt, headings-none, tables-warn, "
+      ],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        },
+        "bloom": {
+          "status": "analysed",
+          "report": {
+            "Site": "walthamforest.gov.uk",
+            "File": "Pupil_Place_Plan_2024-2030.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": null,
+            "TaggedTest": "Pass",
+            "StructTreeRootPresent": true,
+            "MarkedAsTagged": true,
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Pass",
+            "BookmarksTest": "Fail",
+            "Exempt": false,
+            "Date": "2024-10-24 13:57:59+00:00",
+            "hasTitle": false,
+            "hasDisplayDocTitle": null,
+            "hasLang": true,
+            "InvalidLang": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.7",
+            "Creator": "Microsoft\u00ae Word for Microsoft 365",
+            "Producer": "Microsoft\u00ae Word for Microsoft 365",
+            "Pages": 60,
+            "Form": null,
+            "xfa": null,
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FormsTest": "NotApplicable",
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": true,
+            "AnnotationCount": 9,
+            "AnnotationSubtypeCounts": "Link=9",
+            "LinkAnnotationCount": 9,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "Pass",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "(45, 0): page=7 subtype=Link flags=4 rect=[111.2, 192.12, 519.65, 205.91] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/admissionshttps:/www.walthamforest.gov.uk/stories/mission-waltham-forest-resets-our-support-residents' widget=False field=None struct_parent=9 | (46, 0): page=7 subtype=Link flags=4 rect=[68.65, 178.32, 519.65, 192.12] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/admissionshttps:/www.walthamforest.gov.uk/stories/mission-waltham-forest-resets-our-support-residents' widget=False field=None struct_parent=10 | (47, 0): page=7 subtype=Link flags=4 rect=[68.65, 164.52, 416.46, 178.32] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/admissionshttps:/www.walthamforest.gov.uk/stories/mission-waltham-forest-resets-our-support-residents' widget=False field=None struct_parent=11 | (55, 0): page=10 subtype=Link flags=4 rect=[469.12, 160.16, 522.98, 176.03] action='/URI' dest='https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics/2022-23' widget=False field=None struct_parent=13 | (56, 0): page=10 subtype=Link flags=4 rect=[68.65, 144.29, 522.98, 160.16] action='/URI' dest='https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics/2022-23' widget=False field=None struct_parent=14 | (57, 0): page=10 subtype=Link flags=4 rect=[68.65, 128.42, 453.53, 144.29] action='/URI' dest='https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics/2022-23' widget=False field=None struct_parent=15 | (86, 0): page=19 subtype=Link flags=4 rect=[72.646, 693.7, 443.3, 709.57] action='/URI' dest='https://www.gov.uk/government/collections/school-places-scorecards' widget=False field=None struct_parent=25 | (91, 0): page=21 subtype=Link flags=4 rect=[269.43, 88.305, 519.65, 104.17] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/admissions' widget=False field=None struct_parent=28 | (92, 0): page=21 subtype=Link flags=4 rect=[68.65, 62.436, 276.58, 88.305] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/admissions' widget=False field=None struct_parent=29",
+            "LinkStructureCount": 4,
+            "ExternalLinkAnnotationCount": 9,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 4,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "ImageObjectsFound": 18,
+            "PagesWithImages": 16,
+            "FiguresFound": 64,
+            "FiguresWithAlt": 2,
+            "FiguresWithEmptyAlt": 0,
+            "FiguresWithActualTextOnly": 0,
+            "FiguresWithoutAlt": 62,
+            "FiguresAltTextTest": "Fail",
+            "FiguresAltTextIssues": "(385, 0): Figure has no /Alt or /ActualText | (496, 0): Figure has no /Alt or /ActualText | (585, 0): Figure has no /Alt or /ActualText | (1262, 0): Figure has no /Alt or /ActualText | (1270, 0): Figure has no /Alt or /ActualText | (1618, 0): Figure has no /Alt or /ActualText | (1623, 0): Figure has no /Alt or /ActualText | (1624, 0): Figure has no /Alt or /ActualText | (1649, 0): Figure has no /Alt or /ActualText | (1989, 0): Figure has no /Alt or /ActualText | (1994, 0): Figure has no /Alt or /ActualText | (1995, 0): Figure has no /Alt or /ActualText | (2005, 0): Figure has no /Alt or /ActualText | (2349, 0): Figure has no /Alt or /ActualText | (2354, 0): Figure has no /Alt or /ActualText | (2355, 0): Figure has no /Alt or /ActualText | (2362, 0): Figure has no /Alt or /ActualText | (2716, 0): Figure has no /Alt or /ActualText | (2721, 0): Figure has no /Alt or /ActualText | (2722, 0): Figure has no /Alt or /ActualText | (2731, 0): Figure has no /Alt or /ActualText | (3127, 0): Figure has no /Alt or /ActualText | (3132, 0): Figure has no /Alt or /ActualText | (3133, 0): Figure has no /Alt or /ActualText | (3140, 0): Figure has no /Alt or /ActualText | (3503, 0): Figure has no /Alt or /ActualText | (3508, 0): Figure has no /Alt or /ActualText | (3509, 0): Figure has no /Alt or /ActualText | (3515, 0): Figure has no /Alt or /ActualText | (3880, 0): Figure has no /Alt or /ActualText | (3885, 0): Figure has no /Alt or /ActualText | (3886, 0): Figure has no /Alt or /ActualText | (3893, 0): Figure has no /Alt or /ActualText | (4228, 0): Figure has no /Alt or /ActualText | (4233, 0): Figure has no /Alt or /ActualText | (4234, 0): Figure has no /Alt or /ActualText | (4242, 0): Figure has no /Alt or /ActualText | (4583, 0): Figure has no /Alt or /ActualText | (4588, 0): Figure has no /Alt or /ActualText | (4589, 0): Figure has no /Alt or /ActualText | (4597, 0): Figure has no /Alt or /ActualText | (4983, 0): Figure has no /Alt or /ActualText | (4988, 0): Figure has no /Alt or /ActualText | (4989, 0): Figure has no /Alt or /ActualText | (4996, 0): Figure has no /Alt or /ActualText | (5334, 0): Figure has no /Alt or /ActualText | (5339, 0): Figure has no /Alt or /ActualText | (5340, 0): Figure has no /Alt or /ActualText | (5626, 0): Figure has no /Alt or /ActualText | (5627, 0): Figure has no /Alt or /ActualText | (5628, 0): Figure has no /Alt or /ActualText | (5945, 0): Figure has no /Alt or /ActualText | (5947, 0): Figure has no /Alt or /ActualText | (5952, 0): Figure has no /Alt or /ActualText | (6293, 0): Figure has no /Alt or /ActualText | (6298, 0): Figure has no /Alt or /ActualText | (6299, 0): Figure has no /Alt or /ActualText | (6648, 0): Figure has no /Alt or /ActualText | (6653, 0): Figure has no /Alt or /ActualText | (6654, 0): Figure has no /Alt or /ActualText | (6664, 0): Figure has no /Alt or /ActualText | (7340, 0): Figure has no /Alt or /ActualText",
+            "NestedAltTextTest": "Pass",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Warn",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "No headings found in tagged document",
+            "ListsTest": "Pass",
+            "ListCount": 78,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "Warn",
+            "TableCount": 42,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "(1541, 0): Uneven row lengths detected ([3, 9, 9]) | (1732, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (2092, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (2461, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (2872, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (3247, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (3623, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (3973, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (4328, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (4727, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (5075, 0): Uneven row lengths detected ([3, 9, 9, 9]) | (5141, 0): Uneven row lengths detected ([9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (5547, 0): Uneven row lengths detected ([3, 9, 9]) | (5694, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (6043, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (6397, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6])",
+            "fonts": 9,
+            "numTxtObjects": 10990
+          },
+          "errors": [
+            "title, no bookmarks and more than 20 pages, fonts:/SymbolMT, /BCDGEE+Calibri-Bold, /BCDFEE+Arial-Black, /BCDJEE+Calibri-Italic, /BCDHEE+Calibri-Italic, /Arial-BoldMT, /BCDEEE+Calibri, /ArialMT, /BCDIEE+Calibri-BoldItalicfigures-alt, headings-none, tables-warn, "
+          ],
+          "analysed_at": "2026-10-23T00:19:01.033625+00:00"
+        }
+      },
+      "engine": "bloom",
+      "engine_status": "analysed"
+    },
+    {
+      "url": "https://thehub-beta.walthamforest.gov.uk/sites/default/files/2026-08/Scheme_for_Financing_Schools_2026.pdf",
+      "md5": "7af0232564ac1585357aa87094a07d1c",
+      "file_hash": "c44811cd1a86edf5b8822fa800079a0b3d80005853cdbb19f73a0af53ccc17ed",
+      "file_size_bytes": 485840,
+      "filename": "Scheme_for_Financing_Schools_2026.pdf",
+      "site": "walthamforest.gov.uk",
+      "crawled_at": "2026-10-23T00:09:51.072011+00:00",
+      "status": "analysed",
+      "report": {
+        "Site": "walthamforest.gov.uk",
+        "File": "Scheme_for_Financing_Schools_2026.pdf",
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": null,
+        "TaggedTest": "Pass",
+        "StructTreeRootPresent": true,
+        "MarkedAsTagged": true,
+        "TaggedContentTest": "Pass",
+        "UntaggedContentCount": 0,
+        "UntaggedContentSummary": "",
+        "UntaggedWhitespaceContentCount": 0,
+        "UntaggedWhitespaceContentSummary": "",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2026-07-30 15:22:42+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 67,
+        "Form": null,
+        "xfa": null,
+        "FormFieldCount": 0,
+        "FormFieldSummary": null,
+        "FormsTest": "NotApplicable",
+        "FieldsWithoutDescription": "",
+        "TaggedFormFieldsTest": "NotApplicable",
+        "TaggedFormFieldIssues": "",
+        "AnnotationsFound": true,
+        "AnnotationCount": 8,
+        "AnnotationSubtypeCounts": "Link=8",
+        "LinkAnnotationCount": 8,
+        "WidgetAnnotationCount": 0,
+        "TaggedAnnotationsTest": "Pass",
+        "TaggedAnnotationIssues": "",
+        "AnnotationSummary": "(35, 0): page=6 subtype=Link flags=4 rect=[317.21, 562.7, 507.7, 583.4] action='/URI' dest='https://www.gov.uk/government/publications/schemes-for-financing-schools/schemes-for-financing-local-authority-maintained-schools' widget=False field=None struct_parent=8 | (36, 0): page=6 subtype=Link flags=4 rect=[87.75, 542.0, 136.29, 562.7] action='/URI' dest='https://www.gov.uk/government/publications/schemes-for-financing-schools/schemes-for-financing-local-authority-maintained-schools' widget=False field=None struct_parent=9 | (41, 0): page=8 subtype=Link flags=4 rect=[87.75, 459.21, 357.47, 479.9] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/' widget=False field=None struct_parent=11 | (65, 0): page=17 subtype=Link flags=4 rect=[448.31, 269.69, 511.03, 290.39] action='/URI' dest='https://www.gov.uk/guidance/buying-for-schools' widget=False field=None struct_parent=20 | (66, 0): page=17 subtype=Link flags=4 rect=[87.75, 248.99, 190.28, 269.69] action='/URI' dest='https://www.gov.uk/guidance/buying-for-schools' widget=False field=None struct_parent=21 | (79, 0): page=23 subtype=Link flags=4 rect=[124.42, 208.4, 323.19, 229.1] action='/URI' dest='mailto:jamie.branch@walthamforest.gov.uk' widget=False field=None struct_parent=28 | (80, 0): page=23 subtype=Link flags=4 rect=[213.82, 187.7, 371.24, 208.4] action='/URI' dest='mailto:fraud@walthamforest.gov.uk' widget=False field=None struct_parent=29 | (135, 0): page=50 subtype=Link flags=4 rect=[197.8, 314.32, 482.23, 335.02] action='/URI' dest='https://www.walthamforest.gov.uk/council-and-elections/making-complaint-or-compliment/whistleblowing' widget=False field=None struct_parent=58",
+        "LinkStructureCount": 6,
+        "ExternalLinkAnnotationCount": 8,
+        "InternalLinkAnnotationCount": 0,
+        "AnnotationPagesWithLinks": 5,
+        "HidesAnnotationTest": "Pass",
+        "HidesAnnotationIssues": "",
+        "ImageObjectsFound": 0,
+        "PagesWithImages": 0,
+        "FiguresFound": 0,
+        "FiguresWithAlt": 0,
+        "FiguresWithEmptyAlt": 0,
+        "FiguresWithActualTextOnly": 0,
+        "FiguresWithoutAlt": 0,
+        "FiguresAltTextTest": "Pass",
+        "FiguresAltTextIssues": "",
+        "NestedAltTextTest": "NotApplicable",
+        "NestedAltTextIssues": "",
+        "HeadingsTest": "Warn",
+        "HeadingCount": 137,
+        "HeadingSequence": "H6 > H5 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H1 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H1 > H1 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H1 > H1 > H1 > H2 > H2 > H2 > H1 > H2 > H2 > H2 > H1 > H1 > H1 > H2 > H2 > H2 > H2 > H2 > H1 > H2 > H1 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H1 > H1 > H1 > H2 > H2 > H2 > H1 > H2 > H1 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H2 > H1 > H1 > H1 > H1",
+        "HeadingIssues": "First known heading is H6, not H1",
+        "ListsTest": "Pass",
+        "ListCount": 14,
+        "InvalidListItemParents": "",
+        "InvalidListChildren": "",
+        "MalformedListNodes": "",
+        "TablesTest": "Warn",
+        "TableCount": 3,
+        "InvalidTRParents": "",
+        "InvalidCellParents": "",
+        "TablesWithoutHeaders": "",
+        "IrregularTables": "(2341, 0): Uneven row lengths detected ([1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2])",
+        "fonts": 8,
+        "numTxtObjects": 6513
+      },
+      "errors": [
+        "no bookmarks and more than 20 pages, fonts:/BCDFEE+Arial-BoldMT, /BCDIEE+Arial-BoldItalicMT, /BCDLEE+TimesNewRomanPS-BoldMT, /BCDEEE+TimesNewRomanPSMT, /BCDHEE+Arial-BoldMT, /BCDJEE+ArialMT, /BCDKEE+SymbolMT, /BCDGEE+ArialMTheadings-warn, tables-warn, "
+      ],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        },
+        "bloom": {
+          "status": "analysed",
+          "report": {
+            "Site": "walthamforest.gov.uk",
+            "File": "Scheme_for_Financing_Schools_2026.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": null,
+            "TaggedTest": "Pass",
+            "StructTreeRootPresent": true,
+            "MarkedAsTagged": true,
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Pass",
+            "LanguageTest": "Pass",
+            "BookmarksTest": "Fail",
+            "Exempt": false,
+            "Date": "2026-07-30 15:22:42+00:00",
+            "hasTitle": true,
+            "hasDisplayDocTitle": true,
+            "hasLang": true,
+            "InvalidLang": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.7",
+            "Creator": "Microsoft\u00ae Word for Microsoft 365",
+            "Producer": "Microsoft\u00ae Word for Microsoft 365",
+            "Pages": 67,
+            "Form": null,
+            "xfa": null,
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FormsTest": "NotApplicable",
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": true,
+            "AnnotationCount": 8,
+            "AnnotationSubtypeCounts": "Link=8",
+            "LinkAnnotationCount": 8,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "Pass",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "(35, 0): page=6 subtype=Link flags=4 rect=[317.21, 562.7, 507.7, 583.4] action='/URI' dest='https://www.gov.uk/government/publications/schemes-for-financing-schools/schemes-for-financing-local-authority-maintained-schools' widget=False field=None struct_parent=8 | (36, 0): page=6 subtype=Link flags=4 rect=[87.75, 542.0, 136.29, 562.7] action='/URI' dest='https://www.gov.uk/government/publications/schemes-for-financing-schools/schemes-for-financing-local-authority-maintained-schools' widget=False field=None struct_parent=9 | (41, 0): page=8 subtype=Link flags=4 rect=[87.75, 459.21, 357.47, 479.9] action='/URI' dest='https://thehub-beta.walthamforest.gov.uk/' widget=False field=None struct_parent=11 | (65, 0): page=17 subtype=Link flags=4 rect=[448.31, 269.69, 511.03, 290.39] action='/URI' dest='https://www.gov.uk/guidance/buying-for-schools' widget=False field=None struct_parent=20 | (66, 0): page=17 subtype=Link flags=4 rect=[87.75, 248.99, 190.28, 269.69] action='/URI' dest='https://www.gov.uk/guidance/buying-for-schools' widget=False field=None struct_parent=21 | (79, 0): page=23 subtype=Link flags=4 rect=[124.42, 208.4, 323.19, 229.1] action='/URI' dest='mailto:jamie.branch@walthamforest.gov.uk' widget=False field=None struct_parent=28 | (80, 0): page=23 subtype=Link flags=4 rect=[213.82, 187.7, 371.24, 208.4] action='/URI' dest='mailto:fraud@walthamforest.gov.uk' widget=False field=None struct_parent=29 | (135, 0): page=50 subtype=Link flags=4 rect=[197.8, 314.32, 482.23, 335.02] action='/URI' dest='https://www.walthamforest.gov.uk/council-and-elections/making-complaint-or-compliment/whistleblowing' widget=False field=None struct_parent=58",
+            "LinkStructureCount": 6,
+            "ExternalLinkAnnotationCount": 8,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 5,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "ImageObjectsFound": 0,
+            "PagesWithImages": 0,
+            "FiguresFound": 0,
+            "FiguresWithAlt": 0,
+            "FiguresWithEmptyAlt": 0,
+            "FiguresWithActualTextOnly": 0,
+            "FiguresWithoutAlt": 0,
+            "FiguresAltTextTest": "Pass",
+            "FiguresAltTextIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Warn",
+            "HeadingCount": 137,
+            "HeadingSequence": "H6 > H5 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H1 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H1 > H1 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H1 > H1 > H1 > H2 > H2 > H2 > H1 > H2 > H2 > H2 > H1 > H1 > H1 > H2 > H2 > H2 > H2 > H2 > H1 > H2 > H1 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H1 > H1 > H1 > H2 > H2 > H2 > H1 > H2 > H1 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H2 > H1 > H1 > H1 > H1",
+            "HeadingIssues": "First known heading is H6, not H1",
+            "ListsTest": "Pass",
+            "ListCount": 14,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "Warn",
+            "TableCount": 3,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "(2341, 0): Uneven row lengths detected ([1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2])",
+            "fonts": 8,
+            "numTxtObjects": 6513
+          },
+          "errors": [
+            "no bookmarks and more than 20 pages, fonts:/BCDFEE+Arial-BoldMT, /BCDIEE+Arial-BoldItalicMT, /BCDLEE+TimesNewRomanPS-BoldMT, /BCDEEE+TimesNewRomanPSMT, /BCDHEE+Arial-BoldMT, /BCDJEE+ArialMT, /BCDKEE+SymbolMT, /BCDGEE+ArialMTheadings-warn, tables-warn, "
+          ],
+          "analysed_at": "2026-10-23T00:19:38.440129+00:00"
+        }
+      },
+      "engine": "bloom",
+      "engine_status": "analysed"
+    }
+  ]
+}
+  </script>
+
+  <script>
+    (function () {
+      // i18n scaffold: add new locales by extending I18N with the same keys.
+      var I18N = {
+        en: {
+          langSwitchLabel: 'Language:',
+          langEnglish: 'English',
+          langFrench: 'Français',
+          backLabel: 'Back to submission form',
+          pageTitle: '📊 PDF Accessibility Scan Results',
+          generatedAt: 'Last updated: ',
+          summary: 'Summary',
+          totalPdfs: 'Total PDFs',
+          analysed: 'Analysed',
+          accessible: '✅ Accessible',
+          issuesFound: '❌ Issues Found',
+          pending: '⏳ Pending',
+          errors: '⚠️ Errors',
+          sitesScanned: 'Sites Scanned',
+          site: 'Site',
+          pdfs: 'PDFs',
+          pdfDetails: 'PDF Details',
+          legend: '✅ = Pass/Accessible   ❌ = Fail/Inaccessible   — = Not applicable',
+          noData: 'No scan data available yet.',
+          submitPrompt: 'Submit a crawl request',
+          submitSuffix: ' to get started.',
+          downloadCsv: 'Download CSV',
+          downloadJson: 'Download JSON',
+          downloadManifest: 'Download Manifest',
+          downloadZip: 'Download ZIP Bundle',
+          downloadCurrentCsv: 'Download Current View CSV',
+          downloadCurrentJson: 'Download Current View JSON',
+          colFile: 'File',
+          colSite: 'Site',
+          colPublishedDate: 'Published Date',
+          colDocTitle: 'Doc Title',
+          colAuthor: 'Author',
+          colSubject: 'Subject',
+          colKeywords: 'Keywords',
+          colDescription: 'Description',
+          colAccessible: 'Accessible',
+          colTagged: 'Tagged',
+          colTitle: 'Title',
+          colLanguage: 'Language',
+          colBookmarks: 'Bookmarks',
+          colTaggedContent: 'TaggedContent',
+          colForms: 'Forms',
+          colTaggedForms: 'TaggedForms',
+          colTaggedAnnots: 'TaggedAnnots',
+          colFiguresAlt: 'FiguresAlt',
+          colHeadings: 'Headings',
+          colLists: 'Lists',
+          colTables: 'Tables',
+          colPages: 'Pages',
+          colSize: 'Size',
+          colWords: 'Words',
+          colImages: 'Images',
+        },
+        fr: {
+          langSwitchLabel: 'Langue :',
+          langEnglish: 'English',
+          langFrench: 'Français',
+          backLabel: 'Retour au formulaire de soumission',
+          pageTitle: '📊 Résultats du scan d\'accessibilité PDF',
+          generatedAt: 'Dernière mise à jour : ',
+          summary: 'Résumé',
+          totalPdfs: 'Total des PDF',
+          analysed: 'Analysés',
+          accessible: '✅ Accessibles',
+          issuesFound: '❌ Problèmes détectés',
+          pending: '⏳ En attente',
+          errors: '⚠️ Erreurs',
+          sitesScanned: 'Sites analysés',
+          site: 'Site',
+          pdfs: 'PDF',
+          pdfDetails: 'Détails des PDF',
+          legend: '✅ = Réussite/Accessible   ❌ = Échec/Inaccessible   — = Non applicable',
+          noData: 'Aucune donnée de scan disponible pour le moment.',
+          submitPrompt: 'Soumettre une demande de scan',
+          submitSuffix: ' pour commencer.',
+          downloadCsv: 'Télécharger le CSV',
+          downloadJson: 'Télécharger le JSON',
+          downloadManifest: 'Télécharger le manifeste',
+          downloadZip: 'Télécharger l'archive ZIP',
+          downloadCurrentCsv: 'Télécharger le CSV de la vue actuelle',
+          downloadCurrentJson: 'Télécharger le JSON de la vue actuelle',
+          colFile: 'Fichier',
+          colSite: 'Site',
+          colPublishedDate: 'Date de publication',
+          colDocTitle: 'Titre du doc',
+          colAuthor: 'Auteur',
+          colSubject: 'Sujet',
+          colKeywords: 'Mots-clés',
+          colDescription: 'Description',
+          colAccessible: 'Accessible',
+          colTagged: 'Balisé',
+          colTitle: 'Titre',
+          colLanguage: 'Langue',
+          colBookmarks: 'Signets',
+          colTaggedContent: 'ContenuBalisé',
+          colForms: 'Formulaires',
+          colTaggedForms: 'FormulairesBalisés',
+          colTaggedAnnots: 'AnnotationsBalisées',
+          colFiguresAlt: 'TexteAltFigures',
+          colHeadings: 'Titres',
+          colLists: 'Listes',
+          colTables: 'Tableaux',
+          colPages: 'Pages',
+          colSize: 'Taille',
+          colWords: 'Mots',
+          colImages: 'Images',
+        },
+      };
+
+      function detectLang() {
+        var params = new URLSearchParams(window.location.search);
+        var fromQuery = params.get('lang');
+        if (fromQuery && I18N[fromQuery]) return fromQuery;
+        var stored = localStorage.getItem('lang');
+        if (stored && I18N[stored]) return stored;
+        var navLang = (navigator.language || 'en').toLowerCase();
+        return navLang.indexOf('fr') === 0 ? 'fr' : 'en';
+      }
+
+      var currentLang = detectLang();
+      var M = I18N[currentLang] || I18N.en;
+      document.documentElement.setAttribute('lang', currentLang);
+      localStorage.setItem('lang', currentLang);
+
+      function t(key) {
+        return M[key] || I18N.en[key] || key;
+      }
+
+      function withLang(url, langCode) {
+        try {
+          var parsed = new URL(url, window.location.href);
+          parsed.searchParams.set('lang', langCode || currentLang);
+          return parsed.toString();
+        } catch (e) {
+          return url;
+        }
+      }
+
+      function applyLanguageStatic() {
+        var backLink = document.getElementById('back-link');
+        if (backLink) backLink.textContent = '← ' + t('backLabel');
+        var pageTitle = document.getElementById('page-title');
+        if (pageTitle) pageTitle.textContent = t('pageTitle');
+        var csvLink = document.getElementById('download-csv-link');
+        if (csvLink) csvLink.textContent = t('downloadCsv');
+        var jsonLink = document.getElementById('download-json-link');
+        if (jsonLink) jsonLink.textContent = t('downloadJson');
+        var manifestLink = document.getElementById('download-manifest-link');
+        if (manifestLink) manifestLink.textContent = t('downloadManifest');
+        var zipLink = document.getElementById('download-zip-link');
+        if (zipLink) zipLink.textContent = t('downloadZip');
+        var curCsv = document.getElementById('download-current-csv');
+        if (curCsv) curCsv.textContent = t('downloadCurrentCsv');
+        var curJson = document.getElementById('download-current-json');
+        if (curJson) curJson.textContent = t('downloadCurrentJson');
+
+        var langLabelNode = document.getElementById('lang-switch-label');
+        var currentLangName = currentLang === 'fr' ? t('langFrench') : t('langEnglish');
+        if (langLabelNode) langLabelNode.textContent = t('langSwitchLabel') + ' ' + currentLangName;
+
+        var langLinks = document.querySelectorAll('.lang-switch a[data-lang]');
+        langLinks.forEach(function (link) {
+          var code = (link.getAttribute('data-lang') || '').toLowerCase();
+          if (!code) return;
+          link.href = withLang(window.location.href, code);
+          if (code === 'en') link.textContent = t('langEnglish');
+          else if (code === 'fr') link.textContent = t('langFrench');
+          else link.textContent = code.toUpperCase();
+          if (code === currentLang) link.setAttribute('aria-current', 'page');
+          else link.removeAttribute('aria-current');
+        });
+      }
+
+      applyLanguageStatic();
+
+      var raw  = document.getElementById('report-data').textContent;
+      var data = JSON.parse(raw);
+      var summary = data.summary || {};
+      var files   = data.files   || [];
+      var root    = document.getElementById('root');
+
+      if (!summary.total_files) {
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>' + esc(t('noData')) + '</p>' +
+          '<p><a href="./">' + esc(t('submitPrompt')) + '</a>' + esc(t('submitSuffix')) + '</p>' +
+          '</div>';
+        return;
+      }
+
+      // Generated-at timestamp
+      if (summary.generated_at) {
+        document.getElementById('generated-at').textContent =
+          t('generatedAt') + new Date(summary.generated_at).toLocaleString(currentLang);
+      }
+
+      var html = '';
+
+      // --- Summary cards ---
+      var cards = [
+        { value: summary.total_files,         label: t('totalPdfs') },
+        { value: summary.analysed,            label: t('analysed') },
+        { value: summary.accessible,          label: t('accessible') },
+        { value: summary.issues_found,        label: t('issuesFound') },
+        { value: summary.pending,             label: t('pending') },
+        { value: summary.errored,             label: t('errors') },
+      ];
+      html += '<h2>' + esc(t('summary')) + '</h2><div class="stats-grid">';
+      cards.forEach(function (c) {
+        html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
+                '</div><div class="label">' + c.label + '</div></div>';
+      });
+      html += '</div>';
+
+      // --- Sites table ---
+      var sites = summary.sites || {};
+      var siteNames = Object.keys(sites).sort();
+      if (siteNames.length) {
+        html += '<h2>' + esc(t('sitesScanned')) + '</h2>';
+        html += '<table><thead><tr><th>' + esc(t('site')) + '</th><th>' + esc(t('pdfs')) + '</th></tr></thead><tbody>';
+        siteNames.forEach(function (s) {
+          html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      // --- File details table ---
+      var analysed = files.filter(function (f) { return f.status === 'analysed'; });
+
+      // Determine which optional columns have data
+      var hasWords       = analysed.some(function (f) { return f.report && f.report.Words       != null; });
+      var hasImages      = analysed.some(function (f) { return f.report && f.report.Images      != null; });
+      var hasFileSize    = analysed.some(function (f) { return f.file_size_bytes != null; });
+      var hasTaggedContent = analysed.some(function (f) { return f.report && f.report.TaggedContentTest != null; });
+      var hasForms         = analysed.some(function (f) { return f.report && f.report.FormsTest != null; });
+      var hasTaggedForms   = analysed.some(function (f) { return f.report && f.report.TaggedFormFieldsTest != null; });
+      var hasTaggedAnnots  = analysed.some(function (f) { return f.report && f.report.TaggedAnnotationsTest != null; });
+      var hasFiguresAlt    = analysed.some(function (f) { return f.report && f.report.FiguresAltTextTest != null; });
+      var hasHeadings      = analysed.some(function (f) { return f.report && f.report.HeadingsTest != null; });
+      var hasLists         = analysed.some(function (f) { return f.report && f.report.ListsTest != null; });
+      var hasTables        = analysed.some(function (f) { return f.report && f.report.TablesTest != null; });
+      var hasVeraPDF       = analysed.some(function (f) { return f.report && f.report.veraPDF && typeof f.report.veraPDF === 'object'; });
+      var hasVPFailed      = analysed.some(function (f) { return f.report && f.report.veraPDF && f.report.veraPDF.failed_checks != null; });
+      var hasVPPassed      = analysed.some(function (f) { return f.report && f.report.veraPDF && f.report.veraPDF.passed_checks != null; });
+      var hasVPRules       = analysed.some(function (f) { return f.report && f.report.veraPDF && Array.isArray(f.report.veraPDF.failed_rules); });
+      var hasVPError       = analysed.some(function (f) { return f.report && f.report.veraPDF && f.report.veraPDF.error; });
+      var hasDocTitle    = analysed.some(function (f) { return f.report && f.report.Title       != null; });
+      var hasAuthor      = analysed.some(function (f) { return f.report && f.report.Author      != null; });
+      var hasSubject     = analysed.some(function (f) { return f.report && f.report.Subject     != null; });
+      var hasKeywords    = analysed.some(function (f) { return f.report && f.report.Keywords    != null; });
+      var hasDescription = analysed.some(function (f) { return f.report && f.report.Description != null; });
+
+      // Sort state
+      var sortCol = null;
+      var sortAsc = true;
+
+      function formatSize(sizeBytes) {
+        if (sizeBytes == null) return '&#x2014;';
+        var num = Number(sizeBytes);
+        if (!isFinite(num) || num < 0) return '&#x2014;';
+        var units = ['B', 'KB', 'MB', 'GB', 'TB'];
+        var value = num;
+        var unit = 0;
+        while (value >= 1024 && unit < units.length - 1) {
+          value /= 1024;
+          unit += 1;
+        }
+        if (unit === 0) return String(Math.round(value)) + ' ' + units[unit];
+        return value.toFixed(1) + ' ' + units[unit];
+      }
+
+      function readSortFromQuery() {
+        var params = new URLSearchParams(window.location.search);
+        var col = params.get('sort');
+        var dir = params.get('dir');
+        if (col) sortCol = col;
+        if (dir === 'asc' || dir === 'desc') sortAsc = dir === 'asc';
+      }
+
+      function writeSortToQuery() {
+        var params = new URLSearchParams(window.location.search);
+        if (sortCol) {
+          params.set('sort', sortCol);
+          params.set('dir', sortAsc ? 'asc' : 'desc');
+        } else {
+          params.delete('sort');
+          params.delete('dir');
+        }
+        var qs = params.toString();
+        var nextUrl = window.location.pathname + (qs ? '?' + qs : '') + window.location.hash;
+        window.history.replaceState(null, '', nextUrl);
+      }
+
+      function colVal(f, col) {
+        var r = f.report || {};
+        switch (col) {
+          case 'file':        return (f.filename || f.url || '').toLowerCase();
+          case 'site':        return (f.site || '').toLowerCase();
+          case 'date':        return r.Date ? String(r.Date) : '';
+          case 'doc_title':   return (r.Title       || '').toLowerCase();
+          case 'author':      return (r.Author      || '').toLowerCase();
+          case 'subject':     return (r.Subject     || '').toLowerCase();
+          case 'keywords':    return (r.Keywords    || '').toLowerCase();
+          case 'description': return (r.Description || '').toLowerCase();
+          case 'accessible':  return r.Accessible === true ? 1 : r.Accessible === false ? 0 : -1;
+          case 'tagged':      return r.TaggedTest    === 'Pass' ? 1 : r.TaggedTest    === 'Fail' ? 0 : -1;
+          case 'title':       return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
+          case 'language':    return r.LanguageTest  === 'Pass' ? 1 : r.LanguageTest  === 'Fail' ? 0 : -1;
+          case 'bookmarks':   return r.BookmarksTest === 'Pass' ? 1 : r.BookmarksTest === 'Fail' ? 0 : -1;
+          case 'tagged_content': return r.TaggedContentTest === 'Pass' ? 1 : r.TaggedContentTest === 'Fail' ? 0 : -1;
+          case 'forms':          return r.FormsTest === 'Pass' ? 1 : r.FormsTest === 'Fail' ? 0 : -1;
+          case 'tagged_forms':   return r.TaggedFormFieldsTest === 'Pass' ? 1 : r.TaggedFormFieldsTest === 'Fail' ? 0 : -1;
+          case 'tagged_annots':  return r.TaggedAnnotationsTest === 'Pass' ? 1 : r.TaggedAnnotationsTest === 'Fail' ? 0 : -1;
+          case 'figures_alt':    return r.FiguresAltTextTest === 'Pass' ? 1 : r.FiguresAltTextTest === 'Fail' ? 0 : -1;
+          case 'headings':       return r.HeadingsTest === 'Pass' ? 1 : r.HeadingsTest === 'Fail' ? 0 : -1;
+          case 'lists':          return r.ListsTest === 'Pass' ? 1 : r.ListsTest === 'Fail' ? 0 : -1;
+          case 'tables':         return r.TablesTest === 'Pass' ? 1 : r.TablesTest === 'Fail' ? 0 : -1;
+          case 'verapdf_status':
+            if (!r.veraPDF || typeof r.veraPDF !== 'object') return -1;
+            if (r.veraPDF.error) return 0;
+            if (r.veraPDF.compliant === false) return 1;
+            if (r.veraPDF.compliant === true) return 2;
+            return -1;
+          case 'verapdf_failed': return (r.veraPDF && r.veraPDF.failed_checks != null) ? r.veraPDF.failed_checks : -1;
+          case 'verapdf_passed': return (r.veraPDF && r.veraPDF.passed_checks != null) ? r.veraPDF.passed_checks : -1;
+          case 'verapdf_rules': return (r.veraPDF && Array.isArray(r.veraPDF.failed_rules)) ? r.veraPDF.failed_rules.length : -1;
+          case 'verapdf_error': return (r.veraPDF && r.veraPDF.error) ? String(r.veraPDF.error).toLowerCase() : '';
+          case 'pages':       return r.Pages  != null ? r.Pages  : -1;
+          case 'size':        return f.file_size_bytes != null ? Number(f.file_size_bytes) : -1;
+          case 'words':       return r.Words  != null ? r.Words  : -1;
+          case 'images':      return r.Images != null ? r.Images : -1;
+          default: return '';
+        }
+      }
+
+      function buildRow(f) {
+        var r = f.report || {};
+        var dateStr = '';
+        if (r.Date) {
+          var dm = String(r.Date).match(/^(\d{4}-\d{2}-\d{2})/);
+          dateStr = dm ? dm[1] : String(r.Date);
+        }
+        var extDomain = '';
+        try {
+          var pdfHost = new URL(f.url).hostname.replace(/^www\./, '');
+          var seed = (f.site || '').replace(/^www\./, '');
+          if (pdfHost && seed && pdfHost !== seed && !pdfHost.endsWith('.' + seed)) {
+            extDomain = pdfHost;
+          }
+        } catch (e) {}
+        var siteCell = esc(f.site || '');
+        if (extDomain) {
+          siteCell += ' <em>(ext: ' + esc(extDomain) + ')</em>';
+        }
+        var vp = r.veraPDF;
+        var vpStatus = '&#x2014;';
+        if (vp && typeof vp === 'object') {
+          if (vp.error) vpStatus = '<span class="fail">Error</span>';
+          else if (vp.compliant === true) vpStatus = '<span class="pass">Pass</span>';
+          else if (vp.compliant === false) vpStatus = '<span class="fail">Fail</span>';
+        }
+        var vpRules = (vp && Array.isArray(vp.failed_rules)) ? vp.failed_rules.length : null;
+        var vpError = (vp && vp.error) ? String(vp.error) : null;
+        var docTitleCell = '&#x2014;';
+        if (r.Title) docTitleCell = esc(r.Title);
+        else if (r.TitleTest === 'Fail') docTitleCell = icon('Fail');
+        return '<tr>' +
+          '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.filename || f.url) + '</a></td>' +
+          '<td>' + siteCell + '</td>' +
+          '<td>' + (dateStr ? esc(dateStr) : '&#x2014;') + '</td>' +
+          (hasDocTitle    ? '<td>' + docTitleCell + '</td>' : '') +
+          (hasAuthor      ? '<td>' + (r.Author      ? esc(r.Author)      : '&#x2014;') + '</td>' : '') +
+          (hasSubject     ? '<td>' + (r.Subject     ? esc(r.Subject)     : '&#x2014;') + '</td>' : '') +
+          (hasKeywords    ? '<td>' + (r.Keywords    ? esc(r.Keywords)    : '&#x2014;') + '</td>' : '') +
+          (hasDescription ? '<td>' + (r.Description ? esc(r.Description) : '&#x2014;') + '</td>' : '') +
+          '<td>' + icon(r.Accessible)    + '</td>' +
+          '<td>' + icon(r.TaggedTest)    + '</td>' +
+          '<td>' + icon(r.TitleTest)     + '</td>' +
+          '<td>' + icon(r.LanguageTest)  + '</td>' +
+          '<td>' + icon(r.BookmarksTest) + '</td>' +
+          (hasTaggedContent ? '<td>' + icon(r.TaggedContentTest) + '</td>' : '') +
+          (hasForms         ? '<td>' + icon(r.FormsTest) + '</td>' : '') +
+          (hasTaggedForms   ? '<td>' + icon(r.TaggedFormFieldsTest) + '</td>' : '') +
+          (hasTaggedAnnots  ? '<td>' + icon(r.TaggedAnnotationsTest) + '</td>' : '') +
+          (hasFiguresAlt    ? '<td>' + icon(r.FiguresAltTextTest) + '</td>' : '') +
+          (hasHeadings      ? '<td>' + icon(r.HeadingsTest) + '</td>' : '') +
+          (hasLists         ? '<td>' + icon(r.ListsTest) + '</td>' : '') +
+          (hasTables        ? '<td>' + icon(r.TablesTest) + '</td>' : '') +
+          (hasVeraPDF       ? '<td>' + vpStatus + '</td>' : '') +
+          (hasVPFailed      ? '<td>' + ((vp && vp.failed_checks != null) ? vp.failed_checks : '&#x2014;') + '</td>' : '') +
+          (hasVPPassed      ? '<td>' + ((vp && vp.passed_checks != null) ? vp.passed_checks : '&#x2014;') + '</td>' : '') +
+          (hasVPRules       ? '<td>' + (vpRules != null ? vpRules : '&#x2014;') + '</td>' : '') +
+          (hasVPError       ? '<td>' + (vpError ? esc(vpError) : '&#x2014;') + '</td>' : '') +
+          '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+          (hasFileSize ? '<td>' + formatSize(f.file_size_bytes) + '</td>' : '') +
+          (hasWords  ? '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' : '') +
+          (hasImages ? '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' : '') +
+          '</tr>';
+      }
+
+      function renderBody(tbl) {
+        var rows = analysed.slice();
+        if (sortCol !== null) {
+          rows.sort(function (a, b) {
+            var va = colVal(a, sortCol);
+            var vb = colVal(b, sortCol);
+            if (va < vb) return sortAsc ? -1 : 1;
+            if (va > vb) return sortAsc ?  1 : -1;
+            return 0;
+          });
+        }
+        tbl.tBodies[0].innerHTML = rows.map(buildRow).join('');
+        writeSortToQuery();
+      }
+
+      function updateHeaders(tbl) {
+        tbl.querySelectorAll('th[data-col]').forEach(function (th) {
+          var col = th.getAttribute('data-col');
+          var lbl = th.getAttribute('data-label');
+          if (col === sortCol) {
+            th.setAttribute('aria-sort', sortAsc ? 'ascending' : 'descending');
+            th.querySelector('.sort-label').textContent = lbl + (sortAsc ? ' ▴' : ' ▾');
+          } else {
+            th.setAttribute('aria-sort', 'none');
+            th.querySelector('.sort-label').textContent = lbl;
+          }
+        });
+      }
+
+      if (analysed.length) {
+        // Column order: identity columns, then optional metadata (shown only when
+        // at least one file has that field), then accessibility checks, then
+        // optional numeric columns (words/images shown only when data is present).
+        var colDefs = [
+          { key: 'file',       label: t('colFile') },
+          { key: 'site',       label: t('colSite') },
+          { key: 'date',       label: t('colPublishedDate') },
+        ];
+        if (hasDocTitle)    colDefs.push({ key: 'doc_title',   label: t('colDocTitle') });
+        if (hasAuthor)      colDefs.push({ key: 'author',      label: t('colAuthor') });
+        if (hasSubject)     colDefs.push({ key: 'subject',     label: t('colSubject') });
+        if (hasKeywords)    colDefs.push({ key: 'keywords',    label: t('colKeywords') });
+        if (hasDescription) colDefs.push({ key: 'description', label: t('colDescription') });
+        colDefs.push(
+          { key: 'accessible', label: t('colAccessible') },
+          { key: 'tagged',     label: t('colTagged') },
+          { key: 'title',      label: t('colTitle') },
+          { key: 'language',   label: t('colLanguage') },
+          { key: 'bookmarks',  label: t('colBookmarks') },
+        );
+        if (hasTaggedContent) colDefs.push({ key: 'tagged_content', label: t('colTaggedContent') });
+        if (hasForms)         colDefs.push({ key: 'forms',          label: t('colForms') });
+        if (hasTaggedForms)   colDefs.push({ key: 'tagged_forms',   label: t('colTaggedForms') });
+        if (hasTaggedAnnots)  colDefs.push({ key: 'tagged_annots',  label: t('colTaggedAnnots') });
+        if (hasFiguresAlt)    colDefs.push({ key: 'figures_alt',    label: t('colFiguresAlt') });
+        if (hasHeadings)      colDefs.push({ key: 'headings',       label: t('colHeadings') });
+        if (hasLists)         colDefs.push({ key: 'lists',          label: t('colLists') });
+        if (hasTables)        colDefs.push({ key: 'tables',         label: t('colTables') });
+        if (hasVeraPDF)       colDefs.push({ key: 'verapdf_status', label: 'veraPDF' });
+        if (hasVPFailed)      colDefs.push({ key: 'verapdf_failed', label: 'vPDF Fail' });
+        if (hasVPPassed)      colDefs.push({ key: 'verapdf_passed', label: 'vPDF Pass' });
+        if (hasVPRules)       colDefs.push({ key: 'verapdf_rules',  label: 'vPDF Rules' });
+        if (hasVPError)       colDefs.push({ key: 'verapdf_error',  label: 'vPDF Error' });
+        colDefs.push(
+          { key: 'pages',      label: t('colPages') }
+        );
+        if (hasFileSize) colDefs.push({ key: 'size', label: t('colSize') });
+        if (hasWords)  colDefs.push({ key: 'words',  label: t('colWords') });
+        if (hasImages) colDefs.push({ key: 'images', label: t('colImages') });
+
+        html += '<h2>' + esc(t('pdfDetails')) + '</h2>';
+        html += '<p>' + esc(t('legend')) + '</p>';
+        html += '<table id="pdf-table"><thead><tr>';
+        colDefs.forEach(function (c) {
+          html += '<th class="sortable" data-col="' + c.key + '" data-label="' + c.label +
+                  '" aria-sort="none" tabindex="0" role="columnheader">' +
+                  '<span class="sort-label">' + c.label + '</span></th>';
+        });
+        html += '</tr></thead><tbody>';
+        analysed.forEach(function (f) {
+          html += buildRow(f);
+        });
+        html += '</tbody></table>';
+      }
+
+      root.innerHTML = html;
+
+      // Wire up column sorting on the PDF details table
+      var pdfTable = document.getElementById('pdf-table');
+      if (pdfTable) {
+        readSortFromQuery();
+        var validCols = Array.prototype.map.call(
+          pdfTable.querySelectorAll('th[data-col]'),
+          function (th) { return th.getAttribute('data-col'); }
+        );
+        if (sortCol && validCols.indexOf(sortCol) === -1) sortCol = null;
+        renderBody(pdfTable);
+        updateHeaders(pdfTable);
+        pdfTable.querySelectorAll('th[data-col]').forEach(function (th) {
+          th.addEventListener('click', function () {
+            var col = this.getAttribute('data-col');
+            if (sortCol === col) {
+              sortAsc = !sortAsc;
+            } else {
+              sortCol = col;
+              sortAsc = true;
+            }
+            renderBody(pdfTable);
+            updateHeaders(pdfTable);
+          });
+          th.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              this.click();
+            }
+          });
+        });
+      }
+
+      function makeCsvValue(value) {
+        var s = value == null ? '' : String(value);
+        if (s.indexOf('"') !== -1 || s.indexOf(',') !== -1 || s.indexOf('\n') !== -1) {
+          return '"' + s.replace(/"/g, '""') + '"';
+        }
+        return s;
+      }
+
+      function rowFromFile(file) {
+        var r = file.report || {};
+        return {
+          url: file.url || '',
+          filename: file.filename || '',
+          site: file.site || '',
+          status: file.status || '',
+          file_size_bytes: file.file_size_bytes == null ? '' : file.file_size_bytes,
+          file_size_human: formatSize(file.file_size_bytes).replace(/&[^;]+;/g, '-'),
+          published_date: r.Date || '',
+          doc_title: r.Title || '',
+          author: r.Author || '',
+          subject: r.Subject || '',
+          keywords: r.Keywords || '',
+          accessible: r.Accessible == null ? '' : r.Accessible,
+          totally_inaccessible: r.TotallyInaccessible == null ? '' : r.TotallyInaccessible,
+          broken: r.BrokenFile == null ? '' : r.BrokenFile,
+          title: r.TitleTest || '',
+          language: r.LanguageTest || '',
+          bookmarks: r.BookmarksTest || '',
+          pages: r.Pages == null ? '' : r.Pages,
+          words: r.Words == null ? '' : r.Words,
+          images: r.Images == null ? '' : r.Images,
+        };
+      }
+
+      function buildCsvText() {
+        var columns = [
+          'url','filename','site','status','file_size_bytes','file_size_human',
+          'published_date','doc_title','author','subject','keywords','accessible',
+          'totally_inaccessible','broken','title','language','bookmarks','pages',
+          'words','images'
+        ];
+        var lines = [columns.join(',')];
+        files.forEach(function (file) {
+          var row = rowFromFile(file);
+          lines.push(columns.map(function (col) { return makeCsvValue(row[col]); }).join(','));
+        });
+        return lines.join('\n');
+      }
+
+      function downloadBlob(filename, text, mime) {
+        var blob = new Blob([text], { type: mime });
+        var a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        setTimeout(function () { URL.revokeObjectURL(a.href); }, 0);
+      }
+
+      var currentViewBase = '20261023-002111-walthamforest.gov.uk_current_view';
+
+      var downloadCsvBtn = document.getElementById('download-current-csv');
+      if (downloadCsvBtn) {
+        downloadCsvBtn.addEventListener('click', function () {
+          downloadBlob(currentViewBase + '.csv', buildCsvText(), 'text/csv;charset=utf-8');
+        });
+      }
+
+      var downloadJsonBtn = document.getElementById('download-current-json');
+      if (downloadJsonBtn) {
+        downloadJsonBtn.addEventListener('click', function () {
+          downloadBlob(currentViewBase + '.json', JSON.stringify({ summary: summary, files: files }, null, 2), 'application/json;charset=utf-8');
+        });
+      }
+
+      function icon(v) {
+        if (v === true  || v === 'Pass') return '<span class="pass">&#x2705;</span>';
+        if (v === false || v === 'Fail') return '<span class="fail">&#x274C;</span>';
+        return '<span class="na">&#x2014;</span>';
+      }
+
+      function esc(s) {
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }
+    })();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      var btn  = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+
+      function applyTheme(theme) {
+        root.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        if (theme === 'dark') {
+          btn.textContent = '☀️';
+          btn.setAttribute('aria-label', 'Switch to light mode');
+          btn.setAttribute('title', 'Switch to light mode');
+        } else {
+          btn.textContent = '🌙';
+          btn.setAttribute('aria-label', 'Switch to dark mode');
+          btn.setAttribute('title', 'Switch to dark mode');
+        }
+      }
+
+      var stored      = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(stored === 'dark' || stored === 'light' ? stored : (prefersDark ? 'dark' : 'light'));
+
+      btn.addEventListener('click', function () {
+        applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      });
+    })();
+  </script>
+
+</body>
+</html>

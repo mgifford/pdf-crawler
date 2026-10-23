@@ -927464,7 +927464,7 @@
   filename: 2026-27_CWF_applicant_guidance.pdf
   site: walthamforest.gov.uk
   crawled_at: '2026-10-22T14:05:14.532283+00:00'
-  status: analysed
+  status: error
   report:
     Site: walthamforest.gov.uk
     File: 2026-27_CWF_applicant_guidance.pdf
@@ -927546,8 +927546,10 @@
     fonts: null
     numTxtObjects: null
   errors:
-  - 'PdfError: crawled_files/walthamforest.gov.uk/2026-27_CWF_applicant_guidance.pdf:
-    unable to find trailer dictionary while recovering damaged file'
+  - 'File not found: crawled_files/walthamforest.gov.uk/2026-27_CWF_applicant_guidance.pdf
+    (crawled 0.4 day(s) ago at 2026-10-22T14:05:14.532283+00:00). Possible causes:
+    failed download, incomplete artifact transfer, or stale manifest entry from a
+    previous run.'
   analyses:
     original:
       status: analysed
@@ -927635,6 +927637,15 @@
       - 'PdfError: crawled_files/walthamforest.gov.uk/2026-27_CWF_applicant_guidance.pdf:
         unable to find trailer dictionary while recovering damaged file'
       analysed_at: '2026-10-22T14:15:24.569474+00:00'
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'File not found: crawled_files/walthamforest.gov.uk/2026-27_CWF_applicant_guidance.pdf
+        (crawled 0.4 day(s) ago at 2026-10-22T14:05:14.532283+00:00). Possible causes:
+        failed download, incomplete artifact transfer, or stale manifest entry from
+        a previous run.'
+      analysed_at: '2026-10-23T00:14:32.164741+00:00'
 - url: https://thehub-beta.walthamforest.gov.uk/sites/default/files/2019-03/HealthandSafetyPolicy.pdf
   md5: 1308063d65879e6bb39272b641a6e8c2
   file_hash: 76cb7fe4d82ced5e30f92fbba780c092677f0787a5fb6c5ffefc1bf2836c707e
@@ -927642,7 +927653,7 @@
   filename: HealthandSafetyPolicy.pdf
   site: walthamforest.gov.uk
   crawled_at: '2026-10-22T14:05:14.552127+00:00'
-  status: analysed
+  status: error
   report:
     Site: walthamforest.gov.uk
     File: HealthandSafetyPolicy.pdf
@@ -927724,7 +927735,10 @@
     fonts: 0
     numTxtObjects: 0
   errors:
-  - 'title, tagged, lang, '
+  - 'File not found: crawled_files/walthamforest.gov.uk/HealthandSafetyPolicy.pdf
+    (crawled 0.4 day(s) ago at 2026-10-22T14:05:14.552127+00:00). Possible causes:
+    failed download, incomplete artifact transfer, or stale manifest entry from a
+    previous run.'
   analyses:
     original:
       status: analysed
@@ -927811,6 +927825,15 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: '2026-10-22T14:15:51.049068+00:00'
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'File not found: crawled_files/walthamforest.gov.uk/HealthandSafetyPolicy.pdf
+        (crawled 0.4 day(s) ago at 2026-10-22T14:05:14.552127+00:00). Possible causes:
+        failed download, incomplete artifact transfer, or stale manifest entry from
+        a previous run.'
+      analysed_at: '2026-10-23T00:15:09.092798+00:00'
 - url: https://thehub-beta.walthamforest.gov.uk/sites/default/files/2024-04/Summer_2023_Childcare_Sufficiency_Assessment_(CSA).pdf
   md5: 07be3d46e7e1e3e4ace142029aac65a5
   file_hash: c212c71cfc79d0c68274942def99c806e81b2dd2f32dc6774617b327557f2ffd
@@ -927818,7 +927841,7 @@
   filename: Summer_2023_Childcare_Sufficiency_Assessment_(CSA).pdf
   site: walthamforest.gov.uk
   crawled_at: '2026-10-22T14:05:14.561683+00:00'
-  status: analysed
+  status: error
   report:
     Site: walthamforest.gov.uk
     File: Summer_2023_Childcare_Sufficiency_Assessment_(CSA).pdf
@@ -928137,8 +928160,10 @@
     numTxtObjects: 7746
     DocCategory: Report
   errors:
-  - 'title, no bookmarks and more than 20 pages, figures missing alt text (count=5),
-    tables-warn, '
+  - 'File not found: crawled_files/walthamforest.gov.uk/Summer_2023_Childcare_Sufficiency_Assessment_(CSA).pdf
+    (crawled 0.4 day(s) ago at 2026-10-22T14:05:14.561683+00:00). Possible causes:
+    failed download, incomplete artifact transfer, or stale manifest entry from a
+    previous run.'
   analyses:
     original:
       status: analysed
@@ -928464,6 +928489,15 @@
       - 'title, no bookmarks and more than 20 pages, figures missing alt text (count=5),
         tables-warn, '
       analysed_at: '2026-10-22T14:16:19.920966+00:00'
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'File not found: crawled_files/walthamforest.gov.uk/Summer_2023_Childcare_Sufficiency_Assessment_(CSA).pdf
+        (crawled 0.4 day(s) ago at 2026-10-22T14:05:14.561683+00:00). Possible causes:
+        failed download, incomplete artifact transfer, or stale manifest entry from
+        a previous run.'
+      analysed_at: '2026-10-23T00:15:45.470416+00:00'
 - url: https://democracy.walthamforest.gov.uk/documents/s99303/Appendix+1+-+Cultural+Action+Plan.pdf
   md5: 5d718759c1e89e7ddaa244c8480a7552
   file_hash: dcb86349b3f087775f13e427a4800e88556f9d89a6dcb07ccb13a8d423bd2388
@@ -928471,15 +928505,22 @@
   filename: Appendix+1+-+Cultural+Action+Plan.pdf
   site: walthamforest.gov.uk
   crawled_at: '2026-10-23T00:09:51.055049+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - Analysis exceeded 120s per-file limit
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - Analysis exceeded 120s per-file limit
+      analysed_at: '2026-10-23T00:18:22.171057+00:00'
 - url: https://thehub-beta.walthamforest.gov.uk/sites/default/files/2024-10/Pupil_Place_Plan_2024-2030.pdf
   md5: ab9f30f4718545898d64e674a18483cd
   file_hash: 0416f0bec0b24f00bcd39b6beef1d4b7179dd96f1ccfe8830c01f7a676e5f109
@@ -928487,15 +928528,333 @@
   filename: Pupil_Place_Plan_2024-2030.pdf
   site: walthamforest.gov.uk
   crawled_at: '2026-10-23T00:09:51.066196+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Site: walthamforest.gov.uk
+    File: Pupil_Place_Plan_2024-2030.pdf
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: null
+    TaggedTest: Pass
+    StructTreeRootPresent: true
+    MarkedAsTagged: true
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Fail
+    Exempt: false
+    Date: '2024-10-24 13:57:59+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Microsoft® Word for Microsoft 365
+    Producer: Microsoft® Word for Microsoft 365
+    Pages: 60
+    Form: null
+    xfa: null
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FormsTest: NotApplicable
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 9
+    AnnotationSubtypeCounts: Link=9
+    LinkAnnotationCount: 9
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Pass
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: '(45, 0): page=7 subtype=Link flags=4 rect=[111.2, 192.12,
+      519.65, 205.91] action=''/URI'' dest=''https://thehub-beta.walthamforest.gov.uk/admissionshttps:/www.walthamforest.gov.uk/stories/mission-waltham-forest-resets-our-support-residents''
+      widget=False field=None struct_parent=9 | (46, 0): page=7 subtype=Link flags=4
+      rect=[68.65, 178.32, 519.65, 192.12] action=''/URI'' dest=''https://thehub-beta.walthamforest.gov.uk/admissionshttps:/www.walthamforest.gov.uk/stories/mission-waltham-forest-resets-our-support-residents''
+      widget=False field=None struct_parent=10 | (47, 0): page=7 subtype=Link flags=4
+      rect=[68.65, 164.52, 416.46, 178.32] action=''/URI'' dest=''https://thehub-beta.walthamforest.gov.uk/admissionshttps:/www.walthamforest.gov.uk/stories/mission-waltham-forest-resets-our-support-residents''
+      widget=False field=None struct_parent=11 | (55, 0): page=10 subtype=Link flags=4
+      rect=[469.12, 160.16, 522.98, 176.03] action=''/URI'' dest=''https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics/2022-23''
+      widget=False field=None struct_parent=13 | (56, 0): page=10 subtype=Link flags=4
+      rect=[68.65, 144.29, 522.98, 160.16] action=''/URI'' dest=''https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics/2022-23''
+      widget=False field=None struct_parent=14 | (57, 0): page=10 subtype=Link flags=4
+      rect=[68.65, 128.42, 453.53, 144.29] action=''/URI'' dest=''https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics/2022-23''
+      widget=False field=None struct_parent=15 | (86, 0): page=19 subtype=Link flags=4
+      rect=[72.646, 693.7, 443.3, 709.57] action=''/URI'' dest=''https://www.gov.uk/government/collections/school-places-scorecards''
+      widget=False field=None struct_parent=25 | (91, 0): page=21 subtype=Link flags=4
+      rect=[269.43, 88.305, 519.65, 104.17] action=''/URI'' dest=''https://thehub-beta.walthamforest.gov.uk/admissions''
+      widget=False field=None struct_parent=28 | (92, 0): page=21 subtype=Link flags=4
+      rect=[68.65, 62.436, 276.58, 88.305] action=''/URI'' dest=''https://thehub-beta.walthamforest.gov.uk/admissions''
+      widget=False field=None struct_parent=29'
+    LinkStructureCount: 4
+    ExternalLinkAnnotationCount: 9
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 4
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    ImageObjectsFound: 18
+    PagesWithImages: 16
+    FiguresFound: 64
+    FiguresWithAlt: 2
+    FiguresWithEmptyAlt: 0
+    FiguresWithActualTextOnly: 0
+    FiguresWithoutAlt: 62
+    FiguresAltTextTest: Fail
+    FiguresAltTextIssues: '(385, 0): Figure has no /Alt or /ActualText | (496, 0):
+      Figure has no /Alt or /ActualText | (585, 0): Figure has no /Alt or /ActualText
+      | (1262, 0): Figure has no /Alt or /ActualText | (1270, 0): Figure has no /Alt
+      or /ActualText | (1618, 0): Figure has no /Alt or /ActualText | (1623, 0): Figure
+      has no /Alt or /ActualText | (1624, 0): Figure has no /Alt or /ActualText |
+      (1649, 0): Figure has no /Alt or /ActualText | (1989, 0): Figure has no /Alt
+      or /ActualText | (1994, 0): Figure has no /Alt or /ActualText | (1995, 0): Figure
+      has no /Alt or /ActualText | (2005, 0): Figure has no /Alt or /ActualText |
+      (2349, 0): Figure has no /Alt or /ActualText | (2354, 0): Figure has no /Alt
+      or /ActualText | (2355, 0): Figure has no /Alt or /ActualText | (2362, 0): Figure
+      has no /Alt or /ActualText | (2716, 0): Figure has no /Alt or /ActualText |
+      (2721, 0): Figure has no /Alt or /ActualText | (2722, 0): Figure has no /Alt
+      or /ActualText | (2731, 0): Figure has no /Alt or /ActualText | (3127, 0): Figure
+      has no /Alt or /ActualText | (3132, 0): Figure has no /Alt or /ActualText |
+      (3133, 0): Figure has no /Alt or /ActualText | (3140, 0): Figure has no /Alt
+      or /ActualText | (3503, 0): Figure has no /Alt or /ActualText | (3508, 0): Figure
+      has no /Alt or /ActualText | (3509, 0): Figure has no /Alt or /ActualText |
+      (3515, 0): Figure has no /Alt or /ActualText | (3880, 0): Figure has no /Alt
+      or /ActualText | (3885, 0): Figure has no /Alt or /ActualText | (3886, 0): Figure
+      has no /Alt or /ActualText | (3893, 0): Figure has no /Alt or /ActualText |
+      (4228, 0): Figure has no /Alt or /ActualText | (4233, 0): Figure has no /Alt
+      or /ActualText | (4234, 0): Figure has no /Alt or /ActualText | (4242, 0): Figure
+      has no /Alt or /ActualText | (4583, 0): Figure has no /Alt or /ActualText |
+      (4588, 0): Figure has no /Alt or /ActualText | (4589, 0): Figure has no /Alt
+      or /ActualText | (4597, 0): Figure has no /Alt or /ActualText | (4983, 0): Figure
+      has no /Alt or /ActualText | (4988, 0): Figure has no /Alt or /ActualText |
+      (4989, 0): Figure has no /Alt or /ActualText | (4996, 0): Figure has no /Alt
+      or /ActualText | (5334, 0): Figure has no /Alt or /ActualText | (5339, 0): Figure
+      has no /Alt or /ActualText | (5340, 0): Figure has no /Alt or /ActualText |
+      (5626, 0): Figure has no /Alt or /ActualText | (5627, 0): Figure has no /Alt
+      or /ActualText | (5628, 0): Figure has no /Alt or /ActualText | (5945, 0): Figure
+      has no /Alt or /ActualText | (5947, 0): Figure has no /Alt or /ActualText |
+      (5952, 0): Figure has no /Alt or /ActualText | (6293, 0): Figure has no /Alt
+      or /ActualText | (6298, 0): Figure has no /Alt or /ActualText | (6299, 0): Figure
+      has no /Alt or /ActualText | (6648, 0): Figure has no /Alt or /ActualText |
+      (6653, 0): Figure has no /Alt or /ActualText | (6654, 0): Figure has no /Alt
+      or /ActualText | (6664, 0): Figure has no /Alt or /ActualText | (7340, 0): Figure
+      has no /Alt or /ActualText'
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Warn
+    HeadingCount: 0
+    HeadingSequence: ''
+    HeadingIssues: No headings found in tagged document
+    ListsTest: Pass
+    ListCount: 78
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: Warn
+    TableCount: 42
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: '(1541, 0): Uneven row lengths detected ([3, 9, 9]) | (1732,
+      0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6,
+      6]) | (2092, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9,
+      9, 6, 6, 6, 6]) | (2461, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9,
+      9, 9, 9, 9, 9, 6, 6, 6, 6]) | (2872, 0): Uneven row lengths detected ([3, 9,
+      9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (3247, 0): Uneven row lengths detected
+      ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (3623, 0): Uneven row lengths
+      detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (3973, 0): Uneven
+      row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (4328,
+      0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6,
+      6]) | (4727, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9,
+      9, 6, 6, 6, 6]) | (5075, 0): Uneven row lengths detected ([3, 9, 9, 9]) | (5141,
+      0): Uneven row lengths detected ([9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (5547,
+      0): Uneven row lengths detected ([3, 9, 9]) | (5694, 0): Uneven row lengths
+      detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (6043, 0): Uneven
+      row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (6397,
+      0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6,
+      6])'
+    fonts: 9
+    numTxtObjects: 10990
+  errors:
+  - 'title, no bookmarks and more than 20 pages, fonts:/SymbolMT, /BCDGEE+Calibri-Bold,
+    /BCDFEE+Arial-Black, /BCDJEE+Calibri-Italic, /BCDHEE+Calibri-Italic, /Arial-BoldMT,
+    /BCDEEE+Calibri, /ArialMT, /BCDIEE+Calibri-BoldItalicfigures-alt, headings-none,
+    tables-warn, '
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: analysed
+      report:
+        Site: walthamforest.gov.uk
+        File: Pupil_Place_Plan_2024-2030.pdf
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: null
+        TaggedTest: Pass
+        StructTreeRootPresent: true
+        MarkedAsTagged: true
+        TaggedContentTest: Pass
+        UntaggedContentCount: 0
+        UntaggedContentSummary: ''
+        UntaggedWhitespaceContentCount: 0
+        UntaggedWhitespaceContentSummary: ''
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Pass
+        BookmarksTest: Fail
+        Exempt: false
+        Date: '2024-10-24 13:57:59+00:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: true
+        InvalidLang: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.7'
+        Creator: Microsoft® Word for Microsoft 365
+        Producer: Microsoft® Word for Microsoft 365
+        Pages: 60
+        Form: null
+        xfa: null
+        FormFieldCount: 0
+        FormFieldSummary: null
+        FormsTest: NotApplicable
+        FieldsWithoutDescription: ''
+        TaggedFormFieldsTest: NotApplicable
+        TaggedFormFieldIssues: ''
+        AnnotationsFound: true
+        AnnotationCount: 9
+        AnnotationSubtypeCounts: Link=9
+        LinkAnnotationCount: 9
+        WidgetAnnotationCount: 0
+        TaggedAnnotationsTest: Pass
+        TaggedAnnotationIssues: ''
+        AnnotationSummary: '(45, 0): page=7 subtype=Link flags=4 rect=[111.2, 192.12,
+          519.65, 205.91] action=''/URI'' dest=''https://thehub-beta.walthamforest.gov.uk/admissionshttps:/www.walthamforest.gov.uk/stories/mission-waltham-forest-resets-our-support-residents''
+          widget=False field=None struct_parent=9 | (46, 0): page=7 subtype=Link flags=4
+          rect=[68.65, 178.32, 519.65, 192.12] action=''/URI'' dest=''https://thehub-beta.walthamforest.gov.uk/admissionshttps:/www.walthamforest.gov.uk/stories/mission-waltham-forest-resets-our-support-residents''
+          widget=False field=None struct_parent=10 | (47, 0): page=7 subtype=Link
+          flags=4 rect=[68.65, 164.52, 416.46, 178.32] action=''/URI'' dest=''https://thehub-beta.walthamforest.gov.uk/admissionshttps:/www.walthamforest.gov.uk/stories/mission-waltham-forest-resets-our-support-residents''
+          widget=False field=None struct_parent=11 | (55, 0): page=10 subtype=Link
+          flags=4 rect=[469.12, 160.16, 522.98, 176.03] action=''/URI'' dest=''https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics/2022-23''
+          widget=False field=None struct_parent=13 | (56, 0): page=10 subtype=Link
+          flags=4 rect=[68.65, 144.29, 522.98, 160.16] action=''/URI'' dest=''https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics/2022-23''
+          widget=False field=None struct_parent=14 | (57, 0): page=10 subtype=Link
+          flags=4 rect=[68.65, 128.42, 453.53, 144.29] action=''/URI'' dest=''https://explore-education-statistics.service.gov.uk/find-statistics/school-pupils-and-their-characteristics/2022-23''
+          widget=False field=None struct_parent=15 | (86, 0): page=19 subtype=Link
+          flags=4 rect=[72.646, 693.7, 443.3, 709.57] action=''/URI'' dest=''https://www.gov.uk/government/collections/school-places-scorecards''
+          widget=False field=None struct_parent=25 | (91, 0): page=21 subtype=Link
+          flags=4 rect=[269.43, 88.305, 519.65, 104.17] action=''/URI'' dest=''https://thehub-beta.walthamforest.gov.uk/admissions''
+          widget=False field=None struct_parent=28 | (92, 0): page=21 subtype=Link
+          flags=4 rect=[68.65, 62.436, 276.58, 88.305] action=''/URI'' dest=''https://thehub-beta.walthamforest.gov.uk/admissions''
+          widget=False field=None struct_parent=29'
+        LinkStructureCount: 4
+        ExternalLinkAnnotationCount: 9
+        InternalLinkAnnotationCount: 0
+        AnnotationPagesWithLinks: 4
+        HidesAnnotationTest: Pass
+        HidesAnnotationIssues: ''
+        ImageObjectsFound: 18
+        PagesWithImages: 16
+        FiguresFound: 64
+        FiguresWithAlt: 2
+        FiguresWithEmptyAlt: 0
+        FiguresWithActualTextOnly: 0
+        FiguresWithoutAlt: 62
+        FiguresAltTextTest: Fail
+        FiguresAltTextIssues: '(385, 0): Figure has no /Alt or /ActualText | (496,
+          0): Figure has no /Alt or /ActualText | (585, 0): Figure has no /Alt or
+          /ActualText | (1262, 0): Figure has no /Alt or /ActualText | (1270, 0):
+          Figure has no /Alt or /ActualText | (1618, 0): Figure has no /Alt or /ActualText
+          | (1623, 0): Figure has no /Alt or /ActualText | (1624, 0): Figure has no
+          /Alt or /ActualText | (1649, 0): Figure has no /Alt or /ActualText | (1989,
+          0): Figure has no /Alt or /ActualText | (1994, 0): Figure has no /Alt or
+          /ActualText | (1995, 0): Figure has no /Alt or /ActualText | (2005, 0):
+          Figure has no /Alt or /ActualText | (2349, 0): Figure has no /Alt or /ActualText
+          | (2354, 0): Figure has no /Alt or /ActualText | (2355, 0): Figure has no
+          /Alt or /ActualText | (2362, 0): Figure has no /Alt or /ActualText | (2716,
+          0): Figure has no /Alt or /ActualText | (2721, 0): Figure has no /Alt or
+          /ActualText | (2722, 0): Figure has no /Alt or /ActualText | (2731, 0):
+          Figure has no /Alt or /ActualText | (3127, 0): Figure has no /Alt or /ActualText
+          | (3132, 0): Figure has no /Alt or /ActualText | (3133, 0): Figure has no
+          /Alt or /ActualText | (3140, 0): Figure has no /Alt or /ActualText | (3503,
+          0): Figure has no /Alt or /ActualText | (3508, 0): Figure has no /Alt or
+          /ActualText | (3509, 0): Figure has no /Alt or /ActualText | (3515, 0):
+          Figure has no /Alt or /ActualText | (3880, 0): Figure has no /Alt or /ActualText
+          | (3885, 0): Figure has no /Alt or /ActualText | (3886, 0): Figure has no
+          /Alt or /ActualText | (3893, 0): Figure has no /Alt or /ActualText | (4228,
+          0): Figure has no /Alt or /ActualText | (4233, 0): Figure has no /Alt or
+          /ActualText | (4234, 0): Figure has no /Alt or /ActualText | (4242, 0):
+          Figure has no /Alt or /ActualText | (4583, 0): Figure has no /Alt or /ActualText
+          | (4588, 0): Figure has no /Alt or /ActualText | (4589, 0): Figure has no
+          /Alt or /ActualText | (4597, 0): Figure has no /Alt or /ActualText | (4983,
+          0): Figure has no /Alt or /ActualText | (4988, 0): Figure has no /Alt or
+          /ActualText | (4989, 0): Figure has no /Alt or /ActualText | (4996, 0):
+          Figure has no /Alt or /ActualText | (5334, 0): Figure has no /Alt or /ActualText
+          | (5339, 0): Figure has no /Alt or /ActualText | (5340, 0): Figure has no
+          /Alt or /ActualText | (5626, 0): Figure has no /Alt or /ActualText | (5627,
+          0): Figure has no /Alt or /ActualText | (5628, 0): Figure has no /Alt or
+          /ActualText | (5945, 0): Figure has no /Alt or /ActualText | (5947, 0):
+          Figure has no /Alt or /ActualText | (5952, 0): Figure has no /Alt or /ActualText
+          | (6293, 0): Figure has no /Alt or /ActualText | (6298, 0): Figure has no
+          /Alt or /ActualText | (6299, 0): Figure has no /Alt or /ActualText | (6648,
+          0): Figure has no /Alt or /ActualText | (6653, 0): Figure has no /Alt or
+          /ActualText | (6654, 0): Figure has no /Alt or /ActualText | (6664, 0):
+          Figure has no /Alt or /ActualText | (7340, 0): Figure has no /Alt or /ActualText'
+        NestedAltTextTest: Pass
+        NestedAltTextIssues: ''
+        HeadingsTest: Warn
+        HeadingCount: 0
+        HeadingSequence: ''
+        HeadingIssues: No headings found in tagged document
+        ListsTest: Pass
+        ListCount: 78
+        InvalidListItemParents: ''
+        InvalidListChildren: ''
+        MalformedListNodes: ''
+        TablesTest: Warn
+        TableCount: 42
+        InvalidTRParents: ''
+        InvalidCellParents: ''
+        TablesWithoutHeaders: ''
+        IrregularTables: '(1541, 0): Uneven row lengths detected ([3, 9, 9]) | (1732,
+          0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6,
+          6, 6]) | (2092, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9,
+          9, 9, 9, 6, 6, 6, 6]) | (2461, 0): Uneven row lengths detected ([3, 9, 9,
+          9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (2872, 0): Uneven row lengths detected
+          ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (3247, 0): Uneven row
+          lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (3623,
+          0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6,
+          6, 6]) | (3973, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9, 9, 9,
+          9, 9, 9, 6, 6, 6, 6]) | (4328, 0): Uneven row lengths detected ([3, 9, 9,
+          9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (4727, 0): Uneven row lengths detected
+          ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (5075, 0): Uneven row
+          lengths detected ([3, 9, 9, 9]) | (5141, 0): Uneven row lengths detected
+          ([9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (5547, 0): Uneven row lengths detected
+          ([3, 9, 9]) | (5694, 0): Uneven row lengths detected ([3, 9, 9, 9, 9, 9,
+          9, 9, 9, 9, 9, 6, 6, 6, 6]) | (6043, 0): Uneven row lengths detected ([3,
+          9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6]) | (6397, 0): Uneven row lengths
+          detected ([3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 6, 6, 6])'
+        fonts: 9
+        numTxtObjects: 10990
+      errors:
+      - 'title, no bookmarks and more than 20 pages, fonts:/SymbolMT, /BCDGEE+Calibri-Bold,
+        /BCDFEE+Arial-Black, /BCDJEE+Calibri-Italic, /BCDHEE+Calibri-Italic, /Arial-BoldMT,
+        /BCDEEE+Calibri, /ArialMT, /BCDIEE+Calibri-BoldItalicfigures-alt, headings-none,
+        tables-warn, '
+      analysed_at: '2026-10-23T00:19:01.033625+00:00'
 - url: https://thehub-beta.walthamforest.gov.uk/sites/default/files/2026-08/Scheme_for_Financing_Schools_2026.pdf
   md5: 7af0232564ac1585357aa87094a07d1c
   file_hash: c44811cd1a86edf5b8822fa800079a0b3d80005853cdbb19f73a0af53ccc17ed
@@ -928503,12 +928862,235 @@
   filename: Scheme_for_Financing_Schools_2026.pdf
   site: walthamforest.gov.uk
   crawled_at: '2026-10-23T00:09:51.072011+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Site: walthamforest.gov.uk
+    File: Scheme_for_Financing_Schools_2026.pdf
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: null
+    TaggedTest: Pass
+    StructTreeRootPresent: true
+    MarkedAsTagged: true
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Fail
+    Exempt: false
+    Date: '2026-07-30 15:22:42+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Microsoft® Word for Microsoft 365
+    Producer: Microsoft® Word for Microsoft 365
+    Pages: 67
+    Form: null
+    xfa: null
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FormsTest: NotApplicable
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 8
+    AnnotationSubtypeCounts: Link=8
+    LinkAnnotationCount: 8
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Pass
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: '(35, 0): page=6 subtype=Link flags=4 rect=[317.21, 562.7,
+      507.7, 583.4] action=''/URI'' dest=''https://www.gov.uk/government/publications/schemes-for-financing-schools/schemes-for-financing-local-authority-maintained-schools''
+      widget=False field=None struct_parent=8 | (36, 0): page=6 subtype=Link flags=4
+      rect=[87.75, 542.0, 136.29, 562.7] action=''/URI'' dest=''https://www.gov.uk/government/publications/schemes-for-financing-schools/schemes-for-financing-local-authority-maintained-schools''
+      widget=False field=None struct_parent=9 | (41, 0): page=8 subtype=Link flags=4
+      rect=[87.75, 459.21, 357.47, 479.9] action=''/URI'' dest=''https://thehub-beta.walthamforest.gov.uk/''
+      widget=False field=None struct_parent=11 | (65, 0): page=17 subtype=Link flags=4
+      rect=[448.31, 269.69, 511.03, 290.39] action=''/URI'' dest=''https://www.gov.uk/guidance/buying-for-schools''
+      widget=False field=None struct_parent=20 | (66, 0): page=17 subtype=Link flags=4
+      rect=[87.75, 248.99, 190.28, 269.69] action=''/URI'' dest=''https://www.gov.uk/guidance/buying-for-schools''
+      widget=False field=None struct_parent=21 | (79, 0): page=23 subtype=Link flags=4
+      rect=[124.42, 208.4, 323.19, 229.1] action=''/URI'' dest=''mailto:jamie.branch@walthamforest.gov.uk''
+      widget=False field=None struct_parent=28 | (80, 0): page=23 subtype=Link flags=4
+      rect=[213.82, 187.7, 371.24, 208.4] action=''/URI'' dest=''mailto:fraud@walthamforest.gov.uk''
+      widget=False field=None struct_parent=29 | (135, 0): page=50 subtype=Link flags=4
+      rect=[197.8, 314.32, 482.23, 335.02] action=''/URI'' dest=''https://www.walthamforest.gov.uk/council-and-elections/making-complaint-or-compliment/whistleblowing''
+      widget=False field=None struct_parent=58'
+    LinkStructureCount: 6
+    ExternalLinkAnnotationCount: 8
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 5
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    ImageObjectsFound: 0
+    PagesWithImages: 0
+    FiguresFound: 0
+    FiguresWithAlt: 0
+    FiguresWithEmptyAlt: 0
+    FiguresWithActualTextOnly: 0
+    FiguresWithoutAlt: 0
+    FiguresAltTextTest: Pass
+    FiguresAltTextIssues: ''
+    NestedAltTextTest: NotApplicable
+    NestedAltTextIssues: ''
+    HeadingsTest: Warn
+    HeadingCount: 137
+    HeadingSequence: H6 > H5 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3
+      > H3 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H1 >
+      H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H1 > H1
+      > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H1 > H1 > H1 > H2 >
+      H2 > H2 > H1 > H2 > H2 > H2 > H1 > H1 > H1 > H2 > H2 > H2 > H2 > H2 > H1 > H2
+      > H1 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H1 > H1 > H1 > H2 > H2 >
+      H2 > H1 > H2 > H1 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H1 > H1 > H1
+      > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 >
+      H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H2 > H1 > H1 > H1 > H1
+    HeadingIssues: First known heading is H6, not H1
+    ListsTest: Pass
+    ListCount: 14
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: Warn
+    TableCount: 3
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: '(2341, 0): Uneven row lengths detected ([1, 1, 2, 2, 2, 2, 2,
+      2, 2, 2, 2, 2, 1, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2, 2])'
+    fonts: 8
+    numTxtObjects: 6513
+  errors:
+  - 'no bookmarks and more than 20 pages, fonts:/BCDFEE+Arial-BoldMT, /BCDIEE+Arial-BoldItalicMT,
+    /BCDLEE+TimesNewRomanPS-BoldMT, /BCDEEE+TimesNewRomanPSMT, /BCDHEE+Arial-BoldMT,
+    /BCDJEE+ArialMT, /BCDKEE+SymbolMT, /BCDGEE+ArialMTheadings-warn, tables-warn, '
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: analysed
+      report:
+        Site: walthamforest.gov.uk
+        File: Scheme_for_Financing_Schools_2026.pdf
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: null
+        TaggedTest: Pass
+        StructTreeRootPresent: true
+        MarkedAsTagged: true
+        TaggedContentTest: Pass
+        UntaggedContentCount: 0
+        UntaggedContentSummary: ''
+        UntaggedWhitespaceContentCount: 0
+        UntaggedWhitespaceContentSummary: ''
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Pass
+        LanguageTest: Pass
+        BookmarksTest: Fail
+        Exempt: false
+        Date: '2026-07-30 15:22:42+00:00'
+        hasTitle: true
+        hasDisplayDocTitle: true
+        hasLang: true
+        InvalidLang: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.7'
+        Creator: Microsoft® Word for Microsoft 365
+        Producer: Microsoft® Word for Microsoft 365
+        Pages: 67
+        Form: null
+        xfa: null
+        FormFieldCount: 0
+        FormFieldSummary: null
+        FormsTest: NotApplicable
+        FieldsWithoutDescription: ''
+        TaggedFormFieldsTest: NotApplicable
+        TaggedFormFieldIssues: ''
+        AnnotationsFound: true
+        AnnotationCount: 8
+        AnnotationSubtypeCounts: Link=8
+        LinkAnnotationCount: 8
+        WidgetAnnotationCount: 0
+        TaggedAnnotationsTest: Pass
+        TaggedAnnotationIssues: ''
+        AnnotationSummary: '(35, 0): page=6 subtype=Link flags=4 rect=[317.21, 562.7,
+          507.7, 583.4] action=''/URI'' dest=''https://www.gov.uk/government/publications/schemes-for-financing-schools/schemes-for-financing-local-authority-maintained-schools''
+          widget=False field=None struct_parent=8 | (36, 0): page=6 subtype=Link flags=4
+          rect=[87.75, 542.0, 136.29, 562.7] action=''/URI'' dest=''https://www.gov.uk/government/publications/schemes-for-financing-schools/schemes-for-financing-local-authority-maintained-schools''
+          widget=False field=None struct_parent=9 | (41, 0): page=8 subtype=Link flags=4
+          rect=[87.75, 459.21, 357.47, 479.9] action=''/URI'' dest=''https://thehub-beta.walthamforest.gov.uk/''
+          widget=False field=None struct_parent=11 | (65, 0): page=17 subtype=Link
+          flags=4 rect=[448.31, 269.69, 511.03, 290.39] action=''/URI'' dest=''https://www.gov.uk/guidance/buying-for-schools''
+          widget=False field=None struct_parent=20 | (66, 0): page=17 subtype=Link
+          flags=4 rect=[87.75, 248.99, 190.28, 269.69] action=''/URI'' dest=''https://www.gov.uk/guidance/buying-for-schools''
+          widget=False field=None struct_parent=21 | (79, 0): page=23 subtype=Link
+          flags=4 rect=[124.42, 208.4, 323.19, 229.1] action=''/URI'' dest=''mailto:jamie.branch@walthamforest.gov.uk''
+          widget=False field=None struct_parent=28 | (80, 0): page=23 subtype=Link
+          flags=4 rect=[213.82, 187.7, 371.24, 208.4] action=''/URI'' dest=''mailto:fraud@walthamforest.gov.uk''
+          widget=False field=None struct_parent=29 | (135, 0): page=50 subtype=Link
+          flags=4 rect=[197.8, 314.32, 482.23, 335.02] action=''/URI'' dest=''https://www.walthamforest.gov.uk/council-and-elections/making-complaint-or-compliment/whistleblowing''
+          widget=False field=None struct_parent=58'
+        LinkStructureCount: 6
+        ExternalLinkAnnotationCount: 8
+        InternalLinkAnnotationCount: 0
+        AnnotationPagesWithLinks: 5
+        HidesAnnotationTest: Pass
+        HidesAnnotationIssues: ''
+        ImageObjectsFound: 0
+        PagesWithImages: 0
+        FiguresFound: 0
+        FiguresWithAlt: 0
+        FiguresWithEmptyAlt: 0
+        FiguresWithActualTextOnly: 0
+        FiguresWithoutAlt: 0
+        FiguresAltTextTest: Pass
+        FiguresAltTextIssues: ''
+        NestedAltTextTest: NotApplicable
+        NestedAltTextIssues: ''
+        HeadingsTest: Warn
+        HeadingCount: 137
+        HeadingSequence: H6 > H5 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3
+          > H3 > H3 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 >
+          H2 > H1 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2
+          > H2 > H1 > H1 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 >
+          H1 > H1 > H1 > H2 > H2 > H2 > H1 > H2 > H2 > H2 > H1 > H1 > H1 > H2 > H2
+          > H2 > H2 > H2 > H1 > H2 > H1 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 >
+          H2 > H1 > H1 > H1 > H2 > H2 > H2 > H1 > H2 > H1 > H2 > H2 > H2 > H2 > H2
+          > H2 > H2 > H2 > H2 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 >
+          H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1
+          > H1 > H1 > H1 > H1 > H2 > H1 > H1 > H1 > H1
+        HeadingIssues: First known heading is H6, not H1
+        ListsTest: Pass
+        ListCount: 14
+        InvalidListItemParents: ''
+        InvalidListChildren: ''
+        MalformedListNodes: ''
+        TablesTest: Warn
+        TableCount: 3
+        InvalidTRParents: ''
+        InvalidCellParents: ''
+        TablesWithoutHeaders: ''
+        IrregularTables: '(2341, 0): Uneven row lengths detected ([1, 1, 2, 2, 2,
+          2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 1, 2, 2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2,
+          2])'
+        fonts: 8
+        numTxtObjects: 6513
+      errors:
+      - 'no bookmarks and more than 20 pages, fonts:/BCDFEE+Arial-BoldMT, /BCDIEE+Arial-BoldItalicMT,
+        /BCDLEE+TimesNewRomanPS-BoldMT, /BCDEEE+TimesNewRomanPSMT, /BCDHEE+Arial-BoldMT,
+        /BCDJEE+ArialMT, /BCDKEE+SymbolMT, /BCDGEE+ArialMTheadings-warn, tables-warn, '
+      analysed_at: '2026-10-23T00:19:38.440129+00:00'
