@@ -4,7 +4,7 @@
     "site": "walthamforest.gov.uk",
     "crawl_url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/supplementary-planning-documents-and-planning-guidance",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/39876634023",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/293#issuecomment-6354319445",
     "archive_file": "2026-10-23_00-21-11-604_walthamforest.gov.uk.html",
     "total": 6,
     "analysed": 2,
