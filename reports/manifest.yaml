@@ -928464,3 +928464,51 @@
       - 'title, no bookmarks and more than 20 pages, figures missing alt text (count=5),
         tables-warn, '
       analysed_at: '2026-10-22T14:16:19.920966+00:00'
+- url: https://democracy.walthamforest.gov.uk/documents/s99303/Appendix+1+-+Cultural+Action+Plan.pdf
+  md5: 5d718759c1e89e7ddaa244c8480a7552
+  file_hash: dcb86349b3f087775f13e427a4800e88556f9d89a6dcb07ccb13a8d423bd2388
+  file_size_bytes: 17802603
+  filename: Appendix+1+-+Cultural+Action+Plan.pdf
+  site: walthamforest.gov.uk
+  crawled_at: '2026-10-23T00:09:51.055049+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+- url: https://thehub-beta.walthamforest.gov.uk/sites/default/files/2024-10/Pupil_Place_Plan_2024-2030.pdf
+  md5: ab9f30f4718545898d64e674a18483cd
+  file_hash: 0416f0bec0b24f00bcd39b6beef1d4b7179dd96f1ccfe8830c01f7a676e5f109
+  file_size_bytes: 2718302
+  filename: Pupil_Place_Plan_2024-2030.pdf
+  site: walthamforest.gov.uk
+  crawled_at: '2026-10-23T00:09:51.066196+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+- url: https://thehub-beta.walthamforest.gov.uk/sites/default/files/2026-08/Scheme_for_Financing_Schools_2026.pdf
+  md5: 7af0232564ac1585357aa87094a07d1c
+  file_hash: c44811cd1a86edf5b8822fa800079a0b3d80005853cdbb19f73a0af53ccc17ed
+  file_size_bytes: 485840
+  filename: Scheme_for_Financing_Schools_2026.pdf
+  site: walthamforest.gov.uk
+  crawled_at: '2026-10-23T00:09:51.072011+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
