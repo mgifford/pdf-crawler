@@ -29,7 +29,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       # -----------------------------------------------------------------
       # Gate: skip the scan if open accessibility issues already exist.
@@ -56,7 +56,7 @@ jobs:
       # -----------------------------------------------------------------
       - name: Set up Node.js
         if: steps.check.outputs.count == '0'
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: "24"
 
@@ -102,7 +102,7 @@ jobs:
         if: >-
           steps.check.outputs.count == '0' &&
           steps.scan.outputs.exit_code == '2'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           REPORT_PATH: /tmp/pa11y-report.json
           RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}

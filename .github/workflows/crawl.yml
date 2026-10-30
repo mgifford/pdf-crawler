@@ -61,7 +61,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
@@ -277,7 +277,7 @@ jobs:
 
       - name: Comment on issue when crawl setup fails
         if: failure() && github.event_name == 'issues'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           ISSUE_TITLE: ${{ github.event.issue.title }}
           IS_PDF_URL: ${{ steps.params.outputs.is_pdf_url }}
@@ -335,7 +335,7 @@ jobs:
 
       - name: Acknowledge scan request on issue
         if: github.event_name == 'issues'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           CRAWL_URL: ${{ steps.params.outputs.url }}
           IS_RESTART: ${{ github.event.action == 'reopened' }}
@@ -386,7 +386,7 @@ jobs:
             });
 
       - name: Set up Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v7
         with:
           python-version: 3.13
 
@@ -569,7 +569,7 @@ jobs:
 
       - name: Comment crawl complete on issue
         if: github.event_name == 'issues'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           CRAWL_URL:     ${{ steps.params.outputs.url }}
           PAGES_CRAWLED: ${{ steps.crawl_stats.outputs.pages_crawled }}
@@ -603,7 +603,7 @@ jobs:
 
       - name: Comment on issue when scan is cancelled or times out
         if: cancelled() && github.event_name == 'issues'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           CRAWL_URL:        ${{ steps.params.outputs.url }}
           CRAWL_MAX_PAGES:  ${{ steps.params.outputs.max_pages }}
