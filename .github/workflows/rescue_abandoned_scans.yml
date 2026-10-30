@@ -57,7 +57,7 @@ jobs:
     steps:
       - name: Classify stuck scan issues
         id: classify
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           STALE_HOURS: ${{ inputs.stale_hours || '3' }}
           DRY_RUN:     ${{ inputs.dry_run || 'false' }}
@@ -135,7 +135,7 @@ jobs:
     steps:
       - name: Remove stale scan-in-progress label
         if: needs.find.outputs.dry_run != 'true'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           ISSUE_NUMBER: ${{ matrix.issue_number }}
         with:
@@ -175,7 +175,7 @@ jobs:
     steps:
       - name: Mark abandoned scan as failed and comment
         if: needs.find.outputs.dry_run != 'true'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           ISSUE_NUMBER: ${{ matrix.issue_number }}
           STALE_HOURS:  ${{ inputs.stale_hours || '3' }}

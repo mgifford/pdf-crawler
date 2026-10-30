@@ -115,7 +115,7 @@ jobs:
       - name: Download scan metadata artifact
         id: download_meta
         continue-on-error: true   # artifact may not exist if crawl failed very early
-        uses: actions/download-artifact@v7
+        uses: actions/download-artifact@v8
         with:
           name: scan-meta-${{ github.event.workflow_run.id }}
           path: scan-meta/
@@ -139,7 +139,7 @@ jobs:
       # DEPRECATION FIX: Upgraded to official v7 (Node 20 compatible)
       - name: Comment crawl failure on issue
         if: steps.meta.outputs.issue_number != ''
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           ISSUE_NUMBER: ${{ steps.meta.outputs.issue_number }}
           CRAWL_URL: ${{ steps.meta.outputs.crawl_url }}
@@ -246,7 +246,7 @@ jobs:
 
       # DEPRECATION FIX: Upgraded to official v4 (Node 20 compatible)
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
@@ -267,7 +267,7 @@ jobs:
         id: download_pdfs
         if: github.event_name == 'workflow_run'
         continue-on-error: true
-        uses: actions/download-artifact@v7
+        uses: actions/download-artifact@v8
         with:
           name: crawled-pdfs-${{ github.event.workflow_run.id }}
           path: crawled_files/
@@ -279,7 +279,7 @@ jobs:
         id: download_meta
         if: github.event_name == 'workflow_run'
         continue-on-error: true
-        uses: actions/download-artifact@v7
+        uses: actions/download-artifact@v8
         with:
           name: scan-meta-${{ github.event.workflow_run.id }}
           path: scan-meta/
@@ -429,7 +429,7 @@ jobs:
       # OPTIMIZATION: Switched slow apt-get execution to utilize fast pre-cached Runner JDKs (Node/Action Standard)
       - name: Set up Java (for veraPDF)
         if: steps.meta.outputs.run_verapdf == 'true'
-        uses: actions/setup-java@v5
+        uses: actions/setup-java@v6
         with:
           distribution: 'temurin'
           java-version: '17'
@@ -438,7 +438,7 @@ jobs:
       - name: Cache veraPDF Artifact
         if: steps.meta.outputs.run_verapdf == 'true'
         id: cache-verapdf
-        uses: actions/cache@v5
+        uses: actions/cache@v6
         with:
           path: /tmp/verapdf-install
           key: verapdf-1.28.2
@@ -650,7 +650,7 @@ jobs:
       - name: Comment analysis results on issue
         id: comment
         if: steps.meta.outputs.issue_number != ''
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           ISSUE_NUMBER: ${{ steps.meta.outputs.issue_number }}
           CRAWL_URL: ${{ steps.meta.outputs.crawl_url }}
@@ -726,7 +726,7 @@ jobs:
         if: >-
           steps.meta.outputs.issue_number != '' &&
           steps.site_pending.outputs.pending != '0'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           ISSUE_NUMBER: ${{ steps.meta.outputs.issue_number }}
           CRAWL_URL: ${{ steps.meta.outputs.crawl_url }}
@@ -932,7 +932,7 @@ jobs:
         if: >-
           steps.meta.outputs.issue_number != '' &&
           steps.site_pending.outputs.pending == '0'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           ISSUE_NUMBER: ${{ steps.meta.outputs.issue_number }}
           REPO_OWNER: ${{ github.repository_owner }}
@@ -955,7 +955,7 @@ jobs:
           github.event_name == 'workflow_run' &&
           steps.meta.outputs.issue_number != '' &&
           steps.stale_check.outputs.needs_recrawl == 'true'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           ISSUE_NUMBER:  ${{ steps.meta.outputs.issue_number }}
           CRAWL_URL:     ${{ steps.meta.outputs.crawl_url }}
@@ -995,7 +995,7 @@ jobs:
           cancelled() &&
           github.event_name == 'workflow_run' &&
           steps.meta.outputs.issue_number != ''
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         env:
           ISSUE_NUMBER:  ${{ steps.meta.outputs.issue_number }}
           CRAWL_URL:     ${{ steps.meta.outputs.crawl_url }}
