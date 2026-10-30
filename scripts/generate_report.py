@@ -1153,7 +1153,7 @@ _HTML_TEMPLATE = """\
           downloadCsv: 'Télécharger le CSV',
           downloadJson: 'Télécharger le JSON',
           downloadManifest: 'Télécharger le manifeste',
-          downloadZip: 'Télécharger l\'archive ZIP',
+          downloadZip: 'Télécharger l\\'archive ZIP',
           downloadCurrentCsv: 'Télécharger le CSV de la vue actuelle',
           downloadCurrentJson: 'Télécharger le JSON de la vue actuelle',
           colFile: 'Fichier',

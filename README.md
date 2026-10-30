@@ -433,6 +433,7 @@ to have been applied to this repository:
 | GitHub Copilot (GPT-4-class) | GitHub / OpenAI | Code suggestions, CI workflow improvements, PR support |
 | GPT-4-class models via Copilot Chat | GitHub / OpenAI | Content drafting, structural editing, documentation |
 | Claude (Anthropic) | Anthropic via GitHub Copilot Coding Agent | Automated issue resolution and code changes via the GitHub Copilot coding agent |
+| Claude Code | Anthropic | Diagnosing and fixing report bugs, with tests, reviewed in pull requests |
 
 Each use involved human review and editing before the output was merged.
 
