@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-10-30T11:40:34.722721+00:00",
+    "site": "luton.gov.uk",
+    "crawl_url": "https://www.luton.gov.uk",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/41044374589",
+    "issue_url": "",
+    "archive_file": "2026-10-30_11-40-34-722_luton.gov.uk.html",
+    "total": 1073,
+    "analysed": 102,
+    "accessible": 72,
+    "analysis_engines": [
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
     "date": "2026-10-23T00:21:11.604086+00:00",
     "site": "walthamforest.gov.uk",
     "crawl_url": "https://www.walthamforest.gov.uk/planning-and-building-control/planning-policy/supplementary-planning-documents-and-planning-guidance",
