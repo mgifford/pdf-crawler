@@ -3,9 +3,13 @@
 # pylint: disable=use-maxsplit-arg
 
 import json
+import re
+import shutil
+import subprocess
 import sys
 from pathlib import Path
 
+import pytest
 import yaml
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
@@ -2185,3 +2189,49 @@ def test_generate_html_metadata_col_defs_pushed_when_present():
     html = generate_html([entry], stats)
     assert "key: 'doc_title'" in html
     assert "key: 'author'" in html
+
+
+# ---------------------------------------------------------------------------
+# Inline scripts must parse: one unescaped apostrophe blanks the whole page
+# ---------------------------------------------------------------------------
+
+_JS_STRING_LINE = re.compile(r"^\s+\w+: '(.*)',?\s*$")
+
+
+def _inline_scripts(html):
+    return re.findall(r"<script(?![^>]*\bsrc=)(?![^>]*application/json)[^>]*>(.*?)</script>", html, re.S)
+
+
+def _unescaped_quote_lines(html):
+    bad = []
+    for script in _inline_scripts(html):
+        for line in script.splitlines():
+            m = _JS_STRING_LINE.match(line)
+            if m and re.search(r"(?<!\\)'", m.group(1)):
+                bad.append(line.strip())
+    return bad
+
+
+def test_generate_html_translation_strings_escape_apostrophes():
+    """French "l'archive" written as \\' in Python became a bare ' in the JS,
+    a syntax error that left every report since 2026-07-10 empty."""
+    html = generate_html([_make_entry("https://example.com/doc.pdf")], _summary_stats([]))
+    assert not _unescaped_quote_lines(html)
+
+
+def test_generate_reports_index_html_translation_strings_escape_apostrophes():
+    assert not _unescaped_quote_lines(generate_reports_index_html([]))
+
+
+@pytest.mark.skipif(shutil.which("node") is None, reason="needs node to parse the inline scripts")
+def test_generated_inline_scripts_parse(tmp_path):
+    pages = {
+        "report": generate_html([_make_entry("https://example.com/doc.pdf")], _summary_stats([])),
+        "index": generate_reports_index_html([]),
+    }
+    for name, html in pages.items():
+        for i, script in enumerate(_inline_scripts(html)):
+            path = tmp_path / f"{name}-{i}.js"
+            path.write_text(script, encoding="utf-8")
+            result = subprocess.run(["node", "--check", str(path)], capture_output=True, text=True, check=False)
+            assert result.returncode == 0, f"{name} script {i}: {result.stderr}"
