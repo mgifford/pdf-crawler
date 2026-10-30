@@ -12,7 +12,7 @@ bitarray==3.8.1
     # via bitstring
 bitstring==4.4.0
     # via pdf-crawler
-certifi==2026.10.19
+certifi==2026.10.23
     # via requests
 cffi==2.0.0 ; platform_python_implementation != 'PyPy'
     # via cryptography
@@ -156,7 +156,7 @@ tomli==2.4.1 ; python_full_version < '3.11'
     # via
     #   incremental
     #   pytest
-twisted==26.4.0
+twisted==26.10.0rc1
     # via scrapy
 typer==0.25.1
     # via pdf-crawler
