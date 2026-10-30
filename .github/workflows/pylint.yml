@@ -13,7 +13,7 @@ jobs:
 
     # This single step installs uv AND the correct Python version from your matrix
     - name: Set up uv & Python ${{ matrix.python-version }}
-      uses: astral-sh/setup-uv@v6
+      uses: astral-sh/setup-uv@v7
       with:
         python-version: ${{ matrix.python-version }}
         enable-cache: true # Optional: speeds up consecutive lint runs

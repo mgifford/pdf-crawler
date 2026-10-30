@@ -1,0 +1,13 @@
+# Keeps the GitHub Actions used by .github/workflows/ on their latest
+# releases, so a runtime deprecation (such as an action still on Node 20)
+# arrives as one reviewed PR a week instead of a warning on every run.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    groups:
+      github-actions:
+        patterns:
+          - "*"
