@@ -890341,23 +890341,15 @@
   filename: JSNA%20overview%20health%20social%20care%20needs%202024_1.pdf
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.317181+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/JSNA%20overview%20health%20social%20care%20needs%202024_1.pdf
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.317181+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/JSNA%20overview%20health%20social%20care%20needs%202024_1.pdf
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.317181+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T14:31:18.219633+00:00'
+      errors: []
+      analysed_at: null
   link_text: JSNA overview health social care needs 2024 (PDF, 9.95MB)
 - url: https://www.luton.gov.uk/sites/default/files/2026-02/Joint%20Special%20Educational%20Needs%20and%20Disabilities%20Strategy%202022%20to%202025.pdf
   md5: 31e547f737198a51aba087c510353fdc
@@ -897773,23 +897765,15 @@
   filename: Part%204A%20-%20Code%20of%20Conduct%20for%20Members.pdf
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.547371+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/Part%204A%20-%20Code%20of%20Conduct%20for%20Members.pdf
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.547371+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/Part%204A%20-%20Code%20of%20Conduct%20for%20Members.pdf
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.547371+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T14:38:34.314285+00:00'
+      errors: []
+      analysed_at: null
   link_text: Part 4A - Code of Conduct for Members.pdf (PDF, 499.92KB)
 - url: https://www.luton.gov.uk/sites/default/files/2026-06/Part%204B%20-%20Scheme%20of%20Members%20Allowances.pdf
   md5: f11611fa70ffaefffbd97a6e09ffdc48
@@ -898404,23 +898388,15 @@
   filename: Plaiters-lea-conservation-area.pdf
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.612988+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/Plaiters-lea-conservation-area.pdf
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.612988+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/Plaiters-lea-conservation-area.pdf
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.612988+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T14:45:05.112030+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plaiters Lea Conservation Area (PDF, 850.97KB)
 - url: https://www.luton.gov.uk/sites/default/files/2026-02/Planning%20and%20noise%20guide_0_0.pdf
   md5: ebebc791d8f1ca9a143cfd845f42c494
@@ -898429,23 +898405,15 @@
   filename: Planning%20and%20noise%20guide_0_0.pdf
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.616143+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/Planning%20and%20noise%20guide_0_0.pdf
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.616143+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/Planning%20and%20noise%20guide_0_0.pdf
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.616143+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T14:45:27.172571+00:00'
+      errors: []
+      analysed_at: null
   link_text: Planning and noise guide (PDF, 180.35KB)
 - url: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Poets-count.pdf
   md5: 3c7debf7ff6506c4801ebe442ea28341
@@ -900593,22 +900561,15 @@
   filename: Safety-Certificate.pdf
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.708790+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/Safety-Certificate.pdf (crawled 0.2
-    day(s) ago at 2026-10-01T10:45:06.708790+00:00). Possible causes: failed download,
-    incomplete artifact transfer, or stale manifest entry from a previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/Safety-Certificate.pdf (crawled
-        0.2 day(s) ago at 2026-10-01T10:45:06.708790+00:00). Possible causes: failed
-        download, incomplete artifact transfer, or stale manifest entry from a previous
-        run.'
-      analysed_at: '2026-10-01T14:52:20.169539+00:00'
+      errors: []
+      analysed_at: null
   link_text: LTFC general safety certificate (PDF, 780.58KB)
 - url: https://www.luton.gov.uk/system/files/file-visibility/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Voting%20and%20elections/Election-2023/Saints-count.pdf
   md5: 1257a802e74336c77825eb953336d426
@@ -901048,22 +901009,15 @@
   filename: Sessional-advocate.pdf
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.718816+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/Sessional-advocate.pdf (crawled 0.2
-    day(s) ago at 2026-10-01T10:45:06.718816+00:00). Possible causes: failed download,
-    incomplete artifact transfer, or stale manifest entry from a previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/Sessional-advocate.pdf (crawled
-        0.2 day(s) ago at 2026-10-01T10:45:06.718816+00:00). Possible causes: failed
-        download, incomplete artifact transfer, or stale manifest entry from a previous
-        run.'
-      analysed_at: '2026-10-01T14:53:03.178384+00:00'
+      errors: []
+      analysed_at: null
   link_text: Sessional advocate (PDF, 120.21KB)
 - url: https://www.luton.gov.uk/sites/default/files/migrated/Council_government_and_democracy/Lists/LutonDocuments/PDF/Corporate%20Finance/Payments/Social%20care%20services%20DD%20form.pdf
   md5: 2a83038018d07e223eda73775a8e8f06
@@ -903341,23 +903295,15 @@
   filename: TPO_E107002%20Dunstable%20Road%201960_Order.pdf
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.768665+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107002%20Dunstable%20Road%201960_Order.pdf
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.768665+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107002%20Dunstable%20Road%201960_Order.pdf
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.768665+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T14:54:30.460490+00:00'
+      errors: []
+      analysed_at: null
   link_text: Order
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107003%20Sundon%20Park%20No.%202%20-%201961_Plan.PDF
   md5: 76ac9b2549143d6409125398056b38ec
@@ -903366,23 +903312,15 @@
   filename: TPO_E107003%20Sundon%20Park%20No.%202%20-%201961_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.771963+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107003%20Sundon%20Park%20No.%202%20-%201961_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.771963+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107003%20Sundon%20Park%20No.%202%20-%201961_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.771963+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T14:54:52.659447+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107003%20Sundon%20Park%20No.2%20-%201961_Order.PDF
   md5: b6e2cb8e60e0322eccd2e1f67092d8cc
@@ -903391,23 +903329,15 @@
   filename: TPO_E107003%20Sundon%20Park%20No.2%20-%201961_Order.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.775769+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107003%20Sundon%20Park%20No.2%20-%201961_Order.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.775769+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107003%20Sundon%20Park%20No.2%20-%201961_Order.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.775769+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T14:55:14.578179+00:00'
+      errors: []
+      analysed_at: null
   link_text: Order
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107004%20St.%20Saviour's%20Crescent%201969_Plan.PDF
   md5: a8420b071f646d1848414732f88bc310
@@ -903416,23 +903346,15 @@
   filename: TPO_E107004%20St.%20Saviour's%20Crescent%201969_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.778853+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107004%20St.%20Saviour''s%20Crescent%201969_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.778853+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107004%20St.%20Saviour''s%20Crescent%201969_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.778853+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T14:55:36.811885+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107005%20Icknield%20Way%201969_Order.pdf
   md5: 8f22f7aca974c6e1a9712f70c40419fd
@@ -903441,23 +903363,15 @@
   filename: TPO_E107005%20Icknield%20Way%201969_Order.pdf
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.782531+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107005%20Icknield%20Way%201969_Order.pdf
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.782531+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107005%20Icknield%20Way%201969_Order.pdf
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.782531+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T14:55:58.707203+00:00'
+      errors: []
+      analysed_at: null
   link_text: Order
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107005%20Icknield%20Way%201969_Plan.PDF
   md5: 965c10e0a46abc10885aa98b07305949
@@ -903466,23 +903380,15 @@
   filename: TPO_E107005%20Icknield%20Way%201969_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.788700+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107005%20Icknield%20Way%201969_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.788700+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107005%20Icknield%20Way%201969_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.788700+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T14:56:20.779637+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107006%20Toddington%20Road%201970_Order.pdf
   md5: 1780189163bfd465693c8ae64089458c
@@ -903491,23 +903397,15 @@
   filename: TPO_E107006%20Toddington%20Road%201970_Order.pdf
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.793501+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107006%20Toddington%20Road%201970_Order.pdf
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.793501+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107006%20Toddington%20Road%201970_Order.pdf
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.793501+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T14:56:42.472933+00:00'
+      errors: []
+      analysed_at: null
   link_text: Order
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107006%20Toddington%20Road%201970_Plan.PDF
   md5: 19b746038eeb2b95bbe8d4f5a037777f
@@ -903516,23 +903414,15 @@
   filename: TPO_E107006%20Toddington%20Road%201970_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.804342+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107006%20Toddington%20Road%201970_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.804342+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107006%20Toddington%20Road%201970_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.804342+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T14:57:04.267401+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107007%20Sundon%20Park%20Road%201981_Order.PDF
   md5: 36d6ec12ca0b1d9a80bfc6b8e9009626
@@ -903541,23 +903431,15 @@
   filename: TPO_E107007%20Sundon%20Park%20Road%201981_Order.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.809206+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107007%20Sundon%20Park%20Road%201981_Order.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.809206+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107007%20Sundon%20Park%20Road%201981_Order.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.809206+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T14:57:25.789092+00:00'
+      errors: []
+      analysed_at: null
   link_text: Order
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107007%20Sundon%20Park%20Road%201981_Plan.PDF
   md5: 4e39d5365a4920355c5f533a920256e4
@@ -903566,23 +903448,15 @@
   filename: TPO_E107007%20Sundon%20Park%20Road%201981_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.812462+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107007%20Sundon%20Park%20Road%201981_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.812462+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107007%20Sundon%20Park%20Road%201981_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.812462+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T14:57:47.920454+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107007%20Sutton%20Gardens%201970_Order.pdf
   md5: 42cbec811a59130864dd3fa786945ad3
@@ -903591,23 +903465,15 @@
   filename: TPO_E107007%20Sutton%20Gardens%201970_Order.pdf
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.815876+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107007%20Sutton%20Gardens%201970_Order.pdf
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.815876+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107007%20Sutton%20Gardens%201970_Order.pdf
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.815876+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T14:58:09.573738+00:00'
+      errors: []
+      analysed_at: null
   link_text: Order
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107007%20Sutton%20Gardens%201970_Plan.PDF
   md5: 62580eee1eac8486e68734fff58ec0e3
@@ -903616,23 +903482,15 @@
   filename: TPO_E107007%20Sutton%20Gardens%201970_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.819322+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107007%20Sutton%20Gardens%201970_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.819322+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107007%20Sutton%20Gardens%201970_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.819322+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T14:58:31.862246+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107008%20Leagrave%20High%20Street%201970_Order.pdf
   md5: d844b68e3de0acf9e2b1fa718b9b7cf4
@@ -903641,23 +903499,15 @@
   filename: TPO_E107008%20Leagrave%20High%20Street%201970_Order.pdf
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.822440+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107008%20Leagrave%20High%20Street%201970_Order.pdf
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.822440+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107008%20Leagrave%20High%20Street%201970_Order.pdf
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.822440+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T14:58:53.896431+00:00'
+      errors: []
+      analysed_at: null
   link_text: Order
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107008%20Leagrave%20High%20Street%201970_Plan.PDF
   md5: 4223ee22d21d34d2e204a21e968104c8
@@ -903666,23 +903516,15 @@
   filename: TPO_E107008%20Leagrave%20High%20Street%201970_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.825845+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107008%20Leagrave%20High%20Street%201970_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.825845+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107008%20Leagrave%20High%20Street%201970_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.825845+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T14:59:16.288311+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107010%20Trinity%20Road%201971_Order.pdf
   md5: 9596265bf651a857f10629b23b03d792
@@ -903691,23 +903533,15 @@
   filename: TPO_E107010%20Trinity%20Road%201971_Order.pdf
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.829023+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107010%20Trinity%20Road%201971_Order.pdf
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.829023+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107010%20Trinity%20Road%201971_Order.pdf
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.829023+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T14:59:38.253342+00:00'
+      errors: []
+      analysed_at: null
   link_text: Order
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107010%20Trinity%20Road%201971_Plan.PDF
   md5: dcd2adea6527fdf3f021e0dbd97134d0
@@ -903716,23 +903550,15 @@
   filename: TPO_E107010%20Trinity%20Road%201971_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.831534+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107010%20Trinity%20Road%201971_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.831534+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107010%20Trinity%20Road%201971_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.831534+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:00:00.217951+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107011%20London%20Road%201971_Order.pdf
   md5: c2fe4feef77a3b695da780480b8c2293
@@ -903766,23 +903592,15 @@
   filename: TPO_E107011%20London%20Road%201971_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.840510+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107011%20London%20Road%201971_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.840510+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107011%20London%20Road%201971_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.840510+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:00:44.508470+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107014%20Dallow%20Road%20%201971_Plan.PDF
   md5: 743ba002a4eac4e58864da5e38354445
@@ -903816,23 +903634,15 @@
   filename: TPO_E107015%20Hart%20Hill%201971_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.851046+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107015%20Hart%20Hill%201971_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.851046+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107015%20Hart%20Hill%201971_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.851046+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:01:29.098841+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107016%20Tenby%20Drive%201971_Plan2.pdf
   md5: 6f9e022cf6a0eae329a2fafdc7ee3ce0
@@ -903841,23 +903651,15 @@
   filename: TPO_E107016%20Tenby%20Drive%201971_Plan2.pdf
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.855185+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107016%20Tenby%20Drive%201971_Plan2.pdf
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.855185+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107016%20Tenby%20Drive%201971_Plan2.pdf
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.855185+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:01:50.841273+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan 2
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107017%20Birdsfoot%20Lane%201973_Plan.PDF
   md5: c6931baa2c8abea0c80c4e4321e1e702
@@ -903891,23 +903693,15 @@
   filename: TPO_E107018%20Great%20and%20Little%20Bramingham%20Wood%201977_Order.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.863333+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107018%20Great%20and%20Little%20Bramingham%20Wood%201977_Order.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.863333+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107018%20Great%20and%20Little%20Bramingham%20Wood%201977_Order.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.863333+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:02:35.055293+00:00'
+      errors: []
+      analysed_at: null
   link_text: Order
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107018%20Great%20and%20Little%20Bramingham%20Wood%201977_Plan.PDF
   md5: 6439d8b827a7d573dc3c5a7caca3cb50
@@ -903916,23 +903710,15 @@
   filename: TPO_E107018%20Great%20and%20Little%20Bramingham%20Wood%201977_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.866985+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107018%20Great%20and%20Little%20Bramingham%20Wood%201977_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.866985+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107018%20Great%20and%20Little%20Bramingham%20Wood%201977_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.866985+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:02:57.161060+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107019%20New%20Bedford%20Road%201977_Plan.PDF
   md5: 0044412be203d149106fcd8850741d15
@@ -903966,23 +903752,15 @@
   filename: TPO_E107020%20Hitchin%20Road%201977_Order.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.872829+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107020%20Hitchin%20Road%201977_Order.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.872829+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107020%20Hitchin%20Road%201977_Order.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.872829+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:03:42.383277+00:00'
+      errors: []
+      analysed_at: null
   link_text: Order
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107021%20New%20Bedford%20Road%201978_Plan.PDF
   md5: 7b310c8ac3caaa7c4f74e00086d2d174
@@ -904016,23 +903794,15 @@
   filename: TPO_E107022%20Union%20Street%201978_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.877911+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107022%20Union%20Street%201978_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.877911+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107022%20Union%20Street%201978_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.877911+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:04:27.521980+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107024%20Conservation%20Area%20No.%201%201981_Plan.PDF
   md5: c95d4e75758fde8c6bbcfee91e2b4254
@@ -904041,23 +903811,15 @@
   filename: TPO_E107024%20Conservation%20Area%20No.%201%201981_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.882154+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107024%20Conservation%20Area%20No.%201%201981_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.882154+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107024%20Conservation%20Area%20No.%201%201981_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.882154+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:04:49.810266+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107025%20Belgrave%20Road%201979_Plan.PDF
   md5: 92a1ab3f3c37bbb68f1de2723605708c
@@ -904066,23 +903828,15 @@
   filename: TPO_E107025%20Belgrave%20Road%201979_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.886324+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107025%20Belgrave%20Road%201979_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.886324+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107025%20Belgrave%20Road%201979_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.886324+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:05:12.767581+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107026%20Green%20Oaks,%20Fair%20Oak%20Drive%201979_Plan.PDF
   md5: 314e2d10d9d8adcb1e00c982723c17e9
@@ -904091,23 +903845,15 @@
   filename: TPO_E107026%20Green%20Oaks,%20Fair%20Oak%20Drive%201979_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.889021+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107026%20Green%20Oaks,%20Fair%20Oak%20Drive%201979_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.889021+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107026%20Green%20Oaks,%20Fair%20Oak%20Drive%201979_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.889021+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:05:35.463672+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107027%20Clarendon%20Road%201980_Order.PDF
   md5: 17cea89796e7a64a3b587babfbb5d3b0
@@ -904116,23 +903862,15 @@
   filename: TPO_E107027%20Clarendon%20Road%201980_Order.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.892337+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107027%20Clarendon%20Road%201980_Order.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.892337+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107027%20Clarendon%20Road%201980_Order.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.892337+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:05:57.809148+00:00'
+      errors: []
+      analysed_at: null
   link_text: Order
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107027%20Clarendon%20Road%201980_Plan.PDF
   md5: 3a258c8b77a97ef961f94b06cd7fca11
@@ -904141,23 +903879,15 @@
   filename: TPO_E107027%20Clarendon%20Road%201980_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.895124+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107027%20Clarendon%20Road%201980_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.895124+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107027%20Clarendon%20Road%201980_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.895124+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:06:20.059036+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107028%20Dunstable%20Road%201980_Plan.PDF
   md5: 8be8f0acb95a0a30f5a2b734a2b16447
@@ -904166,23 +903896,15 @@
   filename: TPO_E107028%20Dunstable%20Road%201980_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.897735+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107028%20Dunstable%20Road%201980_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.897735+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107028%20Dunstable%20Road%201980_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.897735+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:06:42.616265+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107029%20Cannon%20Lane%201980_Plan.PDF
   md5: fed60bebc38719a086721b5d5e25c3a7
@@ -904191,23 +903913,15 @@
   filename: TPO_E107029%20Cannon%20Lane%201980_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.902139+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107029%20Cannon%20Lane%201980_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.902139+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107029%20Cannon%20Lane%201980_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.902139+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:07:05.074708+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107032%20Maidenhall%20Road%201981_Plan.PDF
   md5: 0a94cbc44a635ce69eb0ae526d1a95a7
@@ -904216,23 +903930,15 @@
   filename: TPO_E107032%20Maidenhall%20Road%201981_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.905848+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107032%20Maidenhall%20Road%201981_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.905848+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107032%20Maidenhall%20Road%201981_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.905848+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:07:27.409124+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107033%20Grange%20Avenue%201981_Plan.PDF
   md5: b1e136da1c6eb553e47a678a54583f75
@@ -904241,23 +903947,15 @@
   filename: TPO_E107033%20Grange%20Avenue%201981_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.908790+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107033%20Grange%20Avenue%201981_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.908790+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107033%20Grange%20Avenue%201981_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.908790+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:07:49.214866+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107034%20Crawley%20Green%20Road%201981_Plan.PDF
   md5: eb707bba95ce690355c45d73a6e659e2
@@ -904291,23 +903989,15 @@
   filename: TPO_E107035%20Gooseberry%20Hill%201982_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.914700+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107035%20Gooseberry%20Hill%201982_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.914700+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107035%20Gooseberry%20Hill%201982_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.914700+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:08:35.051666+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107036%20Grasmere%20Road%201981_Plan.PDF
   md5: be83d45b9f93239d154c13541f21d61b
@@ -904316,23 +904006,15 @@
   filename: TPO_E107036%20Grasmere%20Road%201981_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.917397+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107036%20Grasmere%20Road%201981_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.917397+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107036%20Grasmere%20Road%201981_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.917397+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:08:57.467463+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107038%20Toddington%20Road%201981_Order.PDF
   md5: bdd2212a0360373023961a20695286d6
@@ -904341,23 +904023,15 @@
   filename: TPO_E107038%20Toddington%20Road%201981_Order.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.920699+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107038%20Toddington%20Road%201981_Order.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.920699+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107038%20Toddington%20Road%201981_Order.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.920699+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:09:19.575048+00:00'
+      errors: []
+      analysed_at: null
   link_text: Order
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107039%20High%20Street%20Leagrave%201981_Plan.PDF
   md5: 15d0f218f9dbe0b149cd008063cf7dc0
@@ -904366,23 +904040,15 @@
   filename: TPO_E107039%20High%20Street%20Leagrave%201981_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.923382+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107039%20High%20Street%20Leagrave%201981_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.923382+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107039%20High%20Street%20Leagrave%201981_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.923382+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:09:41.858734+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107040%20Marsh%20Road%201981_Order.PDF
   md5: 58dcd721524c29ad24b8746a66e3cf72
@@ -904391,23 +904057,15 @@
   filename: TPO_E107040%20Marsh%20Road%201981_Order.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.926416+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107040%20Marsh%20Road%201981_Order.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.926416+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107040%20Marsh%20Road%201981_Order.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.926416+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:10:03.701493+00:00'
+      errors: []
+      analysed_at: null
   link_text: Order
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107040%20Marsh%20Road%201981_Plan.PDF
   md5: d0d63a8cbb54e2dfbc4e4190461c4d89
@@ -904416,23 +904074,15 @@
   filename: TPO_E107040%20Marsh%20Road%201981_Plan.PDF
   site: luton.gov.uk
   crawled_at: '2026-10-01T10:45:06.928990+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'File not found: crawled_files/luton.gov.uk/TPO_E107040%20Marsh%20Road%201981_Plan.PDF
-    (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.928990+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+  errors: []
   analyses:
     original:
-      status: error
+      status: pending
       report: null
-      errors:
-      - 'File not found: crawled_files/luton.gov.uk/TPO_E107040%20Marsh%20Road%201981_Plan.PDF
-        (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.928990+00:00). Possible causes:
-        failed download, incomplete artifact transfer, or stale manifest entry from
-        a previous run.'
-      analysed_at: '2026-10-01T15:10:26.080368+00:00'
+      errors: []
+      analysed_at: null
   link_text: Plan
 - url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107043%20Hitchin%20Road%201981_Order.PDF
   md5: 79a7f43a72f94ee581acf213aed8979a
@@ -909447,7 +909097,7 @@
       report: null
       errors: []
       analysed_at: null
-  link_text: Local Cycling and Walking Infrastructure Plan 2023 - 2023 - executive
+  link_text: Local Cycling and Walking Infrastructure Plan 2023 to 2033 - executive
     summary (PDF, 2.08MB)
 - url: https://www.luton.gov.uk/sites/default/files/2026-08/local-cycling-and-walking-infrastructure-plan-full-2023-2033.pdf
   md5: 0301820c28c5e5bdace0fa7d2892abcd
@@ -909465,7 +909115,7 @@
       report: null
       errors: []
       analysed_at: null
-  link_text: Local Cycling and Walking Infrastructure Plan 2023 - 2023 (PDF, 7MB)
+  link_text: Local Cycling and Walking Infrastructure Plan 2023 to 2033 (PDF, 7MB)
 - url: https://www.luton.gov.uk/sites/default/files/2026-08/local-cycling-and-walking-infrastructure-plan-proposed-cycle-network-2023-2033.pdf
   md5: 5de1eb7f89eeba3f8c306458a7080696
   file_hash: e3cf4b829f24925c66532ac3f205756370235c62fb7dceecbd142b7bcc0b771a
@@ -909482,7 +909132,7 @@
       report: null
       errors: []
       analysed_at: null
-  link_text: Local Cycling and Walking Infrastructure Plan 2023 - 2023 - proposed
+  link_text: Local Cycling and Walking Infrastructure Plan 2023 to 2033 - proposed
     cycle network (PDF, 6.15MB)
 - url: https://www.luton.gov.uk/sites/default/files/2025-12/local-transport-plan-5-2026-2040.pdf
   md5: 49bc040c602cb8ef4983fdadc6e93ac5
@@ -929094,3 +928744,1659 @@
         /BCDLEE+TimesNewRomanPS-BoldMT, /BCDEEE+TimesNewRomanPSMT, /BCDHEE+Arial-BoldMT,
         /BCDJEE+ArialMT, /BCDKEE+SymbolMT, /BCDGEE+ArialMTheadings-warn, tables-warn, '
       analysed_at: '2026-10-23T00:19:38.440129+00:00'
+- url: https://www.luton.gov.uk/sites/default/files/2026-10/11%20-%20Treasury%20Management%20Strategy%202026-27.pdf
+  md5: 5710477dd2973101cea7a48b08943cb3
+  file_hash: 4c327dd1f421153c22047cf6b477118325e64dd7491ffe62acd340ae6e04d308
+  file_size_bytes: 534202
+  filename: 11%20-%20Treasury%20Management%20Strategy%202026-27.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.006595+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Treasury management strategic plan (PDF, 521.68KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-03/Barking%20dog%20advice%20sheet.pdf
+  md5: 395e46dd289da104a6dab62ba863ddb2
+  file_hash: 4145fa1bb4bee63e355071b37a3af4dbc674177cdd085f1971a4f57ddcb8c1f9
+  file_size_bytes: 146943
+  filename: Barking%20dog%20advice%20sheet.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.030189+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Barking dog advice sheet (PDF, 143.5KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-01/Care%20leavers%20homelessness%20advice%20pack.pdf
+  md5: 2fd3fc87a1460b4d8c53d20129b01dfd
+  file_hash: 3dfd457be3ff2c918e5884100524b2261375e85ebd831d47553b2c05b2a9d649
+  file_size_bytes: 118518
+  filename: Care%20leavers%20homelessness%20advice%20pack.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.035778+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Care leavers homelessness advice pack (PDF, 115.74KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-01/Choice%20based%20lettings%20%28CBL%29%20allocations%20policy.pdf
+  md5: 74d785f0b00fbcd8c8dec1747e79aa23
+  file_hash: f679211a7309fbb2d448cd5f6b908c28ce57d7f4bbcf9727712a15c9aab0cc0b
+  file_size_bytes: 362207
+  filename: Choice%20based%20lettings%20%28CBL%29%20allocations%20policy.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.041562+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Choice based lettings (CBL) allocations policy (PDF, 353.72KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-04/Cleaning%20contract%20weekly%20schedule%20with%20dates.pdf
+  md5: 294705e810139afd7f632a2267d65f0c
+  file_hash: 63bd66f3104e1ccda6a7d1ceb798c358d623442dc94c62e1e87abeb8245a1cf9
+  file_size_bytes: 405752
+  filename: Cleaning%20contract%20weekly%20schedule%20with%20dates.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.047804+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Cleaning contract weekly schedule (PDF, 396.24KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-05/Detailed%20cleaning%20specification%20%E2%80%93%20Caravan%20Site.pdf
+  md5: d90d93148d3b17045369a930543e4628
+  file_hash: d93aab8e9ded8477aeca8682513847cb47b92eab0069d163d25a23c213abd57c
+  file_size_bytes: 131631
+  filename: Detailed%20cleaning%20specification%20%E2%80%93%20Caravan%20Site.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.073639+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Detailed cleaning specification – caravan site (PDF, 128.55KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-05/Detailed%20cleaning%20specification%20%E2%80%93%20High%20rise%20block_0.pdf
+  md5: d797295f0c4286c260b2e11937b04367
+  file_hash: ff9efc1b0103b03020a7c467c58fc792fc933df852383be2545bd1720974b3cb
+  file_size_bytes: 159201
+  filename: Detailed%20cleaning%20specification%20%E2%80%93%20High%20rise%20block_0.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.081550+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Detailed cleaning specification – high rise block (PDF, 155.47KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-05/Detailed%20cleaning%20specification%20%E2%80%93%20Low%20rise%20block%20.pdf
+  md5: f89f08e841fee2d3fb8cf2ae47ac2de7
+  file_hash: 5bad2598db0d94a8014a606105dcfa853944bed6fda6861fa92f0f63bc6603ef
+  file_size_bytes: 148477
+  filename: Detailed%20cleaning%20specification%20%E2%80%93%20Low%20rise%20block%20.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.087116+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Detailed cleaning specification – low rise block (PDF, 145KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-05/Detailed%20cleaning%20specification%20%E2%80%93%20Temporary%20Accommodation.pdf
+  md5: dd226093eab4d1237fa45474e8af926c
+  file_hash: 11cf93ec2d823368bd7832f886cabac9a6d58e17084a3bc0bd0b85e9016ed0c7
+  file_size_bytes: 147142
+  filename: Detailed%20cleaning%20specification%20%E2%80%93%20Temporary%20Accommodation.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.091018+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Detailed cleaning specification – temporary accommodation (PDF, 143.69KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-05/Detailed%20cleaning%20specification%20%E2%80%93%20The%20Moakes%2C%20Legacy%20Court%2C%20Renaissance%20Court%2C%20Anthony%20Jules%20Court%2C%20Plait%20Court%20and%20Roman%20Court.pdf
+  md5: b4122e499ba5471d6310cc73a6bfbf12
+  file_hash: 8cf5059ce6b8d7f18dd77ce17d27247f82edb7349515987c1827f60fc51bb009
+  file_size_bytes: 142632
+  filename: Detailed%20cleaning%20specification%20%E2%80%93%20The%20Moakes%2C%20Legacy%20Court%2C%20Renaissance%20Court%2C%20Anthony%20Jules%20Court%2C%20Plait%20Court%20and%20Roman%20Court.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.093802+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Detailed cleaning specification – The Moakes (PDF, 139.29KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-05/Detailed%20cleaning%20specification%20-%20Sheltered%20Accommodation_0.pdf
+  md5: e983d5ffd617ee7d2cc95744cecf25e9
+  file_hash: a2821647ab25affa3127c3e4b180677999d6cdfd429cc4c6115ca1da13d44044
+  file_size_bytes: 191977
+  filename: Detailed%20cleaning%20specification%20-%20Sheltered%20Accommodation_0.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.096270+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Detailed cleaning specification - sheltered accommodation (PDF, 187.48KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-03/Determination%202-10%20Guildford%20Street.pdf
+  md5: e8c44721176b38947e3e0e389d304b7b
+  file_hash: 8584e2d40ad2a3b6c0b6462eebd86df592fb9b3174b38300f6ded849acfe2841
+  file_size_bytes: 141390
+  filename: Determination%202-10%20Guildford%20Street.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.098890+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Record of Determination 2-10 Guildford Street Luton (PDF, 138.08KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-03/Determination%20Statement%20November%202012.pdf
+  md5: dd0f11e5aed51851279aa6319162b78e
+  file_hash: 299eea88ac7f7bd6ac61750be2fbaf15d86e0c744dd0d38f0a84508ddd174a3b
+  file_size_bytes: 176796
+  filename: Determination%20Statement%20November%202012.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.102054+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Determination Statement November 2012 (PDF, 172.65KB)
+- url: https://www.luton.gov.uk/sites/default/files/2025-12/Direct%20Debit%20mandate%20form%20-%20housing%20rent.pdf
+  md5: 57307db4210ac7e7a21851df128fc533
+  file_hash: 971660b22fe2f504b1386c6dac5fa4831b65f3ea68d6ff349dde9fe0d05ca910
+  file_size_bytes: 317424
+  filename: Direct%20Debit%20mandate%20form%20-%20housing%20rent.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.105796+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Direct Debit mandate form for housing rent (PDF, 309.98KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/Fire-safety-handbook.pdf
+  md5: 3e6f81727323f6692526fe75aec4e367
+  file_hash: 71b1b44796e147c8ff9c3c661346e7b23fe0ebb5aa27368126045c49cb20aabc
+  file_size_bytes: 160338
+  filename: Fire-safety-handbook.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.109251+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Fire safety handbook (PDF, 156.58KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-05/General%20quality%20standards%20%E2%80%93%20Cleaning%20services.pdf
+  md5: b57660de58d0a64cdc4c56098f8a3cb9
+  file_hash: e49c5145d3d407cc9d7aeb7f6a5e6ce1e55c694a5e328094b78773902318167f
+  file_size_bytes: 281602
+  filename: General%20quality%20standards%20%E2%80%93%20Cleaning%20services.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.112620+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: General quality standards – cleaning services (PDF, 275KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/Governing%20bodies%20response%20to%20housing%20annual%20complaints%20report%202024%202025.pdf
+  md5: fc2e919d7d57e4d3ac8b98ff08a58853
+  file_hash: 4c3dd32afba9a589310c8abe73c37d749e8a94e05f3a31c3a4d18c2f5e76f448
+  file_size_bytes: 116419
+  filename: Governing%20bodies%20response%20to%20housing%20annual%20complaints%20report%202024%202025.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.115542+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Governing bodies response to housing annual complaints report 2024 2025
+    (PDF, 113.69KB)
+- url: https://www.som.org.uk/sites/som.org.uk/files/Guidance-on-menopause-and-the-workplace.pdf
+  md5: 20f2f2706f3d6986207340b6d9c15047
+  file_hash: 54edc1c5f35de560f548a66991c3ab0b9ceec79eeef36008f8ef4bc432f2f53e
+  file_size_bytes: 638809
+  filename: Guidance-on-menopause-and-the-workplace.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.119218+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Faculty of Occupational Medicine of the Royal College of Physicians -
+    Guidance on menopause and the workplace
+- url: https://www.luton.gov.uk/sites/default/files/2026-03/Housing%20Complaints%20report%202025%20to%202026.pdf
+  md5: c5bdb20659bc76b84a0663c3c900bf0f
+  file_hash: 36d2eb38c6f1da2a52b408c1afc4dbf2e5debc03200139a17c2575be8d93aae5
+  file_size_bytes: 295133
+  filename: Housing%20Complaints%20report%202025%20to%202026.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.129046+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Housing Complaints report 2025 to 2026.pdf (PDF, 288.22KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/Housing%20Complaints%20report%20April%202023%20to%20March%202024.pdf
+  md5: 2e223a812eddaaabee58c123faa03365
+  file_hash: c9415edceae352580720504bad8e93e69637c308d69495e0c86d8ef9a50e3827
+  file_size_bytes: 253718
+  filename: Housing%20Complaints%20report%20April%202023%20to%20March%202024.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.132291+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Housing Complaints report April 2023 to March 2024 (PDF, 247.77KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/Housing%20Complaints%20report%20April%202024%20to%20March%202025.pdf
+  md5: c0ae2c110d2964a1cf3c42165fdab1a0
+  file_hash: 0fc5444469efc24b35b3ee7ea57dcd63498c6a2968b7b17675b50219938d5543
+  file_size_bytes: 377944
+  filename: Housing%20Complaints%20report%20April%202024%20to%20March%202025.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.135165+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Housing Complaints report April 2024 to March 2025 (PDF, 369.09KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-06/Housing%20performance%20tenant%20board%20report%20Q3%202025-26.pdf
+  md5: 095b041c05b320a4c413dd94cd84258c
+  file_hash: 307e62b658d6c980290241982980bfe501981dba2361e43f00fed7c17ccad1d2
+  file_size_bytes: 265249
+  filename: Housing%20performance%20tenant%20board%20report%20Q3%202025-26.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.137865+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: 'Housing performance tenant board report: Q3 2025 to 2026 (PDF, 259.03KB)'
+- url: https://www.luton.gov.uk/sites/default/files/2026-04/Housing%20scrutiny%20panel%20-%20Review%20of%20ASB%20services%20offered%20to%20tenants.pdf
+  md5: cf61078aaebcfc9d64b367b042b49ddd
+  file_hash: bfb5beaf0236388460e31e5f9e6772d5bfcdddb08a1e376a4ef812f9a95dae7c
+  file_size_bytes: 194315
+  filename: Housing%20scrutiny%20panel%20-%20Review%20of%20ASB%20services%20offered%20to%20tenants.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.144082+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Housing scrutiny panel - Review of ASB services offered to tenants (PDF,
+    189.76KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/Housing%20scrutiny%20panel%20Review%20of%20LBC%20customer%20service%20process.pdf
+  md5: 32339cc2eaeb82f81bc16643c69bf454
+  file_hash: 8e3eac13eb0faffd0f6507e43b604ce87824400a8ddf7153e1166ed503f1e80b
+  file_size_bytes: 145774
+  filename: Housing%20scrutiny%20panel%20Review%20of%20LBC%20customer%20service%20process.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.149232+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Housing scrutiny panel Review of LBC customer service process (PDF, 142.36KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/Housing%20scrutiny%20panel%20Review%20of%20LBC%20tenancy%20officers%E2%80%99%20communication%20with%20tenants.pdf
+  md5: 1d1290fb72474b24ad3bb37c7a3d85f4
+  file_hash: 4ac265041c92da5464a1519f023625c84ca76a2b47e0d35cb45d631cd6de5f75
+  file_size_bytes: 146673
+  filename: Housing%20scrutiny%20panel%20Review%20of%20LBC%20tenancy%20officers%E2%80%99%20communication%20with%20tenants.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.154013+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Housing scrutiny panel Review of LBC tenancy officers’ communication
+    with tenants (PDF, 143.24KB)
+- url: https://themenopausecharity.org/wp-content/uploads/2021/05/How-to-ask-your-GP-for-help-rev.pdf
+  md5: d6951fbef680770784320fae859917d0
+  file_hash: e1fded7df27c13fad854337423081f91351117316cfe90fc4c52e4d4014e8bfa
+  file_size_bytes: 206641
+  filename: How-to-ask-your-GP-for-help-rev.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.158425+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: How to ask your GP for help
+- url: https://www.luton.gov.uk/sites/default/files/2026-01/Luton%20Council%20tenants%20handbook.pdf
+  md5: 21cff67e86f997843ef04259385e9375
+  file_hash: b9a2a36a900e08d8839cb7cb80a24547178af6a48bb65790486237ed699cb9b7
+  file_size_bytes: 863389
+  filename: Luton%20Council%20tenants%20handbook.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.198542+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Luton Council tenants handbook (PDF, 843.15KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-10/Luton%20Tree%20Policy%20and%20mgt%20Strategy.pdf
+  md5: d6551e8c25f2f8ded2e1eb29301c0a6c
+  file_hash: 158172f99c69f4a31426895830c717cc0e8a316467dfe05bec6584c10cf3aa2b
+  file_size_bytes: 1559776
+  filename: Luton%20Tree%20Policy%20and%20mgt%20Strategy.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.207194+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Tree policy and tree management strategic plan (PDF, 1.49MB)
+- url: https://www.luton.gov.uk/system/files/file-visibility/2026-03/Luton%20preliminary%20flood%20risk%20assessment%20report%20June%202011.pdf
+  md5: 85c4c50edacdbf74f05b07de36533fd0
+  file_hash: 6de9fdf360b9441726e60dcd0d20b6910edaaf04df081591018dd623beae58b6
+  file_size_bytes: 2112061
+  filename: Luton%20preliminary%20flood%20risk%20assessment%20report%20June%202011.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.217033+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Luton preliminary flood risk assessment report June 2011 (PDF, 2.01MB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-03/Luton-safety-at-sports-ground-advisory-group-terms-of-reference.pdf
+  md5: f89145a5d3e452a8b822e525b95b5485
+  file_hash: 86897878aff92ef4e54be834280e2ae1c5e2e435296bc0a07d6313be2d4ec667
+  file_size_bytes: 169361
+  filename: Luton-safety-at-sports-ground-advisory-group-terms-of-reference.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.221240+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: SAG terms of reference (PDF, 165.39KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-03/Luton-safety-at-sports-ground-enforcement-policy.pdf
+  md5: 48b9bd49bbbff536cfda7b1a045430a2
+  file_hash: 446081b375192a26d9568ff6bdf044e7d6196731c2610ef63b49014888653992
+  file_size_bytes: 124585
+  filename: Luton-safety-at-sports-ground-enforcement-policy.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.223721+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: SAG enforcement policy (PDF, 121.67KB)
+- url: https://menopausesupport.co.uk/wp-content/uploads/2023/06/MEN0921351544-005_Menopause-Support-Booklet_Web_Accessible-2.pdf
+  md5: 87940b235dc3eb2ed387d52a3d82306c
+  file_hash: 551f33b903dce63b56d167d7772fe0a1bd8fa83528558a5556e33832a3b0e097
+  file_size_bytes: 693086
+  filename: MEN0921351544-005_Menopause-Support-Booklet_Web_Accessible-2.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.228895+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Understanding menopause
+- url: https://www.luton.gov.uk/sites/default/files/2026-01/Mental%20health%20and%20homelessness%20advice%20pack.pdf
+  md5: 5b78c19ba055201098144556d52db443
+  file_hash: 146da1e7f785ead8ffd72e4dce2292f84f9a7bc2cae3a6d53039c3f509405fbb
+  file_size_bytes: 145983
+  filename: Mental%20health%20and%20homelessness%20advice%20pack.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.230625+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Mental health and homelessness advice pack (PDF, 142.56KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-10/Mutual_exchange_policy.pdf
+  md5: e467987d33d01b2f823a170734f6d7b4
+  file_hash: 363ae219b3e1149b818b6eca905725a168a0f7a428641d17f7edfd612267bb15
+  file_size_bytes: 305782
+  filename: Mutual_exchange_policy.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.232772+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Mutual exchange policy (PDF, 298.62KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/New%20town%20Street%20to%20Surrey%20Street%202022.pdf
+  md5: 91acf82dfdb61336163b207762a3f7b3
+  file_hash: 0011e2f456dcb1d71cafefee6942fbd337e45bed103fc4e588911ed77a782f79
+  file_size_bytes: 1018774
+  filename: New%20town%20Street%20to%20Surrey%20Street%202022.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.236522+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: New town Street to Surrey Street 2022.pdf (PDF, 994.9KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/Noise%20control%20at%20outdoor%20events%20with%20music.pdf
+  md5: 15bfc7354149491357d1849323297d6c
+  file_hash: 0f31c13e45970468591a7c8d9b985fa0304f6764e4d1601537f9b3f4d428e152
+  file_size_bytes: 122092
+  filename: Noise%20control%20at%20outdoor%20events%20with%20music.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.239879+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Noise control at outdoor events with music (PDF, 119.23KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/Noise%20control%20at%20outdoor%20events.pdf
+  md5: ae231329f5313465eb2bcc9de92c0d9b
+  file_hash: 506edc11b5025e1e9ab90cf3890747b48164bbecafc9db047647641272419922
+  file_size_bytes: 104135
+  filename: Noise%20control%20at%20outdoor%20events.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.242993+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Noise control at outdoor events (PDF, 101.69KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/Order%20town%20centre.pdf
+  md5: 7dfde5e87e17e0ea49a5ca6b9bff3fcd
+  file_hash: 5888cd75a7f488eca49c5ee89e9e6a6c5f4bb5726e6b0ad55911df1b26b70e53
+  file_size_bytes: 906901
+  filename: Order%20town%20centre.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.247241+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Order town centre.pdf (PDF, 885.65KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/Planning%20and%20noise%20guide_0.pdf
+  md5: ebebc791d8f1ca9a143cfd845f42c494
+  file_hash: fdc0caa501950a7c1d693750dbd59ff9ea2bc3ec918f760f353b5bbad4c86d2f
+  file_size_bytes: 184676
+  filename: Planning%20and%20noise%20guide_0.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.260649+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Planning and noise guide (PDF, 180.35KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-03/Remediation%20Statement%20February%202011.pdf
+  md5: 2986342a03f25d842de14547cdab0608
+  file_hash: dd62cc5f94bbd5a90d78c1d82ed35423e7c297f4d655c2dd45bbb4347867e168
+  file_size_bytes: 934615
+  filename: Remediation%20Statement%20February%202011.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.276971+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Remediation Statement 2 February 2011 (PDF, 912.71KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-01/Right%20to%20compensation%20for%20improvements%20application%20form%20.pdf
+  md5: 344cdd27371ed0bc2d916b3e4f98086b
+  file_hash: 0d3b091f57c6429eec363c8b57e3dc84b1e29d00c3cd3a2bf328394ae8314ad0
+  file_size_bytes: 194425
+  filename: Right%20to%20compensation%20for%20improvements%20application%20form%20.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.279457+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Right to compensation for improvements application form (PDF, 189.87KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-01/Rough%20Sleeping%20Advice%20Pack.pdf
+  md5: 88cb2b09af706c715e266c68a5f44286
+  file_hash: 254f63cf843b8253924d7c515342b31ad472bca700b29540a7d3d1fb81d28d0f
+  file_size_bytes: 194717
+  filename: Rough%20Sleeping%20Advice%20Pack.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.283703+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Rough sleeping advice pack (PDF, 190.15KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-10/Scheme%20of%20charges%202026-27.pdf
+  md5: 5fc9260cc3a45cd6123e9dbfb9aadbeb
+  file_hash: 1034a119203f4da91c9fdf5815a4d273b5a10a2250c0ec841e40e029fc967825
+  file_size_bytes: 296050
+  filename: Scheme%20of%20charges%202026-27.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.288918+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Scheme of charges 2026-27 (PDF, 289.11KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/Self-assessment%20form%20against%20housing%20ombudsman%20complaint%20handling%20code.pdf
+  md5: 25a2e6aa818ccd4652b0dd976715d37d
+  file_hash: 53226137f6277efc4aa9d5cdbfe8ac8fb41702f945d3f1bef7f314423d4a093a
+  file_size_bytes: 293089
+  filename: Self-assessment%20form%20against%20housing%20ombudsman%20complaint%20handling%20code.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.298498+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Self-assessment form against housing ombudsman complaint handling code
+    (PDF, 286.22KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/Smoke%20alarm%20testing%20and%20recording%20procedure%20.pdf
+  md5: a568fb49d3085a6ec4a0c174ed05532b
+  file_hash: 75e27d1ad3fe8c646453278eed94a9f76bbbad93dd5bda987afd3b9158236cff
+  file_size_bytes: 120805
+  filename: Smoke%20alarm%20testing%20and%20recording%20procedure%20.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.307760+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Smoke alarm testing and recording procedure (PDF, 117.97KB)
+- url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107015%20Hart%20Hill%20%201971_Order_007.pdf
+  md5: 0e0392a2f6c4e75b6eab80ebaa2ad917
+  file_hash: 4011c2c9f9c00f5f48cc74d9f15bd25452498b9c2aaede8cbf21cc321b969b44
+  file_size_bytes: 477001
+  filename: TPO_E107015%20Hart%20Hill%20%201971_Order_007.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.386402+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Order
+- url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107029%20Cannon%20Lane%201980_Order.PDF
+  md5: 12dd96f44679455d4414d2ad4a532dea
+  file_hash: 0404e460484a13f51b7792c9856c031e948207972a651254dd90825cffa60b91
+  file_size_bytes: 320567
+  filename: TPO_E107029%20Cannon%20Lane%201980_Order.PDF
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.452362+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Order
+- url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107035%20Gooseberry%20Hill%201982_Order.PDF
+  md5: 92c4c71475e2aad9da911d6851c3332a
+  file_hash: 728f6990e8fe20a65c6887d745db88b69cc3ef0e2d68734da6acb5a835625463
+  file_size_bytes: 305825
+  filename: TPO_E107035%20Gooseberry%20Hill%201982_Order.PDF
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.487053+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Order
+- url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107037%20Limbury%20Road%201981_Order.PDF
+  md5: 3ecd02e7875b1a0bf2e05fe0a663119d
+  file_hash: c1f6c93a8c809997bfdd91361911267f4319ea9ab96a0dcc87aff7d20e14dfa7
+  file_size_bytes: 373508
+  filename: TPO_E107037%20Limbury%20Road%201981_Order.PDF
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.495213+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Order
+- url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107055%20Farley%20Hill%201983_Order.PDF
+  md5: ed314279b20c39757d64d93da82a5bbb
+  file_hash: 59e4d47ec6d5f57c744817f6d805424c3f1738b9ec6198b1416c22c6229999ef
+  file_size_bytes: 297810
+  filename: TPO_E107055%20Farley%20Hill%201983_Order.PDF
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.563180+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Order
+- url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107099%20High%20Town%20Road%201989_Order.PDF
+  md5: 0045f0ace95b74f353634daefc94f746
+  file_hash: 99b887380dbbcbf5db08adb67bce09e6f0a563db55005045fdb6231c56b30459
+  file_size_bytes: 401680
+  filename: TPO_E107099%20High%20Town%20Road%201989_Order.PDF
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:43.859957+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Order
+- url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107171%20Copthorne%20ann%20Rotherfield%202001_Order.PDF
+  md5: 5e1a79e5d7e1cfd0be33d230d7fb0010
+  file_hash: 797047e916cf9647aff87e1a9fc14972da42908f21858f4d742049d015ac0973
+  file_size_bytes: 1049649
+  filename: TPO_E107171%20Copthorne%20ann%20Rotherfield%202001_Order.PDF
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.316532+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Order
+- url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107172%20The%20Malzeard%20Road%202001_Order.PDF
+  md5: 4347fa3cc72bf782a3aab3490e2b3a0a
+  file_hash: fc0dfabae5c501c00943f198bc86c84098af15b2391e7be541a20fc3d2fd7a25
+  file_size_bytes: 588400
+  filename: TPO_E107172%20The%20Malzeard%20Road%202001_Order.PDF
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.328406+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Order
+- url: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107178%20Lansdowne%20Road%202003_Order.PDF
+  md5: 76d387462bc884650fad128c52bad531
+  file_hash: 278c6c719ea5d0be1cf34d1eb8f29084b6abb97e8c1bad0d9d6b96f826742224
+  file_size_bytes: 500487
+  filename: TPO_E107178%20Lansdowne%20Road%202003_Order.PDF
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.353029+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Order
+- url: https://www.luton.gov.uk/sites/default/files/2026-01/Temporary%20accommodation%20allocations%20process.pdf
+  md5: a6b93cfe4291f3563444e7298f12425d
+  file_hash: 1d4dcc5b5ecd0ea58392bf9d75393fef2f3947354f084e023f237aad1c28cccb
+  file_size_bytes: 348729
+  filename: Temporary%20accommodation%20allocations%20process.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.496201+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Temporary accommodation allocations process (PDF, 340.56KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/Tenant%20and%20Leaseholder%20Annual%20Report%202024%20to%202025.pdf
+  md5: b76b9cdaabb2ce11dcfccc819c0e961c
+  file_hash: 47c2b34feca0dc319589b5a1cf98ea7b6c2792a39c0a33a8b99b4b7d116bcb50
+  file_size_bytes: 3043105
+  filename: Tenant%20and%20Leaseholder%20Annual%20Report%202024%20to%202025.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.505004+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Tenant and Leaseholder Annual Report 2024 to 2025 (PDF, 2.9MB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-10/Tenant%20and%20Leaseholder%20Annual%20Report%202025%20to%202026.pdf
+  md5: 9975d634ba6cc81232f6108a55308cdb
+  file_hash: 80415760a1f2e48adab010425ac7f4d0607f8f44f0d077d6f91b8a957c15e053
+  file_size_bytes: 528914
+  filename: Tenant%20and%20Leaseholder%20Annual%20Report%202025%20to%202026.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.511358+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Tenant and Leaseholder Annual Report 2025 to 2026 (PDF, 516.52KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/Tenant%20and%20Leaseholder%20Annual%20Review%202022%20to%202023.pdf
+  md5: 1cc27df366e0806d1091dd426645d3d8
+  file_hash: e55274e53f91dc0abc5a44bbf9f69f6fcce674fef68de07d70b09371ca139c61
+  file_size_bytes: 4091670
+  filename: Tenant%20and%20Leaseholder%20Annual%20Review%202022%20to%202023.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.523332+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Tenant and Leaseholder Annual Review 2022 to 2023 (PDF, 3.9MB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/Tenant%20and%20Leaseholder%20Annual%20Review%202023%20to%202024.pdf
+  md5: f9da5c47fb7da92fb823d688fc4414a7
+  file_hash: 4a416d1b84a767f23b3baf4194f9e95d2d1a6d7c06759ce82f64a5893a2779ce
+  file_size_bytes: 2936185
+  filename: Tenant%20and%20Leaseholder%20Annual%20Review%202023%20to%202024.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.534320+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Tenant and Leaseholder Annual Review 2023 to 2024 (PDF, 2.8MB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-01/Tenant%20engagement%20policy.pdf
+  md5: babb6816046d94dc82938b5ea572b9ec
+  file_hash: 2e8b5e1d27ec154fbc1b1abbe46cf13d2d4df423546968385f9456df19931504
+  file_size_bytes: 202134
+  filename: Tenant%20engagement%20policy.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.540312+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Tenant engagement policy (PDF, 197.4KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/Tenants%20satisfaction%20survey%20results%202023.pdf
+  md5: 5ef1a347bf53035689fd9f3b0696889b
+  file_hash: 5c45f4c581ddefd6ccbee2e896f76cef0d908cb016352045599fc382b8ed089d
+  file_size_bytes: 16989474
+  filename: Tenants%20satisfaction%20survey%20results%202023.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.572887+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Tenants satisfaction survey results 2023 (PDF, 16.2MB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/Tenants%20satisfaction%20survey%20results%202025%20to%202026.pdf
+  md5: 3e7d19c22fa6d5f57b35d706edbd35e7
+  file_hash: 27d346f235df7aca46282eda6e648f1cea30abee24a38835a51aa9da6128fe1b
+  file_size_bytes: 2714619
+  filename: Tenants%20satisfaction%20survey%20results%202025%20to%202026.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.583769+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Tenants satisfaction survey results 2025 to 2026 (PDF, 2.59MB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-04/Vaping-%20girl-2023.pdf
+  md5: 28365d5ec509070ca01307a72e424dfb
+  file_hash: 26e529d17a4eb3ba6f36356363b68825ff9f609ee5714d23f3cfa533968712ec
+  file_size_bytes: 538350
+  filename: Vaping-%20girl-2023.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.619507+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Do you know what you are vaping? Poster 1 (PDF, 525.73KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-04/Vaping-basket-2023.pdf
+  md5: 2ba11db22bb46732f7162d1277bf3fd3
+  file_hash: 6e313f283a984b5357cf45eefb5d54715de28a689f6dede67ea373e1e818fd56
+  file_size_bytes: 343800
+  filename: Vaping-basket-2023.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.625873+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Do you know what you are vaping? Poster 2 (PDF, 335.74KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-04/Vaping-blueeyes-2023.pdf
+  md5: 2c63c277f79a6d380d12692eb438a947
+  file_hash: 40c460c855c1d1394dee8a2849332d24987c8a5f099a6bee89f0aa478921528a
+  file_size_bytes: 347341
+  filename: Vaping-blueeyes-2023.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.631815+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Do you know what you are vaping? Poster 3 (PDF, 339.2KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-04/Vaping-toilet-2023.pdf
+  md5: fe1a74a07581707eed9db05a4f24836a
+  file_hash: 7a2b1b0caa0b727d2a98bbe72f0e77fa7970b793e096a79b415eed04c60205df
+  file_size_bytes: 3835508
+  filename: Vaping-toilet-2023.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.643388+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Do you know what you are vaping? Poster 4 (PDF, 3.66MB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-01/Vulnerability%20and%20inclusive%20services%20policy.pdf
+  md5: 686160cea4f7e30ee6598ac8550fb610
+  file_hash: 0914ba99951e90f29c85e5e2ab753d8b1ad55f82a17bcc12f8fc346c8f4e60c4
+  file_size_bytes: 248593
+  filename: Vulnerability%20and%20inclusive%20services%20policy.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.650201+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Vulnerability and inclusive services policy (PDF, 242.77KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-01/Waste-Strategy.pdf
+  md5: 28c0c53708a88605e49cfca651a86339
+  file_hash: 55b9c19c00346cc9e2fdd5d7452417edf701a6352c6c88439db555a35c0e201c
+  file_size_bytes: 358755
+  filename: Waste-Strategy.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.657007+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Waste management strategic plan (PDF, 350.35KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/Workplace-brochure-Apr13.pdf
+  md5: 4d13f43c668fd0d044d75c7d86f3336b
+  file_hash: 91ec163c9518b315f7b274980c3332388b61f3cb99edadb027bab7c343e185c8
+  file_size_bytes: 2280373
+  filename: Workplace-brochure-Apr13.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.665774+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Workplace brochure (PDF, 2.17MB)
+- url: https://www.england.nhs.uk/wp-content/uploads/2019/04/a-practical-guide-to-healthy-ageing.pdf
+  md5: c2de686c662522da1ba2a54ff7626371
+  file_hash: 635d873e3674e94a2951b2785b444797b691a69f5904f149034aaeb48eee888a
+  file_size_bytes: 1033185
+  filename: a-practical-guide-to-healthy-ageing.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.672227+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: download a practical guide to healthy ageing
+- url: https://www.ageuk.org.uk/siteassets/documents/information-guides/ageukig01_staying_safe.inf.pdf
+  md5: 8800cafd9bf8e336d8bb76f375156e78
+  file_hash: 7531e0531158d13d5ef803ede4dfa4a16e91e556b78d1ac604fb06442275a510
+  file_size_bytes: 1583412
+  filename: ageukig01_staying_safe.inf.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.682822+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Read the home safety checker from Age UK
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/annual-childrens-complaints-report-2023-24.pdf
+  md5: 608cf8c26e97447f8cd8584e9025ed72
+  file_hash: ddb738704e58e63c065e301b6d159743766443ff869c84401125c25d0f40668a
+  file_size_bytes: 206654
+  filename: annual-childrens-complaints-report-2023-24.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.687825+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Annual children's complaints report April 2023 to March 2024 (PDF, 201.81KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-07/assured-shorthold-tenancy-agreement.pdf
+  md5: 3fe6cbc4046efdc91573a49d197e9f63
+  file_hash: b8b35570f8c950ab4092a20e832c6adb6a025a3177cbc9f7c45ec5cd617b7cff
+  file_size_bytes: 177137
+  filename: assured-shorthold-tenancy-agreement.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.708055+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Assured shorthold tenancy agreement (PDF, 172.99KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/childrens-social-care-complaints-procedure.pdf
+  md5: 8e364c858fbe7435d44ad83e9510b917
+  file_hash: 9a636ee230dd66a0028f64764414011f00b9ca31b4ea8e79071c23f889eb43a3
+  file_size_bytes: 288207
+  filename: childrens-social-care-complaints-procedure.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.732264+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Children's social care complaints procedure (PDF, 281.45KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-10/domestic-abuse-plan-2026%E2%80%932031%C2%A0.pdf
+  md5: 70447db388bc294214f941338ab2d267
+  file_hash: 6fd86cff0bd8134ea2cfdfc46e5129e9522bab7335403cf12017cd3a13ddbb7f
+  file_size_bytes: 171044
+  filename: domestic-abuse-plan-2026%E2%80%932031%C2%A0.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.748191+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Domestic abuse plan 2026 to 2031 (PDF, 167.04KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-08/find-your-housing-officer.pdf
+  md5: 8bd3ade2bfb51c2af8247e0b04f84a83
+  file_hash: d1360cdd90ae5f1c16dca7d9add655135b24d4880d5cf9189dd5fe2d9e42c45c
+  file_size_bytes: 443509
+  filename: find-your-housing-officer.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.757658+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Find your housing officer (PDF, 433.11KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-10/gateway-1-self-assessment.pdf
+  md5: 640e7a145537cfacc16033f3a52505aa
+  file_hash: 3874704bb0be8afc97584d5d87b916ac409e72b7d5bc094b3643fc1807cee0e0
+  file_size_bytes: 155698
+  filename: gateway-1-self-assessment.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.760931+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Gateway 1 Self-assessment summary (PDF, 152.05KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-04/housing-performance-report-2024-2025.pdf
+  md5: 5ae4a819da57f2360f1da5d0bb20c04e
+  file_hash: e2645f57e3f4ed119541da5221df878fbe65df2d3571c566e42d3c36c25b12b5
+  file_size_bytes: 298006
+  filename: housing-performance-report-2024-2025.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.778666+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Housing performance report 2024 to 2025 (PDF, 291.02KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/landlord-housing-association-smoke-free-toolkit.pdf
+  md5: 41ae879fa21c8510b9f8bdeb7509746d
+  file_hash: 717a44b7fd8fd85bbf37602088e6aa5d347386f622c2fd3dd5612ddd64740e94
+  file_size_bytes: 996402
+  filename: landlord-housing-association-smoke-free-toolkit.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.802811+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Landlord housing association smoke free toolkit (PDF, 973.05KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-10/local-plan-timetable.pdf
+  md5: 2aae49427cf647746d7cfc5b13507281
+  file_hash: 785f9f8054b1e0d66be66f304f062d373f58d9aaa23bd6aa245a1fd2e9cdc54b
+  file_size_bytes: 209221
+  filename: local-plan-timetable.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.841646+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Local Plan timetable (PDF, 204.32KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/luton-annual-public-health-report-2024.pdf
+  md5: 190beadb2715e3f4f691cefd85dc9ea6
+  file_hash: 6ef35dc399cc3bdd19668e3009f527ead3152565a67d96259f7fe147bb26212e
+  file_size_bytes: 6758503
+  filename: luton-annual-public-health-report-2024.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.866961+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Annual public health report 2024 (PDF, 6.45MB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-06/luton-community-safety-partnership-plan-2024-28-summary.pdf
+  md5: 17fbd39a0876c3742586e76e862a4e16
+  file_hash: 6d9c5c670d54c1b6d1a4aa6fbcb68cddd50a7638cf0d18596ad096a7689ef4db
+  file_size_bytes: 2038377
+  filename: luton-community-safety-partnership-plan-2024-28-summary.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.875476+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Luton Community Safety Partnership plan - 2024 to 2028 (summary) (PDF,
+    1.94MB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-03/luton-level-1-strategic-flood-risk-assessment-2013.pdf
+  md5: 267c20589afaf695ba532a150b393129
+  file_hash: 1f75e8d190528a7a24316b385b2fd63939610b4f7281f0f292bbcb962fcb245e
+  file_size_bytes: 1048515
+  filename: luton-level-1-strategic-flood-risk-assessment-2013.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.882384+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: luton-level-1-strategic-flood-risk-assessment-2013 (PDF, 1023.94KB)
+- url: https://www.luton.gov.uk/system/files/file-visibility/2026-02/luton-parents%20-children-and-young-people%27s-%20health-and-wellbeing-self-referral-quick-guide.pdf
+  md5: cffcc9590f1cc0ac63d2cf5d82dd996c
+  file_hash: 5ed4f47f5d2ae044c31100d3eb99fe20668ed73d29ffa89733efd73e4513e0d0
+  file_size_bytes: 751958
+  filename: luton-parents%20-children-and-young-people%27s-%20health-and-wellbeing-self-referral-quick-guide.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.895195+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Parents, children and young people’s health and wellbeing quick guide
+    (PDF, 734.33KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-04/luton-school-vaping-toolkit.pdf
+  md5: e108842d0441f563a07f48a8a2b28571
+  file_hash: bbad13faa5d15930132e6c000877ecec3933c967770e30bdaebf1aa18f959ffb
+  file_size_bytes: 622655
+  filename: luton-school-vaping-toolkit.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.926106+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Luton school vaping toolkit (PDF, 608.06KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/luton-tobacco-control-strategy.pdf
+  md5: 5fadf48eda598d88981996af90c6b81e
+  file_hash: 1f92faa704f83a9d859a40d832f6f506cb66c41bad0c523c4a171cf9d97566e4
+  file_size_bytes: 1563026
+  filename: luton-tobacco-control-strategy.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.933222+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Tobacco strategy (PDF, 1.49MB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/overhanging%20trees%20and%20hedges.pdf
+  md5: c412b47f176b73049553a6cef26413c8
+  file_hash: a62474f9ad4d54ef85a6c3828a74acd97dd345a329c77384bfe86c7b8d7f9f12
+  file_size_bytes: 292124
+  filename: overhanging%20trees%20and%20hedges.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.941904+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: overhanging trees and hedges (PDF, 285.28KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/pdf%20documentTenants%20satisfaction%20survey%20results%202024%20to%202025.pdf
+  md5: 4d47b617dfc879e3c5eca7bd42828fa4
+  file_hash: b81ef6c3218b2f4d8c57cadf2f2a575b6b446b73ac6f806190b4e83cbe008705
+  file_size_bytes: 4127102
+  filename: pdf%20documentTenants%20satisfaction%20survey%20results%202024%20to%202025.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.953208+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Tenants satisfaction survey results 2024 to 2025 (PDF, 3.94MB)
+- url: https://www.bcsolutions.org.uk/_img/pics/pdf_1701358953.pdf
+  md5: 7b26074338bd9e29a668a4befc9e6563
+  file_hash: e4b791ad5b94cf0b135fc0eddc8ce64f4fea25c1c54bc1f366f252f23f5009b3
+  file_size_bytes: 87814
+  filename: pdf_1701358953.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:44.959327+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Dutyholder - user guide information
+- url: https://www.luton.gov.uk/system/files/file-visibility/2026-02/prevent-national-referral-form.pdf
+  md5: 85c5aa714036c0592350871465cfbf0f
+  file_hash: 08a049bfea4cb665d62dce3f0f2d7ac3062da5197caf157cd089b6a1c3f592a6
+  file_size_bytes: 218501
+  filename: prevent-national-referral-form.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:45.012787+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: prevent-national-referral-form (PDF, 213.38KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/pspo%20arthur%20street%20to%20hibbert%20street.pdf
+  md5: c3d05494b4d09b1a060fcb4012a6b82a
+  file_hash: 0f6bfbb93d6d683a3e2699e2915184400019d3e8a9dd98f2fde8588f225fc386
+  file_size_bytes: 742614
+  filename: pspo%20arthur%20street%20to%20hibbert%20street.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:45.019284+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: pspo arthur street to hibbert street.pdf (PDF, 725.21KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-10/scoping-consultation-summary.pdf
+  md5: f983d11fa3d624312ca3696311110a66
+  file_hash: f7778005d0035138e7cf7bdcf143340a390a60f536b8c1a27d8c3d480e2af5c8
+  file_size_bytes: 362005
+  filename: scoping-consultation-summary.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:45.050752+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Scoping consultation summary (PDF, 353.52KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-10/supplementary-statement-SS01-september-2026.pdf
+  md5: a9fd3cffe42ca1592add23e37e233ea2
+  file_hash: d6dc914c12d3cdec68d5392062f78b24089855e7544c7f0bed46098b2ff75853
+  file_size_bytes: 111545
+  filename: supplementary-statement-SS01-september-2026.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:45.061366+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: PNA supplementary statement (SS01) - September 2026 (PDF, 108.93KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-07/tenancy-agreement.pdf
+  md5: a5a1bff5124e1fd1614f3cfe46f663e3
+  file_hash: 63607d642a0eb923bd8112a536acb94a4bb3bad69a283d8569e873ab7f0ba3c4
+  file_size_bytes: 367899
+  filename: tenancy-agreement.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:45.065676+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Tenancy agreement (PDF, 359.28KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-09/tenant-engagement-plan.pdf
+  md5: 2477a26c7fbf36712eab1ba884771b75
+  file_hash: 982225340f38b99261635f884d478850b2b86aa071dffbe396fe23d8a443b316
+  file_size_bytes: 424693
+  filename: tenant-engagement-plan.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:45.070275+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Tenant engagement plan 2026 to 2029 (PDF, 414.74KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/tenant-smoke-free-home-toolkit.pdf
+  md5: 176daa5ecf6e59b27d48c58dc43b7074
+  file_hash: 0b91b704f19cfb689ad527e5e906e7ec4c641ba5aac160423a7b259c1874b08d
+  file_size_bytes: 588363
+  filename: tenant-smoke-free-home-toolkit.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:45.075802+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Tenant smoke free home toolkit (PDF, 574.57KB)
+- url: https://www.luton.gov.uk/sites/default/files/2026-02/what%20can%20I%20do%20about%20noisy%20neighbours.pdf
+  md5: f75519d4e7a555eeffc681e4ff9c2ddf
+  file_hash: 20f159f0abda21a17078773f3951ffe4a494fc4243adfcc1956b648d7adbec59
+  file_size_bytes: 293535
+  filename: what%20can%20I%20do%20about%20noisy%20neighbours.pdf
+  site: luton.gov.uk
+  crawled_at: '2026-10-30T10:54:45.091241+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: What can I do about noisy neighbours (PDF, 286.66KB)
