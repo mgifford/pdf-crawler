@@ -1,6 +1,6 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-10-30T13:53:38.636971+00:00
+Generated: 2026-10-30T14:36:50.706267+00:00
 
 ## Summary
 
@@ -8,8 +8,8 @@ Generated: 2026-10-30T13:53:38.636971+00:00
 |--------|-------|
 | Total files tracked | 31425 |
 | Analysed | 6941 |
-| Pending analysis | 18455 |
-| Errors during analysis | 6029 |
+| Pending analysis | 18436 |
+| Errors during analysis | 6048 |
 | Accessible | 2163 |
 | Issues found | 4778 |
 | Totally inaccessible subset | 300 |
@@ -72471,17 +72471,131 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.892337+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
+### TPO_E107027%20Clarendon%20Road%201980_Plan.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107027%20Clarendon%20Road%201980_Plan.PDF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.895124+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TPO_E107028%20Dunstable%20Road%201980_Plan.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107028%20Dunstable%20Road%201980_Plan.PDF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.897735+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TPO_E107029%20Cannon%20Lane%201980_Plan.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107029%20Cannon%20Lane%201980_Plan.PDF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.902139+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TPO_E107032%20Maidenhall%20Road%201981_Plan.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107032%20Maidenhall%20Road%201981_Plan.PDF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.905848+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TPO_E107033%20Grange%20Avenue%201981_Plan.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107033%20Grange%20Avenue%201981_Plan.PDF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.908790+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
 ### TPO_E107034%20Crawley%20Green%20Road%201981_Plan.PDF
 
 - **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107034%20Crawley%20Green%20Road%201981_Plan.PDF
 - **Status**: error
-- File not found: crawled_files/luton.gov.uk/TPO_E107034%20Crawley%20Green%20Road%201981_Plan.PDF (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.911564+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.911564+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TPO_E107035%20Gooseberry%20Hill%201982_Plan.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107035%20Gooseberry%20Hill%201982_Plan.PDF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.914700+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TPO_E107036%20Grasmere%20Road%201981_Plan.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107036%20Grasmere%20Road%201981_Plan.PDF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.917397+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TPO_E107038%20Toddington%20Road%201981_Order.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107038%20Toddington%20Road%201981_Order.PDF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.920699+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TPO_E107039%20High%20Street%20Leagrave%201981_Plan.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107039%20High%20Street%20Leagrave%201981_Plan.PDF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.923382+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TPO_E107040%20Marsh%20Road%201981_Order.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107040%20Marsh%20Road%201981_Order.PDF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.926416+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TPO_E107040%20Marsh%20Road%201981_Plan.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107040%20Marsh%20Road%201981_Plan.PDF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.928990+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### TPO_E107043%20Hitchin%20Road%201981_Order.PDF
 
 - **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107043%20Hitchin%20Road%201981_Order.PDF
 - **Status**: error
-- File not found: crawled_files/luton.gov.uk/TPO_E107043%20Hitchin%20Road%201981_Order.PDF (crawled 0.2 day(s) ago at 2026-10-01T10:45:06.932202+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.932202+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TPO_E107043%20Hitchin%20Road%201981_Plan.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107043%20Hitchin%20Road%201981_Plan.PDF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.934751+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TPO_E107044%20Caleb%20Close%201981_Plan.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107044%20Caleb%20Close%201981_Plan.PDF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.937083+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TPO_E107046%20Biscot%20Road%201981_Order.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107046%20Biscot%20Road%201981_Order.PDF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.940173+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TPO_E107046%20Biscot%20Road%201981_Plan.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107046%20Biscot%20Road%201981_Plan.PDF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.942594+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TPO_E107047%20Cromwell%20Hill%201982_Order.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107047%20Cromwell%20Hill%201982_Order.PDF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.946933+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TPO_E107048%20Old%20Bedford%20Road%201981_Order.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107048%20Old%20Bedford%20Road%201981_Order.PDF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.950890+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TPO_E107050%20Church%20Street%201981_Plan.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107050%20Church%20Street%201981_Plan.PDF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.953647+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TPO_E107051%20Dunstable%20Road%201982_Plan.PDF
+
+- **URL**: https://static.luton.gov.uk/Environment/Lists/LutonDocuments/PDF/TPO/TPO_E107051%20Dunstable%20Road%201982_Plan.PDF
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-10-01T10:45:06.956342+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Ar-Leabharlanna-Poibli-2022.pdf
 
