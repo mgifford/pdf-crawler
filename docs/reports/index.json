@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-10-30T13:53:38.636971+00:00",
+    "site": "luton.gov.uk",
+    "crawl_url": "https://www.luton.gov.uk",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/41060860847",
+    "issue_url": "",
+    "archive_file": "2026-10-30_13-53-38-636_luton.gov.uk.html",
+    "total": 1073,
+    "analysed": 102,
+    "accessible": 72,
+    "analysis_engines": [
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
     "date": "2026-10-30T13:08:37.271237+00:00",
     "site": "luton.gov.uk",
     "crawl_url": "https://www.luton.gov.uk",
