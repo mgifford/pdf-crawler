@@ -51,6 +51,7 @@ pdf-crawler/
 │   ├── crawl.py                  # Crawl wrapper + manifest update
 │   ├── manifest.py               # YAML manifest management (MD5 dedup)
 │   ├── pdf_analyser.py           # Accessibility checks (pikepdf-based)
+│   ├── analyse_files.py          # Same checks on given files, no manifest (used by vital-core)
 │   └── generate_report.py        # Markdown + JSON report generator
 ├── tests/                        # pytest test suite
 ├── ACCESSIBILITY.md              # Accessibility policy and contributor requirements
@@ -96,7 +97,14 @@ python scripts/pdf_analyser.py
 
 # Generate reports
 python scripts/generate_report.py
+
+# Analyse files another tool downloaded (no crawl, no manifest)
+python scripts/analyse_files.py --input files.json --output results.json
 ```
+
+`analyse_files.py` is the entry point other tools rely on, such as
+[vital-core](https://github.com/mgifford/vital-core), which checks the PDFs
+each site links to. Keep its input and output shapes stable.
 
 ---
 

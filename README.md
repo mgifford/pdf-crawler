@@ -344,6 +344,10 @@ uv run python scripts/validate_pdf.py path/to/file.pdf
 
 # Validate a single PDF (raw analyser output)
 uv run python scripts/validate_pdf.py path/to/file.pdf --mode raw
+
+# Analyse PDFs you downloaded yourself, without a crawl or manifest
+# (files.json: [{"path": "a.pdf", "url": "https://example.com/a.pdf"}])
+uv run python scripts/analyse_files.py --input files.json --output results.json
 ```
 
 ---
@@ -397,7 +401,8 @@ pdf-crawler/
 │   ├── manifest.py            # YAML manifest management (MD5 dedup)
 │   ├── pdf_analyser.py        # Accessibility checks (pikepdf-based)
 │   ├── generate_report.py     # Markdown + JSON report generator
-│   └── validate_pdf.py        # Single-PDF validator (raw/structured JSON)
+│   ├── validate_pdf.py        # Single-PDF validator (raw/structured JSON)
+│   └── analyse_files.py       # Analyse given files, no crawl or manifest (JSON)
 ├── reports/
 │   ├── README.md              # Manifest schema docs
 │   ├── manifest.yaml          # ← committed; grows over time
