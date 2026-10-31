@@ -101,7 +101,7 @@ pluggy==1.6.0
     # via pytest
 protego==0.6.2
     # via scrapy
-pyasn1==0.6.4
+pyasn1==0.6.5
     # via
     #   pyasn1-modules
     #   service-identity
@@ -156,7 +156,7 @@ tomli==2.4.1 ; python_full_version < '3.11'
     # via
     #   incremental
     #   pytest
-twisted==26.10.0rc1
+twisted==26.10.0
     # via scrapy
 typer==0.25.1
     # via pdf-crawler
