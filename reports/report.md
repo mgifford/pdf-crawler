@@ -1,20 +1,21 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-10-30T15:20:45.483508+00:00
+Generated: 2026-11-06T14:54:17.822097+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 31425 |
-| Analysed | 6941 |
+| URLs crawled | 705 |
+| Total files tracked | 31455 |
+| Analysed | 6971 |
 | Pending analysis | 18436 |
 | Errors during analysis | 6048 |
-| Accessible | 2163 |
-| Issues found | 4778 |
-| Totally inaccessible subset | 300 |
-| Broken / unreadable | 31 |
-| Exempt (pre-2018) | 1544 |
+| Accessible | 2165 |
+| Issues found | 4806 |
+| Totally inaccessible subset | 305 |
+| Broken / unreadable | 33 |
+| Exempt (pre-2018) | 1560 |
 
 ## Files per Site
 
@@ -59,6 +60,7 @@ Generated: 2026-10-30T15:20:45.483508+00:00
 | kfw.de | 8 |
 | kjk.umn.edu | 1 |
 | lasv.brandenburg.de | 260 |
+| lib.hoover.mcdaniel.edu | 30 |
 | lib.pstcc.edu | 16 |
 | librariesireland.ie | 35 |
 | luton.gov.uk | 1073 |
@@ -7056,6 +7058,36 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 | [2026-27_CWF_applicant_guidance.pdf](https://www.walthamforest.gov.uk/sites/default/files/2026-08/2026-27_CWF_applicant_guidance.pdf) | walthamforest.gov.uk | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | 1.9 KB | — | — |
 | [HealthandSafetyPolicy.pdf](https://thehub-beta.walthamforest.gov.uk/sites/default/files/2019-03/HealthandSafetyPolicy.pdf) | walthamforest.gov.uk | 2019-02-11 | 00206B403183190211151225 | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 18 | 6.1 MB | 0 | 18 |
 | [Summer_2023_Childcare_Sufficiency_Assessment_(CSA).pdf](https://thehub-beta.walthamforest.gov.uk/sites/default/files/2024-04/Summer_2023_Childcare_Sufficiency_Assessment_(CSA).pdf) | walthamforest.gov.uk | 2024-04-12 | — | Eve McLoughlin | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 49 | 1.7 MB | 14896 | 17 |
+| [17694.pdf](https://www.fdlp.gov/file-download/download/public/17694) | lib.hoover.mcdaniel.edu *(ext: fdlp.gov)* | 2019-05-30 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 12 | 1.5 MB | 5518 | 12 |
+| [2005oct-AASL-actionresearch.pdf](https://www.thinkingfoundation.org/research/action_research/pdf/2005oct-AASL-actionresearch.pdf) | lib.hoover.mcdaniel.edu *(ext: thinkingfoundation.org)* | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | 397.8 KB | — | — |
+| [BAWHill.pdf](https://hoover.mcdaniel.edu/archives/BAWHill.pdf) | lib.hoover.mcdaniel.edu *(ext: hoover.mcdaniel.edu)* | 2022-08-15 | Printable Archive Postcards | Hoover Library | — | DAFJbiW_VSk,BACsqJEU75Q | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 5.0 MB | 0 | 2 |
+| [BOYA-past-winners.pdf](https://cla.ca/wp-content/uploads/BOYA-past-winners.pdf) | lib.hoover.mcdaniel.edu *(ext: cla.ca)* | 2016-01-28 | — | membership | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | ❌ Fail | ✅ Pass | 5 | 193.9 KB | 667 | 0 |
+| [CHill.pdf](https://hoover.mcdaniel.edu/archives/CHill.pdf) | lib.hoover.mcdaniel.edu *(ext: hoover.mcdaniel.edu)* | 2022-08-15 | Printable Archive Postcards | Hoover Library | — | DAFJbiW_VSk,BACsqJEU75Q | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 5.1 MB | 0 | 2 |
+| [CurrentGuidelines.pdf](https://www.mammalsociety.org/uploads/committee_files/CurrentGuidelines.pdf) | lib.hoover.mcdaniel.edu *(ext: mammalsociety.org)* | 2016-06-10 | 2016 Guidelines of the American Society of Mammalogists for the use of wild mammals in research and education | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 26 | 591.8 KB | 28774 | 2 |
+| [Dorothy%20Elderdice.pdf](https://hoover.mcdaniel.edu/archives/Dorothy%20Elderdice.pdf) | lib.hoover.mcdaniel.edu *(ext: hoover.mcdaniel.edu)* | 2011-02-22 | Elderdice, Dorothy, 1892-1979 | bobrien | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ✅ Pass | 9 | 158.6 KB | 2314 | 0 |
+| [ED615895.pdf](https://files.eric.ed.gov/fulltext/ED615895.pdf) | lib.hoover.mcdaniel.edu *(ext: files.eric.ed.gov)* | 2021-05-19 | THECB Report | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 43 | 7.9 MB | 15589 | 41 |
+| [GUIDELINES-FOR-USE-OF-LIVE-AMPHIBIANS-AND-REPTILES-IN-FIELD-RESEARCH.pdf](https://erenweb.org/wp-content/uploads/2011/07/GUIDELINES-FOR-USE-OF-LIVE-AMPHIBIANS-AND-REPTILES-IN-FIELD-RESEARCH.pdf) | lib.hoover.mcdaniel.edu *(ext: erenweb.org)* | 2009-01-16 | — | your username | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ✅ Pass | 15 | 82.1 KB | 6304 | 0 |
+| [GreenTerror.pdf](https://hoover.mcdaniel.edu/archives/GreenTerror.pdf) | lib.hoover.mcdaniel.edu *(ext: hoover.mcdaniel.edu)* | 2022-08-15 | Printable Archive Postcards | Hoover Library | — | DAFJbiW_VSk,BACsqJEU75Q | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 4.4 MB | 0 | 2 |
+| [Greetings.pdf](https://hoover.mcdaniel.edu/archives/Greetings.pdf) | lib.hoover.mcdaniel.edu *(ext: hoover.mcdaniel.edu)* | 2022-08-15 | Printable Archive Postcards | Hoover Library | — | DAFJbiW_VSk,BACsqJEU75Q | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 8.2 MB | 0 | 2 |
+| [Hill1989-90.pdf](https://hoover.mcdaniel.edu/archives/Newsmagazines/Hill1989-90.pdf) | lib.hoover.mcdaniel.edu *(ext: hoover.mcdaniel.edu)* | 2012-10-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 196 | 40.4 MB | 119589 | 196 |
+| [IEEE-Editorial-Style-Manual-for-Authors.pdf](http://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE-Editorial-Style-Manual-for-Authors.pdf) | lib.hoover.mcdaniel.edu *(ext: journals.ieeeauthorcenter.ieee.org)* | — | IEEE Editorial Style Manual for Authors | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 67 | 790.7 KB | 21788 | 16 |
+| [NSBA_CPE_Early_Literacy_Layout_2015.pdf](https://cdn-files.nsba.org/s3fs-public/reports/NSBA_CPE_Early_Literacy_Layout_2015.pdf?pYhLHZ6Ya_uETATcGHqsYf7sJOXBzfp7) | lib.hoover.mcdaniel.edu *(ext: cdn-files.nsba.org)* | 2015-03-16 | LEARNING TO READ, READING TO LEARN | pbarth | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ✅ Pass | 15 | 798.0 KB | 6367 | 11 |
+| [Quick_Tips_for_ASA_Style.pdf](https://www.asanet.org/wp-content/uploads/savvy/documents/teaching/pdfs/Quick_Tips_for_ASA_Style.pdf) | lib.hoover.mcdaniel.edu *(ext: asanet.org)* | 2013-04-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | NotApplicable | NotApplicable | ✅ Pass | 2 | 163.0 KB | 1006 | 1 |
+| [Signed%20Reading%20Fluency%20Rubric.pdf](http://www.idahotc.com/Portals/45/Signed%20Reading%20Fluency%20Rubric.pdf) | lib.hoover.mcdaniel.edu *(ext: idahotc.com)* | 2014-03-17 | Visual Fluency Screener for Signing Deaf Children | Susan Easterbrooks | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ✅ Pass | 4 | 425.2 KB | 436 | 2 |
+| [SnapshotontheHill.pdf](https://hoover.mcdaniel.edu/archives/SnapshotontheHill.pdf) | lib.hoover.mcdaniel.edu *(ext: hoover.mcdaniel.edu)* | 2022-08-15 | Printable Archive Postcards | Hoover Library | — | DAFJbiW_VSk,BACsqJEU75Q | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 5.8 MB | 0 | 2 |
+| [Tips%20on%20Improving%20Occupational%20Wellness.pdf](https://www.utoledo.edu/offices/rocketwellness/docs/Tips%20on%20Improving%20Occupational%20Wellness.pdf) | lib.hoover.mcdaniel.edu *(ext: utoledo.edu)* | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | 66.4 KB | — | — |
+| [Worksheet_Alternatives%20Literature%20Searching.pdf](https://www.nal.usda.gov/sites/default/files/page-files/Worksheet_Alternatives%20Literature%20Searching.pdf) | lib.hoover.mcdaniel.edu *(ext: nal.usda.gov)* | 2022-01-19 | Literature Search for Alternatives Worksheet | USDA. Animal Welfare Information Center (AWIC) | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 274.8 KB | 2022 | 0 |
+| [YB1893.pdf](https://hoover.mcdaniel.edu/archives/Yearbooks/YB1893.pdf) | lib.hoover.mcdaniel.edu *(ext: hoover.mcdaniel.edu)* | 2018-09-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 182 | 14.2 MB | 36859 | 182 |
+| [aahx-help-documentation.pdf](https://infoweb.newsbank.com/apps/news/sites/default/files/assets/aahx-help-documentation.pdf) | lib.hoover.mcdaniel.edu *(ext: infoweb.newsbank.com)* | 2024-05-06 | — | Jen Witkowski | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 44 | 4.2 MB | 6090 | 132 |
+| [c2010br-06.pdf](https://usa.ipums.org/usa/resources/voliii/pubdocs/2010/2010%20Census%20Briefs/c2010br-06.pdf) | lib.hoover.mcdaniel.edu *(ext: usa.ipums.org)* | 2012-06-08 | The Black Population: 2010 | U.S. Census Bureau | {'C2010BR-06'} | C2010BR-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | Warn | ✅ Pass | 20 | 9.7 MB | 14354 | 2 |
+| [c29696.pdf](https://eprints.qut.edu.au/29696/1/c29696.pdf) | lib.hoover.mcdaniel.edu *(ext: eprints.qut.edu.au)* | 2010-01-21 | Microsoft Word - EprintsCoverSheet.doc | timmerma | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 10 | 40.2 KB | 3292 | 2 |
+| [campus-map.pdf](https://www.mcdaniel.edu/campus-map) | lib.hoover.mcdaniel.edu *(ext: mcdaniel.edu)* | 2026-07-24 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 653.0 KB | 495 | 2 |
+| [chesapeakenatives.pdf](https://dnr.maryland.gov/criticalarea/Documents/chesapeakenatives.pdf) | lib.hoover.mcdaniel.edu *(ext: dnr.maryland.gov)* | 2005-02-02 | testbook.indb | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 85 | 5.3 MB | 39040 | 2088 |
+| [common_core_toolkit_nea.pdf](http://www.smmcta.com/uploads/9/9/4/2/9942134/common_core_toolkit_nea.pdf) | lib.hoover.mcdaniel.edu *(ext: smmcta.com)* | 2013-03-05 | Untitled | Harry Keiley | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 45 | 798.5 KB | 11027 | 45 |
+| [constitution-en.pdf](https://apps.who.int/gb/bd/PDF/bd47/EN/constitution-en.pdf?ua=1) | lib.hoover.mcdaniel.edu *(ext: apps.who.int)* | 2010-08-03 | couv arabe.indd | Mac204 | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 18 | 59.9 KB | 5249 | 0 |
+| [ebsco.pdf](https://www.apa.org/pubs/databases/training/ebsco.pdf) | lib.hoover.mcdaniel.edu *(ext: apa.org)* | 2020-08-27 | Quick Reference Guide | EBSCOhost | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 781.2 KB | 726 | 34 |
+| [list-of-classes-4-13.pdf](https://www.fdlp.gov/sites/default/files/list-of-classes-4-13.pdf) | lib.hoover.mcdaniel.edu *(ext: fdlp.gov)* | 2013-08-19 | — | Lisa Russell | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | ✅ Pass | 315 | 4.2 MB | 146499 | 0 |
+| [sma16-4958.pdf](https://library.samhsa.gov:443/sites/default/files/sma16-4958.pdf) | lib.hoover.mcdaniel.edu *(ext: library.samhsa.gov:443)* | 2017-03-20 | CREATING AHEALTHIER LIFE, A STEP-BY-STEP GUIDE TO WELLNESS | {'SAMHSA'} | {'A STEP-BY-STEP GUIDE TO WELLNESS', 'CREATING AHEALTHIER LIFE'} | CREATING AHEALTHIER LIFE; A STEP-BY-STEP GUIDE TO WELLNESS | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 22 | 377.7 KB | 5320 | 3 |
 
 ## Files with Errors or Notes
 
@@ -72782,3 +72814,171 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 - **URL**: https://thehub-beta.walthamforest.gov.uk/sites/default/files/2024-04/Summer_2023_Childcare_Sufficiency_Assessment_(CSA).pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, figures missing alt text (count=5), tables-warn, 
+
+### 17694.pdf
+
+- **URL**: https://www.fdlp.gov/file-download/download/public/17694
+- **Status**: analysed
+- title, tagged, annotations-untagged, 
+
+### 2005oct-AASL-actionresearch.pdf
+
+- **URL**: https://www.thinkingfoundation.org/research/action_research/pdf/2005oct-AASL-actionresearch.pdf
+- **Status**: analysed
+- PdfError: crawled_files/lib.hoover.mcdaniel.edu/2005oct-AASL-actionresearch.pdf: unable to find trailer dictionary while recovering damaged file
+
+### BAWHill.pdf
+
+- **URL**: https://hoover.mcdaniel.edu/archives/BAWHill.pdf
+- **Status**: analysed
+- tagged, 
+
+### BOYA-past-winners.pdf
+
+- **URL**: https://cla.ca/wp-content/uploads/BOYA-past-winners.pdf
+- **Status**: analysed
+- title, headings-none, tables-fail, 
+
+### CHill.pdf
+
+- **URL**: https://hoover.mcdaniel.edu/archives/CHill.pdf
+- **Status**: analysed
+- tagged, 
+
+### CurrentGuidelines.pdf
+
+- **URL**: https://www.mammalsociety.org/uploads/committee_files/CurrentGuidelines.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, annotations-untagged, 
+
+### Dorothy%20Elderdice.pdf
+
+- **URL**: https://hoover.mcdaniel.edu/archives/Dorothy%20Elderdice.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### GUIDELINES-FOR-USE-OF-LIVE-AMPHIBIANS-AND-REPTILES-IN-FIELD-RESEARCH.pdf
+
+- **URL**: https://erenweb.org/wp-content/uploads/2011/07/GUIDELINES-FOR-USE-OF-LIVE-AMPHIBIANS-AND-REPTILES-IN-FIELD-RESEARCH.pdf
+- **Status**: analysed
+- title, lang, headings-warn, 
+
+### GreenTerror.pdf
+
+- **URL**: https://hoover.mcdaniel.edu/archives/GreenTerror.pdf
+- **Status**: analysed
+- tagged, 
+
+### Greetings.pdf
+
+- **URL**: https://hoover.mcdaniel.edu/archives/Greetings.pdf
+- **Status**: analysed
+- tagged, 
+
+### Hill1989-90.pdf
+
+- **URL**: https://hoover.mcdaniel.edu/archives/Newsmagazines/Hill1989-90.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### IEEE-Editorial-Style-Manual-for-Authors.pdf
+
+- **URL**: http://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE-Editorial-Style-Manual-for-Authors.pdf
+- **Status**: analysed
+- no date found, tagged, lang, no bookmarks and more than 20 pages, annotations-untagged, 
+
+### NSBA_CPE_Early_Literacy_Layout_2015.pdf
+
+- **URL**: https://cdn-files.nsba.org/s3fs-public/reports/NSBA_CPE_Early_Literacy_Layout_2015.pdf?pYhLHZ6Ya_uETATcGHqsYf7sJOXBzfp7
+- **Status**: analysed
+- title, figures missing alt text (count=17), headings-none, tables-fail, 
+
+### Quick_Tips_for_ASA_Style.pdf
+
+- **URL**: https://www.asanet.org/wp-content/uploads/savvy/documents/teaching/pdfs/Quick_Tips_for_ASA_Style.pdf
+- **Status**: analysed
+- title, lang, figures missing alt text (count=2), headings-none, annotations-tagging-fail, 
+
+### Signed%20Reading%20Fluency%20Rubric.pdf
+
+- **URL**: http://www.idahotc.com/Portals/45/Signed%20Reading%20Fluency%20Rubric.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### SnapshotontheHill.pdf
+
+- **URL**: https://hoover.mcdaniel.edu/archives/SnapshotontheHill.pdf
+- **Status**: analysed
+- tagged, 
+
+### Tips%20on%20Improving%20Occupational%20Wellness.pdf
+
+- **URL**: https://www.utoledo.edu/offices/rocketwellness/docs/Tips%20on%20Improving%20Occupational%20Wellness.pdf
+- **Status**: analysed
+- PdfError: crawled_files/lib.hoover.mcdaniel.edu/Tips%20on%20Improving%20Occupational%20Wellness.pdf: unable to find trailer dictionary while recovering damaged file
+
+### Worksheet_Alternatives%20Literature%20Searching.pdf
+
+- **URL**: https://www.nal.usda.gov/sites/default/files/page-files/Worksheet_Alternatives%20Literature%20Searching.pdf
+- **Status**: analysed
+- title, 
+
+### YB1893.pdf
+
+- **URL**: https://hoover.mcdaniel.edu/archives/Yearbooks/YB1893.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### aahx-help-documentation.pdf
+
+- **URL**: https://infoweb.newsbank.com/apps/news/sites/default/files/assets/aahx-help-documentation.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=88), annotations-tagging-fail, 
+
+### c2010br-06.pdf
+
+- **URL**: https://usa.ipums.org/usa/resources/voliii/pubdocs/2010/2010%20Census%20Briefs/c2010br-06.pdf
+- **Status**: analysed
+- title, headings-none, tables-warn, 
+
+### c29696.pdf
+
+- **URL**: https://eprints.qut.edu.au/29696/1/c29696.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### campus-map.pdf
+
+- **URL**: https://www.mcdaniel.edu/campus-map
+- **Status**: analysed
+- title, tagged, 
+
+### chesapeakenatives.pdf
+
+- **URL**: https://dnr.maryland.gov/criticalarea/Documents/chesapeakenatives.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### common_core_toolkit_nea.pdf
+
+- **URL**: http://www.smmcta.com/uploads/9/9/4/2/9942134/common_core_toolkit_nea.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### constitution-en.pdf
+
+- **URL**: https://apps.who.int/gb/bd/PDF/bd47/EN/constitution-en.pdf?ua=1
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ebsco.pdf
+
+- **URL**: https://www.apa.org/pubs/databases/training/ebsco.pdf
+- **Status**: analysed
+- title, tagged, lang, annotations-untagged, 
+
+### list-of-classes-4-13.pdf
+
+- **URL**: https://www.fdlp.gov/sites/default/files/list-of-classes-4-13.pdf
+- **Status**: analysed
+- title, lang, tables-fail, 

@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-11-06T14:54:17.822097+00:00",
+    "site": "lib.hoover.mcdaniel.edu",
+    "crawl_url": "https://lib.hoover.mcdaniel.edu/home",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/42234601088",
+    "issue_url": "",
+    "archive_file": "2026-11-06_14-54-17-822_lib.hoover.mcdaniel.edu.html",
+    "total": 30,
+    "analysed": 30,
+    "accessible": 2,
+    "analysis_engines": [
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
     "date": "2026-10-30T15:20:45.483508+00:00",
     "site": "luton.gov.uk",
     "crawl_url": "https://www.luton.gov.uk",
