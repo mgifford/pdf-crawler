@@ -80284,6 +80284,15 @@
   status: pending
   report: null
   errors: []
+  file_size_bytes: 9977226
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Supporting Child and Student Social, Emotional, Behavioral, and Mental
+    Health Needs This link opens in a new window
 - url: https://www.ed.gov/media/document/threat-assessment-schools-guide-managing-threatening-situations-and-creating-safe-school-climates-2004-42962.pdf
   md5: 161a87803d559c91136053c14ec80818
   filename: threat-assessment-schools-guide-managing-threatening-situations-and-creating-safe-school-climates-2004-42962.pdf
@@ -931728,3 +931737,517 @@
       errors: []
       analysed_at: null
   link_text: What can I do about noisy neighbours (PDF, 286.66KB)
+- url: https://www.fdlp.gov/file-download/download/public/17694
+  md5: 0ba91706204dca28dc9cf9a68ffd7524
+  file_hash: 95606e6420f7b664d5c2dfcb57a769199f389b1b3507f9367009d105883485d1
+  file_size_bytes: 1532514
+  filename: 17694.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.401701+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+- url: https://www.thinkingfoundation.org/research/action_research/pdf/2005oct-AASL-actionresearch.pdf
+  md5: 3c6eb1767152b1215c3bb5aaaf2fa633
+  file_hash: 106ae9df58460848bcc86644c9310c89ae41f59550fdf91cde02cf9e3256d59f
+  file_size_bytes: 407384
+  filename: 2005oct-AASL-actionresearch.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.408129+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Implementing and Promoting Library Programs Through Action Research
+- url: https://hoover.mcdaniel.edu/archives/BAWHill.pdf
+  md5: 55cdb1e3843f8a22fd5ab8490267359d
+  file_hash: 95481784b0529f744ddd3967fbbbf835521f192605afad2b534230cd6ac2952a
+  file_size_bytes: 5284014
+  filename: BAWHill.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.426371+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Black & White - My Time on The Hill
+- url: https://cla.ca/wp-content/uploads/BOYA-past-winners.pdf
+  md5: 5269ab38d4b2268765870d3e8288bae2
+  file_hash: f5c56ab51c640b2e2e070989e073b8cf6cda673fa4ccbd820c95614b5e568c43
+  file_size_bytes: 198512
+  filename: BOYA-past-winners.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.432215+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Book of the Year for Children Award (from Canadian Library Association)
+    This link opens in a new window
+- url: https://hoover.mcdaniel.edu/archives/CHill.pdf
+  md5: b9b8789f8de43bc39f4bbb67058ab32c
+  file_hash: c20cb586bcd30ac94c0cc4b001db2eb80e1945f2cb652e4dc10a75ce0196ddbc
+  file_size_bytes: 5348413
+  filename: CHill.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.450408+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Color - My Time on The Hill
+- url: https://www.mammalsociety.org/uploads/committee_files/CurrentGuidelines.pdf
+  md5: 9ba222908d071ffd599859f7ef3a2ae2
+  file_hash: b4cb6f3a49c8a39ca059469783e70d611d5de26d04a63c05c6246ecf0b29e8c6
+  file_size_bytes: 605986
+  filename: CurrentGuidelines.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.457245+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Guidelines of the American Society of Mammalogists for the use of wild
+    mammals in research and education (2016 rev) This link opens in a new window
+- url: https://hoover.mcdaniel.edu/archives/Dorothy%20Elderdice.pdf
+  md5: 32eda4435078a8ba882abf9f33c39c51
+  file_hash: 4e7d144870a6e804367e2baa09072b24d897a97748f71ea34a4a78cbefe1888f
+  file_size_bytes: 162377
+  filename: Dorothy%20Elderdice.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.462961+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Dorothy Elderdice
+- url: https://files.eric.ed.gov/fulltext/ED615895.pdf
+  md5: 2fdd893acd989ab046b1ec05dbd7e74b
+  file_hash: 578f79da8c6bfdec18303851ee7de2f07cdf64ae86c28da3eb80aebdcbb85998
+  file_size_bytes: 8314239
+  filename: ED615895.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.488189+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Understanding and Promoting Student Financial Wellness This link opens
+    in a new window
+- url: https://erenweb.org/wp-content/uploads/2011/07/GUIDELINES-FOR-USE-OF-LIVE-AMPHIBIANS-AND-REPTILES-IN-FIELD-RESEARCH.pdf
+  md5: ab7fdfaf04c3797613aee584e98c0f25
+  file_hash: f901f935ee44a44e7d70671058b678e9d67ab78e26ffa95eb925c763a73a3ad6
+  file_size_bytes: 84093
+  filename: GUIDELINES-FOR-USE-OF-LIVE-AMPHIBIANS-AND-REPTILES-IN-FIELD-RESEARCH.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.493702+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Guidelines for use of Live Amphibians and Reptiles in Field Research
+    (2011 rev) This link opens in a new window
+- url: https://hoover.mcdaniel.edu/archives/GreenTerror.pdf
+  md5: 9ae2ae6b1f3fc1840dff12bf46ec3d4c
+  file_hash: 39218bb25a26e7f04a5736d4a461b4f2c8b6adb8dbfbda08f7acdb39b49a4b33
+  file_size_bytes: 4631362
+  filename: GreenTerror.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.510095+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Historic Green Terror
+- url: https://hoover.mcdaniel.edu/archives/Greetings.pdf
+  md5: 1e25b79f671ed26551a3f52eac72dec9
+  file_hash: 3c98ae4b3294629905cf485c7f739ce5fbbcface178b2e38664b23932881f70d
+  file_size_bytes: 8571653
+  filename: Greetings.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.535918+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Greetings Future Terrors
+- url: https://hoover.mcdaniel.edu/archives/Newsmagazines/Hill1989-90.pdf
+  md5: d93b81fb353bb3d3da2bf993e22ff49d
+  file_hash: 7c00d8737140dc2ae26a45fa851ffe486760791f3442279e713a12c477834b1a
+  file_size_bytes: 42323193
+  filename: Hill1989-90.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.641659+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Ellen Elmes
+- url: http://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE-Editorial-Style-Manual-for-Authors.pdf
+  md5: d08cf50876ea55514f2dc94a2dcde6e6
+  file_hash: 4891f9e7ae600ddc57628d46b242f5319b8924789841aac33b847001c2bedaba
+  file_size_bytes: 809723
+  filename: IEEE-Editorial-Style-Manual-for-Authors.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.649034+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+- url: https://cdn-files.nsba.org/s3fs-public/reports/NSBA_CPE_Early_Literacy_Layout_2015.pdf?pYhLHZ6Ya_uETATcGHqsYf7sJOXBzfp7
+  md5: a8d07fe2d3282864c98765f1b20e2089
+  file_hash: ae7b847c81414cc4b2ea3b2032a3ab7ab033dd5397976069131c9e44a7960cc6
+  file_size_bytes: 817157
+  filename: NSBA_CPE_Early_Literacy_Layout_2015.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.656306+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: 'Learning to read, reading to learn: Why third grade is a pivotal year
+    for mastering literacy'
+- url: https://www.asanet.org/wp-content/uploads/savvy/documents/teaching/pdfs/Quick_Tips_for_ASA_Style.pdf
+  md5: 973233636695bf645004d0d4eef69874
+  file_hash: 4107c98fc13d3615a16383869c7e758282e7f1c59e8054a0a297c056b9b2540e
+  file_size_bytes: 166899
+  filename: Quick_Tips_for_ASA_Style.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.662136+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: ASA from the ASA This link opens in a new window
+- url: http://www.idahotc.com/Portals/45/Signed%20Reading%20Fluency%20Rubric.pdf
+  md5: 0579b17b81fb1013e56a478a3d72f9fb
+  file_hash: b1c687b52002f58fbf75496af05259639dea6544e2a23a156eca85c6158021ef
+  file_size_bytes: 435394
+  filename: Signed%20Reading%20Fluency%20Rubric.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.668473+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Signed reading fluency rubric for deaf children
+- url: https://hoover.mcdaniel.edu/archives/SnapshotontheHill.pdf
+  md5: 9219abb5f77051a0acff0f0050ac86ec
+  file_hash: 4fa9980c7ea87d437be930847ce57347bbc40ec7a85e36543bd01fe5235b8627
+  file_size_bytes: 6113672
+  filename: SnapshotontheHill.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.688369+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Snapshot on The Hill
+- url: https://www.utoledo.edu/offices/rocketwellness/docs/Tips%20on%20Improving%20Occupational%20Wellness.pdf
+  md5: 943acd5324bec02d933a362c81b97b1d
+  file_hash: 984169cfdaec591cf5b7a43d057f3e33c8715b869d1b4e08cf86c6597997047e
+  file_size_bytes: 67994
+  filename: Tips%20on%20Improving%20Occupational%20Wellness.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.693944+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Tips on Improving Occupational Wellness This link opens in a new window
+- url: https://www.nal.usda.gov/sites/default/files/page-files/Worksheet_Alternatives%20Literature%20Searching.pdf
+  md5: 8f352ea513c3de1c678fec9b1580561b
+  file_hash: ed580833da5460a0a430e8653d03bc5951c481444e27faed2b700b8ea8129f85
+  file_size_bytes: 281394
+  filename: Worksheet_Alternatives%20Literature%20Searching.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.699882+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: worksheet
+- url: https://hoover.mcdaniel.edu/archives/Yearbooks/YB1893.pdf
+  md5: 4550840d94c25a8bb537ff724e3067d8
+  file_hash: 2efabad516ac828aa6a88a45917ea9b6bb7339f5011d76d572894b78101ba59d
+  file_size_bytes: 14900463
+  filename: YB1893.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.740548+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: The Aloha
+- url: https://infoweb.newsbank.com/apps/news/sites/default/files/assets/aahx-help-documentation.pdf
+  md5: 540a680c0fae3129683f97d095945093
+  file_hash: 06799e8d8a7883a2116ffdbc021ebebecdb0695c93dec186740b28a5822476e8
+  file_size_bytes: 4432440
+  filename: aahx-help-documentation.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.756479+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: This link opens in a new window
+- url: https://usa.ipums.org/usa/resources/voliii/pubdocs/2010/2010%20Census%20Briefs/c2010br-06.pdf
+  md5: 9e9ff365e02cda9f8b6d324378eb771c
+  file_hash: 97d2f5bfa0a30309951ab041f3c78b2d7c50772c529aa27bc8bd29c0717fae02
+  file_size_bytes: 10214444
+  filename: c2010br-06.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.786174+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: 'Black Population: 2010 Census Briefs This link opens in a new window'
+- url: https://eprints.qut.edu.au/29696/1/c29696.pdf
+  md5: 2008411475c19afb9d7a0778a9305218
+  file_hash: 8a3b80de72a63ab0f9314e4695c7a940558342ef03f332fe7ca4e52d3fba9042
+  file_size_bytes: 41144
+  filename: c29696.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.791753+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Ecological perspectives and wellness. This link opens in a new window
+- url: https://www.mcdaniel.edu/campus-map
+  md5: 6e1e9c0a1b52eb53c20620f522640e25
+  file_hash: 011919b56ff1d1d9fcb2bb5839d971b2012cef07f4d5eea30639871b606a527c
+  file_size_bytes: 668683
+  filename: campus-map.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.798769+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+- url: https://dnr.maryland.gov/criticalarea/Documents/chesapeakenatives.pdf
+  md5: 23c18434601058aec3e048d82559b74d
+  file_hash: e29910e9d74bdb676080cc9c3e2cfa9a5532cf7924eef14013aba3402a6ee5aa
+  file_size_bytes: 5569110
+  filename: chesapeakenatives.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.817582+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: 'Native plants for wildlife habitat and conservation landscaping : Chesapeake
+    Bay Watershed'
+- url: http://www.smmcta.com/uploads/9/9/4/2/9942134/common_core_toolkit_nea.pdf
+  md5: a94f795ed9cb7e28d0696bd14e004099
+  file_hash: 08e80925355ad8efbc8f0fa7a4f3aeb8f816ee55e6628fcdb95a94b227db9440
+  file_size_bytes: 817652
+  filename: common_core_toolkit_nea.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.824947+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: NEA Common Core State Standards This link opens in a new window
+- url: https://apps.who.int/gb/bd/PDF/bd47/EN/constitution-en.pdf?ua=1
+  md5: e51b7373568a88c59a3d38a881c9ee5e
+  file_hash: a5d04e5988dd1818c2972a3acbaaab9c9613b4a6e5416a9efa73f6bc62d93cfe
+  file_size_bytes: 61354
+  filename: constitution-en.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.830367+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: preamble to the World Health Organization’s 1948 constitution
+- url: https://www.apa.org/pubs/databases/training/ebsco.pdf
+  md5: 8341c784dc318daf47ee7e146ae0d038
+  file_hash: 3b4268edf91d71706aa326b0421a15ef38834f049b04e08af2d87d3f9423e5d5
+  file_size_bytes: 799976
+  filename: ebsco.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.837639+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: PsycInfo Searching Guide This link opens in a new window
+- url: https://www.fdlp.gov/sites/default/files/list-of-classes-4-13.pdf
+  md5: d5680d8d5459ecc84667f4b17cf41f4e
+  file_hash: 12c20851e85e11eba17e58eb708e9fdba0697ebc3fab79010d6fc373766fce9b
+  file_size_bytes: 4441893
+  filename: list-of-classes-4-13.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.854100+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: List of Classes This link opens in a new window
+- url: https://library.samhsa.gov:443/sites/default/files/sma16-4958.pdf
+  md5: 707b240746d53f7f7c51ce5b5143b394
+  file_hash: 0cff5437fcf5371db6eee0bb79377417aa60d3624000ff88c66f0e7bc47995ce
+  file_size_bytes: 386764
+  filename: sma16-4958.pdf
+  site: lib.hoover.mcdaniel.edu
+  crawled_at: '2026-11-06T14:29:05.860380+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: 'Creating a Healthier Life: A Step-by-Step Guide to Wellness This link
+    opens in a new window'
