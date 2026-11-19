@@ -1,21 +1,21 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-11-06T17:26:56.263697+00:00
+Generated: 2026-11-19T21:14:15.113619+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 766 |
-| Total files tracked | 31460 |
-| Analysed | 6797 |
-| Pending analysis | 17755 |
+| URLs crawled | 224 |
+| Total files tracked | 32305 |
+| Analysed | 6904 |
+| Pending analysis | 18493 |
 | Errors during analysis | 6908 |
-| Accessible | 2150 |
-| Issues found | 4647 |
-| Totally inaccessible subset | 278 |
+| Accessible | 2152 |
+| Issues found | 4752 |
+| Totally inaccessible subset | 297 |
 | Broken / unreadable | 36 |
-| Exempt (pre-2018) | 1537 |
+| Exempt (pre-2018) | 1548 |
 
 ## Files per Site
 
@@ -93,6 +93,7 @@ Generated: 2026-11-06T17:26:56.263697+00:00
 | stmd.bayern.de | 50 |
 | tn.gov | 768 |
 | tollwerk.de | 8 |
+| torcnm.gov | 845 |
 | towson.edu | 148 |
 | ul.ie | 7 |
 | usds.gov | 11 |
@@ -6914,6 +6915,113 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 | [Cert_Exam_Handbook.pdf](https://www.nbcot.org/-/media/PDFs/Cert_Exam_Handbook.pdf) | lib.hoover.mcdaniel.edu *(ext: nbcot.org)* | 2026-09-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 36 | 455.6 KB | — | — |
 | [Purdue%20OWL%20Literary%20Theory.pdf](https://mseffie.com/assignments/heart_of_darkness/Purdue%20OWL%20Literary%20Theory.pdf) | lib.hoover.mcdaniel.edu *(ext: mseffie.com)* | 2014-07-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 26 | 241.0 KB | — | — |
 | [nbcccodeofethics.pdf](https://www.nbcc.org/assets/ethics/nbcccodeofethics.pdf) | lib.hoover.mcdaniel.edu *(ext: nbcc.org)* | 2023-09-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 16 | 123.4 KB | — | — |
+| [01-03-2024-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/hnhjxkbf/01-03-2024-cc-agenda-packet.pdf?t=202510301810410) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-01-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 492 | 53.9 MB | — | — |
+| [01-12-2022-cc-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/brbll4id/01-12-2022-cc-packet.pdf?t=202603091047260) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2022-01-07 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 650 | 120.1 MB | — | — |
+| [02-12-2024-pz-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/cftnad21/02-12-2024-pz-agenda.pdf?t=202602061605050) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-02-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 116.5 KB | — | — |
+| [03-11-2024-pz-minutes-signed.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/jvefwsww/03-11-2024-pz-minutes-signed.pdf?t=202602061604230) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 11 | 356.0 KB | — | — |
+| [03-25-2024-ltab-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/cdgnv32h/03-25-2024-ltab-agenda.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-03-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 119.5 KB | — | — |
+| [03-25-2024-ltab-minutes-signed.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/1emhab2i/03-25-2024-ltab-minutes-signed.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 201.3 KB | — | — |
+| [04-08-2024-p-z-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/bptoahc1/04-08-2024-p-z-agenda.pdf?t=202602061559210) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-04-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 124.4 KB | — | — |
+| [04-08-2024-pz-minutes-signed.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/acgotlpk/04-08-2024-pz-minutes-signed.pdf?t=202602061603220) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 11 | 315.5 KB | — | — |
+| [04-16-2024-paab-meeting-signed-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/4kdabjnl/04-16-2024-paab-meeting-signed-minutes.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 8 | 394.9 KB | — | — |
+| [04-24-23-budget-workshop-cancellation-notice.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ivrn4aun/04-24-23-budget-workshop-cancellation-notice.pdf?t=202603191936050) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-09-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 264.3 KB | — | — |
+| [04-25-23-budget-workshop-cancellation-notice.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2qindpab/04-25-23-budget-workshop-cancellation-notice.pdf?t=202602231822250) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-09-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 264.7 KB | — | — |
+| [04-27-2022-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2w0ltols/04-27-2022-cc-minutes.pdf?t=202602241223070) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2014-02-06 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 42 | 48.6 MB | — | — |
+| [05-03-2022-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/551dg3c1/05-03-2022-cc-minutes.pdf?t=202602241147030) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2014-02-06 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 2 | 873.7 KB | — | — |
+| [05-04-2022-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ctcnaapq/05-04-2022-cc-minutes.pdf?t=202602241143270) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2014-02-06 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 3 | 980.5 KB | — | — |
+| [05-11-2022-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/04mdpvv5/05-11-2022-cc-minutes.pdf?t=202602241139340) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2014-02-06 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 68 | 57.0 MB | — | — |
+| [05-13-2024-p-z-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/0kagdaxp/05-13-2024-p-z-packet.pdf?t=202602061558270) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-05-10 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 37 | 6.6 MB | — | — |
+| [05-17-2022-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/avqbz5b5/05-17-2022-cc-minutes.pdf?t=202602241137050) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2014-02-06 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 2 | 585.7 KB | — | — |
+| [05-20-2024-ltab-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/coqldlni/05-20-2024-ltab-agenda.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-05-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 122.2 KB | — | — |
+| [05-20-2024-puab-notice-of-meeting-cancellation.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/dlik4pm4/05-20-2024-puab-notice-of-meeting-cancellation.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-09-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 259.2 KB | — | — |
+| [05-24-2023-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rpvpmzpt/05-24-2023-cc-agenda-packet.pdf?t=202602231730000) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-05-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 560 | 104.2 MB | — | — |
+| [05-24-23-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2djasnno/05-24-23-cc-agenda-packet.pdf?t=202602231730050) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-05-19 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 553 | 100.9 MB | — | — |
+| [06-04-24-paab-special-meeting-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vfdlvtx2/06-04-24-paab-special-meeting-agenda.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-05-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 170.6 KB | — | — |
+| [06-17-2024-puab-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/m1hbs4vi/06-17-2024-puab-agenda.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-06-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 113.4 KB | — | — |
+| [06-9-2025-pz-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/qfof4lj2/06-9-2025-pz-agenda.pdf?t=202602061515560) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-06-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 117.1 KB | — | — |
+| [07-08-2024-pz-cancellation.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2jmja4ft/07-08-2024-pz-cancellation.pdf?t=202602061557250) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-07-01 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 135.5 KB | — | — |
+| [07-14-2025-pz-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/yp2lhhgd/07-14-2025-pz-agenda.pdf?t=202510301433320) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-07-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 120.6 KB | — | — |
+| [07-22-2024-ltab-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/t2cb1aia/07-22-2024-ltab-agenda.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-07-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 123.1 KB | — | — |
+| [07-27-2022-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/efobtk1z/07-27-2022-cc-minutes.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2014-03-27 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 11 | 6.8 MB | — | — |
+| [07-27-22-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/pu3l33lx/07-27-22-cc-agenda-packet.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2022-07-24 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 352 | 67.1 MB | — | — |
+| [07-29-2024-lab-notice-of-meeting-cancellation.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/5mnicqnp/07-29-2024-lab-notice-of-meeting-cancellation.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-02-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 129.6 KB | — | — |
+| [08-09-23-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/0i1h1umu/08-09-23-cc-agenda-packet.pdf?t=202511142253580) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-08-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 136 | 34.5 MB | — | — |
+| [08-09-23-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/kpsbmmx2/08-09-23-cc-agenda.pdf?t=202511142254120) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-08-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 213.3 KB | — | — |
+| [08-10-2022-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/n43f4rzv/08-10-2022-cc-minutes.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2014-03-26 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 14 | 9.7 MB | — | — |
+| [08-10-22-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2v0dfj4v/08-10-22-cc-agenda-packet.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2022-08-05 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 192 | 49.5 MB | — | — |
+| [08-11-2025-pz-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/uvsbwkbj/08-11-2025-pz-agenda.pdf?t=202510301433230) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-08-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 122.3 KB | — | — |
+| [08-23-23-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/szyb3j3h/08-23-23-cc-agenda.pdf?t=202510301810500) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-08-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 197.8 KB | — | — |
+| [08-24-2022-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/1prdngxe/08-24-2022-cc-minutes.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2014-03-26 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 11 | 8.5 MB | — | — |
+| [09-16-2024-ltab-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/jpqhstlu/09-16-2024-ltab-agenda.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-09-13 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 120.5 KB | — | — |
+| [09-8-2025-pz-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/qkrbofc2/09-8-2025-pz-agenda.pdf?t=202510301433130) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-09-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 118.7 KB | — | — |
+| [1-01-22-2024-ltab-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2xghxdfy/1-01-22-2024-ltab-agenda.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-09-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 118.8 KB | — | — |
+| [1-01-22-2024-puab-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/4cobogts/1-01-22-2024-puab-agenda.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-09-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 113.1 KB | — | — |
+| [1-05-13-2024-p-z-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ydumvgiq/1-05-13-2024-p-z-agenda.pdf?t=202602061557590) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-05-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 142.7 KB | — | — |
+| [1-11-23-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/hohas3q0/1-11-23-cc-agenda-packet.pdf?t=202603091030270) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-01-10 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 468 | 118.8 MB | — | — |
+| [1-11-23-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/hafm11ln/1-11-23-cc-agenda.pdf?t=202603091030120) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-01-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 331.0 KB | — | — |
+| [1-11-23-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/siblegcn/1-11-23-cc-minutes.pdf?t=202603091030430) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2014-08-26 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 54 | 4.1 MB | — | — |
+| [1-12-2022-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/yxgjdhmi/1-12-2022-cc-agenda.pdf?t=202603091047180) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2022-01-07 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | 205.1 KB | — | — |
+| [1-12-2026-pz-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/tt2ftutx/1-12-2026-pz-agenda.pdf?t=202602050102260) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-01-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 118.1 KB | — | — |
+| [1-12-22-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/nhtpdk1z/1-12-22-cc-minutes.pdf?t=202602241246360) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2022-03-31 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 30 | 1.8 MB | — | — |
+| [1-12-26-pz-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/mazlmdfh/1-12-26-pz-packet.pdf?t=202602061652000) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-01-07 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 36 | 8.3 MB | — | — |
+| [1-13-2025-pz-cancellation.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/mb0fkvlz/1-13-2025-pz-cancellation.pdf?t=202510301344120) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-01-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 265.0 KB | — | — |
+| [1-16-2024-paab-signed-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vqtp12qq/1-16-2024-paab-signed-minutes.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | 279.8 KB | — | — |
+| [1-16-26-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rrep0bbh/1-16-26-cc-agenda-packet.pdf?t=202602050124070) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-01-14 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 441 | 42.8 MB | — | — |
+| [1-16-26-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/wqvouywa/1-16-26-cc-agenda.pdf?t=202602050124460) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-01-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 318.6 KB | — | — |
+| [1-16-26-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/qtrokq33/1-16-26-cc-minutes.pdf?t=202602241409390) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 99 | 17.9 MB | — | — |
+| [1-20-26-notice-of-meeting-cancellation.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/uoddoaay/1-20-26-notice-of-meeting-cancellation.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-01-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 239.6 KB | — | — |
+| [1-21-2025-paab-signed-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/yljg2tot/1-21-2025-paab-signed-minutes.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | 71.7 KB | — | — |
+| [1-22-2024-ltab-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/5jrn21r1/1-22-2024-ltab-minutes.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | 100.6 KB | — | — |
+| [1-22-2024-puab-minutes-signed.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/pichr01a/1-22-2024-puab-minutes-signed.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | 1.1 MB | — | — |
+| [1-22-25-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/q2cjrtea/1-22-25-cc-agenda-packet.pdf?t=202510301252210) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-01-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 259 | 29.7 MB | — | — |
+| [1-22-25-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/miknqgdc/1-22-25-cc-agenda.pdf?t=202510301252280) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-01-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 210.5 KB | — | — |
+| [1-22-25-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/c02ix23r/1-22-25-cc-minutes.pdf?t=202510301252340) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-02-14 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 45 | 14.0 MB | — | — |
+| [1-24-24-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/e0sesbli/1-24-24-cc-agenda-packet.pdf?t=202510301811020) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-01-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 283 | 37.1 MB | — | — |
+| [1-24-24-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2xsbmivc/1-24-24-cc-agenda.pdf?t=202510301811130) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-01-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 202.4 KB | — | — |
+| [1-24-24-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/hlvfauto/1-24-24-cc-minutes.pdf?t=202510301811340) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 63 | 6.5 MB | — | — |
+| [1-25-23-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/t4ljztn4/1-25-23-cc-agenda-packet.pdf?t=202602232248270) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-01-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 645 | 148.9 MB | — | — |
+| [1-25-23-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rnbcsbta/1-25-23-cc-agenda.pdf?t=202602232247230) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-01-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 326.0 KB | — | — |
+| [1-25-23-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/bsyn5gj0/1-25-23-cc-minutes.pdf?t=202602232247360) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2014-08-26 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 16 | 10.4 MB | — | — |
+| [1-26-2022-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/3oopvzit/1-26-2022-cc-agenda-packet.pdf?t=202603091049220) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2022-01-24 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 121 | 13.8 MB | — | — |
+| [1-26-22-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/cdqpofiq/1-26-22-cc-agenda.pdf?t=202603091049000) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2022-01-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 332.4 KB | — | — |
+| [1-26-22-cc-minutes000.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/sf1lt5rg/1-26-22-cc-minutes000.pdf?t=202603091049380) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2022-03-31 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 59 | 8.4 MB | — | — |
+| [1-26-26-ltab-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/qfjcagqc/1-26-26-ltab-packet.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-01-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 45 | 4.8 MB | — | — |
+| [1-27-25-notice-of-meeting-cancellation.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/nvrbothr/1-27-25-notice-of-meeting-cancellation.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-01-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 264.2 KB | — | — |
+| [1-27-25-puab-notice-of-meeting-cancellation.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/m2ckiobd/1-27-25-puab-notice-of-meeting-cancellation.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-01-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 258.5 KB | — | — |
+| [1-28-26-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/xhvl1agg/1-28-26-cc-agenda-packet.pdf?t=202602050118260) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-01-30 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 241 | 40.2 MB | — | — |
+| [1-28-26-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/prmngob2/1-28-26-cc-agenda.pdf?t=202602050115360) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-01-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 317.8 KB | — | — |
+| [1-28-26-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/x3xbwm2l/1-28-26-cc-minutes.pdf?t=202603091053100) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 26 | 1.3 MB | — | — |
+| [1-3-11-2024-p-z-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/kz2eylik/1-3-11-2024-p-z-agenda.pdf?t=202602061603590) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-03-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 128.2 KB | — | — |
+| [1-3-24-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/v5xg0z4y/1-3-24-cc-agenda.pdf?t=202510301811270) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-12-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 205.4 KB | — | — |
+| [1-3-24-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/hophsulr/1-3-24-cc-minutes.pdf?t=202510301811200) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 27 | 4.4 MB | — | — |
+| [1-5-26-pr-regular-meeting-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/qg0n1ye2/1-5-26-pr-regular-meeting-agenda.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-02-07 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 180.8 KB | — | — |
+| [1-6-25-recreation-advisory-board-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/nauhz3qe/1-6-25-recreation-advisory-board-agenda.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-01-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 184.4 KB | — | — |
+| [1-6-25-special-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ftnlk2kl/1-6-25-special-cc-minutes.pdf?t=202510301253160) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 46.2 KB | — | — |
+| [1-6-25-special-executive-session-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/h23m1tve/1-6-25-special-executive-session-agenda.pdf?t=202510301253230) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-01-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 178.3 KB | — | — |
+| [1-8-25-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/mmnmihv4/1-8-25-cc-agenda-packet.pdf?t=202510301253300) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-01-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 100 | 16.6 MB | — | — |
+| [1-8-25-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/5spbnmf1/1-8-25-cc-agenda.pdf?t=202510301253370) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-01-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 285.9 KB | — | — |
+| [1-8-25-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/gwtnuvds/1-8-25-cc-minutes.pdf?t=202510301253430) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 48 | 5.4 MB | — | — |
+| [10-07-24-notice-of-meeting-cancellation.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/lzndj1u5/10-07-24-notice-of-meeting-cancellation.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-09-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 259.3 KB | — | — |
+| [10-11-2023-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/zzrjwncs/10-11-2023-cc-agenda-packet.pdf?t=202510301811450) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-10-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 383 | 43.9 MB | — | — |
+| [10-11-2023-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ghjenzfu/10-11-2023-cc-agenda.pdf?t=202510301811540) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-10-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 201.1 KB | — | — |
+| [10-11-23-cc-workshop-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/y53frtg2/10-11-23-cc-workshop-packet.pdf?t=202510301812050) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-10-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 3 | 1.8 MB | — | — |
+| [10-12-22-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/5edbm5vu/10-12-22-cc-agenda-packet.pdf?t=202602241122550) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2022-10-07 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 240 | 54.8 MB | — | — |
+| [10-12-22-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/i5ilpdlt/10-12-22-cc-agenda.pdf?t=202602241122490) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2022-10-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 425.0 KB | — | — |
+| [10-12-22-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/k1xd13mz/10-12-22-cc-minutes.pdf?t=202602241123020) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2014-06-02 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 19 | 1.2 MB | — | — |
+| [10-13-2021-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2a1nfkfj/10-13-2021-cc-agenda.pdf?t=202602241317200) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2021-10-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 337.5 KB | — | — |
+| [10-13-2026-pz-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/reonbzp1/10-13-2026-pz-agenda.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-10-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 121.5 KB | — | — |
+| [10-13-2026-pz-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ty4lyfgn/10-13-2026-pz-packet.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-10-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 70 | 7.3 MB | — | — |
+| [10-13-21-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vfmk5qtc/10-13-21-cc-agenda-packet.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-09-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 387 | 34.5 MB | — | — |
+| [10-13-21-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/504hxvew/10-13-21-cc-minutes.pdf?t=202602241318190) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2021-11-19 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 20 | 14.6 MB | — | — |
+| [10-14-2025-pz-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/xgzno10d/10-14-2025-pz-agenda.pdf?t=202510301433010) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-10-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 118.5 KB | — | — |
+| [10-14-26-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/gpylg3pr/10-14-26-cc-agenda-packet.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-10-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 258 | 24.3 MB | — | — |
+| [10-14-26-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/jaenyuot/10-14-26-cc-agenda.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-10-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 296.5 KB | — | — |
+| [10-19-2026-puab-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/dujj4c0o/10-19-2026-puab-agenda.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-10-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 101.1 KB | — | — |
+| [10-19-2026-puab-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/otcl0a5v/10-19-2026-puab-packet.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-10-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | NotApplicable | ❌ Fail | 76 | 6.7 MB | — | — |
+| [10-20-25-pr-special-meeting-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/dssplpdh/10-20-25-pr-special-meeting-agenda.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-09-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 115.0 KB | — | — |
+| [10-21-24-puab-notice-of-meeting-cancellation.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/l01byoxz/10-21-24-puab-notice-of-meeting-cancellation.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-10-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 133.3 KB | — | — |
+| [10-22-25-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/lwmbllax/10-22-25-cc-agenda-packet.pdf?t=202510301416030) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-10-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 148 | 22.3 MB | — | — |
+| [10-22-25-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/qjhjddh4/10-22-25-cc-agenda.pdf?t=202510301413160) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-10-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 262.2 KB | — | — |
 
 ## Files with Errors or Notes
 
@@ -77386,3 +77494,645 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 - **URL**: https://www.nbcc.org/assets/ethics/nbcccodeofethics.pdf
 - **Status**: analysed
 - fonts:/DLZBYI+TradeGothicNextLTPro-Bd, /QXJWYI+TradeGothicNextLTPro-BdIt, /APIZIO+TradeGothicNextLTPro-It, /ZVXYUQ+TradeGothicNextLTPro-Rgfigures-alt, headings-none, 
+
+### 01-03-2024-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/hnhjxkbf/01-03-2024-cc-agenda-packet.pdf?t=202510301810410
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/Helvetica, /BCDGEE+Cambria, /BCDFEE+Cambria, /Arial-BoldMT, /TimesNewRomanPS-BoldMT, /TimesNewRomanPSMT, /BCDEEE+Cambria-Bold, /SymbolMT, /ArialMT, /TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldItalicMTheadings-none, 
+
+### 01-12-2022-cc-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/brbll4id/01-12-2022-cc-packet.pdf?t=202603091047260
+- **Status**: analysed
+- title, tagged, lang, untagged-images, 
+
+### 02-12-2024-pz-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/cftnad21/02-12-2024-pz-agenda.pdf?t=202602061605050
+- **Status**: analysed
+- title, fonts:/BCDFEE+Calibri, /Arial-BoldMT, /ArialMT, /BCDEEE+Calibri-Boldheadings-none, 
+
+### 03-11-2024-pz-minutes-signed.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/jvefwsww/03-11-2024-pz-minutes-signed.pdf?t=202602061604230
+- **Status**: analysed
+- no date found, title, tagged, lang, fonts:/Helveticauntagged-images, 
+
+### 03-25-2024-ltab-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/cdgnv32h/03-25-2024-ltab-agenda.pdf
+- **Status**: analysed
+- title, fonts:/BCDEEE+Calibri-Bold, /BCDFEE+Calibri, /Arial-BoldMT, /ArialMT, /BCDGEE+Calibriheadings-none, 
+
+### 03-25-2024-ltab-minutes-signed.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/1emhab2i/03-25-2024-ltab-minutes-signed.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, fonts:/Helveticauntagged-images, 
+
+### 04-08-2024-p-z-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/bptoahc1/04-08-2024-p-z-agenda.pdf?t=202602061559210
+- **Status**: analysed
+- title, fonts:/BCDIEE+Calibri, /BCDEEE+Calibri-Bold, /Arial-BoldMT, /ArialMT, /BCDHEE+Calibri, /BCDFEE+Aptos, /BCDGEE+Aptos,Boldheadings-none, 
+
+### 04-08-2024-pz-minutes-signed.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/acgotlpk/04-08-2024-pz-minutes-signed.pdf?t=202602061603220
+- **Status**: analysed
+- no date found, title, tagged, lang, fonts:/Helveticauntagged-images, 
+
+### 04-16-2024-paab-meeting-signed-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/4kdabjnl/04-16-2024-paab-meeting-signed-minutes.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, fonts:/Helveticauntagged-images, 
+
+### 04-24-23-budget-workshop-cancellation-notice.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ivrn4aun/04-24-23-budget-workshop-cancellation-notice.pdf?t=202603191936050
+- **Status**: analysed
+- title, fonts:/PFCJVK+Calibri-Bold, /HJXINA+TimesNewRomanPS-ItalicMT, /OJLDHM+TimesNewRomanPS-BoldMT, /EMNVXG+Calibri, /RVDAXG+TimesNewRomanPSMT, /YQNQRS+Cambria, /CRMJVK+TimesNewRomanPS-BoldItalicMT, /DAAUJI+Cambria-Bold, /BVAYHM+SymbolMTfigures-alt, headings-none, 
+
+### 04-25-23-budget-workshop-cancellation-notice.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2qindpab/04-25-23-budget-workshop-cancellation-notice.pdf?t=202602231822250
+- **Status**: analysed
+- title, fonts:/RMXMGP+Calibri, /IGLPKH+TimesNewRomanPSMT, /MUMIOZ+Cambria, /ZLWIOZ+TimesNewRomanPS-BoldMT, /BBXUQV+Calibri-Bold, /TXUYIL+TimesNewRomanPS-BoldItalicMT, /QAKGSR+Cambria-Bold, /DZSBSR+TimesNewRomanPS-ItalicMT, /YPFXAB+SymbolMTfigures-alt, headings-none, 
+
+### 04-27-2022-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2w0ltols/04-27-2022-cc-minutes.pdf?t=202602241223070
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 05-03-2022-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/551dg3c1/05-03-2022-cc-minutes.pdf?t=202602241147030
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 05-04-2022-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ctcnaapq/05-04-2022-cc-minutes.pdf?t=202602241143270
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 05-11-2022-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/04mdpvv5/05-11-2022-cc-minutes.pdf?t=202602241139340
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 05-13-2024-p-z-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/0kagdaxp/05-13-2024-p-z-packet.pdf?t=202602061558270
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/VUHCVN+Broadway, /BCDEEE+Calibri, /BCDJEE+Aptos, /BCDFEE+Calibri-Bold, /Arial-BoldMT, /VUHCVN+TimesNewRomanPS-BoldMT, /KTUOXJ+TimesNewRomanPSMT, /BCDEEE+Aptos, /ERBPKG+Consolas, /BCDIEE+Calibri, /SHHXGN+SymbolMT, /VUHCVN+TimesNewRomanPS-ItalicMT, /ArialMT, /BCDHEE+Calibri, /BCDGEE+Aptos,Bold, /BCDFEE+Aptos, /BCDGEE+Calibri, /Helvetica, /ERBPKG+Calibri, /BCDEEE+Calibri-Bold, /IKJPWH+Arial-ItalicMT, /DRBJZS+Calibri-Light, /BCDFEE+Consolas, /DRBJZS+Candara-BoldItalic, /FWFFAT+SymbolMT, /TPYBPM+Candara, /ERBPKG+Calibri-Bold, /BCDGEE+Calibri-Bold, /KTUOXJ+ArialMTheadings-warn, 
+
+### 05-17-2022-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/avqbz5b5/05-17-2022-cc-minutes.pdf?t=202602241137050
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 05-20-2024-ltab-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/coqldlni/05-20-2024-ltab-agenda.pdf
+- **Status**: analysed
+- title, fonts:/BCDEEE+Calibri-Bold, /BCDFEE+Calibri, /Arial-BoldMT, /ArialMT, /BCDGEE+Calibriheadings-none, 
+
+### 05-20-2024-puab-notice-of-meeting-cancellation.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/dlik4pm4/05-20-2024-puab-notice-of-meeting-cancellation.pdf
+- **Status**: analysed
+- fonts:/SGHFAN+TimesNewRomanPSMT, /CIKNKT+Calibri-Bold, /MVELUZ+Cambria, /VTSNQH+TimesNewRomanPS-BoldItalicMT, /RCXZMP+TimesNewRomanPS-BoldMT, /FDOQAN+SymbolMT, /KCJESD+Calibri, /QWDEYR+TimesNewRomanPS-ItalicMT, /OSLHWV+ArialMTfigures-alt, headings-none, 
+
+### 05-24-2023-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rpvpmzpt/05-24-2023-cc-agenda-packet.pdf?t=202602231730000
+- **Status**: analysed
+- title, tagged, lang, fonts:/Helvetica, /ABCDEE+Cambria-Bold, /TimesNewRomanPS-BoldItalicMT, /ABCDEE+Cambria-Italic, /ABCDEE+Cambria, /TimesNewRomanPSMT, /ArialMT, /TimesNewRomanPS-ItalicMT, /SymbolMTuntagged-images, 
+
+### 05-24-23-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2djasnno/05-24-23-cc-agenda-packet.pdf?t=202602231730050
+- **Status**: analysed
+- title, tagged, lang, fonts:/Helvetica, /ABCDEE+Cambria-Bold, /TimesNewRomanPS-BoldItalicMT, /ABCDEE+Cambria-Italic, /ABCDEE+Cambria, /TimesNewRomanPSMT, /ArialMT, /TimesNewRomanPS-ItalicMT, /SymbolMTuntagged-images, 
+
+### 06-04-24-paab-special-meeting-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vfdlvtx2/06-04-24-paab-special-meeting-agenda.pdf
+- **Status**: analysed
+- title, fonts:/Arial-BoldItalicMT, /BCDIEE+Calibri-Italic, /BCDEEE+Calibri-Bold, /Arial-BoldMT, /BCDGEE+Calibri-BoldItalic, /BCDFEE+Calibri, /ArialMT, /BCDHEE+Calibriheadings-none, 
+
+### 06-17-2024-puab-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/m1hbs4vi/06-17-2024-puab-agenda.pdf
+- **Status**: analysed
+- title, fonts:/BCDFEE+Calibri, /Arial-BoldMT, /ArialMT, /BCDEEE+Calibri-Boldheadings-none, 
+
+### 06-9-2025-pz-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/qfof4lj2/06-9-2025-pz-agenda.pdf?t=202602061515560
+- **Status**: analysed
+- title, fonts:/YRPYCC+Calibri, /GIQUKM+Calibri-Bold, /MZQEQA+ArialMT, /OCPQSW+Arial-BoldMTheadings-none, 
+
+### 07-08-2024-pz-cancellation.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2jmja4ft/07-08-2024-pz-cancellation.pdf?t=202602061557250
+- **Status**: analysed
+- fonts:/BCDGEE+Cambria, /BCDEEE+Calibri-Bold, /TimesNewRomanPS-BoldMT, /TimesNewRomanPSMT, /SymbolMT, /BCDFEE+Calibri, /ArialMT, /TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldItalicMTheadings-none, 
+
+### 07-14-2025-pz-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/yp2lhhgd/07-14-2025-pz-agenda.pdf?t=202510301433320
+- **Status**: analysed
+- title, fonts:/UUBOQE+Calibri-Bold, /SZAXOI+ArialMT, /OLZZKQ+Calibri, /VGOPEC+Arial-BoldMTheadings-none, 
+
+### 07-22-2024-ltab-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/t2cb1aia/07-22-2024-ltab-agenda.pdf
+- **Status**: analysed
+- title, fonts:/BCDEEE+Calibri-Bold, /BCDFEE+Calibri, /Arial-BoldMT, /ArialMT, /BCDGEE+Calibriheadings-none, 
+
+### 07-27-2022-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/efobtk1z/07-27-2022-cc-minutes.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 07-27-22-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/pu3l33lx/07-27-22-cc-agenda-packet.pdf
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times New Roman,BoldItalic, /Times New Roman, /ABCDEE+Cambria, /Arial, /Symbol, /Times New Roman,Italic, /ABCDEE+Cambria,Bolduntagged-images, 
+
+### 07-29-2024-lab-notice-of-meeting-cancellation.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/5mnicqnp/07-29-2024-lab-notice-of-meeting-cancellation.pdf
+- **Status**: analysed
+- tagged, fonts:/BCDGEE+Cambria, /BCDEEE+Calibri-Bold, /TimesNewRomanPS-BoldMT, /TimesNewRomanPSMT, /SymbolMT, /BCDFEE+Calibri, /ArialMT, /TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldItalicMTuntagged-images, 
+
+### 08-09-23-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/0i1h1umu/08-09-23-cc-agenda-packet.pdf?t=202511142253580
+- **Status**: analysed
+- title, tagged, lang, fonts:/Helvetica, /BCDFEE+Cambria-Bold, /TimesNewRomanPS-BoldItalicMT, /BCDGEE+Cambria-Italic, /TimesNewRomanPSMT, /TimesNewRomanPS-ItalicMT, /ArialMT, /BCDEEE+Cambria, /SymbolMTuntagged-images, 
+
+### 08-09-23-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/kpsbmmx2/08-09-23-cc-agenda.pdf?t=202511142254120
+- **Status**: analysed
+- title, fonts:/BCDFEE+Cambria-Bold, /TimesNewRomanPS-BoldItalicMT, /BCDGEE+Cambria-Italic, /TimesNewRomanPSMT, /TimesNewRomanPS-ItalicMT, /ArialMT, /BCDEEE+Cambria, /SymbolMTheadings-none, 
+
+### 08-10-2022-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/n43f4rzv/08-10-2022-cc-minutes.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 08-10-22-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2v0dfj4v/08-10-22-cc-agenda-packet.pdf
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times New Roman,BoldItalic, /Times New Roman, /ABCDEE+Cambria, /Arial, /Symbol, /Times New Roman,Italic, /ABCDEE+Cambria,Bolduntagged-images, 
+
+### 08-11-2025-pz-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/uvsbwkbj/08-11-2025-pz-agenda.pdf?t=202510301433230
+- **Status**: analysed
+- title, fonts:/PMUVSP+Arial-BoldMT, /FKWNIJ+Calibri-Bold, /MFGDCV+ArialMT, /XYVRAZ+Calibriheadings-none, 
+
+### 08-23-23-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/szyb3j3h/08-23-23-cc-agenda.pdf?t=202510301810500
+- **Status**: analysed
+- title, fonts:/BCDGEE+Cambria, /BCDFEE+Cambria-Bold, /TimesNewRomanPS-BoldItalicMT, /TimesNewRomanPSMT, /TimesNewRomanPS-ItalicMT, /ArialMT, /BCDEEE+Cambria, /SymbolMTheadings-none, 
+
+### 08-24-2022-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/1prdngxe/08-24-2022-cc-minutes.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 09-16-2024-ltab-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/jpqhstlu/09-16-2024-ltab-agenda.pdf
+- **Status**: analysed
+- title, fonts:/BCDEEE+Calibri-Bold, /BCDFEE+Calibri, /Arial-BoldMT, /ArialMT, /BCDGEE+Calibriheadings-none, 
+
+### 09-8-2025-pz-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/qkrbofc2/09-8-2025-pz-agenda.pdf?t=202510301433130
+- **Status**: analysed
+- title, fonts:/RORONV+ArialMT, /TRVAPR+Arial-BoldMT, /AZHVJD+Calibri, /JPSXFL+Calibri-Boldheadings-none, 
+
+### 1-01-22-2024-ltab-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2xghxdfy/1-01-22-2024-ltab-agenda.pdf
+- **Status**: analysed
+- title, fonts:/UFETXE+Arial-BoldMT, /LUTRBW+ArialMT, /RVSBHK+Calibri, /KAIQNY+Calibri-Boldheadings-none, 
+
+### 1-01-22-2024-puab-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/4cobogts/1-01-22-2024-puab-agenda.pdf
+- **Status**: analysed
+- title, fonts:/XNLQHY+ArialMT, /OPXOLQ+Arial-BoldMT, /OZBTLQ+Calibri, /DQQKSM+Calibri-Boldheadings-none, 
+
+### 1-05-13-2024-p-z-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ydumvgiq/1-05-13-2024-p-z-agenda.pdf?t=202602061557590
+- **Status**: analysed
+- title, fonts:/BCDJEE+Aptos, /BCDEEE+Calibri-Bold, /Arial-BoldMT, /BCDIEE+Calibri, /BCDHEE+Calibri, /ArialMT, /BCDGEE+Aptos,Bold, /BCDFEE+Aptosheadings-none, 
+
+### 1-11-23-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/hohas3q0/1-11-23-cc-agenda-packet.pdf?t=202603091030270
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times New Roman,BoldItalic, /Times New Roman, /ABCDEE+Cambria, /Arial, /Symbol, /Times New Roman,Italic, /ABCDEE+Cambria,Bolduntagged-images, 
+
+### 1-11-23-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/hafm11ln/1-11-23-cc-agenda.pdf?t=202603091030120
+- **Status**: analysed
+- title, fonts:/Times New Roman, /Arial, /Times New Roman,Italic, /ABCDEE+Cambria,Bold, /ABCDEE+Cambria, /Symbol, /Times New Roman,BoldItalicheadings-none, 
+
+### 1-11-23-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/siblegcn/1-11-23-cc-minutes.pdf?t=202603091030430
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 1-12-2022-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/yxgjdhmi/1-12-2022-cc-agenda.pdf?t=202603091047180
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1-12-2026-pz-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/tt2ftutx/1-12-2026-pz-agenda.pdf?t=202602050102260
+- **Status**: analysed
+- title, fonts:/XIVDDO+Arial-BoldMT, /NLXVTI+Calibri-Bold, /EVHTXA+Calibri, /VFWRBS+ArialMTheadings-none, 
+
+### 1-12-22-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/nhtpdk1z/1-12-22-cc-minutes.pdf?t=202602241246360
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 1-12-26-pz-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/mazlmdfh/1-12-26-pz-packet.pdf?t=202602061652000
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/UYITXA+SymbolMT, /BCDEEE+Calibri, /UYITXA+TimesNewRomanPS-BoldItalicMT, /NLXVTI+Calibri-Bold, /WHYZTA+SymbolMT, /USULUA+Aptos-Bold, /OYDOXM+Candara-BoldItalic, /USUDGU+SymbolMT, /NXKVAO+Aptos, /VQGYOX+SymbolMT, /KKMIJE+Arial, /APQBHO+TimesNewRomanPS-ItalicMT, /APQBHO+Calibri-Italic, /BCDHEE+Calibri-Italic, /GYSLNC+Broadway, /OYDOXM+Calibri-Light, /EVHTXA+Calibri, /HJFFJK+Consolas, /BCDFEE+Consolas, /XIVDDO+Arial-BoldMT, /OYDOXM+Candara, /NLEBHO+TimesNewRomanPSMT, /BCDGEE+Calibri-Bold, /VFWRBS+ArialMT, /EVTZLG+TimesNewRomanPS-BoldMTfigures-alt, headings-warn, 
+
+### 1-13-2025-pz-cancellation.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/mb0fkvlz/1-13-2025-pz-cancellation.pdf?t=202510301344120
+- **Status**: analysed
+- fonts:/MBNFJF+Calibri-Bold, /AJOLXD+TimesNewRomanPS-BoldMT, /DQCDNX+Cambria, /QUOYNX+SymbolMT, /PIBXZZ+TimesNewRomanPSMT, /YGPZVH+TimesNewRomanPS-BoldItalicMT, /SXNKPT+TimesNewRomanPS-ItalicMT, /IVPHFN+Calibri, /SPPPPT+ArialMTfigures-alt, headings-none, 
+
+### 1-16-2024-paab-signed-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vqtp12qq/1-16-2024-paab-signed-minutes.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, fonts:/Helveticauntagged-images, 
+
+### 1-16-26-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rrep0bbh/1-16-26-cc-agenda-packet.pdf?t=202602050124070
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/BDDZDR+TimesNewRomanPS-BoldItalicMT, /BCDHEE+ArialMT, /WLSVLB+TimesNewRomanPS-BoldMT, /FJGXHJ+ArialMT, /BCDLEE+Calibri-Bold, /BCDIEE+TimesNewRomanPSMT, /MBHYEQ+ComicSansMS, /BCDKEE+Calibri, /BCDJEE+TimesNewRomanPS-ItalicMT, /BCDEEE+TimesNewRomanPS-BoldMT, /Helvetica, /BCDGEE+TimesNewRomanPSMT, /BCDFEE+TimesNewRomanPS-BoldMT, /NVHTPT+Cambria, /TEEDVH+Cambria-Bold, /YORHNX+TimesNewRomanPSMT, /DGHLFN+Arial-BoldMT, /VUGPXD+TimesNewRomanPS-ItalicMT, /HRPUMA+ComicSansMSfigures-alt, headings-none, 
+
+### 1-16-26-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/wqvouywa/1-16-26-cc-agenda.pdf?t=202602050124460
+- **Status**: analysed
+- title, fonts:/BDDZDR+TimesNewRomanPS-BoldItalicMT, /WLSVLB+TimesNewRomanPS-BoldMT, /NVHTPT+Cambria, /TEEDVH+Cambria-Bold, /YORHNX+TimesNewRomanPSMT, /DGHLFN+Arial-BoldMT, /FJGXHJ+ArialMT, /VUGPXD+TimesNewRomanPS-ItalicMTfigures-alt, headings-none, 
+
+### 1-16-26-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/qtrokq33/1-16-26-cc-minutes.pdf?t=202602241409390
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helveticauntagged-images, 
+
+### 1-20-26-notice-of-meeting-cancellation.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/uoddoaay/1-20-26-notice-of-meeting-cancellation.pdf
+- **Status**: analysed
+- fonts:/OVOAIQ+TimesNewRomanPS-BoldMT, /RCCSYK+TimesNewRomanPSMT, /XTXCEY+TimesNewRomanPS-ItalicMT, /XLZCEY+ArialMT, /GJNEAG+Cambria, /DCZMKM+TimesNewRomanPS-BoldItalicMT, /VQYQCC+SymbolMT, /MSPOGU+Calibri-Boldfigures-alt, headings-none, 
+
+### 1-21-2025-paab-signed-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/yljg2tot/1-21-2025-paab-signed-minutes.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, untagged-images, 
+
+### 1-22-2024-ltab-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/5jrn21r1/1-22-2024-ltab-minutes.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, fonts:/Helveticauntagged-images, 
+
+### 1-22-2024-puab-minutes-signed.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/pichr01a/1-22-2024-puab-minutes-signed.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, fonts:/Helveticauntagged-images, 
+
+### 1-22-25-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/q2cjrtea/1-22-25-cc-agenda-packet.pdf?t=202510301252210
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/Helvetica, /BCDGEE+Cambria, /BCDFEE+Cambria, /TimesNewRomanPS-BoldMT, /TimesNewRomanPSMT, /BCDEEE+Cambria-Bold, /SymbolMT, /ArialMT, /TimesNewRomanPS-ItalicMT, /BCDHEE+Cambria-Italic, /TimesNewRomanPS-BoldItalicMTheadings-none, 
+
+### 1-22-25-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/miknqgdc/1-22-25-cc-agenda.pdf?t=202510301252280
+- **Status**: analysed
+- title, fonts:/BCDGEE+Cambria, /BCDFEE+Cambria, /TimesNewRomanPS-BoldMT, /TimesNewRomanPSMT, /BCDEEE+Cambria-Bold, /SymbolMT, /ArialMT, /TimesNewRomanPS-ItalicMT, /BCDHEE+Cambria-Italic, /TimesNewRomanPS-BoldItalicMTheadings-none, 
+
+### 1-22-25-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/c02ix23r/1-22-25-cc-minutes.pdf?t=202510301252340
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helveticauntagged-images, 
+
+### 1-24-24-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/e0sesbli/1-24-24-cc-agenda-packet.pdf?t=202510301811020
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/XAGKFT+ArialMT, /Arial-BoldMT, /MPPRHP+Arial-ItalicMT, /FHDBND+SymbolMT, /TimesNewRomanPSMT, /BCDEEE+Cambria-Bold, /ArialMT, /XIEFFT+Arial-BoldMT, /TimesNewRomanPS-ItalicMT, /SymbolMT, /PWDJXJ+Tahoma, /Helvetica, /BCDGEE+Cambria, /BCDFEE+Cambria, /HKCNPZ+TimesNewRomanPS-ItalicMT, /Helv, /TimesNewRomanPS-BoldMT, /HCESPZ+TimesNewRomanPSMT, /TCBHBB+Tahoma-Bold, /POFOXJ+TimesNewRomanPS-BoldMT, /TimesNewRomanPS-BoldItalicMTtables-fail, 
+
+### 1-24-24-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2xsbmivc/1-24-24-cc-agenda.pdf?t=202510301811130
+- **Status**: analysed
+- title, fonts:/BCDGEE+Cambria, /BCDFEE+Cambria, /TimesNewRomanPS-BoldMT, /TimesNewRomanPSMT, /BCDEEE+Cambria-Bold, /SymbolMT, /ArialMT, /TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldItalicMTheadings-none, 
+
+### 1-24-24-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/hlvfauto/1-24-24-cc-minutes.pdf?t=202510301811340
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helveticauntagged-images, 
+
+### 1-25-23-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/t4ljztn4/1-25-23-cc-agenda-packet.pdf?t=202602232248270
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times New Roman,BoldItalic, /Times New Roman, /ABCDEE+Cambria, /Arial, /Symbol, /Times New Roman,Italic, /ABCDEE+Cambria,Bolduntagged-images, 
+
+### 1-25-23-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rnbcsbta/1-25-23-cc-agenda.pdf?t=202602232247230
+- **Status**: analysed
+- title, fonts:/Times New Roman, /Arial, /Times New Roman,Italic, /ABCDEE+Cambria,Bold, /ABCDEE+Cambria, /Symbol, /Times New Roman,BoldItalicheadings-none, 
+
+### 1-25-23-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/bsyn5gj0/1-25-23-cc-minutes.pdf?t=202602232247360
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1-26-2022-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/3oopvzit/1-26-2022-cc-agenda-packet.pdf?t=202603091049220
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times New Roman,BoldItalic, /Times New Roman, /ABCDEE+Cambria, /Arial, /Symbol, /Times New Roman,Italic, /ABCDEE+Cambria,Bolduntagged-images, annotations-untagged, 
+
+### 1-26-22-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/cdqpofiq/1-26-22-cc-agenda.pdf?t=202603091049000
+- **Status**: analysed
+- title, fonts:/Times New Roman, /Arial, /Times New Roman,Italic, /ABCDEE+Cambria,Bold, /ABCDEE+Cambria, /Symbol, /Times New Roman,BoldItalicheadings-none, 
+
+### 1-26-22-cc-minutes000.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/sf1lt5rg/1-26-22-cc-minutes000.pdf?t=202603091049380
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 1-26-26-ltab-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/qfjcagqc/1-26-26-ltab-packet.pdf
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/DKTLVS+Arial-BoldMT, /KXFGPE+Calibri, /SJGCXO+Calibri-Bold, /BHPZTW+ArialMTheadings-none, 
+
+### 1-27-25-notice-of-meeting-cancellation.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/nvrbothr/1-27-25-notice-of-meeting-cancellation.pdf
+- **Status**: analysed
+- fonts:/FUPZLD+ArialMT, /FCNULD+TimesNewRomanPS-ItalicMT, /AKCVTN+TimesNewRomanPSMT, /TXQAZB+Calibri, /LLPERR+TimesNewRomanPS-BoldItalicMT, /WEESPV+Calibri-Bold, /YHDERR+TimesNewRomanPS-BoldMT, /NOOQTN+Cambria, /DZOIJH+SymbolMTfigures-alt, headings-none, 
+
+### 1-27-25-puab-notice-of-meeting-cancellation.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/m2ckiobd/1-27-25-puab-notice-of-meeting-cancellation.pdf
+- **Status**: analysed
+- fonts:/KMVMEE+SymbolMT, /ZLNDGA+Calibri, /JANLQG+ArialMT, /TXLOAM+Cambria, /CNWVWU+Calibri-Bold, /RUMCYQ+TimesNewRomanPS-BoldItalicMT, /MPZYGA+TimesNewRomanPS-ItalicMT, /HXJZOK+TimesNewRomanPSMT, /FUKNMO+TimesNewRomanPS-BoldMTfigures-alt, headings-none, 
+
+### 1-28-26-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/xhvl1agg/1-28-26-cc-agenda-packet.pdf?t=202602050118260
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/GAVGOL+Broadway, /VPENQH+SegoeUISymbol, /QFRJYR+MonotypeCorsiva, /OCSXWV+Arial-BoldMT, /ISTZUC+Cambria-Italic, /MQTXYU+TimesNewRomanPS-BoldMT, /YJUFGB+Calibri-Bold, /MQTXYU+Cambria-Bold, /SIQVAN+Calibri-Light, /LNGFGB+Calibri-BoldItalic, /Helvetica, /QEUVCM+TimesNewRomanPS-ItalicMT, /VOHZUC+ArialMT, /TLINSG+TimesNewRomanPS-BoldItalicMT, /SZVHEI+TimesNewRomanPSMT, /DBFJYR+Calibri-Italic, /SASVAN+Calibri, /FDHHEI+Cambria, /AZRRIX+MS-Gothic, /GITBOL+SymbolMTfigures-alt, tables-fail, 
+
+### 1-28-26-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/prmngob2/1-28-26-cc-agenda.pdf?t=202602050115360
+- **Status**: analysed
+- title, fonts:/QEUVCM+TimesNewRomanPS-ItalicMT, /VOHZUC+ArialMT, /TLINSG+TimesNewRomanPS-BoldItalicMT, /SZVHEI+TimesNewRomanPSMT, /MQTXYU+TimesNewRomanPS-BoldMT, /ISTZUC+Cambria-Italic, /FDHHEI+Cambria, /MQTXYU+Cambria-Boldfigures-alt, headings-none, 
+
+### 1-28-26-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/x3xbwm2l/1-28-26-cc-minutes.pdf?t=202603091053100
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helveticauntagged-images, 
+
+### 1-3-11-2024-p-z-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/kz2eylik/1-3-11-2024-p-z-agenda.pdf?t=202602061603590
+- **Status**: analysed
+- title, fonts:/BCDIEE+Calibri, /BCDEEE+Calibri-Bold, /Arial-BoldMT, /ArialMT, /BCDHEE+Calibri, /BCDFEE+Aptos, /BCDGEE+Aptos,Boldheadings-none, 
+
+### 1-3-24-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/v5xg0z4y/1-3-24-cc-agenda.pdf?t=202510301811270
+- **Status**: analysed
+- title, fonts:/BCDGEE+Cambria, /BCDFEE+Cambria, /Arial-BoldMT, /TimesNewRomanPS-BoldMT, /TimesNewRomanPSMT, /BCDEEE+Cambria-Bold, /SymbolMT, /ArialMT, /TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldItalicMTheadings-none, 
+
+### 1-3-24-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/hophsulr/1-3-24-cc-minutes.pdf?t=202510301811200
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helveticauntagged-images, 
+
+### 1-5-26-pr-regular-meeting-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/qg0n1ye2/1-5-26-pr-regular-meeting-agenda.pdf
+- **Status**: analysed
+- title, tagged, fonts:/BCDEEE+Calibri, /Arial-BoldItalicMT, /Arial-ItalicMT, /Arial-BoldMT, /TimesNewRomanPSMT, /BCDFEE+Calibri, /ArialMT
+
+### 1-6-25-recreation-advisory-board-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/nauhz3qe/1-6-25-recreation-advisory-board-agenda.pdf
+- **Status**: analysed
+- title, fonts:/BCDEEE+Calibri, /Arial-BoldItalicMT, /Arial-ItalicMT, /Arial-BoldMT, /TimesNewRomanPSMT, /BCDFEE+Calibri, /ArialMT
+
+### 1-6-25-special-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ftnlk2kl/1-6-25-special-cc-minutes.pdf?t=202510301253160
+- **Status**: analysed
+- no date found, title, tagged, lang, untagged-images, 
+
+### 1-6-25-special-executive-session-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/h23m1tve/1-6-25-special-executive-session-agenda.pdf?t=202510301253230
+- **Status**: analysed
+- title, fonts:/XJSIYU+TimesNewRomanPS-BoldItalicMT, /SEFEGE+TimesNewRomanPS-ItalicMT, /NMPFOO+TimesNewRomanPSMT, /AQGAOO+Cambria-Italic, /LJQTMS+Cambria, /CTFMQK+ArialMT, /EWEYSG+Cambria-Bold, /QBBSEI+SymbolMTheadings-none, 
+
+### 1-8-25-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/mmnmihv4/1-8-25-cc-agenda-packet.pdf?t=202510301253300
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/Helvetica, /QTDLOH+TimesNewRomanPS-BoldMT, /BUQUML+ArialMT, /SWHXQD+TimesNewRomanPSMT, /YSCCWR+Cambria-Italic, /NRPTYN+Cambria-Bold, /IHCPGX+Cambria, /OYCUML+TimesNewRomanPS-ItalicMT, /UMEESZ+TimesNewRomanPS-BoldItalicMT, /IPFKGX+SymbolMTfigures-alt, headings-none, 
+
+### 1-8-25-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/5spbnmf1/1-8-25-cc-agenda.pdf?t=202510301253370
+- **Status**: analysed
+- title, fonts:/QTDLOH+TimesNewRomanPS-BoldMT, /BUQUML+ArialMT, /SWHXQD+TimesNewRomanPSMT, /YSCCWR+Cambria-Italic, /NRPTYN+Cambria-Bold, /IHCPGX+Cambria, /OYCUML+TimesNewRomanPS-ItalicMT, /UMEESZ+TimesNewRomanPS-BoldItalicMT, /IPFKGX+SymbolMTfigures-alt, headings-none, 
+
+### 1-8-25-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/gwtnuvds/1-8-25-cc-minutes.pdf?t=202510301253430
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, untagged-images, 
+
+### 10-07-24-notice-of-meeting-cancellation.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/lzndj1u5/10-07-24-notice-of-meeting-cancellation.pdf
+- **Status**: analysed
+- fonts:/ZLDFZU+ArialMT, /RSXUMK+SymbolMT, /MCNAZU+Calibri-Bold, /YFJKGW+TimesNewRomanPS-ItalicMT, /ZYBAZU+TimesNewRomanPS-BoldMT, /YCPULW+Calibri, /FXZFAI+Cambria, /NWYBIS+TimesNewRomanPS-BoldItalicMT, /LQAZLW+TimesNewRomanPSMTfigures-alt, headings-none, 
+
+### 10-11-2023-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/zzrjwncs/10-11-2023-cc-agenda-packet.pdf?t=202510301811450
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/Helvetica, /BCDGEE+Cambria, /BCDFEE+Cambria-Bold, /TimesNewRomanPS-BoldItalicMT, /TimesNewRomanPSMT, /TimesNewRomanPS-ItalicMT, /ArialMT, /BCDEEE+Cambria, /SymbolMTheadings-none, 
+
+### 10-11-2023-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ghjenzfu/10-11-2023-cc-agenda.pdf?t=202510301811540
+- **Status**: analysed
+- title, fonts:/BCDGEE+Cambria, /BCDFEE+Cambria-Bold, /TimesNewRomanPS-BoldItalicMT, /TimesNewRomanPSMT, /TimesNewRomanPS-ItalicMT, /ArialMT, /BCDEEE+Cambria, /SymbolMTheadings-none, 
+
+### 10-11-23-cc-workshop-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/y53frtg2/10-11-23-cc-workshop-packet.pdf?t=202510301812050
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/BRBOKM+Calibri-Bold, /ZUUKMK+Arial,Bold, /FZTWFX+TimesNewRoman,Bold, /PJVAXK+ArialMT, /GJMNCC+SymbolMT, /GWOKPL+TimesNewRoman, /FUVNNE+SymbolMT, /YXLRUS+SegoeUISymbol, /CFJAXK+TimesNewRomanPSMT, /DCYVMI+MS-Gothic, /HXUZPA+TimesNewRomanPS-ItalicMT, /ZYVIHQ+Cambria, /OVNJKM+Calibri-BoldItalic, /OOPYYJ+Arial, /OKGUJM+TimesNewRomanPS-BoldItalicMT, /TNYNCC+MonotypeCorsiva, /YWNFVG+Arial,BoldItalic, /IENEEY+Broadway, /FFXHOE+Calibri-Italic, /RKZBAG+Arial-BoldMT, /WHJFSW+Calibri, /VQXZEY+Calibri-Light, /SQJSNE+Cambria-Boldfigures-alt, tables-fail, 
+
+### 10-12-22-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/5edbm5vu/10-12-22-cc-agenda-packet.pdf?t=202602241122550
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times New Roman, /Arial, /Times New Roman,Italic, /ABCDEE+Cambria,Bold, /ABCDEE+Cambria, /ABCDEE+Cambria,Italic, /Symbol, /Times New Roman,BoldItalicuntagged-images, 
+
+### 10-12-22-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/i5ilpdlt/10-12-22-cc-agenda.pdf?t=202602241122490
+- **Status**: analysed
+- title, fonts:/Times New Roman, /Arial, /Times New Roman,Italic, /ABCDEE+Cambria,Bold, /ABCDEE+Cambria, /ABCDEE+Cambria,Italic, /Symbol, /Times New Roman,BoldItalicheadings-none, 
+
+### 10-12-22-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/k1xd13mz/10-12-22-cc-minutes.pdf?t=202602241123020
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 10-13-2021-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2a1nfkfj/10-13-2021-cc-agenda.pdf?t=202602241317200
+- **Status**: analysed
+- title, fonts:/Times New Roman, /Arial, /Times New Roman,Italic, /ABCDEE+Cambria,Bold, /ABCDEE+Cambria, /Symbol, /Times New Roman,BoldItalicheadings-none, 
+
+### 10-13-2026-pz-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/reonbzp1/10-13-2026-pz-agenda.pdf
+- **Status**: analysed
+- title, fonts:/FMZGVI+Calibri, /VSZYLC+ArialMT, /NYACDS+Calibri-Bold, /YZNQBW+Arial-BoldMTheadings-none, 
+
+### 10-13-2026-pz-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ty4lyfgn/10-13-2026-pz-packet.pdf
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/PIDAWT+Candara, /IKGUUY+Broadway, /Arial-ItalicMT, /NYACDS+Calibri-Bold, /IDWHRH+ArialMT, /Arial-BoldMT, /CIDFont+F3, /KPWDQT+Consolas, /JZGQQF+Calibri-Light, /FMZGVI+Calibri, /TimesNewRomanPSMT, /ArialMT, /CIDFont+F2, /Helvetica, /XAMJST+Aptos, /CIDFont+F1, /IMXROX+Calibri-Italic, /TimesNewRomanPS-BoldMT, /CIDFont+F4, /EPTMYP+Candara-BoldItalicfigures-alt, headings-skip, 
+
+### 10-13-21-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vfmk5qtc/10-13-21-cc-agenda-packet.pdf
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times New Roman,BoldItalic, /Times New Roman, /ABCDEE+Cambria, /Arial, /PYXKMT+TimesNewRoman,Italic, /Symbol, /ABCDEE+Cambria,Bolduntagged-images, annotations-untagged, 
+
+### 10-13-21-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/504hxvew/10-13-21-cc-minutes.pdf?t=202602241318190
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 10-14-2025-pz-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/xgzno10d/10-14-2025-pz-agenda.pdf?t=202510301433010
+- **Status**: analysed
+- title, fonts:/BKRLEM+Calibri-Bold, /KIFNAU+ArialMT, /KIFNAU+Arial-BoldMT, /KIFNAU+Calibriheadings-none, 
+
+### 10-14-26-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/gpylg3pr/10-14-26-cc-agenda-packet.pdf
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/Helvetica, /HYRQWK+Cambria, /MIEUOA+Cambria-Bold, /TimesNewRomanPS-BoldMT, /TimesNewRomanPSMT, /ArialMT, /TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldItalicMTfigures-alt, headings-none, 
+
+### 10-14-26-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/jaenyuot/10-14-26-cc-agenda.pdf
+- **Status**: analysed
+- title, fonts:/ZMQUOA+ArialMT, /HYRQWK+Cambria, /PKSMEU+TimesNewRomanPS-BoldMT, /MIEUOA+Cambria-Bold, /UUFQWK+TimesNewRomanPSMT, /RVPTGQ+TimesNewRomanPS-ItalicMT, /XJRIME+TimesNewRomanPS-BoldItalicMTfigures-alt, headings-none, 
+
+### 10-19-2026-puab-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/dujj4c0o/10-19-2026-puab-agenda.pdf
+- **Status**: analysed
+- title, fonts:/KIROLZ+Calibri, /DVATRN+Arial-BoldMT, /RVDEFL+Calibri-Boldheadings-none, 
+
+### 10-19-2026-puab-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/otcl0a5v/10-19-2026-puab-packet.pdf
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/BCDEEE+Calibri, /YRJIUM+MyriadVariableConcept-Roman, /TCNORS+ArialMT, /Arial-BoldMT, /ArialNarrow-Italic, /BCDJEE+Calibri, /ArialNarrow, /OBMICW+Calibri, /BCDPEE+ArialNarrow-Bold, /SDHYOY+MyriadPro-BoldCond, /ArialMT, /SDHYOY+OpenSans-Light, /SDHYOY+MyriadPro-Cond, /BCDIEE+Calibri-Bold, /CIDFont+F2, /KBGAPO+Calibri-Bold, /ArialNarrow-Bold, /IWWAMS+Calibri-Bold, /BCDFEE+GillSansMT-Condensed, /RVDEFL+Calibri-Bold, /CIDFont+F1, /BCDHEE+TwCenMT-CondensedBold, /KIROLZ+Calibri, /VKVQES+MyriadVariableConcept-Roman, /BBVAKG+Calibri-Light, /BCDOEE+Calibri-Bold, /BCDFEE+Calibri, /BCDGEE+Calibri-Bold, /BCDGEE+Calibri-Italic, /BCDMEE+ArialNarrowfigures-alt, headings-skip, 
+
+### 10-20-25-pr-special-meeting-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/dssplpdh/10-20-25-pr-special-meeting-agenda.pdf
+- **Status**: analysed
+- title, fonts:/KZODQT+Arial-BoldMT, /ZTXPSP+ArialMT, /DPWIWH+Arial-BoldItalicMT, /OQJRUL+Arial-ItalicMTheadings-none, 
+
+### 10-21-24-puab-notice-of-meeting-cancellation.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/l01byoxz/10-21-24-puab-notice-of-meeting-cancellation.pdf
+- **Status**: analysed
+- fonts:/BCDGEE+Cambria, /BCDEEE+Calibri-Bold, /TimesNewRomanPS-BoldMT, /TimesNewRomanPSMT, /SymbolMT, /BCDFEE+Calibri, /ArialMT, /TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldItalicMTheadings-none, 
+
+### 10-22-25-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/lwmbllax/10-22-25-cc-agenda-packet.pdf?t=202510301416030
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/TNCOXW+SegoeUISymbol, /BSWODR+TimesNewRomanPSMT, /VJUEXD+Cambria-Bold, /CDSQTE+Calibri-Italic, /CZGJXP+MonotypeCorsiva, /PASURP+Cambria, /FGSMHJ+TimesNewRomanPS-BoldItalicMT, /YQIWNX+TimesNewRomanPS-BoldMT, /ZXQCBV+TimesNewRomanPS-ItalicMT, /AATERI+MS-Gothic, /USDYJF+SymbolMT, /Helvetica, /NWHJRI+Calibri-BoldItalic, /ZOGDDK+Calibri-Bold, /TFETXW+Calibri, /DCCWHC+SymbolMT, /PHEQTE+MonotypeCorsiva, /HJRYJF+ArialMT, /HAHZLU+Broadwayfigures-alt, tables-fail, 
+
+### 10-22-25-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/qjhjddh4/10-22-25-cc-agenda.pdf?t=202510301413160
+- **Status**: analysed
+- title, fonts:/BSWODR+TimesNewRomanPSMT, /VJUEXD+Cambria-Bold, /PASURP+Cambria, /FGSMHJ+TimesNewRomanPS-BoldItalicMT, /YQIWNX+TimesNewRomanPS-BoldMT, /ZXQCBV+TimesNewRomanPS-ItalicMT, /HJRYJF+ArialMT, /USDYJF+SymbolMTfigures-alt, headings-none, 
