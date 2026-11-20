@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generated_at": "2026-11-20T20:24:11.094378+00:00",
+    "generated_at": "2026-11-20T21:07:42.141757+00:00",
     "total_files": 32305,
     "analysed": 6986,
-    "pending": 18394,
-    "errored": 6925,
+    "pending": 18306,
+    "errored": 7013,
     "accessible": 2155,
     "issues_found": 4831,
     "totally_inaccessible": 312,
@@ -98,7 +98,7 @@
     "engines": {
       "bloom": 32305
     },
-    "pages_crawled": 225
+    "pages_crawled": 0
   },
   "comparison": {
     "comparable_files": 338,
@@ -959824,7 +959824,7 @@
       "status": "error",
       "report": null,
       "errors": [
-        "File not found: crawled_files/torcnm.gov/12-30-24-special-meeting-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.522609+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+        "File not found: crawled_files/torcnm.gov/12-30-24-special-meeting-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.522609+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
       ],
       "analyses": {
         "original": {
@@ -959837,9 +959837,9 @@
           "status": "error",
           "report": null,
           "errors": [
-            "File not found: crawled_files/torcnm.gov/12-30-24-special-meeting-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.522609+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+            "File not found: crawled_files/torcnm.gov/12-30-24-special-meeting-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.522609+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
           ],
-          "analysed_at": "2026-11-20T00:04:56.741110+00:00"
+          "analysed_at": "2026-11-20T20:26:46.668457+00:00"
         }
       },
       "link_text": "Agenda",
@@ -959857,7 +959857,7 @@
       "status": "error",
       "report": null,
       "errors": [
-        "File not found: crawled_files/torcnm.gov/12-8-2025-pz-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.525197+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+        "File not found: crawled_files/torcnm.gov/12-8-2025-pz-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.525197+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
       ],
       "analyses": {
         "original": {
@@ -959870,9 +959870,9 @@
           "status": "error",
           "report": null,
           "errors": [
-            "File not found: crawled_files/torcnm.gov/12-8-2025-pz-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.525197+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+            "File not found: crawled_files/torcnm.gov/12-8-2025-pz-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.525197+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
           ],
-          "analysed_at": "2026-11-20T00:05:21.428534+00:00"
+          "analysed_at": "2026-11-20T20:27:09.535934+00:00"
         }
       },
       "link_text": "Agenda",
@@ -959890,7 +959890,7 @@
       "status": "error",
       "report": null,
       "errors": [
-        "File not found: crawled_files/torcnm.gov/12-9-2024-p-z-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.527460+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+        "File not found: crawled_files/torcnm.gov/12-9-2024-p-z-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.527460+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
       ],
       "analyses": {
         "original": {
@@ -959903,9 +959903,9 @@
           "status": "error",
           "report": null,
           "errors": [
-            "File not found: crawled_files/torcnm.gov/12-9-2024-p-z-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.527460+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+            "File not found: crawled_files/torcnm.gov/12-9-2024-p-z-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.527460+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
           ],
-          "analysed_at": "2026-11-20T00:05:46.036371+00:00"
+          "analysed_at": "2026-11-20T20:27:32.550109+00:00"
         }
       },
       "link_text": "Agenda",
@@ -959923,7 +959923,7 @@
       "status": "error",
       "report": null,
       "errors": [
-        "File not found: crawled_files/torcnm.gov/1515-1517-corzine-appraisal.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.550225+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+        "File not found: crawled_files/torcnm.gov/1515-1517-corzine-appraisal.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.550225+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
       ],
       "analyses": {
         "original": {
@@ -959936,9 +959936,9 @@
           "status": "error",
           "report": null,
           "errors": [
-            "File not found: crawled_files/torcnm.gov/1515-1517-corzine-appraisal.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.550225+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+            "File not found: crawled_files/torcnm.gov/1515-1517-corzine-appraisal.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.550225+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
           ],
-          "analysed_at": "2026-11-20T00:06:10.600735+00:00"
+          "analysed_at": "2026-11-20T20:27:54.571732+00:00"
         }
       },
       "link_text": "Appraisal",
@@ -959956,7 +959956,7 @@
       "status": "error",
       "report": null,
       "errors": [
-        "File not found: crawled_files/torcnm.gov/1515-1517-corzine-survey.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.554187+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+        "File not found: crawled_files/torcnm.gov/1515-1517-corzine-survey.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.554187+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
       ],
       "analyses": {
         "original": {
@@ -959969,9 +959969,9 @@
           "status": "error",
           "report": null,
           "errors": [
-            "File not found: crawled_files/torcnm.gov/1515-1517-corzine-survey.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.554187+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+            "File not found: crawled_files/torcnm.gov/1515-1517-corzine-survey.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.554187+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
           ],
-          "analysed_at": "2026-11-20T00:06:35.149061+00:00"
+          "analysed_at": "2026-11-20T20:28:17.517830+00:00"
         }
       },
       "link_text": "Survey",
@@ -959989,7 +959989,7 @@
       "status": "error",
       "report": null,
       "errors": [
-        "File not found: crawled_files/torcnm.gov/1a-01-16-2024-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.557415+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+        "File not found: crawled_files/torcnm.gov/1a-01-16-2024-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.557415+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
       ],
       "analyses": {
         "original": {
@@ -960002,9 +960002,9 @@
           "status": "error",
           "report": null,
           "errors": [
-            "File not found: crawled_files/torcnm.gov/1a-01-16-2024-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.557415+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+            "File not found: crawled_files/torcnm.gov/1a-01-16-2024-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.557415+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
           ],
-          "analysed_at": "2026-11-20T00:06:59.742323+00:00"
+          "analysed_at": "2026-11-20T20:28:40.665113+00:00"
         }
       },
       "link_text": "Agenda",
@@ -960022,7 +960022,7 @@
       "status": "error",
       "report": null,
       "errors": [
-        "File not found: crawled_files/torcnm.gov/2-09-2022-cc-agenda-packet.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.706535+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+        "File not found: crawled_files/torcnm.gov/2-09-2022-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.706535+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
       ],
       "analyses": {
         "original": {
@@ -960035,9 +960035,9 @@
           "status": "error",
           "report": null,
           "errors": [
-            "File not found: crawled_files/torcnm.gov/2-09-2022-cc-agenda-packet.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.706535+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+            "File not found: crawled_files/torcnm.gov/2-09-2022-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.706535+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
           ],
-          "analysed_at": "2026-11-20T00:07:24.402135+00:00"
+          "analysed_at": "2026-11-20T20:29:04.210222+00:00"
         }
       },
       "link_text": "Packet",
@@ -960055,7 +960055,7 @@
       "status": "error",
       "report": null,
       "errors": [
-        "File not found: crawled_files/torcnm.gov/2-11-26-cc-agenda-packet.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.899990+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+        "File not found: crawled_files/torcnm.gov/2-11-26-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.899990+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
       ],
       "analyses": {
         "original": {
@@ -960068,9 +960068,9 @@
           "status": "error",
           "report": null,
           "errors": [
-            "File not found: crawled_files/torcnm.gov/2-11-26-cc-agenda-packet.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.899990+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+            "File not found: crawled_files/torcnm.gov/2-11-26-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.899990+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
           ],
-          "analysed_at": "2026-11-20T00:07:49.087933+00:00"
+          "analysed_at": "2026-11-20T20:29:27.915494+00:00"
         }
       },
       "link_text": "Packet",
@@ -960088,7 +960088,7 @@
       "status": "error",
       "report": null,
       "errors": [
-        "File not found: crawled_files/torcnm.gov/2-11-26-cc-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.906259+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+        "File not found: crawled_files/torcnm.gov/2-11-26-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.906259+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
       ],
       "analyses": {
         "original": {
@@ -960101,9 +960101,9 @@
           "status": "error",
           "report": null,
           "errors": [
-            "File not found: crawled_files/torcnm.gov/2-11-26-cc-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.906259+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+            "File not found: crawled_files/torcnm.gov/2-11-26-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.906259+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
           ],
-          "analysed_at": "2026-11-20T00:08:13.166129+00:00"
+          "analysed_at": "2026-11-20T20:29:51.701757+00:00"
         }
       },
       "link_text": "Agenda",
@@ -960121,7 +960121,7 @@
       "status": "error",
       "report": null,
       "errors": [
-        "File not found: crawled_files/torcnm.gov/2-11-26-cc-minutes.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.959415+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+        "File not found: crawled_files/torcnm.gov/2-11-26-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.959415+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
       ],
       "analyses": {
         "original": {
@@ -960134,9 +960134,9 @@
           "status": "error",
           "report": null,
           "errors": [
-            "File not found: crawled_files/torcnm.gov/2-11-26-cc-minutes.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.959415+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+            "File not found: crawled_files/torcnm.gov/2-11-26-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.959415+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
           ],
-          "analysed_at": "2026-11-20T00:08:37.777667+00:00"
+          "analysed_at": "2026-11-20T20:30:15.006348+00:00"
         }
       },
       "link_text": "Minutes",
@@ -960154,7 +960154,7 @@
       "status": "error",
       "report": null,
       "errors": [
-        "File not found: crawled_files/torcnm.gov/2-12-25-cc-agenda-packet.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.062067+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+        "File not found: crawled_files/torcnm.gov/2-12-25-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.062067+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
       ],
       "analyses": {
         "original": {
@@ -960167,9 +960167,9 @@
           "status": "error",
           "report": null,
           "errors": [
-            "File not found: crawled_files/torcnm.gov/2-12-25-cc-agenda-packet.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.062067+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+            "File not found: crawled_files/torcnm.gov/2-12-25-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.062067+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
           ],
-          "analysed_at": "2026-11-20T00:09:01.917155+00:00"
+          "analysed_at": "2026-11-20T20:30:38.027055+00:00"
         }
       },
       "link_text": "Packet",
@@ -960187,7 +960187,7 @@
       "status": "error",
       "report": null,
       "errors": [
-        "File not found: crawled_files/torcnm.gov/2-12-25-cc-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.067823+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+        "File not found: crawled_files/torcnm.gov/2-12-25-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.067823+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
       ],
       "analyses": {
         "original": {
@@ -960200,9 +960200,9 @@
           "status": "error",
           "report": null,
           "errors": [
-            "File not found: crawled_files/torcnm.gov/2-12-25-cc-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.067823+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+            "File not found: crawled_files/torcnm.gov/2-12-25-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.067823+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
           ],
-          "analysed_at": "2026-11-20T00:09:26.144390+00:00"
+          "analysed_at": "2026-11-20T20:31:02.147888+00:00"
         }
       },
       "link_text": "Agenda",
@@ -960220,7 +960220,7 @@
       "status": "error",
       "report": null,
       "errors": [
-        "File not found: crawled_files/torcnm.gov/2-12-25-cc-minutes.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.084811+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+        "File not found: crawled_files/torcnm.gov/2-12-25-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.084811+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
       ],
       "analyses": {
         "original": {
@@ -960233,9 +960233,9 @@
           "status": "error",
           "report": null,
           "errors": [
-            "File not found: crawled_files/torcnm.gov/2-12-25-cc-minutes.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.084811+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+            "File not found: crawled_files/torcnm.gov/2-12-25-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.084811+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
           ],
-          "analysed_at": "2026-11-20T00:09:50.397200+00:00"
+          "analysed_at": "2026-11-20T20:31:26.282709+00:00"
         }
       },
       "link_text": "Minutes",
@@ -960253,7 +960253,7 @@
       "status": "error",
       "report": null,
       "errors": [
-        "File not found: crawled_files/torcnm.gov/2-14-24-cc-agenda-packet.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.195639+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+        "File not found: crawled_files/torcnm.gov/2-14-24-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.195639+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
       ],
       "analyses": {
         "original": {
@@ -960266,9 +960266,9 @@
           "status": "error",
           "report": null,
           "errors": [
-            "File not found: crawled_files/torcnm.gov/2-14-24-cc-agenda-packet.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.195639+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+            "File not found: crawled_files/torcnm.gov/2-14-24-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.195639+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
           ],
-          "analysed_at": "2026-11-20T00:10:14.828191+00:00"
+          "analysed_at": "2026-11-20T20:31:49.736128+00:00"
         }
       },
       "link_text": "Packet",
@@ -960286,7 +960286,7 @@
       "status": "error",
       "report": null,
       "errors": [
-        "File not found: crawled_files/torcnm.gov/2-14-24-cc-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.201324+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+        "File not found: crawled_files/torcnm.gov/2-14-24-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.201324+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
       ],
       "analyses": {
         "original": {
@@ -960299,9 +960299,9 @@
           "status": "error",
           "report": null,
           "errors": [
-            "File not found: crawled_files/torcnm.gov/2-14-24-cc-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.201324+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+            "File not found: crawled_files/torcnm.gov/2-14-24-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.201324+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
           ],
-          "analysed_at": "2026-11-20T00:10:39.344128+00:00"
+          "analysed_at": "2026-11-20T20:32:13.203328+00:00"
         }
       },
       "link_text": "Agenda",
@@ -960319,7 +960319,7 @@
       "status": "error",
       "report": null,
       "errors": [
-        "File not found: crawled_files/torcnm.gov/2-15-24-puab-notice-of-meeting-cancellation.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.206590+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+        "File not found: crawled_files/torcnm.gov/2-15-24-puab-notice-of-meeting-cancellation.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.206590+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
       ],
       "analyses": {
         "original": {
@@ -960332,9 +960332,9 @@
           "status": "error",
           "report": null,
           "errors": [
-            "File not found: crawled_files/torcnm.gov/2-15-24-puab-notice-of-meeting-cancellation.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.206590+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+            "File not found: crawled_files/torcnm.gov/2-15-24-puab-notice-of-meeting-cancellation.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.206590+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
           ],
-          "analysed_at": "2026-11-20T00:11:03.929010+00:00"
+          "analysed_at": "2026-11-20T20:32:36.855727+00:00"
         }
       },
       "link_text": "Agenda",
@@ -960352,7 +960352,7 @@
       "status": "error",
       "report": null,
       "errors": [
-        "File not found: crawled_files/torcnm.gov/2-18-2025-p-z-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.210471+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+        "File not found: crawled_files/torcnm.gov/2-18-2025-p-z-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.210471+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
       ],
       "analyses": {
         "original": {
@@ -960365,9 +960365,9 @@
           "status": "error",
           "report": null,
           "errors": [
-            "File not found: crawled_files/torcnm.gov/2-18-2025-p-z-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.210471+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+            "File not found: crawled_files/torcnm.gov/2-18-2025-p-z-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.210471+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
           ],
-          "analysed_at": "2026-11-20T00:11:28.038110+00:00"
+          "analysed_at": "2026-11-20T20:33:00.413807+00:00"
         }
       },
       "link_text": "Agenda",
@@ -960382,20 +960382,30 @@
       "filename": "2-18-2025-pz-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.219069+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-18-2025-pz-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.219069+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-18-2025-pz-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.219069+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:33:23.532090+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/nkoe0uex/2-2-26-notice-of-meeting-cancellation.pdf",
@@ -960405,20 +960415,30 @@
       "filename": "2-2-26-notice-of-meeting-cancellation.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.222922+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-2-26-notice-of-meeting-cancellation.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.222922+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-2-26-notice-of-meeting-cancellation.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.222922+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:33:47.416501+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ajrpt10f/2-22-23-cc-agenda-packet.pdf?t=202603091039410",
@@ -960428,20 +960448,30 @@
       "filename": "2-22-23-cc-agenda-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.284598+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-22-23-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.284598+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-22-23-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.284598+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:34:11.157595+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/cuulznxf/2-22-23-cc-agenda.pdf?t=202603091039210",
@@ -960451,20 +960481,30 @@
       "filename": "2-22-23-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.290500+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-22-23-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.290500+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-22-23-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.290500+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:34:34.694527+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/xkhl5bwu/2-23-2022-cc-agenda-packet.pdf?t=202602241232440",
@@ -960474,20 +960514,30 @@
       "filename": "2-23-2022-cc-agenda-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.368809+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-23-2022-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.368809+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-23-2022-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.368809+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:34:57.841008+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/hgaaemmb/2-23-22-cc-agenda.pdf",
@@ -960497,20 +960547,30 @@
       "filename": "2-23-22-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.374644+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-23-22-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.374644+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-23-22-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.374644+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:35:21.560271+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/v11bqzqn/2-23-22-cc-minutes.pdf?t=202602241232500",
@@ -960520,20 +960580,30 @@
       "filename": "2-23-22-cc-minutes.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.378794+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-23-22-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.378794+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-23-22-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.378794+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:35:44.485812+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/abwo55dt/2-24-23-special-execuitve-session-agenda.pdf?t=202602232236090",
@@ -960543,20 +960613,30 @@
       "filename": "2-24-23-special-execuitve-session-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.381692+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-24-23-special-execuitve-session-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.381692+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-24-23-special-execuitve-session-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.381692+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:36:07.353860+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/iyepcya5/2-24-25-ltab-packet.pdf",
@@ -960566,20 +960646,30 @@
       "filename": "2-24-25-ltab-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.386773+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-24-25-ltab-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.386773+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-24-25-ltab-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.386773+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:36:30.001639+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/k0aoj1xv/2-24-25-puab-notice-of-meeting-cancellation.pdf",
@@ -960589,20 +960679,30 @@
       "filename": "2-24-25-puab-notice-of-meeting-cancellation.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.389371+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-24-25-puab-notice-of-meeting-cancellation.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.389371+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-24-25-puab-notice-of-meeting-cancellation.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.389371+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:36:52.986111+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/c5vdcwye/2-25-26-cc-agenda-cc-agenda-packet.pdf?t=202602201835110",
@@ -960612,20 +960712,30 @@
       "filename": "2-25-26-cc-agenda-cc-agenda-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.508046+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-25-26-cc-agenda-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.508046+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-25-26-cc-agenda-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.508046+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:37:15.608320+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/3k0cgp2c/2-25-26-cc-agenda.pdf?t=202602201836490",
@@ -960635,20 +960745,30 @@
       "filename": "2-25-26-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.513851+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-25-26-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.513851+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-25-26-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.513851+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:37:38.061565+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/elmjbj4b/2-25-26-cc-minutes.pdf?t=202603131504560",
@@ -960658,20 +960778,30 @@
       "filename": "2-25-26-cc-minutes.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.535003+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-25-26-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.535003+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-25-26-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.535003+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:38:01.328453+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/fqllhhv4/2-26-25-cc-agenda-packet.pdf?t=202510301257340",
@@ -960681,20 +960811,30 @@
       "filename": "2-26-25-cc-agenda-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.593096+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-26-25-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.593096+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-26-25-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.593096+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:38:24.054111+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/bldbb20l/2-26-25-cc-agenda.pdf?t=202510301257410",
@@ -960704,20 +960844,30 @@
       "filename": "2-26-25-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.599029+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-26-25-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.599029+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-26-25-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.599029+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:38:46.885647+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2qindeox/2-26-25-cc-minutes.pdf?t=202510301257470",
@@ -960727,20 +960877,30 @@
       "filename": "2-26-25-cc-minutes.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.632562+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-26-25-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.632562+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-26-25-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.632562+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:39:09.641772+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/oqlfde5x/2-28-24-cc-agenda-packet.pdf?t=202510301818250",
@@ -960750,20 +960910,30 @@
       "filename": "2-28-24-cc-agenda-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.681798+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-28-24-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.681798+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-28-24-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.681798+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:39:32.361626+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vqmnisgd/2-28-24-cc-agenda.pdf?t=202510301818400",
@@ -960773,20 +960943,30 @@
       "filename": "2-28-24-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.686696+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-28-24-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.686696+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-28-24-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.686696+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:39:54.881252+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/eselmxtu/2-5-24-recreation-advisory-board-agenda.pdf",
@@ -960796,20 +960976,30 @@
       "filename": "2-5-24-recreation-advisory-board-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.690986+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-5-24-recreation-advisory-board-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.690986+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-5-24-recreation-advisory-board-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.690986+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:40:17.299719+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/pprf12es/2-8-23-cc-agenda-packet.pdf?t=202602232246170",
@@ -960819,20 +961009,30 @@
       "filename": "2-8-23-cc-agenda-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.780107+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-8-23-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.780107+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-8-23-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.780107+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:40:40.646109+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/dkqn5p2g/2-8-23-cc-agenda.pdf?t=202602232246130",
@@ -960842,20 +961042,30 @@
       "filename": "2-8-23-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.786056+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-8-23-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.786056+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-8-23-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.786056+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:41:03.697721+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/0vjngb1o/2-9-2026-pz-agenda.pdf?t=202602061651170",
@@ -960865,20 +961075,30 @@
       "filename": "2-9-2026-pz-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.790785+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-9-2026-pz-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.790785+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-9-2026-pz-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.790785+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:41:26.601910+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/tjqbi4mk/2-9-2026-pz-packet.pdf?t=202602061651450",
@@ -960888,20 +961108,30 @@
       "filename": "2-9-2026-pz-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.795713+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-9-2026-pz-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.795713+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-9-2026-pz-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.795713+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:41:50.156757+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vdbjlici/2-9-22-cc-agenda.pdf?t=202602241235080",
@@ -960911,20 +961141,30 @@
       "filename": "2-9-22-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.799389+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-9-22-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.799389+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-9-22-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.799389+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:42:13.860978+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/yxejwq4n/2-9-22-cc-minutes000.pdf?t=202602241235390",
@@ -960934,20 +961174,30 @@
       "filename": "2-9-22-cc-minutes000.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.805220+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2-9-22-cc-minutes000.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.805220+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2-9-22-cc-minutes000.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.805220+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:42:36.902857+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/gcwixilb/2025-2026-subrecipient-grant-application.pdf",
@@ -960957,20 +961207,30 @@
       "filename": "2025-2026-subrecipient-grant-application.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.807931+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2025-2026-subrecipient-grant-application.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.807931+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2025-2026-subrecipient-grant-application.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.807931+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:42:59.313076+00:00"
         }
       },
       "link_text": "Subrecipient Grant Application",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/oddpeu5o/2026-collectordriver-job-description.pdf",
@@ -960980,20 +961240,30 @@
       "filename": "2026-collectordriver-job-description.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.810244+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2026-collectordriver-job-description.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.810244+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2026-collectordriver-job-description.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.810244+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:43:22.600838+00:00"
         }
       },
       "link_text": "Collector - Driver",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/qp3f1v3v/2026-hazard-mitigation-action-plan.pdf",
@@ -961003,20 +961273,30 @@
       "filename": "2026-hazard-mitigation-action-plan.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.896844+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/2026-hazard-mitigation-action-plan.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.896844+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/2026-hazard-mitigation-action-plan.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.896844+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:43:46.217187+00:00"
         }
       },
       "link_text": "Hazard Mitigation Plan",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ojcoxybq/3-09-22-cc-agennda-packet.pdf?t=202602241227390",
@@ -961026,20 +961306,30 @@
       "filename": "3-09-22-cc-agennda-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.938590+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-09-22-cc-agennda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.938590+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-09-22-cc-agennda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.938590+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:44:09.527988+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rmwl4hxs/3-10-2025-p-z-agenda.pdf?t=202510301340130",
@@ -961049,20 +961339,30 @@
       "filename": "3-10-2025-p-z-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.943271+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-10-2025-p-z-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.943271+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-10-2025-p-z-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.943271+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:44:32.534713+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/iz4pd4gx/3-10-2025-pz-signed-minutes.pdf?t=202510301340030",
@@ -961072,20 +961372,30 @@
       "filename": "3-10-2025-pz-signed-minutes.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.947729+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-10-2025-pz-signed-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.947729+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-10-2025-pz-signed-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.947729+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:44:56.793682+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/auddiqxc/3-11-24-p-z-agenda-packet.pdf?t=202602061604120",
@@ -961095,20 +961405,30 @@
       "filename": "3-11-24-p-z-agenda-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:20.954719+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-11-24-p-z-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.954719+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-11-24-p-z-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.954719+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:45:20.291131+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vmxbktow/3-11-26-cc-agenda-packet.pdf?t=202603110954570",
@@ -961118,20 +961438,30 @@
       "filename": "3-11-26-cc-agenda-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.069390+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-11-26-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.069390+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-11-26-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.069390+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:45:42.841404+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/lqaj21m5/3-11-26-cc-agenda.pdf?t=202603061803520",
@@ -961141,20 +961471,30 @@
       "filename": "3-11-26-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.075254+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-11-26-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.075254+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-11-26-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.075254+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:46:05.273845+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/eqlouwi1/3-11-26-cc-minutes.pdf?t=202604101248570",
@@ -961164,20 +961504,30 @@
       "filename": "3-11-26-cc-minutes.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.087910+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-11-26-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.087910+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-11-26-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.087910+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:46:28.448754+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/353coaoc/3-12-25-cc-agenda-packet.pdf?t=202510301258080",
@@ -961187,20 +961537,30 @@
       "filename": "3-12-25-cc-agenda-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.200006+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-12-25-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.200006+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-12-25-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.200006+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:46:51.289750+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/zydp5l1o/3-12-25-cc-agenda.pdf?t=202510301258160",
@@ -961210,20 +961570,30 @@
       "filename": "3-12-25-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.205471+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-12-25-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.205471+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-12-25-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.205471+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:47:14.138744+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2wspecbk/3-12-25-cc-minutes.pdf?t=202510301258220",
@@ -961233,20 +961603,30 @@
       "filename": "3-12-25-cc-minutes.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.214290+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-12-25-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.214290+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-12-25-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.214290+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:47:37.075230+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/owhbenfg/3-13-24-cc-agenda-packet.pdf?t=202510301258280",
@@ -961256,20 +961636,30 @@
       "filename": "3-13-24-cc-agenda-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.264318+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-13-24-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.264318+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-13-24-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.264318+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:47:59.703961+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/g21dmdjl/3-13-24-cc-agenda.pdf?t=202510301258350",
@@ -961279,20 +961669,30 @@
       "filename": "3-13-24-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.268717+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-13-24-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.268717+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-13-24-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.268717+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:48:22.900088+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/l0tdojt3/3-13-24-cc-minutes.pdf?t=202510301258410",
@@ -961302,20 +961702,30 @@
       "filename": "3-13-24-cc-minutes.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.273262+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-13-24-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.273262+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-13-24-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.273262+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:48:45.506784+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/1vtjz5rz/3-16-2026-puab-packet.pdf",
@@ -961325,20 +961735,30 @@
       "filename": "3-16-2026-puab-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.275912+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-16-2026-puab-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.275912+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-16-2026-puab-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.275912+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:49:08.539946+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/121hh2nz/3-18-24-puab-notice-of-meeting-cancellation.pdf",
@@ -961348,20 +961768,30 @@
       "filename": "3-18-24-puab-notice-of-meeting-cancellation.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.278494+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-18-24-puab-notice-of-meeting-cancellation.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.278494+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-18-24-puab-notice-of-meeting-cancellation.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.278494+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:49:31.059279+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/wk5hcr21/3-2-26-recreation-advisory-board-agenda.pdf",
@@ -961371,20 +961801,30 @@
       "filename": "3-2-26-recreation-advisory-board-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.280866+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-2-26-recreation-advisory-board-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.280866+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-2-26-recreation-advisory-board-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.280866+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:49:53.191746+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ohpdsre0/3-22-2023-cc-packet.pdf?t=202602232230450",
@@ -961394,19 +961834,29 @@
       "filename": "3-22-2023-cc-packet-0.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.393486+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-22-2023-cc-packet-0.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.393486+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-22-2023-cc-packet-0.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.393486+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:50:16.821608+00:00"
         }
       },
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ohpdsre0/3-22-2023-cc-packet.pdf?t=202602232231480",
@@ -961416,20 +961866,30 @@
       "filename": "3-22-2023-cc-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.510702+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-22-2023-cc-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.510702+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-22-2023-cc-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.510702+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:50:40.012803+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/jxpncpcr/3-22-23-cc-agenda.pdf",
@@ -961439,20 +961899,30 @@
       "filename": "3-22-23-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.516739+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-22-23-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.516739+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-22-23-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.516739+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:51:02.253313+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/oqanl0mk/3-23-2026-lodgers-tax-packet.pdf",
@@ -961462,20 +961932,30 @@
       "filename": "3-23-2026-lodgers-tax-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.531612+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-23-2026-lodgers-tax-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.531612+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-23-2026-lodgers-tax-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.531612+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:51:24.554491+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/m4zdo0yj/3-23-2026-ltab-signed-minutes.pdf",
@@ -961485,20 +961965,30 @@
       "filename": "3-23-2026-ltab-signed-minutes.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.536637+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-23-2026-ltab-signed-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.536637+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-23-2026-ltab-signed-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.536637+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:51:47.728320+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/30jnmmqy/3-23-22-cc-agenda-packet.pdf?t=202602241224570",
@@ -961508,20 +961998,30 @@
       "filename": "3-23-22-cc-agenda-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.594691+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-23-22-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.594691+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-23-22-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.594691+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:52:10.308551+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rzbnl5gu/3-23-22-cc-agenda.pdf?t=202602251022220",
@@ -961531,20 +962031,30 @@
       "filename": "3-23-22-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.600620+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-23-22-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.600620+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-23-22-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.600620+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:52:33.113461+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/kapfgraz/3-23-22-cc-minutes.pdf?t=202602241225030",
@@ -961554,20 +962064,30 @@
       "filename": "3-23-22-cc-minutes.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.699020+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-23-22-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.699020+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-23-22-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.699020+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:52:56.809962+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/l12mzdtz/3-25-26-cc-agenda.pdf?t=202603201724420",
@@ -961577,20 +962097,30 @@
       "filename": "3-25-26-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.704772+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-25-26-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.704772+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-25-26-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.704772+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:53:19.926015+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/jirhrsc2/3-25-26-cc-minutes.pdf?t=202604101251560",
@@ -961600,20 +962130,30 @@
       "filename": "3-25-26-cc-minutes.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.711928+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-25-26-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.711928+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-25-26-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.711928+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:53:43.150468+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/cdobalps/3-25-26-cc-public-hearing-agenda.pdf?t=202603201728020",
@@ -961623,20 +962163,30 @@
       "filename": "3-25-26-cc-public-hearing-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.717048+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-25-26-cc-public-hearing-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.717048+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-25-26-cc-public-hearing-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.717048+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:54:05.939626+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/hfpbtouk/3-25-26-special-ww-workshop-cc-minutes.pdf?t=202604101250480",
@@ -961646,20 +962196,30 @@
       "filename": "3-25-26-special-ww-workshop-cc-minutes.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.722208+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-25-26-special-ww-workshop-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.722208+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-25-26-special-ww-workshop-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.722208+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:54:29.296842+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/pryjwgef/3-26-25-cc-agenda-packet.pdf?t=202510301258470",
@@ -961669,20 +962229,30 @@
       "filename": "3-26-25-cc-agenda-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.742129+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-26-25-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.742129+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-26-25-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.742129+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:54:52.313251+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/jjjdwvuu/3-26-25-cc-agenda.pdf?t=202510301258540",
@@ -961692,20 +962262,30 @@
       "filename": "3-26-25-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.745319+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-26-25-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.745319+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-26-25-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.745319+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:55:15.122014+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/a0tphzfo/3-26-25-cc-minutes.pdf?t=202510301259010",
@@ -961715,20 +962295,30 @@
       "filename": "3-26-25-cc-minutes.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.759856+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-26-25-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.759856+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-26-25-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.759856+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:55:37.821151+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/qyujpxjn/3-27-24-cc-agenda-packet.pdf?t=202510301259090",
@@ -961738,20 +962328,30 @@
       "filename": "3-27-24-cc-agenda-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.984812+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-27-24-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.984812+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-27-24-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.984812+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:56:00.949552+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/jlcjign1/3-27-24-cc-agenda.pdf?t=202510301259170",
@@ -961761,20 +962361,30 @@
       "filename": "3-27-24-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:21.990585+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-27-24-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.990585+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-27-24-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.990585+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:56:23.627888+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/y2ofrjg5/3-27-24-cc-minutes-2.pdf?t=202510301259220",
@@ -961784,20 +962394,30 @@
       "filename": "3-27-24-cc-minutes-2.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.003623+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-27-24-cc-minutes-2.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.003623+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-27-24-cc-minutes-2.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.003623+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:56:46.268472+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/wl5hcygo/3-4-24-recreation-advisory-board-agenda.pdf",
@@ -961807,20 +962427,30 @@
       "filename": "3-4-24-recreation-advisory-board-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.007219+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-4-24-recreation-advisory-board-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.007219+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-4-24-recreation-advisory-board-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.007219+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:57:09.317962+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/4mnj1cnc/3-8-23-cc-agenda-packet.pdf?t=202602232232020",
@@ -961830,20 +962460,30 @@
       "filename": "3-8-23-cc-agenda-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.235596+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-8-23-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.235596+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-8-23-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.235596+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:57:32.167625+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ncdlznpc/3-8-23-cc-agenda.pdf?t=202602232231400",
@@ -961853,20 +962493,30 @@
       "filename": "3-8-23-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.241844+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-8-23-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.241844+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-8-23-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.241844+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:57:55.482841+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/1lbjvque/3-9-2026-pz-agenda.pdf?t=202603041901100",
@@ -961876,20 +962526,30 @@
       "filename": "3-9-2026-pz-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.245538+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-9-2026-pz-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.245538+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-9-2026-pz-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.245538+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:58:18.427806+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/cgybrxt3/3-9-2026-pz-packet.pdf?t=202603041901290",
@@ -961899,20 +962559,30 @@
       "filename": "3-9-2026-pz-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.254110+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-9-2026-pz-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.254110+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-9-2026-pz-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.254110+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:58:41.261488+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/mdofxls3/3-9-22-cc-agenda.pdf?t=202602241227200",
@@ -961922,20 +962592,30 @@
       "filename": "3-9-22-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.257285+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-9-22-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.257285+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-9-22-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.257285+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:59:04.162660+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/zo0jh4re/3-9-22-cc-minutes.pdf?t=202602251022440",
@@ -961945,20 +962625,30 @@
       "filename": "3-9-22-cc-minutes.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.262601+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/3-9-22-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.262601+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/3-9-22-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.262601+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:59:26.739112+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/3zahdgyz/4-08-24-pz-agenda-packet.pdf?t=202602061602530",
@@ -961968,20 +962658,30 @@
       "filename": "4-08-24-pz-agenda-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.274519+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/4-08-24-pz-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.274519+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/4-08-24-pz-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.274519+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T20:59:50.106592+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/u15n20rg/4-10-2024-cc-agenda.pdf?t=202510301259280",
@@ -961991,20 +962691,30 @@
       "filename": "4-10-2024-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.277690+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/4-10-2024-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.277690+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/4-10-2024-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.277690+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T21:00:13.202715+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/kkunvbnb/4-10-2024-cc-minutes.pdf?t=202510301259350",
@@ -962014,20 +962724,30 @@
       "filename": "4-10-2024-cc-minutes.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.315717+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/4-10-2024-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.315717+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/4-10-2024-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.315717+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T21:00:35.758388+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ztqpy3qx/4-10-24-cc-agenda-packet.pdf?t=202510301259410",
@@ -962037,20 +962757,30 @@
       "filename": "4-10-24-cc-agenda-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.406951+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/4-10-24-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.406951+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/4-10-24-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.406951+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T21:00:58.855977+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/zmupi5qn/4-12-23-cc-agenda-packet.pdf?t=202602232231480",
@@ -962060,20 +962790,30 @@
       "filename": "4-12-23-cc-agenda-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.567791+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/4-12-23-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.567791+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/4-12-23-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.567791+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T21:01:22.126644+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/izshzkzz/4-12-23-cc-agenda.pdf?t=202602232228250",
@@ -962083,20 +962823,30 @@
       "filename": "4-12-23-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.573805+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/4-12-23-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.573805+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/4-12-23-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.573805+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T21:01:45.095970+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/id0gcawz/4-13-2026-pz-agenda.pdf?t=202604091827040",
@@ -962106,20 +962856,30 @@
       "filename": "4-13-2026-pz-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.577868+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/4-13-2026-pz-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.577868+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/4-13-2026-pz-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.577868+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T21:02:07.557303+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/y2vb2rhs/4-13-2026-pz-packet.pdf?t=202604091827410",
@@ -962129,20 +962889,30 @@
       "filename": "4-13-2026-pz-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.583899+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/4-13-2026-pz-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.583899+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/4-13-2026-pz-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.583899+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T21:02:31.003093+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/wq5fvlo5/4-13-2026-pz-signed-minutes.pdf?t=202605201042290",
@@ -962152,20 +962922,30 @@
       "filename": "4-13-2026-pz-signed-minutes.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.589104+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/4-13-2026-pz-signed-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.589104+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/4-13-2026-pz-signed-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.589104+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T21:02:54.170193+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ey0lweac/4-13-22-cc-agenda-packet.pdf?t=202602241224070",
@@ -962175,20 +962955,30 @@
       "filename": "4-13-22-cc-agenda-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.696439+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/4-13-22-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.696439+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/4-13-22-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.696439+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T21:03:17.321215+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/lr4j53ym/4-13-22-cc-agenda.pdf?t=202602241223540",
@@ -962198,20 +962988,30 @@
       "filename": "4-13-22-cc-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.702408+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/4-13-22-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.702408+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/4-13-22-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.702408+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T21:03:40.236954+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/skijrmeo/4-13-22-cc-minutes.pdf?t=202602241224140",
@@ -962221,20 +963021,30 @@
       "filename": "4-13-22-cc-minutes.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.759143+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/4-13-22-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.759143+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/4-13-22-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.759143+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T21:04:03.723243+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/gsdd04y2/4-14-2025-p-z-agenda.pdf?t=202602061519300",
@@ -962244,20 +963054,30 @@
       "filename": "4-14-2025-p-z-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.764456+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/4-14-2025-p-z-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.764456+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/4-14-2025-p-z-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.764456+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T21:04:26.863741+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/40knquvx/4-14-2025-pz-signed-minutes.pdf?t=202602061520010",
@@ -962267,20 +963087,30 @@
       "filename": "4-14-2025-pz-signed-minutes.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.769341+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/4-14-2025-pz-signed-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.769341+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/4-14-2025-pz-signed-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.769341+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T21:04:49.520781+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/sppp0igt/4-14-25-pz-packet.pdf?t=202602061519510",
@@ -962290,20 +963120,30 @@
       "filename": "4-14-25-pz-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.778188+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/4-14-25-pz-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.778188+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/4-14-25-pz-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.778188+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T21:05:12.428827+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/5y0dzipm/4-14-26-special-budget-minutes.pdf?t=202605141601310",
@@ -962313,20 +963153,30 @@
       "filename": "4-14-26-special-budget-minutes.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.780739+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/4-14-26-special-budget-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.780739+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/4-14-26-special-budget-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.780739+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T21:05:35.886125+00:00"
         }
       },
       "link_text": "Minutes",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/urol3tgu/4-14-28-cc-budget-workshop-packet.pdf?t=202604101502160",
@@ -962336,20 +963186,30 @@
       "filename": "4-14-28-cc-budget-workshop-packet.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.927878+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/4-14-28-cc-budget-workshop-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.927878+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/4-14-28-cc-budget-workshop-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.927878+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T21:05:58.720664+00:00"
         }
       },
       "link_text": "Packet",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vcjbiypm/4-15-24-puab-notice-of-meeting-cancellation.pdf",
@@ -962359,20 +963219,30 @@
       "filename": "4-15-24-puab-notice-of-meeting-cancellation.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.933676+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/4-15-24-puab-notice-of-meeting-cancellation.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.933676+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/4-15-24-puab-notice-of-meeting-cancellation.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.933676+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T21:06:21.672813+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/243nf15h/4-16-24-paab-agenda.pdf",
@@ -962382,20 +963252,30 @@
       "filename": "4-16-24-paab-agenda.pdf",
       "site": "torcnm.gov",
       "crawled_at": "2026-11-19T20:22:22.936965+00:00",
-      "status": "pending",
+      "status": "error",
       "report": null,
-      "errors": [],
+      "errors": [
+        "File not found: crawled_files/torcnm.gov/4-16-24-paab-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.936965+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
       "analyses": {
         "original": {
           "status": "pending",
           "report": null,
           "errors": [],
           "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/torcnm.gov/4-16-24-paab-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.936965+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-11-20T21:06:44.884190+00:00"
         }
       },
       "link_text": "Agenda",
       "engine": "bloom",
-      "engine_status": "pending"
+      "engine_status": "error"
     },
     {
       "url": "https://media-002-us.cdn.govstack.com/torcnm-002-us/media/wqvfjopp/4-17-2024-special-budget-cc-minutes.pdf?t=202510301259480",

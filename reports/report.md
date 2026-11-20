@@ -1,16 +1,15 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-11-20T20:24:11.094378+00:00
+Generated: 2026-11-20T21:07:42.141757+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 225 |
 | Total files tracked | 32305 |
 | Analysed | 6986 |
-| Pending analysis | 18394 |
-| Errors during analysis | 6925 |
+| Pending analysis | 18306 |
+| Errors during analysis | 7013 |
 | Accessible | 2155 |
 | Issues found | 4831 |
 | Totally inaccessible subset | 312 |
@@ -78715,100 +78714,628 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/dpyde2a1/12-30-24-special-meeting-agenda.pdf?t=202510301817530
 - **Status**: error
-- File not found: crawled_files/torcnm.gov/12-30-24-special-meeting-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.522609+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/torcnm.gov/12-30-24-special-meeting-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.522609+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 12-8-2025-pz-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/c0ajoila/12-8-2025-pz-agenda.pdf?t=202602050107020
 - **Status**: error
-- File not found: crawled_files/torcnm.gov/12-8-2025-pz-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.525197+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/torcnm.gov/12-8-2025-pz-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.525197+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 12-9-2024-p-z-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/q4rnf2no/12-9-2024-p-z-agenda.pdf?t=202602061554120
 - **Status**: error
-- File not found: crawled_files/torcnm.gov/12-9-2024-p-z-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.527460+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/torcnm.gov/12-9-2024-p-z-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.527460+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 1515-1517-corzine-appraisal.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/upwloenn/1515-1517-corzine-appraisal.pdf
 - **Status**: error
-- File not found: crawled_files/torcnm.gov/1515-1517-corzine-appraisal.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.550225+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/torcnm.gov/1515-1517-corzine-appraisal.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.550225+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 1515-1517-corzine-survey.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/1glhk4yy/1515-1517-corzine-survey.pdf
 - **Status**: error
-- File not found: crawled_files/torcnm.gov/1515-1517-corzine-survey.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.554187+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/torcnm.gov/1515-1517-corzine-survey.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.554187+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 1a-01-16-2024-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/praanldo/1a-01-16-2024-agenda.pdf
 - **Status**: error
-- File not found: crawled_files/torcnm.gov/1a-01-16-2024-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.557415+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/torcnm.gov/1a-01-16-2024-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.557415+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 2-09-2022-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/41kdvekc/2-09-2022-cc-agenda-packet.pdf?t=202602252037100
 - **Status**: error
-- File not found: crawled_files/torcnm.gov/2-09-2022-cc-agenda-packet.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.706535+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/torcnm.gov/2-09-2022-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.706535+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 2-11-26-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/r4qbtq5p/2-11-26-cc-agenda-packet.pdf?t=202602201830580
 - **Status**: error
-- File not found: crawled_files/torcnm.gov/2-11-26-cc-agenda-packet.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.899990+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/torcnm.gov/2-11-26-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.899990+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 2-11-26-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/r2gfmtva/2-11-26-cc-agenda.pdf?t=202602201831160
 - **Status**: error
-- File not found: crawled_files/torcnm.gov/2-11-26-cc-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.906259+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/torcnm.gov/2-11-26-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.906259+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 2-11-26-cc-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/segcx2yh/2-11-26-cc-minutes.pdf?t=202603131504310
 - **Status**: error
-- File not found: crawled_files/torcnm.gov/2-11-26-cc-minutes.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.959415+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/torcnm.gov/2-11-26-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:19.959415+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 2-12-25-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/zflbkkih/2-12-25-cc-agenda-packet.pdf?t=202510301257010
 - **Status**: error
-- File not found: crawled_files/torcnm.gov/2-12-25-cc-agenda-packet.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.062067+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/torcnm.gov/2-12-25-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.062067+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 2-12-25-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/eldpj1fi/2-12-25-cc-agenda.pdf?t=202510301257090
 - **Status**: error
-- File not found: crawled_files/torcnm.gov/2-12-25-cc-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.067823+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/torcnm.gov/2-12-25-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.067823+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 2-12-25-cc-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ir5hqchc/2-12-25-cc-minutes.pdf?t=202510301257150
 - **Status**: error
-- File not found: crawled_files/torcnm.gov/2-12-25-cc-minutes.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.084811+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/torcnm.gov/2-12-25-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.084811+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 2-14-24-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/b13d5u1g/2-14-24-cc-agenda-packet.pdf?t=202510301817400
 - **Status**: error
-- File not found: crawled_files/torcnm.gov/2-14-24-cc-agenda-packet.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.195639+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/torcnm.gov/2-14-24-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.195639+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 2-14-24-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/cnnb42gq/2-14-24-cc-agenda.pdf?t=202510301818080
 - **Status**: error
-- File not found: crawled_files/torcnm.gov/2-14-24-cc-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.201324+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/torcnm.gov/2-14-24-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.201324+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 2-15-24-puab-notice-of-meeting-cancellation.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ytyfcwwh/2-15-24-puab-notice-of-meeting-cancellation.pdf
 - **Status**: error
-- File not found: crawled_files/torcnm.gov/2-15-24-puab-notice-of-meeting-cancellation.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.206590+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/torcnm.gov/2-15-24-puab-notice-of-meeting-cancellation.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.206590+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 2-18-2025-p-z-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/awcg1oga/2-18-2025-p-z-agenda.pdf?t=202602061521470
 - **Status**: error
-- File not found: crawled_files/torcnm.gov/2-18-2025-p-z-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:20.210471+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/torcnm.gov/2-18-2025-p-z-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.210471+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-18-2025-pz-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ld0leinf/2-18-2025-pz-packet.pdf?t=202602061521550
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-18-2025-pz-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.219069+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-2-26-notice-of-meeting-cancellation.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/nkoe0uex/2-2-26-notice-of-meeting-cancellation.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-2-26-notice-of-meeting-cancellation.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.222922+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-22-23-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ajrpt10f/2-22-23-cc-agenda-packet.pdf?t=202603091039410
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-22-23-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.284598+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-22-23-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/cuulznxf/2-22-23-cc-agenda.pdf?t=202603091039210
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-22-23-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.290500+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-23-2022-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/xkhl5bwu/2-23-2022-cc-agenda-packet.pdf?t=202602241232440
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-23-2022-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.368809+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-23-22-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/hgaaemmb/2-23-22-cc-agenda.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-23-22-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.374644+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-23-22-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/v11bqzqn/2-23-22-cc-minutes.pdf?t=202602241232500
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-23-22-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.378794+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-24-23-special-execuitve-session-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/abwo55dt/2-24-23-special-execuitve-session-agenda.pdf?t=202602232236090
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-24-23-special-execuitve-session-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.381692+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-24-25-ltab-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/iyepcya5/2-24-25-ltab-packet.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-24-25-ltab-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.386773+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-24-25-puab-notice-of-meeting-cancellation.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/k0aoj1xv/2-24-25-puab-notice-of-meeting-cancellation.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-24-25-puab-notice-of-meeting-cancellation.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.389371+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-25-26-cc-agenda-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/c5vdcwye/2-25-26-cc-agenda-cc-agenda-packet.pdf?t=202602201835110
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-25-26-cc-agenda-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.508046+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-25-26-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/3k0cgp2c/2-25-26-cc-agenda.pdf?t=202602201836490
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-25-26-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.513851+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-25-26-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/elmjbj4b/2-25-26-cc-minutes.pdf?t=202603131504560
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-25-26-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.535003+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-26-25-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/fqllhhv4/2-26-25-cc-agenda-packet.pdf?t=202510301257340
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-26-25-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.593096+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-26-25-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/bldbb20l/2-26-25-cc-agenda.pdf?t=202510301257410
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-26-25-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.599029+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-26-25-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2qindeox/2-26-25-cc-minutes.pdf?t=202510301257470
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-26-25-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.632562+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-28-24-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/oqlfde5x/2-28-24-cc-agenda-packet.pdf?t=202510301818250
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-28-24-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.681798+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-28-24-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vqmnisgd/2-28-24-cc-agenda.pdf?t=202510301818400
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-28-24-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.686696+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-5-24-recreation-advisory-board-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/eselmxtu/2-5-24-recreation-advisory-board-agenda.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-5-24-recreation-advisory-board-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.690986+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-8-23-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/pprf12es/2-8-23-cc-agenda-packet.pdf?t=202602232246170
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-8-23-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.780107+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-8-23-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/dkqn5p2g/2-8-23-cc-agenda.pdf?t=202602232246130
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-8-23-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.786056+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-9-2026-pz-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/0vjngb1o/2-9-2026-pz-agenda.pdf?t=202602061651170
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-9-2026-pz-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.790785+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-9-2026-pz-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/tjqbi4mk/2-9-2026-pz-packet.pdf?t=202602061651450
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-9-2026-pz-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.795713+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-9-22-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vdbjlici/2-9-22-cc-agenda.pdf?t=202602241235080
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-9-22-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.799389+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2-9-22-cc-minutes000.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/yxejwq4n/2-9-22-cc-minutes000.pdf?t=202602241235390
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2-9-22-cc-minutes000.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.805220+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2025-2026-subrecipient-grant-application.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/gcwixilb/2025-2026-subrecipient-grant-application.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2025-2026-subrecipient-grant-application.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.807931+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2026-collectordriver-job-description.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/oddpeu5o/2026-collectordriver-job-description.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2026-collectordriver-job-description.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.810244+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2026-hazard-mitigation-action-plan.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/qp3f1v3v/2026-hazard-mitigation-action-plan.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/2026-hazard-mitigation-action-plan.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.896844+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-09-22-cc-agennda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ojcoxybq/3-09-22-cc-agennda-packet.pdf?t=202602241227390
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-09-22-cc-agennda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.938590+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-10-2025-p-z-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rmwl4hxs/3-10-2025-p-z-agenda.pdf?t=202510301340130
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-10-2025-p-z-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.943271+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-10-2025-pz-signed-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/iz4pd4gx/3-10-2025-pz-signed-minutes.pdf?t=202510301340030
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-10-2025-pz-signed-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.947729+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-11-24-p-z-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/auddiqxc/3-11-24-p-z-agenda-packet.pdf?t=202602061604120
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-11-24-p-z-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:20.954719+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-11-26-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vmxbktow/3-11-26-cc-agenda-packet.pdf?t=202603110954570
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-11-26-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.069390+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-11-26-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/lqaj21m5/3-11-26-cc-agenda.pdf?t=202603061803520
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-11-26-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.075254+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-11-26-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/eqlouwi1/3-11-26-cc-minutes.pdf?t=202604101248570
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-11-26-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.087910+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-12-25-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/353coaoc/3-12-25-cc-agenda-packet.pdf?t=202510301258080
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-12-25-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.200006+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-12-25-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/zydp5l1o/3-12-25-cc-agenda.pdf?t=202510301258160
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-12-25-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.205471+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-12-25-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2wspecbk/3-12-25-cc-minutes.pdf?t=202510301258220
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-12-25-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.214290+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-13-24-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/owhbenfg/3-13-24-cc-agenda-packet.pdf?t=202510301258280
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-13-24-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.264318+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-13-24-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/g21dmdjl/3-13-24-cc-agenda.pdf?t=202510301258350
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-13-24-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.268717+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-13-24-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/l0tdojt3/3-13-24-cc-minutes.pdf?t=202510301258410
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-13-24-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.273262+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-16-2026-puab-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/1vtjz5rz/3-16-2026-puab-packet.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-16-2026-puab-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.275912+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-18-24-puab-notice-of-meeting-cancellation.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/121hh2nz/3-18-24-puab-notice-of-meeting-cancellation.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-18-24-puab-notice-of-meeting-cancellation.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.278494+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-2-26-recreation-advisory-board-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/wk5hcr21/3-2-26-recreation-advisory-board-agenda.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-2-26-recreation-advisory-board-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.280866+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-22-2023-cc-packet-0.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ohpdsre0/3-22-2023-cc-packet.pdf?t=202602232230450
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-22-2023-cc-packet-0.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.393486+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-22-2023-cc-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ohpdsre0/3-22-2023-cc-packet.pdf?t=202602232231480
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-22-2023-cc-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.510702+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-22-23-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/jxpncpcr/3-22-23-cc-agenda.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-22-23-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.516739+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-23-2026-lodgers-tax-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/oqanl0mk/3-23-2026-lodgers-tax-packet.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-23-2026-lodgers-tax-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.531612+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-23-2026-ltab-signed-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/m4zdo0yj/3-23-2026-ltab-signed-minutes.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-23-2026-ltab-signed-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.536637+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-23-22-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/30jnmmqy/3-23-22-cc-agenda-packet.pdf?t=202602241224570
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-23-22-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.594691+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-23-22-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rzbnl5gu/3-23-22-cc-agenda.pdf?t=202602251022220
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-23-22-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.600620+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-23-22-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/kapfgraz/3-23-22-cc-minutes.pdf?t=202602241225030
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-23-22-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.699020+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-25-26-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/l12mzdtz/3-25-26-cc-agenda.pdf?t=202603201724420
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-25-26-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.704772+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-25-26-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/jirhrsc2/3-25-26-cc-minutes.pdf?t=202604101251560
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-25-26-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.711928+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-25-26-cc-public-hearing-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/cdobalps/3-25-26-cc-public-hearing-agenda.pdf?t=202603201728020
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-25-26-cc-public-hearing-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.717048+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-25-26-special-ww-workshop-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/hfpbtouk/3-25-26-special-ww-workshop-cc-minutes.pdf?t=202604101250480
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-25-26-special-ww-workshop-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.722208+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-26-25-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/pryjwgef/3-26-25-cc-agenda-packet.pdf?t=202510301258470
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-26-25-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.742129+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-26-25-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/jjjdwvuu/3-26-25-cc-agenda.pdf?t=202510301258540
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-26-25-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.745319+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-26-25-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/a0tphzfo/3-26-25-cc-minutes.pdf?t=202510301259010
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-26-25-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.759856+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-27-24-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/qyujpxjn/3-27-24-cc-agenda-packet.pdf?t=202510301259090
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-27-24-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.984812+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-27-24-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/jlcjign1/3-27-24-cc-agenda.pdf?t=202510301259170
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-27-24-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:21.990585+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-27-24-cc-minutes-2.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/y2ofrjg5/3-27-24-cc-minutes-2.pdf?t=202510301259220
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-27-24-cc-minutes-2.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.003623+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-4-24-recreation-advisory-board-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/wl5hcygo/3-4-24-recreation-advisory-board-agenda.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-4-24-recreation-advisory-board-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.007219+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-8-23-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/4mnj1cnc/3-8-23-cc-agenda-packet.pdf?t=202602232232020
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-8-23-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.235596+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-8-23-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ncdlznpc/3-8-23-cc-agenda.pdf?t=202602232231400
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-8-23-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.241844+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-9-2026-pz-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/1lbjvque/3-9-2026-pz-agenda.pdf?t=202603041901100
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-9-2026-pz-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.245538+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-9-2026-pz-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/cgybrxt3/3-9-2026-pz-packet.pdf?t=202603041901290
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-9-2026-pz-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.254110+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-9-22-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/mdofxls3/3-9-22-cc-agenda.pdf?t=202602241227200
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-9-22-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.257285+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 3-9-22-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/zo0jh4re/3-9-22-cc-minutes.pdf?t=202602251022440
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/3-9-22-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.262601+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-08-24-pz-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/3zahdgyz/4-08-24-pz-agenda-packet.pdf?t=202602061602530
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-08-24-pz-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.274519+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-10-2024-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/u15n20rg/4-10-2024-cc-agenda.pdf?t=202510301259280
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-10-2024-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.277690+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-10-2024-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/kkunvbnb/4-10-2024-cc-minutes.pdf?t=202510301259350
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-10-2024-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.315717+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-10-24-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ztqpy3qx/4-10-24-cc-agenda-packet.pdf?t=202510301259410
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-10-24-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.406951+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-12-23-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/zmupi5qn/4-12-23-cc-agenda-packet.pdf?t=202602232231480
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-12-23-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.567791+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-12-23-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/izshzkzz/4-12-23-cc-agenda.pdf?t=202602232228250
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-12-23-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.573805+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-13-2026-pz-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/id0gcawz/4-13-2026-pz-agenda.pdf?t=202604091827040
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-13-2026-pz-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.577868+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-13-2026-pz-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/y2vb2rhs/4-13-2026-pz-packet.pdf?t=202604091827410
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-13-2026-pz-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.583899+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-13-2026-pz-signed-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/wq5fvlo5/4-13-2026-pz-signed-minutes.pdf?t=202605201042290
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-13-2026-pz-signed-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.589104+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-13-22-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ey0lweac/4-13-22-cc-agenda-packet.pdf?t=202602241224070
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-13-22-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.696439+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-13-22-cc-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/lr4j53ym/4-13-22-cc-agenda.pdf?t=202602241223540
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-13-22-cc-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.702408+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-13-22-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/skijrmeo/4-13-22-cc-minutes.pdf?t=202602241224140
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-13-22-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.759143+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-14-2025-p-z-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/gsdd04y2/4-14-2025-p-z-agenda.pdf?t=202602061519300
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-14-2025-p-z-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.764456+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-14-2025-pz-signed-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/40knquvx/4-14-2025-pz-signed-minutes.pdf?t=202602061520010
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-14-2025-pz-signed-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.769341+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-14-25-pz-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/sppp0igt/4-14-25-pz-packet.pdf?t=202602061519510
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-14-25-pz-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.778188+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-14-26-special-budget-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/5y0dzipm/4-14-26-special-budget-minutes.pdf?t=202605141601310
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-14-26-special-budget-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.780739+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-14-28-cc-budget-workshop-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/urol3tgu/4-14-28-cc-budget-workshop-packet.pdf?t=202604101502160
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-14-28-cc-budget-workshop-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.927878+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-15-24-puab-notice-of-meeting-cancellation.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vcjbiypm/4-15-24-puab-notice-of-meeting-cancellation.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-15-24-puab-notice-of-meeting-cancellation.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.933676+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-16-24-paab-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/243nf15h/4-16-24-paab-agenda.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-16-24-paab-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.936965+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
