@@ -1,20 +1,21 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-11-20T00:57:02.591772+00:00
+Generated: 2026-11-20T20:24:11.094378+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
+| URLs crawled | 225 |
 | Total files tracked | 32305 |
-| Analysed | 6904 |
+| Analysed | 6986 |
 | Pending analysis | 18394 |
-| Errors during analysis | 7007 |
-| Accessible | 2152 |
-| Issues found | 4752 |
-| Totally inaccessible subset | 297 |
+| Errors during analysis | 6925 |
+| Accessible | 2155 |
+| Issues found | 4831 |
+| Totally inaccessible subset | 312 |
 | Broken / unreadable | 36 |
-| Exempt (pre-2018) | 1548 |
+| Exempt (pre-2018) | 1553 |
 
 ## Files per Site
 
@@ -7021,6 +7022,88 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 | [10-21-24-puab-notice-of-meeting-cancellation.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/l01byoxz/10-21-24-puab-notice-of-meeting-cancellation.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-10-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 133.3 KB | — | — |
 | [10-22-25-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/lwmbllax/10-22-25-cc-agenda-packet.pdf?t=202510301416030) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-10-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 148 | 22.3 MB | — | — |
 | [10-22-25-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/qjhjddh4/10-22-25-cc-agenda.pdf?t=202510301413160) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-10-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 262.2 KB | — | — |
+| [10-22-25-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/xatblma5/10-22-25-cc-minutes.pdf?t=202602050119020) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 12 | 868.8 KB | — | — |
+| [10-23-24-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rysbxed2/10-23-24-cc-agenda-packet.pdf?t=202510301812180) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-10-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 264 | 28.7 MB | — | — |
+| [10-23-24-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/nq1ev3x2/10-23-24-cc-agenda.pdf?t=202510301812280) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-10-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 260.1 KB | — | — |
+| [10-23-24-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/40gngefy/10-23-24-cc-minutes.pdf?t=202510301812360) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-11-14 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 21 | 1.7 MB | — | — |
+| [10-25-23-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rotlbpl5/10-25-23-cc-agenda-packet.pdf?t=202510301812460) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-10-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 229 | 29.8 MB | — | — |
+| [10-25-23-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/jq3p5oyj/10-25-23-cc-agenda.pdf?t=202510301812570) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-10-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 202.8 KB | — | — |
+| [10-26-22-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/kmuk2rbp/10-26-22-cc-agenda-packet.pdf?t=202602241121180) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2022-10-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 164 | 39.4 MB | — | — |
+| [10-26-22-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/4zljb4cl/10-26-22-cc-agenda.pdf?t=202602241121110) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2022-10-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 421.7 KB | — | — |
+| [10-26-22-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/cgpdri3c/10-26-22-cc-minutes.pdf?t=202602241121260) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2014-06-02 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 35 | 2.4 MB | — | — |
+| [10-26-22-cc-workshop-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2y0fo3vt/10-26-22-cc-workshop-minutes.pdf?t=202602241118070) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2014-06-02 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 2 | 62.5 KB | — | — |
+| [10-26-22-special-cc-workshop-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/lzvbop4f/10-26-22-special-cc-workshop-agenda.pdf?t=202602241117510) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2022-10-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 250.6 KB | — | — |
+| [10-27-2021-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/clxhgdtw/10-27-2021-cc-agenda-packet.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-09-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 302 | 27.4 MB | — | — |
+| [10-27-2021-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/umdlui1i/10-27-2021-cc-agenda.pdf?t=202602241258430) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2021-10-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 333.0 KB | — | — |
+| [10-27-21-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/0g2lvp0h/10-27-21-cc-minutes.pdf?t=202602241258530) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2021-11-19 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 16 | 10.8 MB | — | — |
+| [10-28-26-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/gaxdiens/10-28-26-cc-agenda-packet.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-10-27 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 150 | 10.2 MB | — | — |
+| [10-28-26-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/bpudq5nu/10-28-26-cc-agenda.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-10-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 274.1 KB | — | — |
+| [10-7-2024-p-z-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/uyonydpt/10-7-2024-p-z-agenda.pdf?t=202602061555280) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-10-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 79.2 KB | — | — |
+| [10-8-25-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/5y1c2jfq/10-8-25-cc-agenda-packet.pdf?t=202510301413020) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-10-07 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 452 | 40.2 MB | — | — |
+| [10-8-25-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/jg1l1pcj/10-8-25-cc-agenda.pdf?t=202510301412520) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-10-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 296.0 KB | — | — |
+| [10-8-25-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/mnagkj5z/10-8-25-cc-minutes.pdf?t=202602050118040) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 63 | 8.1 MB | — | — |
+| [10-9-24-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/wr4bigz5/10-9-24-cc-agenda-packet.pdf?t=202510301813110) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-10-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 134 | 15.2 MB | — | — |
+| [10-9-24-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/fgyifquh/10-9-24-cc-agenda.pdf?t=202510301813240) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-10-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 267.7 KB | — | — |
+| [10-9-24-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/5b2jrljd/10-9-24-cc-minutes.pdf?t=202510301813360) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-11-14 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 45 | 6.9 MB | — | — |
+| [10-kw-application.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/d4dgbjcu/10-kw-application.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | 88.6 KB | — | — |
+| [10-kw-instruction-cover-sheet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/h1jckgpf/10-kw-instruction-cover-sheet.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 530.7 KB | — | — |
+| [10-kw-ts-cs-nm-interconnection-application.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/h0gd22mg/10-kw-ts-cs-nm-interconnection-application.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | 116.7 KB | — | — |
+| [10-mw-application.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/kzmc4rvn/10-mw-application.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 5 | 157.8 KB | — | — |
+| [10-mw-instruction-cover-sheet-for-photovoltaic-systems.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/oewbwbeh/10-mw-instruction-cover-sheet-for-photovoltaic-systems.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2013-10-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ✅ Pass | 1 | 344.1 KB | — | — |
+| [10-mw-ts-cs.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/xsujtyzs/10-mw-ts-cs.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 11 | 669.1 KB | — | — |
+| [11-04-2024-pz-cancellation.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/hffnqbfg/11-04-2024-pz-cancellation.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-10-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 134.3 KB | — | — |
+| [11-10-2025-pz-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/adqn0bxz/11-10-2025-pz-agenda.pdf?t=202511131139140) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-11-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 115.4 KB | — | — |
+| [11-12-2024-ltab-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rjci34mt/11-12-2024-ltab-agenda.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-11-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 117.6 KB | — | — |
+| [11-13-24-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/kxtpftrr/11-13-24-cc-agenda-packet.pdf?t=202510301813510) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-11-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 360 | 41.6 MB | — | — |
+| [11-13-24-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/pt0hvh21/11-13-24-cc-agenda.pdf?t=202510301814050) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-11-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 257.9 KB | — | — |
+| [11-13-24-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/acoixew3/11-13-24-cc-minutes.pdf?t=202510301814170) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 39 | 2.5 MB | — | — |
+| [11-15-23-cc-agenda-packet-0.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/g55kxt0d/11-15-23-cc-agenda-packet.pdf?t=202510301318530) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-11-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 246 | 25.9 MB | — | — |
+| [11-15-23-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/g55kxt0d/11-15-23-cc-agenda-packet.pdf?t=202510301814410) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-11-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 246 | 25.9 MB | — | — |
+| [11-15-23-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/a3gnph1a/11-15-23-cc-agenda.pdf?t=202510301814310) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-11-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 201.1 KB | — | — |
+| [11-16-22-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vt1bfk3p/11-16-22-cc-agenda-packet.pdf?t=202602241115030) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2022-11-10 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 268 | 65.3 MB | — | — |
+| [11-16-22-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rgrhx4zh/11-16-22-cc-agenda.pdf?t=202602241114480) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2022-11-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 421.9 KB | — | — |
+| [11-16-22-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ceplbz4r/11-16-22-cc-minutes.pdf?t=202602241115160) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2014-08-26 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 11 | 6.3 MB | — | — |
+| [11-17-2021-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/fz4fnh2l/11-17-2021-cc-agenda-packet.pdf?t=202602241257410) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2021-11-12 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 503 | 68.1 MB | — | — |
+| [11-17-2021-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/zphnttmj/11-17-2021-cc-agenda.pdf?t=202602241257340) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2021-11-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 337.7 KB | — | — |
+| [11-17-21-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/kd2bajtb/11-17-21-cc-minutes.pdf?t=202602241257480) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2021-12-30 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 60 | 37.3 MB | — | — |
+| [11-17-25-puab-notice-of-meeting-cancellation.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/gndgmj0c/11-17-25-puab-notice-of-meeting-cancellation.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-11-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 260.4 KB | — | — |
+| [11-18-24-puab-notice-of-meeting-cancellation.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/k1xjdbn5/11-18-24-puab-notice-of-meeting-cancellation.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-11-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 133.8 KB | — | — |
+| [11-18-26-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vy5h1sur/11-18-26-cc-agenda-packet.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-11-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 586 | 32.1 MB | — | — |
+| [11-18-26-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/cjohx25b/11-18-26-cc-agenda.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-11-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 300.0 KB | — | — |
+| [11-19-25-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/f2hpbkw1/11-19-25-cc-agenda-packet.pdf?t=202511181631520) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-11-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 514 | 56.5 MB | — | — |
+| [11-19-25-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/aj4p1mck/11-19-25-cc-agenda.pdf?t=202511141846470) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-11-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 313.9 KB | — | — |
+| [11-19-25-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/gtmlety2/11-19-25-cc-minutes.pdf?t=202602050117450) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 48 | 3.4 MB | — | — |
+| [11-29-2021-special-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/flhfk5fn/11-29-2021-special-cc-agenda.pdf?t=202602241256420) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2021-11-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 251.0 KB | — | — |
+| [11-29-21-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rpuniftj/11-29-21-cc-minutes.pdf?t=202602241256530) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2021-12-30 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 820.6 KB | — | — |
+| [11-29-23-special-execuitve-session-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/tv3eadra/11-29-23-special-execuitve-session-agenda.pdf?t=202510301814520) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-11-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 119.6 KB | — | — |
+| [11-5-24-special-execuitve-session-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/0tldwzmh/11-5-24-special-execuitve-session-agenda.pdf?t=202510301815230) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-10-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 246.8 KB | — | — |
+| [11-5-24-special-executive-session-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/5acbwimk/11-5-24-special-executive-session-minutes.pdf?t=202510301815030) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 51.4 KB | — | — |
+| [12-1-25-notice-of-meeting-cancellation.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ifvnso2v/12-1-25-notice-of-meeting-cancellation.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-09-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 259.1 KB | — | — |
+| [12-10-25-animal-ord-workshop-cc-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ifin5crr/12-10-25-animal-ord-workshop-cc-packet.pdf?t=202602050125090) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-12-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | ❌ Fail | 117 | 1.2 MB | — | — |
+| [12-10-25-animal-ord-workshop.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/u4mnn3xq/12-10-25-animal-ord-workshop.pdf?t=202602050116470) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-12-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 243.7 KB | — | — |
+| [12-10-25-cc-workshop-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/0egeq10r/12-10-25-cc-workshop-minutes.pdf?t=202602050119210) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-01-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 20 | 1.5 MB | — | — |
+| [12-13-23-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/4ijjdjlq/12-13-23-cc-agenda-packet.pdf?t=202510301815470) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-12-12 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 409 | 51.5 MB | — | — |
+| [12-13-23-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/leudd2yj/12-13-23-cc-agenda.pdf?t=202510301815360) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2023-12-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 207.5 KB | — | — |
+| [12-14-2022-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/kfqh2gjc/12-14-2022-cc-agenda-packet.pdf?t=202602232253430) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2022-12-12 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 229 | 54.5 MB | — | — |
+| [12-14-22-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/umvlfp54/12-14-22-cc-agenda.pdf?t=202602232253370) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2022-12-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 430.0 KB | — | — |
+| [12-14-23-cc.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/52yda2yi/12-14-23-cc.pdf?t=202602232255160) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2014-08-26 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 29 | 2.0 MB | — | — |
+| [12-15-2021-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/k4rox4ev/12-15-2021-cc-agenda-packet.pdf?t=202602251017510) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2021-12-10 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 718 | 69.0 MB | — | — |
+| [12-15-2021-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/urqco0pk/12-15-2021-cc-agenda.pdf?t=202602251017430) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2021-12-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 339.5 KB | — | — |
+| [12-15-21-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/k25oatbg/12-15-21-cc-minutes.pdf?t=202602251018090) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2022-03-31 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 21 | 1.3 MB | — | — |
+| [12-15-23-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/whgatsbp/12-15-23-cc-minutes.pdf?t=202510301815590) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 88 | 5.2 MB | — | — |
+| [12-15-25-puab-notice-of-meeting-cancellation.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/fmqnljjb/12-15-25-puab-notice-of-meeting-cancellation.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-12-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 260.2 KB | — | — |
+| [12-16-24-puab-notice-of-meeting-cancellation.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/mx2fufzv/12-16-24-puab-notice-of-meeting-cancellation.pdf) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-12-13 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 208.9 KB | — | — |
+| [12-17-25-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ec3ji3pw/12-17-25-cc-agenda-packet.pdf?t=202602050113480) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-12-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | 332 | 29.6 MB | — | — |
+| [12-17-25-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ksyfdpsn/12-17-25-cc-agenda.pdf?t=202602050115060) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-12-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 284.6 KB | — | — |
+| [12-17-25-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/yb1prsv5/12-17-25-cc-minutes.pdf?t=202602050119370) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2026-01-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 36 | 2.7 MB | — | — |
+| [12-18-24-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/bgykkecb/12-18-24-cc-agenda-packet.pdf?t=202510301816200) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-12-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 382 | 67.5 MB | — | — |
+| [12-18-24-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/srwmowrx/12-18-24-cc-agenda.pdf?t=202510301817060) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-12-13 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 256.6 KB | — | — |
+| [12-3-25-cc-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/prtdrmgz/12-3-25-cc-agenda-packet.pdf?t=202602050114480) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-12-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 137 | 11.0 MB | — | — |
+| [12-3-25-cc-agenda.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/cfphevmc/12-3-25-cc-agenda.pdf?t=202602050114300) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2025-11-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 284.0 KB | — | — |
+| [12-3-25-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vt0bblxq/12-3-25-cc-minutes.pdf?t=202602050114090) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | 452.6 KB | — | — |
+| [12-30-24-special-cc-minutes-0.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/4opcb21n/12-30-24-special-cc-minutes.pdf?t=202510301817170) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | 121.9 KB | — | — |
+| [12-30-24-special-cc-minutes.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/4opcb21n/12-30-24-special-cc-minutes.pdf?t=202510301816380) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | 121.9 KB | — | — |
+| [12-30-24-special-cc-mtg-agenda-packet.pdf](https://media-002-us.cdn.govstack.com/torcnm-002-us/media/isulwhyl/12-30-24-special-cc-mtg-agenda-packet.pdf?t=202510301817280) | torcnm.gov *(ext: media-002-us.cdn.govstack.com)* | 2024-12-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 6 | 526.2 KB | — | — |
 
 ## Files with Errors or Notes
 
@@ -78139,494 +78222,494 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 ### 10-22-25-cc-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/xatblma5/10-22-25-cc-minutes.pdf?t=202602050119020
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-22-25-cc-minutes.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.127876+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- no date found, title, tagged, lang, fonts:/Helveticauntagged-images, 
 
 ### 10-23-24-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rysbxed2/10-23-24-cc-agenda-packet.pdf?t=202510301812180
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-23-24-cc-agenda-packet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.197085+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/*Times New Roman-Bold-6134-Identity-H, /NKFVHY+TimesNewRomanPS-BoldItalicMT, /BCDGEE+Calibri, /ERWTLQ+Cambria-Bold, /BCDEEE+Calibri-Bold, /Helvetica, /BCDFEE+Calibri, /SymbolMT, /GCTFNM+TimesNewRomanPS-ItalicMT, /JWJXDG+TimesNewRomanPSMT, /*Verdana-6138-Identity-H, /ATRVHY+SymbolMT, /*Times New Roman-Bold-Identity-H, /GUVFNM+TimesNewRomanPS-BoldMT, /PSJHJU+ArialMT, /*Times New Roman-Bold-6136-Identity-H, /YDUJFC+Cambria, /TimesNewRomanPS-BoldItalicMT, /*Times New Roman-Bold-6137-Identity-H, /*Times New Roman-6135-Identity-Hfigures-alt, headings-none, 
 
 ### 10-23-24-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/nq1ev3x2/10-23-24-cc-agenda.pdf?t=202510301812280
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-23-24-cc-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.202964+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/GCTFNM+TimesNewRomanPS-ItalicMT, /NKFVHY+TimesNewRomanPS-BoldItalicMT, /ATRVHY+SymbolMT, /GUVFNM+TimesNewRomanPS-BoldMT, /PSJHJU+ArialMT, /ERWTLQ+Cambria-Bold, /YDUJFC+Cambria, /JWJXDG+TimesNewRomanPSMTfigures-alt, headings-none, 
 
 ### 10-23-24-cc-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/40gngefy/10-23-24-cc-minutes.pdf?t=202510301812360
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-23-24-cc-minutes.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.210037+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helveticauntagged-images, 
 
 ### 10-25-23-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rotlbpl5/10-25-23-cc-agenda-packet.pdf?t=202510301812460
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-25-23-cc-agenda-packet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.281570+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/Arial-BoldMT, /BCDEEE+Cambria-Bold, /TimesNewRomanPSMT, /ArialMT, /BCDFEE+Cambria, /TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldItalicMT, /Helvetica, /SymbolMTheadings-none, 
 
 ### 10-25-23-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/jq3p5oyj/10-25-23-cc-agenda.pdf?t=202510301812570
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-25-23-cc-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.287226+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/Arial-BoldMT, /BCDEEE+Cambria-Bold, /TimesNewRomanPSMT, /ArialMT, /BCDFEE+Cambria, /TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldItalicMT, /SymbolMTheadings-none, 
 
 ### 10-26-22-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/kmuk2rbp/10-26-22-cc-agenda-packet.pdf?t=202602241121180
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-26-22-cc-agenda-packet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.381602+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, fonts:/Symbol, /Arial, /Times New Roman,Italic, /ABCDEE+Cambria,Italic, /ABCDEE+Cambria,Bold, /ABCDEE+Cambria, /Times New Roman,BoldItalic, /Times New Romanuntagged-images, 
 
 ### 10-26-22-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/4zljb4cl/10-26-22-cc-agenda.pdf?t=202602241121110
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-26-22-cc-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.387693+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/Symbol, /Arial, /Times New Roman,Italic, /ABCDEE+Cambria,Italic, /ABCDEE+Cambria,Bold, /ABCDEE+Cambria, /Times New Roman,BoldItalic, /Times New Romanheadings-none, 
 
 ### 10-26-22-cc-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/cgpdri3c/10-26-22-cc-minutes.pdf?t=202602241121260
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-26-22-cc-minutes.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.396772+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 10-26-22-cc-workshop-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2y0fo3vt/10-26-22-cc-workshop-minutes.pdf?t=202602241118070
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-26-22-cc-workshop-minutes.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.400473+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 10-26-22-special-cc-workshop-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/lzvbop4f/10-26-22-special-cc-workshop-agenda.pdf?t=202602241117510
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-26-22-special-cc-workshop-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.404221+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/Symbol, /Arial, /Times New Roman,Italic, /ABCDEE+Cambria,Bold, /ABCDEE+Cambria, /Times New Roman,Bold, /Times New Roman,BoldItalic, /Times New Romanheadings-none, 
 
 ### 10-27-2021-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/clxhgdtw/10-27-2021-cc-agenda-packet.pdf
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-27-2021-cc-agenda-packet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.470331+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, fonts:/Symbol, /ABCDEE+Cambria, /Arial, /Times New Roman,BoldItalic, /Times New Roman, /ABCDEE+Cambria,Bold, /IPVHYX+TimesNewRoman,Italicuntagged-images, annotations-untagged, 
 
 ### 10-27-2021-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/umdlui1i/10-27-2021-cc-agenda.pdf?t=202602241258430
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-27-2021-cc-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.476240+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/Symbol, /Arial, /Times New Roman,Italic, /ABCDEE+Cambria,Bold, /ABCDEE+Cambria, /Times New Roman,BoldItalic, /Times New Romanheadings-none, 
 
 ### 10-27-21-cc-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/0g2lvp0h/10-27-21-cc-minutes.pdf?t=202602241258530
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-27-21-cc-minutes.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.504370+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 10-28-26-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/gaxdiens/10-28-26-cc-agenda-packet.pdf
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-28-26-cc-agenda-packet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.532980+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/*Calibri-7004-Identity-H, /*Times New Roman-BoldItalic-Identity-H, /UDHJYK+MicrosoftSansSerif, /ArialMT, /*Times New Roman-7001-Identity-H, /XQSPFU+SymbolMT, /*Times New Roman-BoldItalic-7002-Identity-H, /*Minion Pro-Italic-7010-Identity-H, /*Arial-Bold-7008-Identity-H, /*Arial-7007-Identity-H, /*Times New Roman-7000-Identity-H, /Helvetica, /TimesNewRomanPS-BoldMT, /TCWWBC+Cambria, /*Calibri-BoldItalic-7006-Identity-H, /Arial-BoldMT, /TimesNewRomanPSMT, /*Minion Pro-Italic-7009-Identity-H, /YMJATS+Cambria-Bold, /TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldItalicMT, /*Times New Roman-Italic-7003-Identity-H, /*Calibri-Bold-7005-Identity-Hfigures-alt, headings-none, tables-fail, 
 
 ### 10-28-26-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/bpudq5nu/10-28-26-cc-agenda.pdf
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-28-26-cc-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.538882+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/DEUZLI+TimesNewRomanPS-ItalicMT, /LQVATS+ArialMT, /JNWORW+TimesNewRomanPS-BoldItalicMT, /YMJATS+Cambria-Bold, /XQSPFU+SymbolMT, /APIMVO+TimesNewRomanPS-BoldMT, /CSHYXK+TimesNewRomanPSMT, /TCWWBC+Cambriafigures-alt, headings-none, 
 
 ### 10-7-2024-p-z-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/uyonydpt/10-7-2024-p-z-agenda.pdf?t=202602061555280
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-7-2024-p-z-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.543642+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/Arial-BoldMT, /BCDFEE+Aptos, /BCDHEE+Aptos,Bold, /BCDIEE+Aptos, /BCDEEE+Calibri-Bold, /ArialMT, /BCDGEE+Aptos,Boldheadings-none, 
 
 ### 10-8-25-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/5y1c2jfq/10-8-25-cc-agenda-packet.pdf?t=202510301413020
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-8-25-cc-agenda-packet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.640754+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/BJWIQM+ErasITC-Medium, /AMAERX+Arial, /ZFEGLA+Calibri-Italic, /CPQLBT+Cambria, /ZFEGLA+Wingdings-Regular, /QHVEPS+Calibri-Light, /MIIOKV+SymbolMT, /CIDFont+F2, /Helvetica, /SWESQD+Calibri, /ZFEGLA+SymbolMT, /HHBPTJ+SymbolMT, /LFGNXB+TimesNewRomanPS-BoldMT, /NDWSTT+AmasisMTPro-Regular, /MIIOKV+Arial-BoldItalicMT, /CIDFont+F5, /JCCBVF+Cambria-Bold, /ZRODKP+Calibri-Bold, /XTZHIZ+Tahoma-Bold, /VHEVHH+ArialMT, /CIDFont+F1, /NQDZZX+TimesNewRomanPS-ItalicMT, /CIDFont+F3, /TEFJFL+TimesNewRomanPS-BoldItalicMT, /TCFACZ+LucidaConsole, /NDWSTT+AmasisMTPro-Bold, /NDWSTT+Arial-BoldMT, /MIIOKV+Arial-ItalicMT, /CIDFont+F4, /JVXEYW+Garamond, /NIFZZX+TimesNewRomanPSMTfigures-alt, tables-fail, 
 
 ### 10-8-25-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/jg1l1pcj/10-8-25-cc-agenda.pdf?t=202510301412520
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-8-25-cc-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.646728+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/JCCBVF+Cambria-Bold, /VHEVHH+ArialMT, /NQDZZX+TimesNewRomanPS-ItalicMT, /TEFJFL+TimesNewRomanPS-BoldItalicMT, /CPQLBT+Cambria, /HHBPTJ+SymbolMT, /LFGNXB+TimesNewRomanPS-BoldMT, /NIFZZX+TimesNewRomanPSMTfigures-alt, headings-none, 
 
 ### 10-8-25-cc-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/mnagkj5z/10-8-25-cc-minutes.pdf?t=202602050118040
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-8-25-cc-minutes.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.670350+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helveticauntagged-images, 
 
 ### 10-9-24-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/wr4bigz5/10-9-24-cc-agenda-packet.pdf?t=202510301813110
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-9-24-cc-agenda-packet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.710462+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/LXWXTW+ArialMT, /*Times New Roman-5300-Identity-H, /AUESUT+ArialRoundedMTBold, /LMHMDM+Calibri-Bold, /XNQAEZ+ArialMT, /DLVBLM+TimesNewRomanPS-ItalicMT, /*Calibri-4568-Identity-H, /KRCVEZ+Garamond-Bold, /*Calibri-Bold-4569-Identity-H, /Helvetica, /AWJJVS+Cambria-Bold, /*Calibri-BoldItalic-5305-Identity-H, /*Comic Sans MS-5306-Identity-H, /FGWNNI+TimesNewRomanPSMT, /KTHRFY+TimesNewRomanPS-BoldItalicMT, /XCTRFY+SymbolMT, /*Times New Roman-5301-Identity-H, /LMHMDO+Calibri, /*Times New Roman-Italic-5302-Identity-H, /*Minion Pro-Italic-5307-Identity-H, /UNHZPE+Cambria, /*Calibri-5303-Identity-H, /LMHMCL+MicrosoftSansSerif, /PBUZWP+Garamond, /*Calibri-Bold-5304-Identity-Hfigures-alt, headings-none, 
 
 ### 10-9-24-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/fgyifquh/10-9-24-cc-agenda.pdf?t=202510301813240
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-9-24-cc-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.716421+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/LXWXTW+ArialMT, /DLVBLM+TimesNewRomanPS-ItalicMT, /UNHZPE+Cambria, /CZIVXO+TimesNewRomanPS-BoldMT, /AWJJVS+Cambria-Bold, /KTHRFY+TimesNewRomanPS-BoldItalicMT, /FGWNNI+TimesNewRomanPSMT, /XCTRFY+SymbolMTfigures-alt, headings-none, 
 
 ### 10-9-24-cc-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/5b2jrljd/10-9-24-cc-minutes.pdf?t=202510301813360
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-9-24-cc-minutes.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.737076+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helveticauntagged-images, 
 
 ### 10-kw-application.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/d4dgbjcu/10-kw-application.pdf
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-kw-application.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.742172+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- no date found, title, tagged, lang, untagged-images, 
 
 ### 10-kw-instruction-cover-sheet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/h1jckgpf/10-kw-instruction-cover-sheet.pdf
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-kw-instruction-cover-sheet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.747790+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- no date found, title, tagged, lang, untagged-images, 
 
 ### 10-kw-ts-cs-nm-interconnection-application.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/h0gd22mg/10-kw-ts-cs-nm-interconnection-application.pdf
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-kw-ts-cs-nm-interconnection-application.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.752474+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- no date found, title, tagged, lang, untagged-images, 
 
 ### 10-mw-application.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/kzmc4rvn/10-mw-application.pdf
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-mw-application.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.756725+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- no date found, title, tagged, lang, untagged-images, 
 
 ### 10-mw-instruction-cover-sheet-for-photovoltaic-systems.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/oewbwbeh/10-mw-instruction-cover-sheet-for-photovoltaic-systems.pdf
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-mw-instruction-cover-sheet-for-photovoltaic-systems.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.760898+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/Symbol, /ABCDEE+Calibri,Italic, /ABCDEE+Calibri, /Arial,Italic, /ABCDEE+Calibri,Bold, /Arialheadings-none, 
 
 ### 10-mw-ts-cs.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/xsujtyzs/10-mw-ts-cs.pdf
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/10-mw-ts-cs.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.765466+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- no date found, title, tagged, lang, untagged-images, 
 
 ### 11-04-2024-pz-cancellation.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/hffnqbfg/11-04-2024-pz-cancellation.pdf
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-04-2024-pz-cancellation.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.768650+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- fonts:/BCDGEE+Cambria, /TimesNewRomanPSMT, /ArialMT, /TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldItalicMT, /BCDEEE+Calibri-Bold, /TimesNewRomanPS-BoldMT, /BCDFEE+Calibri, /SymbolMTheadings-none, 
 
 ### 11-10-2025-pz-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/adqn0bxz/11-10-2025-pz-agenda.pdf?t=202511131139140
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-10-2025-pz-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.771390+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/MKVHSU+ArialMT, /UWWIAE+Calibri, /CIXEIO+Calibri-Bold, /ONUYUQ+Arial-BoldMTheadings-none, 
 
 ### 11-12-2024-ltab-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rjci34mt/11-12-2024-ltab-agenda.pdf
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-12-2024-ltab-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.773972+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/BPCGBB+Arial-BoldMT, /QOPSDX+Calibri-Bold, /ZMDUZF+ArialMT, /JBDCJL+Calibriheadings-none, 
 
 ### 11-13-24-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/kxtpftrr/11-13-24-cc-agenda-packet.pdf?t=202510301813510
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-13-24-cc-agenda-packet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.872265+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/*Times New Roman-4510-Identity-H, /*Calibri-BoldItalic-4515-Identity-H, /*Calibri-4513-Identity-H, /QEVHOX+TimesNewRomanPS-BoldMT, /Helvetica, /QMTCOX+TimesNewRomanPS-ItalicMT, /*Minion Pro-Italic-4516-Identity-H, /YDUYWH+ArialMT, /*Times New Roman-BoldItalic-4512-Identity-H, /*Times New Roman-4511-Identity-H, /HOKFSP+Cambria, /WVVMUL+TimesNewRomanPS-BoldItalicMT, /LXBIQH+SymbolMT, /*Calibri-Bold-4514-Identity-H, /SHUTQT+TimesNewRomanPSMT, /NXHPYD+Cambria-Boldfigures-alt, headings-none, 
 
 ### 11-13-24-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/pt0hvh21/11-13-24-cc-agenda.pdf?t=202510301814050
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-13-24-cc-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.878057+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/RGDSWV+TimesNewRomanPS-ItalicMT, /JMEWOL+Cambria, /TBEEYR+TimesNewRomanPSMT, /LXBIQH+SymbolMT, /AWOUSD+ArialMT, /QUQMIX+TimesNewRomanPS-BoldMT, /YTPIQH+TimesNewRomanPS-BoldItalicMT, /PVGGUZ+Cambria-Boldfigures-alt, headings-none, 
 
 ### 11-13-24-cc-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/acoixew3/11-13-24-cc-minutes.pdf?t=202510301814170
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-13-24-cc-minutes.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.888559+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helveticauntagged-images, 
 
 ### 11-15-23-cc-agenda-packet-0.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/g55kxt0d/11-15-23-cc-agenda-packet.pdf?t=202510301318530
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-15-23-cc-agenda-packet-0.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:17.952838+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/Arial-BoldMT, /BCDEEE+Cambria-Bold, /TimesNewRomanPSMT, /ArialMT, /BCDFEE+Cambria, /TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldItalicMT, /Helvetica, /SymbolMTheadings-none, 
 
 ### 11-15-23-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/g55kxt0d/11-15-23-cc-agenda-packet.pdf?t=202510301814410
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-15-23-cc-agenda-packet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.017929+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/Arial-BoldMT, /BCDEEE+Cambria-Bold, /TimesNewRomanPSMT, /ArialMT, /BCDFEE+Cambria, /TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldItalicMT, /Helvetica, /SymbolMTheadings-none, 
 
 ### 11-15-23-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/a3gnph1a/11-15-23-cc-agenda.pdf?t=202510301814310
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-15-23-cc-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.023565+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/Arial-BoldMT, /BCDEEE+Cambria-Bold, /TimesNewRomanPSMT, /ArialMT, /BCDFEE+Cambria, /TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldItalicMT, /SymbolMTheadings-none, 
 
 ### 11-16-22-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vt1bfk3p/11-16-22-cc-agenda-packet.pdf?t=202602241115030
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-16-22-cc-agenda-packet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.178888+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, fonts:/Symbol, /Arial, /Times New Roman,Italic, /ABCDEE+Cambria,Italic, /ABCDEE+Cambria,Bold, /ABCDEE+Cambria, /Times New Roman,BoldItalic, /Times New Romanuntagged-images, 
 
 ### 11-16-22-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rgrhx4zh/11-16-22-cc-agenda.pdf?t=202602241114480
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-16-22-cc-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.185152+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/Symbol, /Arial, /Times New Roman,Italic, /ABCDEE+Cambria,Italic, /ABCDEE+Cambria,Bold, /ABCDEE+Cambria, /Times New Roman,BoldItalic, /Times New Romanheadings-none, 
 
 ### 11-16-22-cc-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ceplbz4r/11-16-22-cc-minutes.pdf?t=202602241115160
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-16-22-cc-minutes.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.204799+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 11-17-2021-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/fz4fnh2l/11-17-2021-cc-agenda-packet.pdf?t=202602241257410
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-17-2021-cc-agenda-packet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.367771+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, fonts:/Symbol, /ABCDEE+Cambria, /Arial, /Times New Roman,Italic, /Times New Roman,BoldItalic, /Times New Roman, /ABCDEE+Cambria,Bolduntagged-images, annotations-untagged, 
 
 ### 11-17-2021-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/zphnttmj/11-17-2021-cc-agenda.pdf?t=202602241257340
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-17-2021-cc-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.373869+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/Symbol, /Arial, /Times New Roman,Italic, /ABCDEE+Cambria,Bold, /ABCDEE+Cambria, /Times New Roman,BoldItalic, /Times New Romanheadings-none, 
 
 ### 11-17-21-cc-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/kd2bajtb/11-17-21-cc-minutes.pdf?t=202602241257480
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-17-21-cc-minutes.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.464540+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 11-17-25-puab-notice-of-meeting-cancellation.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/gndgmj0c/11-17-25-puab-notice-of-meeting-cancellation.pdf
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-17-25-puab-notice-of-meeting-cancellation.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.470758+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- fonts:/SWAVRO+ArialMT, /SWAVRO+TimesNewRomanPSMT, /CYDDBU+Calibri, /KSCUJE+TimesNewRomanPS-ItalicMT, /EBCPDQ+TimesNewRomanPS-BoldMT, /RFOKDQ+TimesNewRomanPS-BoldItalicMT, /CYDDBU+Calibri-Bold, /IPYIHI+SymbolMT, /TINWFM+Cambriafigures-alt, headings-none, 
 
 ### 11-18-24-puab-notice-of-meeting-cancellation.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/k1xjdbn5/11-18-24-puab-notice-of-meeting-cancellation.pdf
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-18-24-puab-notice-of-meeting-cancellation.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.475798+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- fonts:/BCDGEE+Cambria, /TimesNewRomanPSMT, /ArialMT, /TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldItalicMT, /BCDEEE+Calibri-Bold, /TimesNewRomanPS-BoldMT, /BCDFEE+Calibri, /SymbolMTheadings-none, 
 
 ### 11-18-26-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vy5h1sur/11-18-26-cc-agenda-packet.pdf
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-18-26-cc-agenda-packet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.553954+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/*Calibri-5459-Identity-H, /SVCZLO+MS-Gothic, /*Times New Roman-Bold-5870-Identity-H, /BCDGEE+TimesNewRomanPS-BoldMT, /VCQRBI+SymbolMT, /UYBLNK+Calibri-Italic, /ArialMT, /*Times New Roman-6183-Identity-H, /RMOLHA+Cambria-Bold, /OPZBHW+SegoeUISymbol, /XXRIDE+Broadway, /KBDDDE+Calibri, /*Minion Pro-Italic-5462-Identity-H, /*Times New Roman-5457-Identity-H, /TimesNewRomanPS-BoldMT, /*Times New Roman-Bold-6184-Identity-H, /*Times New Roman-8415-Identity-H, /*Times New Roman-Italic-7791-Identity-H, /BCDHEE+TimesNewRomanPS-BoldItalicMT, /TimesNewRomanPSMT, /*Times New Roman-Italic-5458-Identity-H, /*Calibri-Bold-5460-Identity-H, /*Calibri-Identity-H, /BCDIEE+TimesNewRomanPS-ItalicMT, /DORNJS+Calibri-BoldItalic, /*Times New Roman-Italic-8419-Identity-H, /*Times New Roman-8416-Identity-H, /*Times New Roman-BoldItalic-8418-Identity-H, /*Times New Roman-Bold-Identity-H, /TimesNewRomanPS-ItalicMT, /*Times New Roman-5456-Identity-H, /*Times New Roman-5548-Identity-H, /BCDFEE+TimesNewRomanPSMT, /*Times New Roman-5455-Identity-H, /*Times New Roman-Bold-5549-Identity-H, /*Times New Roman-Italic-8421-Identity-H, /*Times New Roman-BoldItalic-8420-Identity-H, /*Times New Roman-Bold-8417-Identity-H, /*Times New Roman-5869-Identity-H, /*Times New Roman-BoldItalic-7792-Identity-H, /Helvetica, /*Calibri-BoldItalic-5461-Identity-H, /HCNLNK+MonotypeCorsiva, /QKFNJS+Calibri-Bold, /*Times New Roman-7789-Identity-H, /*Times New Roman-Bold-6185-Identity-H, /*Times New Roman-5550-Identity-H, /BCDEEE+ArialMT, /LDMBBM+Cambria, /TimesNewRomanPS-BoldItalicMT, /*Times New Roman-7788-Identity-H, /*Times New Roman-Bold-7790-Identity-H, /DMIZZN+MonotypeCorsiva, /*Times New Roman-Bold-5551-Identity-H, /*Times New Roman-Bold-5871-Identity-Hfigures-alt, tables-fail, 
 
 ### 11-18-26-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/cjohx25b/11-18-26-cc-agenda.pdf
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-18-26-cc-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.559871+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/WEZKZQ+TimesNewRomanPS-ItalicMT, /DRLATC+ArialMT, /TPNXJW+TimesNewRomanPS-BoldMT, /LDMBBM+Cambria, /RMOLHA+Cambria-Bold, /VSMJLS+TimesNewRomanPSMT, /BOMORG+TimesNewRomanPS-BoldItalicMTfigures-alt, headings-none, 
 
 ### 11-19-25-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/f2hpbkw1/11-19-25-cc-agenda-packet.pdf?t=202511181631520
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-19-25-cc-agenda-packet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.695096+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/OASZPR+Cambria-Italic, /ASWTBT+TimesNewRomanPS-BoldItalicMT, /WEVAXB+TimesNewRomanPSMT, /NLACMN+Calibri-Light, /XAAKWT+SymbolMT, /ULOXGZ+Calibri-Bold, /CVVFDP+ArialMT, /BCDKEE+TimesNewRomanPS-ItalicMT, /PZHFDP+SymbolMT, /*Times New Roman-5719-Identity-H, /*Calibri-BoldItalic-5723-Identity-H, /LLGHZX+Cambria, /BCDGEE+TimesNewRomanPSMT, /RUIWFL+Cambria-Bold, /*Calibri-Identity-H, /*Calibri-Bold-5722-Identity-H, /*Times New Roman-5718-Identity-H, /*Calibri-Bold-5802-Identity-H, /WBQEIV+Calibri-Italic, /IBNYUX+Arial-BoldMT, /*Calibri-5801-Identity-H, /UJUJVF+TimesNewRomanPS-ItalicMT, /*Calibri-BoldItalic-5803-Identity-H, /BCDLEE+ArialMT, /*Times New Roman-Italic-5720-Identity-H, /BCDFEE+TimesNewRomanPS-BoldMT, /TXHIHH+TimesNewRomanPS-BoldMT, /OCRIAL+Calibri, /CKSOOJ+Calibri-BoldItalic, /BCDMEE+TimesNewRomanPS-BoldItalicMT, /POEOOJ+SegoeUISymbol, /Helvetica, /UYRSGZ+MS-Gothic, /LIBQKR+MonotypeCorsiva, /*Times New Roman-5798-Identity-H, /*Minion Pro-Italic-5804-Identity-H, /BCDJEE+TimesNewRomanPS-ItalicMT, /*Times New Roman-Italic-5800-Identity-H, /CCPTOJ+Broadway, /BCDIEE+TimesNewRomanPS-BoldItalicMT, /*Times New Roman-5799-Identity-H, /*Calibri-5721-Identity-H, /BCDHEE+TimesNewRomanPSMT, /*Minion Pro-Italic-5724-Identity-H, /BCDEEE+TimesNewRomanPS-BoldMTfigures-alt, tables-fail, 
 
 ### 11-19-25-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/aj4p1mck/11-19-25-cc-agenda.pdf?t=202511141846470
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-19-25-cc-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.701321+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/UJUJVF+TimesNewRomanPS-ItalicMT, /LLGHZX+Cambria, /OASZPR+Cambria-Italic, /RUIWFL+Cambria-Bold, /ASWTBT+TimesNewRomanPS-BoldItalicMT, /WEVAXB+TimesNewRomanPSMT, /CVVFDP+ArialMT, /PZHFDP+SymbolMT, /TXHIHH+TimesNewRomanPS-BoldMTfigures-alt, headings-none, 
 
 ### 11-19-25-cc-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/gtmlety2/11-19-25-cc-minutes.pdf?t=202602050117450
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-19-25-cc-minutes.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.712462+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helveticauntagged-images, 
 
 ### 11-29-2021-special-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/flhfk5fn/11-29-2021-special-cc-agenda.pdf?t=202602241256420
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-29-2021-special-cc-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.717082+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/Symbol, /Arial, /Times New Roman,Italic, /ABCDEE+Cambria,Bold, /ABCDEE+Cambria, /Times New Roman,Bold, /Times New Roman,BoldItalic, /Times New Romanheadings-none, 
 
 ### 11-29-21-cc-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/rpuniftj/11-29-21-cc-minutes.pdf?t=202602241256530
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-29-21-cc-minutes.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.722111+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 11-29-23-special-execuitve-session-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/tv3eadra/11-29-23-special-execuitve-session-agenda.pdf?t=202510301814520
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-29-23-special-execuitve-session-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.724808+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/BCDGEE+Cambria, /TimesNewRomanPSMT, /ArialMT, /TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldItalicMT, /BCDFEE+Cambria-Bold, /BCDEEE+Cambria, /SymbolMTheadings-none, 
 
 ### 11-5-24-special-execuitve-session-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/0tldwzmh/11-5-24-special-execuitve-session-agenda.pdf?t=202510301815230
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-5-24-special-execuitve-session-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.727480+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/LBGNWB+Cambria-Bold, /SOXDQN+Cambria, /JYHWUF+ArialMT, /GWTEEL+Cambria-Italic, /XGICID+TimesNewRomanPS-ItalicMT, /VDEQGH+SymbolMT, /ETUSCP+TimesNewRomanPS-BoldItalicMT, /VVGVGH+TimesNewRomanPSMTfigures-alt, headings-none, 
 
 ### 11-5-24-special-executive-session-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/5acbwimk/11-5-24-special-executive-session-minutes.pdf?t=202510301815030
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/11-5-24-special-executive-session-minutes.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.729639+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- no date found, title, tagged, lang, fonts:/Helveticauntagged-images, 
 
 ### 12-1-25-notice-of-meeting-cancellation.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ifvnso2v/12-1-25-notice-of-meeting-cancellation.pdf
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-1-25-notice-of-meeting-cancellation.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.732210+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- fonts:/LMXWDX+TimesNewRomanPSMT, /PFTUHP+Calibri-Bold, /NKSDFT+Calibri, /SACCXJ+SymbolMT, /LMXWDX+TimesNewRomanPS-BoldMT, /QHCVVN+TimesNewRomanPS-BoldItalicMT, /IDEUND+TimesNewRomanPS-ItalicMT, /GUMXLH+ArialMT, /FGUHXJ+Cambriafigures-alt, headings-none, 
 
 ### 12-10-25-animal-ord-workshop-cc-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ifin5crr/12-10-25-animal-ord-workshop-cc-packet.pdf?t=202602050125090
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-10-25-animal-ord-workshop-cc-packet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.737014+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, lang, fonts:/TZZKCW+Cambria-Bold, /BCDLEE+Consolas, /EAMYAA+TimesNewRomanPS-ItalicMT, /BCDFEE+TimesNewRomanPS-BoldMT, /NQCAWI+TimesNewRomanPS-BoldMT, /BCDIEE+TimesNewRomanPSMT, /BCDKEE+TimesNewRomanPS-BoldItalicMT, /BCDGEE+TimesNewRomanPS-BoldMT, /PTBMYE+ArialMT, /BCDKEE+TimesNewRomanPS-ItalicMT, /BCDFEE+Calibri, /BCDNEE+TimesNewRomanPS-ItalicMT, /BCDEEE+TimesNewRomanPSMT, /BCDGEE+TimesNewRomanPSMT, /AMQAWI+Cambria, /BCDPEE+Calibri, /BCDJEE+ArialMT, /BCDOEE+TimesNewRomanPS-BoldItalicMT, /LNDOUM+TimesNewRomanPS-BoldItalicMT, /BCDMEE+TimesNewRomanPS-ItalicMT, /ESOYAA+TimesNewRomanPSMT, /BCDJEE+TimesNewRomanPS-ItalicMT, /BCDIEE+TimesNewRomanPS-BoldItalicMT, /CXNMYE+SymbolMT, /BCDHEE+TimesNewRomanPS-BoldMT, /BCDHEE+TimesNewRomanPSMT, /BCDEEE+TimesNewRomanPS-BoldMTfigures-alt, lists-fail, 
 
 ### 12-10-25-animal-ord-workshop.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/u4mnn3xq/12-10-25-animal-ord-workshop.pdf?t=202602050116470
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-10-25-animal-ord-workshop.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.739621+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/TZZKCW+Cambria-Bold, /EAMYAA+TimesNewRomanPS-ItalicMT, /NQCAWI+TimesNewRomanPS-BoldMT, /AMQAWI+Cambria, /PTBMYE+ArialMT, /LNDOUM+TimesNewRomanPS-BoldItalicMT, /ESOYAA+TimesNewRomanPSMT, /CXNMYE+SymbolMTfigures-alt, headings-none, 
 
 ### 12-10-25-cc-workshop-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/0egeq10r/12-10-25-cc-workshop-minutes.pdf?t=202602050119210
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-10-25-cc-workshop-minutes.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.745027+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, fonts:/Helveticauntagged-images, 
 
 ### 12-13-23-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/4ijjdjlq/12-13-23-cc-agenda-packet.pdf?t=202510301815470
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-13-23-cc-agenda-packet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.866816+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/Arial-BoldMT, /BCDGEE+Cambria, /BCDEEE+Cambria-Bold, /TimesNewRomanPSMT, /ArialMT, /BCDFEE+Cambria, /TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldItalicMT, /Helvetica, /SymbolMTheadings-none, 
 
 ### 12-13-23-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/leudd2yj/12-13-23-cc-agenda.pdf?t=202510301815360
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-13-23-cc-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:18.872555+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/Arial-BoldMT, /BCDGEE+Cambria, /BCDEEE+Cambria-Bold, /TimesNewRomanPSMT, /ArialMT, /BCDFEE+Cambria, /TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldItalicMT, /SymbolMTheadings-none, 
 
 ### 12-14-2022-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/kfqh2gjc/12-14-2022-cc-agenda-packet.pdf?t=202602232253430
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-14-2022-cc-agenda-packet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:19.003011+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, fonts:/Symbol, /Arial, /Times New Roman,Italic, /ABCDEE+Cambria,Italic, /ABCDEE+Cambria,Bold, /ABCDEE+Cambria, /Times New Roman,BoldItalic, /Times New Romanuntagged-images, 
 
 ### 12-14-22-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/umvlfp54/12-14-22-cc-agenda.pdf?t=202602232253370
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-14-22-cc-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:19.009096+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/Symbol, /Arial, /Times New Roman,Italic, /ABCDEE+Cambria,Italic, /ABCDEE+Cambria,Bold, /ABCDEE+Cambria, /Times New Roman,BoldItalic, /Times New Romanheadings-none, 
 
 ### 12-14-23-cc.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/52yda2yi/12-14-23-cc.pdf?t=202602232255160
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-14-23-cc.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:19.016627+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 12-15-2021-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/k4rox4ev/12-15-2021-cc-agenda-packet.pdf?t=202602251017510
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-15-2021-cc-agenda-packet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:19.179057+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, fonts:/ABCDEE+Cambria, /Arial, /Times New Roman,Italic, /Times New Roman, /ABCDEE+Cambria,Bolduntagged-images, annotations-untagged, 
 
 ### 12-15-2021-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/urqco0pk/12-15-2021-cc-agenda.pdf?t=202602251017430
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-15-2021-cc-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:19.185074+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/Symbol, /Arial, /Times New Roman,Italic, /ABCDEE+Cambria,Bold, /ABCDEE+Cambria, /Times New Roman,BoldItalic, /Times New Roman, /Arial,Boldheadings-none, 
 
 ### 12-15-21-cc-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/k25oatbg/12-15-21-cc-minutes.pdf?t=202602251018090
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-15-21-cc-minutes.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:19.191890+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### 12-15-23-cc-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/whgatsbp/12-15-23-cc-minutes.pdf?t=202510301815590
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-15-23-cc-minutes.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:19.206885+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helveticauntagged-images, 
 
 ### 12-15-25-puab-notice-of-meeting-cancellation.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/fmqnljjb/12-15-25-puab-notice-of-meeting-cancellation.pdf
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-15-25-puab-notice-of-meeting-cancellation.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:19.211450+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- fonts:/OMTLCV+ArialMT, /WGSHKF+TimesNewRomanPS-BoldMT, /LNDTMB+TimesNewRomanPS-ItalicMT, /LNDTMB+SymbolMT, /UDTVIJ+Calibri, /UDTVIJ+Calibri-Bold, /ZNGZAZ+TimesNewRomanPSMT, /LNDTMB+TimesNewRomanPS-BoldItalicMT, /LNDTMB+Cambriafigures-alt, headings-none, 
 
 ### 12-16-24-puab-notice-of-meeting-cancellation.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/mx2fufzv/12-16-24-puab-notice-of-meeting-cancellation.pdf
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-16-24-puab-notice-of-meeting-cancellation.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:19.215337+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- fonts:/ERPOQV+ArialMT, /DADDCX+TimesNewRomanPS-ItalicMT, /ALRQMD+TimesNewRomanPSMT, /SZQUET+Calibri, /BXERAB+SymbolMT, /YISEKH+TimesNewRomanPS-BoldMT, /MQTKYF+Cambria, /KNPTWJ+TimesNewRomanPS-BoldItalicMT, /WFTSIL+Calibri-Boldheadings-none, 
 
 ### 12-17-25-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ec3ji3pw/12-17-25-cc-agenda-packet.pdf?t=202602050113480
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-17-25-cc-agenda-packet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:19.286558+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/YBHPTS+Broadway, /BCDLEE+Consolas, /JMJISL+SymbolMT, /BCDKEE+TimesNewRomanPS-BoldItalicMT, /BCDGEE+TimesNewRomanPS-BoldMT, /GCIKTG+Arial-ItalicMT, /LNWKTS+Calibri-Light, /FTIKOT+Cambria, /JKSYRW+MonotypeCorsiva, /BCDFEE+Calibri, /BCDEEE+TimesNewRomanPSMT, /WIXISL+ArialMT, /PVGSYZ+TimesNewRomanPS-ItalicMT, /NKJLWD+TimesNewRomanPS-BoldMT, /BCDJEE+ArialMT, /BCDOEE+TimesNewRomanPS-BoldItalicMT, /KGJEFU+Calibri, /IIUCEN+Cambria-Italic, /BCDEEE+Cambria, /LHKZUH+Cambria-Bold, /PNIXYZ+TimesNewRomanPSMT, /DTXOLI+Calibri-BoldItalic, /VHWSDY+Calibri-Italic, /BCDGEE+Cambria-Bold, /BCDIEE+TimesNewRomanPSMT, /NQVWVO+SegoeUISymbol, /UFTWQP+TimesNewRomanPS-BoldItalicMT, /GIJGBC+Arial-BoldMT, /BCDFEE+Cambria, /QPGOLI+Calibri-Bold, /Helvetica, /BCDNEE+TimesNewRomanPS-ItalicMT, /SAIANE+MS-Gothic, /YJFKTS+SymbolMT, /BCDPEE+Calibri, /BCDMEE+TimesNewRomanPS-ItalicMT, /BCDHEE+TimesNewRomanPSMT, /BCDHEE+TimesNewRomanPS-BoldMTfigures-alt, lists-fail, tables-fail, 
 
 ### 12-17-25-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/ksyfdpsn/12-17-25-cc-agenda.pdf?t=202602050115060
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-17-25-cc-agenda.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:19.292486+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/WIXISL+ArialMT, /JMJISL+SymbolMT, /PVGSYZ+TimesNewRomanPS-ItalicMT, /NKJLWD+TimesNewRomanPS-BoldMT, /UFTWQP+TimesNewRomanPS-BoldItalicMT, /FTIKOT+Cambria, /IIUCEN+Cambria-Italic, /LHKZUH+Cambria-Bold, /PNIXYZ+TimesNewRomanPSMTfigures-alt, headings-none, 
 
 ### 12-17-25-cc-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/yb1prsv5/12-17-25-cc-minutes.pdf?t=202602050119370
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-17-25-cc-minutes.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:19.302082+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Helveticauntagged-images, 
 
 ### 12-18-24-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/bgykkecb/12-18-24-cc-agenda-packet.pdf?t=202510301816200
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-18-24-cc-agenda-packet.pdf (crawled 0.2 day(s) ago at 2026-11-19T20:22:19.461245+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/NBWTJN+TimesNewRomanPS-ItalicMT, /SLJXBD+TimesNewRomanPS-BoldItalicMT, /VNXPRX+ArialMT, /ArialMT, /EBGGJF+TimesNewRomanPSMT, /Helvetica, /BCDEEE+Calibri-Bold, /TimesNewRomanPS-BoldMT, /UZIDZZ+ArialRoundedMTBold, /BCDFEE+Calibri, /FBOSXY+Arial, /OXIEXL+Cambria-Bold, /TCVIPB+TimesNewRomanPSMT, /Arial-BoldMT, /UZIDZZ+Garamond, /TimesNewRomanPSMT, /PGGADE+ArialMT, /QAMQZH+TimesNewRomanPS-BoldMT, /UZIDZZ+TimesNewRomanPS-BoldMT, /IWJPRX+SymbolMT, /UZIDZZ+ArialMT, /JNVAFV+Cambriafigures-alt, 
 
 ### 12-18-24-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/srwmowrx/12-18-24-cc-agenda.pdf?t=202510301817060
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-18-24-cc-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.467616+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/TCVIPB+TimesNewRomanPSMT, /NBWTJN+TimesNewRomanPS-ItalicMT, /SLJXBD+TimesNewRomanPS-BoldItalicMT, /VNXPRX+ArialMT, /QAMQZH+TimesNewRomanPS-BoldMT, /IWJPRX+SymbolMT, /OXIEXL+Cambria-Bold, /JNVAFV+Cambriafigures-alt, headings-none, 
 
 ### 12-3-25-cc-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/prtdrmgz/12-3-25-cc-agenda-packet.pdf?t=202602050114480
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-3-25-cc-agenda-packet.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.496982+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/NFNKYI+Cambria, /AJZKYI+TimesNewRomanPS-BoldItalicMT, /DQNCOC+Cambria-Italic, /WVYRUQ+TimesNewRomanPS-BoldMT, /TWIUEW+TimesNewRomanPS-ItalicMT, /Helvetica, /ABBPYI+TimesNewRomanPSMT, /NNLKYI+SymbolMT, /TOKZEW+Cambria-Bold, /FTMOQY+ArialMTfigures-alt, headings-none, 
 
 ### 12-3-25-cc-agenda.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/cfphevmc/12-3-25-cc-agenda.pdf?t=202602050114300
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-3-25-cc-agenda.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.503036+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, fonts:/NFNKYI+Cambria, /AJZKYI+TimesNewRomanPS-BoldItalicMT, /DQNCOC+Cambria-Italic, /WVYRUQ+TimesNewRomanPS-BoldMT, /TWIUEW+TimesNewRomanPS-ItalicMT, /ABBPYI+TimesNewRomanPSMT, /NNLKYI+SymbolMT, /TOKZEW+Cambria-Bold, /FTMOQY+ArialMTfigures-alt, headings-none, 
 
 ### 12-3-25-cc-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/vt0bblxq/12-3-25-cc-minutes.pdf?t=202602050114090
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-3-25-cc-minutes.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.508534+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- no date found, title, tagged, lang, fonts:/Helveticauntagged-images, 
 
 ### 12-30-24-special-cc-minutes-0.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/4opcb21n/12-30-24-special-cc-minutes.pdf?t=202510301817170
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-30-24-special-cc-minutes-0.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.512369+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- no date found, title, tagged, lang, untagged-images, 
 
 ### 12-30-24-special-cc-minutes.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/4opcb21n/12-30-24-special-cc-minutes.pdf?t=202510301816380
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-30-24-special-cc-minutes.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.515586+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- no date found, title, tagged, lang, untagged-images, 
 
 ### 12-30-24-special-cc-mtg-agenda-packet.pdf
 
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/isulwhyl/12-30-24-special-cc-mtg-agenda-packet.pdf?t=202510301817280
-- **Status**: error
-- File not found: crawled_files/torcnm.gov/12-30-24-special-cc-mtg-agenda-packet.pdf (crawled 0.1 day(s) ago at 2026-11-19T20:22:19.519492+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, lang, fonts:/EDOYOQ+ArialMT, /KCSCVE+Calibri-Light, /IZTQTI+MonotypeCorsiva, /YXQNJC+SymbolMT, /NTEFKY+Cambria, /PZHLNU+Calibri-Bold, /ELSXPQ+Calibri-BoldItalic, /GWUERM+Arial-BoldMT, /VNJVTI+Broadway, /FHDECO+Cambria-Bold, /KUUHVE+Calibri, /KZOIUE+SymbolMT, /QANXAS+TimesNewRomanPSMT, /SOTYDO+MS-Gothic, /CAPMMU+Cambria-Italic, /URSPFK+Calibri-Italic, /NJGULY+SegoeUISymbol, /ZYBUWA+TimesNewRomanPS-BoldItalicMT, /MCNUWA+TimesNewRomanPS-ItalicMTfigures-alt, tables-fail, 
 
 ### 12-30-24-special-meeting-agenda.pdf
 
