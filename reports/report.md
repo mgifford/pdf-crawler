@@ -1,6 +1,6 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-11-20T23:22:38.583442+00:00
+Generated: 2026-11-21T00:05:57.520603+00:00
 
 ## Summary
 
@@ -8,8 +8,8 @@ Generated: 2026-11-20T23:22:38.583442+00:00
 |--------|-------|
 | Total files tracked | 32305 |
 | Analysed | 6986 |
-| Pending analysis | 18306 |
-| Errors during analysis | 7013 |
+| Pending analysis | 18299 |
+| Errors during analysis | 7020 |
 | Accessible | 2155 |
 | Issues found | 4831 |
 | Totally inaccessible subset | 312 |
@@ -79339,3 +79339,45 @@ Annual Report | VT Office for Equity & Accessibility | {'Office for Equity & Acc
 - **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/243nf15h/4-16-24-paab-agenda.pdf
 - **Status**: error
 - File not found: crawled_files/torcnm.gov/4-16-24-paab-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.936965+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-17-2024-special-budget-cc-minutes.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/wqvfjopp/4-17-2024-special-budget-cc-minutes.pdf?t=202510301259480
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-17-2024-special-budget-cc-minutes.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:22.998434+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-17-2024-special-cc-budget-workshop-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/jotjegeo/4-17-2024-special-cc-budget-workshop-agenda.pdf?t=202510301259540
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-17-2024-special-cc-budget-workshop-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:23.003100+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-17-24-special-budget-workshop-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/3ein0soi/4-17-24-special-budget-workshop-agenda-packet.pdf?t=202510301300010
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-17-24-special-budget-workshop-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:23.069283+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-17-25-puab-notice-of-meeting-cancellation.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/5ishyyck/4-17-25-puab-notice-of-meeting-cancellation.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-17-25-puab-notice-of-meeting-cancellation.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:23.074366+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-20-26-puab-notice-of-meeting-cancellation.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/y3qni4bp/4-20-26-puab-notice-of-meeting-cancellation.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-20-26-puab-notice-of-meeting-cancellation.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:23.078610+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-21-25-ifab-agenda.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/2xvpzose/4-21-25-ifab-agenda.pdf
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-21-25-ifab-agenda.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:23.081451+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 4-22-26-cc-agenda-packet.pdf
+
+- **URL**: https://media-002-us.cdn.govstack.com/torcnm-002-us/media/v3tp5o1f/4-22-26-cc-agenda-packet.pdf?t=202604221338310
+- **Status**: error
+- File not found: crawled_files/torcnm.gov/4-22-26-cc-agenda-packet.pdf (crawled 1 day(s) ago at 2026-11-19T20:22:23.163025+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.

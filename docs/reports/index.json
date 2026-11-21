@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-11-21T00:05:57.520603+00:00",
+    "site": "torcnm.gov",
+    "crawl_url": "https://www.torcnm.gov",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/44836403350",
+    "issue_url": "",
+    "archive_file": "2026-11-21_00-05-57-520_torcnm.gov.html",
+    "total": 845,
+    "analysed": 189,
+    "accessible": 5,
+    "analysis_engines": [
+      "bloom",
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
     "date": "2026-11-20T23:22:38.583442+00:00",
     "site": "torcnm.gov",
     "crawl_url": "https://www.torcnm.gov",
